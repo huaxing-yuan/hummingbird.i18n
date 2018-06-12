@@ -1,0 +1,145 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:Hummingbird.TestManager"
+                    xmlns:s="clr-namespace:System;assembly=mscorlib"
+                    >
+    <s:String x:Key="String_ApplicationName">Hummingbird</s:String>
+    
+    <!-- Menu -->
+    <s:String x:Key="String_Menu_Testing">testing</s:String>
+    <s:String x:Key="String_Menu_TestRunner">TEST RUNNER</s:String>
+    <s:String x:Key="String_Menu_ServiceList">SERVICE LIST</s:String>
+    <s:String x:Key="String_Menu_Automation">automation</s:String>
+    <s:String x:Key="String_Menu_TestEditor">TEST EDITOR</s:String>
+    <s:String x:Key="String_Menu_Tools">tools</s:String>
+    <s:String x:Key="String_Menu_Cryptography">CRYPTOGRAPHY</s:String>
+    <s:String x:Key="String_Menu_Regex">REGEX</s:String>
+    <s:String x:Key="String_Menu_Help">help</s:String>
+    <s:String x:Key="String_Menu_SystemLog">SYSTEM LOG</s:String>
+    <s:String x:Key="String_Menu_HelpTopics">HELP TOPICS</s:String>
+    <s:String x:Key="String_Menu_About">ABOUT</s:String>
+    <s:String x:Key="String_Menu_FunctionalTest">FUNCTIONAL TEST</s:String>
+    <s:String x:Key="String_Menu_PerformanceTest">PERFORMANCE TEST</s:String>
+    <s:String x:Key="String_Menu_Overview">OVERVIEW</s:String>
+    <s:String x:Key="String_Menu_ExtensionDesigner">EXTENSION DESIGNER</s:String>
+    <s:String x:Key="String_Menu_XmlTools">XML TOOLS</s:String>
+    <s:String x:Key="String_Menu_XmlCompare">XML COMPARE</s:String>
+    <s:String x:Key="String_Menu_XpathValidator">XPATH VALIDATOR</s:String>
+    <s:String x:Key="String_Menu_DocFormat">DOC FORMAT</s:String>
+    
+
+
+    <!-- BACK STAGE -->
+    <s:String x:Key="String_General">General</s:String>
+    <s:String x:Key="String_TestSettings">Test Settings</s:String>
+    <s:String x:Key="String_Extensions">Extensions</s:String>
+    
+    <!-- GENERAL SETTINGS -->
+    <s:String x:Key="String_SystemBehaviors">System behaviors</s:String>
+    <s:String x:Key="String_LogPath">Log path:</s:String>
+    <s:String x:Key="String_LogLevel">Log level:</s:String>
+    <s:String x:Key="String_Language">Language</s:String>
+    <s:String x:Key="String_SameAsOS">Same as system settings</s:String>
+    <s:String x:Key="String_ThemeColor">Theme color</s:String>
+    <s:String x:Key="String_ChooseThemeColor">Choose a theme color from following schemes</s:String>
+    <s:String x:Key="String_FontSize">Font size</s:String>
+    <s:String x:Key="String_ChooseFontSize">Choose a font size which adapts better your screen</s:String>
+    <s:String x:Key="String_SetFontSizeTo">Set font size to:</s:String>
+    <s:String x:Key="String_Normal">Normal</s:String>
+    <s:String x:Key="String_Large">Large</s:String>
+    <s:String x:Key="String_NameU">NAME</s:String>
+    <s:String x:Key="String_ValueU">VALUE</s:String>
+    <s:String x:Key="String_CopyFrom">Copy from ...</s:String>
+    <s:String x:Key="String_AddVariable">Add variable</s:String>
+    <s:String x:Key="String_DeleteSelection">Delete selection</s:String>
+    <s:String x:Key="String_ClearAll">Clear all</s:String>
+    <s:String x:Key="String_UsernameU">USERNAME</s:String>
+    <s:String x:Key="String_PasswordU">PASSWORD</s:String>
+    <s:String x:Key="String_AddToken">Add token</s:String>
+    <s:String x:Key="String_SelectATestEnv">Select a test environment:</s:String>
+    <s:String x:Key="String_Active">Active</s:String>
+    <s:String x:Key="String_SetActive">Set Active</s:String>
+    <s:String x:Key="String_Add">Add</s:String>
+    <s:String x:Key="String_Remove">Remove</s:String>
+    
+    <!-- TEST SETTINGS -->
+    <s:String x:Key="String_TestFramework">Test Framework</s:String>
+    <s:String x:Key="String_Services">Services</s:String>
+    <s:String x:Key="String_SystemVariables">System Variables</s:String>
+    <s:String x:Key="String_CustomVariables">Custom Variables</s:String>
+    <s:String x:Key="String_SecurityTokens">Security Tokens</s:String>
+    <s:String x:Key="String_MaxRequestPerService">Max saved requests per service:</s:String>
+    <s:String x:Key="String_MaxMessages">Max Messages:</s:String>
+    <s:String x:Key="String_WhenSendingRequest">When sending a request:</s:String>
+    <s:String x:Key="String_WaitAndShowResult">Wait and show result directly</s:String>
+    <s:String x:Key="String_CloseAndShowOnDemande">Close window and show result on-demand</s:String>
+         
+    <!-- TEST MESSAGE STATUS -->
+    <s:String x:Key="String_Status_None">None</s:String>
+    <s:String x:Key="String_Status_Pending">Pending</s:String>
+    <s:String x:Key="String_Status_Sending">Sending</s:String>
+    <s:String x:Key="String_Status_Sent">Sent</s:String>
+    <s:String x:Key="String_Status_Receiving">Receiving</s:String>
+    <s:String x:Key="String_Status_Received">Received</s:String>
+    <s:String x:Key="String_Status_Timeout">Timeout</s:String>
+    <s:String x:Key="String_Status_Failed">Failed</s:String>
+    <s:String x:Key="String_Status_Abandoned">Abandoned</s:String>
+    <s:String x:Key="String_Status_Replied">Replied</s:String>
+    <s:String x:Key="String_Status_FaultReplied">Fault</s:String>
+
+
+    <!-- TEST RUNNER -->
+    <s:String x:Key="String_VirtualServices">Virtual Services</s:String>
+    <s:String x:Key="String_Messages">Messages</s:String>
+    <s:String x:Key="String_SendRequest">Send Request</s:String>
+    <s:String x:Key="String_ServerReplies">Server Replies</s:String>
+    <s:String x:Key="String_AddRemoveServers">Add/Remove Servers</s:String>
+    <s:String x:Key="String_StartServices">Start Services</s:String>
+    <s:String x:Key="String_StopServices">Stop Services</s:String>
+    <s:String x:Key="String_ServiceList">Service List</s:String>
+    <s:String x:Key="String_Date">Date</s:String>
+    <s:String x:Key="String_Status">Status</s:String>
+    <s:String x:Key="String_Start">Start</s:String>
+    <s:String x:Key="String_Stop">Stop</s:String>
+    <s:String x:Key="String_SelectServices">Select services</s:String>
+    <s:String x:Key="String_Options">options</s:String>    
+    <s:String x:Key="String_ClearMessages">Clear Messages</s:String>
+    <s:String x:Key="String_ActivateLoging">activate logging</s:String>
+    <s:String x:Key="String_ClearMessagesU">CLEAR MESSAGES</s:String>
+    <s:String x:Key="String_StatisticU">STATISTICS</s:String>
+    <s:String x:Key="String_SentU">Sent Messages</s:String>
+    <s:String x:Key="String_ReceivedU">Received Messages</s:String>
+    <s:String x:Key="String_NoServerConfigured">No virtual server configured, please add them using the button below.</s:String>
+    <s:String x:Key="String_TooltipDirection">Direction of the request/response.</s:String>
+    <s:String x:Key="String_TooltipSecuredConnection">This transaction is performed with secured connection.</s:String>
+    <s:String x:Key="String_TooltipAuthenticationProcess">This transaction is performed with authentication process.</s:String>
+    <s:String x:Key="String_SearchResult">SEARCH RESULT:</s:String>
+    <s:String x:Key="String_Previous">PREVIOUS</s:String>
+    <s:String x:Key="String_Next">NEXT</s:String>
+    <s:String x:Key="String_XMessages">({0} messages)</s:String>
+    <s:String x:Key="String_RenameMessage">Rename this message</s:String>
+    <s:String x:Key="String_ShowRequestAsObject">Show Request as Object</s:String>
+    <s:String x:Key="String_ShowReponseAsObject">Show Response as Object</s:String>
+    <s:String x:Key="String_DeleteSelectedMessages">Delete Selected Messages</s:String>
+    
+    <!-- SERVICE LIST -->
+    <s:String x:Key="String_ShowListOf">Show list of:</s:String>
+    <s:String x:Key="String_SupportedRequests">Supported Requests</s:String>
+    <s:String x:Key="String_VirtualizedServices">Virtualized services</s:String>
+    <s:String x:Key="String_SupportedRequestsDescription">Requests can be sent with Hummingbird</s:String>
+    <s:String x:Key="String_VirtualizedServicesDescription">Virtual services can be simulated by Hummingbird</s:String>
+    <s:String x:Key="String_System">System</s:String>
+    <s:String x:Key="String_Category">Category</s:String>
+    <s:String x:Key="String_Service">Service</s:String>
+    <s:String x:Key="String_UriTemplate">Uri Template</s:String>
+    
+    
+    <!-- ABOUT -->
+    <s:String x:Key="String_Build">Build:</s:String>
+    <s:String x:Key="String_Copyright">© Copyright 2013-2018 Huaxing YUAN, All rights reserved.</s:String>
+    <s:String x:Key="String_WarningCopyright">WARNING: This computer program is protected by copyright law and international treaties. Unauthorized duplication or distribution of this program, or any portion of it, may result in severe civil or criminal penalties, and will be prosecuted to the maximum extent possible under the law.</s:String>
+    <s:String x:Key="String_LawDisclaimer">The software is provided &quot;as is&quot; and the author disclaims all warranties with regard to this software including all implied warranties of merchantability and fitness. In no event shall the author be liable for any special, direct, indirect, or consequential damages or any damages whatsoever resulting from loss of use, data or profits, whether in an action of contract, negligence or other tortious action, arising out of or in connection with the use or performance of this software.</s:String>
+    <s:String x:Key="String_Components">Components</s:String>
+    <s:String x:Key="String_AddinExtension">Add-in &amp; Extensions</s:String>
+    
+</ResourceDictionary>
