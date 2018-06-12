@@ -1,10 +1,10 @@
 # hummingbird.i18n
 i18n project for Hummingbird, aimed to help users run hummingbird application with their native languages.
 
-#TextResource.xaml
+## TextResource.xaml
 This file is the orginal and by-default language resources used in Hummingbird application.
 
-#TextResource.xx.xaml or TextResource.xx-xx.XAML
+## TextResource.xx.xaml or TextResource.xx-xx.XAML
 These are the localized language resources files which synchronizes with the original resources in English.
 while xx is the ISO 639-1 language code, with two letters in lowercase, for example
 es for Spanish, or ja for Japanese.
