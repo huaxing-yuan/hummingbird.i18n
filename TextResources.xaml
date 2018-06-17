@@ -1,11 +1,11 @@
-﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
-                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-                    xmlns:local="clr-namespace:Hummingbird.TestManager"
-                    xmlns:s="clr-namespace:System;assembly=mscorlib"
-                    >
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:Hummingbird.TestManager" xmlns:s="clr-namespace:System;assembly=mscorlib"                    >
     <s:String x:Key="String_ApplicationName">Hummingbird</s:String>
-    
+    <s:String x:Key="String_ApplicationDescription">AN INTEGRATED TEST SOLUTION</s:String>
     <!-- Menu -->
+    <s:String x:Key="String_Menu_Home">home</s:String>
+    <s:String x:Key="String_Menu_Welcome">WELCOME</s:String>
+    <s:String x:Key="String_Menu_Dashboard">DASHBOARD</s:String>
     <s:String x:Key="String_Menu_Testing">testing</s:String>
     <s:String x:Key="String_Menu_TestRunner">TEST RUNNER</s:String>
     <s:String x:Key="String_Menu_ServiceList">SERVICE LIST</s:String>
@@ -26,14 +26,11 @@
     <s:String x:Key="String_Menu_XmlCompare">XML COMPARE</s:String>
     <s:String x:Key="String_Menu_XpathValidator">XPATH VALIDATOR</s:String>
     <s:String x:Key="String_Menu_DocFormat">DOC FORMAT</s:String>
-    
-
-
+    <s:String x:Key="String_Menu_Base64">BASE64</s:String>
     <!-- BACK STAGE -->
     <s:String x:Key="String_General">General</s:String>
     <s:String x:Key="String_TestSettings">Test Settings</s:String>
     <s:String x:Key="String_Extensions">Extensions</s:String>
-    
     <!-- GENERAL SETTINGS -->
     <s:String x:Key="String_SystemBehaviors">System behaviors</s:String>
     <s:String x:Key="String_LogPath">Log path:</s:String>
@@ -60,8 +57,7 @@
     <s:String x:Key="String_Active">Active</s:String>
     <s:String x:Key="String_SetActive">Set Active</s:String>
     <s:String x:Key="String_Add">Add</s:String>
-    <s:String x:Key="String_Remove">Remove</s:String>
-    
+    <s:String x:Key="String_Remove">Remove</s:String>  
     <!-- TEST SETTINGS -->
     <s:String x:Key="String_TestFramework">Test Framework</s:String>
     <s:String x:Key="String_Services">Services</s:String>
@@ -72,8 +68,7 @@
     <s:String x:Key="String_MaxMessages">Max Messages:</s:String>
     <s:String x:Key="String_WhenSendingRequest">When sending a request:</s:String>
     <s:String x:Key="String_WaitAndShowResult">Wait and show result directly</s:String>
-    <s:String x:Key="String_CloseAndShowOnDemande">Close window and show result on-demand</s:String>
-         
+    <s:String x:Key="String_CloseAndShowOnDemande">Close window and show result on-demand</s:String>       
     <!-- TEST MESSAGE STATUS -->
     <s:String x:Key="String_Status_None">None</s:String>
     <s:String x:Key="String_Status_Pending">Pending</s:String>
@@ -86,8 +81,33 @@
     <s:String x:Key="String_Status_Abandoned">Abandoned</s:String>
     <s:String x:Key="String_Status_Replied">Replied</s:String>
     <s:String x:Key="String_Status_FaultReplied">Fault</s:String>
-
-
+    <!-- HOME -->
+    <s:String x:Key="String_Welcome">Welcome</s:String>
+    <s:String x:Key="String_WatchIntroductionVideo">Watch the introduction video:</s:String>
+    <s:String x:Key="String_ComingNext">What's coming next?</s:String>
+    <s:String x:Key="String_LetsGetStarted">Let's get started</s:String>
+    <s:String x:Key="String_RecentActivities">Recent activities</s:String>
+    <s:String x:Key="String_ManualTesting">Manual Testing</s:String>
+    <s:String x:Key="String_AutomatedTesting">Automated Testing</s:String>
+    <s:String x:Key="String_PerformanceTest">Performance Test</s:String>
+    <s:String x:Key="String_IntegratedTools">Integrated Tools</s:String>
+    <s:String x:Key="String_BuildExtension">Build Extension</s:String>
+    <s:String x:Key="String_ExtensionDevelop">Extension (Developer)</s:String>
+    <s:String x:Key="String_RequestsSent">Requests sent</s:String>
+    <s:String x:Key="String_TotalRequestsSent">Total requests sent as driver</s:String>
+    <s:String x:Key="String_RequestsReceived">Requests received</s:String>
+    <s:String x:Key="String_TotalRequestsReceived">Total requests received as stub</s:String>
+    <s:String x:Key="String_Automation">Automation</s:String>
+    <s:String x:Key="String_AutomatedTestCreated">Automated tests created</s:String>
+    <s:String x:Key="String_AutomatedTestExecuted">Automated tests executed</s:String>
+    <s:String x:Key="String_SeeMoreDetails">See more details...</s:String>
+    <s:String x:Key="String_ResourcesLinks">Resources &amp; Useful links</s:String>
+    <s:String x:Key="String_Documentation">Documentation</s:String>
+    <s:String x:Key="String_HummingbirdProjectHomePage">Hummingbird project home page</s:String>
+    <s:String x:Key="String_ResourcesOnGithub">Resources on GitHub</s:String>
+    <s:String x:Key="String_TestFrameworkDocumentation">Test Framework documentation</s:String>
+    <s:String x:Key="String_ReportBugsSuggestions">Report bugs/suggestions</s:String>
+    
     <!-- TEST RUNNER -->
     <s:String x:Key="String_VirtualServices">Virtual Services</s:String>
     <s:String x:Key="String_Messages">Messages</s:String>
@@ -121,7 +141,6 @@
     <s:String x:Key="String_ShowRequestAsObject">Show Request as Object</s:String>
     <s:String x:Key="String_ShowReponseAsObject">Show Response as Object</s:String>
     <s:String x:Key="String_DeleteSelectedMessages">Delete Selected Messages</s:String>
-    
     <!-- SERVICE LIST -->
     <s:String x:Key="String_ShowListOf">Show list of:</s:String>
     <s:String x:Key="String_SupportedRequests">Supported Requests</s:String>
@@ -132,8 +151,6 @@
     <s:String x:Key="String_Category">Category</s:String>
     <s:String x:Key="String_Service">Service</s:String>
     <s:String x:Key="String_UriTemplate">Uri Template</s:String>
-    
-    
     <!-- ABOUT -->
     <s:String x:Key="String_Build">Build:</s:String>
     <s:String x:Key="String_Copyright">© Copyright 2013-2018 Huaxing YUAN, All rights reserved.</s:String>
@@ -141,5 +158,28 @@
     <s:String x:Key="String_LawDisclaimer">The software is provided &quot;as is&quot; and the author disclaims all warranties with regard to this software including all implied warranties of merchantability and fitness. In no event shall the author be liable for any special, direct, indirect, or consequential damages or any damages whatsoever resulting from loss of use, data or profits, whether in an action of contract, negligence or other tortious action, arising out of or in connection with the use or performance of this software.</s:String>
     <s:String x:Key="String_Components">Components</s:String>
     <s:String x:Key="String_AddinExtension">Add-in &amp; Extensions</s:String>
-    
+    <!-- ViewAutomationRunner -->
+    <s:String x:Key="String_NewProject">New project</s:String>
+    <s:String x:Key="String_OpenProject">Open project</s:String>
+    <s:String x:Key="String_CloseProject">Close project</s:String>
+    <s:String x:Key="String_Save">Save</s:String>
+    <s:String x:Key="String_AutomationProject">Automation Project</s:String>
+    <s:String x:Key="String_FunctionalTestEditorRunner">Functional Test Editor &amp; Runner</s:String>
+    <s:String x:Key="String_CreateNewAutomationProject">Create a new automation project</s:String>
+    <s:String x:Key="String_OpenExistingProject">Open an existing project</s:String>
+    <s:String x:Key="String_LeanMore">Learn more (External site)...</s:String>
+    <s:String x:Key="String_RecentProjects">Recent projects: </s:String>
+    <s:String x:Key="String_NoRecentProjects">There is no recent projects, open or create one.</s:String>
+    <s:String x:Key="String_UsefulLinks">Useful links</s:String>
+    <s:String x:Key="String_TestAutomationWithHummingbird">Test Automation with Hummingbird</s:String>
+    <s:String x:Key="String_DifferentTestSteps">Different kind of test steps</s:String>
+    <s:String x:Key="String_ValidateWithAssertions">Validate the test by Assertions</s:String>
+    <s:String x:Key="String_RunInCI">Run automated test in an Continuous Integration platform</s:String>
+    <!-- ViewExtensionDesigner -->
+    <s:String x:Key="String_SaveAs">Save as</s:String>
+    <s:String x:Key="String_Close">Close</s:String>
+    <s:String x:Key="String_ExtensionDesignerTitle">Extension Designer - Add Web Services definitions to test and to simulate</s:String>
+    <s:String x:Key="String_CreateNewExtensionProject">Create a new service extension project</s:String>
+    <s:String x:Key="String_LearnMoreExtensionDesigner">Learn more about service extension designer</s:String>
+    <s:String x:Key="String_OtherWaysToExtent">Other ways to extent your ability</s:String>
 </ResourceDictionary>
