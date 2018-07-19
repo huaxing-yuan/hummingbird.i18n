@@ -27,6 +27,7 @@
     <s:String x:Key="String_Menu_XpathValidator">XPATH の検証</s:String>
     <s:String x:Key="String_Menu_DocFormat">DOC 形式</s:String>
     <s:String x:Key="String_Menu_Base64">BASE64</s:String>
+    <s:String x:Key="String_StartupInformation">スタートアップ情報</s:String>
     <!-- BACK STAGE -->
     <s:String x:Key="String_General">一般的です</s:String>
     <s:String x:Key="String_TestSettings">テストの設定</s:String>
@@ -36,9 +37,15 @@
     <s:String x:Key="String_SystemBehaviors">システムの動作</s:String>
     <s:String x:Key="String_LogPath">ログのパス:</s:String>
     <s:String x:Key="String_LogLevel">ログ レベル:</s:String>
+    <s:String x:Key="String_LogLevelTooltip">高いレベルの詳細については、コンソールに表示されます。最高レベルは '詳細' です。</s:String>
     <s:String x:Key="String_Language">言語</s:String>
+    <s:String x:Key="String_LanguageTooltip">表示言語を設定します。</s:String>
     <s:String x:Key="String_SameAsOS">システムの設定と同じ</s:String>
+    <s:String x:Key="String_CSVSeparator">CSV の区切り文字</s:String>
+    <s:String x:Key="String_CSVSeparatorTooltip">CSV 形式で使用される区切り記号。</s:String>
     <s:String x:Key="String_ThemeColor">テーマの色</s:String>
+    <s:String x:Key="String_LightThemes">光のテーマ:</s:String>
+    <s:String x:Key="String_DarkThemes">暗いテーマ:</s:String>
     <s:String x:Key="String_ChooseThemeColor">次のスキームからテーマの色を選択します。</s:String>
     <s:String x:Key="String_FontSize">フォント サイズ</s:String>
     <s:String x:Key="String_ChooseFontSize">良いあなたのスクリーンを適応するフォント サイズを選択します。</s:String>
@@ -66,14 +73,63 @@
     <s:String x:Key="String_CustomVariables">カスタム変数</s:String>
     <s:String x:Key="String_SecurityTokens">セキュリティ トークン</s:String>
     <s:String x:Key="String_MaxRequestPerService">Max には、サービスごとの要求が保存されます。</s:String>
+    <s:String x:Key="String_MaxRequestPerServiceTooltip">高速再送サービスごとの要求の最大数を保存できます。既定値は 20 です。</s:String>
     <s:String x:Key="String_MaxMessages">最大メッセージ:</s:String>
+    <s:String x:Key="String_MaxMessagesTooltip">ログおよびテスト ランナーでショーに格納されているメッセージの最大数</s:String>
     <s:String x:Key="String_WhenSendingRequest">要求の送信: 時</s:String>
     <s:String x:Key="String_WaitAndShowResult">待つし、結果を直接表示</s:String>
     <s:String x:Key="String_CloseAndShowOnDemande">ウィンドウを閉じるし、オンデマンドで結果を表示</s:String>
+    <s:String x:Key="String_AuthenticationU">認証</s:String>
+    <s:String x:Key="String_ErrorParsingParameterX">パラメーター '{0}' を解析中にエラー</s:String>
+    <s:String x:Key="String_ErrorParsingParameterDetails">サービス {0}、{1} パラメーター: \nValue '{2}' は、型 '{3}' に対して無効です</s:String>
+    <s:String x:Key="String_ResetToDefaultValue">既定値にリセットします。</s:String>
+    <s:String x:Key="String_BrowseDot">参照.</s:String>
+    <s:String x:Key="String_FindFileForX">{0} のファイルを見つける</s:String>
+    <s:String x:Key="String_AddTestEnvironment">テスト環境を追加します。</s:String>
+    <s:String x:Key="String_AddTestEnvironmentTooltip">新しいテスト環境の名前を入力します。</s:String>
+    <s:String x:Key="String_TestEnvironmentXExists">「そこは既に '{0}' という名前のテスト環境</s:String>
+    <s:String x:Key="String_CannotRemove">削除できません。</s:String>
+    <s:String x:Key="String_CannotRemoveDefaultEnvironment">これは、削除できない既定のテスト環境です。</s:String>
+    <s:String x:Key="String_ConfirmDelete">削除を確認します。</s:String>
+    <s:String x:Key="String_ConformDeleteTestEnvironment">この操作は取り消すことができません、このテスト環境を削除するよろしいですか。</s:String>
+    <s:String x:Key="String_EnterVariableName">変数の名前を入力してください。</s:String>
+    <s:String x:Key="String_EnterVariableNameTooltip">名前が有効な識別子である必要があります、大文字/小文字、数字、およびアンダー スコアの文字が含まれています</s:String>
+    <s:String x:Key="String_EnvironmentVariableExists">同じ名前の環境変数が既に存在します。</s:String>
+    <s:String x:Key="String_SystemVariableExists">既に同じ名前のシステム変数があります。</s:String>
+    <s:String x:Key="String_NotAValidVariableName">入力した名前は有効ではない変数名です。</s:String>
+    <s:String x:Key="String_ClearEnvironmentVariables">明確な環境変数</s:String>
+    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">回復することができない、あなたはすべての環境変数をクリアすることを確認この操作? 要求、応答または自動化スクリプトの中で参照する \nIf エラーが発生します。</s:String>
+    <s:String x:Key="String_DeleteEnvironmentVariables">環境変数を削除します。</s:String>
+    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">この操作は復元できません、選択した環境変数を削除するよろしいですか? 要求、応答または自動化スクリプトの中で参照する \nIf エラーが発生します。</s:String>
+    <s:String x:Key="String_CannotCopyEV">コピーすることができます。</s:String>
+    <s:String x:Key="String_CannotCopyEVTooltip">環境自体の値をコピー、別の環境を選択してくださいに不可能です。</s:String>
+    <s:String x:Key="String_EnterUserName">ユーザー名を入力します。</s:String>
+    <s:String x:Key="String_EnterUserNameTooltip">使用するユーザー名を入力してください。</s:String>
+    <s:String x:Key="String_TokenExists">同じ名前のトークンは既に存在します。</s:String>
+    <s:String x:Key="String_DeleteSecurityTokens">セキュリティ トークンを削除します。</s:String>
+    <s:String x:Key="String_DeleteSecurityTokensQuestion">この操作は回復しないことができます、選択したセキュリティ トークンを削除するよろしいですか。</s:String>
+    <s:String x:Key="String_ClearSecurityTokens">明確なセキュリティ トークン</s:String>
+    <s:String x:Key="String_ClearSecurityTokensQuestion">この操作復元できません、すべてのセキュリティ トークンをクリアするよろしいですか。</s:String>
+    <!-- ViewProfileManagement.xaml -->
+    <s:String x:Key="String_ImportFromDot">インポート.</s:String>
     <!-- PROFILE MANAGEMENT -->
     <s:String x:Key="String_ProfileManagement_Para1">サービスのシミュレーション動作、セキュリティ トークン カスタム変数テスト環境サービス パラメーターを含むテストの設定は、プロファイルに詰め込まれています。</s:String>
     <s:String x:Key="String_ProfileManagement_Para2">プロファイルのインポート、エクスポートまたは他の人に共有することができます。オートメーション プロジェクトのテストの設定を簡素化するために、オートメーション プロジェクトにプロファイルを埋め込むこともできます。次に、アプリケーションで使用することができますすべてのプロファイル。</s:String>
     <s:String x:Key="String_ProfileManagement_Note">注: 既定のプロファイルが手動テストで使用されて、編集またはここで削除できません。既定のプロファイルを変更するのには、テストの設定に移動します。</s:String>
+    <s:String x:Key="String_Actions">アクション</s:String>
+    <s:String x:Key="String_Duplicate">重複</s:String>
+    <s:String x:Key="String_Delete">削除</s:String>
+    <s:String x:Key="String_Edit">編集</s:String>
+    <s:String x:Key="String_SetAsActiveProfile">このプロファイルをアクティブ プロファイルとして設定します。</s:String>
+    <s:String x:Key="String_ProfileName">プロファイル名</s:String>
+    <s:String x:Key="String_LastUpdated">最終更新日</s:String>
+    <s:String x:Key="String_EditProfileX">プロファイルを編集する: {0}</s:String>
+    <s:String x:Key="String_RecoverDeletedProfileX">プロファイル '{0}' が削除されました。何かが間違っている、回復するためのここをクリックします。</s:String>
+    <s:String x:Key="String_EnterProfileName">プロファイル名を入力してください。</s:String>
+    <s:String x:Key="String_EnterProfileNameTooltip">現在のプロファイルの重複するプロファイルの名前を入力します。</s:String>
+    <s:String x:Key="String_ProfileNameCannotBeEmpty">プロファイル名を空にすることはできません。</s:String>
+    <s:String x:Key="String_ProfileXExists">プロファイル '{0}' が既に存在します。</s:String>
+    <s:String x:Key="String_ImportAProfile">プロファイルをインポートします。</s:String>
     <!-- TEST MESSAGE STATUS -->
     <s:String x:Key="String_Status_None">どれも</s:String>
     <s:String x:Key="String_Status_Pending">保留中</s:String>
@@ -112,6 +168,22 @@
     <s:String x:Key="String_ResourcesOnGithub">GitHub 上のリソース</s:String>
     <s:String x:Key="String_TestFrameworkDocumentation">テスト フレームワークのドキュメント</s:String>
     <s:String x:Key="String_ReportBugsSuggestions">レポートのバグ/ご提案</s:String>
+    <s:String x:Key="String_LanguageChanged">言語の変更</s:String>
+    <s:String x:Key="String_LanauageChangedQuestion">ご希望の言語を変更しました。ハチドリを再起動して、変更有効。 \nDo ハチドリを今すぐ再起動するを作る必要があります?</s:String>
+    <!-- ViewExtensions.xaml -->
+    <s:String x:Key="String_Uninstall">アンインストール</s:String>
+    <s:String x:Key="String_InstallAnExtension">拡張機能をインストールします。</s:String>
+    <s:String x:Key="String_InstalledExtensions">インストールされた拡張機能</s:String>
+    <s:String x:Key="String_ExtensionTooltip">その詳細を表示する拡張機能を選択します。有効にする/無効にする拡張機能を考慮してアプリケーションを再起動した後</s:String>
+    <s:String x:Key="String_OperationU">操作</s:String>
+    <s:String x:Key="String_VersionU">バージョン</s:String>
+    <s:String x:Key="String_CompanyU">会社</s:String>
+    <s:String x:Key="String_DescriptionU">説明</s:String>
+    <s:String x:Key="String_Id">ID</s:String>
+    <s:String x:Key="String_ConfirmExtensionUninstall">拡張機能のアンインストールを確認します。</s:String>
+    <s:String x:Key="String_ConfirmExtensionUninstallQuestion">拡張機能 '{0}' をアンインストールしてよろしい</s:String>
+    <s:String x:Key="String_RestartRequired">再起動が必要です。</s:String>
+    <s:String x:Key="String_RestartRequiredExtensionQuestion">ハチドリはハチドリを今再起動する選択した拡張子。 \nDo をアンインストールするを再起動する必要が?</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_VirtualServices">仮想サービス</s:String>
     <s:String x:Key="String_Messages">メッセージ</s:String>
@@ -230,6 +302,18 @@
     <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">オートメーション プロジェクトをロードするときに、エラーが発生しました。</s:String>
     <s:String x:Key="String_SaveCurrentProject">現在のプロジェクトを保存しますか。</s:String>
     <s:String x:Key="String_SaveCurrentProjectMessage">現在の自動化プロジェクトを保存しますか。</s:String>
+    <!-- ViewBase64Tool.xaml -->
+    <s:String x:Key="String_Base64EncodingTitle">Base64 エンコーディング ・ デコーディング</s:String>
+    <s:String x:Key="String_Utf8ToBase64">Utf-8 文字列を Base64 文字列にエンコードします。</s:String>
+    <s:String x:Key="String_Base64ToString">選択されたエンコーディングを使用して文字列として Base64 文字列をデコードします。</s:String>
+    <s:String x:Key="String_BinaryToBase64">ファイルからバイナリ コンテンツを読み取り、Base64 文字列でそのコンテンツをエンコード</s:String>
+    <s:String x:Key="String_Base64ToBinary">下のテキスト ボックスから base64 文字列を読み取り、それをデコードおよびバイナリ ファイルに保存します。</s:String>
+    <s:String x:Key="String_SampleTextBase64">サンプル テキストを Base64 エンコードします。</s:String>
+    <s:String x:Key="String_EncodedBase64">エンコードされた Base64 文字列</s:String>
+    <s:String x:Key="String_DecodedBase64">Base64 のデコードされた文字列</s:String>
+    <s:String x:Key="String_OpenFileToEncode">エンコードするファイルを開く</s:String>
+    <s:String x:Key="String_SaveBinaryAsFile">デコードされた内容をファイルとして保存します。</s:String>
+    <s:String x:Key="String_DecodedAndSaved">内容は解読され、ファイルに保存されます。それを開くにはここをクリック</s:String>
     <!-- ViewToolsOverview.xaml -->
     <s:String x:Key="String_ExtendsThePotetual">可能性を大きく広げます</s:String>
     <s:String x:Key="String_ExtensionDesigner">拡張子デザイナー</s:String>
@@ -243,8 +327,14 @@
     <s:String x:Key="String_Base64EncodingTooltip">Base64 エンコード/デコード テキスト</s:String>
     <s:String x:Key="String_XmlRelated">XML 関連</s:String>
     <s:String x:Key="String_XmlCompare">XML 比較</s:String>
+    <s:String x:Key="String_XPathValidator">XPath の検証</s:String>
     <s:String x:Key=" ">XPath の検証</s:String>
     <!-- ViewExtensionDesigner -->
+    <s:String x:Key="String_DesignerTooltip">ハチドリ テスト フレームワーク、サービスは 3 つのレベルで編成されています。組織内でできるだけ自然のサービスを整理してください。</s:String>
+    <s:String x:Key="String_DesignerApplicationTooltip">あなたがドライバー、システムの名前として使用する場合をテストします。としてスタブ、ハチドリをシミュレートするアプリケーションの名前。</s:String>
+    <s:String x:Key="String_DesignerCategoryTooltip">サービスの機能的なカテゴリです。
+ 例えば: すべてのサービスの顧客の追加、変更、削除整理できます [顧客管理] カテゴリの。</s:String>
+    <s:String x:Key="String_DesignerServiceTooltip">サービスの名前。SOAP サービスに対してバインド オブジェクトを表す、エンドポイントがあり、1 つまたは複数の操作が含まれている可能性があります。</s:String>
     <s:String x:Key="String_SaveAs">付けて保存</s:String>
     <s:String x:Key="String_Close">閉じる</s:String>
     <s:String x:Key="String_ExtensionDesignerTitle">デザイナー拡張機能 - Web サービスに追加定義をテストし、シミュレートして</s:String>

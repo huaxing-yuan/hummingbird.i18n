@@ -27,6 +27,10 @@
     <s:String x:Key="String_Menu_XpathValidator">XPATH VALIDATOR</s:String>
     <s:String x:Key="String_Menu_DocFormat">DOC FORMAT</s:String>
     <s:String x:Key="String_Menu_Base64">BASE64</s:String>
+
+    <s:String x:Key="String_StartupInformation">Startup information</s:String>
+    
+    
     <!-- BACK STAGE -->
     <s:String x:Key="String_General">General</s:String>
     <s:String x:Key="String_TestSettings">Test Settings</s:String>
@@ -36,9 +40,15 @@
     <s:String x:Key="String_SystemBehaviors">System behaviors</s:String>
     <s:String x:Key="String_LogPath">Log path:</s:String>
     <s:String x:Key="String_LogLevel">Log level:</s:String>
+    <s:String x:Key="String_LogLevelTooltip">Higher the level, more information will be shown in console. The highest level is 'Verbose'.</s:String>
     <s:String x:Key="String_Language">Language</s:String>
+    <s:String x:Key="String_LanguageTooltip">Set the Display language.</s:String>
     <s:String x:Key="String_SameAsOS">Same as system settings</s:String>
+    <s:String x:Key="String_CSVSeparator">CSV Separator</s:String>
+    <s:String x:Key="String_CSVSeparatorTooltip">Separator used in CSV format.</s:String>
     <s:String x:Key="String_ThemeColor">Theme color</s:String>
+    <s:String x:Key="String_LightThemes">Light themes:</s:String>
+    <s:String x:Key="String_DarkThemes">Dark themes:</s:String>
     <s:String x:Key="String_ChooseThemeColor">Choose a theme color from following schemes</s:String>
     <s:String x:Key="String_FontSize">Font size</s:String>
     <s:String x:Key="String_ChooseFontSize">Choose a font size which adapts better your screen</s:String>
@@ -66,19 +76,68 @@
     <s:String x:Key="String_CustomVariables">Custom Variables</s:String>
     <s:String x:Key="String_SecurityTokens">Security Tokens</s:String>
     <s:String x:Key="String_MaxRequestPerService">Max saved requests per service:</s:String>
+    <s:String x:Key="String_MaxRequestPerServiceTooltip">Maximum number of requests per service can be saved for fast resend. the default value is 20.</s:String>
     <s:String x:Key="String_MaxMessages">Max Messages:</s:String>
+    <s:String x:Key="String_MaxMessagesTooltip">Maximum number of messages stored in log and show in Test Runner</s:String>
     <s:String x:Key="String_WhenSendingRequest">When sending a request:</s:String>
     <s:String x:Key="String_WaitAndShowResult">Wait and show result directly</s:String>
-    <s:String x:Key="String_CloseAndShowOnDemande">Close window and show result on-demand</s:String>     
-    
-    <!-- PROFILE MANAGEMENT -->
+    <s:String x:Key="String_CloseAndShowOnDemande">Close window and show result on-demand</s:String>
+    <s:String x:Key="String_AuthenticationU">AUTHENTICATION</s:String>
+    <s:String x:Key="String_ErrorParsingParameterX">Error when parsing parameter '{0}'</s:String>
+    <s:String x:Key="String_ErrorParsingParameterDetails">Service {0}, Parameter {1}:\nValue '{2}' is not valid for its type '{3}'</s:String>
+    <s:String x:Key="String_ResetToDefaultValue">Reset to its default value</s:String>
+    <s:String x:Key="String_BrowseDot">Browse ...</s:String>
+    <s:String x:Key="String_FindFileForX">Find a file for {0}</s:String>
+    <s:String x:Key="String_AddTestEnvironment">Add an Test Environment</s:String>
+    <s:String x:Key="String_AddTestEnvironmentTooltip">Enter the name of the new Test Environment</s:String>
+    <s:String x:Key="String_TestEnvironmentXExists">"There is already a test environment named '{0}'</s:String>
+    <s:String x:Key="String_CannotRemove">Cannot remove</s:String>
+    <s:String x:Key="String_CannotRemoveDefaultEnvironment">This is a default test environment which cannot be removed.</s:String>
+    <s:String x:Key="String_ConfirmDelete">Confirm delete</s:String>
+    <s:String x:Key="String_ConformDeleteTestEnvironment">This operation cannot be reversed, Are you sure to delete this test environment ?</s:String>
+    <s:String x:Key="String_EnterVariableName">Enter the name of variable</s:String>
+    <s:String x:Key="String_EnterVariableNameTooltip">The name must be valid identifier, contains letters in upper/lower case, numbers and underscore</s:String>
+    <s:String x:Key="String_EnvironmentVariableExists">The Environment Variable of same name has already exists.</s:String>
+    <s:String x:Key="String_SystemVariableExists">You have already a system variable of the same name.</s:String>
+    <s:String x:Key="String_NotAValidVariableName">The input name is an not valid variable name.</s:String>
+    <s:String x:Key="String_ClearEnvironmentVariables">Clear environment variables</s:String>
+    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">This operation can not be recovered, Are you sure to clear all environment variables?\nIf they are referenced in requests, responses or automation scripts, they will encounter errors.</s:String>
+    <s:String x:Key="String_DeleteEnvironmentVariables">Delete environment variables</s:String>
+    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">This operation can not be recovered, Are you sure to delete selected environment variables?\nIf they are referenced in requests, responses or automation scripts, they will encounter errors.</s:String>
+    <s:String x:Key="String_CannotCopyEV">Can not copy</s:String>
+    <s:String x:Key="String_CannotCopyEVTooltip">It is not possible to copy the values from the environment itself, please select another environment.</s:String>
+    <s:String x:Key="String_EnterUserName">Enter the user name</s:String>
+    <s:String x:Key="String_EnterUserNameTooltip">Please enter a user name to use.</s:String>
+    <s:String x:Key="String_TokenExists">The token of same name has already exists.</s:String>
+    <s:String x:Key="String_DeleteSecurityTokens">Delete security tokens</s:String>
+    <s:String x:Key="String_DeleteSecurityTokensQuestion">This operation can not be recovered, Are you sure to delete selected security tokens?</s:String>
+    <s:String x:Key="String_ClearSecurityTokens">Clear security tokens</s:String>
+    <s:String x:Key="String_ClearSecurityTokensQuestion">This operation can not be recovered, Are you sure to clear all security tokens?</s:String>
+
+
+    <!-- ViewProfileManagement.xaml -->
+    <s:String x:Key="String_ImportFromDot">Import From ...</s:String>
     <s:String x:Key="String_ProfileManagement_Para1">Test Settings, including Services Parameters, Test Environments, Custom Variables, Security Tokens, Service simulation behaviors, are packed into Profiles.</s:String>
     <s:String x:Key="String_ProfileManagement_Para2">Profiles can be imported, exported or shared to other people. Profiles can also be embedded into an automation project in order to simplify test settings of the automation project. Following are all the profiles that can be used in the application: </s:String>
     <s:String x:Key="String_ProfileManagement_Note">Note: Default profile is used by manual testing, it cannot be edited or removed here. To modify the default profile, go to Test Settings.</s:String>
+    <s:String x:Key="String_Actions">ACTIONS</s:String>
+    <s:String x:Key="String_Duplicate">Duplicate</s:String>
+    <s:String x:Key="String_Delete">Delete</s:String>
+    <s:String x:Key="String_Edit">Edit</s:String>
+    <s:String x:Key="String_SetAsActiveProfile">Set this profile as Active profile</s:String>
+    <s:String x:Key="String_ProfileName">PROFILE NAME</s:String>
+    <s:String x:Key="String_LastUpdated">LAST UPDATED</s:String>
+    <s:String x:Key="String_EditProfileX">Edit Profile : {0}</s:String>
+    <s:String x:Key="String_RecoverDeletedProfileX">The profile '{0}' has been deleted. If you are doing something wrong, click here to recover</s:String>
+    <s:String x:Key="String_EnterProfileName">Enter the profile name</s:String>
+    <s:String x:Key="String_EnterProfileNameTooltip">Enter the name of the profile of which the current profile will be duplicated.</s:String>
+    <s:String x:Key="String_ProfileNameCannotBeEmpty">The profile name can not be empty.</s:String>
+    <s:String x:Key="String_ProfileXExists">The profile '{0}' has already exists.</s:String>
+    <s:String x:Key="String_ImportAProfile">Import a profile</s:String>
     
     <!-- TEST MESSAGE STATUS -->
     <s:String x:Key="String_Status_None">None</s:String>
-    <s:String x:Key="String_Status_Pending">Pending</s:String>
+    <s:String x:Key="String_Status_Pending">Pending</s:String> 
     <s:String x:Key="String_Status_Sending">Sending</s:String>
     <s:String x:Key="String_Status_Sent">Sent</s:String>
     <s:String x:Key="String_Status_Receiving">Receiving</s:String>
@@ -114,8 +173,27 @@
     <s:String x:Key="String_ResourcesOnGithub">Resources on GitHub</s:String>
     <s:String x:Key="String_TestFrameworkDocumentation">Test Framework documentation</s:String>
     <s:String x:Key="String_ReportBugsSuggestions">Report bugs/suggestions</s:String>
+    <s:String x:Key="String_LanguageChanged">Language Changed</s:String>
+    <s:String x:Key="String_LanauageChangedQuestion">You have changed your preferred language. Hummingbird must be restarted to make changes effective.\nDo you want to restart Hummingbird now?</s:String>
+     
+    <!-- ViewExtensions.xaml -->
+    <s:String x:Key="String_Uninstall">Uninstall</s:String>
+    <s:String x:Key="String_InstallAnExtension">Install an Extension</s:String>
+    <s:String x:Key="String_InstalledExtensions">Installed Extensions</s:String>
+    <s:String x:Key="String_ExtensionTooltip">Select an extension to show its details. Enable/Disable extension will take account after application restarts</s:String>
+    <s:String x:Key="String_OperationU">OPERATION</s:String>
+    <s:String x:Key="String_VersionU">VERSION</s:String>
+    <s:String x:Key="String_CompanyU">COMPANY</s:String>
+    <s:String x:Key="String_DescriptionU">DESCRIPTION</s:String>
+    <s:String x:Key="String_Id">ID</s:String>
+    <s:String x:Key="String_ConfirmExtensionUninstall">Confirm extension uninstall</s:String>
+    <s:String x:Key="String_ConfirmExtensionUninstallQuestion">Are you sure to uninstall the extension '{0}'</s:String>
+    <s:String x:Key="String_RestartRequired">Restart Required</s:String>
+    <s:String x:Key="String_RestartRequiredExtensionQuestion">You need to restart Hummingbird to uninstall the selected extension.\nDo you want to restart Hummingbird now?</s:String>
     
+
     <!-- TEST RUNNER -->
+    <s:String x:Key="String_ManualTestRunner">Manual test runner</s:String>
     <s:String x:Key="String_VirtualServices">Virtual Services</s:String>
     <s:String x:Key="String_Messages">Messages</s:String>
     <s:String x:Key="String_SendRequest">Send Request</s:String>
@@ -236,6 +314,19 @@
     <s:String x:Key="String_SaveCurrentProject">Save current project?</s:String>
     <s:String x:Key="String_SaveCurrentProjectMessage">Do you want to save the current automation project?</s:String>
     
+    <!-- ViewBase64Tool.xaml -->
+    <s:String x:Key="String_Base64EncodingTitle">Base64 Encoding &amp; Decoding</s:String>
+    <s:String x:Key="String_Utf8ToBase64">Encodes the UTF-8 string into a Base64 string</s:String>
+    <s:String x:Key="String_Base64ToString">Decodes a Base64 String as a string, using selected encoding.</s:String>
+    <s:String x:Key="String_BinaryToBase64">Read the binary content from the file and encode its content in Base64 string</s:String>
+    <s:String x:Key="String_Base64ToBinary">Read the base64 string from the TextBox below, decode it and save it to an binary file.</s:String>
+    <s:String x:Key="String_SampleTextBase64">Sample text to be encoded to Base64</s:String>
+    <s:String x:Key="String_EncodedBase64">Encoded Base64 String</s:String>
+    <s:String x:Key="String_DecodedBase64">Decoded Base64 String</s:String>
+    <s:String x:Key="String_OpenFileToEncode">Open a file to encode</s:String>
+    <s:String x:Key="String_SaveBinaryAsFile">Saves the decoded content as file</s:String>
+    <s:String x:Key="String_DecodedAndSaved">Content decoded and saved to the file. Click here to open it</s:String>
+    
     <!-- ViewToolsOverview.xaml -->
     <s:String x:Key="String_ExtendsThePotetual">Extends the potential</s:String>
     <s:String x:Key="String_ExtensionDesigner">Extension Designer</s:String>
@@ -249,10 +340,14 @@
     <s:String x:Key="String_Base64EncodingTooltip">Encoding/Decoding text from Base64</s:String>
     <s:String x:Key="String_XmlRelated">XML Related</s:String>
     <s:String x:Key="String_XmlCompare">XML Compare</s:String>
-    <s:String x:Key=" ">XPath Validator</s:String>
+    <s:String x:Key="String_XPathValidator">XPath Validator</s:String>
     
 
     <!-- ViewExtensionDesigner -->
+    <s:String x:Key="String_DesignerTooltip">In Hummingbird Test Framework, Services are organized in 3 levels. Please organize the services as natural as possible within your organization.</s:String>
+    <s:String x:Key="String_DesignerApplicationTooltip">When used as Driver, Name of the system your are testing. As Stub, name of the application which Hummingbird simulates.</s:String>
+    <s:String x:Key="String_DesignerCategoryTooltip">Functional category of services. &#13; For example: All services of customer adding, modifying, removing can be organized in [Customer Management] category.</s:String>
+    <s:String x:Key="String_DesignerServiceTooltip">The name of the service. For SOAP services, it represents a binding object, it has an Endpoint and may contains one or more operations</s:String>
     <s:String x:Key="String_SaveAs">Save as</s:String>
     <s:String x:Key="String_Close">Close</s:String>
     <s:String x:Key="String_ExtensionDesignerTitle">Extension Designer - Add Web Services definitions to test and to simulate</s:String>

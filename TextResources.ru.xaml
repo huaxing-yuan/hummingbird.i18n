@@ -27,6 +27,7 @@
     <s:String x:Key="String_Menu_XpathValidator">ВАЛИДАТОР XPATH</s:String>
     <s:String x:Key="String_Menu_DocFormat">ФОРМАТ DOC</s:String>
     <s:String x:Key="String_Menu_Base64">BASE64</s:String>
+    <s:String x:Key="String_StartupInformation">Данные о запуске</s:String>
     <!-- BACK STAGE -->
     <s:String x:Key="String_General">Общие</s:String>
     <s:String x:Key="String_TestSettings">Параметры тестирования</s:String>
@@ -36,9 +37,15 @@
     <s:String x:Key="String_SystemBehaviors">Поведения системы</s:String>
     <s:String x:Key="String_LogPath">Путь к журналу:</s:String>
     <s:String x:Key="String_LogLevel">Уровень журнала:</s:String>
+    <s:String x:Key="String_LogLevelTooltip">Выше уровня, дополнительная информация будет показан в консоли. Самый высокий уровень — «Verbose».</s:String>
     <s:String x:Key="String_Language">Язык</s:String>
+    <s:String x:Key="String_LanguageTooltip">Задайте язык отображения.</s:String>
     <s:String x:Key="String_SameAsOS">Так же, как параметры системы</s:String>
+    <s:String x:Key="String_CSVSeparator">Разделитель CSV</s:String>
+    <s:String x:Key="String_CSVSeparatorTooltip">Разделитель, используемый в формате CSV.</s:String>
     <s:String x:Key="String_ThemeColor">Цвет темы</s:String>
+    <s:String x:Key="String_LightThemes">Легкие темы:</s:String>
+    <s:String x:Key="String_DarkThemes">Темные темы:</s:String>
     <s:String x:Key="String_ChooseThemeColor">Выбрать цвет темы из следующих схем</s:String>
     <s:String x:Key="String_FontSize">Размер шрифта</s:String>
     <s:String x:Key="String_ChooseFontSize">Выберите размер шрифта, который адаптируется лучше ваш экран</s:String>
@@ -66,14 +73,63 @@
     <s:String x:Key="String_CustomVariables">Пользовательские переменные</s:String>
     <s:String x:Key="String_SecurityTokens">Маркеры безопасности</s:String>
     <s:String x:Key="String_MaxRequestPerService">Макс сохраненные запросы на обслуживание:</s:String>
+    <s:String x:Key="String_MaxRequestPerServiceTooltip">Максимальное количество запросов на обслуживание могут быть сохранены для быстрой отправки. значение по умолчанию — 20.</s:String>
     <s:String x:Key="String_MaxMessages">Макс сообщения:</s:String>
+    <s:String x:Key="String_MaxMessagesTooltip">Максимальное количество сообщений, хранящихся в журнале и шоу в Test Runner</s:String>
     <s:String x:Key="String_WhenSendingRequest">При отправке запроса:</s:String>
     <s:String x:Key="String_WaitAndShowResult">Подождите и показать результат напрямую</s:String>
     <s:String x:Key="String_CloseAndShowOnDemande">Закройте окно и показать результат по требованию</s:String>
+    <s:String x:Key="String_AuthenticationU">ПРОВЕРКА ПОДЛИННОСТИ</s:String>
+    <s:String x:Key="String_ErrorParsingParameterX">Ошибка при анализе параметра «{0}»</s:String>
+    <s:String x:Key="String_ErrorParsingParameterDetails">Службы {0}, параметр {1}: \nValue «{2}» не является допустимым для его типа «{3}»</s:String>
+    <s:String x:Key="String_ResetToDefaultValue">Сбросить в значение по умолчанию</s:String>
+    <s:String x:Key="String_BrowseDot">Просмотр...</s:String>
+    <s:String x:Key="String_FindFileForX">Найдите файл для {0}</s:String>
+    <s:String x:Key="String_AddTestEnvironment">Добавление условий теста</s:String>
+    <s:String x:Key="String_AddTestEnvironmentTooltip">Введите имя новой тестовой среды</s:String>
+    <s:String x:Key="String_TestEnvironmentXExists">«Уже есть тестовой среды с именем «{0}»</s:String>
+    <s:String x:Key="String_CannotRemove">Не удается удалить</s:String>
+    <s:String x:Key="String_CannotRemoveDefaultEnvironment">Это в тестовой среде по умолчанию, которые не могут быть удалены.</s:String>
+    <s:String x:Key="String_ConfirmDelete">Подтверждение удаления</s:String>
+    <s:String x:Key="String_ConformDeleteTestEnvironment">Эта операция не может быть реверсирован, вы уверены удалить этот тестовой среде?</s:String>
+    <s:String x:Key="String_EnterVariableName">Введите имя переменной</s:String>
+    <s:String x:Key="String_EnterVariableNameTooltip">Имя должно быть допустимым идентификатором, содержит буквы в верхнем/нижнем регистре, цифры и подчеркивания</s:String>
+    <s:String x:Key="String_EnvironmentVariableExists">Переменная среды таким же именем уже существует.</s:String>
+    <s:String x:Key="String_SystemVariableExists">У вас уже системную переменную с тем же именем.</s:String>
+    <s:String x:Key="String_NotAValidVariableName">Имя входа является не допустимым именем переменной.</s:String>
+    <s:String x:Key="String_ClearEnvironmentVariables">Переменные среды ясно</s:String>
+    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">Эта операция не может быть восстановлена, вы уверены очистить все переменные среды? \nIf они упоминаются в запросы, ответы или сценариев автоматизации, они будут возникать ошибки.</s:String>
+    <s:String x:Key="String_DeleteEnvironmentVariables">Удаление переменных среды</s:String>
+    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">Эта операция не может быть восстановлена, вы уверены удалить выбранные переменные? \nIf они упоминаются в запросы, ответы или сценариев автоматизации, они будут возникать ошибки.</s:String>
+    <s:String x:Key="String_CannotCopyEV">Не может копировать</s:String>
+    <s:String x:Key="String_CannotCopyEVTooltip">Это не позволяет скопировать значения из самой среде, пожалуйста, выберите другую среду.</s:String>
+    <s:String x:Key="String_EnterUserName">Введите имя пользователя</s:String>
+    <s:String x:Key="String_EnterUserNameTooltip">Пожалуйста, введите имя пользователя для использования.</s:String>
+    <s:String x:Key="String_TokenExists">Токен таким же именем уже существует.</s:String>
+    <s:String x:Key="String_DeleteSecurityTokens">Удаление маркеров безопасности</s:String>
+    <s:String x:Key="String_DeleteSecurityTokensQuestion">Эта операция не может быть восстановлена, вы уверены, чтобы удалить выбранный маркеры?</s:String>
+    <s:String x:Key="String_ClearSecurityTokens">Четкие маркеры</s:String>
+    <s:String x:Key="String_ClearSecurityTokensQuestion">Эта операция не может быть восстановлена, вы уверены очистить все маркеры безопасности?</s:String>
+    <!-- ViewProfileManagement.xaml -->
+    <s:String x:Key="String_ImportFromDot">Импорт из...</s:String>
     <!-- PROFILE MANAGEMENT -->
     <s:String x:Key="String_ProfileManagement_Para1">Параметры тестирования, включая параметры услуг, тестовых сред, пользовательские переменные, маркеры безопасности, моделирование поведения службы, упакованы в профили.</s:String>
     <s:String x:Key="String_ProfileManagement_Para2">Профили можно импортировать, экспортировать или совместно с другими людьми. Профили также может быть встроен в проект автоматизации для того, чтобы упростить параметры тестирования проекта автоматизации. Ниже перечислены все профили, которые могут использоваться в приложении: </s:String>
     <s:String x:Key="String_ProfileManagement_Note">Примечание: По умолчанию профиль используется ручное тестирование, его нельзя редактировать или удалить здесь. Чтобы изменить профиль по умолчанию, перейдите к параметры тестирования.</s:String>
+    <s:String x:Key="String_Actions">ДЕЙСТВИЯ</s:String>
+    <s:String x:Key="String_Duplicate">Дублировать</s:String>
+    <s:String x:Key="String_Delete">Удалить</s:String>
+    <s:String x:Key="String_Edit">Редактировать</s:String>
+    <s:String x:Key="String_SetAsActiveProfile">Установить этот профиль в качестве активного профиля</s:String>
+    <s:String x:Key="String_ProfileName">ИМЯ ПРОФИЛЯ</s:String>
+    <s:String x:Key="String_LastUpdated">ПОСЛЕДНЕЕ ОБНОВЛЕНИЕ</s:String>
+    <s:String x:Key="String_EditProfileX">Изменить профиль: {0}</s:String>
+    <s:String x:Key="String_RecoverDeletedProfileX">Профиль «{0}» был удален. Если вы делаете что-то неправильно, щелкните здесь чтобы восстановить</s:String>
+    <s:String x:Key="String_EnterProfileName">Введите имя профиля</s:String>
+    <s:String x:Key="String_EnterProfileNameTooltip">Введите имя профиля, из которых будет дублироваться текущий профиль.</s:String>
+    <s:String x:Key="String_ProfileNameCannotBeEmpty">Имя профиля не может быть пустым.</s:String>
+    <s:String x:Key="String_ProfileXExists">Профиль «{0}» уже существует.</s:String>
+    <s:String x:Key="String_ImportAProfile">Импорт профиля</s:String>
     <!-- TEST MESSAGE STATUS -->
     <s:String x:Key="String_Status_None">Нет</s:String>
     <s:String x:Key="String_Status_Pending">Ожидание</s:String>
@@ -112,6 +168,22 @@
     <s:String x:Key="String_ResourcesOnGithub">Ресурсы на GitHub</s:String>
     <s:String x:Key="String_TestFrameworkDocumentation">Тест структуры документации</s:String>
     <s:String x:Key="String_ReportBugsSuggestions">Доклад ошибок/предложения</s:String>
+    <s:String x:Key="String_LanguageChanged">Изменить язык</s:String>
+    <s:String x:Key="String_LanauageChangedQuestion">Вы изменили ваш предпочитаемый язык. Чтобы сделать изменения эффективным. \nDo вы перезагрузить колибри сейчас необходимо перезапустить колибри?</s:String>
+    <!-- ViewExtensions.xaml -->
+    <s:String x:Key="String_Uninstall">Удалить</s:String>
+    <s:String x:Key="String_InstallAnExtension">Установить расширение</s:String>
+    <s:String x:Key="String_InstalledExtensions">Установленные расширения</s:String>
+    <s:String x:Key="String_ExtensionTooltip">Выберите расширение, чтобы показать его детали. Включить/отключить расширение будет принимать во внимание после перезапуска приложения</s:String>
+    <s:String x:Key="String_OperationU">ОПЕРАЦИЯ</s:String>
+    <s:String x:Key="String_VersionU">Версия</s:String>
+    <s:String x:Key="String_CompanyU">КОМПАНИЯ</s:String>
+    <s:String x:Key="String_DescriptionU">ОПИСАНИЕ</s:String>
+    <s:String x:Key="String_Id">ID</s:String>
+    <s:String x:Key="String_ConfirmExtensionUninstall">Подтвердите удаление расширения</s:String>
+    <s:String x:Key="String_ConfirmExtensionUninstallQuestion">Вы уверены, что удаление расширения «{0}»</s:String>
+    <s:String x:Key="String_RestartRequired">Требуется перезагрузка</s:String>
+    <s:String x:Key="String_RestartRequiredExtensionQuestion">Вам нужно перезапустить колибри для удаления выбранного расширение. \nDo вы перезагрузить колибри сейчас?</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_VirtualServices">Виртуальные услуги</s:String>
     <s:String x:Key="String_Messages">Сообщения</s:String>
@@ -230,6 +302,18 @@
     <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">Произошла ошибка при загрузке проекта автоматизации.</s:String>
     <s:String x:Key="String_SaveCurrentProject">Сохранить текущий проект?</s:String>
     <s:String x:Key="String_SaveCurrentProjectMessage">Вы хотите сохранить текущий проект автоматизации?</s:String>
+    <!-- ViewBase64Tool.xaml -->
+    <s:String x:Key="String_Base64EncodingTitle">Base64 кодирование &amp; декодирование</s:String>
+    <s:String x:Key="String_Utf8ToBase64">Кодирует строку UTF-8 в строку Base64</s:String>
+    <s:String x:Key="String_Base64ToString">Декодирует Base64 строку как строку, с использованием выбранной кодировки.</s:String>
+    <s:String x:Key="String_BinaryToBase64">Чтения двоичного содержимого из файла и его содержимое в строку Base64 кодирования</s:String>
+    <s:String x:Key="String_Base64ToBinary">Чтение строки base64 из TextBox ниже, расшифровать его и сохранить его в двоичном файле.</s:String>
+    <s:String x:Key="String_SampleTextBase64">Образец текста для закодированные в Base64</s:String>
+    <s:String x:Key="String_EncodedBase64">Строка в кодировке Base64</s:String>
+    <s:String x:Key="String_DecodedBase64">Строка декодированного Base64</s:String>
+    <s:String x:Key="String_OpenFileToEncode">Открыть файл для кодирования</s:String>
+    <s:String x:Key="String_SaveBinaryAsFile">Сохраняет содержимое декодированного файла</s:String>
+    <s:String x:Key="String_DecodedAndSaved">Содержимое расшифровано и сохраняется в файле. Нажмите здесь, чтобы открыть его</s:String>
     <!-- ViewToolsOverview.xaml -->
     <s:String x:Key="String_ExtendsThePotetual">Расширяет потенциал</s:String>
     <s:String x:Key="String_ExtensionDesigner">Расширение конструктора</s:String>
@@ -243,8 +327,14 @@
     <s:String x:Key="String_Base64EncodingTooltip">Текст из Base64-кодирование/декодирование</s:String>
     <s:String x:Key="String_XmlRelated">Связанных с XML</s:String>
     <s:String x:Key="String_XmlCompare">Сравнение XML</s:String>
+    <s:String x:Key="String_XPathValidator">Валидатор XPath</s:String>
     <s:String x:Key=" ">Валидатор XPath</s:String>
     <!-- ViewExtensionDesigner -->
+    <s:String x:Key="String_DesignerTooltip">В рамках теста колибри услуги организованы в 3 уровня. Просьба организовать услуги так же естественно, как возможно в пределах вашей организации.</s:String>
+    <s:String x:Key="String_DesignerApplicationTooltip">При использовании в качестве водителя, имя системы вы тестирование. Как заглушка, имя приложения, которое имитирует колибри.</s:String>
+    <s:String x:Key="String_DesignerCategoryTooltip">Функциональные категории услуг. 
+ Например: все услуги клиента Добавление, изменение, удаление могут быть организованы в категории [клиента управления].</s:String>
+    <s:String x:Key="String_DesignerServiceTooltip">Имя службы. Для служб SOAP он представляет объект binding, конечной точки и может содержит одну или несколько операций</s:String>
     <s:String x:Key="String_SaveAs">Сохранить как</s:String>
     <s:String x:Key="String_Close">Закрыть</s:String>
     <s:String x:Key="String_ExtensionDesignerTitle">Расширение конструктора - добавить веб-службы определения для тестирования и имитации</s:String>

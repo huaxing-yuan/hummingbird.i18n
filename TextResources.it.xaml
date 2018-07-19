@@ -27,6 +27,7 @@
     <s:String x:Key="String_Menu_XpathValidator">VALIDATORE DI XPATH</s:String>
     <s:String x:Key="String_Menu_DocFormat">FORMATO DOC</s:String>
     <s:String x:Key="String_Menu_Base64">BASE64</s:String>
+    <s:String x:Key="String_StartupInformation">Informazioni di avvio</s:String>
     <!-- BACK STAGE -->
     <s:String x:Key="String_General">Generale</s:String>
     <s:String x:Key="String_TestSettings">Impostazioni di test</s:String>
@@ -36,9 +37,15 @@
     <s:String x:Key="String_SystemBehaviors">Comportamenti del sistema</s:String>
     <s:String x:Key="String_LogPath">Percorso del registro:</s:String>
     <s:String x:Key="String_LogLevel">Livello di log:</s:String>
+    <s:String x:Key="String_LogLevelTooltip">Più in alto il livello, maggiori informazioni verranno mostrati nella console. Il livello più alto è 'Dettagliato'.</s:String>
     <s:String x:Key="String_Language">Lingua</s:String>
+    <s:String x:Key="String_LanguageTooltip">Impostare la lingua di visualizzazione.</s:String>
     <s:String x:Key="String_SameAsOS">Stesse impostazioni di sistema</s:String>
+    <s:String x:Key="String_CSVSeparator">Separatore di CSV</s:String>
+    <s:String x:Key="String_CSVSeparatorTooltip">Separatore utilizzato in formato CSV.</s:String>
     <s:String x:Key="String_ThemeColor">Colore del tema</s:String>
+    <s:String x:Key="String_LightThemes">Temi della luce:</s:String>
+    <s:String x:Key="String_DarkThemes">Temi Dark:</s:String>
     <s:String x:Key="String_ChooseThemeColor">Scegliere un colore tema da seguenti schemi</s:String>
     <s:String x:Key="String_FontSize">Dimensione del carattere</s:String>
     <s:String x:Key="String_ChooseFontSize">Scegliere una dimensione che si adatta meglio sullo schermo</s:String>
@@ -66,14 +73,63 @@
     <s:String x:Key="String_CustomVariables">Variabili personalizzate</s:String>
     <s:String x:Key="String_SecurityTokens">Token di sicurezza</s:String>
     <s:String x:Key="String_MaxRequestPerService">Max salvato richieste al servizio:</s:String>
+    <s:String x:Key="String_MaxRequestPerServiceTooltip">Numero massimo di richieste al servizio possa essere salvato per inviare di nuovo veloce. il valore predefinito è 20.</s:String>
     <s:String x:Key="String_MaxMessages">Messaggi di max:</s:String>
+    <s:String x:Key="String_MaxMessagesTooltip">Numero massimo di messaggi memorizzati nel registro e visualizza in Test Runner</s:String>
     <s:String x:Key="String_WhenSendingRequest">Quando si invia una richiesta:</s:String>
     <s:String x:Key="String_WaitAndShowResult">Aspettare e mostrare il risultato direttamente</s:String>
     <s:String x:Key="String_CloseAndShowOnDemande">Chiudere la finestra e visualizza il risultato su richiesta</s:String>
+    <s:String x:Key="String_AuthenticationU">AUTENTICAZIONE</s:String>
+    <s:String x:Key="String_ErrorParsingParameterX">Errore durante l'analisi di parametro '{0}'</s:String>
+    <s:String x:Key="String_ErrorParsingParameterDetails">Servizio {0}, parametro {1}: \nValue '{2}' non è valido per il tipo '{3}'</s:String>
+    <s:String x:Key="String_ResetToDefaultValue">Ripristinare il valore predefinito</s:String>
+    <s:String x:Key="String_BrowseDot">Sfoglia...</s:String>
+    <s:String x:Key="String_FindFileForX">Trovare un file per {0}</s:String>
+    <s:String x:Key="String_AddTestEnvironment">Aggiungere un ambiente di Test</s:String>
+    <s:String x:Key="String_AddTestEnvironmentTooltip">Immettere il nome del nuovo ambiente di Test</s:String>
+    <s:String x:Key="String_TestEnvironmentXExists">"C'è già un ambiente di test denominato '{0}'</s:String>
+    <s:String x:Key="String_CannotRemove">Non è possibile rimuovere</s:String>
+    <s:String x:Key="String_CannotRemoveDefaultEnvironment">Si tratta di un ambiente di test predefinito che non può essere rimosso.</s:String>
+    <s:String x:Key="String_ConfirmDelete">Conferma eliminazione</s:String>
+    <s:String x:Key="String_ConformDeleteTestEnvironment">Questa operazione non può essere invertito, sei sicuro di voler eliminare questo ambiente di test?</s:String>
+    <s:String x:Key="String_EnterVariableName">Immettere il nome della variabile</s:String>
+    <s:String x:Key="String_EnterVariableNameTooltip">Il nome deve essere valido identificatore, contiene lettere maiuscole/minuscole, numeri e underscore</s:String>
+    <s:String x:Key="String_EnvironmentVariableExists">La variabile di ambiente dello stesso nome ha già esiste.</s:String>
+    <s:String x:Key="String_SystemVariableExists">Hai già una variabile di sistema dello stesso nome.</s:String>
+    <s:String x:Key="String_NotAValidVariableName">Il nome di input è un nome di variabile non valido.</s:String>
+    <s:String x:Key="String_ClearEnvironmentVariables">Variabili di ambiente chiaro</s:String>
+    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">Questa operazione non può essere recuperato, sei sicuro di cancellare tutte le variabili di ambiente? \nIf citati in richieste, risposte o script di automazione, si verificheranno errori.</s:String>
+    <s:String x:Key="String_DeleteEnvironmentVariables">Eliminare variabili di ambiente</s:String>
+    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">Questa operazione non può essere recuperato, sei sicuro di voler eliminare le variabili di ambiente selezionato? \nIf citati in richieste, risposte o script di automazione, si verificheranno errori.</s:String>
+    <s:String x:Key="String_CannotCopyEV">Non è possibile copiare</s:String>
+    <s:String x:Key="String_CannotCopyEVTooltip">Non è possibile copiare i valori dall'ambiente stesso, si prega di selezionare un altro ambiente.</s:String>
+    <s:String x:Key="String_EnterUserName">Immettere il nome utente</s:String>
+    <s:String x:Key="String_EnterUserNameTooltip">Inserisci un nome utente da utilizzare.</s:String>
+    <s:String x:Key="String_TokenExists">Il token stesso nome ha già esiste.</s:String>
+    <s:String x:Key="String_DeleteSecurityTokens">Elimina i token di sicurezza</s:String>
+    <s:String x:Key="String_DeleteSecurityTokensQuestion">Questa operazione non può essere recuperato, sei sicuro di voler eliminare i token di protezione selezionato?</s:String>
+    <s:String x:Key="String_ClearSecurityTokens">Token di protezione chiaro</s:String>
+    <s:String x:Key="String_ClearSecurityTokensQuestion">Questa operazione non può essere recuperato, sei sicuro di cancellare tutti i token di sicurezza?</s:String>
+    <!-- ViewProfileManagement.xaml -->
+    <s:String x:Key="String_ImportFromDot">Importare da...</s:String>
     <!-- PROFILE MANAGEMENT -->
     <s:String x:Key="String_ProfileManagement_Para1">Impostazioni di test, inclusi i parametri per i servizi, gli ambienti di Test, variabili personalizzate, i token di protezione e comportamenti di simulazione del servizio, sono confezionate in profili.</s:String>
     <s:String x:Key="String_ProfileManagement_Para2">I profili possono essere importati, esportati o condivise con altre persone. Profili possono anche essere incorporati in un progetto di automazione al fine di semplificare le impostazioni di test del progetto di automazione. Seguito sono riportati tutti i profili che possono essere utilizzati nell'applicazione: </s:String>
     <s:String x:Key="String_ProfileManagement_Note">Nota: Il profilo predefinito viene utilizzato da test manuale, non può essere modificato o rimosso qui. Per modificare il profilo predefinito, vai a impostazioni di Test.</s:String>
+    <s:String x:Key="String_Actions">AZIONI</s:String>
+    <s:String x:Key="String_Duplicate">Duplicato</s:String>
+    <s:String x:Key="String_Delete">Elimina</s:String>
+    <s:String x:Key="String_Edit">Modifica</s:String>
+    <s:String x:Key="String_SetAsActiveProfile">Impostare questo profilo come profilo attivo</s:String>
+    <s:String x:Key="String_ProfileName">NOME DEL PROFILO</s:String>
+    <s:String x:Key="String_LastUpdated">ULTIMO AGGIORNAMENTO</s:String>
+    <s:String x:Key="String_EditProfileX">Modifica profilo: {0}</s:String>
+    <s:String x:Key="String_RecoverDeletedProfileX">Il profilo di '{0}' è stato eliminato. Se si sta facendo qualcosa di sbagliato, fare clic qui per recuperare</s:String>
+    <s:String x:Key="String_EnterProfileName">Immettere il nome del profilo</s:String>
+    <s:String x:Key="String_EnterProfileNameTooltip">Immettere il nome del profilo di cui verrà duplicato il profilo corrente.</s:String>
+    <s:String x:Key="String_ProfileNameCannotBeEmpty">Il nome del profilo non può essere vuoto.</s:String>
+    <s:String x:Key="String_ProfileXExists">Il profilo '{0}' ha già esiste.</s:String>
+    <s:String x:Key="String_ImportAProfile">Importare un profilo</s:String>
     <!-- TEST MESSAGE STATUS -->
     <s:String x:Key="String_Status_None">Nessuno</s:String>
     <s:String x:Key="String_Status_Pending">In sospeso</s:String>
@@ -112,6 +168,22 @@
     <s:String x:Key="String_ResourcesOnGithub">Risorse su GitHub</s:String>
     <s:String x:Key="String_TestFrameworkDocumentation">Documentazione del Framework di test</s:String>
     <s:String x:Key="String_ReportBugsSuggestions">Rapporto bug/suggerimenti</s:String>
+    <s:String x:Key="String_LanguageChanged">Il cambio di lingua</s:String>
+    <s:String x:Key="String_LanauageChangedQuestion">Hai cambiato la lingua preferita. Colibrì deve essere riavviato per rendere modifiche efficaci. \nDo riavviare Hummingbird ora?</s:String>
+    <!-- ViewExtensions.xaml -->
+    <s:String x:Key="String_Uninstall">Disinstallare</s:String>
+    <s:String x:Key="String_InstallAnExtension">Installare un'estensione</s:String>
+    <s:String x:Key="String_InstalledExtensions">Estensioni installate</s:String>
+    <s:String x:Key="String_ExtensionTooltip">Selezionare un'estensione per visualizzare i suoi dettagli. Abilitare/disabilitare estensione terrà conto dopo il riavvio di applicazione</s:String>
+    <s:String x:Key="String_OperationU">FUNZIONAMENTO</s:String>
+    <s:String x:Key="String_VersionU">Versione</s:String>
+    <s:String x:Key="String_CompanyU">AZIENDA</s:String>
+    <s:String x:Key="String_DescriptionU">DESCRIZIONE</s:String>
+    <s:String x:Key="String_Id">ID</s:String>
+    <s:String x:Key="String_ConfirmExtensionUninstall">Confermare la disinstallazione di estensione</s:String>
+    <s:String x:Key="String_ConfirmExtensionUninstallQuestion">Sei sicuro a disinstallare l'estensione '{0}'</s:String>
+    <s:String x:Key="String_RestartRequired">È necessario riavviare</s:String>
+    <s:String x:Key="String_RestartRequiredExtensionQuestion">È necessario riavviare Hummingbird per disinstallare il selezionato estensione. \nDo riavviare Hummingbird ora?</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_VirtualServices">Servizi virtuali</s:String>
     <s:String x:Key="String_Messages">Messaggi</s:String>
@@ -230,6 +302,18 @@
     <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">Si è verificato un errore durante il caricamento di progetto di automazione.</s:String>
     <s:String x:Key="String_SaveCurrentProject">Salvare il progetto corrente?</s:String>
     <s:String x:Key="String_SaveCurrentProjectMessage">Vuoi salvare il progetto corrente di automazione?</s:String>
+    <!-- ViewBase64Tool.xaml -->
+    <s:String x:Key="String_Base64EncodingTitle">La codifica Base64 &amp; decodifica</s:String>
+    <s:String x:Key="String_Utf8ToBase64">Codifica la stringa UTF-8 in una stringa Base64</s:String>
+    <s:String x:Key="String_Base64ToString">Decodifica una stringa Base64 come stringa, utilizzando la codifica selezionata.</s:String>
+    <s:String x:Key="String_BinaryToBase64">Leggere il contenuto binario del file e codificare il suo contenuto nella stringa Base64</s:String>
+    <s:String x:Key="String_Base64ToBinary">Leggere la stringa base64 dalla casella di testo qui sotto, decodificarlo e salvarlo in un file binario.</s:String>
+    <s:String x:Key="String_SampleTextBase64">Testo di esempio per essere codificato in Base64</s:String>
+    <s:String x:Key="String_EncodedBase64">Stringa codificata Base64</s:String>
+    <s:String x:Key="String_DecodedBase64">Decodificati Base64 String</s:String>
+    <s:String x:Key="String_OpenFileToEncode">Aprire un file da codificare</s:String>
+    <s:String x:Key="String_SaveBinaryAsFile">Salva il contenuto decodificato come file</s:String>
+    <s:String x:Key="String_DecodedAndSaved">Contenuti decodificati e salvati nel file. Clicca qui per aprirlo</s:String>
     <!-- ViewToolsOverview.xaml -->
     <s:String x:Key="String_ExtendsThePotetual">Estende le potenzialità</s:String>
     <s:String x:Key="String_ExtensionDesigner">Designer di estensione</s:String>
@@ -243,8 +327,14 @@
     <s:String x:Key="String_Base64EncodingTooltip">Testo di codifica/decodifica da Base64</s:String>
     <s:String x:Key="String_XmlRelated">XML correlati.</s:String>
     <s:String x:Key="String_XmlCompare">Confronta i XML</s:String>
+    <s:String x:Key="String_XPathValidator">Validatore di XPath</s:String>
     <s:String x:Key=" ">Validatore di XPath</s:String>
     <!-- ViewExtensionDesigner -->
+    <s:String x:Key="String_DesignerTooltip">Nel Framework di Test di Hummingbird, i servizi sono organizzati in 3 livelli. Si prega di organizzare i servizi più naturali possibile all'interno dell'organizzazione.</s:String>
+    <s:String x:Key="String_DesignerApplicationTooltip">Quando viene utilizzato come Driver, nome del sistema siete test. Come Stub, nome dell'applicazione che simula il colibrì.</s:String>
+    <s:String x:Key="String_DesignerCategoryTooltip">Categoria funzionale di servizi. 
+ Ad esempio: tutti i servizi del cliente aggiungendo, modificando, rimozione possono essere organizzata nella categoria [Customer Management].</s:String>
+    <s:String x:Key="String_DesignerServiceTooltip">Il nome del servizio. Per i servizi SOAP, che rappresenta un oggetto binding, dispone di un Endpoint e può contiene una o più operazioni</s:String>
     <s:String x:Key="String_SaveAs">Salva come</s:String>
     <s:String x:Key="String_Close">Chiudere</s:String>
     <s:String x:Key="String_ExtensionDesignerTitle">Designer di estensione - aggiungere servizi Web definizioni di testare e di simulare</s:String>
