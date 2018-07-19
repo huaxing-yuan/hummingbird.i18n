@@ -31,6 +31,7 @@
     <s:String x:Key="String_General">基本設置</s:String>
     <s:String x:Key="String_TestSettings">測試框架設置</s:String>
     <s:String x:Key="String_Extensions">擴展</s:String>
+    <s:String x:Key="String_ProfileManagement">Profile Management</s:String>
     <!-- GENERAL SETTINGS -->
     <s:String x:Key="String_SystemBehaviors">系統行為</s:String>
     <s:String x:Key="String_LogPath">日誌路徑:</s:String>
@@ -69,6 +70,10 @@
     <s:String x:Key="String_WhenSendingRequest">當發送請求時:</s:String>
     <s:String x:Key="String_WaitAndShowResult">直接顯示結果</s:String>
     <s:String x:Key="String_CloseAndShowOnDemande">返回主窗口</s:String>
+    <!-- PROFILE MANAGEMENT -->
+    <s:String x:Key="String_ProfileManagement_Para1">Test Settings, including Services Parameters, Test Environments, Custom Variables, Security Tokens, Service simulation behaviors, are packed into Profiles.</s:String>
+    <s:String x:Key="String_ProfileManagement_Para2">Profiles can be imported, exported or shared to other people. Profiles can also be embedded into an automation project in order to simplify test settings of the automation project. Following are all the profiles that can be used in the application: </s:String>
+    <s:String x:Key="String_ProfileManagement_Note">Note: Default profile is used by manual testing, it cannot be edited or removed here. To modify the default profile, go to Test Settings.</s:String>
     <!-- TEST MESSAGE STATUS -->
     <s:String x:Key="String_Status_None">未知</s:String>
     <s:String x:Key="String_Status_Pending">等待中</s:String>
@@ -130,6 +135,14 @@
     <s:String x:Key="String_ReceivedU">, 已接收:</s:String>
     <s:String x:Key="String_NoServerConfigured">您還未選擇任何虛擬服務，請按下面的按鈕來添加虛擬服務</s:String>
     <s:String x:Key="String_DeleteSelectedMessages">Delete Selected Messages</s:String>
+    <s:String x:Key="String_ConfirmStatisticReset">Confirm statistic reset</s:String>
+    <s:String x:Key="String_ConfirmStatisticResetMessage">All statistics will be removed and could be recovered, would you like to reset statistics anyway?</s:String>
+    <s:String x:Key="String_ChangeSettings">Change settings</s:String>
+    <s:String x:Key="String_Error">Error</s:String>
+    <s:String x:Key="String_CannotStartFollowingService">Can not start the following service: </s:String>
+    <s:String x:Key="String_ConfirmClearMessages">Clear all messages?</s:String>
+    <s:String x:Key="String_ConfirmClearMessagesMessage">Are you sure to clear all message history?</s:String>
+    <s:String x:Key="String_XofYMatches">{0} of {1} MATCHES</s:String>
     <s:String x:Key="String_ShowReponseAsObject">Show Response as Object</s:String>
     <s:String x:Key="String_ShowRequestAsObject">Show Request as Object</s:String>
     <s:String x:Key="String_RenameMessage">Rename this message</s:String>
@@ -155,6 +168,16 @@
     <s:String x:Key="String_Copyright">© 版權所有 2013-2018 袁華幸，保留所有權利</s:String>
     <s:String x:Key="String_WarningCopyright">警告：本計算機程序受著作權法和國際公約的保護，未經授權擅自復制或散布本程序的部分或全部，將遭受最嚴厲的民事及刑事處罰，對已知的違反者將給予法律範圍內的最高制裁。</s:String>
     <s:String x:Key="String_AddinExtension">Add-in &amp; Extensions</s:String>
+    <!-- ViewStatistics.xaml -->
+    <s:String x:Key="String_TodaysActivities">Today's activity</s:String>
+    <s:String x:Key="String_ResponsesSimulated">Responses Simulated</s:String>
+    <s:String x:Key="String_AutomatedTestRun">Automated test run</s:String>
+    <s:String x:Key="String_ServiceSimulation">Service Simulation</s:String>
+    <s:String x:Key="String_OvercallCalculatedFrom">Overall - Calculated from:</s:String>
+    <s:String x:Key="String_Passed">Passed</s:String>
+    <s:String x:Key="String_Warning">Warning</s:String>
+    <s:String x:Key="String_Failed">Failed</s:String>
+    <s:String x:Key="String_Sent">Sent</s:String>
     <!-- ViewAutomationRunner -->
     <s:String x:Key="String_NewProject">New project</s:String>
     <s:String x:Key="String_OpenProject">Open project</s:String>
@@ -162,6 +185,7 @@
     <s:String x:Key="String_Save">Save</s:String>
     <s:String x:Key="String_AutomationProject">Automation Project</s:String>
     <s:String x:Key="String_FunctionalTestEditorRunner">Functional Test Editor &amp; Runner</s:String>
+    <s:String x:Key="String_StartsFromHere">Starts from here</s:String>
     <s:String x:Key="String_CreateNewAutomationProject">Create a new automation project</s:String>
     <s:String x:Key="String_OpenExistingProject">Open an existing project</s:String>
     <s:String x:Key="String_LeanMore">Learn more (External site)...</s:String>
@@ -172,6 +196,52 @@
     <s:String x:Key="String_DifferentTestSteps">Different kind of test steps</s:String>
     <s:String x:Key="String_ValidateWithAssertions">Validate the test by Assertions</s:String>
     <s:String x:Key="String_RunInCI">Run automated test in an Continues Integration platform</s:String>
+    <s:String x:Key="String_DeleteThisTestStep">Delete this test step</s:String>
+    <s:String x:Key="String_AddAStep">Add a Test Step</s:String>
+    <s:String x:Key="String_DeleteThisTestCase">Delete this test case</s:String>
+    <s:String x:Key="String_RunTestCase">Run test case</s:String>
+    <s:String x:Key="String_MoveUp">Move Up</s:String>
+    <s:String x:Key="String_MoveDown">Move Down</s:String>
+    <s:String x:Key="String_MoveToFirst">Move To First</s:String>
+    <s:String x:Key="String_MoveToLast">Move To Last</s:String>
+    <s:String x:Key="String_InsertTCBefore">Insert test case before</s:String>
+    <s:String x:Key="String_InsertTCAfter">Insert test case after</s:String>
+    <s:String x:Key="String_AddTestCase">Add a test case</s:String>
+    <s:String x:Key="String_AddDataDrivenTestCase">Add a Data Driven test case</s:String>
+    <s:String x:Key="String_ReorderTestCases">Reorder test cases</s:String>
+    <s:String x:Key="String_ReorderTestCasesTooltip">Reorder tests cases by their names</s:String>
+    <s:String x:Key="String_InsertTestSuiteBefore">Insert a Test Suite before</s:String>
+    <s:String x:Key="String_InsertTestSuiteAfter">Insert a Test Suite after</s:String>
+    <s:String x:Key="String_RunTestSuite">Run test suite</s:String>
+    <s:String x:Key="String_DeleteTestSuite">Delete this test suite</s:String>
+    <s:String x:Key="String_AddTestSuite">Add a test suite</s:String>
+    <s:String x:Key="String_InsertTestSuite">Insert a test suite</s:String>
+    <s:String x:Key="String_ReorderTestSuites">Reorder test suites</s:String>
+    <s:String x:Key="String_ReorderTestSuitesTooltip">Reorder tests suites by their names</s:String>
+    <s:String x:Key="String_RunAutomationProject">Run automation project</s:String>
+    <s:String x:Key="String_AutomationProjectSaved">Project has been saved.</s:String>
+    <s:String x:Key="String_SaveAutomationProjectTitle">Save Automation Project: {0}</s:String>
+    <s:String x:Key="String_OpenAutomationProjectTitle">Open an Automation Project file</s:String>
+    <s:String x:Key="String_SaveAutomationProjectFilter">Automation Project (*.APX)|*.APX|All files (*.*)|*.*</s:String>
+    <s:String x:Key="String_AnErrorHasOccurred">An error has occurred</s:String>
+    <s:String x:Key="String_AnErrorHasOccurredSavingAutomationProject">An error has occurred when saving automation project.</s:String>
+    <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">An error has occurred when loading automation project.</s:String>
+    <s:String x:Key="String_SaveCurrentProject">Save current project?</s:String>
+    <s:String x:Key="String_SaveCurrentProjectMessage">Do you want to save the current automation project?</s:String>
+    <!-- ViewToolsOverview.xaml -->
+    <s:String x:Key="String_ExtendsThePotetual">擴展了潛在</s:String>
+    <s:String x:Key="String_ExtensionDesigner">擴展設計器</s:String>
+    <s:String x:Key="String_Productivity">生產力</s:String>
+    <s:String x:Key="String_RegularExpression">正則運算式</s:String>
+    <s:String x:Key="String_HashCryptography">雜湊和加密</s:String>
+    <s:String x:Key="String_HashCryptographyTooltip">使用不同的加密方法進行雜湊、加密和解密</s:String>
+    <s:String x:Key="String_DocumentFormatting">文檔格式設置</s:String>
+    <s:String x:Key="String_DocumentFormattingTooltip">格式化 XML 和 JSON 文檔。</s:String>
+    <s:String x:Key="String_Base64Encoding">Base64 編碼</s:String>
+    <s:String x:Key="String_Base64EncodingTooltip">從 Base64 編碼/解碼文本</s:String>
+    <s:String x:Key="String_XmlRelated">XML 相關</s:String>
+    <s:String x:Key="String_XmlCompare">XML 比較</s:String>
+    <s:String x:Key=" ">XPath 驗證程式</s:String>
     <!-- ViewExtensionDesigner -->
     <s:String x:Key="String_SaveAs">Save as</s:String>
     <s:String x:Key="String_Close">Close</s:String>
@@ -179,6 +249,47 @@
     <s:String x:Key="String_CreateNewExtensionProject">Create a new service extension project</s:String>
     <s:String x:Key="String_LearnMoreExtensionDesigner">Learn more about service extension designer</s:String>
     <s:String x:Key="String_OtherWaysToExtent">Other ways to extent your ability</s:String>
+    <!-- WindowMessageViewer.xaml -->
+    <s:String x:Key="String_MessageViewer">消息檢視器</s:String>
+    <s:String x:Key="String_ViewMessage">查看留言:</s:String>
+    <s:String x:Key="String_Overview">概述</s:String>
+    <s:String x:Key="String_Request">請求</s:String>
+    <s:String x:Key="String_Response">回應</s:String>
+    <!-- WindowMultiLineEditor.xaml -->
+    <s:String x:Key="String_Cancel">取消</s:String>
+    <s:String x:Key="String_EditValueForX">編輯: {0} 的值</s:String>
+    <!-- WindowObjectEditor.xaml -->
+    <s:String x:Key="String_ObjectEditor">物件編輯器</s:String>
+    <s:String x:Key="String_EditingObjectOfTypeX">編輯類型 {0} 的物件</s:String>
+    <!-- WindowSearch.xaml -->
+    <s:String x:Key="String_Search">搜索</s:String>
+    <s:String x:Key="String_SearchColon">搜索：</s:String>
+    <s:String x:Key="String_InColon">在</s:String>
+    <s:String x:Key="String_SearchPropertyAndValue">在屬性名稱和值中搜索 (樹狀檢視)</s:String>
+    <s:String x:Key="String_SearchValueOnly">僅搜索屬性值 (樹狀檢視)</s:String>
+    <s:String x:Key="String_IgnoreCase">忽略大小寫</s:String>
+    <s:String x:Key="String_MatchCase">匹配案例</s:String>
+    <s:String x:Key="String_MatchWholeWord">匹配整個單詞</s:String>
+    <s:String x:Key="String_MatchAnyWhere">匹配任何位置</s:String>
+    <s:String x:Key="String_SearchNext">下</s:String>
+    <s:String x:Key="String_CannotFindPattern">找不到圖案。</s:String>
+    <s:String x:Key="String_NoResultMatches">沒有與搜索 "{0}" 匹配的結果</s:String>
+    <!-- WindowSelectRequest.xaml -->
+    <s:String x:Key="String_SelectARequest">選擇一個請求</s:String>
+    <!-- WindowSendRequest.xaml -->
+    <s:String x:Key="String_ServiceColon">服務：</s:String>
+    <s:String x:Key="String_ChooseServiceToTest">選擇要測試的服務↑</s:String>
+    <s:String x:Key="String_HistoryColon">歷史：</s:String>
+    <s:String x:Key="String_EndpointColon">端點：</s:String>
+    <s:String x:Key="String_DeleteCurrentHistoryTooltip">刪除當前歷史記錄</s:String>
+    <s:String x:Key="String_ClearAllHistoryTooltip">清除此服務的所有歷史記錄</s:String>
+    <s:String x:Key="String_ResetEndpointTooltip">使用當前測試環境中的變數值將端點重置為 UriTemplate</s:String>
+    <s:String x:Key="String_NoEndpointTooltip">此服務沒有 UriTemplate</s:String>
+    <s:String x:Key="String_EnvironmentColon">環境：</s:String>
+    <s:String x:Key="String_Send">發送</s:String>
+    <s:String x:Key="String_RequestSentTo">發送到的請求:</s:String>
+    <s:String x:Key="String_ElapsedTime">執行時間:</s:String>
+    <s:String x:Key="String_ResponseColon">回應：</s:String>
     <s:String x:Key="String_Components">Components</s:String>
     <s:String x:Key="String_LawDisclaimer">The software is provided "as is" and the author disclaims all warranties with regard to this software including all implied warranties of merchantability and fitness. In no event shall the author be liable for any special, direct, indirect, or consequential damages or any damages whatsoever resulting from loss of use, data or profits, whether in an action of contract, negligence or other tortious action, arising out of or in connection with the use or performance of this software.</s:String>
 </ResourceDictionary>

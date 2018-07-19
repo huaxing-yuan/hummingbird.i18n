@@ -31,6 +31,7 @@
     <s:String x:Key="String_General">Général</s:String>
     <s:String x:Key="String_TestSettings">Paramétrage de Test</s:String>
     <s:String x:Key="String_Extensions">Extensions</s:String>
+    <s:String x:Key="String_ProfileManagement">Profile Management</s:String>
     <!-- GENERAL SETTINGS -->
     <s:String x:Key="String_SystemBehaviors">Comportement du System </s:String>
     <s:String x:Key="String_LogPath">Chemin de Log:</s:String>
@@ -69,6 +70,10 @@
     <s:String x:Key="String_WhenSendingRequest">Lors de l'envoi d'une requete:</s:String>
     <s:String x:Key="String_WaitAndShowResult">Affichez le résultat directement</s:String>
     <s:String x:Key="String_CloseAndShowOnDemande">Retourner à Test runner</s:String>
+    <!-- PROFILE MANAGEMENT -->
+    <s:String x:Key="String_ProfileManagement_Para1">Test Settings, including Services Parameters, Test Environments, Custom Variables, Security Tokens, Service simulation behaviors, are packed into Profiles.</s:String>
+    <s:String x:Key="String_ProfileManagement_Para2">Profiles can be imported, exported or shared to other people. Profiles can also be embedded into an automation project in order to simplify test settings of the automation project. Following are all the profiles that can be used in the application: </s:String>
+    <s:String x:Key="String_ProfileManagement_Note">Note: Default profile is used by manual testing, it cannot be edited or removed here. To modify the default profile, go to Test Settings.</s:String>
     <!-- TEST MESSAGE STATUS -->
     <s:String x:Key="String_Status_None">Non</s:String>
     <s:String x:Key="String_Status_Pending">En attente</s:String>
@@ -140,6 +145,14 @@
     <s:String x:Key="String_ShowRequestAsObject">Show Request as Object</s:String>
     <s:String x:Key="String_ShowReponseAsObject">Show Response as Object</s:String>
     <s:String x:Key="String_DeleteSelectedMessages">Delete Selected Messages</s:String>
+    <s:String x:Key="String_ConfirmStatisticReset">Confirm statistic reset</s:String>
+    <s:String x:Key="String_ConfirmStatisticResetMessage">All statistics will be removed and could be recovered, would you like to reset statistics anyway?</s:String>
+    <s:String x:Key="String_ChangeSettings">Change settings</s:String>
+    <s:String x:Key="String_Error">Error</s:String>
+    <s:String x:Key="String_CannotStartFollowingService">Can not start the following service: </s:String>
+    <s:String x:Key="String_ConfirmClearMessages">Clear all messages?</s:String>
+    <s:String x:Key="String_ConfirmClearMessagesMessage">Are you sure to clear all message history?</s:String>
+    <s:String x:Key="String_XofYMatches">{0} of {1} MATCHES</s:String>
     <!-- SERVICE LIST -->
     <s:String x:Key="String_ShowListOf">Afficher la liste de:</s:String>
     <s:String x:Key="String_SupportedRequests">Requetes prise en changes</s:String>
@@ -157,6 +170,16 @@
     <s:String x:Key="String_LawDisclaimer">The software is provided "as is" and the author disclaims all warranties with regard to this software including all implied warranties of merchantability and fitness. In no event shall the author be liable for any special, direct, indirect, or consequential damages or any damages whatsoever resulting from loss of use, data or profits, whether in an action of contract, negligence or other tortious action, arising out of or in connection with the use or performance of this software.</s:String>
     <s:String x:Key="String_Components">Composants</s:String>
     <s:String x:Key="String_AddinExtension">Add-in &amp; Extensions</s:String>
+    <!-- ViewStatistics.xaml -->
+    <s:String x:Key="String_TodaysActivities">Today's activity</s:String>
+    <s:String x:Key="String_ResponsesSimulated">Responses Simulated</s:String>
+    <s:String x:Key="String_AutomatedTestRun">Automated test run</s:String>
+    <s:String x:Key="String_ServiceSimulation">Service Simulation</s:String>
+    <s:String x:Key="String_OvercallCalculatedFrom">Overall - Calculated from:</s:String>
+    <s:String x:Key="String_Passed">Passed</s:String>
+    <s:String x:Key="String_Warning">Warning</s:String>
+    <s:String x:Key="String_Failed">Failed</s:String>
+    <s:String x:Key="String_Sent">Sent</s:String>
     <!-- ViewAutomationRunner -->
     <s:String x:Key="String_NewProject">Nouveau project</s:String>
     <s:String x:Key="String_OpenProject">Ouvrir un project</s:String>
@@ -164,6 +187,7 @@
     <s:String x:Key="String_Save">Sauvegarde</s:String>
     <s:String x:Key="String_AutomationProject">Project d'Automatisation</s:String>
     <s:String x:Key="String_FunctionalTestEditorRunner">Test fonctionelle automatisé</s:String>
+    <s:String x:Key="String_StartsFromHere">Starts from here</s:String>
     <s:String x:Key="String_CreateNewAutomationProject">Créer un nouveau projet d'automatisation</s:String>
     <s:String x:Key="String_OpenExistingProject">Ouvrir un projet existant</s:String>
     <s:String x:Key="String_LeanMore">En savoir plus (site externe) ...</s:String>
@@ -174,6 +198,52 @@
     <s:String x:Key="String_DifferentTestSteps">Différents types de tests</s:String>
     <s:String x:Key="String_ValidateWithAssertions">Valider le test par Assertions</s:String>
     <s:String x:Key="String_RunInCI">Exécuter un test automatisé dans une plate-forme d'intégration continue</s:String>
+    <s:String x:Key="String_DeleteThisTestStep">Delete this test step</s:String>
+    <s:String x:Key="String_AddAStep">Add a Test Step</s:String>
+    <s:String x:Key="String_DeleteThisTestCase">Delete this test case</s:String>
+    <s:String x:Key="String_RunTestCase">Run test case</s:String>
+    <s:String x:Key="String_MoveUp">Move Up</s:String>
+    <s:String x:Key="String_MoveDown">Move Down</s:String>
+    <s:String x:Key="String_MoveToFirst">Move To First</s:String>
+    <s:String x:Key="String_MoveToLast">Move To Last</s:String>
+    <s:String x:Key="String_InsertTCBefore">Insert test case before</s:String>
+    <s:String x:Key="String_InsertTCAfter">Insert test case after</s:String>
+    <s:String x:Key="String_AddTestCase">Add a test case</s:String>
+    <s:String x:Key="String_AddDataDrivenTestCase">Add a Data Driven test case</s:String>
+    <s:String x:Key="String_ReorderTestCases">Reorder test cases</s:String>
+    <s:String x:Key="String_ReorderTestCasesTooltip">Reorder tests cases by their names</s:String>
+    <s:String x:Key="String_InsertTestSuiteBefore">Insert a Test Suite before</s:String>
+    <s:String x:Key="String_InsertTestSuiteAfter">Insert a Test Suite after</s:String>
+    <s:String x:Key="String_RunTestSuite">Run test suite</s:String>
+    <s:String x:Key="String_DeleteTestSuite">Delete this test suite</s:String>
+    <s:String x:Key="String_AddTestSuite">Add a test suite</s:String>
+    <s:String x:Key="String_InsertTestSuite">Insert a test suite</s:String>
+    <s:String x:Key="String_ReorderTestSuites">Reorder test suites</s:String>
+    <s:String x:Key="String_ReorderTestSuitesTooltip">Reorder tests suites by their names</s:String>
+    <s:String x:Key="String_RunAutomationProject">Run automation project</s:String>
+    <s:String x:Key="String_AutomationProjectSaved">Project has been saved.</s:String>
+    <s:String x:Key="String_SaveAutomationProjectTitle">Save Automation Project: {0}</s:String>
+    <s:String x:Key="String_OpenAutomationProjectTitle">Open an Automation Project file</s:String>
+    <s:String x:Key="String_SaveAutomationProjectFilter">Automation Project (*.APX)|*.APX|All files (*.*)|*.*</s:String>
+    <s:String x:Key="String_AnErrorHasOccurred">An error has occurred</s:String>
+    <s:String x:Key="String_AnErrorHasOccurredSavingAutomationProject">An error has occurred when saving automation project.</s:String>
+    <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">An error has occurred when loading automation project.</s:String>
+    <s:String x:Key="String_SaveCurrentProject">Save current project?</s:String>
+    <s:String x:Key="String_SaveCurrentProjectMessage">Do you want to save the current automation project?</s:String>
+    <!-- ViewToolsOverview.xaml -->
+    <s:String x:Key="String_ExtendsThePotetual">Étend le potentiel</s:String>
+    <s:String x:Key="String_ExtensionDesigner">Concepteur de l’extension</s:String>
+    <s:String x:Key="String_Productivity">Productivité</s:String>
+    <s:String x:Key="String_RegularExpression">Expression régulière</s:String>
+    <s:String x:Key="String_HashCryptography">Hachage &amp; cryptographie</s:String>
+    <s:String x:Key="String_HashCryptographyTooltip">Hachage, Encrypt et Decrypt à l’aide de méthodes différentes de cryptographie</s:String>
+    <s:String x:Key="String_DocumentFormatting">Mise en forme de Document</s:String>
+    <s:String x:Key="String_DocumentFormattingTooltip">formatter les documents XML et JSON.</s:String>
+    <s:String x:Key="String_Base64Encoding">encodage Base64</s:String>
+    <s:String x:Key="String_Base64EncodingTooltip">Texte d’encodage/décodage Base64</s:String>
+    <s:String x:Key="String_XmlRelated">Outils XML</s:String>
+    <s:String x:Key="String_XmlCompare">Comparer XML</s:String>
+    <s:String x:Key=" ">Validateur de XPath</s:String>
     <!-- ViewExtensionDesigner -->
     <s:String x:Key="String_SaveAs">Save as</s:String>
     <s:String x:Key="String_Close">Close</s:String>
@@ -181,4 +251,45 @@
     <s:String x:Key="String_CreateNewExtensionProject">Create a new service extension project</s:String>
     <s:String x:Key="String_LearnMoreExtensionDesigner">Learn more about service extension designer</s:String>
     <s:String x:Key="String_OtherWaysToExtent">Other ways to extent your ability</s:String>
+    <!-- WindowMessageViewer.xaml -->
+    <s:String x:Key="String_MessageViewer">Visualiseur des messages</s:String>
+    <s:String x:Key="String_ViewMessage">Afficher le message :</s:String>
+    <s:String x:Key="String_Overview">Vue d’ensemble</s:String>
+    <s:String x:Key="String_Request">Requête</s:String>
+    <s:String x:Key="String_Response">Réponse</s:String>
+    <!-- WindowMultiLineEditor.xaml -->
+    <s:String x:Key="String_Cancel">Annuler</s:String>
+    <s:String x:Key="String_EditValueForX">Modification de valeur pour : {0}</s:String>
+    <!-- WindowObjectEditor.xaml -->
+    <s:String x:Key="String_ObjectEditor">Éditeur d’objet</s:String>
+    <s:String x:Key="String_EditingObjectOfTypeX">Modifier l’objet de type {0}</s:String>
+    <!-- WindowSearch.xaml -->
+    <s:String x:Key="String_Search">Rechercher</s:String>
+    <s:String x:Key="String_SearchColon">Rechercher :</s:String>
+    <s:String x:Key="String_InColon">Dans :</s:String>
+    <s:String x:Key="String_SearchPropertyAndValue">Rechercher dans le nom et la valeur de propriété (TreeView)</s:String>
+    <s:String x:Key="String_SearchValueOnly">Rechercher dans la valeur de propriété uniquement (TreeView)</s:String>
+    <s:String x:Key="String_IgnoreCase">Ignorer la casse</s:String>
+    <s:String x:Key="String_MatchCase">Respecter la casse</s:String>
+    <s:String x:Key="String_MatchWholeWord">Mot entier</s:String>
+    <s:String x:Key="String_MatchAnyWhere">N’importe où</s:String>
+    <s:String x:Key="String_SearchNext">Prochain</s:String>
+    <s:String x:Key="String_CannotFindPattern">Ne trouve pas le modèle.</s:String>
+    <s:String x:Key="String_NoResultMatches">Il n’y a aucune résultat de votre recherche « {0} »</s:String>
+    <!-- WindowSelectRequest.xaml -->
+    <s:String x:Key="String_SelectARequest">Sélectionnez une requête</s:String>
+    <!-- WindowSendRequest.xaml -->
+    <s:String x:Key="String_ServiceColon">Service : </s:String>
+    <s:String x:Key="String_ChooseServiceToTest">Choisir un service pour tester ↑</s:String>
+    <s:String x:Key="String_HistoryColon">Historoque : </s:String>
+    <s:String x:Key="String_EndpointColon">Point de terminaison : </s:String>
+    <s:String x:Key="String_DeleteCurrentHistoryTooltip">Supprimer l’historique de cours</s:String>
+    <s:String x:Key="String_ClearAllHistoryTooltip">Effacer toute l’historique de ce service</s:String>
+    <s:String x:Key="String_ResetEndpointTooltip">Réinitialiser le point de terminaison à UriTemplate avec les valeurs des variables d’environnement de test actuel</s:String>
+    <s:String x:Key="String_NoEndpointTooltip">Ce service n’a aucun UriTemplate</s:String>
+    <s:String x:Key="String_EnvironmentColon">Environnement : </s:String>
+    <s:String x:Key="String_Send">Envoyer</s:String>
+    <s:String x:Key="String_RequestSentTo">Requête adressée à :</s:String>
+    <s:String x:Key="String_ElapsedTime">Temps écoulé : </s:String>
+    <s:String x:Key="String_ResponseColon">Réponse :</s:String>
 </ResourceDictionary>
