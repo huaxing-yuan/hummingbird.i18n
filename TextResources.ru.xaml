@@ -71,7 +71,7 @@
     <s:String x:Key="String_Services">Услуги</s:String>
     <s:String x:Key="String_SystemVariables">Системные переменные</s:String>
     <s:String x:Key="String_CustomVariables">Пользовательские переменные</s:String>
-    <s:String x:Key="String_SecurityTokens">Маркеры безопасности</s:String>
+    <s:String x:Key="String_Credentials">Учетные данные</s:String>
     <s:String x:Key="String_MaxRequestPerService">Макс сохраненные запросы на обслуживание:</s:String>
     <s:String x:Key="String_MaxRequestPerServiceTooltip">Максимальное количество запросов на обслуживание могут быть сохранены для быстрой отправки. значение по умолчанию — 20.</s:String>
     <s:String x:Key="String_MaxMessages">Макс сообщения:</s:String>
@@ -105,11 +105,11 @@
     <s:String x:Key="String_CannotCopyEVTooltip">Это не позволяет скопировать значения из самой среде, пожалуйста, выберите другую среду.</s:String>
     <s:String x:Key="String_EnterUserName">Введите имя пользователя</s:String>
     <s:String x:Key="String_EnterUserNameTooltip">Пожалуйста, введите имя пользователя для использования.</s:String>
-    <s:String x:Key="String_TokenExists">Токен таким же именем уже существует.</s:String>
-    <s:String x:Key="String_DeleteSecurityTokens">Удаление маркеров безопасности</s:String>
-    <s:String x:Key="String_DeleteSecurityTokensQuestion">Эта операция не может быть восстановлена, вы уверены, чтобы удалить выбранный маркеры?</s:String>
-    <s:String x:Key="String_ClearSecurityTokens">Четкие маркеры</s:String>
-    <s:String x:Key="String_ClearSecurityTokensQuestion">Эта операция не может быть восстановлена, вы уверены очистить все маркеры безопасности?</s:String>
+    <s:String x:Key="String_TokenExists">Учетных данных таким же именем уже существует.</s:String>
+    <s:String x:Key="String_DeleteCredentials">Удаление учетных данных</s:String>
+    <s:String x:Key="String_DeleteCredentialsQuestion">Эта операция не может быть восстановлена, вы уверены удалить выбранные учетные данные?</s:String>
+    <s:String x:Key="String_ClearCredentials">Четкие полномочия</s:String>
+    <s:String x:Key="String_ClearCredentialsQuestion">Эта операция не может быть восстановлена, вы уверены очистить все полномочия?</s:String>
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">Импорт из...</s:String>
     <!-- PROFILE MANAGEMENT -->
@@ -185,6 +185,7 @@
     <s:String x:Key="String_RestartRequired">Требуется перезагрузка</s:String>
     <s:String x:Key="String_RestartRequiredExtensionQuestion">Вам нужно перезапустить колибри для удаления выбранного расширение. \nDo вы перезагрузить колибри сейчас?</s:String>
     <!-- TEST RUNNER -->
+    <s:String x:Key="String_ManualTestRunner">Ручных тестов</s:String>
     <s:String x:Key="String_VirtualServices">Виртуальные услуги</s:String>
     <s:String x:Key="String_Messages">Сообщения</s:String>
     <s:String x:Key="String_SendRequest">Отправить запрос</s:String>
@@ -296,7 +297,7 @@
     <s:String x:Key="String_AutomationProjectSaved">Проект был сохранен.</s:String>
     <s:String x:Key="String_SaveAutomationProjectTitle">Сохранить проект автоматизации: {0}</s:String>
     <s:String x:Key="String_OpenAutomationProjectTitle">Открытие файла проекта автоматизации</s:String>
-    <s:String x:Key="String_SaveAutomationProjectFilter">Проект автоматизации (*. APX) | *. APX | Все файлы (*. *) | *. *</s:String>
+    <s:String x:Key="String_SaveAutomationProjectFilter">Проект автоматизации (*.APX) | *.APX | Все файлы (*.*) | *.*</s:String>
     <s:String x:Key="String_AnErrorHasOccurred">Произошла ошибка</s:String>
     <s:String x:Key="String_AnErrorHasOccurredSavingAutomationProject">Произошла ошибка при сохранении проекта автоматизации.</s:String>
     <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">Произошла ошибка при загрузке проекта автоматизации.</s:String>

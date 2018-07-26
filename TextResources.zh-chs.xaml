@@ -3,9 +3,9 @@
     <s:String x:Key="String_ApplicationName">Hummingbird</s:String>
     <s:String x:Key="String_ApplicationDescription">AN INTEGRATED TEST SOLUTION</s:String>
     <!-- Menu -->
-    <s:String x:Key="String_Menu_Home">家</s:String>
+    <s:String x:Key="String_Menu_Home">主界面</s:String>
     <s:String x:Key="String_Menu_Welcome">欢迎</s:String>
-    <s:String x:Key="String_Menu_Dashboard">仪表 板</s:String>
+    <s:String x:Key="String_Menu_Dashboard">仪表板</s:String>
     <s:String x:Key="String_Menu_Testing">测试</s:String>
     <s:String x:Key="String_Menu_TestRunner">手动测试</s:String>
     <s:String x:Key="String_Menu_ServiceList">可用服务列表</s:String>
@@ -25,7 +25,7 @@
     <s:String x:Key="String_Menu_XmlTools">XML 工具</s:String>
     <s:String x:Key="String_Menu_XmlCompare">XML 比较</s:String>
     <s:String x:Key="String_Menu_XpathValidator">XPATH 验证程序</s:String>
-    <s:String x:Key="String_Menu_DocFormat">DOC FORMAT</s:String>
+    <s:String x:Key="String_Menu_DocFormat">文档格式化</s:String>
     <s:String x:Key="String_Menu_Base64">BASE64</s:String>
     <s:String x:Key="String_StartupInformation">启动信息</s:String>
     <!-- BACK STAGE -->
@@ -71,7 +71,7 @@
     <s:String x:Key="String_Services">服务</s:String>
     <s:String x:Key="String_SystemVariables">系统变量</s:String>
     <s:String x:Key="String_CustomVariables">自定义变量</s:String>
-    <s:String x:Key="String_SecurityTokens">安全令牌</s:String>
+    <s:String x:Key="String_Credentials">凭据</s:String>
     <s:String x:Key="String_MaxRequestPerService">每个服务可存储的请求数:</s:String>
     <s:String x:Key="String_MaxRequestPerServiceTooltip">可以保存每个服务的最大请求数以快速重新发送。默认值为20。</s:String>
     <s:String x:Key="String_MaxMessages">Max Messages:</s:String>
@@ -79,7 +79,7 @@
     <s:String x:Key="String_WhenSendingRequest">当发送请求时:</s:String>
     <s:String x:Key="String_WaitAndShowResult">直接显示结果</s:String>
     <s:String x:Key="String_CloseAndShowOnDemande">返回主窗口</s:String>
-    <s:String x:Key="String_AuthenticationU">认证</s:String>
+    <s:String x:Key="String_AuthenticationU">验证</s:String>
     <s:String x:Key="String_ErrorParsingParameterX">解析参数 "{0}" 时出错</s:String>
     <s:String x:Key="String_ErrorParsingParameterDetails">服务 {0}, 参数 {1}: \n nValue "{2}" 对其类型 "{3}" 无效</s:String>
     <s:String x:Key="String_ResetToDefaultValue">重置为其默认值</s:String>
@@ -87,11 +87,11 @@
     <s:String x:Key="String_FindFileForX">查找 {0} 的文件</s:String>
     <s:String x:Key="String_AddTestEnvironment">添加测试环境</s:String>
     <s:String x:Key="String_AddTestEnvironmentTooltip">输入新测试环境的名称</s:String>
-    <s:String x:Key="String_TestEnvironmentXExists">"已经有一个名为" {0} "的测试环境</s:String>
+    <s:String x:Key="String_TestEnvironmentXExists">"已有名为"{0}"的测试环境</s:String>
     <s:String x:Key="String_CannotRemove">无法删除</s:String>
-    <s:String x:Key="String_CannotRemoveDefaultEnvironment">这是一个无法删除的默认测试环境。</s:String>
+    <s:String x:Key="String_CannotRemoveDefaultEnvironment">默认测试环境无法被删除。</s:String>
     <s:String x:Key="String_ConfirmDelete">确认删除</s:String>
-    <s:String x:Key="String_ConformDeleteTestEnvironment">无法反转此操作, 是否确实要删除此测试环境？</s:String>
+    <s:String x:Key="String_ConformDeleteTestEnvironment">无法撤销此操作, 是否确实要删除此测试环境？</s:String>
     <s:String x:Key="String_EnterVariableName">输入变量的名称</s:String>
     <s:String x:Key="String_EnterVariableNameTooltip">名称必须是有效的标识符, 包含大写/小写字母、数字和下划线</s:String>
     <s:String x:Key="String_EnvironmentVariableExists">同名的环境变量已经存在。</s:String>
@@ -105,25 +105,25 @@
     <s:String x:Key="String_CannotCopyEVTooltip">无法从环境本身复制值, 请选择其他环境。</s:String>
     <s:String x:Key="String_EnterUserName">输入用户名</s:String>
     <s:String x:Key="String_EnterUserNameTooltip">请输入要使用的用户名。</s:String>
-    <s:String x:Key="String_TokenExists">同名的标记已经存在。</s:String>
-    <s:String x:Key="String_DeleteSecurityTokens">删除安全令牌</s:String>
-    <s:String x:Key="String_DeleteSecurityTokensQuestion">无法恢复此操作, 是否确实要删除所选的安全令牌？</s:String>
-    <s:String x:Key="String_ClearSecurityTokens">清除安全令牌</s:String>
-    <s:String x:Key="String_ClearSecurityTokensQuestion">无法恢复此操作, 是否确实要清除所有安全令牌？</s:String>
+    <s:String x:Key="String_TokenExists">同名的凭据已经存在。</s:String>
+    <s:String x:Key="String_DeleteCredentials">删除凭据</s:String>
+    <s:String x:Key="String_DeleteCredentialsQuestion">无法恢复此操作, 是否确实要删除所选凭据？</s:String>
+    <s:String x:Key="String_ClearCredentials">清除凭据</s:String>
+    <s:String x:Key="String_ClearCredentialsQuestion">无法恢复此操作, 是否确实要清除所有凭据？</s:String>
     <!-- ViewProfileManagement.xaml -->
-    <s:String x:Key="String_ImportFromDot">从..。</s:String>
+    <s:String x:Key="String_ImportFromDot">导入...</s:String>
     <s:String x:Key="String_ProfileManagement_Para1">测试设置 (包括服务参数、测试环境、自定义变量、安全令牌、服务模拟行为) 被打包到配置文件中。</s:String>
     <s:String x:Key="String_ProfileManagement_Para2">配置文件可以导入、导出或共享给其他人。配置文件还可以嵌入到自动化项目中, 以简化自动化项目的测试设置。以下是可在应用程序中使用的所有配置文件:</s:String>
     <s:String x:Key="String_ProfileManagement_Note">注意: 手动测试使用默认配置文件, 无法在此编辑或删除。要修改默认配置文件, 请转到测试设置。</s:String>
-    <s:String x:Key="String_Actions">行动</s:String>
-    <s:String x:Key="String_Duplicate">重复</s:String>
+    <s:String x:Key="String_Actions">操作</s:String>
+    <s:String x:Key="String_Duplicate">复制</s:String>
     <s:String x:Key="String_Delete">删除</s:String>
     <s:String x:Key="String_Edit">编辑</s:String>
-    <s:String x:Key="String_SetAsActiveProfile">将此配置文件设置为活动配置文件</s:String>
+    <s:String x:Key="String_SetAsActiveProfile">将此配置文件设置为活动配置</s:String>
     <s:String x:Key="String_ProfileName">配置文件名称</s:String>
     <s:String x:Key="String_LastUpdated">上次更新时间</s:String>
     <s:String x:Key="String_EditProfileX">编辑配置文件: {0}</s:String>
-    <s:String x:Key="String_RecoverDeletedProfileX">配置文件 "{0}" 已被删除。如果您做错了什么, 请单击此处恢复</s:String>
+    <s:String x:Key="String_RecoverDeletedProfileX">配置文件 "{0}" 已被删除。如果是误操作, 请单击此处恢复</s:String>
     <s:String x:Key="String_EnterProfileName">输入配置文件名称</s:String>
     <s:String x:Key="String_EnterProfileNameTooltip">输入将为其复制当前配置文件的配置文件的名称。</s:String>
     <s:String x:Key="String_ProfileNameCannotBeEmpty">配置文件名称不能为空。</s:String>
@@ -132,15 +132,15 @@
     <!-- TEST MESSAGE STATUS -->
     <s:String x:Key="String_Status_None">未知</s:String>
     <s:String x:Key="String_Status_Pending">等待中</s:String>
-    <s:String x:Key="String_Status_Sending">正在发送</s:String>
+    <s:String x:Key="String_Status_Sending">发送中</s:String>
     <s:String x:Key="String_Status_Sent">已发送</s:String>
-    <s:String x:Key="String_Status_Receiving">正在接收</s:String>
+    <s:String x:Key="String_Status_Receiving">接收中</s:String>
     <s:String x:Key="String_Status_Received">已接收</s:String>
     <s:String x:Key="String_Status_Timeout">超时</s:String>
     <s:String x:Key="String_Status_Failed">失败</s:String>
     <s:String x:Key="String_Status_Abandoned">已放弃</s:String>
-    <s:String x:Key="String_Status_Replied">回答</s:String>
-    <s:String x:Key="String_Status_FaultReplied">Fault</s:String>
+    <s:String x:Key="String_Status_Replied">已回复</s:String>
+    <s:String x:Key="String_Status_FaultReplied">故障</s:String>
     <!-- HOME -->
     <s:String x:Key="String_Welcome">欢迎</s:String>
     <s:String x:Key="String_WatchIntroductionVideo">浏览介绍视频:</s:String>
@@ -152,16 +152,16 @@
     <s:String x:Key="String_PerformanceTest">性能测试</s:String>
     <s:String x:Key="String_IntegratedTools">集成工具</s:String>
     <s:String x:Key="String_BuildExtension">生成扩展</s:String>
-    <s:String x:Key="String_ExtensionDevelop">扩展名 (开发人员)</s:String>
-    <s:String x:Key="String_RequestsSent">发送的请求</s:String>
-    <s:String x:Key="String_TotalRequestsSent">作为驱动程序发送的请求总数</s:String>
+    <s:String x:Key="String_ExtensionDevelop">扩展 (开发者)</s:String>
+    <s:String x:Key="String_RequestsSent">已发送的请求</s:String>
+    <s:String x:Key="String_TotalRequestsSent">作为驱动器发送的请求总数</s:String>
     <s:String x:Key="String_RequestsReceived">收到的请求</s:String>
-    <s:String x:Key="String_TotalRequestsReceived">作为存根接收的请求总数</s:String>
-    <s:String x:Key="String_Automation">自动化</s:String>
+    <s:String x:Key="String_TotalRequestsReceived">作为桩接收的请求总数</s:String>
+    <s:String x:Key="String_Automation">测试自动化</s:String>
     <s:String x:Key="String_AutomatedTestCreated">创建的自动测试</s:String>
     <s:String x:Key="String_AutomatedTestExecuted">执行的自动测试</s:String>
     <s:String x:Key="String_SeeMoreDetails">查看更多详细信息..。</s:String>
-    <s:String x:Key="String_ResourcesLinks">资源和有用的链接</s:String>
+    <s:String x:Key="String_ResourcesLinks">资源与链接</s:String>
     <s:String x:Key="String_Documentation">文档</s:String>
     <s:String x:Key="String_HummingbirdProjectHomePage">Hummingbird 项目主页</s:String>
     <s:String x:Key="String_ResourcesOnGithub">GitHub 上的资源</s:String>
@@ -184,6 +184,7 @@
     <s:String x:Key="String_RestartRequired">需要重新启动</s:String>
     <s:String x:Key="String_RestartRequiredExtensionQuestion">您需要重新启动 Hummingbird 以卸载选定的扩展名. \n 是否现在要重新启动 Hummingbird？</s:String>
     <!-- TEST RUNNER -->
+    <s:String x:Key="String_ManualTestRunner">手动测试转轮</s:String>
     <s:String x:Key="String_VirtualServices">虚拟服务</s:String>
     <s:String x:Key="String_Messages">消息</s:String>
     <s:String x:Key="String_SendRequest">发送请求</s:String>
@@ -209,8 +210,8 @@
     <s:String x:Key="String_TooltipSecuredConnection">此事务是使用安全连接执行的。</s:String>
     <s:String x:Key="String_TooltipAuthenticationProcess">此事务是通过身份验证过程执行的。</s:String>
     <s:String x:Key="String_SearchResult">搜索结果:</s:String>
-    <s:String x:Key="String_Previous">以前</s:String>
-    <s:String x:Key="String_Next">下</s:String>
+    <s:String x:Key="String_Previous">上一个</s:String>
+    <s:String x:Key="String_Next">下一个</s:String>
     <s:String x:Key="String_XMessages">({0} 条消息)</s:String>
     <s:String x:Key="String_RenameMessage">重命名此邮件</s:String>
     <s:String x:Key="String_ShowRequestAsObject">将请求显示为对象</s:String>
@@ -221,8 +222,8 @@
     <s:String x:Key="String_ChangeSettings">更改设置</s:String>
     <s:String x:Key="String_Error">错误</s:String>
     <s:String x:Key="String_CannotStartFollowingService">无法启动以下服务:</s:String>
-    <s:String x:Key="String_ConfirmClearMessages">清除所有邮件？</s:String>
-    <s:String x:Key="String_ConfirmClearMessagesMessage">是否确实要清除所有邮件历史记录？</s:String>
+    <s:String x:Key="String_ConfirmClearMessages">清除所有消息？</s:String>
+    <s:String x:Key="String_ConfirmClearMessagesMessage">是否确实要清除所有消息历史记录？</s:String>
     <s:String x:Key="String_XofYMatches">{0} 个 {1} 个匹配项</s:String>
     <!-- SERVICE LIST -->
     <s:String x:Key="String_ShowListOf">显示列表</s:String>
@@ -240,22 +241,22 @@
     <s:String x:Key="String_WarningCopyright">警告：本计算机程序受著作权法和国际公约的保护，未经授权擅自复制或散布本程序的部分或全部，将遭受最严厉的民事及刑事处罚，对已知的违反者将给予法律范围内的最高制裁。</s:String>
     <s:String x:Key="String_LawDisclaimer">本软件按 "原样" 提供, 作者对此软件不作任何保证, 包括适销性和适用性的所有隐含保证。在任何情况下, 提交人不得对任何特殊的、直接的、间接的或相应的损害或因使用、数据或利润损失而造成的任何损害承担责任, 无论是在合同、过失或其他侵权行为中引起的或在与此软件的使用或性能有关。</s:String>
     <s:String x:Key="String_Components">组件</s:String>
-    <s:String x:Key="String_AddinExtension">外接程序和扩展</s:String>
+    <s:String x:Key="String_AddinExtension">附加组件和扩展</s:String>
     <!-- ViewStatistics.xaml -->
     <s:String x:Key="String_TodaysActivities">今天的活动</s:String>
     <s:String x:Key="String_ResponsesSimulated">响应模拟</s:String>
     <s:String x:Key="String_AutomatedTestRun">自动测试运行</s:String>
     <s:String x:Key="String_ServiceSimulation">服务模拟</s:String>
-    <s:String x:Key="String_OvercallCalculatedFrom">整体-计算自:</s:String>
+    <s:String x:Key="String_OvercallCalculatedFrom">整体，计算自:</s:String>
     <s:String x:Key="String_Passed">通过</s:String>
     <s:String x:Key="String_Warning">警告</s:String>
     <s:String x:Key="String_Failed">失败</s:String>
-    <s:String x:Key="String_Sent">送</s:String>
+    <s:String x:Key="String_Sent">发送</s:String>
     <!-- ViewAutomationRunner -->
     <s:String x:Key="String_NewProject">新项目</s:String>
     <s:String x:Key="String_OpenProject">打开项目</s:String>
     <s:String x:Key="String_CloseProject">关闭项目</s:String>
-    <s:String x:Key="String_Save">救</s:String>
+    <s:String x:Key="String_Save">保存</s:String>
     <s:String x:Key="String_AutomationProject">自动化项目</s:String>
     <s:String x:Key="String_FunctionalTestEditorRunner">功能测试编辑器和转轮</s:String>
     <s:String x:Key="String_StartsFromHere">从这里开始</s:String>
@@ -329,7 +330,7 @@
     <s:String x:Key="String_XPathValidator">XPath 验证程序</s:String>
     <s:String x:Key=" ">XPath 验证器</s:String>
     <!-- ViewExtensionDesigner -->
-    <s:String x:Key="String_DesignerTooltip">在Hummingbird测试框架中, 服务以3级组织。请在组织内尽可能自然地组织这些服务。</s:String>
+    <s:String x:Key="String_DesignerTooltip">在Hummingbird测试框架中, 服务以3级组织。请尽可能自然地组织这些服务。</s:String>
     <s:String x:Key="String_DesignerApplicationTooltip">当用作驱动程序时, 您正在测试的系统的名称。作为存根, Hummingbird 模拟的应用程序的名称。</s:String>
     <s:String x:Key="String_DesignerCategoryTooltip">功能类别的服务。
  例如: 客户添加、修改、删除的所有服务都可以在 [客户管理] 类别中组织。</s:String>

@@ -71,7 +71,7 @@
     <s:String x:Key="String_Services">Υπηρεσίες</s:String>
     <s:String x:Key="String_SystemVariables">Μεταβλητές συστήματος</s:String>
     <s:String x:Key="String_CustomVariables">Προσαρμοσμένες μεταβλητές</s:String>
-    <s:String x:Key="String_SecurityTokens">Κωδικοί ασφαλείας</s:String>
+    <s:String x:Key="String_Credentials">Πιστοποιήσεις</s:String>
     <s:String x:Key="String_MaxRequestPerService">Max αποθηκευμένες αιτήσεις ανά υπηρεσία:</s:String>
     <s:String x:Key="String_MaxRequestPerServiceTooltip">Μέγιστος αριθμός των αιτήσεων ανά υπηρεσία μπορούν να αποθηκευτούν για γρήγορη επανάληψη αποστολής. η προεπιλεγμένη τιμή είναι 20.</s:String>
     <s:String x:Key="String_MaxMessages">Max μηνύματα:</s:String>
@@ -105,11 +105,11 @@
     <s:String x:Key="String_CannotCopyEVTooltip">Δεν είναι δυνατό να αντιγράψετε τις τιμές από το ίδιο το περιβάλλον, παρακαλώ επιλέξτε ένα άλλο περιβάλλον.</s:String>
     <s:String x:Key="String_EnterUserName">Εισάγετε το όνομα χρήστη</s:String>
     <s:String x:Key="String_EnterUserNameTooltip">Παρακαλώ εισάγετε ένα όνομα χρήστη για να χρησιμοποιήσετε.</s:String>
-    <s:String x:Key="String_TokenExists">Το διακριτικό του ίδιου ονόματος έχει ήδη υπάρχει.</s:String>
-    <s:String x:Key="String_DeleteSecurityTokens">Διαγραφή του διακριτικά ασφάλειας</s:String>
-    <s:String x:Key="String_DeleteSecurityTokensQuestion">Αυτή η λειτουργία δεν μπορεί να ανακτηθεί, είστε βέβαιοι να διαγράψετε διακριτικά επιλεγμένη ασφάλειας;</s:String>
-    <s:String x:Key="String_ClearSecurityTokens">Διακριτικά σαφή ασφάλειας</s:String>
-    <s:String x:Key="String_ClearSecurityTokensQuestion">Αυτή η λειτουργία δεν μπορεί να ανακτηθεί, είστε βέβαιοι να καταργήσετε όλα τα διακριτικά ασφάλειας;</s:String>
+    <s:String x:Key="String_TokenExists">Τα διαπιστευτήρια του ίδιου ονόματος έχει ήδη υπάρχει.</s:String>
+    <s:String x:Key="String_DeleteCredentials">Διαγραφή των πιστοποιήσεων</s:String>
+    <s:String x:Key="String_DeleteCredentialsQuestion">Αυτή η λειτουργία δεν μπορεί να ανακτηθεί, είστε βέβαιοι να διαγράψετε την επιλεγμένη πιστοποιήσεις;</s:String>
+    <s:String x:Key="String_ClearCredentials">Εκκαθάριση διαπιστευτηρίων</s:String>
+    <s:String x:Key="String_ClearCredentialsQuestion">Αυτή η λειτουργία δεν μπορεί να ανακτηθεί, είστε βέβαιοι να καταργήσετε όλα τα διαπιστευτήρια;</s:String>
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">Εισαγωγή από...</s:String>
     <!-- PROFILE MANAGEMENT -->
@@ -185,6 +185,7 @@
     <s:String x:Key="String_RestartRequired">Απαιτείται επανεκκίνηση</s:String>
     <s:String x:Key="String_RestartRequiredExtensionQuestion">Πρέπει να επανεκκινήσετε το κολίβριο για να απεγκαταστήσετε το επιλεγμένο επέκταση. \nDo να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
     <!-- TEST RUNNER -->
+    <s:String x:Key="String_ManualTestRunner">Μη αυτόματη δοκιμή δρομέας</s:String>
     <s:String x:Key="String_VirtualServices">Εικονικές υπηρεσίες</s:String>
     <s:String x:Key="String_Messages">Μηνύματα</s:String>
     <s:String x:Key="String_SendRequest">Αποστολή αίτησης</s:String>
@@ -296,7 +297,7 @@
     <s:String x:Key="String_AutomationProjectSaved">Το έργο έχει αποθηκευτεί.</s:String>
     <s:String x:Key="String_SaveAutomationProjectTitle">Αποθήκευση έργου αυτοματισμού: {0}</s:String>
     <s:String x:Key="String_OpenAutomationProjectTitle">Ανοίξτε ένα αρχείο έργου αυτοματισμού</s:String>
-    <s:String x:Key="String_SaveAutomationProjectFilter">Έργου αυτοματισμού (*. APX) | *. APX | Όλα τα αρχεία (*. *) | *. *</s:String>
+    <s:String x:Key="String_SaveAutomationProjectFilter">Έργου αυτοματισμού (*.APX)|*.APX | Όλα τα αρχεία (*.*)|*.*</s:String>
     <s:String x:Key="String_AnErrorHasOccurred">Παρουσιάστηκε σφάλμα</s:String>
     <s:String x:Key="String_AnErrorHasOccurredSavingAutomationProject">Παρουσιάστηκε ένα σφάλμα κατά την αποθήκευση του έργου αυτοματισμού.</s:String>
     <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">Παρουσιάστηκε ένα σφάλμα κατά τη φόρτωση του έργου αυτοματισμού.</s:String>

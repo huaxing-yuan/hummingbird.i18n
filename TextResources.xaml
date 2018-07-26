@@ -74,7 +74,7 @@
     <s:String x:Key="String_Services">Services</s:String>
     <s:String x:Key="String_SystemVariables">System Variables</s:String>
     <s:String x:Key="String_CustomVariables">Custom Variables</s:String>
-    <s:String x:Key="String_SecurityTokens">Security Tokens</s:String>
+    <s:String x:Key="String_Credentials">Credentials</s:String>
     <s:String x:Key="String_MaxRequestPerService">Max saved requests per service:</s:String>
     <s:String x:Key="String_MaxRequestPerServiceTooltip">Maximum number of requests per service can be saved for fast resend. the default value is 20.</s:String>
     <s:String x:Key="String_MaxMessages">Max Messages:</s:String>
@@ -108,11 +108,11 @@
     <s:String x:Key="String_CannotCopyEVTooltip">It is not possible to copy the values from the environment itself, please select another environment.</s:String>
     <s:String x:Key="String_EnterUserName">Enter the user name</s:String>
     <s:String x:Key="String_EnterUserNameTooltip">Please enter a user name to use.</s:String>
-    <s:String x:Key="String_TokenExists">The token of same name has already exists.</s:String>
-    <s:String x:Key="String_DeleteSecurityTokens">Delete security tokens</s:String>
-    <s:String x:Key="String_DeleteSecurityTokensQuestion">This operation can not be recovered, Are you sure to delete selected security tokens?</s:String>
-    <s:String x:Key="String_ClearSecurityTokens">Clear security tokens</s:String>
-    <s:String x:Key="String_ClearSecurityTokensQuestion">This operation can not be recovered, Are you sure to clear all security tokens?</s:String>
+    <s:String x:Key="String_TokenExists">The credential of same name has already exists.</s:String>
+    <s:String x:Key="String_DeleteCredentials">Delete credentials</s:String>
+    <s:String x:Key="String_DeleteCredentialsQuestion">This operation can not be recovered, Are you sure to delete selected credentials?</s:String>
+    <s:String x:Key="String_ClearCredentials">Clear credentials</s:String>
+    <s:String x:Key="String_ClearCredentialsQuestion">This operation can not be recovered, Are you sure to clear all credentials?</s:String>
 
 
     <!-- ViewProfileManagement.xaml -->

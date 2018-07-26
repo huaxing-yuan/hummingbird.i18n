@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:Hummingbird.TestManager" xmlns:s="clr-namespace:System;assembly=mscorlib">
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib">
     <s:String x:Key="String_ApplicationName">Hummingbird</s:String>
     <s:String x:Key="String_ApplicationDescription">AN INTEGRATED TEST SOLUTION</s:String>
     <!-- Menu -->
@@ -71,7 +71,6 @@
     <s:String x:Key="String_Services">Servicios</s:String>
     <s:String x:Key="String_SystemVariables">Variables de sistema</s:String>
     <s:String x:Key="String_CustomVariables">Variables personalizadas</s:String>
-    <s:String x:Key="String_SecurityTokens">Tokens de seguridad</s:String>
     <s:String x:Key="String_MaxRequestPerService">Max había guarda las solicitudes de servicio:</s:String>
     <s:String x:Key="String_MaxRequestPerServiceTooltip">Número máximo de solicitudes por servicio se puede guardar para enviar rápido. el valor predeterminado es 20.</s:String>
     <s:String x:Key="String_MaxMessages">Mensajes de Max:</s:String>
@@ -105,11 +104,10 @@
     <s:String x:Key="String_CannotCopyEVTooltip">No es posible copiar los valores del ambiente sí mismo, por favor, seleccione otro ambiente.</s:String>
     <s:String x:Key="String_EnterUserName">Introduzca el nombre de usuario</s:String>
     <s:String x:Key="String_EnterUserNameTooltip">Introduzca un nombre de usuario a utilizar.</s:String>
-    <s:String x:Key="String_TokenExists">El símbolo del mismo nombre tiene ya existe.</s:String>
-    <s:String x:Key="String_DeleteSecurityTokens">Eliminar tokens de seguridad</s:String>
-    <s:String x:Key="String_DeleteSecurityTokensQuestion">Esta operación no puede ser recuperado, ¿estás seguro de eliminar tokens de seguridad seleccionado?</s:String>
-    <s:String x:Key="String_ClearSecurityTokens">Tokens de seguridad claro</s:String>
-    <s:String x:Key="String_ClearSecurityTokensQuestion">Esta operación no puede ser recuperado, ¿estás seguro de borrar todos los tokens de seguridad?</s:String>
+    <s:String x:Key="String_DeleteCredentials">Eliminar las credenciales</s:String>
+    <s:String x:Key="String_DeleteCredentialsQuestion">Esta operación no puede ser recuperado, ¿estás seguro de eliminar las credenciales?</s:String>
+    <s:String x:Key="String_ClearCredentials">Credenciales de claro</s:String>
+    <s:String x:Key="String_ClearCredentialsQuestion">Esta operación no puede ser recuperado, ¿estás seguro de borrar todas las credenciales?</s:String>
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">Importar de...</s:String>
     <!-- PROFILE MANAGEMENT -->
@@ -185,6 +183,7 @@
     <s:String x:Key="String_RestartRequired">Hay que reiniciar</s:String>
     <s:String x:Key="String_RestartRequiredExtensionQuestion">¿Tendrá que reiniciar el colibrí para desinstalar la extensión. \nDo seleccionado que desea reiniciar ahora colibrí?</s:String>
     <!-- TEST RUNNER -->
+    <s:String x:Key="String_ManualTestRunner">Corredor de prueba manual</s:String>
     <s:String x:Key="String_VirtualServices">Servicios virtuales</s:String>
     <s:String x:Key="String_Messages">Mensajes</s:String>
     <s:String x:Key="String_SendRequest">Enviar solicitud</s:String>
@@ -296,7 +295,7 @@
     <s:String x:Key="String_AutomationProjectSaved">Se ha guardado el proyecto.</s:String>
     <s:String x:Key="String_SaveAutomationProjectTitle">Guardar proyecto de automatización: {0}</s:String>
     <s:String x:Key="String_OpenAutomationProjectTitle">Abrir un archivo de proyecto de automatización</s:String>
-    <s:String x:Key="String_SaveAutomationProjectFilter">Proyecto de automatización (*. APX) | *. APX | Todos los archivos (*. *) | *. *</s:String>
+    <s:String x:Key="String_SaveAutomationProjectFilter">Proyecto de automatización (*. APX)|*.APX|Todos los archivos (*.*)|*.*</s:String>
     <s:String x:Key="String_AnErrorHasOccurred">Ha ocurrido un error</s:String>
     <s:String x:Key="String_AnErrorHasOccurredSavingAutomationProject">Ha producido un error al guardar el proyecto de automatización.</s:String>
     <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">Ha producido un error al cargar el proyecto de automatización.</s:String>

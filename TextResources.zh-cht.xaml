@@ -71,7 +71,7 @@
     <s:String x:Key="String_Services">服務</s:String>
     <s:String x:Key="String_SystemVariables">系統變量</s:String>
     <s:String x:Key="String_CustomVariables">自定義變量</s:String>
-    <s:String x:Key="String_SecurityTokens">安全令牌</s:String>
+    <s:String x:Key="String_Credentials">憑據</s:String>
     <s:String x:Key="String_MaxRequestPerService">每個服務可存儲的請求數:</s:String>
     <s:String x:Key="String_MaxRequestPerServiceTooltip">可以保存每個服務的最大請求數以快速重新發送。預設值為20。</s:String>
     <s:String x:Key="String_MaxMessages">Max Messages:</s:String>
@@ -105,11 +105,11 @@
     <s:String x:Key="String_CannotCopyEVTooltip">無法從環境本身複製值, 請選擇其他環境。</s:String>
     <s:String x:Key="String_EnterUserName">輸入使用者名</s:String>
     <s:String x:Key="String_EnterUserNameTooltip">請輸入要使用的使用者名。</s:String>
-    <s:String x:Key="String_TokenExists">同名的標記已經存在。</s:String>
-    <s:String x:Key="String_DeleteSecurityTokens">刪除安全權杖</s:String>
-    <s:String x:Key="String_DeleteSecurityTokensQuestion">無法恢復此操作, 是否確實要刪除所選的安全權杖？</s:String>
-    <s:String x:Key="String_ClearSecurityTokens">清除安全權杖</s:String>
-    <s:String x:Key="String_ClearSecurityTokensQuestion">無法恢復此操作, 是否確實要清除所有安全權杖？</s:String>
+    <s:String x:Key="String_TokenExists">同名的憑據已經存在。</s:String>
+    <s:String x:Key="String_DeleteCredentials">刪除憑據</s:String>
+    <s:String x:Key="String_DeleteCredentialsQuestion">無法恢復此操作, 是否確實要刪除所選憑據？</s:String>
+    <s:String x:Key="String_ClearCredentials">清除憑據</s:String>
+    <s:String x:Key="String_ClearCredentialsQuestion">無法恢復此操作, 是否確實要清除所有憑據？</s:String>
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">從..。</s:String>
     <s:String x:Key="String_ProfileManagement_Para1">測試設定 (包括服務參數、測試環境、自訂變數、安全權杖、服務類比行為) 被打包到設定檔中。</s:String>
@@ -169,7 +169,8 @@
     <s:String x:Key="String_TestFrameworkDocumentation">測試框架文檔</s:String>
     <s:String x:Key="String_ReportBugsSuggestions">報告 bug/建議</s:String>
     <s:String x:Key="String_LanguageChanged">語言已更改</s:String>
-    <s:String x:Key="String_LanauageChangedQuestion">您已經更改了首選語言。必須重新開機Hummingbird才能使更改生效. &#13; 您想現在重新開機 Hummingbird 嗎？</s:String>
+    <s:String x:Key="String_LanauageChangedQuestion">您已經更改了首選語言。必須重新開機Hummingbird才能使更改生效. 
+ 您想現在重新開機 Hummingbird 嗎？</s:String>
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">卸載</s:String>
     <s:String x:Key="String_InstallAnExtension">安裝副檔名</s:String>
@@ -185,6 +186,7 @@
     <s:String x:Key="String_RestartRequired">需要重新開機</s:String>
     <s:String x:Key="String_RestartRequiredExtensionQuestion">您需要重新開機 Hummingbird 以卸載選定的副檔名. \n 是否現在要重新開機 Hummingbird？</s:String>
     <!-- TEST RUNNER -->
+    <s:String x:Key="String_ManualTestRunner">手動測試轉輪</s:String>
     <s:String x:Key="String_VirtualServices">虛擬服務</s:String>
     <s:String x:Key="String_Messages">消息</s:String>
     <s:String x:Key="String_SendRequest">發送請求</s:String>

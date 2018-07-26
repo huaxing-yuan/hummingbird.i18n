@@ -71,7 +71,7 @@
     <s:String x:Key="String_Services">Dienstleistungen</s:String>
     <s:String x:Key="String_SystemVariables">Systemvariablen</s:String>
     <s:String x:Key="String_CustomVariables">Benutzerdefinierte Variablen</s:String>
-    <s:String x:Key="String_SecurityTokens">Sicherheits-Token</s:String>
+    <s:String x:Key="String_Credentials">Anmeldeinformationen</s:String>
     <s:String x:Key="String_MaxRequestPerService">Max gespeichert Anfragen pro Service:</s:String>
     <s:String x:Key="String_MaxRequestPerServiceTooltip">Maximale Anzahl von Anforderungen pro Dienst kann für schnelle erneut gespeichert werden. der Standardwert ist 20.</s:String>
     <s:String x:Key="String_MaxMessages">Max-Nachrichten:</s:String>
@@ -105,11 +105,11 @@
     <s:String x:Key="String_CannotCopyEVTooltip">Es ist nicht möglich, die Werte aus der Umgebung selbst kopieren, wählen bitte eine andere Umgebung.</s:String>
     <s:String x:Key="String_EnterUserName">Geben Sie den Benutzernamen</s:String>
     <s:String x:Key="String_EnterUserNameTooltip">Bitte geben Sie einen Benutzernamen zu verwenden.</s:String>
-    <s:String x:Key="String_TokenExists">Das Token mit gleichen Namen bereits vorhanden ist.</s:String>
-    <s:String x:Key="String_DeleteSecurityTokens">Sicherheits-Token löschen</s:String>
-    <s:String x:Key="String_DeleteSecurityTokensQuestion">Dieser Vorgang kann nicht werden wiederhergestellt, sind Sie sicher, ausgewählte Sicherheitstoken zu löschen?</s:String>
-    <s:String x:Key="String_ClearSecurityTokens">Eindeutige Sicherheits-Token</s:String>
-    <s:String x:Key="String_ClearSecurityTokensQuestion">Dieser Vorgang kann nicht werden wiederhergestellt, sind Sie sicher, dass alle Sicherheits-Token löschen?</s:String>
+    <s:String x:Key="String_TokenExists">Die Anmeldeinformationen des gleichen Namens hat bereits vorhanden ist.</s:String>
+    <s:String x:Key="String_DeleteCredentials">Löschen von Anmeldeinformationen</s:String>
+    <s:String x:Key="String_DeleteCredentialsQuestion">Dieser Vorgang kann nicht werden wiederhergestellt, bist du sicher, ausgewählte Referenzen zu löschen?</s:String>
+    <s:String x:Key="String_ClearCredentials">Klar Anmeldeinformationen</s:String>
+    <s:String x:Key="String_ClearCredentialsQuestion">Dieser Vorgang kann nicht werden wiederhergestellt, sind Sie sicher, dass alle Anmeldeinformationen löschen?</s:String>
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">Importieren von...</s:String>
     <!-- PROFILE MANAGEMENT -->
@@ -169,7 +169,7 @@
     <s:String x:Key="String_TestFrameworkDocumentation">Test-Framework-Dokumentation</s:String>
     <s:String x:Key="String_ReportBugsSuggestions">Bericht Fehler/Anregungen</s:String>
     <s:String x:Key="String_LanguageChanged">Sprache ändern</s:String>
-    <s:String x:Key="String_LanauageChangedQuestion">Sie haben Ihre bevorzugte Sprache geändert. Hummingbird muss neu gestartet werden, um Veränderungen wirksam. \nDo machen Sie Hummingbird jetzt neu starten möchten?</s:String>
+    <s:String x:Key="String_LanauageChangedQuestion">Sie haben Ihre bevorzugte Sprache geändert. Hummingbird muss neu gestartet werden, um Veränderungen wirksam. \n machen Sie Hummingbird jetzt neu starten möchten?</s:String>
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">Deinstallieren</s:String>
     <s:String x:Key="String_InstallAnExtension">Eine Erweiterung zu installieren</s:String>
@@ -183,8 +183,9 @@
     <s:String x:Key="String_ConfirmExtensionUninstall">Bestätigen Erweiterung deinstallieren</s:String>
     <s:String x:Key="String_ConfirmExtensionUninstallQuestion">Möchten Sie die Erweiterung "{0}" deinstallieren</s:String>
     <s:String x:Key="String_RestartRequired">Neustart erforderlich</s:String>
-    <s:String x:Key="String_RestartRequiredExtensionQuestion">Sie müssen neu starten Hummingbird um die ausgewählte Erweiterung. \nDo deinstallieren, die Sie Hummingbird jetzt neu starten möchten?</s:String>
+    <s:String x:Key="String_RestartRequiredExtensionQuestion">Sie müssen neu starten Hummingbird um die ausgewählte Erweiterung. \n deinstallieren, die Sie Hummingbird jetzt neu starten möchten?</s:String>
     <!-- TEST RUNNER -->
+    <s:String x:Key="String_ManualTestRunner">Manueller Test runner</s:String>
     <s:String x:Key="String_VirtualServices">Virtuelle Services</s:String>
     <s:String x:Key="String_Messages">Nachrichten</s:String>
     <s:String x:Key="String_SendRequest">Anfrage senden</s:String>
@@ -296,7 +297,7 @@
     <s:String x:Key="String_AutomationProjectSaved">Projekt wurde gespeichert.</s:String>
     <s:String x:Key="String_SaveAutomationProjectTitle">Automatisierungsprojekt speichern: {0}</s:String>
     <s:String x:Key="String_OpenAutomationProjectTitle">Eine Automation Project-Datei öffnen</s:String>
-    <s:String x:Key="String_SaveAutomationProjectFilter">Automation-Projekt (*. APX) | *. APX | Alle Dateien (*. *) | *. *</s:String>
+    <s:String x:Key="String_SaveAutomationProjectFilter">Automation-Projekt (*. APX)|*.APX|Alle Dateien (*.*)| *.*</s:String>
     <s:String x:Key="String_AnErrorHasOccurred">Ein Fehler ist aufgetreten</s:String>
     <s:String x:Key="String_AnErrorHasOccurredSavingAutomationProject">Fehler beim Speichern von Automatisierungsprojekt.</s:String>
     <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">Fehler beim Laden von Automatisierungsprojekt.</s:String>

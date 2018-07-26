@@ -71,7 +71,7 @@
     <s:String x:Key="String_Services">서비스</s:String>
     <s:String x:Key="String_SystemVariables">시스템 변수</s:String>
     <s:String x:Key="String_CustomVariables">사용자 정의 변수</s:String>
-    <s:String x:Key="String_SecurityTokens">보안 토큰</s:String>
+    <s:String x:Key="String_Credentials">자격 증명</s:String>
     <s:String x:Key="String_MaxRequestPerService">최대 저장 서비스 요청:</s:String>
     <s:String x:Key="String_MaxRequestPerServiceTooltip">서비스 당 요청 최대 수는 빠른 다시 저장할 수 있습니다. 기본 값은 20입니다.</s:String>
     <s:String x:Key="String_MaxMessages">최대 메시지:</s:String>
@@ -105,11 +105,11 @@
     <s:String x:Key="String_CannotCopyEVTooltip">그것은 자체 환경에서 값을 복사, 다른 환경 선택 불가능 합니다.</s:String>
     <s:String x:Key="String_EnterUserName">사용자 이름 입력</s:String>
     <s:String x:Key="String_EnterUserNameTooltip">사용 하 여 사용자 이름을 입력 하십시오.</s:String>
-    <s:String x:Key="String_TokenExists">같은 이름의 토큰이 이미 존재.</s:String>
-    <s:String x:Key="String_DeleteSecurityTokens">보안 토큰을 삭제</s:String>
-    <s:String x:Key="String_DeleteSecurityTokensQuestion">이 작업을 복구할 수 없습니다, 선택한 보안 토큰을 삭제 하 시겠습니까?</s:String>
-    <s:String x:Key="String_ClearSecurityTokens">분명 보안 토큰</s:String>
-    <s:String x:Key="String_ClearSecurityTokensQuestion">이 작업을 복구할 수 없습니다, 모든 보안 토큰을 취소 하 시겠습니까?</s:String>
+    <s:String x:Key="String_TokenExists">자격 증명 같은 이름이 이미 존재.</s:String>
+    <s:String x:Key="String_DeleteCredentials">자격 증명 삭제</s:String>
+    <s:String x:Key="String_DeleteCredentialsQuestion">이 작업을 복구할 수 없습니다, 선택한 자격 증명을 삭제 하 시겠습니까?</s:String>
+    <s:String x:Key="String_ClearCredentials">명확한 자격 증명</s:String>
+    <s:String x:Key="String_ClearCredentialsQuestion">이 작업을 복구할 수 없습니다, 모든 자격 증명을 취소 하 시겠습니까?</s:String>
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">가져오기...</s:String>
     <!-- PROFILE MANAGEMENT -->
@@ -185,6 +185,7 @@
     <s:String x:Key="String_RestartRequired">다시 시작 필요</s:String>
     <s:String x:Key="String_RestartRequiredExtensionQuestion">선택한 확장. \nDo 벌 새를 지금 다시 시작 하 시겠습니까 제거 하 벌 새를 다시 시작 해야?</s:String>
     <!-- TEST RUNNER -->
+    <s:String x:Key="String_ManualTestRunner">수동 테스트 러너</s:String>
     <s:String x:Key="String_VirtualServices">가상 서비스</s:String>
     <s:String x:Key="String_Messages">메시지</s:String>
     <s:String x:Key="String_SendRequest">요청 보내기</s:String>
@@ -296,7 +297,7 @@
     <s:String x:Key="String_AutomationProjectSaved">프로젝트 저장 되었습니다.</s:String>
     <s:String x:Key="String_SaveAutomationProjectTitle">자동화 프로젝트 저장: {0}</s:String>
     <s:String x:Key="String_OpenAutomationProjectTitle">자동화 프로젝트 파일</s:String>
-    <s:String x:Key="String_SaveAutomationProjectFilter">자동화 프로젝트 (*. APX) | *. APX | 모든 파일 (*. *) | *. *</s:String>
+    <s:String x:Key="String_SaveAutomationProjectFilter">자동화 프로젝트 (*.APX)|*.APX |모든 파일(*.*)|*.*</s:String>
     <s:String x:Key="String_AnErrorHasOccurred">오류가 발생 했습니다.</s:String>
     <s:String x:Key="String_AnErrorHasOccurredSavingAutomationProject">자동화 프로젝트를 저장할 때 오류가 발생 했습니다.</s:String>
     <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">자동화 프로젝트를 로드할 때 오류가 발생 했습니다.</s:String>

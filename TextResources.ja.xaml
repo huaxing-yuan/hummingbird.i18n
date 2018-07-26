@@ -71,7 +71,7 @@
     <s:String x:Key="String_Services">サービス</s:String>
     <s:String x:Key="String_SystemVariables">システム変数</s:String>
     <s:String x:Key="String_CustomVariables">カスタム変数</s:String>
-    <s:String x:Key="String_SecurityTokens">セキュリティ トークン</s:String>
+    <s:String x:Key="String_Credentials">資格情報</s:String>
     <s:String x:Key="String_MaxRequestPerService">Max には、サービスごとの要求が保存されます。</s:String>
     <s:String x:Key="String_MaxRequestPerServiceTooltip">高速再送サービスごとの要求の最大数を保存できます。既定値は 20 です。</s:String>
     <s:String x:Key="String_MaxMessages">最大メッセージ:</s:String>
@@ -105,11 +105,11 @@
     <s:String x:Key="String_CannotCopyEVTooltip">環境自体の値をコピー、別の環境を選択してくださいに不可能です。</s:String>
     <s:String x:Key="String_EnterUserName">ユーザー名を入力します。</s:String>
     <s:String x:Key="String_EnterUserNameTooltip">使用するユーザー名を入力してください。</s:String>
-    <s:String x:Key="String_TokenExists">同じ名前のトークンは既に存在します。</s:String>
-    <s:String x:Key="String_DeleteSecurityTokens">セキュリティ トークンを削除します。</s:String>
-    <s:String x:Key="String_DeleteSecurityTokensQuestion">この操作は回復しないことができます、選択したセキュリティ トークンを削除するよろしいですか。</s:String>
-    <s:String x:Key="String_ClearSecurityTokens">明確なセキュリティ トークン</s:String>
-    <s:String x:Key="String_ClearSecurityTokensQuestion">この操作復元できません、すべてのセキュリティ トークンをクリアするよろしいですか。</s:String>
+    <s:String x:Key="String_TokenExists">同じ名前の資格情報が既に存在します。</s:String>
+    <s:String x:Key="String_DeleteCredentials">資格情報を削除します。</s:String>
+    <s:String x:Key="String_DeleteCredentialsQuestion">この操作復元できません、選択した資格情報を削除するよろしいですか。</s:String>
+    <s:String x:Key="String_ClearCredentials">資格情報のクリア</s:String>
+    <s:String x:Key="String_ClearCredentialsQuestion">この操作復元できません、すべての資格情報をクリアするよろしいですか。</s:String>
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">インポート.</s:String>
     <!-- PROFILE MANAGEMENT -->
@@ -169,7 +169,7 @@
     <s:String x:Key="String_TestFrameworkDocumentation">テスト フレームワークのドキュメント</s:String>
     <s:String x:Key="String_ReportBugsSuggestions">レポートのバグ/ご提案</s:String>
     <s:String x:Key="String_LanguageChanged">言語の変更</s:String>
-    <s:String x:Key="String_LanauageChangedQuestion">ご希望の言語を変更しました。ハチドリを再起動して、変更有効。 \nDo ハチドリを今すぐ再起動するを作る必要があります?</s:String>
+    <s:String x:Key="String_LanauageChangedQuestion">ご希望の言語を変更しました。ハチドリを再起動して、変更有効。 \nハチドリを今すぐ再起動するを作る必要があります?</s:String>
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">アンインストール</s:String>
     <s:String x:Key="String_InstallAnExtension">拡張機能をインストールします。</s:String>
@@ -183,8 +183,9 @@
     <s:String x:Key="String_ConfirmExtensionUninstall">拡張機能のアンインストールを確認します。</s:String>
     <s:String x:Key="String_ConfirmExtensionUninstallQuestion">拡張機能 '{0}' をアンインストールしてよろしい</s:String>
     <s:String x:Key="String_RestartRequired">再起動が必要です。</s:String>
-    <s:String x:Key="String_RestartRequiredExtensionQuestion">ハチドリはハチドリを今再起動する選択した拡張子。 \nDo をアンインストールするを再起動する必要が?</s:String>
+    <s:String x:Key="String_RestartRequiredExtensionQuestion">ハチドリはハチドリを今再起動する選択した拡張子。 \nをアンインストールするを再起動する必要が?</s:String>
     <!-- TEST RUNNER -->
+    <s:String x:Key="String_ManualTestRunner">手動テスト ランナー</s:String>
     <s:String x:Key="String_VirtualServices">仮想サービス</s:String>
     <s:String x:Key="String_Messages">メッセージ</s:String>
     <s:String x:Key="String_SendRequest">要求を送信します。</s:String>
@@ -237,7 +238,7 @@
     <s:String x:Key="String_UriTemplate">Uri テンプレート</s:String>
     <!-- ABOUT -->
     <s:String x:Key="String_Build">ビルド:</s:String>
-    <s:String x:Key="String_Copyright">© 著作権 2013年-2018 Huaxing 元、すべての権利予約します。</s:String>
+    <s:String x:Key="String_Copyright">© 著作権 2013年-2018 Huaxing YUAN、すべての権利予約します。</s:String>
     <s:String x:Key="String_WarningCopyright">警告: このコンピューター プログラムは著作権法および国際条約により保護されています。このプログラムの全部またはその一部を無断複製または民事または刑事上の重い罰則があり、法律の下で最大限可能な限り告訴されます。</s:String>
     <s:String x:Key="String_LawDisclaimer">ソフトウェアを配信、提供されて""あり著者が適合と適合性の暗黙の保証も含めこのソフトウェアに関するすべての保証を放棄します。はない著者ならない特別、直接的、間接的、あるいは必然的な損害または損害の責任を負う行為、契約、過失、またはその他の不法行為、使用、データ、利益の損失から生じる一切のうちで発生しました。使用またはこのソフトウェアのパフォーマンスと接続。</s:String>
     <s:String x:Key="String_Components">コンポーネント</s:String>
@@ -296,7 +297,7 @@
     <s:String x:Key="String_AutomationProjectSaved">プロジェクトが保存されています。</s:String>
     <s:String x:Key="String_SaveAutomationProjectTitle">オートメーション プロジェクトを保存: {0}</s:String>
     <s:String x:Key="String_OpenAutomationProjectTitle">オートメーション プロジェクトのファイルを開く</s:String>
-    <s:String x:Key="String_SaveAutomationProjectFilter">オートメーション プロジェクト (*。APX) | *。APX |すべてのファイル (*. *) | *. *</s:String>
+    <s:String x:Key="String_SaveAutomationProjectFilter">オートメーション プロジェクト (*.APX) | *.APX |すべてのファイル (*.*) |*.*</s:String>
     <s:String x:Key="String_AnErrorHasOccurred">エラーが発生しました</s:String>
     <s:String x:Key="String_AnErrorHasOccurredSavingAutomationProject">オートメーション プロジェクトを保存するときに、エラーが発生しました。</s:String>
     <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">オートメーション プロジェクトをロードするときに、エラーが発生しました。</s:String>
