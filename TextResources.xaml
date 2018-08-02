@@ -84,13 +84,13 @@
     <s:String x:Key="String_CloseAndShowOnDemande">Close window and show result on-demand</s:String>
     <s:String x:Key="String_AuthenticationU">AUTHENTICATION</s:String>
     <s:String x:Key="String_ErrorParsingParameterX">Error when parsing parameter '{0}'</s:String>
-    <s:String x:Key="String_ErrorParsingParameterDetails">Service {0}, Parameter {1}:\nValue '{2}' is not valid for its type '{3}'</s:String>
+    <s:String x:Key="String_ErrorParsingParameterDetails">Service {0}, Parameter {1}:&#13; Value '{2}' is not valid for its type '{3}'</s:String>
     <s:String x:Key="String_ResetToDefaultValue">Reset to its default value</s:String>
     <s:String x:Key="String_BrowseDot">Browse ...</s:String>
     <s:String x:Key="String_FindFileForX">Find a file for {0}</s:String>
     <s:String x:Key="String_AddTestEnvironment">Add an Test Environment</s:String>
     <s:String x:Key="String_AddTestEnvironmentTooltip">Enter the name of the new Test Environment</s:String>
-    <s:String x:Key="String_TestEnvironmentXExists">"There is already a test environment named '{0}'</s:String>
+    <s:String x:Key="String_TestEnvironmentXExists">There is already a test environment named '{0}'</s:String>
     <s:String x:Key="String_CannotRemove">Cannot remove</s:String>
     <s:String x:Key="String_CannotRemoveDefaultEnvironment">This is a default test environment which cannot be removed.</s:String>
     <s:String x:Key="String_ConfirmDelete">Confirm delete</s:String>
@@ -101,9 +101,9 @@
     <s:String x:Key="String_SystemVariableExists">You have already a system variable of the same name.</s:String>
     <s:String x:Key="String_NotAValidVariableName">The input name is an not valid variable name.</s:String>
     <s:String x:Key="String_ClearEnvironmentVariables">Clear environment variables</s:String>
-    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">This operation can not be recovered, Are you sure to clear all environment variables?\nIf they are referenced in requests, responses or automation scripts, they will encounter errors.</s:String>
+    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">This operation can not be recovered, Are you sure to clear all environment variables?&#13; If they are referenced in requests, responses or automation scripts, they will encounter errors.</s:String>
     <s:String x:Key="String_DeleteEnvironmentVariables">Delete environment variables</s:String>
-    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">This operation can not be recovered, Are you sure to delete selected environment variables?\nIf they are referenced in requests, responses or automation scripts, they will encounter errors.</s:String>
+    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">This operation can not be recovered, Are you sure to delete selected environment variables?&#13; If they are referenced in requests, responses or automation scripts, they will encounter errors.</s:String>
     <s:String x:Key="String_CannotCopyEV">Can not copy</s:String>
     <s:String x:Key="String_CannotCopyEVTooltip">It is not possible to copy the values from the environment itself, please select another environment.</s:String>
     <s:String x:Key="String_EnterUserName">Enter the user name</s:String>
@@ -114,7 +114,28 @@
     <s:String x:Key="String_ClearCredentials">Clear credentials</s:String>
     <s:String x:Key="String_ClearCredentialsQuestion">This operation can not be recovered, Are you sure to clear all credentials?</s:String>
 
-
+    <!-- Components\DefaultObjectEditor.xaml-->
+	<s:String x:Key="String_SyncColon">Sync: </s:String>
+	<s:String x:Key="String_SyncTextFromTreeView">Synchronize text from tree view.</s:String>
+	<s:String x:Key="String_SyncTreeViewFromText">Synchronize TreeView from Text</s:String>
+	<s:String x:Key="String_SearchTextTooltip">Search text from the TreeView or TextBox</s:String>
+	<s:String x:Key="String_CompareObjectTooltip">Compare the both side find the differences.</s:String>
+	<s:String x:Key="String_ParseVariablesTooltip">Parse variables in the request</s:String>
+	<s:String x:Key="String_ShowParsedText">Show parsed text</s:String>
+	<s:String x:Key="String_ManualMode">Manual Mode</s:String>
+	<s:String x:Key="String_ExpertMode">Expert Mode</s:String>
+	<s:String x:Key="String_RAWTooltip">Show object in its original form</s:String>
+	<s:String x:Key="String_XMLTooltip">Show object in XML Format</s:String>
+	<s:String x:Key="String_LineColumn">ln {0}, col {1}</s:String>
+	<s:String x:Key="String_ObjectTypeNull">&lt;!-- The object type is null. This request does not have a parameter --></s:String>
+	<s:String x:Key="String_ObjectCannotSerialized">This object can not be serialized, you can only view the object via the tree view.</s:String>
+	<s:String x:Key="String_InvalidOperation">Invalid operation</s:String>
+	<s:String x:Key="String_ViewNotSupportDeserialization">The current viewer does not support deserialization, you can edit the TreeView to modify the object.&#13; If you want to modify the object by editing the text, please choose XML view.</s:String>
+	<s:String x:Key="String_DeserializationErrorMessage">Deserialization Error - Unable to deserialize text to message. '{0}' (Click here for details)</s:String>
+	<s:String x:Key="String_DetailedTechnicalError">Detailed technical error: </s:String>
+	<s:String x:Key="String_UnableToParseXml">Unable to parse the XML: &#13;</s:String>
+	<s:String x:Key="String_ParsedRequest">Parsed Request</s:String>
+	
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">Import From ...</s:String>
     <s:String x:Key="String_ProfileManagement_Para1">Test Settings, including Services Parameters, Test Environments, Custom Variables, Security Tokens, Service simulation behaviors, are packed into Profiles.</s:String>
@@ -174,7 +195,7 @@
     <s:String x:Key="String_TestFrameworkDocumentation">Test Framework documentation</s:String>
     <s:String x:Key="String_ReportBugsSuggestions">Report bugs/suggestions</s:String>
     <s:String x:Key="String_LanguageChanged">Language Changed</s:String>
-    <s:String x:Key="String_LanauageChangedQuestion">You have changed your preferred language. Hummingbird must be restarted to make changes effective.\nDo you want to restart Hummingbird now?</s:String>
+    <s:String x:Key="String_LanauageChangedQuestion">You have changed your preferred language. Hummingbird must be restarted to make changes effective.&#13; Do you want to restart Hummingbird now?</s:String>
      
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">Uninstall</s:String>
@@ -189,7 +210,7 @@
     <s:String x:Key="String_ConfirmExtensionUninstall">Confirm extension uninstall</s:String>
     <s:String x:Key="String_ConfirmExtensionUninstallQuestion">Are you sure to uninstall the extension '{0}'</s:String>
     <s:String x:Key="String_RestartRequired">Restart Required</s:String>
-    <s:String x:Key="String_RestartRequiredExtensionQuestion">You need to restart Hummingbird to uninstall the selected extension.\nDo you want to restart Hummingbird now?</s:String>
+    <s:String x:Key="String_RestartRequiredExtensionQuestion">You need to restart Hummingbird to uninstall the selected extension.&#13; Do you want to restart Hummingbird now?</s:String>
     
 
     <!-- TEST RUNNER -->

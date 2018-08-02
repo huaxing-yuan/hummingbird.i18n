@@ -81,13 +81,13 @@
     <s:String x:Key="String_CloseAndShowOnDemande">Retourner à Test runner</s:String>
     <s:String x:Key="String_AuthenticationU">AUTHENTIFICATION</s:String>
     <s:String x:Key="String_ErrorParsingParameterX">Erreur lors de l’analyse de paramètre « {0} »</s:String>
-    <s:String x:Key="String_ErrorParsingParameterDetails">Service {0}, le paramètre {1} : \n Valeur « {2} » n’est pas valide pour le type « {3} »</s:String>
+    <s:String x:Key="String_ErrorParsingParameterDetails">Service {0}, le paramètre {1} : &#13; Valeur « {2} » n’est pas valide pour le type « {3} »</s:String>
     <s:String x:Key="String_ResetToDefaultValue">Rétablir la valeur par défaut</s:String>
     <s:String x:Key="String_BrowseDot">Parcourir...</s:String>
     <s:String x:Key="String_FindFileForX">Trouver un fichier {0}</s:String>
     <s:String x:Key="String_AddTestEnvironment">Ajouter un environnement de Test</s:String>
     <s:String x:Key="String_AddTestEnvironmentTooltip">Entrez le nom du nouvel environnement d’essai</s:String>
-    <s:String x:Key="String_TestEnvironmentXExists">« Il y a déjà un environnement de test nommé « {0} »</s:String>
+    <s:String x:Key="String_TestEnvironmentXExists">Il y a déjà un environnement de test nommé « {0} »</s:String>
     <s:String x:Key="String_CannotRemove">Impossible de supprimer</s:String>
     <s:String x:Key="String_CannotRemoveDefaultEnvironment">Il s’agit d’un environnement de test par défaut, qui ne peuvent pas être supprimé.</s:String>
     <s:String x:Key="String_ConfirmDelete">Confirmer la suppression</s:String>
@@ -97,10 +97,14 @@
     <s:String x:Key="String_EnvironmentVariableExists">La Variable d’environnement du même nom a déjà existe.</s:String>
     <s:String x:Key="String_SystemVariableExists">Vous avez déjà une variable système du même nom.</s:String>
     <s:String x:Key="String_NotAValidVariableName">Le nom d’entrée est un nom de variable non valid.</s:String>
-    <s:String x:Key="String_ClearEnvironmentVariables">Variables d’environnement clair</s:String>
-    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">Cette opération ne peut pas être récupéré, vous oubliez pas de vider toutes les variables d’environnement sont ? \nIf ils sont référencés dans les demandes, les réponses ou les scripts d’automatisation, qu’ils rencontreront des erreurs.</s:String>
+    <s:String x:Key="String_ClearEnvironmentVariables">Vider les variables d’environnement</s:String>
+    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">Cette opération ne peut pas être restauré, voulez-vous vider toutes les variables d’environnement ? 
+Si les variables sont référencés dans les requêtes, les réponses ou les scripts d’automatisation, vous allez rencontrer des erreurs.
+    </s:String>
     <s:String x:Key="String_DeleteEnvironmentVariables">Supprimer les variables d’environnement</s:String>
-    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">Cette opération ne peut pas être récupéré, êtes-vous sûr de supprimer les variables d’environnement sélectionné ? \nIf ils sont référencés dans les demandes, les réponses ou les scripts d’automatisation, qu’ils rencontreront des erreurs.</s:String>
+    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">Cette opération ne peut pas être restauré, voulez-vous supprimer les variables d’environnement selectionnés? 
+Si les variables sont référencés dans les requêtes, les réponses ou les scripts d’automatisation, vous allez rencontrer des erreurs.
+    </s:String>
     <s:String x:Key="String_CannotCopyEV">Ne peut pas copier</s:String>
     <s:String x:Key="String_CannotCopyEVTooltip">Il n’est pas possible de copier les valeurs de l’environnement lui-même, s’il vous plaît sélectionner un autre environnement.</s:String>
     <s:String x:Key="String_EnterUserName">Entrez le nom d’utilisateur</s:String>
@@ -108,8 +112,31 @@
     <s:String x:Key="String_TokenExists">Les lettres de créance du même nom a déjà existe.</s:String>
     <s:String x:Key="String_DeleteCredentials">Supprimer les informations d’identification</s:String>
     <s:String x:Key="String_DeleteCredentialsQuestion">Cette opération ne peut pas être récupéré, êtes-vous sûr de supprimer des références sélectionnées ?</s:String>
-    <s:String x:Key="String_ClearCredentials">Informations d’identification claires</s:String>
+    <s:String x:Key="String_ClearCredentials">Vider les informations d’identification</s:String>
     <s:String x:Key="String_ClearCredentialsQuestion">Cette opération ne peut pas être récupéré, tu es sûr effacer toutes les informations d’identification ?</s:String>
+    <!-- Components\DefaultObjectEditor.xaml-->
+    <s:String x:Key="String_SyncColon">Sync : </s:String>
+    <s:String x:Key="String_SyncTextFromTreeView">Synchroniser le texte depuis le TreeView.</s:String>
+    <s:String x:Key="String_SyncTreeViewFromText">Synchroniser le TreeView depuis texte</s:String>
+    <s:String x:Key="String_SearchTextTooltip">Recherche de texte dans le TreeView ou TextBox</s:String>
+    <s:String x:Key="String_CompareObjectTooltip">Comparer les deux côté trouver les différences.</s:String>
+    <s:String x:Key="String_ParseVariablesTooltip">Analyser les variables dans la requête</s:String>
+    <s:String x:Key="String_ShowParsedText">Afficher le texte analysé</s:String>
+    <s:String x:Key="String_ManualMode">Mode manuel</s:String>
+    <s:String x:Key="String_ExpertMode">Mode expert</s:String>
+    <s:String x:Key="String_RAWTooltip">Afficher l’objet sous sa forme originale</s:String>
+    <s:String x:Key="String_XMLTooltip">Afficher l’objet au format XML</s:String>
+    <s:String x:Key="String_LineColumn">ln {0}, col {1}</s:String>
+    <s:String x:Key="String_ObjectTypeNull">&lt;!--Le type d’objet est null. Cette requête n’a pas de paramètre --&gt;</s:String>
+    <s:String x:Key="String_ObjectCannotSerialized">Cet objet ne peut pas être désérialisé, vous pouvez uniquement visualiser l’objet via l’arborescence.</s:String>
+    <s:String x:Key="String_InvalidOperation">Opération non valide</s:String>
+    <s:String x:Key="String_ViewNotSupportDeserialization">Le visualiseur actif ne supporte pas la désérialisation, vous pouvez modifier le contrôle TreeView pour modifier l’objet.
+ Si vous souhaitez modifier l’objet en modifiant le texte, veuillez choisir la vue XML.</s:String>
+    <s:String x:Key="String_DeserializationErrorMessage">Erreur de la désérialisation - Impossible de désérialiser le message du texte. « {0} » (cliquez ici pour plus de détails)</s:String>
+    <s:String x:Key="String_DetailedTechnicalError">Erreur technique détaillée : </s:String>
+    <s:String x:Key="String_UnableToParseXml">Impossible d’analyser le code XML : 
+</s:String>
+    <s:String x:Key="String_ParsedRequest">requête analysée</s:String>
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">Importer ...</s:String>
     <s:String x:Key="String_ProfileManagement_Para1">Paramètres de test, y compris les paramètres des Services, des environnements de Test, Custom Variables, les jetons de sécurité, comportements de Service de simulation, sont emballés dans des profils.</s:String>
@@ -169,7 +196,8 @@
     <s:String x:Key="String_TestFrameworkDocumentation">Documentation de Test Framework</s:String>
     <s:String x:Key="String_ReportBugsSuggestions">Rapporter des bugs / suggestions</s:String>
     <s:String x:Key="String_LanguageChanged">Langue a changé</s:String>
-    <s:String x:Key="String_LanauageChangedQuestion">Vous avez changé la langue préférée. Hummingbird doit être redémarré pour faire des changements efficaces. \nDo que vous souhaitez redémarrer Hummingbird maintenant ?</s:String>
+    <s:String x:Key="String_LanauageChangedQuestion">Vous avez changé la langue préférée. Hummingbird doit être redémarré pour faire des changements efficaces. 
+Do que vous souhaitez redémarrer Hummingbird maintenant ?</s:String>
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">Désinstaller</s:String>
     <s:String x:Key="String_InstallAnExtension">Installez une Extension</s:String>
@@ -183,7 +211,8 @@
     <s:String x:Key="String_ConfirmExtensionUninstall">Confirmer la désinstallation de l’extension</s:String>
     <s:String x:Key="String_ConfirmExtensionUninstallQuestion">Êtes-vous sûr de désinstaller l’extension « {0} »</s:String>
     <s:String x:Key="String_RestartRequired">Redémarrage requis</s:String>
-    <s:String x:Key="String_RestartRequiredExtensionQuestion">Vous devez redémarrer le Hummingbird pour désinstaller l’extension. \nSouhaitez-vous redémarrer Hummingbird maintenant ?</s:String>
+    <s:String x:Key="String_RestartRequiredExtensionQuestion">Vous devez redémarrer le Hummingbird pour désinstaller l’extension. 
+Souhaitez-vous redémarrer Hummingbird maintenant ?</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">Testeur manuel</s:String>
     <s:String x:Key="String_VirtualServices">Services virtualisés</s:String>
@@ -199,7 +228,7 @@
     <s:String x:Key="String_Start">Démarrer</s:String>
     <s:String x:Key="String_Stop">Arrêter</s:String>
     <s:String x:Key="String_SelectServices">Selectionner les services</s:String>
-    <s:String x:Key="String_Options">options</s:String>
+    <s:String x:Key="String_Options">Options</s:String>
     <s:String x:Key="String_ClearMessages">Vider les messages</s:String>
     <s:String x:Key="String_ActivateLoging">journal</s:String>
     <s:String x:Key="String_ClearMessagesU">VIDER LES MESSAGES</s:String>
@@ -215,7 +244,7 @@
     <s:String x:Key="String_Next">SUIVANT</s:String>
     <s:String x:Key="String_XMessages">({0} messages)</s:String>
     <s:String x:Key="String_RenameMessage">Renommez ce message</s:String>
-    <s:String x:Key="String_ShowRequestAsObject">Voir la demande en tant qu’objet</s:String>
+    <s:String x:Key="String_ShowRequestAsObject">Voir la requête en tant qu’objet</s:String>
     <s:String x:Key="String_ShowReponseAsObject">Voir la réponse en tant qu’objet</s:String>
     <s:String x:Key="String_DeleteSelectedMessages">Supprimer les Messages sélectionnés</s:String>
     <s:String x:Key="String_ConfirmStatisticReset">Confirmer la réinitialisation de la statistique</s:String>

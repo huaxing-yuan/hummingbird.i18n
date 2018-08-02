@@ -81,7 +81,8 @@
     <s:String x:Key="String_CloseAndShowOnDemande">返回主窗口</s:String>
     <s:String x:Key="String_AuthenticationU">验证</s:String>
     <s:String x:Key="String_ErrorParsingParameterX">解析参数 "{0}" 时出错</s:String>
-    <s:String x:Key="String_ErrorParsingParameterDetails">服务 {0}, 参数 {1}: \n nValue "{2}" 对其类型 "{3}" 无效</s:String>
+    <s:String x:Key="String_ErrorParsingParameterDetails">服务 {0}, 参数 {1}:
+ "{2}" 对于类型 "{3}" 不是一个有效的值</s:String>
     <s:String x:Key="String_ResetToDefaultValue">重置为其默认值</s:String>
     <s:String x:Key="String_BrowseDot">浏览。。。</s:String>
     <s:String x:Key="String_FindFileForX">查找 {0} 的文件</s:String>
@@ -110,6 +111,28 @@
     <s:String x:Key="String_DeleteCredentialsQuestion">无法恢复此操作, 是否确实要删除所选凭据？</s:String>
     <s:String x:Key="String_ClearCredentials">清除凭据</s:String>
     <s:String x:Key="String_ClearCredentialsQuestion">无法恢复此操作, 是否确实要清除所有凭据？</s:String>
+    <!-- Components\DefaultObjectEditor.xaml-->
+    <s:String x:Key="String_SyncColon">同步：</s:String>
+    <s:String x:Key="String_SyncTextFromTreeView">将树视图中数据同步到文本。</s:String>
+    <s:String x:Key="String_SyncTreeViewFromText">将文本数据同步到树视图</s:String>
+    <s:String x:Key="String_SearchTextTooltip">从树视图或文本中搜索</s:String>
+    <s:String x:Key="String_CompareObjectTooltip">比较两边发现差异。</s:String>
+    <s:String x:Key="String_ParseVariablesTooltip">在请求中解析变量</s:String>
+    <s:String x:Key="String_ShowParsedText">显示已解析的文本</s:String>
+    <s:String x:Key="String_ManualMode">手动模式</s:String>
+    <s:String x:Key="String_ExpertMode">专家模式</s:String>
+    <s:String x:Key="String_RAWTooltip">以原始形式显示对象</s:String>
+    <s:String x:Key="String_XMLTooltip">以 XML 格式显示对象</s:String>
+    <s:String x:Key="String_LineColumn">行 {0}, 列 {1}</s:String>
+    <s:String x:Key="String_ObjectTypeNull">&lt;!--对象类型为 null. 此请求没有参数--&gt;</s:String>
+    <s:String x:Key="String_ObjectCannotSerialized">无法序列化此对象, 只能通过树视图查看对象。</s:String>
+    <s:String x:Key="String_InvalidOperation">无效操作</s:String>
+    <s:String x:Key="String_ViewNotSupportDeserialization">当前查看器不支持反序列化, 可以编辑树视图以修改对象。
+ 如果要通过编辑文本来修改对象, 请选择 "XML 视图"。</s:String>
+    <s:String x:Key="String_DeserializationErrorMessage">反序列化错误-无法将文本反序列化为消息。"{0}" (单击此处了解详细信息)</s:String>
+    <s:String x:Key="String_DetailedTechnicalError">详细技术错误:</s:String>
+    <s:String x:Key="String_UnableToParseXml">无法解析 XML:</s:String>
+    <s:String x:Key="String_ParsedRequest">分析的请求</s:String>
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">导入...</s:String>
     <s:String x:Key="String_ProfileManagement_Para1">测试设置 (包括服务参数、测试环境、自定义变量、安全令牌、服务模拟行为) 被打包到配置文件中。</s:String>
@@ -168,7 +191,8 @@
     <s:String x:Key="String_TestFrameworkDocumentation">测试框架文档</s:String>
     <s:String x:Key="String_ReportBugsSuggestions">报告 bug/建议</s:String>
     <s:String x:Key="String_LanguageChanged">语言已更改</s:String>
-    <s:String x:Key="String_LanauageChangedQuestion">您已经更改了首选语言。必须重新启动 Hummingbird 才能使更改生效. \n 您想现在重新启动 Hummingbird 吗？</s:String>
+    <s:String x:Key="String_LanauageChangedQuestion">您已经更改了首选语言。必须重新启动 Hummingbird 才能使更改生效. 
+ 您想现在重新启动 Hummingbird 吗？</s:String>
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">卸载</s:String>
     <s:String x:Key="String_InstallAnExtension">安装扩展名</s:String>
@@ -182,7 +206,8 @@
     <s:String x:Key="String_ConfirmExtensionUninstall">确认扩展卸载</s:String>
     <s:String x:Key="String_ConfirmExtensionUninstallQuestion">是否确实要卸载扩展名 "{0}"</s:String>
     <s:String x:Key="String_RestartRequired">需要重新启动</s:String>
-    <s:String x:Key="String_RestartRequiredExtensionQuestion">您需要重新启动 Hummingbird 以卸载选定的扩展名. \n 是否现在要重新启动 Hummingbird？</s:String>
+    <s:String x:Key="String_RestartRequiredExtensionQuestion">您需要重新启动 Hummingbird 以卸载选定的扩展名. 
+ 是否现在要重新启动 Hummingbird？</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">手动测试转轮</s:String>
     <s:String x:Key="String_VirtualServices">虚拟服务</s:String>

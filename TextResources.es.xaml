@@ -71,6 +71,7 @@
     <s:String x:Key="String_Services">Servicios</s:String>
     <s:String x:Key="String_SystemVariables">Variables de sistema</s:String>
     <s:String x:Key="String_CustomVariables">Variables personalizadas</s:String>
+    <s:String x:Key="String_Credentials">Credenciales</s:String>
     <s:String x:Key="String_MaxRequestPerService">Max había guarda las solicitudes de servicio:</s:String>
     <s:String x:Key="String_MaxRequestPerServiceTooltip">Número máximo de solicitudes por servicio se puede guardar para enviar rápido. el valor predeterminado es 20.</s:String>
     <s:String x:Key="String_MaxMessages">Mensajes de Max:</s:String>
@@ -80,7 +81,8 @@
     <s:String x:Key="String_CloseAndShowOnDemande">Cerrar ventana y mostrar el resultado de la demanda</s:String>
     <s:String x:Key="String_AuthenticationU">AUTENTICACIÓN DE</s:String>
     <s:String x:Key="String_ErrorParsingParameterX">Error al analizar el parámetro '{0}'</s:String>
-    <s:String x:Key="String_ErrorParsingParameterDetails">Servicio {0}, parámetro {1}: \nValue '{2}' no es válido para el tipo '{3}'</s:String>
+    <s:String x:Key="String_ErrorParsingParameterDetails">Servicio {0}, parámetro {1}: 
+Value '{2}' no es válido para el tipo '{3}'</s:String>
     <s:String x:Key="String_ResetToDefaultValue">Restablecer a su valor por defecto</s:String>
     <s:String x:Key="String_BrowseDot">Buscar...</s:String>
     <s:String x:Key="String_FindFileForX">Encontrar un archivo para {0}</s:String>
@@ -97,17 +99,43 @@
     <s:String x:Key="String_SystemVariableExists">Ya tienes una variable de sistema del mismo nombre.</s:String>
     <s:String x:Key="String_NotAValidVariableName">El nombre de entrada es un nombre de variable no válido.</s:String>
     <s:String x:Key="String_ClearEnvironmentVariables">Variables de entorno claro</s:String>
-    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">Esta operación no puede ser recuperado, ¿estás seguro de borrar todas las variables de entorno? \nIf que se hace referencia en las solicitudes, respuestas o secuencias de comandos de automatización, se encontrarán con errores.</s:String>
+    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">Esta operación no puede ser recuperado, ¿estás seguro de borrar todas las variables de entorno? 
+If que se hace referencia en las solicitudes, respuestas o secuencias de comandos de automatización, se encontrarán con errores.</s:String>
     <s:String x:Key="String_DeleteEnvironmentVariables">Eliminar las variables de entorno</s:String>
-    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">Esta operación no puede ser recuperado, ¿estás seguro de eliminar las variables de entorno seleccionado? \nIf que se hace referencia en las solicitudes, respuestas o secuencias de comandos de automatización, se encontrarán con errores.</s:String>
+    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">Esta operación no puede ser recuperado, ¿estás seguro de eliminar las variables de entorno seleccionado? 
+If que se hace referencia en las solicitudes, respuestas o secuencias de comandos de automatización, se encontrarán con errores.</s:String>
     <s:String x:Key="String_CannotCopyEV">No puede copiar</s:String>
     <s:String x:Key="String_CannotCopyEVTooltip">No es posible copiar los valores del ambiente sí mismo, por favor, seleccione otro ambiente.</s:String>
     <s:String x:Key="String_EnterUserName">Introduzca el nombre de usuario</s:String>
     <s:String x:Key="String_EnterUserNameTooltip">Introduzca un nombre de usuario a utilizar.</s:String>
+    <s:String x:Key="String_TokenExists">Cuenta con la credencial del mismo nombre ya existe.</s:String>
     <s:String x:Key="String_DeleteCredentials">Eliminar las credenciales</s:String>
     <s:String x:Key="String_DeleteCredentialsQuestion">Esta operación no puede ser recuperado, ¿estás seguro de eliminar las credenciales?</s:String>
     <s:String x:Key="String_ClearCredentials">Credenciales de claro</s:String>
     <s:String x:Key="String_ClearCredentialsQuestion">Esta operación no puede ser recuperado, ¿estás seguro de borrar todas las credenciales?</s:String>
+    <!-- Components\DefaultObjectEditor.xaml-->
+    <s:String x:Key="String_SyncColon">Sincronización: </s:String>
+    <s:String x:Key="String_SyncTextFromTreeView">Sincronizar el texto de la vista de árbol.</s:String>
+    <s:String x:Key="String_SyncTreeViewFromText">Sincronizar la vista de árbol del texto</s:String>
+    <s:String x:Key="String_SearchTextTooltip">Texto de la vista de árbol o cuadro de texto</s:String>
+    <s:String x:Key="String_CompareObjectTooltip">Comparar ambos lado encontrar las diferencias.</s:String>
+    <s:String x:Key="String_ParseVariablesTooltip">Analizar las variables en la solicitud</s:String>
+    <s:String x:Key="String_ShowParsedText">Mostrar texto analizado</s:String>
+    <s:String x:Key="String_ManualMode">Modo manual</s:String>
+    <s:String x:Key="String_ExpertMode">Modo experto</s:String>
+    <s:String x:Key="String_RAWTooltip">Objeto de mostrar en su forma original</s:String>
+    <s:String x:Key="String_XMLTooltip">Objeto de mostrar en formato XML</s:String>
+    <s:String x:Key="String_LineColumn">LN {0}, {1} col</s:String>
+    <s:String x:Key="String_ObjectTypeNull">&lt;!--Es el tipo de objeto Esta solicitud no tiene un parámetro--&gt; null.</s:String>
+    <s:String x:Key="String_ObjectCannotSerialized">Este objeto no se puede serializar, sólo puede ver el objeto a través de la vista de árbol.</s:String>
+    <s:String x:Key="String_InvalidOperation">Operación no válida</s:String>
+    <s:String x:Key="String_ViewNotSupportDeserialization">El espectador actual no admite la deserialización, se puede editar para modificar el objeto TreeView.
+ Si desea modificar el objeto de editar el texto, seleccione la vista XML.</s:String>
+    <s:String x:Key="String_DeserializationErrorMessage">Error - no se puede deserializar el texto mensaje de deserialización. '{0}' (haga clic aquí para detalles)</s:String>
+    <s:String x:Key="String_DetailedTechnicalError">Error técnico detallado: </s:String>
+    <s:String x:Key="String_UnableToParseXml">No se puede analizar el XML: 
+</s:String>
+    <s:String x:Key="String_ParsedRequest">Solicitud analizada</s:String>
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">Importar de...</s:String>
     <!-- PROFILE MANAGEMENT -->
@@ -167,7 +195,8 @@
     <s:String x:Key="String_TestFrameworkDocumentation">Documentación del Framework de prueba</s:String>
     <s:String x:Key="String_ReportBugsSuggestions">Informe de errores y sugerencias</s:String>
     <s:String x:Key="String_LanguageChanged">Idioma cambiado</s:String>
-    <s:String x:Key="String_LanauageChangedQuestion">Han cambiado su idioma preferido. Colibrí debe reiniciarse para realizar cambios eficaces. \nDo ¿desea reiniciar ahora colibrí?</s:String>
+    <s:String x:Key="String_LanauageChangedQuestion">Han cambiado su idioma preferido. Colibrí debe reiniciarse para realizar cambios eficaces. 
+Do ¿desea reiniciar ahora colibrí?</s:String>
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">Desinstalar</s:String>
     <s:String x:Key="String_InstallAnExtension">Instalar una extensión</s:String>
@@ -181,7 +210,8 @@
     <s:String x:Key="String_ConfirmExtensionUninstall">Confirme la desinstalación de extensión</s:String>
     <s:String x:Key="String_ConfirmExtensionUninstallQuestion">Está seguro de desinstalar la extensión '{0}'</s:String>
     <s:String x:Key="String_RestartRequired">Hay que reiniciar</s:String>
-    <s:String x:Key="String_RestartRequiredExtensionQuestion">¿Tendrá que reiniciar el colibrí para desinstalar la extensión. \nDo seleccionado que desea reiniciar ahora colibrí?</s:String>
+    <s:String x:Key="String_RestartRequiredExtensionQuestion">¿Tendrá que reiniciar el colibrí para desinstalar la extensión. 
+Do seleccionado que desea reiniciar ahora colibrí?</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">Corredor de prueba manual</s:String>
     <s:String x:Key="String_VirtualServices">Servicios virtuales</s:String>

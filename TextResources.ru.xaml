@@ -81,7 +81,8 @@
     <s:String x:Key="String_CloseAndShowOnDemande">Закройте окно и показать результат по требованию</s:String>
     <s:String x:Key="String_AuthenticationU">ПРОВЕРКА ПОДЛИННОСТИ</s:String>
     <s:String x:Key="String_ErrorParsingParameterX">Ошибка при анализе параметра «{0}»</s:String>
-    <s:String x:Key="String_ErrorParsingParameterDetails">Службы {0}, параметр {1}: \nValue «{2}» не является допустимым для его типа «{3}»</s:String>
+    <s:String x:Key="String_ErrorParsingParameterDetails">Службы {0}, параметр {1}:
+ Значение «{2}» не является допустимым для его типа «{3}»</s:String>
     <s:String x:Key="String_ResetToDefaultValue">Сбросить в значение по умолчанию</s:String>
     <s:String x:Key="String_BrowseDot">Просмотр...</s:String>
     <s:String x:Key="String_FindFileForX">Найдите файл для {0}</s:String>
@@ -98,9 +99,11 @@
     <s:String x:Key="String_SystemVariableExists">У вас уже системную переменную с тем же именем.</s:String>
     <s:String x:Key="String_NotAValidVariableName">Имя входа является не допустимым именем переменной.</s:String>
     <s:String x:Key="String_ClearEnvironmentVariables">Переменные среды ясно</s:String>
-    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">Эта операция не может быть восстановлена, вы уверены очистить все переменные среды? \nIf они упоминаются в запросы, ответы или сценариев автоматизации, они будут возникать ошибки.</s:String>
+    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">Эта операция не может быть восстановлена, вы уверены очистить все переменные среды? 
+If они упоминаются в запросы, ответы или сценариев автоматизации, они будут возникать ошибки.</s:String>
     <s:String x:Key="String_DeleteEnvironmentVariables">Удаление переменных среды</s:String>
-    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">Эта операция не может быть восстановлена, вы уверены удалить выбранные переменные? \nIf они упоминаются в запросы, ответы или сценариев автоматизации, они будут возникать ошибки.</s:String>
+    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">Эта операция не может быть восстановлена, вы уверены удалить выбранные переменные? 
+If они упоминаются в запросы, ответы или сценариев автоматизации, они будут возникать ошибки.</s:String>
     <s:String x:Key="String_CannotCopyEV">Не может копировать</s:String>
     <s:String x:Key="String_CannotCopyEVTooltip">Это не позволяет скопировать значения из самой среде, пожалуйста, выберите другую среду.</s:String>
     <s:String x:Key="String_EnterUserName">Введите имя пользователя</s:String>
@@ -110,6 +113,29 @@
     <s:String x:Key="String_DeleteCredentialsQuestion">Эта операция не может быть восстановлена, вы уверены удалить выбранные учетные данные?</s:String>
     <s:String x:Key="String_ClearCredentials">Четкие полномочия</s:String>
     <s:String x:Key="String_ClearCredentialsQuestion">Эта операция не может быть восстановлена, вы уверены очистить все полномочия?</s:String>
+    <!-- Components\DefaultObjectEditor.xaml-->
+    <s:String x:Key="String_SyncColon">Синхронизация: </s:String>
+    <s:String x:Key="String_SyncTextFromTreeView">Синхронизируйте текст из представления дерева.</s:String>
+    <s:String x:Key="String_SyncTreeViewFromText">Синхронизировать TreeView из текста</s:String>
+    <s:String x:Key="String_SearchTextTooltip">Поиск текста в TreeView или текстовое поле</s:String>
+    <s:String x:Key="String_CompareObjectTooltip">Сравнить обе стороны найти различия.</s:String>
+    <s:String x:Key="String_ParseVariablesTooltip">Синтаксический анализ переменных в запросе</s:String>
+    <s:String x:Key="String_ShowParsedText">Показать проанализированного текста</s:String>
+    <s:String x:Key="String_ManualMode">Ручной режим</s:String>
+    <s:String x:Key="String_ExpertMode">Экспертный режим</s:String>
+    <s:String x:Key="String_RAWTooltip">Показать объект в своем первоначальном виде</s:String>
+    <s:String x:Key="String_XMLTooltip">Показать объект в формате XML</s:String>
+    <s:String x:Key="String_LineColumn">LN {0}, коль {1}</s:String>
+    <s:String x:Key="String_ObjectTypeNull">&lt;!--Тип объекта — Этот запрос не содержит параметра--&gt; значение null.</s:String>
+    <s:String x:Key="String_ObjectCannotSerialized">Этот объект не может быть сериализован, вы можете только просматривать объект через представление в виде дерева.</s:String>
+    <s:String x:Key="String_InvalidOperation">Недопустимая операция</s:String>
+    <s:String x:Key="String_ViewNotSupportDeserialization">Текущего просмотра не поддерживает десериализации, вы можете редактировать изменять объект TreeView.
+ Если вы хотите, чтобы изменить объект путем редактирования текста, выберите представление XML.</s:String>
+    <s:String x:Key="String_DeserializationErrorMessage">При десериализации ошибка - не удалось десериализовать текста сообщения. «{0}» (нажмите здесь для подробной информации)</s:String>
+    <s:String x:Key="String_DetailedTechnicalError">Подробная техническая ошибка: </s:String>
+    <s:String x:Key="String_UnableToParseXml">Не удается выполнить синтаксический анализ XML: 
+</s:String>
+    <s:String x:Key="String_ParsedRequest">Проанализированный запрос</s:String>
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">Импорт из...</s:String>
     <!-- PROFILE MANAGEMENT -->
@@ -169,7 +195,8 @@
     <s:String x:Key="String_TestFrameworkDocumentation">Тест структуры документации</s:String>
     <s:String x:Key="String_ReportBugsSuggestions">Доклад ошибок/предложения</s:String>
     <s:String x:Key="String_LanguageChanged">Изменить язык</s:String>
-    <s:String x:Key="String_LanauageChangedQuestion">Вы изменили ваш предпочитаемый язык. Чтобы сделать изменения эффективным. \nDo вы перезагрузить колибри сейчас необходимо перезапустить колибри?</s:String>
+    <s:String x:Key="String_LanauageChangedQuestion">Вы изменили ваш предпочитаемый язык. Чтобы сделать изменения эффективным. 
+Do вы перезагрузить колибри сейчас необходимо перезапустить колибри?</s:String>
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">Удалить</s:String>
     <s:String x:Key="String_InstallAnExtension">Установить расширение</s:String>
@@ -183,7 +210,8 @@
     <s:String x:Key="String_ConfirmExtensionUninstall">Подтвердите удаление расширения</s:String>
     <s:String x:Key="String_ConfirmExtensionUninstallQuestion">Вы уверены, что удаление расширения «{0}»</s:String>
     <s:String x:Key="String_RestartRequired">Требуется перезагрузка</s:String>
-    <s:String x:Key="String_RestartRequiredExtensionQuestion">Вам нужно перезапустить колибри для удаления выбранного расширение. \nDo вы перезагрузить колибри сейчас?</s:String>
+    <s:String x:Key="String_RestartRequiredExtensionQuestion">Вам нужно перезапустить колибри для удаления выбранного расширение. 
+Do вы перезагрузить колибри сейчас?</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">Ручных тестов</s:String>
     <s:String x:Key="String_VirtualServices">Виртуальные услуги</s:String>

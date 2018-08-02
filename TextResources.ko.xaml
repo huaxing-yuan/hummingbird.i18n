@@ -81,7 +81,8 @@
     <s:String x:Key="String_CloseAndShowOnDemande">창 닫고 표시 결과에-수요</s:String>
     <s:String x:Key="String_AuthenticationU">인증</s:String>
     <s:String x:Key="String_ErrorParsingParameterX">오류 ' {0} ' 매개 변수를 구문 분석할 때</s:String>
-    <s:String x:Key="String_ErrorParsingParameterDetails">서비스 {0}, {1} 매개 변수: \nValue ' {2} ' 형식 '{3}'에 유효 하지 않습니다.</s:String>
+    <s:String x:Key="String_ErrorParsingParameterDetails">서비스 {0} 매개 변수 {1}:
+ 값 ' {2} ' 형식 '{3}'에 유효 하지 않습니다.</s:String>
     <s:String x:Key="String_ResetToDefaultValue">기본값 재설정</s:String>
     <s:String x:Key="String_BrowseDot">찾아보기...</s:String>
     <s:String x:Key="String_FindFileForX">{0}에 대 한 파일 찾기</s:String>
@@ -98,9 +99,11 @@
     <s:String x:Key="String_SystemVariableExists">당신은 이미 같은 이름의 시스템 변수.</s:String>
     <s:String x:Key="String_NotAValidVariableName">입력된 이름이 유효 하지 않은 변수 이름이입니다.</s:String>
     <s:String x:Key="String_ClearEnvironmentVariables">명확한 환경 변수</s:String>
-    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">이 작업 복구할 수 없습니다, 모든 환경 변수를 취소 하 시겠습니까? 요청, 응답 또는 자동화 스크립트에서 참조 하는 \nIf 그들은 오류가 발생할 것입니다.</s:String>
+    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">이 작업 복구할 수 없습니다, 모든 환경 변수를 취소 하 시겠습니까? 요청, 응답 또는 자동화 스크립트에서 참조 하는 
+If 그들은 오류가 발생할 것입니다.</s:String>
     <s:String x:Key="String_DeleteEnvironmentVariables">환경 변수 삭제</s:String>
-    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">이 작업을 복구할 수 없습니다, 선택한 환경 변수를 삭제 하 시겠습니까? 요청, 응답 또는 자동화 스크립트에서 참조 하는 \nIf 그들은 오류가 발생할 것입니다.</s:String>
+    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">이 작업을 복구할 수 없습니다, 선택한 환경 변수를 삭제 하 시겠습니까? 요청, 응답 또는 자동화 스크립트에서 참조 하는 
+If 그들은 오류가 발생할 것입니다.</s:String>
     <s:String x:Key="String_CannotCopyEV">복사할 수 없습니다.</s:String>
     <s:String x:Key="String_CannotCopyEVTooltip">그것은 자체 환경에서 값을 복사, 다른 환경 선택 불가능 합니다.</s:String>
     <s:String x:Key="String_EnterUserName">사용자 이름 입력</s:String>
@@ -110,6 +113,29 @@
     <s:String x:Key="String_DeleteCredentialsQuestion">이 작업을 복구할 수 없습니다, 선택한 자격 증명을 삭제 하 시겠습니까?</s:String>
     <s:String x:Key="String_ClearCredentials">명확한 자격 증명</s:String>
     <s:String x:Key="String_ClearCredentialsQuestion">이 작업을 복구할 수 없습니다, 모든 자격 증명을 취소 하 시겠습니까?</s:String>
+    <!-- Components\DefaultObjectEditor.xaml-->
+    <s:String x:Key="String_SyncColon">동기화: </s:String>
+    <s:String x:Key="String_SyncTextFromTreeView">트리 보기에서 텍스트를 동기화 합니다.</s:String>
+    <s:String x:Key="String_SyncTreeViewFromText">텍스트에서 TreeView를 동기화</s:String>
+    <s:String x:Key="String_SearchTextTooltip">TreeView 또는 텍스트 상자에서 텍스트 검색</s:String>
+    <s:String x:Key="String_CompareObjectTooltip">둘 다 비교 측면 차이점을 찾으십시오.</s:String>
+    <s:String x:Key="String_ParseVariablesTooltip">변수는 요청에서 구문 분석</s:String>
+    <s:String x:Key="String_ShowParsedText">구문 분석 된 텍스트 표시</s:String>
+    <s:String x:Key="String_ManualMode">수동 모드</s:String>
+    <s:String x:Key="String_ExpertMode">전문가 모드</s:String>
+    <s:String x:Key="String_RAWTooltip">원래 형태로 개체 표시</s:String>
+    <s:String x:Key="String_XMLTooltip">XML 형식으로 개체를 표시</s:String>
+    <s:String x:Key="String_LineColumn">ln {0} 열 {1}</s:String>
+    <s:String x:Key="String_ObjectTypeNull">&lt;!-개체 유형은 이다 null.이 요청에는--&gt; 매개 변수</s:String>
+    <s:String x:Key="String_ObjectCannotSerialized">이 개체를 serialize 할 수 없습니다, 개체 트리 보기를 통해 볼 수 있습니다.</s:String>
+    <s:String x:Key="String_InvalidOperation">잘못 된 작업</s:String>
+    <s:String x:Key="String_ViewNotSupportDeserialization">현재 뷰어 deserialization을 지원 하지 않습니다, 그리고 TreeView 개체를 수정 하려면 편집할 수 있습니다.
+ 텍스트를 편집 하 여 개체를 수정 하려면 XML 보기를 선택 하십시오.</s:String>
+    <s:String x:Key="String_DeserializationErrorMessage">오류-텍스트 메시지를 역직렬화 하는 수 없습니다 deserialization ' {0} ' (자세한 내용은 여기를 클릭)</s:String>
+    <s:String x:Key="String_DetailedTechnicalError">자세한 기술적인 오류: </s:String>
+    <s:String x:Key="String_UnableToParseXml">XML을 구문 분석할 수 없습니다: 
+</s:String>
+    <s:String x:Key="String_ParsedRequest">구문 분석 된 요청</s:String>
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">가져오기...</s:String>
     <!-- PROFILE MANAGEMENT -->
@@ -169,7 +195,8 @@
     <s:String x:Key="String_TestFrameworkDocumentation">테스트 프레임 워크 문서</s:String>
     <s:String x:Key="String_ReportBugsSuggestions">보고서 버그/제안</s:String>
     <s:String x:Key="String_LanguageChanged">언어 변경</s:String>
-    <s:String x:Key="String_LanauageChangedQuestion">선호 하는 언어를 변경 했습니다. 벌 새는 벌 새를 지금 다시 시작 하려면 변경 효과. \nDo 수 있도록 다시 시작 해야 합니까?</s:String>
+    <s:String x:Key="String_LanauageChangedQuestion">선호 하는 언어를 변경 했습니다. 벌 새는 벌 새를 지금 다시 시작 하려면 변경 효과. 
+Do 수 있도록 다시 시작 해야 합니까?</s:String>
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">제거</s:String>
     <s:String x:Key="String_InstallAnExtension">확장 설치</s:String>
@@ -183,7 +210,8 @@
     <s:String x:Key="String_ConfirmExtensionUninstall">확장 제거 확인</s:String>
     <s:String x:Key="String_ConfirmExtensionUninstallQuestion">확장명 ' {0} ' 제거 해야 당신은</s:String>
     <s:String x:Key="String_RestartRequired">다시 시작 필요</s:String>
-    <s:String x:Key="String_RestartRequiredExtensionQuestion">선택한 확장. \nDo 벌 새를 지금 다시 시작 하 시겠습니까 제거 하 벌 새를 다시 시작 해야?</s:String>
+    <s:String x:Key="String_RestartRequiredExtensionQuestion">선택한 확장. 
+Do 벌 새를 지금 다시 시작 하 시겠습니까 제거 하 벌 새를 다시 시작 해야?</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">수동 테스트 러너</s:String>
     <s:String x:Key="String_VirtualServices">가상 서비스</s:String>

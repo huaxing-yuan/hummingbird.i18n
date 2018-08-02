@@ -81,7 +81,8 @@
     <s:String x:Key="String_CloseAndShowOnDemande">Schließen Sie Fenster und Zeige Ergebnis auf Abruf</s:String>
     <s:String x:Key="String_AuthenticationU">AUTHENTIFIZIERUNG</s:String>
     <s:String x:Key="String_ErrorParsingParameterX">Fehler beim Parsen von Parameter "{0}"</s:String>
-    <s:String x:Key="String_ErrorParsingParameterDetails">Service {0}, Parameter {1}: \nValue "{2}" ist nicht gültig für den Typ "{3}"</s:String>
+    <s:String x:Key="String_ErrorParsingParameterDetails">Service: {0}, Parameter {1}
+ Wert "{2}" ist nicht gültig für den Typ "{3}"</s:String>
     <s:String x:Key="String_ResetToDefaultValue">Auf den Standardwert zurückgesetzt</s:String>
     <s:String x:Key="String_BrowseDot">Durchsuchen...</s:String>
     <s:String x:Key="String_FindFileForX">Suchen Sie eine Datei für {0}</s:String>
@@ -98,9 +99,11 @@
     <s:String x:Key="String_SystemVariableExists">Sie haben bereits eine Systemvariable mit dem gleichen Namen.</s:String>
     <s:String x:Key="String_NotAValidVariableName">Der Eingangsname ist eine nicht gültige Variablennamen.</s:String>
     <s:String x:Key="String_ClearEnvironmentVariables">Klar Umgebungsvariablen</s:String>
-    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">Dieser Vorgang kann nicht wiederhergestellt werden, sind Sie sicher, dass alle Umgebungsvariablen löschen? \nIf sie in Anfragen, Antworten oder Automatisierungs-Skripte, referenziert werden sie Fehler auftreten.</s:String>
+    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">Dieser Vorgang kann nicht wiederhergestellt werden, sind Sie sicher, dass alle Umgebungsvariablen löschen? 
+If sie in Anfragen, Antworten oder Automatisierungs-Skripte, referenziert werden sie Fehler auftreten.</s:String>
     <s:String x:Key="String_DeleteEnvironmentVariables">Environment-Variablen zu löschen</s:String>
-    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">Dieser Vorgang kann nicht wiederhergestellt werden, sind Sie sicher zu ausgewählten Umgebungsvariablen löschen? \nIf sie in Anfragen, Antworten oder Automatisierungs-Skripte, referenziert werden sie Fehler auftreten.</s:String>
+    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">Dieser Vorgang kann nicht wiederhergestellt werden, sind Sie sicher zu ausgewählten Umgebungsvariablen löschen? 
+If sie in Anfragen, Antworten oder Automatisierungs-Skripte, referenziert werden sie Fehler auftreten.</s:String>
     <s:String x:Key="String_CannotCopyEV">Kann nicht kopiert werden</s:String>
     <s:String x:Key="String_CannotCopyEVTooltip">Es ist nicht möglich, die Werte aus der Umgebung selbst kopieren, wählen bitte eine andere Umgebung.</s:String>
     <s:String x:Key="String_EnterUserName">Geben Sie den Benutzernamen</s:String>
@@ -110,6 +113,29 @@
     <s:String x:Key="String_DeleteCredentialsQuestion">Dieser Vorgang kann nicht werden wiederhergestellt, bist du sicher, ausgewählte Referenzen zu löschen?</s:String>
     <s:String x:Key="String_ClearCredentials">Klar Anmeldeinformationen</s:String>
     <s:String x:Key="String_ClearCredentialsQuestion">Dieser Vorgang kann nicht werden wiederhergestellt, sind Sie sicher, dass alle Anmeldeinformationen löschen?</s:String>
+    <!-- Components\DefaultObjectEditor.xaml-->
+    <s:String x:Key="String_SyncColon">Sync: </s:String>
+    <s:String x:Key="String_SyncTextFromTreeView">Text aus der Strukturansicht zu synchronisieren.</s:String>
+    <s:String x:Key="String_SyncTreeViewFromText">TreeView aus Text zu synchronisieren</s:String>
+    <s:String x:Key="String_SearchTextTooltip">Suche Text von TreeView oder TextBox</s:String>
+    <s:String x:Key="String_CompareObjectTooltip">Vergleichen Sie die beiden Seite finden Sie die Unterschiede.</s:String>
+    <s:String x:Key="String_ParseVariablesTooltip">Parsen von Variablen in der Anforderung</s:String>
+    <s:String x:Key="String_ShowParsedText">Analysierten Text anzeigen</s:String>
+    <s:String x:Key="String_ManualMode">Manuellen Modus</s:String>
+    <s:String x:Key="String_ExpertMode">Modus "Experte"</s:String>
+    <s:String x:Key="String_RAWTooltip">Zeige Objekt in seiner ursprünglichen form</s:String>
+    <s:String x:Key="String_XMLTooltip">Schauobjekt im XML-Format</s:String>
+    <s:String x:Key="String_LineColumn">LN {0}, {1} col</s:String>
+    <s:String x:Key="String_ObjectTypeNull">&lt;!--Der objekttyp ist Diese anforderung verfügt nicht über einen Parameter--&gt; Null.</s:String>
+    <s:String x:Key="String_ObjectCannotSerialized">Dieses Objekt kann nicht serialisiert werden, Sie können nur das Objekt über die Strukturansicht anzeigen.</s:String>
+    <s:String x:Key="String_InvalidOperation">Ungültiger Vorgang</s:String>
+    <s:String x:Key="String_ViewNotSupportDeserialization">Die aktuellen Viewer Deserialisierung nicht unterstützt, können Sie das TreeView um das Objekt zu ändern.
+ Wenn Sie das Objekt ändern, indem Sie den Text bearbeiten möchten, wählen Sie XML-Ansicht.</s:String>
+    <s:String x:Key="String_DeserializationErrorMessage">Deserialisierungszwecken Sie Fehler - nicht in der Lage, Text Nachricht zu deserialisieren. "{0}" (für Details hier klicken)</s:String>
+    <s:String x:Key="String_DetailedTechnicalError">Detaillierte technische Fehler: </s:String>
+    <s:String x:Key="String_UnableToParseXml">Nicht in der Lage, die XML-Datei zu analysieren: 
+</s:String>
+    <s:String x:Key="String_ParsedRequest">Analysierte Anfrage</s:String>
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">Importieren von...</s:String>
     <!-- PROFILE MANAGEMENT -->
@@ -169,7 +195,8 @@
     <s:String x:Key="String_TestFrameworkDocumentation">Test-Framework-Dokumentation</s:String>
     <s:String x:Key="String_ReportBugsSuggestions">Bericht Fehler/Anregungen</s:String>
     <s:String x:Key="String_LanguageChanged">Sprache ändern</s:String>
-    <s:String x:Key="String_LanauageChangedQuestion">Sie haben Ihre bevorzugte Sprache geändert. Hummingbird muss neu gestartet werden, um Veränderungen wirksam. \n machen Sie Hummingbird jetzt neu starten möchten?</s:String>
+    <s:String x:Key="String_LanauageChangedQuestion">Sie haben Ihre bevorzugte Sprache geändert. Hummingbird muss neu gestartet werden, um Veränderungen wirksam. 
+ machen Sie Hummingbird jetzt neu starten möchten?</s:String>
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">Deinstallieren</s:String>
     <s:String x:Key="String_InstallAnExtension">Eine Erweiterung zu installieren</s:String>
@@ -183,7 +210,8 @@
     <s:String x:Key="String_ConfirmExtensionUninstall">Bestätigen Erweiterung deinstallieren</s:String>
     <s:String x:Key="String_ConfirmExtensionUninstallQuestion">Möchten Sie die Erweiterung "{0}" deinstallieren</s:String>
     <s:String x:Key="String_RestartRequired">Neustart erforderlich</s:String>
-    <s:String x:Key="String_RestartRequiredExtensionQuestion">Sie müssen neu starten Hummingbird um die ausgewählte Erweiterung. \n deinstallieren, die Sie Hummingbird jetzt neu starten möchten?</s:String>
+    <s:String x:Key="String_RestartRequiredExtensionQuestion">Sie müssen neu starten Hummingbird um die ausgewählte Erweiterung. 
+ deinstallieren, die Sie Hummingbird jetzt neu starten möchten?</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">Manueller Test runner</s:String>
     <s:String x:Key="String_VirtualServices">Virtuelle Services</s:String>

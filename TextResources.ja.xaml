@@ -81,7 +81,8 @@
     <s:String x:Key="String_CloseAndShowOnDemande">ウィンドウを閉じるし、オンデマンドで結果を表示</s:String>
     <s:String x:Key="String_AuthenticationU">認証</s:String>
     <s:String x:Key="String_ErrorParsingParameterX">パラメーター '{0}' を解析中にエラー</s:String>
-    <s:String x:Key="String_ErrorParsingParameterDetails">サービス {0}、{1} パラメーター: \nValue '{2}' は、型 '{3}' に対して無効です</s:String>
+    <s:String x:Key="String_ErrorParsingParameterDetails">サービス {0}、{1} のパラメーター:
+ 値 '{2}' が型 '{3}' に対して有効ではないです。</s:String>
     <s:String x:Key="String_ResetToDefaultValue">既定値にリセットします。</s:String>
     <s:String x:Key="String_BrowseDot">参照.</s:String>
     <s:String x:Key="String_FindFileForX">{0} のファイルを見つける</s:String>
@@ -98,9 +99,11 @@
     <s:String x:Key="String_SystemVariableExists">既に同じ名前のシステム変数があります。</s:String>
     <s:String x:Key="String_NotAValidVariableName">入力した名前は有効ではない変数名です。</s:String>
     <s:String x:Key="String_ClearEnvironmentVariables">明確な環境変数</s:String>
-    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">回復することができない、あなたはすべての環境変数をクリアすることを確認この操作? 要求、応答または自動化スクリプトの中で参照する \nIf エラーが発生します。</s:String>
+    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">回復することができない、あなたはすべての環境変数をクリアすることを確認この操作? 要求、応答または自動化スクリプトの中で参照する 
+If エラーが発生します。</s:String>
     <s:String x:Key="String_DeleteEnvironmentVariables">環境変数を削除します。</s:String>
-    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">この操作は復元できません、選択した環境変数を削除するよろしいですか? 要求、応答または自動化スクリプトの中で参照する \nIf エラーが発生します。</s:String>
+    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">この操作は復元できません、選択した環境変数を削除するよろしいですか? 要求、応答または自動化スクリプトの中で参照する 
+If エラーが発生します。</s:String>
     <s:String x:Key="String_CannotCopyEV">コピーすることができます。</s:String>
     <s:String x:Key="String_CannotCopyEVTooltip">環境自体の値をコピー、別の環境を選択してくださいに不可能です。</s:String>
     <s:String x:Key="String_EnterUserName">ユーザー名を入力します。</s:String>
@@ -110,6 +113,28 @@
     <s:String x:Key="String_DeleteCredentialsQuestion">この操作復元できません、選択した資格情報を削除するよろしいですか。</s:String>
     <s:String x:Key="String_ClearCredentials">資格情報のクリア</s:String>
     <s:String x:Key="String_ClearCredentialsQuestion">この操作復元できません、すべての資格情報をクリアするよろしいですか。</s:String>
+    <!-- Components\DefaultObjectEditor.xaml-->
+    <s:String x:Key="String_SyncColon">同期:</s:String>
+    <s:String x:Key="String_SyncTextFromTreeView">ツリー ビューからテキストを同期させます。</s:String>
+    <s:String x:Key="String_SyncTreeViewFromText">テキストから TreeView を同期します。</s:String>
+    <s:String x:Key="String_SearchTextTooltip">Treeview コントロールまたはテキスト ボックスからテキストを検索</s:String>
+    <s:String x:Key="String_CompareObjectTooltip">両方を比較側は、違いを見つけます。</s:String>
+    <s:String x:Key="String_ParseVariablesTooltip">要求内の変数を解析します。</s:String>
+    <s:String x:Key="String_ShowParsedText">解析されたテキストを表示します。</s:String>
+    <s:String x:Key="String_ManualMode">マニュアル モード</s:String>
+    <s:String x:Key="String_ExpertMode">エキスパート モード</s:String>
+    <s:String x:Key="String_RAWTooltip">元の形式でオブジェクトを表示します。</s:String>
+    <s:String x:Key="String_XMLTooltip">オブジェクトを XML 形式で表示します。</s:String>
+    <s:String x:Key="String_LineColumn">ln {0}、列 {1}</s:String>
+    <s:String x:Key="String_ObjectTypeNull">&lt;!-オブジェクト型は null この要求には、--&gt; パラメーターがありません。</s:String>
+    <s:String x:Key="String_ObjectCannotSerialized">このオブジェクトがシリアル化されないことができます、のみ、ツリー ビューでオブジェクトを表示できます。</s:String>
+    <s:String x:Key="String_InvalidOperation">無効な操作</s:String>
+    <s:String x:Key="String_ViewNotSupportDeserialization">現在の閲覧者は逆シリアル化をサポートしていません、TreeView オブジェクトを変更するを編集することができます。
+ テキストを編集することによって、オブジェクトを変更する場合は、XML ビューを選択してください。</s:String>
+    <s:String x:Key="String_DeserializationErrorMessage">シリアル化解除エラー - メッセージ本文を逆シリアル化できません。'{0}' (詳細についてはここをクリック)</s:String>
+    <s:String x:Key="String_DetailedTechnicalError">詳細な技術的なエラー:</s:String>
+    <s:String x:Key="String_UnableToParseXml">XML を解析できません。</s:String>
+    <s:String x:Key="String_ParsedRequest">解析された要求</s:String>
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">インポート.</s:String>
     <!-- PROFILE MANAGEMENT -->
@@ -169,7 +194,8 @@
     <s:String x:Key="String_TestFrameworkDocumentation">テスト フレームワークのドキュメント</s:String>
     <s:String x:Key="String_ReportBugsSuggestions">レポートのバグ/ご提案</s:String>
     <s:String x:Key="String_LanguageChanged">言語の変更</s:String>
-    <s:String x:Key="String_LanauageChangedQuestion">ご希望の言語を変更しました。ハチドリを再起動して、変更有効。 \nハチドリを今すぐ再起動するを作る必要があります?</s:String>
+    <s:String x:Key="String_LanauageChangedQuestion">ご希望の言語を変更しました。ハチドリを再起動して、変更有効。 
+ハチドリを今すぐ再起動するを作る必要があります?</s:String>
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">アンインストール</s:String>
     <s:String x:Key="String_InstallAnExtension">拡張機能をインストールします。</s:String>
@@ -183,7 +209,8 @@
     <s:String x:Key="String_ConfirmExtensionUninstall">拡張機能のアンインストールを確認します。</s:String>
     <s:String x:Key="String_ConfirmExtensionUninstallQuestion">拡張機能 '{0}' をアンインストールしてよろしい</s:String>
     <s:String x:Key="String_RestartRequired">再起動が必要です。</s:String>
-    <s:String x:Key="String_RestartRequiredExtensionQuestion">ハチドリはハチドリを今再起動する選択した拡張子。 \nをアンインストールするを再起動する必要が?</s:String>
+    <s:String x:Key="String_RestartRequiredExtensionQuestion">ハチドリはハチドリを今再起動する選択した拡張子。 
+をアンインストールするを再起動する必要が?</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">手動テスト ランナー</s:String>
     <s:String x:Key="String_VirtualServices">仮想サービス</s:String>

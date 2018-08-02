@@ -81,7 +81,8 @@
     <s:String x:Key="String_CloseAndShowOnDemande">Κλείστε το παράθυρο και να δείξει αποτέλεσμα κατ΄απαίτηση</s:String>
     <s:String x:Key="String_AuthenticationU">ΈΛΕΓΧΟΣ ΤΑΥΤΌΤΗΤΑΣ</s:String>
     <s:String x:Key="String_ErrorParsingParameterX">Σφάλμα κατά την ανάλυση η παράμετρος '{0}'</s:String>
-    <s:String x:Key="String_ErrorParsingParameterDetails">Υπηρεσία {0}, παραμέτρου {1}: \nValue '{2}' δεν είναι έγκυρη για τον τύπο '{3}'</s:String>
+    <s:String x:Key="String_ErrorParsingParameterDetails">Υπηρεσία {0}, {1} η παράμετρος:
+ Τιμή '{2}' δεν είναι έγκυρη για τον τύπο '{3}'</s:String>
     <s:String x:Key="String_ResetToDefaultValue">Επαναφορά στην προεπιλεγμένη τιμή</s:String>
     <s:String x:Key="String_BrowseDot">Περιήγηση και στα...</s:String>
     <s:String x:Key="String_FindFileForX">Βρείτε ένα αρχείο για {0}</s:String>
@@ -98,9 +99,11 @@
     <s:String x:Key="String_SystemVariableExists">Έχετε ήδη μια μεταβλητή συστήματος του ίδιου ονόματος.</s:String>
     <s:String x:Key="String_NotAValidVariableName">Το όνομα εισόδου είναι ένα μη έγκυρο όνομα μεταβλητής.</s:String>
     <s:String x:Key="String_ClearEnvironmentVariables">Μεταβλητές περιβάλλοντος σαφή</s:String>
-    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">Αυτή η λειτουργία δεν μπορεί να ανακτηθεί, είστε βέβαιοι να καταργήσετε όλες τις μεταβλητές περιβάλλοντος; \nIf που αναφέρονται στις αιτήσεις, απαντήσεις ή δεσμών ενεργειών αυτοματισμού, αυτοί θα αντιμετωπίσετε σφάλματα.</s:String>
+    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">Αυτή η λειτουργία δεν μπορεί να ανακτηθεί, είστε βέβαιοι να καταργήσετε όλες τις μεταβλητές περιβάλλοντος; 
+If που αναφέρονται στις αιτήσεις, απαντήσεις ή δεσμών ενεργειών αυτοματισμού, αυτοί θα αντιμετωπίσετε σφάλματα.</s:String>
     <s:String x:Key="String_DeleteEnvironmentVariables">Διαγραφή του μεταβλητές περιβάλλοντος</s:String>
-    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">Αυτή η λειτουργία δεν μπορεί να ανακτηθεί, είστε βέβαιοι να διαγράψετε την επιλεγμένη Περιβάλλοντοςτο; \nIf που αναφέρονται στις αιτήσεις, απαντήσεις ή δεσμών ενεργειών αυτοματισμού, αυτοί θα αντιμετωπίσετε σφάλματα.</s:String>
+    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">Αυτή η λειτουργία δεν μπορεί να ανακτηθεί, είστε βέβαιοι να διαγράψετε την επιλεγμένη Περιβάλλοντοςτο; 
+If που αναφέρονται στις αιτήσεις, απαντήσεις ή δεσμών ενεργειών αυτοματισμού, αυτοί θα αντιμετωπίσετε σφάλματα.</s:String>
     <s:String x:Key="String_CannotCopyEV">Δεν μπορεί να αντιγράψει</s:String>
     <s:String x:Key="String_CannotCopyEVTooltip">Δεν είναι δυνατό να αντιγράψετε τις τιμές από το ίδιο το περιβάλλον, παρακαλώ επιλέξτε ένα άλλο περιβάλλον.</s:String>
     <s:String x:Key="String_EnterUserName">Εισάγετε το όνομα χρήστη</s:String>
@@ -110,6 +113,29 @@
     <s:String x:Key="String_DeleteCredentialsQuestion">Αυτή η λειτουργία δεν μπορεί να ανακτηθεί, είστε βέβαιοι να διαγράψετε την επιλεγμένη πιστοποιήσεις;</s:String>
     <s:String x:Key="String_ClearCredentials">Εκκαθάριση διαπιστευτηρίων</s:String>
     <s:String x:Key="String_ClearCredentialsQuestion">Αυτή η λειτουργία δεν μπορεί να ανακτηθεί, είστε βέβαιοι να καταργήσετε όλα τα διαπιστευτήρια;</s:String>
+    <!-- Components\DefaultObjectEditor.xaml-->
+    <s:String x:Key="String_SyncColon">Συγχρονισμός: </s:String>
+    <s:String x:Key="String_SyncTextFromTreeView">Συγχρονίσετε το κείμενο από την προβολή δέντρου.</s:String>
+    <s:String x:Key="String_SyncTreeViewFromText">Συγχρονίσετε TreeView από κείμενο</s:String>
+    <s:String x:Key="String_SearchTextTooltip">Κείμενο αναζήτησης από το TreeView ή πλαίσιο κειμένου</s:String>
+    <s:String x:Key="String_CompareObjectTooltip">Συγκρίνετε τα δύο πλευρά, βρείτε τις διαφορές.</s:String>
+    <s:String x:Key="String_ParseVariablesTooltip">Αναλύσει μεταβλητές στην αίτηση</s:String>
+    <s:String x:Key="String_ShowParsedText">Εμφάνιση κειμένου αναλυθεί</s:String>
+    <s:String x:Key="String_ManualMode">Χειροκίνητη λειτουργία</s:String>
+    <s:String x:Key="String_ExpertMode">Ειδικός τρόπος</s:String>
+    <s:String x:Key="String_RAWTooltip">Εμφάνιση αντικειμένου στην αρχική του μορφή</s:String>
+    <s:String x:Key="String_XMLTooltip">Δείχνουν το αντικείμενο σε μορφή XML</s:String>
+    <s:String x:Key="String_LineColumn">LN {0}, col {1}</s:String>
+    <s:String x:Key="String_ObjectTypeNull">&lt;!--Ο τύπος αντικειμένου είναι Αυτό το αίτημα δεν έχει μια παράμετρο--&gt; τιμή null.</s:String>
+    <s:String x:Key="String_ObjectCannotSerialized">Αυτό το αντικείμενο δεν μπορεί να σειριοποιηθεί, μπορείτε να δείτε μόνο το αντικείμενο μέσω της προβολής δέντρου.</s:String>
+    <s:String x:Key="String_InvalidOperation">Μη έγκυρη λειτουργία</s:String>
+    <s:String x:Key="String_ViewNotSupportDeserialization">Της τρέχουσας προβολής δεν υποστηρίζει αποσειριοποίησης, μπορείτε να επεξεργαστείτε το TreeView για να τροποποιήσετε το αντικείμενο.
+ Εάν θέλετε να τροποποιήσετε το αντικείμενο με την επεξεργασία του κειμένου, επιλέξτε Προβολή XML.</s:String>
+    <s:String x:Key="String_DeserializationErrorMessage">Deserialization σφάλμα - δεν είναι δυνατή η αποσειριοποίηση του κειμένου σε μήνυμα. '{0}' (κάντε κλικ εδώ για λεπτομέρειες)</s:String>
+    <s:String x:Key="String_DetailedTechnicalError">Λεπτομερή τεχνικό σφάλμα: </s:String>
+    <s:String x:Key="String_UnableToParseXml">Δυνατό να αναλύσει το αρχείο XML: 
+</s:String>
+    <s:String x:Key="String_ParsedRequest">Αναλυθεί αιτήματος</s:String>
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">Εισαγωγή από...</s:String>
     <!-- PROFILE MANAGEMENT -->
@@ -169,7 +195,8 @@
     <s:String x:Key="String_TestFrameworkDocumentation">Ελέγξτε την τεκμηρίωση Framework</s:String>
     <s:String x:Key="String_ReportBugsSuggestions">Έκθεση σφάλματα/προτάσεις</s:String>
     <s:String x:Key="String_LanguageChanged">Άλλαξε γλώσσα</s:String>
-    <s:String x:Key="String_LanauageChangedQuestion">Έχετε αλλάξει τη γλώσσα της προτίμησής σας. Κολιμπρί πρέπει να επανεκκινηθεί για να κάνει αλλαγές αποτελεσματικές. \nDo να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
+    <s:String x:Key="String_LanauageChangedQuestion">Έχετε αλλάξει τη γλώσσα της προτίμησής σας. Κολιμπρί πρέπει να επανεκκινηθεί για να κάνει αλλαγές αποτελεσματικές. 
+Do να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">Κατάργηση εγκατάστασης</s:String>
     <s:String x:Key="String_InstallAnExtension">Εγκαταστήσετε μια επέκταση</s:String>
@@ -183,7 +210,8 @@
     <s:String x:Key="String_ConfirmExtensionUninstall">Επιβεβαίωση κατάργησης εγκατάστασης επέκτασης</s:String>
     <s:String x:Key="String_ConfirmExtensionUninstallQuestion">Είστε βέβαιοι ότι για να απεγκαταστήσετε την επέκταση '{0}'</s:String>
     <s:String x:Key="String_RestartRequired">Απαιτείται επανεκκίνηση</s:String>
-    <s:String x:Key="String_RestartRequiredExtensionQuestion">Πρέπει να επανεκκινήσετε το κολίβριο για να απεγκαταστήσετε το επιλεγμένο επέκταση. \nDo να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
+    <s:String x:Key="String_RestartRequiredExtensionQuestion">Πρέπει να επανεκκινήσετε το κολίβριο για να απεγκαταστήσετε το επιλεγμένο επέκταση. 
+Do να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">Μη αυτόματη δοκιμή δρομέας</s:String>
     <s:String x:Key="String_VirtualServices">Εικονικές υπηρεσίες</s:String>
