@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:Hummingbird.TestManager" xmlns:s="clr-namespace:System;assembly=mscorlib"                    >
+<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:s="clr-namespace:System;assembly=mscorlib">
     <s:String x:Key="String_ApplicationName">Hummingbird</s:String>
     <s:String x:Key="String_ApplicationDescription">AN INTEGRATED TEST SOLUTION</s:String>
     <!-- Menu -->
@@ -136,12 +136,161 @@
 	<s:String x:Key="String_UnableToParseXml">Unable to parse the XML: &#13;</s:String>
 	<s:String x:Key="String_ParsedRequest">Parsed Request</s:String>
 	
+	<!-- Components\ExtensionInformation.xaml -->
+	<s:String x:Key="String_SelectedExtensionInfo">Selected Extension Information</s:String>
+	<s:String x:Key="String_NameColon">Name:</s:String>
+	<s:String x:Key="String_UniqueIdColon">Unique ID:</s:String>
+	<s:String x:Key="String_VersionColon">Version:</s:String>
+	<s:String x:Key="String_SupportsFrameworkColon">Supports Test Framework:</s:String>
+	<s:String x:Key="String_CompanyNameColon">Company Name:</s:String>
+	<s:String x:Key="String_DescriptionColon">Description:</s:String>
+	<s:String x:Key="String_CopyrightColon">Copyright:</s:String>
+	<s:String x:Key="String_ExtensionStatusColon">This extension is currently:</s:String>
+	
+	<!-- Components\MessageOverview.xaml -->
+	<s:String x:Key="String_MessageColon">Message:</s:String>
+	<s:String x:Key="String_RequestText">Request Text</s:String>
+	<s:String x:Key="String_ResponseText">Response Text</s:String>
+	<s:String x:Key="String_ProcessedInColon">Processed in:</s:String>
+	<s:String x:Key="String_SentReceivedAtColon">Sent/Received at:</s:String>
+	<s:String x:Key="String_MessageNoLongerAvailable">Warning: This message is no longer available because the extension used by this service is not loaded. MetadataId=</s:String>
+	<s:String x:Key="String_NoMetadata">No metadata</s:String>
+	
+	<!-- Components\ObjectTreeView.xaml -->
+	<s:String x:Key="String_SelectedFieldTypeXG">Selected Field: {0} is type of {1}&lt;{2}></s:String>
+	<s:String x:Key="String_SelectedFieldTypeX">Selected Field: {0} is type of {1}</s:String>
+	<s:String x:Key="String_InsertXmlElement">Insert an XML Element</s:String>
+	<s:String x:Key="String_ClearArray">Clear this Array</s:String>
+	<s:String x:Key="String_InsertElement">Insert an Element</s:String>
+	<s:String x:Key="String_AppendElement">Append an Element</s:String>
+	<s:String x:Key="String_InitializeAsX">Initialize as Element "{0}"</s:String>
+	<s:String x:Key="String_InitializeAsSubTypeX">Initialize as derived type "{0}"</s:String>
+	<s:String x:Key="String_InitializeAsObjectX">Initialize as Object "{0}"</s:String>
+	<s:String x:Key="String_SetNull">Set as null</s:String>
+	<s:String x:Key="String_CopyPathClipboard">Copy path to clipboard</s:String>
+	<s:String x:Key="String_EditMultiline">Edit this property as multi-line text</s:String>
+	<s:String x:Key="String_TypeofString">Type of String</s:String>
+	<s:String x:Key="String_PathXCopiedToClipboard">The path: "{0}" has been copied to Clipboard.</s:String>
+	<s:String x:Key="String_UnableCopyClipboard">Unable to copy the path to clipboard</s:String>
+	<s:String x:Key="String_SelectedElementDeleted">Selected element has been deleted from the array.</s:String>
+	<s:String x:Key="String_SelectedElementSetToNull">"Selected element has been set to null.</s:String>
+	<s:String x:Key="String_SelectedElementCanNotDelete">Selected element can not be deleted.</s:String>
+	<s:String x:Key="String_SelectedElementXCopied">The selected element of type {0} has been copied to Clipboard.</s:String>
+	<s:String x:Key="String_UnableCopyObjectClipboard">Unable to copy the selected object to clipboard</s:String>
+	<s:String x:Key="String_PastedToPosition">Pasted to the current position.</s:String>
+	<s:String x:Key="String_PastedSubTypeXAsY">Pasted derived type {0} as {1} to the current position.</s:String>
+	<s:String x:Key="String_ElementAppended">Element has been appended to the current array.</s:String>
+	<s:String x:Key="String_CannotPasteXToY">Error: Cannot paste a '{0}' on a '{1}' object</s:String>
+	<s:String x:Key="String_CannotPasteToPosition">Unable to paste to the current position.</s:String>
+	
+	<!-- Components\RequestOptionsPanel -->
+	<s:String x:Key="String_GeneralOptions">General Options</s:String>
+	<s:String x:Key="String_AuthenticationColon">Authentication:</s:String>
+	<s:String x:Key="String_PreEmptiveColon">Pre-Emptive:</s:String>
+	<s:String x:Key="String_PreEmptiveChecked">Pre-Emptive Authentication</s:String>
+	<s:String x:Key="String_PreEmptiveUnchecked">Normal authentication</s:String>
+	<s:String x:Key="String_SoapOptions">SOAP Options</s:String>
+	<s:String x:Key="String_MessageEncodingColon">Message Encoding:</s:String>
+	<s:String x:Key="String_MessageEncodingMtoM">MtoM (application/xop)</s:String>
+	<s:String x:Key="String_MessageEncodingText">Text/XML</s:String>
+	<s:String x:Key="String_MessageVersionColon">Message Version:</s:String>
+	<s:String x:Key="String_CustomHttpHeaders">Custom HTTP Headers</s:String>
+	<s:String x:Key="String_Anonymous">Anonymous</s:String>
+	<s:String x:Key="String_WindowsAuthentication">Windows Authentication</s:String>
+	<s:String x:Key="String_WindowsAuthenticationTooltip">Use your current Windows credential to call this service, with Windows Integrated Authentication</s:String>
+	<s:String x:Key="String_NtlmAuthentication">NTLM Authentication</s:String>
+	<s:String x:Key="String_NtlmAuthenticationTooltip">Use your current Windows credential to call this service, with NTLM Authentication</s:String>
+	
+	<!-- Components\RequestOptionsPanel -->
+	<s:String x:Key="String_SearchFilter">Search filter</s:String>
+	<s:String x:Key="String_Type3Chars">Please type at least 3 valid characters to find the services.</s:String>
+	<s:String x:Key="String_NoResultMatches">No result matches the search pattern.</s:String>
+	
+	
+	<!-- ExtensionDesigner\ViewApplication.xaml -->
+	<s:String x:Key="String_Application">Application</s:String>
+	<s:String x:Key="String_ApplicationTooltip">Enter a name of the Application:&#13;As Driver it is the name of system you are testing, &#13;As Stub it is the name of system you want to simulate.</s:String>
+	<s:String x:Key="String_ApplicationNameColon">Application Name:</s:String>
+	<s:String x:Key="String_ServiceCategoriesIncluded">Service Categories included in this Application</s:String>
+	<s:String x:Key="String_ServiceCategoryU">SERVICE CATEGORY</s:String>
+	
+	<!-- ExtensionDesigner\ViewServiceCategory.xaml -->
+	<s:String x:Key="String_ServiceCategory">Service Category</s:String>
+	<s:String x:Key="String_ServiceCategoryTooltip">Service Category holds a set of WebService for the same propose. &#13;For example, you can have a set of Web Service for Customer Management, including 3 Web Services for Customer Creation, Modification and Deletion.</s:String>
+	<s:String x:Key="String_CategoryNameColon">Category Name:</s:String>
+	<s:String x:Key="String_ServicesIncluded">Services included in this Category</s:String>
+	<s:String x:Key="String_ServicesU">SERVICES</s:String>
+	<s:String x:Key="String_TypeU">TYPE</s:String>
+	
+	<!-- ExtensionDesigner\ViewProjectOverview.xaml -->
+	<s:String x:Key="String_ProjectGeneralInfo">Project General information</s:String>
+	<s:String x:Key="String_ProjectNameColon">Project Name:</s:String>
+	<s:String x:Key="String_RootNamespaceColon">Root Namespace:</s:String>
+	<s:String x:Key="String_AssemblyInfo">Assembly information</s:String>
+	<s:String x:Key="String_AssemblyInfoTooltip">Assembly information is technical information compiled in your extension assembly, please make sure to assign a legal name for each field.</s:String>
+	<s:String x:Key="String_AssemblyNameColon">Assembly Name:</s:String>
+	<s:String x:Key="String_Actions">Actions</s:String>
+	<s:String x:Key="String_ExportVSSolution">Export as Visual Studio solution</s:String>
+	<s:String x:Key="String_ExtensionProjectBuilt">The extension project has been built with success, Click here to open the containing folder</s:String>
+	<s:String x:Key="String_BuildFailed">Build failed</s:String>
+	<s:String x:Key="String_BuildFailedMessage">There are errors during the Build. click on the following link to see details.</s:String>
+	<s:String x:Key="String_GenerationFailedMessage">There is an error during the project file generation.</s:String>
+	<s:String x:Key="String_ChooseLocationProjectFiles">Choose a location to store the project files</s:String>
+	<s:String x:Key="String_ProjectGenerated">Project has been generated.</s:String>
+	<s:String x:Key="String_CannotGenerateSolution">Cannot generat solution</s:String>
+	<s:String x:Key="String_CannotGenerateSolutionMessage">"An error has occurred when generating the solution file."</s:String>
+	<s:String x:Key="String_ProjectGenerationCancelled">Solution generation has been canceled.</s:String>
+	
+	<!-- ExtensionDesigner\ViewServiceEndpoint.xaml -->
+	<s:String x:Key="String_EndpointNameColon">Endpoint Name:</s:String>
+	<s:String x:Key="String_BindingColon">Binding:</s:String>
+	<s:String x:Key="String_ServiceIdColon">Service Id:</s:String>
+	<s:String x:Key="String_FriendlyNameColon">Friendly Name:</s:String>
+	<s:String x:Key="String_SoapVersionColon">Soap Version:</s:String>
+	<s:String x:Key="String_ProtectionLevelColon">Protection Level:</s:String>
+	<s:String x:Key="String_SessionModeColon">Session Mode:</s:String>
+	<s:String x:Key="String_CallerSimulationColon">Caller Simulation:</s:String>
+	<s:String x:Key="String_CallerSimulationChecked">Use as Driver: Call this web service exposed by your application</s:String>
+	<s:String x:Key="String_CallerSimulationUnchecked">Will not generate code to call this Service</s:String>
+	<s:String x:Key="String_ServiceSimulationColon">Service Simulation:</s:String>
+	<s:String x:Key="String_ServiceSimulationChecked">Use as Stub: Simulate the service called by your application</s:String>
+	<s:String x:Key="String_ServiceSimulationUnchecked">Will not generate code to simulate this Service</s:String>	
+	<s:String x:Key="String_UriTemplateDriverColon">Uri Template (Driver):</s:String>
+	<s:String x:Key="String_UriTemplateTooltip">Uri template can contain variables in the text with format ${VariableName}</s:String>
+	<s:String x:Key="String_UriTemplateStubColon">Uri Template (Stub):</s:String>
+
+	<!-- ExtensionDesigner\ViewSoapService.xaml -->
+	<s:String x:Key="String_SoapWebService">SOAP Web Service</s:String>
+	<s:String x:Key="String_SoapWebServiceTooltip">Import a web service from a definition file (WSDL). The definition can be on remote with URL or a local file. UNC path is also supported.</s:String>
+	<s:String x:Key="String_ServiceDescriptionWsdlColon">Service Description (WSDL):</s:String>
+	<s:String x:Key="String_ImportOptions">Import Options</s:String>
+	<s:String x:Key="String_GenerateOrderColon">Generate Order:</s:String>
+	<s:String x:Key="String_GenerateOrderChecked">Accept ordered XML Documnets only</s:String>
+	<s:String x:Key="String_GenerateORderUnchecked">Accept unordered XML documents</s:String>
+	<s:String x:Key="String_DispatchByBodyColon">Dispatch by body:</s:String>
+	<s:String x:Key="String_DispatchByBodyChecked">Dispatch operations by body element (Non-compliant with WS-1 Basic Profile 1.1).</s:String>
+	<s:String x:Key="String_DispatchByBodyUnchecked">Dispatch by SoapAction (Faster and suit for most of web services).</s:String>
+	<s:String x:Key="String_ImportUpdateService">Import/Update Service</s:String>
+	<s:String x:Key="String_ServiceEndpointConfiguration">Service Endpoints &amp; Configuration</s:String>
+	<s:String x:Key="String_ViewGeneratedCode">View Generated Code</s:String>
+	<s:String x:Key="String_PreviewProxyCode">Preview proxy code</s:String>
+	<s:String x:Key="String_PreviewStubCode">Preview stub code</s:String>
+	<s:String x:Key="String_AnalysisResults">Analysis results</s:String>
+	<s:String x:Key="String_LevelU">LEVEL</s:String>
+	<s:String x:Key="String_ErrorAnalysingWebService">Error occurred when analyzing the Web Service</s:String>
+	<s:String x:Key="String_ImportedWithWarnings">Imported with warnings, please see the result below.</s:String>
+	<s:String x:Key="String_WsdlImportedSuccessfully">The WSDL is analyzed and imported successfully</s:String>
+	<s:String x:Key="String_GeneratedProxyCode">Generated WCF Proxy Code</s:String>
+	<s:String x:Key="String_GeneratedStubCode">Generated WCF Stub Code</s:String>
+	<s:String x:Key="String_NoFilesGenerated">no files generated</s:String>
+	<s:String x:Key="String_NoFilesGeneratedMessage">The indicated WSDL file does not contain any service definition.</s:String>
+	
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">Import From ...</s:String>
     <s:String x:Key="String_ProfileManagement_Para1">Test Settings, including Services Parameters, Test Environments, Custom Variables, Security Tokens, Service simulation behaviors, are packed into Profiles.</s:String>
     <s:String x:Key="String_ProfileManagement_Para2">Profiles can be imported, exported or shared to other people. Profiles can also be embedded into an automation project in order to simplify test settings of the automation project. Following are all the profiles that can be used in the application: </s:String>
     <s:String x:Key="String_ProfileManagement_Note">Note: Default profile is used by manual testing, it cannot be edited or removed here. To modify the default profile, go to Test Settings.</s:String>
-    <s:String x:Key="String_Actions">ACTIONS</s:String>
+    <s:String x:Key="String_ActionsU">ACTIONS</s:String>
     <s:String x:Key="String_Duplicate">Duplicate</s:String>
     <s:String x:Key="String_Delete">Delete</s:String>
     <s:String x:Key="String_Edit">Edit</s:String>
@@ -211,7 +360,9 @@
     <s:String x:Key="String_ConfirmExtensionUninstallQuestion">Are you sure to uninstall the extension '{0}'</s:String>
     <s:String x:Key="String_RestartRequired">Restart Required</s:String>
     <s:String x:Key="String_RestartRequiredExtensionQuestion">You need to restart Hummingbird to uninstall the selected extension.&#13; Do you want to restart Hummingbird now?</s:String>
-    
+    <s:String x:Key="String_Enabled">Enabled</s:String>
+	<s:String x:Key="String_Disabled">Disabled</s:String>
+	
 
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">Manual test runner</s:String>
@@ -331,12 +482,13 @@
     <s:String x:Key="String_SaveAutomationProjectFilter">Automation Project (*.APX)|*.APX|All files (*.*)|*.*</s:String>
     <s:String x:Key="String_AnErrorHasOccurred">An error has occurred</s:String>
     <s:String x:Key="String_AnErrorHasOccurredSavingAutomationProject">An error has occurred when saving automation project.</s:String>
-    <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">An error has occurred when loading automation project.</s:String>
+    <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">An error has occurred when loading automation project</s:String>
     <s:String x:Key="String_SaveCurrentProject">Save current project?</s:String>
     <s:String x:Key="String_SaveCurrentProjectMessage">Do you want to save the current automation project?</s:String>
     
     <!-- ViewBase64Tool.xaml -->
-    <s:String x:Key="String_Base64EncodingTitle">Base64 Encoding &amp; Decoding</s:String>
+    <s:String x:Key="String_ActionColon">Action: </s:String>
+	<s:String x:Key="String_Base64EncodingTitle">Base64 Encoding &amp; Decoding</s:String>
     <s:String x:Key="String_Utf8ToBase64">Encodes the UTF-8 string into a Base64 string</s:String>
     <s:String x:Key="String_Base64ToString">Decodes a Base64 String as a string, using selected encoding.</s:String>
     <s:String x:Key="String_BinaryToBase64">Read the binary content from the file and encode its content in Base64 string</s:String>
@@ -404,7 +556,7 @@
     <s:String x:Key="String_MatchAnyWhere">Match anywhere</s:String>
     <s:String x:Key="String_SearchNext">Next</s:String>
     <s:String x:Key="String_CannotFindPattern">Can not find the pattern.</s:String>
-    <s:String x:Key="String_NoResultMatches">There is no result matches your search '{0}'</s:String>
+    <s:String x:Key="String_NoResultMatchesPattern">There is no result matches your search '{0}'</s:String>
     
     <!-- WindowSelectRequest.xaml -->
     <s:String x:Key="String_SelectARequest">Select a Request</s:String>

@@ -136,13 +136,129 @@ If 그들은 오류가 발생할 것입니다.</s:String>
     <s:String x:Key="String_UnableToParseXml">XML을 구문 분석할 수 없습니다: 
 </s:String>
     <s:String x:Key="String_ParsedRequest">구문 분석 된 요청</s:String>
+    <!-- Components\ExtensionInformation.xaml -->
+    <s:String x:Key="String_SelectedExtensionInfo">선택 된 확장 정보</s:String>
+    <s:String x:Key="String_NameColon">이름:</s:String>
+    <s:String x:Key="String_UniqueIdColon">고유 ID:</s:String>
+    <s:String x:Key="String_VersionColon">버전:</s:String>
+    <s:String x:Key="String_SupportsFrameworkColon">테스트 프레임 워크를 지원합니다.</s:String>
+    <s:String x:Key="String_CompanyNameColon">회사 이름:</s:String>
+    <s:String x:Key="String_DescriptionColon">설명:</s:String>
+    <s:String x:Key="String_CopyrightColon">저작권:</s:String>
+    <s:String x:Key="String_ExtensionStatusColon">이 확장은 현재:</s:String>
+    <!-- Components\MessageOverview.xaml -->
+    <s:String x:Key="String_MessageColon">메시지:</s:String>
+    <s:String x:Key="String_RequestText">요청 텍스트</s:String>
+    <s:String x:Key="String_ResponseText">응답 텍스트</s:String>
+    <s:String x:Key="String_ProcessedInColon">처리:</s:String>
+    <s:String x:Key="String_SentReceivedAtColon">보낸/받은에서:</s:String>
+    <s:String x:Key="String_MessageNoLongerAvailable">경고:이 메시지는이 서비스에서 사용 하는 확장 로드 되지 않습니다 때문에 더 이상 사용할 수입니다. MetadataId =</s:String>
+    <s:String x:Key="String_NoMetadata">메타 데이터가 없습니다</s:String>
+    <!-- Components\ObjectTreeView.xaml -->
+    <s:String x:Key="String_SelectedFieldTypeXG">선택한 필드: {0} 형식이 {1} &lt;{2}&gt;의</s:String>
+    <s:String x:Key="String_SelectedFieldTypeX">선택한 필드: {0} 형식이 {1}의</s:String>
+    <s:String x:Key="String_InsertXmlElement">XML 요소 삽입</s:String>
+    <s:String x:Key="String_ClearArray">이 배열 취소</s:String>
+    <s:String x:Key="String_InsertElement">요소를 삽입</s:String>
+    <s:String x:Key="String_AppendElement">요소 추가</s:String>
+    <s:String x:Key="String_InitializeAsX">요소 "{0}"으로 초기화</s:String>
+    <s:String x:Key="String_InitializeAsSubTypeX">파생된 형식 "{0}"으로 초기화</s:String>
+    <s:String x:Key="String_InitializeAsObjectX">개체 "{0}"로 초기화</s:String>
+    <s:String x:Key="String_SetNull">Null로 설정</s:String>
+    <s:String x:Key="String_CopyPathClipboard">클립보드로 복사 경로</s:String>
+    <s:String x:Key="String_EditMultiline">이 속성을 여러 줄 텍스트 편집</s:String>
+    <s:String x:Key="String_TypeofString">문자열의 유형</s:String>
+    <s:String x:Key="String_PathXCopiedToClipboard">경로: "{0}"은 클립보드로 복사한.</s:String>
+    <s:String x:Key="String_UnableCopyClipboard">경로를 클립보드로 복사 수 없습니다</s:String>
+    <s:String x:Key="String_SelectedElementDeleted">선택한 요소는 배열에서 삭제 되었습니다.</s:String>
+    <s:String x:Key="String_SelectedElementSetToNull">"선택 된 요소를 설정 null로.</s:String>
+    <s:String x:Key="String_SelectedElementCanNotDelete">선택한 요소를 삭제할 수 없습니다.</s:String>
+    <s:String x:Key="String_SelectedElementXCopied">형식 {0}의 선택 된 요소를 클립보드에 복사 되었습니다.</s:String>
+    <s:String x:Key="String_UnableCopyObjectClipboard">클립보드에 선택한 개체를 복사할 수 없습니다.</s:String>
+    <s:String x:Key="String_PastedToPosition">현재 위치에 붙여.</s:String>
+    <s:String x:Key="String_PastedSubTypeXAsY">파생된 형식 {0} {1} 현재 위치에 붙여.</s:String>
+    <s:String x:Key="String_ElementAppended">요소는 현재 배열에 추가 되었습니다.</s:String>
+    <s:String x:Key="String_CannotPasteXToY">오류: ' {1} ' 개체에는 ' {0} ' 붙여넣기 수 없습니다.</s:String>
+    <s:String x:Key="String_CannotPasteToPosition">현재 위치에 붙여 넣을 수 없습니다.</s:String>
+    <!-- Components\RequestOptionsPanel -->
+    <s:String x:Key="String_SearchFilter">검색 필터</s:String>
+    <s:String x:Key="String_Type3Chars">3 유효한 문자 서비스를 찾을 수를 입력 하십시오.</s:String>
+    <s:String x:Key="String_GeneralOptions">일반 옵션</s:String>
+    <s:String x:Key="String_AuthenticationColon">인증:</s:String>
+    <s:String x:Key="String_PreEmptiveColon">선제:</s:String>
+    <s:String x:Key="String_PreEmptiveChecked">선제 인증</s:String>
+    <s:String x:Key="String_PreEmptiveUnchecked">일반 인증</s:String>
+    <s:String x:Key="String_SoapOptions">SOAP 옵션</s:String>
+    <s:String x:Key="String_MessageEncodingColon">메시지 인코딩:</s:String>
+    <s:String x:Key="String_MessageEncodingMtoM">MtoM (응용 프로그램/xop)</s:String>
+    <s:String x:Key="String_MessageEncodingText">텍스트/XML</s:String>
+    <s:String x:Key="String_MessageVersionColon">메시지 버전:</s:String>
+    <s:String x:Key="String_CustomHttpHeaders">사용자 지정 HTTP 헤더</s:String>
+    <s:String x:Key="String_Anonymous">익명</s:String>
+    <s:String x:Key="String_WindowsAuthentication">Windows 인증</s:String>
+    <s:String x:Key="String_WindowsAuthenticationTooltip">현재 Windows 자격 증명을 사용 하 여 Windows 통합 인증으로이 서비스를 호출</s:String>
+    <s:String x:Key="String_NtlmAuthentication">NTLM 인증</s:String>
+    <s:String x:Key="String_NtlmAuthenticationTooltip">현재 Windows 자격 증명을 사용 하 여 NTLM 인증으로이 서비스를 호출</s:String>
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">가져오기...</s:String>
     <!-- PROFILE MANAGEMENT -->
     <s:String x:Key="String_ProfileManagement_Para1">서비스 매개 변수, 테스트 환경, 사용자 정의 변수, 보안 토큰, 서비스 시뮬레이션 동작을 포함 하 여 테스트 설정 프로필에 포장 된다.</s:String>
     <s:String x:Key="String_ProfileManagement_Para2">프로필은 수입, 수출 하거나 다른 사람에 게 공유 될 수 있습니다. 프로필은 자동화 프로젝트의 테스트 설정을 단순화 하려면 자동화 프로젝트에 포함 될 수 있습니다. 다음은 응용 프로그램에서 사용할 수 있는 모든 프로필입니다. </s:String>
     <s:String x:Key="String_ProfileManagement_Note">참고: 기본 프로필은 수동 테스트 하 여 사용, 편집 하거나 여기 제거 수 없습니다. 기본 프로필을 수정 하려면 테스트 설정으로 이동 합니다.</s:String>
+    <s:String x:Key="String_ActionsU">작업</s:String>
     <s:String x:Key="String_Actions">작업</s:String>
+    <s:String x:Key="String_ExportVSSolution">Visual Studio 솔루션으로 내보내기</s:String>
+    <s:String x:Key="String_ExtensionProjectBuilt">확장 프로젝트는 성공으로, 포함 된 폴더를 열려면 여기를 클릭 하세요 만들어져 있다</s:String>
+    <s:String x:Key="String_BuildFailed">빌드 실패</s:String>
+    <s:String x:Key="String_BuildFailedMessage">빌드하는 동안 오류가 있습니다. 세부 정보를 다음 링크를 클릭 합니다.</s:String>
+    <s:String x:Key="String_GenerationFailedMessage">프로젝트 파일 생성 하는 동안 오류가 있다.</s:String>
+    <s:String x:Key="String_ChooseLocationProjectFiles">프로젝트 파일을 저장할 위치 선택</s:String>
+    <s:String x:Key="String_ProjectGenerated">프로젝트 생성 되었습니다.</s:String>
+    <s:String x:Key="String_CannotGenerateSolution">생성 솔루션을 수 없습니다.</s:String>
+    <s:String x:Key="String_CannotGenerateSolutionMessage">솔루션 파일을 생성할 때 "오류가 발생 했습니다."</s:String>
+    <s:String x:Key="String_ProjectGenerationCancelled">솔루션 생성 취소 되었습니다.</s:String>
+    <!-- ExtensionDesigner\ViewServiceEndpoint.xaml -->
+    <s:String x:Key="String_EndpointNameColon">끝점 이름:</s:String>
+    <s:String x:Key="String_BindingColon">바인딩:</s:String>
+    <s:String x:Key="String_ServiceIdColon">서비스 Id:</s:String>
+    <s:String x:Key="String_FriendlyNameColon">이름:</s:String>
+    <s:String x:Key="String_SoapVersionColon">Soap 버전:</s:String>
+    <s:String x:Key="String_ProtectionLevelColon">보호 수준:</s:String>
+    <s:String x:Key="String_SessionModeColon">세션 모드:</s:String>
+    <s:String x:Key="String_CallerSimulationColon">호출자 시뮬레이션:</s:String>
+    <s:String x:Key="String_CallerSimulationChecked">드라이버로 사용: 응용 프로그램에 의해 노출 되는이 웹 서비스 호출</s:String>
+    <s:String x:Key="String_CallerSimulationUnchecked">이 서비스를 호출 하는 코드를 생성 하지 않습니다.</s:String>
+    <s:String x:Key="String_ServiceSimulationColon">서비스 시뮬레이션:</s:String>
+    <s:String x:Key="String_ServiceSimulationChecked">스텁 사용: 응용 프로그램에서 호출 하 여 서비스를 시뮬레이션</s:String>
+    <s:String x:Key="String_ServiceSimulationUnchecked">이 서비스를 시뮬레이션 하는 코드를 생성 하지 않습니다.</s:String>
+    <s:String x:Key="String_UriTemplateDriverColon">Uri 템플릿 (드라이버):</s:String>
+    <s:String x:Key="String_UriTemplateTooltip">Uri 템플릿 형식 $ {VariableName} 텍스트에서 변수를 포함할 수 있습니다.</s:String>
+    <s:String x:Key="String_UriTemplateStubColon">Uri 템플릿 (스텁):</s:String>
+    <!-- ExtensionDesigner\ViewSoapService.xaml -->
+    <s:String x:Key="String_SoapWebService">SOAP 웹 서비스</s:String>
+    <s:String x:Key="String_SoapWebServiceTooltip">웹 서비스를 (WSDL) 정의 파일에서 가져옵니다. 원격 URL 또는 로컬 파일에 정의 될 수 있습니다. UNC 경로 지원 됩니다.</s:String>
+    <s:String x:Key="String_ServiceDescriptionWsdlColon">서비스 설명 (WSDL):</s:String>
+    <s:String x:Key="String_ImportOptions">가져오기 옵션</s:String>
+    <s:String x:Key="String_GenerateOrderColon">생성 순서:</s:String>
+    <s:String x:Key="String_GenerateOrderChecked">주문된 XML Documnets만 허용</s:String>
+    <s:String x:Key="String_GenerateORderUnchecked">순서가 지정 되지 않은 XML 문서를 수락</s:String>
+    <s:String x:Key="String_DispatchByBodyColon">파견 기관:</s:String>
+    <s:String x:Key="String_DispatchByBodyChecked">Body 요소 (비-준수 WS 1 Basic Profile 1.1)에 의해 작업을 파견.</s:String>
+    <s:String x:Key="String_DispatchByBodyUnchecked">SoapAction (빨리와 대부분의 웹 서비스에 대 한 소송)에 의해 파견.</s:String>
+    <s:String x:Key="String_ImportUpdateService">가져오기/업데이트 서비스</s:String>
+    <s:String x:Key="String_ServiceEndpointConfiguration">서비스 끝점 및 구성</s:String>
+    <s:String x:Key="String_ViewGeneratedCode">생성 된 코드 보기</s:String>
+    <s:String x:Key="String_PreviewProxyCode">미리 보기 프록시 코드</s:String>
+    <s:String x:Key="String_PreviewStubCode">미리 보기 스텁 코드</s:String>
+    <s:String x:Key="String_AnalysisResults">분석 결과</s:String>
+    <s:String x:Key="String_LevelU">수준</s:String>
+    <s:String x:Key="String_ErrorAnalysingWebService">분석 웹 서비스 오류가 발생 했습니다.</s:String>
+    <s:String x:Key="String_ImportedWithWarnings">아래의 결과 참조 하십시오 경고와 함께 가져옵니다.</s:String>
+    <s:String x:Key="String_WsdlImportedSuccessfully">WSDL은 분석 하 고 성공적으로 가져온</s:String>
+    <s:String x:Key="String_GeneratedProxyCode">생성 된 WCF 프록시 코드</s:String>
+    <s:String x:Key="String_GeneratedStubCode">생성 된 WCF 스텁 코드</s:String>
+    <s:String x:Key="String_NoFilesGenerated">아무 파일 생성</s:String>
+    <s:String x:Key="String_NoFilesGeneratedMessage">지정 된 WSDL 파일은 서비스 정의 포함 하지 않습니다.</s:String>
     <s:String x:Key="String_Duplicate">중복</s:String>
     <s:String x:Key="String_Delete">삭제</s:String>
     <s:String x:Key="String_Edit">편집</s:String>
@@ -212,6 +328,8 @@ Do 수 있도록 다시 시작 해야 합니까?</s:String>
     <s:String x:Key="String_RestartRequired">다시 시작 필요</s:String>
     <s:String x:Key="String_RestartRequiredExtensionQuestion">선택한 확장. 
 Do 벌 새를 지금 다시 시작 하 시겠습니까 제거 하 벌 새를 다시 시작 해야?</s:String>
+    <s:String x:Key="String_Enabled">사용 가능</s:String>
+    <s:String x:Key="String_Disabled">사용 안 함</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">수동 테스트 러너</s:String>
     <s:String x:Key="String_VirtualServices">가상 서비스</s:String>
@@ -332,6 +450,7 @@ Do 벌 새를 지금 다시 시작 하 시겠습니까 제거 하 벌 새를 다
     <s:String x:Key="String_SaveCurrentProject">현재 프로젝트를 저장?</s:String>
     <s:String x:Key="String_SaveCurrentProjectMessage">현재 자동화 프로젝트를 저장 하 시겠습니까?</s:String>
     <!-- ViewBase64Tool.xaml -->
+    <s:String x:Key="String_ActionColon">작업: </s:String>
     <s:String x:Key="String_Base64EncodingTitle">Base64 인코딩 및 디코딩</s:String>
     <s:String x:Key="String_Utf8ToBase64">Base64 문자열에 문자열을 u t F-8 인코딩</s:String>
     <s:String x:Key="String_Base64ToString">Base64 문자열 선택 된 인코딩을 사용 하 여 문자열로 디코딩합니다.</s:String>
@@ -394,7 +513,30 @@ Do 벌 새를 지금 다시 시작 하 시겠습니까 제거 하 벌 새를 다
     <s:String x:Key="String_MatchAnyWhere">일치 하는 곳</s:String>
     <s:String x:Key="String_SearchNext">다음</s:String>
     <s:String x:Key="String_CannotFindPattern">패턴을 찾을 수 없습니다.</s:String>
+    <s:String x:Key="String_NoResultMatchesPattern">거기는 결과 일치 검색 ' {0} '</s:String>
     <s:String x:Key="String_NoResultMatches">거기는 결과 일치 검색 ' {0} '</s:String>
+    <!-- ExtensionDesigner\ViewApplication.xaml -->
+    <s:String x:Key="String_Application">응용 프로그램</s:String>
+    <s:String x:Key="String_ApplicationTooltip">응용 프로그램의 이름을 입력 합니다.
+드라이버로 테스트 중인 시스템으로 스텁 시뮬레이션 시스템의 이름이의 이름입니다.</s:String>
+    <s:String x:Key="String_ApplicationNameColon">응용 프로그램 이름:</s:String>
+    <s:String x:Key="String_ServiceCategoriesIncluded">이 응용 프로그램에 포함 하는 서비스 범주</s:String>
+    <s:String x:Key="String_ServiceCategoryU">서비스 카테고리</s:String>
+    <!-- ExtensionDesigner\ViewServiceCategory.xaml -->
+    <s:String x:Key="String_ServiceCategory">서비스 카테고리</s:String>
+    <s:String x:Key="String_ServiceCategoryTooltip">서비스 카테고리 같은 제안에 대 한 웹 서비스의 집합을 보유 하고있다. 
+예를 들어 고객 관리, 고객 만들기, 수정 및 삭제 3 웹 서비스를 포함 한 웹 서비스의 집합을 가질 수 있습니다.</s:String>
+    <s:String x:Key="String_CategoryNameColon">범주 이름:</s:String>
+    <s:String x:Key="String_ServicesIncluded">이 범주에 포함 된 서비스</s:String>
+    <s:String x:Key="String_ServicesU">서비스</s:String>
+    <s:String x:Key="String_TypeU">유형</s:String>
+    <!-- ExtensionDesigner\ViewProjectOverview.xaml -->
+    <s:String x:Key="String_ProjectGeneralInfo">프로젝트 일반 정보</s:String>
+    <s:String x:Key="String_ProjectNameColon">프로젝트 이름:</s:String>
+    <s:String x:Key="String_RootNamespaceColon">Root Namespace:</s:String>
+    <s:String x:Key="String_AssemblyInfo">어셈블리 정보</s:String>
+    <s:String x:Key="String_AssemblyInfoTooltip">어셈블리 정보 확장 어셈블리에 기술 정보, 각 필드에 대 한 법적 이름을 지정할 수 있는지 확인 하십시오.</s:String>
+    <s:String x:Key="String_AssemblyNameColon">어셈블리 이름:</s:String>
     <!-- WindowSelectRequest.xaml -->
     <s:String x:Key="String_SelectARequest">요청 선택</s:String>
     <!-- WindowSendRequest.xaml -->

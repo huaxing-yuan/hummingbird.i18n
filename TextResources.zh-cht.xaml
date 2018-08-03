@@ -133,12 +133,128 @@
     <s:String x:Key="String_DetailedTechnicalError">詳細技術錯誤:</s:String>
     <s:String x:Key="String_UnableToParseXml">無法解析 XML:</s:String>
     <s:String x:Key="String_ParsedRequest">分析的請求</s:String>
+    <!-- Components\ExtensionInformation.xaml -->
+    <s:String x:Key="String_SelectedExtensionInfo">選定的擴展資訊</s:String>
+    <s:String x:Key="String_NameColon">名字：</s:String>
+    <s:String x:Key="String_UniqueIdColon">唯一 ID:</s:String>
+    <s:String x:Key="String_VersionColon">版本：</s:String>
+    <s:String x:Key="String_SupportsFrameworkColon">支援測試框架:</s:String>
+    <s:String x:Key="String_CompanyNameColon">公司名稱:</s:String>
+    <s:String x:Key="String_DescriptionColon">描述：</s:String>
+    <s:String x:Key="String_CopyrightColon">版權：</s:String>
+    <s:String x:Key="String_ExtensionStatusColon">此副檔名當前為:</s:String>
+    <!-- Components\MessageOverview.xaml -->
+    <s:String x:Key="String_MessageColon">消息：</s:String>
+    <s:String x:Key="String_RequestText">請求文本</s:String>
+    <s:String x:Key="String_ResponseText">回應文本</s:String>
+    <s:String x:Key="String_ProcessedInColon">處理于:</s:String>
+    <s:String x:Key="String_SentReceivedAtColon">發送/接收:</s:String>
+    <s:String x:Key="String_MessageNoLongerAvailable">警告: 此消息不再可用, 因為此服務使用的擴展未載入。MetadataId =</s:String>
+    <s:String x:Key="String_NoMetadata">無中繼資料</s:String>
+    <!-- Components\ObjectTreeView.xaml -->
+    <s:String x:Key="String_SelectedFieldTypeXG">選定的欄位: {0} 是 {1} 的類型 &lt;{2}&gt;</s:String>
+    <s:String x:Key="String_SelectedFieldTypeX">選定欄位: {0} 是 {1} 的類型</s:String>
+    <s:String x:Key="String_InsertXmlElement">插入 XML 元素</s:String>
+    <s:String x:Key="String_ClearArray">清除此陣列</s:String>
+    <s:String x:Key="String_InsertElement">插入元素</s:String>
+    <s:String x:Key="String_AppendElement">追加元素</s:String>
+    <s:String x:Key="String_InitializeAsX">初始化為元素 "{0}"</s:String>
+    <s:String x:Key="String_InitializeAsSubTypeX">初始化為派生類型 "{0}"</s:String>
+    <s:String x:Key="String_InitializeAsObjectX">初始化為物件 "{0}"</s:String>
+    <s:String x:Key="String_SetNull">設置為 null</s:String>
+    <s:String x:Key="String_CopyPathClipboard">將路徑複製到剪貼簿</s:String>
+    <s:String x:Key="String_EditMultiline">將此屬性編輯為多行文本</s:String>
+    <s:String x:Key="String_TypeofString">字串類型</s:String>
+    <s:String x:Key="String_PathXCopiedToClipboard">路徑: "{0}" 已複製到剪貼簿。</s:String>
+    <s:String x:Key="String_UnableCopyClipboard">無法將路徑複製到剪貼簿</s:String>
+    <s:String x:Key="String_SelectedElementDeleted">已從陣列中刪除選定元素。</s:String>
+    <s:String x:Key="String_SelectedElementSetToNull">選定的元素已設置為 null。</s:String>
+    <s:String x:Key="String_SelectedElementCanNotDelete">無法刪除所選元素。</s:String>
+    <s:String x:Key="String_SelectedElementXCopied">類型為 {0} 的選定元素已複製到剪貼簿。</s:String>
+    <s:String x:Key="String_UnableCopyObjectClipboard">無法將所選物件複製到剪貼簿</s:String>
+    <s:String x:Key="String_PastedToPosition">粘貼到當前位置。</s:String>
+    <s:String x:Key="String_PastedSubTypeXAsY">已將派生類型 {0} 粘貼為 {1} 到當前位置。</s:String>
+    <s:String x:Key="String_ElementAppended">元素已追加到當前陣列中。</s:String>
+    <s:String x:Key="String_CannotPasteXToY">錯誤: 無法在 "{1}" 物件上粘貼 "{0}"</s:String>
+    <s:String x:Key="String_CannotPasteToPosition">無法粘貼到當前位置。</s:String>
+    <!-- Components\RequestOptionsPanel -->
+    <s:String x:Key="String_SearchFilter">搜索篩選器</s:String>
+    <s:String x:Key="String_Type3Chars">請鍵入至少3個有效字元以查找服務。</s:String>
+    <s:String x:Key="String_GeneralOptions">常規選項</s:String>
+    <s:String x:Key="String_AuthenticationColon">認證：</s:String>
+    <s:String x:Key="String_PreEmptiveColon">先發制人:</s:String>
+    <s:String x:Key="String_PreEmptiveChecked">先發制人的身份驗證</s:String>
+    <s:String x:Key="String_PreEmptiveUnchecked">常規身份驗證</s:String>
+    <s:String x:Key="String_SoapOptions">SOAP 選項</s:String>
+    <s:String x:Key="String_MessageEncodingColon">郵件編碼:</s:String>
+    <s:String x:Key="String_MessageEncodingMtoM">MtoM (應用/xop)</s:String>
+    <s:String x:Key="String_MessageEncodingText">文本/XML</s:String>
+    <s:String x:Key="String_MessageVersionColon">郵件版本:</s:String>
+    <s:String x:Key="String_CustomHttpHeaders">自訂 HTTP 標頭</s:String>
+    <s:String x:Key="String_Anonymous">匿名</s:String>
+    <s:String x:Key="String_WindowsAuthentication">Windows 身份驗證</s:String>
+    <s:String x:Key="String_WindowsAuthenticationTooltip">使用您當前的 windows 憑據調用此服務, 並使用 windows 集成身份驗證</s:String>
+    <s:String x:Key="String_NtlmAuthentication">NTLM 身份驗證</s:String>
+    <s:String x:Key="String_NtlmAuthenticationTooltip">使用您當前的 Windows 憑據調用此服務, 使用 NTLM 身份驗證</s:String>
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">從..。</s:String>
     <s:String x:Key="String_ProfileManagement_Para1">測試設定 (包括服務參數、測試環境、自訂變數、安全權杖、服務類比行為) 被打包到設定檔中。</s:String>
     <s:String x:Key="String_ProfileManagement_Para2">設定檔可以導入、匯出或共用給其他人。設定檔還可以嵌入到自動化專案中, 以簡化自動化專案的測試設定。以下是可在應用程式中使用的所有設定檔:</s:String>
     <s:String x:Key="String_ProfileManagement_Note">注意: 手動測試使用預設設定檔, 無法在此編輯或刪除。要修改預設設定檔, 請轉到測試設定。</s:String>
+    <s:String x:Key="String_ActionsU">行動</s:String>
     <s:String x:Key="String_Actions">行動</s:String>
+    <s:String x:Key="String_ExportVSSolution">匯出為 Visual Studio 解決方案</s:String>
+    <s:String x:Key="String_ExtensionProjectBuilt">擴展專案已成功生成, 請按一下此處打開包含資料夾</s:String>
+    <s:String x:Key="String_BuildFailed">生成失敗</s:String>
+    <s:String x:Key="String_BuildFailedMessage">生成過程中存在錯誤。按一下下面的連結查看詳細資訊。</s:String>
+    <s:String x:Key="String_GenerationFailedMessage">在專案檔案生成過程中出現錯誤。</s:String>
+    <s:String x:Key="String_ChooseLocationProjectFiles">選擇存儲專案檔案的位置</s:String>
+    <s:String x:Key="String_ProjectGenerated">專案已生成。</s:String>
+    <s:String x:Key="String_CannotGenerateSolution">無法求解決方案</s:String>
+    <s:String x:Key="String_CannotGenerateSolutionMessage">生成解決方案檔時出現錯誤。</s:String>
+    <s:String x:Key="String_ProjectGenerationCancelled">解決方案生成已被取消。</s:String>
+    <!-- ExtensionDesigner\ViewServiceEndpoint.xaml -->
+    <s:String x:Key="String_EndpointNameColon">端點名稱:</s:String>
+    <s:String x:Key="String_BindingColon">綁定：</s:String>
+    <s:String x:Key="String_ServiceIdColon">服務編號:</s:String>
+    <s:String x:Key="String_FriendlyNameColon">友情名稱:</s:String>
+    <s:String x:Key="String_SoapVersionColon">Soap 版本:</s:String>
+    <s:String x:Key="String_ProtectionLevelColon">保護層級:</s:String>
+    <s:String x:Key="String_SessionModeColon">會話模式:</s:String>
+    <s:String x:Key="String_CallerSimulationColon">呼叫者類比:</s:String>
+    <s:String x:Key="String_CallerSimulationChecked">用作驅動程式: 調用應用程式公開的此 web 服務</s:String>
+    <s:String x:Key="String_CallerSimulationUnchecked">不會生成調用此服務的代碼</s:String>
+    <s:String x:Key="String_ServiceSimulationColon">服務類比:</s:String>
+    <s:String x:Key="String_ServiceSimulationChecked">用作存根: 類比應用程式調用的服務</s:String>
+    <s:String x:Key="String_ServiceSimulationUnchecked">不會生成用於類比此服務的代碼</s:String>
+    <s:String x:Key="String_UriTemplateDriverColon">Uri 範本 (驅動程式):</s:String>
+    <s:String x:Key="String_UriTemplateTooltip">Uri 範本可以包含格式為 $ {VariableName} 的文本中的變數</s:String>
+    <s:String x:Key="String_UriTemplateStubColon">Uri 範本 (存根):</s:String>
+    <!-- ExtensionDesigner\ViewSoapService.xaml -->
+    <s:String x:Key="String_SoapWebService">SOAP Web 服務</s:String>
+    <s:String x:Key="String_SoapWebServiceTooltip">從定義檔 (WSDL) 導入 web 服務。定義可以與 URL 或本地檔進行遠端處理。還支援 UNC 路徑。</s:String>
+    <s:String x:Key="String_ServiceDescriptionWsdlColon">服務描述 (WSDL):</s:String>
+    <s:String x:Key="String_ImportOptions">導入選項</s:String>
+    <s:String x:Key="String_GenerateOrderColon">生成順序:</s:String>
+    <s:String x:Key="String_GenerateOrderChecked">僅接受已訂購的 XML Documnets</s:String>
+    <s:String x:Key="String_GenerateORderUnchecked">接受無序的 XML 文檔</s:String>
+    <s:String x:Key="String_DispatchByBodyColon">按正文發送:</s:String>
+    <s:String x:Key="String_DispatchByBodyChecked">按正文元素調度操作 (不符合 WS-1 基本設定檔 1.1)。</s:String>
+    <s:String x:Key="String_DispatchByBodyUnchecked">由 SoapAction 發送 (更快, 適合大多數 web 服務)。</s:String>
+    <s:String x:Key="String_ImportUpdateService">導入/更新服務</s:String>
+    <s:String x:Key="String_ServiceEndpointConfiguration">服務端點和配置</s:String>
+    <s:String x:Key="String_ViewGeneratedCode">查看生成的代碼</s:String>
+    <s:String x:Key="String_PreviewProxyCode">預覽代理代碼</s:String>
+    <s:String x:Key="String_PreviewStubCode">預覽存根代碼</s:String>
+    <s:String x:Key="String_AnalysisResults">分析結果</s:String>
+    <s:String x:Key="String_LevelU">水準</s:String>
+    <s:String x:Key="String_ErrorAnalysingWebService">分析 Web 服務時出錯</s:String>
+    <s:String x:Key="String_ImportedWithWarnings">導入時有警告, 請參閱下面的結果。</s:String>
+    <s:String x:Key="String_WsdlImportedSuccessfully">分析並成功導入 WSDL</s:String>
+    <s:String x:Key="String_GeneratedProxyCode">生成的 WCF 代理代碼</s:String>
+    <s:String x:Key="String_GeneratedStubCode">生成的 WCF 存根代碼</s:String>
+    <s:String x:Key="String_NoFilesGenerated">未生成檔</s:String>
+    <s:String x:Key="String_NoFilesGeneratedMessage">指定的 WSDL 檔案不包含任何服務定義。</s:String>
     <s:String x:Key="String_Duplicate">重複</s:String>
     <s:String x:Key="String_Delete">刪除</s:String>
     <s:String x:Key="String_Edit">編輯</s:String>
@@ -209,6 +325,8 @@
     <s:String x:Key="String_RestartRequired">需要重新開機</s:String>
     <s:String x:Key="String_RestartRequiredExtensionQuestion">您需要重新開機 Hummingbird 以卸載選定的副檔名. 
  是否現在要重新開機 Hummingbird？</s:String>
+    <s:String x:Key="String_Enabled">啟用</s:String>
+    <s:String x:Key="String_Disabled">禁用</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">手動測試轉輪</s:String>
     <s:String x:Key="String_VirtualServices">虛擬服務</s:String>
@@ -329,6 +447,7 @@
     <s:String x:Key="String_SaveCurrentProject">是否保存當前專案？</s:String>
     <s:String x:Key="String_SaveCurrentProjectMessage">是否要保存當前的自動化專案？</s:String>
     <!-- ViewBase64Tool.xaml -->
+    <s:String x:Key="String_ActionColon">行動：</s:String>
     <s:String x:Key="String_Base64EncodingTitle">Base64 編碼解碼</s:String>
     <s:String x:Key="String_Utf8ToBase64">將 UTF-8 字串編碼為 Base64 字串</s:String>
     <s:String x:Key="String_Base64ToString">使用選定的編碼將 Base64 字串解碼為字串。</s:String>
@@ -391,7 +510,30 @@
     <s:String x:Key="String_MatchAnyWhere">匹配任何位置</s:String>
     <s:String x:Key="String_SearchNext">下</s:String>
     <s:String x:Key="String_CannotFindPattern">找不到圖案。</s:String>
+    <s:String x:Key="String_NoResultMatchesPattern">沒有與搜索 "{0}" 匹配的結果</s:String>
     <s:String x:Key="String_NoResultMatches">沒有與搜索 "{0}" 匹配的結果</s:String>
+    <!-- ExtensionDesigner\ViewApplication.xaml -->
+    <s:String x:Key="String_Application">應用</s:String>
+    <s:String x:Key="String_ApplicationTooltip">輸入應用程式的名稱:
+作為驅動程式, 它是您要測試的系統的名稱, 作為存根, 它是要類比的系統的名稱。</s:String>
+    <s:String x:Key="String_ApplicationNameColon">申請名稱:</s:String>
+    <s:String x:Key="String_ServiceCategoriesIncluded">此應用程式中包含的服務類別</s:String>
+    <s:String x:Key="String_ServiceCategoryU">服務類別</s:String>
+    <!-- ExtensionDesigner\ViewServiceCategory.xaml -->
+    <s:String x:Key="String_ServiceCategory">服務類別</s:String>
+    <s:String x:Key="String_ServiceCategoryTooltip">服務類別為同一建議持有一組 WebService。
+例如, 您可以擁有一組用於客戶管理的 web 服務, 包括 3 web 服務, 用於客戶創建、修改和刪除。</s:String>
+    <s:String x:Key="String_CategoryNameColon">類別名稱:</s:String>
+    <s:String x:Key="String_ServicesIncluded">此類別中包含的服務</s:String>
+    <s:String x:Key="String_ServicesU">服務</s:String>
+    <s:String x:Key="String_TypeU">類型</s:String>
+    <!-- ExtensionDesigner\ViewProjectOverview.xaml -->
+    <s:String x:Key="String_ProjectGeneralInfo">專案一般資訊</s:String>
+    <s:String x:Key="String_ProjectNameColon">專案名稱:</s:String>
+    <s:String x:Key="String_RootNamespaceColon">根命名空間:</s:String>
+    <s:String x:Key="String_AssemblyInfo">程式集資訊</s:String>
+    <s:String x:Key="String_AssemblyInfoTooltip">程式集資訊是在擴展程式集中編譯的技術資訊, 請確保為每個欄位指定一個法定名稱。</s:String>
+    <s:String x:Key="String_AssemblyNameColon">程式集名稱:</s:String>
     <!-- WindowSelectRequest.xaml -->
     <s:String x:Key="String_SelectARequest">選擇一個請求</s:String>
     <!-- WindowSendRequest.xaml -->

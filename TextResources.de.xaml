@@ -136,13 +136,129 @@ If sie in Anfragen, Antworten oder Automatisierungs-Skripte, referenziert werden
     <s:String x:Key="String_UnableToParseXml">Nicht in der Lage, die XML-Datei zu analysieren: 
 </s:String>
     <s:String x:Key="String_ParsedRequest">Analysierte Anfrage</s:String>
+    <!-- Components\ExtensionInformation.xaml -->
+    <s:String x:Key="String_SelectedExtensionInfo">Ausgewählten Erweiterungsinformationen</s:String>
+    <s:String x:Key="String_NameColon">Name:</s:String>
+    <s:String x:Key="String_UniqueIdColon">Eindeutige ID:</s:String>
+    <s:String x:Key="String_VersionColon">Version:</s:String>
+    <s:String x:Key="String_SupportsFrameworkColon">Test-Framework unterstützt:</s:String>
+    <s:String x:Key="String_CompanyNameColon">Name des Unternehmens:</s:String>
+    <s:String x:Key="String_DescriptionColon">Beschreibung:</s:String>
+    <s:String x:Key="String_CopyrightColon">Urheberrecht:</s:String>
+    <s:String x:Key="String_ExtensionStatusColon">Diese Erweiterung ist derzeit:</s:String>
+    <!-- Components\MessageOverview.xaml -->
+    <s:String x:Key="String_MessageColon">Nachricht:</s:String>
+    <s:String x:Key="String_RequestText">Anfrage Text</s:String>
+    <s:String x:Key="String_ResponseText">Antworttext</s:String>
+    <s:String x:Key="String_ProcessedInColon">Verarbeitet:</s:String>
+    <s:String x:Key="String_SentReceivedAtColon">Gesendet/empfangen am:</s:String>
+    <s:String x:Key="String_MessageNoLongerAvailable">Warnung: Diese Nachricht ist nicht mehr verfügbar, da die Erweiterung, die von diesem Dienst verwendet nicht geladen ist. MetadataId =</s:String>
+    <s:String x:Key="String_NoMetadata">Keine Metadaten</s:String>
+    <!-- Components\ObjectTreeView.xaml -->
+    <s:String x:Key="String_SelectedFieldTypeXG">Ausgewählten Bereich: {0} ist {1} &lt;{2}&gt;</s:String>
+    <s:String x:Key="String_SelectedFieldTypeX">Ausgewählten Bereich: {0} ist {1}</s:String>
+    <s:String x:Key="String_InsertXmlElement">Fügen Sie ein XML-Element</s:String>
+    <s:String x:Key="String_ClearArray">Dieses Array löschen</s:String>
+    <s:String x:Key="String_InsertElement">Fügen Sie ein Element</s:String>
+    <s:String x:Key="String_AppendElement">Ein Element anhängen</s:String>
+    <s:String x:Key="String_InitializeAsX">Als Element "{0}" Initialisieren</s:String>
+    <s:String x:Key="String_InitializeAsSubTypeX">Als abgeleiteten Typ "{0}" Initialisieren</s:String>
+    <s:String x:Key="String_InitializeAsObjectX">Als Objekt "{0}" Initialisieren</s:String>
+    <s:String x:Key="String_SetNull">Legen Sie als null</s:String>
+    <s:String x:Key="String_CopyPathClipboard">Pfad in Zwischenablage kopieren</s:String>
+    <s:String x:Key="String_EditMultiline">Diese Eigenschaft als mehrzeiligen Text bearbeiten</s:String>
+    <s:String x:Key="String_TypeofString">Typ String</s:String>
+    <s:String x:Key="String_PathXCopiedToClipboard">Den Weg: "{0}" wurde in die Zwischenablage kopiert wurden.</s:String>
+    <s:String x:Key="String_UnableCopyClipboard">Nicht in der Lage, den Pfad in Zwischenablage kopieren</s:String>
+    <s:String x:Key="String_SelectedElementDeleted">Ausgewähltes Element wurde aus dem Array gelöscht.</s:String>
+    <s:String x:Key="String_SelectedElementSetToNull">"Ausgewählte Element festgelegt wurde auf Null.</s:String>
+    <s:String x:Key="String_SelectedElementCanNotDelete">Ausgewähltes Element kann nicht gelöscht werden.</s:String>
+    <s:String x:Key="String_SelectedElementXCopied">Das ausgewählte Element Typ {0} wurde in die Zwischenablage kopiert.</s:String>
+    <s:String x:Key="String_UnableCopyObjectClipboard">Nicht in der Lage, das ausgewählte Objekt in die Zwischenablage kopieren</s:String>
+    <s:String x:Key="String_PastedToPosition">In der aktuellen Position eingefügt.</s:String>
+    <s:String x:Key="String_PastedSubTypeXAsY">Abgeleiteten Typ {0} als {1} an der aktuellen Position eingefügt.</s:String>
+    <s:String x:Key="String_ElementAppended">Element hat auf das aktuelle Array angehängt wurde.</s:String>
+    <s:String x:Key="String_CannotPasteXToY">Fehler: Kann kein "{0}" auf "{1}" Objekt einfügen</s:String>
+    <s:String x:Key="String_CannotPasteToPosition">Nicht in der Lage, die aktuelle Position einfügen.</s:String>
+    <!-- Components\RequestOptionsPanel -->
+    <s:String x:Key="String_SearchFilter">Suchfilter</s:String>
+    <s:String x:Key="String_Type3Chars">Bitte geben Sie mindestens 3 gültige Zeichen um die Dienste zu finden.</s:String>
+    <s:String x:Key="String_GeneralOptions">Allgemeine Optionen</s:String>
+    <s:String x:Key="String_AuthenticationColon">Authentifizierung:</s:String>
+    <s:String x:Key="String_PreEmptiveColon">Präventiv:</s:String>
+    <s:String x:Key="String_PreEmptiveChecked">Präventive Authentifizierung</s:String>
+    <s:String x:Key="String_PreEmptiveUnchecked">Normale Authentifizierung</s:String>
+    <s:String x:Key="String_SoapOptions">Seife-Optionen</s:String>
+    <s:String x:Key="String_MessageEncodingColon">Nachrichtencodierung:</s:String>
+    <s:String x:Key="String_MessageEncodingMtoM">MtoM (Anwendung/Xop)</s:String>
+    <s:String x:Key="String_MessageEncodingText">Text/XML</s:String>
+    <s:String x:Key="String_MessageVersionColon">Message-Version:</s:String>
+    <s:String x:Key="String_CustomHttpHeaders">Benutzerdefinierte HTTP-Header</s:String>
+    <s:String x:Key="String_Anonymous">Anonym</s:String>
+    <s:String x:Key="String_WindowsAuthentication">Windows-Authentifizierung</s:String>
+    <s:String x:Key="String_WindowsAuthenticationTooltip">Verwenden Sie Ihre aktuelle Windows-Anmeldeinformationen, um rufen Sie diesen Dienst mit integrierte Windows-Authentifizierung</s:String>
+    <s:String x:Key="String_NtlmAuthentication">NTLM-Authentifizierung</s:String>
+    <s:String x:Key="String_NtlmAuthenticationTooltip">Verwenden Sie Ihre aktuelle Windows-Anmeldeinformationen, um rufen Sie diesen Dienst mit NTLM-Authentifizierung</s:String>
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">Importieren von...</s:String>
     <!-- PROFILE MANAGEMENT -->
     <s:String x:Key="String_ProfileManagement_Para1">Testeinstellungen, einschließlich Dienstleistungen Parameter, Testumgebungen, benutzerdefinierte Variablen, Sicherheits-Token, Dienstverhaltensweisen Simulation, sind verpackt in Profile.</s:String>
     <s:String x:Key="String_ProfileManagement_Para2">Profile können importiert, exportiert oder für andere Personen freigegeben werden. Profile können auch in automatisierungsprojektes eingebettet werden, um die Einstellungen des Projekts Automatisierung zu vereinfachen. Im folgenden sind alle Profile, die in der Anwendung verwendet werden können: </s:String>
     <s:String x:Key="String_ProfileManagement_Note">Hinweis: Standard-Profil wird durch manuelle Tests verwendet, es kann nicht bearbeitet oder entfernt hier. Um das Standard-Profil zu ändern, gehen Sie zu Einstellungen testen.</s:String>
+    <s:String x:Key="String_ActionsU">AKTIONEN</s:String>
     <s:String x:Key="String_Actions">AKTIONEN</s:String>
+    <s:String x:Key="String_ExportVSSolution">Export als Visual Studio-Projektmappe</s:String>
+    <s:String x:Key="String_ExtensionProjectBuilt">Das Erweiterungsprojekt wurde gebaut mit Erfolg, klicken Sie hier, um den übergeordneten Ordner öffnen</s:String>
+    <s:String x:Key="String_BuildFailed">Build ist fehlgeschlagen</s:String>
+    <s:String x:Key="String_BuildFailedMessage">Während des Builds gibt es Fehler. Klicken Sie auf den folgenden Link, um Details zu sehen.</s:String>
+    <s:String x:Key="String_GenerationFailedMessage">Es ist ein Fehler bei der Projekt-Datei-Erzeugung.</s:String>
+    <s:String x:Key="String_ChooseLocationProjectFiles">Wählen Sie einen Speicherort zum Speichern der Projektdateien</s:String>
+    <s:String x:Key="String_ProjectGenerated">Projekt wurde erstellt.</s:String>
+    <s:String x:Key="String_CannotGenerateSolution">Kann nicht Generat Lösung</s:String>
+    <s:String x:Key="String_CannotGenerateSolutionMessage">"Ein Fehler ist aufgetreten, wenn Sie die Projektmappendatei generieren."</s:String>
+    <s:String x:Key="String_ProjectGenerationCancelled">Lösung Generierung wurde abgebrochen.</s:String>
+    <!-- ExtensionDesigner\ViewServiceEndpoint.xaml -->
+    <s:String x:Key="String_EndpointNameColon">Endpunktnamen:</s:String>
+    <s:String x:Key="String_BindingColon">Bindung:</s:String>
+    <s:String x:Key="String_ServiceIdColon">Service-Id:</s:String>
+    <s:String x:Key="String_FriendlyNameColon">Angezeigter Name:</s:String>
+    <s:String x:Key="String_SoapVersionColon">SOAP-Version:</s:String>
+    <s:String x:Key="String_ProtectionLevelColon">Schutzstufe:</s:String>
+    <s:String x:Key="String_SessionModeColon">Session-Modus:</s:String>
+    <s:String x:Key="String_CallerSimulationColon">Anrufer-Simulation:</s:String>
+    <s:String x:Key="String_CallerSimulationChecked">Einsatz als Fahrer: Rufen Sie diesen Webdienst von Ihrer Anwendung ausgesetzt</s:String>
+    <s:String x:Key="String_CallerSimulationUnchecked">Code zum Aufrufen dieses Diensts wird nicht generiert werden.</s:String>
+    <s:String x:Key="String_ServiceSimulationColon">Service-Simulation:</s:String>
+    <s:String x:Key="String_ServiceSimulationChecked">Verwendung als Stub: den Dienst wird von Ihrer Anwendung zu simulieren</s:String>
+    <s:String x:Key="String_ServiceSimulationUnchecked">Erzeugt keinen Code, um diesen Service zu simulieren</s:String>
+    <s:String x:Key="String_UriTemplateDriverColon">URI-Vorlage (Fahrer):</s:String>
+    <s:String x:Key="String_UriTemplateTooltip">URI-Vorlage kann Variablen im Text Format ${Variablenname} enthalten.</s:String>
+    <s:String x:Key="String_UriTemplateStubColon">URI-Vorlage (Stub):</s:String>
+    <!-- ExtensionDesigner\ViewSoapService.xaml -->
+    <s:String x:Key="String_SoapWebService">SOAP-Web-Dienst</s:String>
+    <s:String x:Key="String_SoapWebServiceTooltip">Importieren Sie einen Webdienst aus einer Definitionsdatei (WSDL). Die Definition kann für Fernbedienung mit URL oder einer lokalen Datei sein. UNC-Pfad wird ebenfalls unterstützt.</s:String>
+    <s:String x:Key="String_ServiceDescriptionWsdlColon">Leistungsbeschreibung (WSDL):</s:String>
+    <s:String x:Key="String_ImportOptions">Import-Optionen</s:String>
+    <s:String x:Key="String_GenerateOrderColon">Bestellung zu generieren:</s:String>
+    <s:String x:Key="String_GenerateOrderChecked">Bestellten XML-Documnets nur zu akzeptieren</s:String>
+    <s:String x:Key="String_GenerateORderUnchecked">Ungeordnete XML-Dokumente akzeptieren</s:String>
+    <s:String x:Key="String_DispatchByBodyColon">Versand von Körper:</s:String>
+    <s:String x:Key="String_DispatchByBodyChecked">Versand-Operationen von Body-Element (nicht-konforme mit WS-1 Basic Profil 1.1).</s:String>
+    <s:String x:Key="String_DispatchByBodyUnchecked">Versand von SoapAction (schneller und Anzug für die meisten Webdienste).</s:String>
+    <s:String x:Key="String_ImportUpdateService">Import/Update Service</s:String>
+    <s:String x:Key="String_ServiceEndpointConfiguration">Dienstendpunkte &amp; Konfiguration</s:String>
+    <s:String x:Key="String_ViewGeneratedCode">Generierten Code anzeigen</s:String>
+    <s:String x:Key="String_PreviewProxyCode">Vorschau-Proxycode</s:String>
+    <s:String x:Key="String_PreviewStubCode">Vorschau-Stub-code</s:String>
+    <s:String x:Key="String_AnalysisResults">Analyse-Ergebnisse</s:String>
+    <s:String x:Key="String_LevelU">EBENE</s:String>
+    <s:String x:Key="String_ErrorAnalysingWebService">Fehler bei der Analyse der Web-Service</s:String>
+    <s:String x:Key="String_ImportedWithWarnings">Finden Sie mit Warnungen importiert, das Ergebnis unten.</s:String>
+    <s:String x:Key="String_WsdlImportedSuccessfully">Die WSDL-Datei analysiert und erfolgreich importiert</s:String>
+    <s:String x:Key="String_GeneratedProxyCode">Erstellten WCF Proxy-Code</s:String>
+    <s:String x:Key="String_GeneratedStubCode">Erstellten WCF Stubcode</s:String>
+    <s:String x:Key="String_NoFilesGenerated">keine Dateien erzeugt</s:String>
+    <s:String x:Key="String_NoFilesGeneratedMessage">Die angegebenen WSDL-Datei enthält keine Service-Definition.</s:String>
     <s:String x:Key="String_Duplicate">Duplikat</s:String>
     <s:String x:Key="String_Delete">Löschen</s:String>
     <s:String x:Key="String_Edit">Bearbeiten</s:String>
@@ -212,6 +328,8 @@ If sie in Anfragen, Antworten oder Automatisierungs-Skripte, referenziert werden
     <s:String x:Key="String_RestartRequired">Neustart erforderlich</s:String>
     <s:String x:Key="String_RestartRequiredExtensionQuestion">Sie müssen neu starten Hummingbird um die ausgewählte Erweiterung. 
  deinstallieren, die Sie Hummingbird jetzt neu starten möchten?</s:String>
+    <s:String x:Key="String_Enabled">Aktiviert</s:String>
+    <s:String x:Key="String_Disabled">Behinderte</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">Manueller Test runner</s:String>
     <s:String x:Key="String_VirtualServices">Virtuelle Services</s:String>
@@ -332,6 +450,7 @@ If sie in Anfragen, Antworten oder Automatisierungs-Skripte, referenziert werden
     <s:String x:Key="String_SaveCurrentProject">Speichern aktuelle Projekt?</s:String>
     <s:String x:Key="String_SaveCurrentProjectMessage">Möchten Sie das aktuelle Automatisierungsprojekt speichern?</s:String>
     <!-- ViewBase64Tool.xaml -->
+    <s:String x:Key="String_ActionColon">Aktion: </s:String>
     <s:String x:Key="String_Base64EncodingTitle">Base64-Codierung &amp; Decodierung</s:String>
     <s:String x:Key="String_Utf8ToBase64">Den UTF-8-String kodiert in einen Base64-string</s:String>
     <s:String x:Key="String_Base64ToString">Dekodiert Base64 Zeichenfolge als String, mit ausgewählten Codierung.</s:String>
@@ -394,7 +513,30 @@ If sie in Anfragen, Antworten oder Automatisierungs-Skripte, referenziert werden
     <s:String x:Key="String_MatchAnyWhere">Passen Sie überall</s:String>
     <s:String x:Key="String_SearchNext">Nächste</s:String>
     <s:String x:Key="String_CannotFindPattern">Das Muster kann nicht gefunden werden.</s:String>
+    <s:String x:Key="String_NoResultMatchesPattern">Es gibt kein Ergebnis-Spiele Ihre Suche "{0}"</s:String>
     <s:String x:Key="String_NoResultMatches">Es gibt kein Ergebnis-Spiele Ihre Suche "{0}"</s:String>
+    <!-- ExtensionDesigner\ViewApplication.xaml -->
+    <s:String x:Key="String_Application">Anwendung</s:String>
+    <s:String x:Key="String_ApplicationTooltip">Geben Sie einen Namen für die Anwendung:
+Als Fahrer ist es der Name des Systems, die Sie testen, als Stub ist der Name des Systems, die Sie simulieren möchten.</s:String>
+    <s:String x:Key="String_ApplicationNameColon">Name der Anwendung:</s:String>
+    <s:String x:Key="String_ServiceCategoriesIncluded">Service-Kategorien, die in diesem Antrag enthalten</s:String>
+    <s:String x:Key="String_ServiceCategoryU">KATEGORIE "SERVICE"</s:String>
+    <!-- ExtensionDesigner\ViewServiceCategory.xaml -->
+    <s:String x:Key="String_ServiceCategory">Kategorie "Service"</s:String>
+    <s:String x:Key="String_ServiceCategoryTooltip">Kategorie "Service" enthält einen Satz von WebService für die gleiche vorschlagen. 
+Zum Beispiel haben Sie eine Reihe von Web-Service für Kundenmanagement, einschließlich 3 Web-Services für Kunden Erstellung, Änderung und Löschung.</s:String>
+    <s:String x:Key="String_CategoryNameColon">Kategoriename:</s:String>
+    <s:String x:Key="String_ServicesIncluded">In dieser Kategorie enthaltenen Leistungen</s:String>
+    <s:String x:Key="String_ServicesU">DIENSTLEISTUNGEN</s:String>
+    <s:String x:Key="String_TypeU">TYP</s:String>
+    <!-- ExtensionDesigner\ViewProjectOverview.xaml -->
+    <s:String x:Key="String_ProjectGeneralInfo">Projekt-allgemeine Informationen</s:String>
+    <s:String x:Key="String_ProjectNameColon">Name des Projektes:</s:String>
+    <s:String x:Key="String_RootNamespaceColon">Root-Namespace:</s:String>
+    <s:String x:Key="String_AssemblyInfo">Assemblyinformationen</s:String>
+    <s:String x:Key="String_AssemblyInfoTooltip">Assemblyinformationen sind technische Informationen, die in Ihrer Verlängerung Assembly kompiliert, Bitte achten Sie darauf, einen rechtlichen Namen für jedes Feld zuweisen.</s:String>
+    <s:String x:Key="String_AssemblyNameColon">Der Name der Assembly:</s:String>
     <!-- WindowSelectRequest.xaml -->
     <s:String x:Key="String_SelectARequest">Wählen Sie eine Anfrage</s:String>
     <!-- WindowSendRequest.xaml -->

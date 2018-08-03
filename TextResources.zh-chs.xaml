@@ -133,12 +133,128 @@
     <s:String x:Key="String_DetailedTechnicalError">详细技术错误:</s:String>
     <s:String x:Key="String_UnableToParseXml">无法解析 XML:</s:String>
     <s:String x:Key="String_ParsedRequest">分析的请求</s:String>
+    <!-- Components\ExtensionInformation.xaml -->
+    <s:String x:Key="String_SelectedExtensionInfo">选定的扩展信息</s:String>
+    <s:String x:Key="String_NameColon">名字：</s:String>
+    <s:String x:Key="String_UniqueIdColon">唯一标识:</s:String>
+    <s:String x:Key="String_VersionColon">版本：</s:String>
+    <s:String x:Key="String_SupportsFrameworkColon">支持的测试框架:</s:String>
+    <s:String x:Key="String_CompanyNameColon">公司名称:</s:String>
+    <s:String x:Key="String_DescriptionColon">描述：</s:String>
+    <s:String x:Key="String_CopyrightColon">版权：</s:String>
+    <s:String x:Key="String_ExtensionStatusColon">此扩展当前状态:</s:String>
+    <!-- Components\MessageOverview.xaml -->
+    <s:String x:Key="String_MessageColon">消息：</s:String>
+    <s:String x:Key="String_RequestText">请求文本</s:String>
+    <s:String x:Key="String_ResponseText">响应文本</s:String>
+    <s:String x:Key="String_ProcessedInColon">处理时间:</s:String>
+    <s:String x:Key="String_SentReceivedAtColon">发送/接收:</s:String>
+    <s:String x:Key="String_MessageNoLongerAvailable">警告: 此服务不再可用, 因为此服务使用的扩展未加载。MetadataId =</s:String>
+    <s:String x:Key="String_NoMetadata">无元数据</s:String>
+    <!-- Components\ObjectTreeView.xaml -->
+    <s:String x:Key="String_SelectedFieldTypeXG">选定的字段: {0} 是 {1} 的类型 &lt;{2}&gt;</s:String>
+    <s:String x:Key="String_SelectedFieldTypeX">选定字段: {0} 是 {1} 的类型</s:String>
+    <s:String x:Key="String_InsertXmlElement">插入 XML 元素</s:String>
+    <s:String x:Key="String_ClearArray">清除此数组</s:String>
+    <s:String x:Key="String_InsertElement">插入元素</s:String>
+    <s:String x:Key="String_AppendElement">追加元素</s:String>
+    <s:String x:Key="String_InitializeAsX">初始化为元素 "{0}"</s:String>
+    <s:String x:Key="String_InitializeAsSubTypeX">初始化为派生类型 "{0}"</s:String>
+    <s:String x:Key="String_InitializeAsObjectX">初始化为对象 "{0}"</s:String>
+    <s:String x:Key="String_SetNull">设置为 null</s:String>
+    <s:String x:Key="String_CopyPathClipboard">将路径复制到剪贴板</s:String>
+    <s:String x:Key="String_EditMultiline">以多行文本模式编辑</s:String>
+    <s:String x:Key="String_TypeofString">字符串 类型</s:String>
+    <s:String x:Key="String_PathXCopiedToClipboard">路径: "{0}" 已复制到剪贴板。</s:String>
+    <s:String x:Key="String_UnableCopyClipboard">无法将路径复制到剪贴板</s:String>
+    <s:String x:Key="String_SelectedElementDeleted">已从数组中删除选定元素。</s:String>
+    <s:String x:Key="String_SelectedElementSetToNull">选定的元素已设置为 null。</s:String>
+    <s:String x:Key="String_SelectedElementCanNotDelete">无法删除所选元素。</s:String>
+    <s:String x:Key="String_SelectedElementXCopied">类型为 {0} 的选定元素已复制到剪贴板。</s:String>
+    <s:String x:Key="String_UnableCopyObjectClipboard">无法将所选对象复制到剪贴板</s:String>
+    <s:String x:Key="String_PastedToPosition">粘贴到当前位置。</s:String>
+    <s:String x:Key="String_PastedSubTypeXAsY">已将派生类型 {0} 粘贴为 {1} 到当前位置。</s:String>
+    <s:String x:Key="String_ElementAppended">元素已添加到当前数组尾部。</s:String>
+    <s:String x:Key="String_CannotPasteXToY">错误: 无法在 "{1}" 对象上粘贴 "{0}"</s:String>
+    <s:String x:Key="String_CannotPasteToPosition">无法粘贴到当前位置。</s:String>
+    <!-- Components\RequestOptionsPanel -->
+    <s:String x:Key="String_SearchFilter">搜索条件</s:String>
+    <s:String x:Key="String_Type3Chars">请键入至少3个有效字符以查找服务。</s:String>
+    <s:String x:Key="String_GeneralOptions">常规选项</s:String>
+    <s:String x:Key="String_AuthenticationColon">身份验证：</s:String>
+    <s:String x:Key="String_PreEmptiveColon">抢先认证:</s:String>
+    <s:String x:Key="String_PreEmptiveChecked">抢先认证的身份验证</s:String>
+    <s:String x:Key="String_PreEmptiveUnchecked">常规身份验证</s:String>
+    <s:String x:Key="String_SoapOptions">SOAP 选项</s:String>
+    <s:String x:Key="String_MessageEncodingColon">消息编码:</s:String>
+    <s:String x:Key="String_MessageEncodingMtoM">MtoM (application/xop)</s:String>
+    <s:String x:Key="String_MessageEncodingText">文本/XML</s:String>
+    <s:String x:Key="String_MessageVersionColon">消息版本:</s:String>
+    <s:String x:Key="String_CustomHttpHeaders">自定义 HTTP 标头</s:String>
+    <s:String x:Key="String_Anonymous">匿名</s:String>
+    <s:String x:Key="String_WindowsAuthentication">Windows 身份验证</s:String>
+    <s:String x:Key="String_WindowsAuthenticationTooltip">使用您当前的 windows 凭据调用此服务, 并使用 windows 集成身份验证</s:String>
+    <s:String x:Key="String_NtlmAuthentication">NTLM 身份验证</s:String>
+    <s:String x:Key="String_NtlmAuthenticationTooltip">使用您当前的 Windows 凭据调用此服务, 使用 NTLM 身份验证</s:String>
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">导入...</s:String>
     <s:String x:Key="String_ProfileManagement_Para1">测试设置 (包括服务参数、测试环境、自定义变量、安全令牌、服务模拟行为) 被打包到配置文件中。</s:String>
     <s:String x:Key="String_ProfileManagement_Para2">配置文件可以导入、导出或共享给其他人。配置文件还可以嵌入到自动化项目中, 以简化自动化项目的测试设置。以下是可在应用程序中使用的所有配置文件:</s:String>
     <s:String x:Key="String_ProfileManagement_Note">注意: 手动测试使用默认配置文件, 无法在此编辑或删除。要修改默认配置文件, 请转到测试设置。</s:String>
+    <s:String x:Key="String_ActionsU">操作</s:String>
     <s:String x:Key="String_Actions">操作</s:String>
+    <s:String x:Key="String_ExportVSSolution">导出为 Visual Studio 解决方案</s:String>
+    <s:String x:Key="String_ExtensionProjectBuilt">扩展项目已成功生成, 请单击此处打开包含该项目的文件夹</s:String>
+    <s:String x:Key="String_BuildFailed">编译失败</s:String>
+    <s:String x:Key="String_BuildFailedMessage">编译过程中存在错误。单击下面的链接查看详细信息。</s:String>
+    <s:String x:Key="String_GenerationFailedMessage">在项目文件生成过程中出现错误。</s:String>
+    <s:String x:Key="String_ChooseLocationProjectFiles">选择存储项目文件的位置</s:String>
+    <s:String x:Key="String_ProjectGenerated">项目已生成。</s:String>
+    <s:String x:Key="String_CannotGenerateSolution">无法生成解决方案</s:String>
+    <s:String x:Key="String_CannotGenerateSolutionMessage">生成解决方案文件时出现错误。</s:String>
+    <s:String x:Key="String_ProjectGenerationCancelled">解决方案生成已被取消。</s:String>
+    <!-- ExtensionDesigner\ViewServiceEndpoint.xaml -->
+    <s:String x:Key="String_EndpointNameColon">端点名称:</s:String>
+    <s:String x:Key="String_BindingColon">绑定：</s:String>
+    <s:String x:Key="String_ServiceIdColon">服务编号:</s:String>
+    <s:String x:Key="String_FriendlyNameColon">友好名称:</s:String>
+    <s:String x:Key="String_SoapVersionColon">Soap 版本:</s:String>
+    <s:String x:Key="String_ProtectionLevelColon">保护级别:</s:String>
+    <s:String x:Key="String_SessionModeColon">会话模式:</s:String>
+    <s:String x:Key="String_CallerSimulationColon">呼叫者模拟:</s:String>
+    <s:String x:Key="String_CallerSimulationChecked">用作驱动程序: 调用以测试此 web 服务</s:String>
+    <s:String x:Key="String_CallerSimulationUnchecked">不生成调用此服务的代码</s:String>
+    <s:String x:Key="String_ServiceSimulationColon">服务模拟:</s:String>
+    <s:String x:Key="String_ServiceSimulationChecked">生成必要的代码，模拟该 Web 服务以被其他程序调用</s:String>
+    <s:String x:Key="String_ServiceSimulationUnchecked">不生成用于服务模拟的代码</s:String>
+    <s:String x:Key="String_UriTemplateDriverColon">Uri 模板 (驱动程序):</s:String>
+    <s:String x:Key="String_UriTemplateTooltip">Uri 模板可以包含格式为 ${VariableName} 的文本中的变量</s:String>
+    <s:String x:Key="String_UriTemplateStubColon">Uri 模板 (服务模拟):</s:String>
+    <!-- ExtensionDesigner\ViewSoapService.xaml -->
+    <s:String x:Key="String_SoapWebService">SOAP Web 服务</s:String>
+    <s:String x:Key="String_SoapWebServiceTooltip">从定义文件 (WSDL) 导入 web 服务。WSDL 可以从Web服务器或本地载入，也可以使用 UNC 路径。</s:String>
+    <s:String x:Key="String_ServiceDescriptionWsdlColon">服务描述 (WSDL):</s:String>
+    <s:String x:Key="String_ImportOptions">导入选项</s:String>
+    <s:String x:Key="String_GenerateOrderColon">生成元素顺序:</s:String>
+    <s:String x:Key="String_GenerateOrderChecked">仅接受有序的的 XML Documnets</s:String>
+    <s:String x:Key="String_GenerateORderUnchecked">接受无序的 XML 文档</s:String>
+    <s:String x:Key="String_DispatchByBodyColon">按 Soap Body 分发:</s:String>
+    <s:String x:Key="String_DispatchByBodyChecked">按 Body 元素调度操作 (不符合 WS-1 基本配置文件 1.1)，适用于某些无 SoapAction 的服务</s:String>
+    <s:String x:Key="String_DispatchByBodyUnchecked">按 SoapAction 调度 (更快, 适合大多数 web 服务)。</s:String>
+    <s:String x:Key="String_ImportUpdateService">导入/更新服务</s:String>
+    <s:String x:Key="String_ServiceEndpointConfiguration">服务端点和配置</s:String>
+    <s:String x:Key="String_ViewGeneratedCode">查看生成的代码</s:String>
+    <s:String x:Key="String_PreviewProxyCode">预览 Driver 代码</s:String>
+    <s:String x:Key="String_PreviewStubCode">预览 Stub 代码</s:String>
+    <s:String x:Key="String_AnalysisResults">分析结果</s:String>
+    <s:String x:Key="String_LevelU">级别</s:String>
+    <s:String x:Key="String_ErrorAnalysingWebService">分析 Web 服务时出错</s:String>
+    <s:String x:Key="String_ImportedWithWarnings">导入时有警告, 请参阅下面的结果。</s:String>
+    <s:String x:Key="String_WsdlImportedSuccessfully">分析并成功导入 WSDL</s:String>
+    <s:String x:Key="String_GeneratedProxyCode">生成的 WCF Driver 代码</s:String>
+    <s:String x:Key="String_GeneratedStubCode">生成的 WCF Stub 代码</s:String>
+    <s:String x:Key="String_NoFilesGenerated">未生成任何文件</s:String>
+    <s:String x:Key="String_NoFilesGeneratedMessage">指定的 WSDL 文件不包含任何服务定义。</s:String>
     <s:String x:Key="String_Duplicate">复制</s:String>
     <s:String x:Key="String_Delete">删除</s:String>
     <s:String x:Key="String_Edit">编辑</s:String>
@@ -208,6 +324,8 @@
     <s:String x:Key="String_RestartRequired">需要重新启动</s:String>
     <s:String x:Key="String_RestartRequiredExtensionQuestion">您需要重新启动 Hummingbird 以卸载选定的扩展名. 
  是否现在要重新启动 Hummingbird？</s:String>
+    <s:String x:Key="String_Enabled">已启用</s:String>
+    <s:String x:Key="String_Disabled">已禁用</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">手动测试转轮</s:String>
     <s:String x:Key="String_VirtualServices">虚拟服务</s:String>
@@ -328,6 +446,7 @@
     <s:String x:Key="String_SaveCurrentProject">是否保存当前项目？</s:String>
     <s:String x:Key="String_SaveCurrentProjectMessage">是否要保存当前的自动化项目？</s:String>
     <!-- ViewBase64Tool.xaml -->
+    <s:String x:Key="String_ActionColon">操作：</s:String>
     <s:String x:Key="String_Base64EncodingTitle">Base64 编码解码</s:String>
     <s:String x:Key="String_Utf8ToBase64">将 UTF-8 字符串编码为 Base64 字符串</s:String>
     <s:String x:Key="String_Base64ToString">使用选定的编码将 Base64 字符串解码为字符串。</s:String>
@@ -390,7 +509,30 @@
     <s:String x:Key="String_MatchAnyWhere">匹配任何位置</s:String>
     <s:String x:Key="String_SearchNext">下一个</s:String>
     <s:String x:Key="String_CannotFindPattern">找不到要搜索的目标。</s:String>
-    <s:String x:Key="String_NoResultMatches">没有与 "{0}" 匹配的结果</s:String>
+    <s:String x:Key="String_NoResultMatchesPattern">没有与搜索 "{0}" 匹配的结果</s:String>
+    <s:String x:Key="String_NoResultMatches">没有匹配的结果</s:String>
+    <!-- ExtensionDesigner\ViewApplication.xaml -->
+    <s:String x:Key="String_Application">应用</s:String>
+    <s:String x:Key="String_ApplicationTooltip">输入应用程序的名称:
+作为驱动程序, 它是您要测试的系统的名称, 作为存根, 它是要模拟的系统的名称。</s:String>
+    <s:String x:Key="String_ApplicationNameColon">申请名称:</s:String>
+    <s:String x:Key="String_ServiceCategoriesIncluded">此应用程序中包含的服务类别</s:String>
+    <s:String x:Key="String_ServiceCategoryU">服务类别</s:String>
+    <!-- ExtensionDesigner\ViewServiceCategory.xaml -->
+    <s:String x:Key="String_ServiceCategory">服务类别</s:String>
+    <s:String x:Key="String_ServiceCategoryTooltip">服务类别为同一建议持有一组 WebService。
+例如, 您可以拥有一组用于客户管理的 web 服务, 包括 3 web 服务, 用于客户创建、修改和删除。</s:String>
+    <s:String x:Key="String_CategoryNameColon">类别名称:</s:String>
+    <s:String x:Key="String_ServicesIncluded">此类别中包含的服务</s:String>
+    <s:String x:Key="String_ServicesU">服务</s:String>
+    <s:String x:Key="String_TypeU">类型</s:String>
+    <!-- ExtensionDesigner\ViewProjectOverview.xaml -->
+    <s:String x:Key="String_ProjectGeneralInfo">项目一般信息</s:String>
+    <s:String x:Key="String_ProjectNameColon">项目名称:</s:String>
+    <s:String x:Key="String_RootNamespaceColon">根命名空间:</s:String>
+    <s:String x:Key="String_AssemblyInfo">程序集信息</s:String>
+    <s:String x:Key="String_AssemblyInfoTooltip">程序集信息是在扩展程序集中编译的技术信息, 请确保为每个字段指定一个合法名称。</s:String>
+    <s:String x:Key="String_AssemblyNameColon">程序集名称:</s:String>
     <!-- WindowSelectRequest.xaml -->
     <s:String x:Key="String_SelectARequest">选择一个请求</s:String>
     <!-- WindowSendRequest.xaml -->
@@ -407,4 +549,4 @@
     <s:String x:Key="String_RequestSentTo">发送到的请求:</s:String>
     <s:String x:Key="String_ElapsedTime">运行时间:</s:String>
     <s:String x:Key="String_ResponseColon">响应：</s:String>
-</ResourceDictionary>
+</ResourceDictionary> 

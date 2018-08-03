@@ -136,13 +136,129 @@ If που αναφέρονται στις αιτήσεις, απαντήσεις
     <s:String x:Key="String_UnableToParseXml">Δυνατό να αναλύσει το αρχείο XML: 
 </s:String>
     <s:String x:Key="String_ParsedRequest">Αναλυθεί αιτήματος</s:String>
+    <!-- Components\ExtensionInformation.xaml -->
+    <s:String x:Key="String_SelectedExtensionInfo">Επιλεγμένη επέκταση πληροφοριών</s:String>
+    <s:String x:Key="String_NameColon">Όνομα:</s:String>
+    <s:String x:Key="String_UniqueIdColon">Μοναδικό αναγνωριστικό:</s:String>
+    <s:String x:Key="String_VersionColon">Έκδοση:</s:String>
+    <s:String x:Key="String_SupportsFrameworkColon">Υποστηρίζει το πλαίσιο δοκιμών:</s:String>
+    <s:String x:Key="String_CompanyNameColon">Όνομα εταιρείας:</s:String>
+    <s:String x:Key="String_DescriptionColon">Περιγραφή:</s:String>
+    <s:String x:Key="String_CopyrightColon">Πνευματικά δικαιώματα:</s:String>
+    <s:String x:Key="String_ExtensionStatusColon">Αυτή η επέκταση είναι επί του παρόντος:</s:String>
+    <!-- Components\MessageOverview.xaml -->
+    <s:String x:Key="String_MessageColon">Μήνυμα:</s:String>
+    <s:String x:Key="String_RequestText">Κείμενο αίτησης</s:String>
+    <s:String x:Key="String_ResponseText">Απάντηση κειμένου</s:String>
+    <s:String x:Key="String_ProcessedInColon">Επεξεργασία:</s:String>
+    <s:String x:Key="String_SentReceivedAtColon">Στάλη/παραλήφθηκε στο:</s:String>
+    <s:String x:Key="String_MessageNoLongerAvailable">Προειδοποίηση: Αυτό το μήνυμα δεν είναι πλέον διαθέσιμα επειδή η επέκταση που χρησιμοποιείται από την υπηρεσία αυτή δεν είναι φορτωμένο. MetadataId =</s:String>
+    <s:String x:Key="String_NoMetadata">Δεν μετα-δεδομένων</s:String>
+    <!-- Components\ObjectTreeView.xaml -->
+    <s:String x:Key="String_SelectedFieldTypeXG">Επιλεγμένο πεδίο: {0} έχει τύπο {1} &lt;{2}&gt;</s:String>
+    <s:String x:Key="String_SelectedFieldTypeX">Επιλεγμένο πεδίο: {0} έχει τύπο {1}</s:String>
+    <s:String x:Key="String_InsertXmlElement">Εισαγάγετε ένα στοιχείο XML</s:String>
+    <s:String x:Key="String_ClearArray">Καταργήσετε την επιλογή αυτού του πίνακα</s:String>
+    <s:String x:Key="String_InsertElement">Εισαγάγετε ένα στοιχείο</s:String>
+    <s:String x:Key="String_AppendElement">Προσάρτηση ενός στοιχείου</s:String>
+    <s:String x:Key="String_InitializeAsX">Προετοιμασία ως στοιχείο "{0}"</s:String>
+    <s:String x:Key="String_InitializeAsSubTypeX">Προετοιμασία ως παραγόμενο τύπο "{0}"</s:String>
+    <s:String x:Key="String_InitializeAsObjectX">Προετοιμασία ως αντικείμενο «{0}»</s:String>
+    <s:String x:Key="String_SetNull">Ορίστε ως τιμή null</s:String>
+    <s:String x:Key="String_CopyPathClipboard">Διαδρομή αντιγραφή στο Πρόχειρο</s:String>
+    <s:String x:Key="String_EditMultiline">Επεξεργασία της ιδιότητας αυτού ως κειμένου πολλαπλών γραμμών</s:String>
+    <s:String x:Key="String_TypeofString">Ο τύπος της συμβολοσειράς</s:String>
+    <s:String x:Key="String_PathXCopiedToClipboard">Η διαδρομή: «{0}» έχει αντιγραφεί στο Πρόχειρο.</s:String>
+    <s:String x:Key="String_UnableCopyClipboard">Δεν είναι δυνατή η αντιγραφή του μονοπατιού σε πρόχειρο</s:String>
+    <s:String x:Key="String_SelectedElementDeleted">Επιλεγμένο στοιχείο έχει διαγραφεί από τη συστοιχία.</s:String>
+    <s:String x:Key="String_SelectedElementSetToNull">«Επιλεγμένο στοιχείο έχει οριστεί σε τιμή null.</s:String>
+    <s:String x:Key="String_SelectedElementCanNotDelete">Δεν μπορεί να διαγραφεί το επιλεγμένο στοιχείο.</s:String>
+    <s:String x:Key="String_SelectedElementXCopied">Το επιλεγμένο στοιχείο του τύπου {0} έχει αντιγραφεί στο Πρόχειρο.</s:String>
+    <s:String x:Key="String_UnableCopyObjectClipboard">Δεν είναι δυνατή η αντιγραφή του επιλεγμένου αντικειμένου στο Πρόχειρο</s:String>
+    <s:String x:Key="String_PastedToPosition">Επικολληθεί στην τρέχουσα θέση.</s:String>
+    <s:String x:Key="String_PastedSubTypeXAsY">Επικολληθεί παραγόμενος τύπος {0} με {1} στην τρέχουσα θέση.</s:String>
+    <s:String x:Key="String_ElementAppended">Στοιχείο έχει προσαρτηθεί στον τρέχοντα πίνακα.</s:String>
+    <s:String x:Key="String_CannotPasteXToY">Σφάλμα: Δεν είναι δυνατό να επικολλήσετε ένα '{0}' σε '{1}' αντικείμενο</s:String>
+    <s:String x:Key="String_CannotPasteToPosition">Δεν είναι δυνατό να επικολλήσετε στην τρέχουσα θέση.</s:String>
+    <!-- Components\RequestOptionsPanel -->
+    <s:String x:Key="String_SearchFilter">Φίλτρο αναζήτησης</s:String>
+    <s:String x:Key="String_Type3Chars">Παρακαλώ πληκτρολογήστε τουλάχιστον 3 έγκυροι χαρακτήρες για να βρείτε τις υπηρεσίες.</s:String>
+    <s:String x:Key="String_GeneralOptions">Γενικές επιλογές</s:String>
+    <s:String x:Key="String_AuthenticationColon">Έλεγχος ταυτότητας:</s:String>
+    <s:String x:Key="String_PreEmptiveColon">Προληπτικό:</s:String>
+    <s:String x:Key="String_PreEmptiveChecked">Προληπτικό έλεγχο ταυτότητας</s:String>
+    <s:String x:Key="String_PreEmptiveUnchecked">Κανονικές ελέγχου ταυτότητας</s:String>
+    <s:String x:Key="String_SoapOptions">ΣΑΠΟΎΝΙ επιλογές</s:String>
+    <s:String x:Key="String_MessageEncodingColon">Κωδικοποίηση μηνύματος:</s:String>
+    <s:String x:Key="String_MessageEncodingMtoM">MtoM (εφαρμογή/xop)</s:String>
+    <s:String x:Key="String_MessageEncodingText">Κείμενο/XML</s:String>
+    <s:String x:Key="String_MessageVersionColon">Έκδοση του μηνύματος:</s:String>
+    <s:String x:Key="String_CustomHttpHeaders">Κεφαλίδες HTTP συνήθειας</s:String>
+    <s:String x:Key="String_Anonymous">Ανώνυμος</s:String>
+    <s:String x:Key="String_WindowsAuthentication">Έλεγχος ταυτότητας των Windows</s:String>
+    <s:String x:Key="String_WindowsAuthenticationTooltip">Χρησιμοποιήστε σας τρέχουσα διαπιστευτηρίου των Windows για να καλέσετε αυτήν την υπηρεσία, με ενσωματωμένο έλεγχο ταυτότητας των Windows</s:String>
+    <s:String x:Key="String_NtlmAuthentication">Ο έλεγχος ταυτότητας NTLM</s:String>
+    <s:String x:Key="String_NtlmAuthenticationTooltip">Χρησιμοποιήστε σας τρέχουσα διαπιστευτηρίου των Windows για να καλέσετε αυτήν την υπηρεσία, με τον έλεγχο ταυτότητας NTLM</s:String>
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">Εισαγωγή από...</s:String>
     <!-- PROFILE MANAGEMENT -->
     <s:String x:Key="String_ProfileManagement_Para1">Δοκιμή ρυθμίσεις, συμπεριλαμβανομένων των υπηρεσιών παραμέτρους περιβάλλοντα δοκιμής, προσαρμοσμένες μεταβλητές, κωδικοί ασφαλείας, υπηρεσία προσομοίωση συμπεριφορές, συσκευάζονται σε προφίλ.</s:String>
     <s:String x:Key="String_ProfileManagement_Para2">Προφίλ μπορεί να εισάγονται, να εξάγονται ή να μοιραστεί με τους άλλους ανθρώπους. Προφίλ μπορούν επίσης να ενσωματωθούν σε ένα έργο της αυτοματοποίησης προκειμένου να απλοποιηθούν οι ρυθμίσεις δοκιμή για την αυτοματοποίηση του έργου. Ακολουθούν όλα τα προφίλ που μπορεί να χρησιμοποιηθεί στην εφαρμογή: </s:String>
     <s:String x:Key="String_ProfileManagement_Note">Σημείωση: Προεπιλεγμένο προφίλ χρησιμοποιείται από Εγχειρίδιο δοκιμών, δεν μπορεί να επεξεργαστεί ή να αφαιρεθεί εδώ. Για να τροποποιήσετε το προεπιλεγμένο προφίλ, μεταβείτε στις ρυθμίσεις της δοκιμής.</s:String>
+    <s:String x:Key="String_ActionsU">ΔΡΆΣΕΙΣ</s:String>
     <s:String x:Key="String_Actions">ΔΡΆΣΕΙΣ</s:String>
+    <s:String x:Key="String_ExportVSSolution">Εξαγωγή ως λύση Visual Studio</s:String>
+    <s:String x:Key="String_ExtensionProjectBuilt">Το έργο επέκταση έχει κατασκευαστεί με επιτυχία, κάντε κλικ εδώ, για να ανοίξετε το φάκελο που περιέχει</s:String>
+    <s:String x:Key="String_BuildFailed">Κατασκευή απέτυχε</s:String>
+    <s:String x:Key="String_BuildFailedMessage">Υπάρχουν σφάλματα κατά τη διάρκεια της μεταγλώττισης. Κάντε κλικ στον παρακάτω σύνδεσμο για να δείτε λεπτομέρειες.</s:String>
+    <s:String x:Key="String_GenerationFailedMessage">Υπάρχει ένα σφάλμα κατά τη δημιουργία του αρχείου έργου.</s:String>
+    <s:String x:Key="String_ChooseLocationProjectFiles">Επιλέξτε μια θέση για να αποθηκεύσετε τα αρχεία του έργου</s:String>
+    <s:String x:Key="String_ProjectGenerated">Το έργο έχει δημιουργηθεί.</s:String>
+    <s:String x:Key="String_CannotGenerateSolution">Δεν παράγεται Fodey λύση</s:String>
+    <s:String x:Key="String_CannotGenerateSolutionMessage">«Σφάλμα παρουσιάστηκε κατά τη δημιουργία του αρχείου λύσης.»</s:String>
+    <s:String x:Key="String_ProjectGenerationCancelled">Γενιάς λύση έχει ακυρωθεί.</s:String>
+    <!-- ExtensionDesigner\ViewServiceEndpoint.xaml -->
+    <s:String x:Key="String_EndpointNameColon">Όνομα τελικού σημείου:</s:String>
+    <s:String x:Key="String_BindingColon">Βιβλιοδεσία:</s:String>
+    <s:String x:Key="String_ServiceIdColon">Αναγνωριστικό υπηρεσίας:</s:String>
+    <s:String x:Key="String_FriendlyNameColon">Φιλικό όνομα:</s:String>
+    <s:String x:Key="String_SoapVersionColon">Έκδοση SOAP:</s:String>
+    <s:String x:Key="String_ProtectionLevelColon">Επίπεδο προστασίας:</s:String>
+    <s:String x:Key="String_SessionModeColon">Λειτουργίας:</s:String>
+    <s:String x:Key="String_CallerSimulationColon">Προσομοίωση του καλούντος:</s:String>
+    <s:String x:Key="String_CallerSimulationChecked">Χρήση ως οδηγός: κλήση αυτού υπηρεσίας web που εκτίθενται από την εφαρμογή σας</s:String>
+    <s:String x:Key="String_CallerSimulationUnchecked">Δεν θα δημιουργήσει κώδικα, να καλέσετε την υπηρεσία αυτή</s:String>
+    <s:String x:Key="String_ServiceSimulationColon">Προσομοίωση υπηρεσία:</s:String>
+    <s:String x:Key="String_ServiceSimulationChecked">Χρήση ως στέλεχος: προσομοίωση της υπηρεσίας που ονομάζεται από την εφαρμογή σας</s:String>
+    <s:String x:Key="String_ServiceSimulationUnchecked">Δεν θα δημιουργήσει κώδικα για την προσομοίωση αυτή την υπηρεσία</s:String>
+    <s:String x:Key="String_UriTemplateDriverColon">Το πρότυπο URI (οδηγού):</s:String>
+    <s:String x:Key="String_UriTemplateTooltip">URI πρότυπο μπορεί να περιέχει μεταβλητές στο κείμενο με μορφή ${VariableName}</s:String>
+    <s:String x:Key="String_UriTemplateStubColon">Το πρότυπο URI (στελέχους):</s:String>
+    <!-- ExtensionDesigner\ViewSoapService.xaml -->
+    <s:String x:Key="String_SoapWebService">Υπηρεσία Web SOAP</s:String>
+    <s:String x:Key="String_SoapWebServiceTooltip">Εισαγωγή μιας υπηρεσίας web από ένα αρχείο ορισμού (WSDL). Ο ορισμός μπορεί να είναι τηλεχειριστήριο με διεύθυνση URL ή ένα τοπικό αρχείο. Υποστηρίζεται επίσης η διαδρομή UNC.</s:String>
+    <s:String x:Key="String_ServiceDescriptionWsdlColon">Περιγραφή υπηρεσίας (WSDL):</s:String>
+    <s:String x:Key="String_ImportOptions">Επιλογές εισαγωγής</s:String>
+    <s:String x:Key="String_GenerateOrderColon">Δημιουργία παραγγελίας:</s:String>
+    <s:String x:Key="String_GenerateOrderChecked">Δέχεται διέταξε XML Documnets μόνο</s:String>
+    <s:String x:Key="String_GenerateORderUnchecked">Αποδοχή μη διατεταγμένη έγγραφα XML</s:String>
+    <s:String x:Key="String_DispatchByBodyColon">Αποστολή από:</s:String>
+    <s:String x:Key="String_DispatchByBodyChecked">Λειτουργίες αποστολής από ΟΡΓΑΝΙΣΜΌΣ στοιχείο (μη συμμορφούμενα με WS-1 Basic Profile 1.1).</s:String>
+    <s:String x:Key="String_DispatchByBodyUnchecked">Αποστολή με SoapAction (ταχύτερη και κοστούμι για το μεγαλύτερο μέρος των υπηρεσιών web).</s:String>
+    <s:String x:Key="String_ImportUpdateService">Εισαγωγή/ενημέρωση υπηρεσίας</s:String>
+    <s:String x:Key="String_ServiceEndpointConfiguration">Τελικά σημεία υπηρεσίας &amp; ρύθμισης παραμέτρων</s:String>
+    <s:String x:Key="String_ViewGeneratedCode">Προβολή κώδικα</s:String>
+    <s:String x:Key="String_PreviewProxyCode">Κώδικα μεσολάβησης προεπισκόπηση</s:String>
+    <s:String x:Key="String_PreviewStubCode">Προεπισκόπηση αποκόμματος κώδικα</s:String>
+    <s:String x:Key="String_AnalysisResults">Αποτελέσματα της ανάλυσης</s:String>
+    <s:String x:Key="String_LevelU">ΕΠΊΠΕΔΟ</s:String>
+    <s:String x:Key="String_ErrorAnalysingWebService">Παρουσιάστηκε σφάλμα κατά την ανάλυση της υπηρεσίας Web</s:String>
+    <s:String x:Key="String_ImportedWithWarnings">Εισάγονται με τις προειδοποιήσεις, παρακαλώ δείτε το παρακάτω αποτέλεσμα.</s:String>
+    <s:String x:Key="String_WsdlImportedSuccessfully">WSDL αναλύεται και εισάγονται με επιτυχία</s:String>
+    <s:String x:Key="String_GeneratedProxyCode">Κώδικας διακομιστή μεσολάβησης WCF που δημιουργείται</s:String>
+    <s:String x:Key="String_GeneratedStubCode">WCF που δημιουργείται αποκόμματος κώδικα</s:String>
+    <s:String x:Key="String_NoFilesGenerated">δεν υπάρχουν αρχεία που δημιουργούνται</s:String>
+    <s:String x:Key="String_NoFilesGeneratedMessage">Το υποδεικνυόμενο αρχείο WSDL δεν περιέχει κανέναν ορισμό της υπηρεσίας.</s:String>
     <s:String x:Key="String_Duplicate">Διπλότυπο</s:String>
     <s:String x:Key="String_Delete">Διαγραφή του</s:String>
     <s:String x:Key="String_Edit">Επεξεργασία</s:String>
@@ -212,6 +328,8 @@ Do να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
     <s:String x:Key="String_RestartRequired">Απαιτείται επανεκκίνηση</s:String>
     <s:String x:Key="String_RestartRequiredExtensionQuestion">Πρέπει να επανεκκινήσετε το κολίβριο για να απεγκαταστήσετε το επιλεγμένο επέκταση. 
 Do να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
+    <s:String x:Key="String_Enabled">Ενεργοποιημένη</s:String>
+    <s:String x:Key="String_Disabled">Άτομα με ειδικές ανάγκες</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">Μη αυτόματη δοκιμή δρομέας</s:String>
     <s:String x:Key="String_VirtualServices">Εικονικές υπηρεσίες</s:String>
@@ -332,6 +450,7 @@ Do να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
     <s:String x:Key="String_SaveCurrentProject">Αποθηκεύστε το τρέχον έργο;</s:String>
     <s:String x:Key="String_SaveCurrentProjectMessage">Θέλετε να αποθηκεύσετε το τρέχον έργο αυτοματοποίησης;</s:String>
     <!-- ViewBase64Tool.xaml -->
+    <s:String x:Key="String_ActionColon">Δράση: </s:String>
     <s:String x:Key="String_Base64EncodingTitle">Κωδικοποίηση base64 &amp; αποκωδικοποίηση</s:String>
     <s:String x:Key="String_Utf8ToBase64">Κωδικοποιεί τη συμβολοσειρά UTF-8 σε μια συμβολοσειρά τύπου Base64</s:String>
     <s:String x:Key="String_Base64ToString">Αποκωδικοποιεί μια συμβολοσειρά τύπου Base64 ως συμβολοσειρά, χρησιμοποιώντας την επιλεγμένη κωδικοποίηση.</s:String>
@@ -394,7 +513,30 @@ Do να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
     <s:String x:Key="String_MatchAnyWhere">Ταιριάζει παντού</s:String>
     <s:String x:Key="String_SearchNext">Επόμενη</s:String>
     <s:String x:Key="String_CannotFindPattern">Δεν μπορεί να βρει το μοτίβο.</s:String>
+    <s:String x:Key="String_NoResultMatchesPattern">Δεν υπάρχει καμία αγώνες αποτέλεσμα αναζήτησης '{0}'</s:String>
     <s:String x:Key="String_NoResultMatches">Δεν υπάρχει καμία αγώνες αποτέλεσμα αναζήτησης '{0}'</s:String>
+    <!-- ExtensionDesigner\ViewApplication.xaml -->
+    <s:String x:Key="String_Application">Εφαρμογή</s:String>
+    <s:String x:Key="String_ApplicationTooltip">Πληκτρολογήστε ένα όνομα της εφαρμογής:
+Ως οδηγός είναι το όνομα του συστήματος είστε δοκιμές, ως στέλεχος είναι το όνομα του συστήματος που θέλετε να μιμηθεί.</s:String>
+    <s:String x:Key="String_ApplicationNameColon">Όνομα εφαρμογής:</s:String>
+    <s:String x:Key="String_ServiceCategoriesIncluded">Κατηγορίες υπηρεσιών που περιλαμβάνονται στην παρούσα αίτηση</s:String>
+    <s:String x:Key="String_ServiceCategoryU">ΚΑΤΗΓΟΡΊΑ ΥΠΗΡΕΣΊΑΣ</s:String>
+    <!-- ExtensionDesigner\ViewServiceCategory.xaml -->
+    <s:String x:Key="String_ServiceCategory">Κατηγορία υπηρεσίας</s:String>
+    <s:String x:Key="String_ServiceCategoryTooltip">Κατηγορία υπηρεσίας κατέχει ένα σύνολο WebService για η ίδια προτείνει. 
+Για παράδειγμα, μπορείτε να έχετε μια σειρά από υπηρεσίες Web για διαχείριση πελατών, συμπεριλαμβανομένων 3 υπηρεσίες Web για δημιουργία πελάτη, τροποποίηση και διαγραφή.</s:String>
+    <s:String x:Key="String_CategoryNameColon">Το όνομα της κατηγορίας:</s:String>
+    <s:String x:Key="String_ServicesIncluded">Υπηρεσίες που περιλαμβάνονται σε αυτή την κατηγορία</s:String>
+    <s:String x:Key="String_ServicesU">ΥΠΗΡΕΣΊΕΣ</s:String>
+    <s:String x:Key="String_TypeU">ΤΎΠΟΣ</s:String>
+    <!-- ExtensionDesigner\ViewProjectOverview.xaml -->
+    <s:String x:Key="String_ProjectGeneralInfo">Έργο γενικές πληροφορίες</s:String>
+    <s:String x:Key="String_ProjectNameColon">Όνομα έργου:</s:String>
+    <s:String x:Key="String_RootNamespaceColon">Ρίζα Namespace:</s:String>
+    <s:String x:Key="String_AssemblyInfo">Πληροφοριών συναρμολόγησης</s:String>
+    <s:String x:Key="String_AssemblyInfoTooltip">Πληροφορίες συγκρότησης είναι τεχνικές πληροφορίες που συγκεντρώνονται στη Συνέλευσή σας επέκταση, παρακαλούμε φροντίστε να αντιστοιχίσετε ένα νομικό όνομα για κάθε πεδίο.</s:String>
+    <s:String x:Key="String_AssemblyNameColon">Όνομα συγκρότησης:</s:String>
     <!-- WindowSelectRequest.xaml -->
     <s:String x:Key="String_SelectARequest">Επιλέξτε ένα αίτημα</s:String>
     <!-- WindowSendRequest.xaml -->

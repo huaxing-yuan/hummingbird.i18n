@@ -135,13 +135,129 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_DetailedTechnicalError">詳細な技術的なエラー:</s:String>
     <s:String x:Key="String_UnableToParseXml">XML を解析できません。</s:String>
     <s:String x:Key="String_ParsedRequest">解析された要求</s:String>
+    <!-- Components\ExtensionInformation.xaml -->
+    <s:String x:Key="String_SelectedExtensionInfo">選択した拡張機能の情報</s:String>
+    <s:String x:Key="String_NameColon">名前:</s:String>
+    <s:String x:Key="String_UniqueIdColon">一意な ID:</s:String>
+    <s:String x:Key="String_VersionColon">バージョン：</s:String>
+    <s:String x:Key="String_SupportsFrameworkColon">テスト フレームワークをサポートしています。</s:String>
+    <s:String x:Key="String_CompanyNameColon">会社名:</s:String>
+    <s:String x:Key="String_DescriptionColon">説明/コントロール:</s:String>
+    <s:String x:Key="String_CopyrightColon">著作権:</s:String>
+    <s:String x:Key="String_ExtensionStatusColon">この拡張機能は現在です。</s:String>
+    <!-- Components\MessageOverview.xaml -->
+    <s:String x:Key="String_MessageColon">メッセージ：</s:String>
+    <s:String x:Key="String_RequestText">要求されたテキスト</s:String>
+    <s:String x:Key="String_ResponseText">応答本文</s:String>
+    <s:String x:Key="String_ProcessedInColon">処理されます。</s:String>
+    <s:String x:Key="String_SentReceivedAtColon">送信/受信速度:</s:String>
+    <s:String x:Key="String_MessageNoLongerAvailable">警告: このサービスによって使用される拡張機能が読み込まれていないために、このメッセージは使用されなくなります。MetadataId =</s:String>
+    <s:String x:Key="String_NoMetadata">メタデータがありません。</s:String>
+    <!-- Components\ObjectTreeView.xaml -->
+    <s:String x:Key="String_SelectedFieldTypeXG">選択したフィールド: {0} は {1} &lt;{2}&gt; の型</s:String>
+    <s:String x:Key="String_SelectedFieldTypeX">選択したフィールド: {0} は {1} の型</s:String>
+    <s:String x:Key="String_InsertXmlElement">XML 要素を挿入します。</s:String>
+    <s:String x:Key="String_ClearArray">この配列をクリアします。</s:String>
+    <s:String x:Key="String_InsertElement">要素を挿入します。</s:String>
+    <s:String x:Key="String_AppendElement">要素を追加します。</s:String>
+    <s:String x:Key="String_InitializeAsX">要素「{0}」として初期化します。</s:String>
+    <s:String x:Key="String_InitializeAsSubTypeX">派生型は「{0}」として初期化します。</s:String>
+    <s:String x:Key="String_InitializeAsObjectX">オブジェクト「{0}」として初期化します。</s:String>
+    <s:String x:Key="String_SetNull">Null に設定します。</s:String>
+    <s:String x:Key="String_CopyPathClipboard">クリップボードにコピーのパス</s:String>
+    <s:String x:Key="String_EditMultiline">このプロパティは複数行のテキストとして編集します。</s:String>
+    <s:String x:Key="String_TypeofString">文字列の種類</s:String>
+    <s:String x:Key="String_PathXCopiedToClipboard">パス:「{0}」がクリップボードにコピーされました。</s:String>
+    <s:String x:Key="String_UnableCopyClipboard">パスをクリップボードにコピーできません。</s:String>
+    <s:String x:Key="String_SelectedElementDeleted">選択した要素は配列から削除されています。</s:String>
+    <s:String x:Key="String_SelectedElementSetToNull">「選択した要素が設定されている null にします。</s:String>
+    <s:String x:Key="String_SelectedElementCanNotDelete">選択した要素の削除はできません。</s:String>
+    <s:String x:Key="String_SelectedElementXCopied">型 {0} の選択した要素をクリップボードにコピーされています。</s:String>
+    <s:String x:Key="String_UnableCopyObjectClipboard">選択したオブジェクトをクリップボードにコピーすることができません。</s:String>
+    <s:String x:Key="String_PastedToPosition">現在の位置に貼り付けます。</s:String>
+    <s:String x:Key="String_PastedSubTypeXAsY">現在の位置に {1} として派生型 {0} を貼り付けられます。</s:String>
+    <s:String x:Key="String_ElementAppended">要素は、現在の配列に追加されています。</s:String>
+    <s:String x:Key="String_CannotPasteXToY">エラー: '{0} '、' {1}' のオブジェクトに貼り付けることはできません。</s:String>
+    <s:String x:Key="String_CannotPasteToPosition">現在の位置に貼り付けることができません。</s:String>
+    <!-- Components\RequestOptionsPanel -->
+    <s:String x:Key="String_SearchFilter">検索フィルター</s:String>
+    <s:String x:Key="String_Type3Chars">サービスを見つけることの少なくとも 3 の有効な文字を入力してください。</s:String>
+    <s:String x:Key="String_GeneralOptions">[全般オプション]</s:String>
+    <s:String x:Key="String_AuthenticationColon">認証:</s:String>
+    <s:String x:Key="String_PreEmptiveColon">先制。</s:String>
+    <s:String x:Key="String_PreEmptiveChecked">先制認証</s:String>
+    <s:String x:Key="String_PreEmptiveUnchecked">通常の認証</s:String>
+    <s:String x:Key="String_SoapOptions">石鹸のオプション</s:String>
+    <s:String x:Key="String_MessageEncodingColon">メッセージのエンコード:</s:String>
+    <s:String x:Key="String_MessageEncodingMtoM">MtoM (アプリケーション/xop)</s:String>
+    <s:String x:Key="String_MessageEncodingText">テキストまたは XML</s:String>
+    <s:String x:Key="String_MessageVersionColon">メッセージのバージョン:</s:String>
+    <s:String x:Key="String_CustomHttpHeaders">カスタム HTTP ヘッダー</s:String>
+    <s:String x:Key="String_Anonymous">匿名</s:String>
+    <s:String x:Key="String_WindowsAuthentication">Windows 認証</s:String>
+    <s:String x:Key="String_WindowsAuthenticationTooltip">あなたの現在の Windows 資格情報を使用して、Windows 統合認証で、このサービスを呼び出す</s:String>
+    <s:String x:Key="String_NtlmAuthentication">NTLM 認証</s:String>
+    <s:String x:Key="String_NtlmAuthenticationTooltip">あなたの現在の Windows 資格情報を使用して、NTLM 認証では、このサービスを呼び出す</s:String>
     <!-- ViewProfileManagement.xaml -->
     <s:String x:Key="String_ImportFromDot">インポート.</s:String>
     <!-- PROFILE MANAGEMENT -->
     <s:String x:Key="String_ProfileManagement_Para1">サービスのシミュレーション動作、セキュリティ トークン カスタム変数テスト環境サービス パラメーターを含むテストの設定は、プロファイルに詰め込まれています。</s:String>
     <s:String x:Key="String_ProfileManagement_Para2">プロファイルのインポート、エクスポートまたは他の人に共有することができます。オートメーション プロジェクトのテストの設定を簡素化するために、オートメーション プロジェクトにプロファイルを埋め込むこともできます。次に、アプリケーションで使用することができますすべてのプロファイル。</s:String>
     <s:String x:Key="String_ProfileManagement_Note">注: 既定のプロファイルが手動テストで使用されて、編集またはここで削除できません。既定のプロファイルを変更するのには、テストの設定に移動します。</s:String>
+    <s:String x:Key="String_ActionsU">アクション</s:String>
     <s:String x:Key="String_Actions">アクション</s:String>
+    <s:String x:Key="String_ExportVSSolution">Visual Studio ソリューションとしてエクスポートします。</s:String>
+    <s:String x:Key="String_ExtensionProjectBuilt">成功、ここをクリックして、含まれているフォルダーを開くと拡張プロジェクトがビルドされました。</s:String>
+    <s:String x:Key="String_BuildFailed">ビルドに失敗しました</s:String>
+    <s:String x:Key="String_BuildFailedMessage">ビルド中にエラーがあります。詳細を表示する次のリンクをクリックします。</s:String>
+    <s:String x:Key="String_GenerationFailedMessage">プロジェクト ファイルの生成中にエラーが発生します。</s:String>
+    <s:String x:Key="String_ChooseLocationProjectFiles">プロジェクト ファイルを保存する場所を選択します。</s:String>
+    <s:String x:Key="String_ProjectGenerated">プロジェクトが生成されました。</s:String>
+    <s:String x:Key="String_CannotGenerateSolution">パーティクルジェネレーター ソリューションをことはできません。</s:String>
+    <s:String x:Key="String_CannotGenerateSolutionMessage">「ソリューション ファイルを生成するときエラーが発生しました」。</s:String>
+    <s:String x:Key="String_ProjectGenerationCancelled">解の生成は取り消されました。</s:String>
+    <!-- ExtensionDesigner\ViewServiceEndpoint.xaml -->
+    <s:String x:Key="String_EndpointNameColon">エンドポイント名。</s:String>
+    <s:String x:Key="String_BindingColon">バインディング:</s:String>
+    <s:String x:Key="String_ServiceIdColon">サービス Id:</s:String>
+    <s:String x:Key="String_FriendlyNameColon">フレンドリ名:</s:String>
+    <s:String x:Key="String_SoapVersionColon">Soap のバージョン:</s:String>
+    <s:String x:Key="String_ProtectionLevelColon">保護レベル:</s:String>
+    <s:String x:Key="String_SessionModeColon">セッション モード:</s:String>
+    <s:String x:Key="String_CallerSimulationColon">呼び出し元のシミュレーション:</s:String>
+    <s:String x:Key="String_CallerSimulationChecked">ドライバーとして使用: アプリケーションによって公開される web サービスを呼び出す</s:String>
+    <s:String x:Key="String_CallerSimulationUnchecked">このサービスを呼び出すコードは生成されません。</s:String>
+    <s:String x:Key="String_ServiceSimulationColon">サービスのシミュレーション:</s:String>
+    <s:String x:Key="String_ServiceSimulationChecked">スタブとして使用: あなたのアプリケーションによって呼び出されたサービスをシミュレート</s:String>
+    <s:String x:Key="String_ServiceSimulationUnchecked">このサービスをシミュレートするコードは生成されません。</s:String>
+    <s:String x:Key="String_UriTemplateDriverColon">Uri テンプレート (ドライバー):</s:String>
+    <s:String x:Key="String_UriTemplateTooltip">Uri テンプレートは、${VariableName} テキスト内の変数を含めることができます。</s:String>
+    <s:String x:Key="String_UriTemplateStubColon">Uri テンプレート (スタブ):</s:String>
+    <!-- ExtensionDesigner\ViewSoapService.xaml -->
+    <s:String x:Key="String_SoapWebService">SOAP Web サービス</s:String>
+    <s:String x:Key="String_SoapWebServiceTooltip">Web サービスをインポート定義ファイル (WSDL) から。定義は、URL またはローカル ファイルをリモートすることができます。UNC パスはサポートされています。</s:String>
+    <s:String x:Key="String_ServiceDescriptionWsdlColon">サービスの説明 (WSDL):</s:String>
+    <s:String x:Key="String_ImportOptions">インポート オプション</s:String>
+    <s:String x:Key="String_GenerateOrderColon">注文を生成します。</s:String>
+    <s:String x:Key="String_GenerateOrderChecked">順序付けられた XML Documnets のみを受け入れる</s:String>
+    <s:String x:Key="String_GenerateORderUnchecked">順序付けされていない XML 文書を受け入れる</s:String>
+    <s:String x:Key="String_DispatchByBodyColon">体で派遣します。</s:String>
+    <s:String x:Key="String_DispatchByBodyChecked">Body 要素 (非対応 WS 1 Basic Profile 1.1) によって操作をディスパッチします。</s:String>
+    <s:String x:Key="String_DispatchByBodyUnchecked">SoapAction (より速く、ほとんどの web サービスのためのスーツ) で派遣します。</s:String>
+    <s:String x:Key="String_ImportUpdateService">インポート/更新サービス</s:String>
+    <s:String x:Key="String_ServiceEndpointConfiguration">サービス エンドポイント ・構成</s:String>
+    <s:String x:Key="String_ViewGeneratedCode">生成されたコードを表示します。</s:String>
+    <s:String x:Key="String_PreviewProxyCode">プレビュー プロキシ コード</s:String>
+    <s:String x:Key="String_PreviewStubCode">プレビュー スタブ コード</s:String>
+    <s:String x:Key="String_AnalysisResults">分析結果</s:String>
+    <s:String x:Key="String_LevelU">レベル</s:String>
+    <s:String x:Key="String_ErrorAnalysingWebService">Web サービスを分析する際にエラーが発生しました</s:String>
+    <s:String x:Key="String_ImportedWithWarnings">警告をインポートすると、結果は以下をご覧ください。</s:String>
+    <s:String x:Key="String_WsdlImportedSuccessfully">WSDL を分析し、正常にインポート</s:String>
+    <s:String x:Key="String_GeneratedProxyCode">生成された WCF プロキシ コード</s:String>
+    <s:String x:Key="String_GeneratedStubCode">スタブの生成された WCF コード</s:String>
+    <s:String x:Key="String_NoFilesGenerated">生成されたファイルはありません。</s:String>
+    <s:String x:Key="String_NoFilesGeneratedMessage">指定した WSDL ファイルに任意のサービスの定義が含まれていません。</s:String>
     <s:String x:Key="String_Duplicate">重複</s:String>
     <s:String x:Key="String_Delete">削除</s:String>
     <s:String x:Key="String_Edit">編集</s:String>
@@ -211,6 +327,8 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_RestartRequired">再起動が必要です。</s:String>
     <s:String x:Key="String_RestartRequiredExtensionQuestion">ハチドリはハチドリを今再起動する選択した拡張子。 
 をアンインストールするを再起動する必要が?</s:String>
+    <s:String x:Key="String_Enabled">有効になっています。</s:String>
+    <s:String x:Key="String_Disabled">無効になっています。</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">手動テスト ランナー</s:String>
     <s:String x:Key="String_VirtualServices">仮想サービス</s:String>
@@ -331,6 +449,7 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_SaveCurrentProject">現在のプロジェクトを保存しますか。</s:String>
     <s:String x:Key="String_SaveCurrentProjectMessage">現在の自動化プロジェクトを保存しますか。</s:String>
     <!-- ViewBase64Tool.xaml -->
+    <s:String x:Key="String_ActionColon">アクション:</s:String>
     <s:String x:Key="String_Base64EncodingTitle">Base64 エンコーディング ・ デコーディング</s:String>
     <s:String x:Key="String_Utf8ToBase64">Utf-8 文字列を Base64 文字列にエンコードします。</s:String>
     <s:String x:Key="String_Base64ToString">選択されたエンコーディングを使用して文字列として Base64 文字列をデコードします。</s:String>
@@ -393,7 +512,30 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_MatchAnyWhere">どこに一致します。</s:String>
     <s:String x:Key="String_SearchNext">次に</s:String>
     <s:String x:Key="String_CannotFindPattern">パターンを見つけることができません。</s:String>
+    <s:String x:Key="String_NoResultMatchesPattern">検索 '{0}' と一致する結果はありません。</s:String>
     <s:String x:Key="String_NoResultMatches">検索 '{0}' と一致する結果はありません。</s:String>
+    <!-- ExtensionDesigner\ViewApplication.xaml -->
+    <s:String x:Key="String_Application">アプリケーション</s:String>
+    <s:String x:Key="String_ApplicationTooltip">アプリケーションの名前を入力します。
+ドライバーとしてテストしているシステムをシミュレートするシステムの名前だとスタブの名前です。</s:String>
+    <s:String x:Key="String_ApplicationNameColon">アプリケーション名:</s:String>
+    <s:String x:Key="String_ServiceCategoriesIncluded">このアプリケーションに含まれるサービスの分類</s:String>
+    <s:String x:Key="String_ServiceCategoryU">サービス カテゴリ</s:String>
+    <!-- ExtensionDesigner\ViewServiceCategory.xaml -->
+    <s:String x:Key="String_ServiceCategory">サービス カテゴリ</s:String>
+    <s:String x:Key="String_ServiceCategoryTooltip">サービス カテゴリは、同じ提案の web サービスのセットを保持します。
+たとえば、顧客管理、顧客の作成、変更および削除の 3 の Web サービスの Web サービスのセットを持つことができます。</s:String>
+    <s:String x:Key="String_CategoryNameColon">カテゴリ名:</s:String>
+    <s:String x:Key="String_ServicesIncluded">このカテゴリに含まれるサービス</s:String>
+    <s:String x:Key="String_ServicesU">サービス</s:String>
+    <s:String x:Key="String_TypeU">タイプ</s:String>
+    <!-- ExtensionDesigner\ViewProjectOverview.xaml -->
+    <s:String x:Key="String_ProjectGeneralInfo">プロジェクトの一般的な情報</s:String>
+    <s:String x:Key="String_ProjectNameColon">プロジェクト名:</s:String>
+    <s:String x:Key="String_RootNamespaceColon">Root Namespace:</s:String>
+    <s:String x:Key="String_AssemblyInfo">アセンブリ情報</s:String>
+    <s:String x:Key="String_AssemblyInfoTooltip">アセンブリ情報は、技術情報拡張機能アセンブリにコンパイルされ、各フィールドの法的名前を割り当てることを確認してください。</s:String>
+    <s:String x:Key="String_AssemblyNameColon">アセンブリ名:</s:String>
     <!-- WindowSelectRequest.xaml -->
     <s:String x:Key="String_SelectARequest">要求を選択します。</s:String>
     <!-- WindowSendRequest.xaml -->
