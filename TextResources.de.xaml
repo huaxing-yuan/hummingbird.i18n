@@ -237,6 +237,7 @@ If sie in Anfragen, Antworten oder Automatisierungs-Skripte, referenziert werden
     <!-- ExtensionDesigner\ViewSoapService.xaml -->
     <s:String x:Key="String_SoapWebService">SOAP-Web-Dienst</s:String>
     <s:String x:Key="String_SoapWebServiceTooltip">Importieren Sie einen Webdienst aus einer Definitionsdatei (WSDL). Die Definition kann für Fernbedienung mit URL oder einer lokalen Datei sein. UNC-Pfad wird ebenfalls unterstützt.</s:String>
+    <s:String x:Key="String_ServiceNameColon">Service Name:</s:String>
     <s:String x:Key="String_ServiceDescriptionWsdlColon">Leistungsbeschreibung (WSDL):</s:String>
     <s:String x:Key="String_ImportOptions">Import-Optionen</s:String>
     <s:String x:Key="String_GenerateOrderColon">Bestellung zu generieren:</s:String>

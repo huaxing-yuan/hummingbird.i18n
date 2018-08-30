@@ -237,6 +237,7 @@ If citati in richieste, risposte o script di automazione, si verificheranno erro
     <!-- ExtensionDesigner\ViewSoapService.xaml -->
     <s:String x:Key="String_SoapWebService">Servizio Web SOAP</s:String>
     <s:String x:Key="String_SoapWebServiceTooltip">Importare un servizio web da un file di definizione (WSDL). La definizione può essere il telecomando con URL o un file locale. Percorso UNC è supportato anche.</s:String>
+    <s:String x:Key="String_ServiceNameColon">Nome servizio:</s:String>
     <s:String x:Key="String_ServiceDescriptionWsdlColon">Descrizione del servizio (WSDL):</s:String>
     <s:String x:Key="String_ImportOptions">Opzioni di importazione</s:String>
     <s:String x:Key="String_GenerateOrderColon">Generare l'ordine:</s:String>

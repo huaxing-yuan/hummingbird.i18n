@@ -237,6 +237,7 @@ If που αναφέρονται στις αιτήσεις, απαντήσεις
     <!-- ExtensionDesigner\ViewSoapService.xaml -->
     <s:String x:Key="String_SoapWebService">Υπηρεσία Web SOAP</s:String>
     <s:String x:Key="String_SoapWebServiceTooltip">Εισαγωγή μιας υπηρεσίας web από ένα αρχείο ορισμού (WSDL). Ο ορισμός μπορεί να είναι τηλεχειριστήριο με διεύθυνση URL ή ένα τοπικό αρχείο. Υποστηρίζεται επίσης η διαδρομή UNC.</s:String>
+    <s:String x:Key="String_ServiceNameColon">Όνομα υπηρεσίας:</s:String>
     <s:String x:Key="String_ServiceDescriptionWsdlColon">Περιγραφή υπηρεσίας (WSDL):</s:String>
     <s:String x:Key="String_ImportOptions">Επιλογές εισαγωγής</s:String>
     <s:String x:Key="String_GenerateOrderColon">Δημιουργία παραγγελίας:</s:String>

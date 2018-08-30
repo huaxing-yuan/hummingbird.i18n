@@ -233,6 +233,7 @@
     <!-- ExtensionDesigner\ViewSoapService.xaml -->
     <s:String x:Key="String_SoapWebService">SOAP Web 服务</s:String>
     <s:String x:Key="String_SoapWebServiceTooltip">从定义文件 (WSDL) 导入 web 服务。WSDL 可以从Web服务器或本地载入，也可以使用 UNC 路径。</s:String>
+    <s:String x:Key="String_ServiceNameColon">服务名称:</s:String>
     <s:String x:Key="String_ServiceDescriptionWsdlColon">服务描述 (WSDL):</s:String>
     <s:String x:Key="String_ImportOptions">导入选项</s:String>
     <s:String x:Key="String_GenerateOrderColon">生成元素顺序:</s:String>
@@ -549,4 +550,4 @@
     <s:String x:Key="String_RequestSentTo">发送到的请求:</s:String>
     <s:String x:Key="String_ElapsedTime">运行时间:</s:String>
     <s:String x:Key="String_ResponseColon">响应：</s:String>
-</ResourceDictionary> 
+</ResourceDictionary>

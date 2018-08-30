@@ -237,6 +237,7 @@ If que se hace referencia en las solicitudes, respuestas o secuencias de comando
     <!-- ExtensionDesigner\ViewSoapService.xaml -->
     <s:String x:Key="String_SoapWebService">Servicio Web SOAP</s:String>
     <s:String x:Key="String_SoapWebServiceTooltip">Importar un servicio web desde un archivo de definición (WSDL). La definición puede ser control remoto con la dirección URL o un archivo local. También se admite la ruta de acceso UNC.</s:String>
+    <s:String x:Key="String_ServiceNameColon">Nombre del servicio:</s:String>
     <s:String x:Key="String_ServiceDescriptionWsdlColon">Descripción de servicios (WSDL):</s:String>
     <s:String x:Key="String_ImportOptions">Opciones de importación</s:String>
     <s:String x:Key="String_GenerateOrderColon">Generar orden de:</s:String>

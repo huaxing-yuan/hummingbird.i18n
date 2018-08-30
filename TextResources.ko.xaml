@@ -237,6 +237,7 @@ If 그들은 오류가 발생할 것입니다.</s:String>
     <!-- ExtensionDesigner\ViewSoapService.xaml -->
     <s:String x:Key="String_SoapWebService">SOAP 웹 서비스</s:String>
     <s:String x:Key="String_SoapWebServiceTooltip">웹 서비스를 (WSDL) 정의 파일에서 가져옵니다. 원격 URL 또는 로컬 파일에 정의 될 수 있습니다. UNC 경로 지원 됩니다.</s:String>
+    <s:String x:Key="String_ServiceNameColon">서비스 이름:</s:String>
     <s:String x:Key="String_ServiceDescriptionWsdlColon">서비스 설명 (WSDL):</s:String>
     <s:String x:Key="String_ImportOptions">가져오기 옵션</s:String>
     <s:String x:Key="String_GenerateOrderColon">생성 순서:</s:String>

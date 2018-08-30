@@ -237,6 +237,7 @@ If они упоминаются в запросы, ответы или сцен
     <!-- ExtensionDesigner\ViewSoapService.xaml -->
     <s:String x:Key="String_SoapWebService">Веб-службы SOAP</s:String>
     <s:String x:Key="String_SoapWebServiceTooltip">Импортируйте из файла определения (WSDL) веб-службы. Определение может быть на пульт дистанционного управления с URL-адрес или локальный файл. Поддерживается также КООН путь.</s:String>
+    <s:String x:Key="String_ServiceNameColon">Имя службы:</s:String>
     <s:String x:Key="String_ServiceDescriptionWsdlColon">Описание службы (WSDL):</s:String>
     <s:String x:Key="String_ImportOptions">Параметры импорта</s:String>
     <s:String x:Key="String_GenerateOrderColon">Создание заказа:</s:String>

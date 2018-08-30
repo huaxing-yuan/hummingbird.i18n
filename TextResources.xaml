@@ -262,7 +262,8 @@
 	<!-- ExtensionDesigner\ViewSoapService.xaml -->
 	<s:String x:Key="String_SoapWebService">SOAP Web Service</s:String>
 	<s:String x:Key="String_SoapWebServiceTooltip">Import a web service from a definition file (WSDL). The definition can be on remote with URL or a local file. UNC path is also supported.</s:String>
-	<s:String x:Key="String_ServiceDescriptionWsdlColon">Service Description (WSDL):</s:String>
+    <s:String x:Key="String_ServiceNameColon">Service Name:</s:String>
+    <s:String x:Key="String_ServiceDescriptionWsdlColon">Service Description (WSDL):</s:String>
 	<s:String x:Key="String_ImportOptions">Import Options</s:String>
 	<s:String x:Key="String_GenerateOrderColon">Generate Order:</s:String>
 	<s:String x:Key="String_GenerateOrderChecked">Accept ordered XML Documnets only</s:String>
