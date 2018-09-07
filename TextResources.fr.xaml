@@ -2,6 +2,9 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:Hummingbird.TestManager" xmlns:s="clr-namespace:System;assembly=mscorlib">
     <s:String x:Key="String_ApplicationName">Hummingbird</s:String>
     <s:String x:Key="String_ApplicationDescription">AN INTEGRATED TEST SOLUTION</s:String>
+    <s:String x:Key="String_ErrorOccurred">Une erreur est survenue</s:String>
+    <s:String x:Key="String_TestCaseColon">Scénario de test :</s:String>
+    <s:String x:Key="String_TestStepColon">Étape de test :</s:String>
     <!-- Menu -->
     <s:String x:Key="String_Menu_Home">accueil</s:String>
     <s:String x:Key="String_Menu_Welcome">BIENVENUE</s:String>
@@ -556,4 +559,183 @@ Par exemple, vous pouvez avoir un ensemble de services Web pour la gestion de la
     <s:String x:Key="String_RequestSentTo">Requête adressée à :</s:String>
     <s:String x:Key="String_ElapsedTime">Temps écoulé : </s:String>
     <s:String x:Key="String_ResponseColon">Réponse :</s:String>
+    <!-- CommandLineTestStepEditor.xaml-->
+    <s:String x:Key="String_FileNameColon">Nom du fichier :</s:String>
+    <s:String x:Key="String_ArgumentsColon">Arguments :</s:String>
+    <s:String x:Key="String_WorkingDirectoryColon">Répertoire de travail :</s:String>
+    <s:String x:Key="String_TimeoutColon">Délai d’attente :</s:String>
+    <s:String x:Key="String_TimeoutMessage">Nombre maximal, en secondes du temps attendra jusqu'à ce que le processus existe.</s:String>
+    <s:String x:Key="String_FailOnErrorStreamColon">Échouer sur le flux d’erreur :</s:String>
+    <s:String x:Key="String_FailOnErrorStreamChecked">Étape de test va être échoué si n’importe quoi a été écrit le flux d’erreur.</s:String>
+    <s:String x:Key="String_FailOnErrorStreamUnchecked">Étape de test ne sera pas marquée comme étant en panne si n’importe quoi a été écrit le flux d’erreur.</s:String>
+    <s:String x:Key="String_OutputColon">Sortie :</s:String>
+    <!-- ContainsAssertionEditor.xaml -->
+    <s:String x:Key="String_ContainsAssertion">Contient l’affirmation</s:String>
+    <s:String x:Key="String_ContainsAssertionDescription">Vérifie si un texte est présent dans la requête ou la réponse</s:String>
+    <s:String x:Key="String_SearchPatternColon">Modèle de recherche :</s:String>
+    <s:String x:Key="String_SearchInColon">Rechercher dans :</s:String>
+    <s:String x:Key="String_CaseSensitiveColon">Respect de la casse :</s:String>
+    <s:String x:Key="String_CaseSensitiveChecked">Sensible à la casse</s:String>
+    <s:String x:Key="String_CaseSensitiveUnchecked">Insensible à la casse</s:String>
+    <s:String x:Key="String_UseRegularExpressionColon">Utilisez l’Expression régulière :</s:String>
+    <s:String x:Key="String_UseRegularExpressionChecked">Correspondre à l’aide d’expressions régulières</s:String>
+    <s:String x:Key="String_UseRegularExpressionUnchecked">Ne pas utiliser des expressions régulières, correspondance texte seulement</s:String>
+    <!-- CSharpScriptTestStepEditor -->
+    <s:String x:Key="String_Compile">Compiler</s:String>
+    <s:String x:Key="String_CodeU">CODE</s:String>
+    <s:String x:Key="String_LineU">LIGNE</s:String>
+    <!-- NotContainsAssertionEditor -->
+    <s:String x:Key="String_NotContainsAssertion">Contient pas affirmation</s:String>
+    <s:String x:Key="String_NotContainsAssertionDescription">Vérifie si elle est donnée texte n’apparaît pas dans la requête ou la réponse</s:String>
+    <!-- PathValidatorAssertionEditor.xaml -->
+    <s:String x:Key="String_PathValidationAssertion">Affirmation de validation de chemin d’accès</s:String>
+    <s:String x:Key="String_AssertFor">Faire valoir pour</s:String>
+    <s:String x:Key="String_PathExpression">Expression de chemin d’accès</s:String>
+    <s:String x:Key="String_ExpectedResult">Résultat escompté</s:String>
+    <s:String x:Key="String_ResultColon">Résultat :</s:String>
+    <s:String x:Key="String_UseCurrent">Usage courant</s:String>
+    <s:String x:Key="String_UseCurrentTooltip">Utiliser valeur actuelle comme valeur attendue.</s:String>
+    <s:String x:Key="String_UseCurrentReplaced">Le résultat attendu est remplacé par la présente évaluation.</s:String>
+    <s:String x:Key="String_UseCurrentFailed">Une erreur s’est produite tout en évaluant l’échec de l’assertion, d’utiliser le résultat courant comme résultat escompté</s:String>
+    <!-- SendRequestTestStepEditor.xaml -->
+    <s:String x:Key="String_EvaluateAssertions">Évaluer les Assertions</s:String>
+    <s:String x:Key="String_Assertions">Assertions</s:String>
+    <s:String x:Key="String_UriTemplateColon">Modèle de l’URI :</s:String>
+    <s:String x:Key="String_SelectRequest">Sélectionnez la demande</s:String>
+    <s:String x:Key="String_AddAssertion">Ajouter Assertion</s:String>
+    <s:String x:Key="String_Run">Courir</s:String>
+    <s:String x:Key="String_RunAll">Accourez tous</s:String>
+    <s:String x:Key="String_AssertionU">ASSERTION</s:String>
+    <s:String x:Key="String_StatusU">STATUT</s:String>
+    <s:String x:Key="String_InformationU">INFORMATIONS</s:String>
+    <!-- StartServiceSimulationTestStepEditor.xaml -->
+    <s:String x:Key="String_SelectServiceToStartColon">Sélectionnez le service à démarrer : </s:String>
+    <s:String x:Key="String_UseDefaultParameterColon">Utiliser le paramètre par défaut : </s:String>
+    <s:String x:Key="String_UseDefaultParameterChecked">Utilisez les paramètres par défaut pour le service</s:String>
+    <s:String x:Key="String_UseDefaultParameterUnchecked">Utilisation suivant les paramètres pour le service</s:String>
+    <s:String x:Key="String_InformationColon">Informations :</s:String>
+    <!-- SoapFaultAssertion.xaml -->
+    <s:String x:Key="String_SoapFaultAssertion">Affirmation de faute SOAP</s:String>
+    <s:String x:Key="String_SoapFaultAssertionDescription">Vérifie si la réponse est une erreur Soap / ou vérifie si la réponse est une réponse Soap valide</s:String>
+    <s:String x:Key="String_IsSoapFaultColon">Est l’erreur Soap :</s:String>
+    <s:String x:Key="String_IsSoapFaultChecked">Indique si la réponse du serveur est erreur Soap (Soap 1.1 et Soap 1.2)</s:String>
+    <s:String x:Key="String_IsSoapFaultUnchecked">Indique si la réponse du serveur est une réponse valide et non une erreur Soap</s:String>
+    <!-- SqlQueryTestStepEditor.xaml -->
+    <s:String x:Key="String_RunSQLQuery">Exécutez la requête SQL :</s:String>
+    <s:String x:Key="String_TestConnectivity">Tester la connectivité</s:String>
+    <s:String x:Key="String_Help">Aide</s:String>
+    <s:String x:Key="String_Configuration">Configuration</s:String>
+    <s:String x:Key="String_Result">Résultat</s:String>
+    <s:String x:Key="String_ServerNameOrIpColon">Nom du serveur ou adresse IP :</s:String>
+    <s:String x:Key="String_AuthenticationModeColon">Mode d’authentification : </s:String>
+    <s:String x:Key="String_DatabaseNameColon">Nom de la base de données :</s:String>
+    <s:String x:Key="String_UserNameColon">Nom d’utilisateur : </s:String>
+    <s:String x:Key="String_PasswordColon">Mot de passe :</s:String>
+    <s:String x:Key="String_ExecutionResultTypeColon">Type de résultat de l’exécution : </s:String>
+    <s:String x:Key="String_SqlQueryColon">Requête SQL :</s:String>
+    <s:String x:Key="String_UnableToConnectToDB">Impossible de se connecter à la base de données cible :</s:String>
+    <!-- StartWindowsServiceTestStepEditor.xaml -->
+    <s:String x:Key="String_ServerNameColon">Nom du serveur :</s:String>
+    <s:String x:Key="String_DomainUserNameColon">DOMAINE\nom d’utilisateur :</s:String>
+    <!-- UpdateSimulationData.xaml -->
+    <s:String x:Key="String_EditResponse">Modifier la réponse</s:String>
+    <s:String x:Key="String_SelectedService">Service sélectionné</s:String>
+    <s:String x:Key="String_Clean">Nettoyer</s:String>
+    <s:String x:Key="String_CleanChecked">Réponses claires du même service avant d’ajouter les réponses suivantes.</s:String>
+    <s:String x:Key="String_CleanUnchecked">Ne pas effacer les réponses, ajoutant à la suite des réponses seulement.</s:String>
+    <!-- ViewCSVDataSource.xaml -->
+    <s:String x:Key="String_ContainsHeaderColon">Contient l’en-tête :</s:String>
+    <s:String x:Key="String_ContainsHeaderChecked">La première ligne de la source de données est l’en-tête de colonne</s:String>
+    <s:String x:Key="String_ContainsHeaderUnchecked">La source de données ne contient-elle pas d’en-tête (vous devez spécifier l’en-tête)</s:String>
+    <s:String x:Key="String_SeparatorColon">Séparateur :</s:String>
+    <s:String x:Key="String_SelectDot">Sélectionnez...</s:String>
+    <!-- ViewDataDrivenTestCase.xaml -->
+    <s:String x:Key="String_DataDrivenTestCaseColon">Data Driven de scénario de Test :</s:String>
+    <s:String x:Key="String_Import">Importation</s:String>
+    <s:String x:Key="String_DataSource">Source de données</s:String>
+    <s:String x:Key="String_TestInstances">Cas de test</s:String>
+    <s:String x:Key="String_TestCase">Scénario de test</s:String>
+    <s:String x:Key="String_CountSteps"># Étapes</s:String>
+    <s:String x:Key="String_Progress">Progrès</s:String>
+    <s:String x:Key="String_Information">Informations</s:String>
+    <s:String x:Key="String_SelectDataSourceColon">Sélectionnez une Source de données :</s:String>
+    <s:String x:Key="String_RowLimitColon">Limite de la ligne :</s:String>
+    <!-- ViewExcelDataSource.xaml -->
+    <s:String x:Key="String_SpreadSheetNameColon">Nom de la feuille de calcul :</s:String>
+    <s:String x:Key="String_RangeTypeColon">Type de portée :</s:String>
+    <s:String x:Key="StringRangeNameColon">Nom de la plage :</s:String>
+    <s:String x:Key="StringTestDataImported">Tester les données importées :</s:String>
+    <!-- ViewProjectInfo.xaml -->
+    <s:String x:Key="String_RunAllTests">Exécuter tous les Tests</s:String>
+    <s:String x:Key="String_GenerateReport">Générer le rapport</s:String>
+    <s:String x:Key="String_ViewReport">Afficher le rapport</s:String>
+    <s:String x:Key="String_ProjectInformationColon">Informations sur le projet :</s:String>
+    <s:String x:Key="String_CreationDateColon">Date de création :</s:String>
+    <s:String x:Key="String_CreatedByColon">Créé par :</s:String>
+    <s:String x:Key="String_LastSavedAtColon">Dernier enregistrement à :</s:String>
+    <s:String x:Key="String_ByColon">Par :</s:String>
+    <s:String x:Key="String_TestProfile">Profil de test :</s:String>
+    <s:String x:Key="String_TestProfileDescription">Profil de test contient des variables d’environnement de test, informations d’identification et de défaut d’essai données pour la simulation de service. Pour configurer facilement le profil de test, vous pouvez aller dans les paramètres d’essai et exporter votre profil actuel.</s:String>
+    <s:String x:Key="String_UseActiveProfile">Utiliser le profil actif</s:String>
+    <s:String x:Key="String_UseActiveProfileTooltip">Utilisez votre profil de test actuel de Manual Test Runner</s:String>
+    <s:String x:Key="String_LoadProfile">Profil de charge</s:String>
+    <s:String x:Key="String_LoadProfileTooltip">Charger un profil existant à partir du disque</s:String>
+    <s:String x:Key="String_EditProfile">Modifier le profil</s:String>
+    <s:String x:Key="String_EditProfileTooltip">Modifier le profil de test actuel</s:String>
+    <s:String x:Key="String_ListTestSuitsColon">Liste des suites de tests :</s:String>
+    <s:String x:Key="String_TestSuite">Suite de tests</s:String>
+    <s:String x:Key="String_CountTests"># Essais</s:String>
+    <s:String x:Key="String_SaveAutomatedTestReport">Enregistrer le procès-verbal d’essai automatisé</s:String>
+    <s:String x:Key="String_ReportExported">Rapport exporté</s:String>
+    <s:String x:Key="String_ReportExportFailedColon">Échec du rapport à exporter : </s:String>
+    <s:String x:Key="String_GeneratingReport">Génération de rapport</s:String>
+    <s:String x:Key="String_TestReport">Rapport d’essai</s:String>
+    <!-- ViewTestCase.xaml -->
+    <s:String x:Key="String_TestConfiguration">Configuration de test</s:String>
+    <s:String x:Key="String_ListTestSteps">Liste des étapes de Test</s:String>
+    <s:String x:Key="String_TestStep">Étape de test</s:String>
+    <s:String x:Key="String_VariableName">Nom de la variable</s:String>
+    <s:String x:Key="String_VariableNameTooltip">Entrez le nom de la variable pour le cas de test actuel</s:String>
+    <s:String x:Key="String_VariableNameEmpty">Le nom de la variable ne peut pas être null ou vide</s:String>
+    <s:String x:Key="String_VariableNameExists">La variable avec le nom « {0} » existe déjà.</s:String>
+    <s:String x:Key="String_VariableNameNotValid">« {0} » n’est pas un identificateur valide pour un nom de variable.</s:String>
+    <s:String x:Key="String_VariableXRemovedRecover">{0} variable est supprimée. Cliquez ici pour le récupérer.</s:String>
+    <s:String x:Key="String_ClearCustomVariables">Variables personnalisées clair</s:String>
+    <s:String x:Key="String_ClearCustomVariablesQuestion">Voulez-vous vraiment supprimer toutes les variables personnalisées ? 
+Cette action ne peut pas être récupérée.</s:String>
+    <!-- ViewTestSuite.xaml -->
+    <s:String x:Key="String_TestSuiteColon">Suite de tests :</s:String>
+    <s:String x:Key="String_TestSuiteConfiguration">Configuration de test Suite</s:String>
+    <s:String x:Key="String_RemoveSelected">Supprimer certains</s:String>
+    <s:String x:Key="String_RemoveAll">Supprimer tous les</s:String>
+    <s:String x:Key="String_Sort">Tri</s:String>
+    <s:String x:Key="String_TestSuiteInformationColon">Informations de test de Suite :</s:String>
+    <s:String x:Key="String_ListTestCasesColon">Liste des scénarios de Test</s:String>
+    <!-- WindowEditAssertion.xaml -->
+    <s:String x:Key="String_Assertion">Assertion</s:String>
+    <s:String x:Key="String_Test">Test</s:String>
+    <s:String x:Key="String_AssertionObjectNull">Objet de l’assertion ne peut pas être null</s:String>
+    <s:String x:Key="String_AssertionTestException">Unhandled exception levée lors de l’essai de l’affirmation : </s:String>
+    <!-- WindowEditExtractProperty.xaml -->
+    <s:String x:Key="String_EditPropertyExtraction">Modifier la propriété d’Extraction</s:String>
+    <s:String x:Key="String_PropertyNameColon">Nom de la propriété :</s:String>
+    <s:String x:Key="String_PathTypeColon">Type de chemin d’accès :</s:String>
+    <s:String x:Key="String_PathColon">Chemin d’accès :</s:String>
+    <s:String x:Key="String_VariableNameColon">Nom de la variable</s:String>
+    <s:String x:Key="String_CurrentValue">Valeur actuelle</s:String>
+    <s:String x:Key="String_GetCurrentValue">Cliquez sur évaluer pour obtenir la valeur de la configuration actuelle</s:String>
+    <s:String x:Key="String_Evaluate">Évaluer</s:String>
+    <!-- XPathValidatorAssertionEditor.xaml -->
+    <s:String x:Key="String_XPathExpression">Expression XPath</s:String>
+    <!-- ExtractPropertyTestStepEditor.xaml -->
+    <s:String x:Key="String_SelectedExtractPropertyDeleted">Propriété d’extraire sélectionnée a été supprimée, cliquez ici pour récupérer.</s:String>
+    <s:String x:Key="String_ExtractProperty">Extraire la propriété</s:String>
+    <s:String x:Key="String_RunThisStep">Exécutez cette étape</s:String>
+    <s:String x:Key="String_AddPropertyExtraction">Ajouter l’Extraction de propriétés</s:String>
+    <s:String x:Key="String_FromTestSuiteColon">De Suite de tests :</s:String>
+    <s:String x:Key="String_VariableLevelColon">Niveau variable : </s:String>
+    <s:String x:Key="String_PropertyNameU">NOM DE LA PROPRIÉTÉ</s:String>
+    <s:String x:Key="String_PathTypeU">CHEMIN D’ACCÈS TYPE</s:String>
+    <s:String x:Key="String_PathU">CHEMIN D’ACCÈS</s:String>
+    <s:String x:Key="String_VariableU">VARIABLE</s:String>
 </ResourceDictionary>

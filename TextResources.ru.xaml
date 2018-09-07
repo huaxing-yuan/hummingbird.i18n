@@ -2,6 +2,9 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:Hummingbird.TestManager" xmlns:s="clr-namespace:System;assembly=mscorlib">
     <s:String x:Key="String_ApplicationName">Hummingbird</s:String>
     <s:String x:Key="String_ApplicationDescription">AN INTEGRATED TEST SOLUTION</s:String>
+    <s:String x:Key="String_ErrorOccurred">Произошла ошибка</s:String>
+    <s:String x:Key="String_TestCaseColon">Тестовый случай:</s:String>
+    <s:String x:Key="String_TestStepColon">Шаг теста:</s:String>
     <!-- Menu -->
     <s:String x:Key="String_Menu_Home">Домашняя страница</s:String>
     <s:String x:Key="String_Menu_Welcome">ДОБРО ПОЖАЛОВАТЬ</s:String>
@@ -554,4 +557,183 @@ Do вы перезагрузить колибри сейчас?</s:String>
     <s:String x:Key="String_RequestSentTo">Запрос, отправляемый:</s:String>
     <s:String x:Key="String_ElapsedTime">Затраченное время: </s:String>
     <s:String x:Key="String_ResponseColon">Ответ:</s:String>
+    <!-- CommandLineTestStepEditor.xaml-->
+    <s:String x:Key="String_FileNameColon">Имя файла:</s:String>
+    <s:String x:Key="String_ArgumentsColon">Аргументы:</s:String>
+    <s:String x:Key="String_WorkingDirectoryColon">Рабочий каталог:</s:String>
+    <s:String x:Key="String_TimeoutColon">Время ожидания:</s:String>
+    <s:String x:Key="String_TimeoutMessage">Максимальное число секунд времени будет ждать до тех пор, пока существует этот процесс.</s:String>
+    <s:String x:Key="String_FailOnErrorStreamColon">Не на поток сообщений об ошибках:</s:String>
+    <s:String x:Key="String_FailOnErrorStreamChecked">Шаг теста будет сбой, если что-либо было написано на поток сообщений об ошибках.</s:String>
+    <s:String x:Key="String_FailOnErrorStreamUnchecked">Шаг теста не помечается как ошибка, если что-либо было написано на поток сообщений об ошибках.</s:String>
+    <s:String x:Key="String_OutputColon">Выход:</s:String>
+    <!-- ContainsAssertionEditor.xaml -->
+    <s:String x:Key="String_ContainsAssertion">Содержит утверждение</s:String>
+    <s:String x:Key="String_ContainsAssertionDescription">Проверяет, если текст происходит в запрос или ответ</s:String>
+    <s:String x:Key="String_SearchPatternColon">Шаблон поиска:</s:String>
+    <s:String x:Key="String_SearchInColon">Поиск в:</s:String>
+    <s:String x:Key="String_CaseSensitiveColon">Регистр:</s:String>
+    <s:String x:Key="String_CaseSensitiveChecked">Регистр</s:String>
+    <s:String x:Key="String_CaseSensitiveUnchecked">С учетом регистра</s:String>
+    <s:String x:Key="String_UseRegularExpressionColon">Используйте регулярное выражение:</s:String>
+    <s:String x:Key="String_UseRegularExpressionChecked">Матч с помощью регулярных выражений</s:String>
+    <s:String x:Key="String_UseRegularExpressionUnchecked">Не используйте регулярное выражение, матч, только текст</s:String>
+    <!-- CSharpScriptTestStepEditor -->
+    <s:String x:Key="String_Compile">Компиляции</s:String>
+    <s:String x:Key="String_CodeU">КОД</s:String>
+    <s:String x:Key="String_LineU">ЛИНИЯ</s:String>
+    <!-- NotContainsAssertionEditor -->
+    <s:String x:Key="String_NotContainsAssertion">Не содержит утверждение</s:String>
+    <s:String x:Key="String_NotContainsAssertionDescription">Проверяет если текст не происходят в запрос или ответ</s:String>
+    <!-- PathValidatorAssertionEditor.xaml -->
+    <s:String x:Key="String_PathValidationAssertion">Пути проверки утверждения</s:String>
+    <s:String x:Key="String_AssertFor">Assert для</s:String>
+    <s:String x:Key="String_PathExpression">Выражение пути</s:String>
+    <s:String x:Key="String_ExpectedResult">Ожидаемый результат</s:String>
+    <s:String x:Key="String_ResultColon">Результат:</s:String>
+    <s:String x:Key="String_UseCurrent">Использовать текущие</s:String>
+    <s:String x:Key="String_UseCurrentTooltip">Используйте текущее значение как ожидаемое значение.</s:String>
+    <s:String x:Key="String_UseCurrentReplaced">Ожидаемый результат заменяется текущей оценки.</s:String>
+    <s:String x:Key="String_UseCurrentFailed">Произошла ошибка при вычислении утверждение, не удалось использовать текущий результат как ожидаемый результат</s:String>
+    <!-- SendRequestTestStepEditor.xaml -->
+    <s:String x:Key="String_EvaluateAssertions">Оценка утверждений</s:String>
+    <s:String x:Key="String_Assertions">Утверждения</s:String>
+    <s:String x:Key="String_UriTemplateColon">Шаблон URI:</s:String>
+    <s:String x:Key="String_SelectRequest">Выберите запрос</s:String>
+    <s:String x:Key="String_AddAssertion">Добавить утверждение</s:String>
+    <s:String x:Key="String_Run">Запуск</s:String>
+    <s:String x:Key="String_RunAll">Выполнить все</s:String>
+    <s:String x:Key="String_AssertionU">УТВЕРЖДЕНИЕ</s:String>
+    <s:String x:Key="String_StatusU">СТАТУС</s:String>
+    <s:String x:Key="String_InformationU">ИНФОРМАЦИЯ</s:String>
+    <!-- StartServiceSimulationTestStepEditor.xaml -->
+    <s:String x:Key="String_SelectServiceToStartColon">Выберите службу для запуска: </s:String>
+    <s:String x:Key="String_UseDefaultParameterColon">Используйте параметр по умолчанию: </s:String>
+    <s:String x:Key="String_UseDefaultParameterChecked">Использовать параметры по умолчанию для службы</s:String>
+    <s:String x:Key="String_UseDefaultParameterUnchecked">Используйте следующие параметры для службы</s:String>
+    <s:String x:Key="String_InformationColon">Информация:</s:String>
+    <!-- SoapFaultAssertion.xaml -->
+    <s:String x:Key="String_SoapFaultAssertion">Утверждение ошибка SOAP</s:String>
+    <s:String x:Key="String_SoapFaultAssertionDescription">Проверяет, является ли ответ ошибка Soap / или проверяет, если ответ является допустимым ответом Soap</s:String>
+    <s:String x:Key="String_IsSoapFaultColon">Это ошибка Soap:</s:String>
+    <s:String x:Key="String_IsSoapFaultChecked">Утверждает, если ответ от сервера ошибку Soap (Soap 1.1 и Soap 1.2)</s:String>
+    <s:String x:Key="String_IsSoapFaultUnchecked">Утверждать, если ответ от сервера допустимый ответ и не ошибка Soap</s:String>
+    <!-- SqlQueryTestStepEditor.xaml -->
+    <s:String x:Key="String_RunSQLQuery">Выполните запрос SQL:</s:String>
+    <s:String x:Key="String_TestConnectivity">Проверка подключения</s:String>
+    <s:String x:Key="String_Help">Справка</s:String>
+    <s:String x:Key="String_Configuration">Конфигурация</s:String>
+    <s:String x:Key="String_Result">Результат</s:String>
+    <s:String x:Key="String_ServerNameOrIpColon">Имя сервера или IP-адрес:</s:String>
+    <s:String x:Key="String_AuthenticationModeColon">Режим проверки подлинности: </s:String>
+    <s:String x:Key="String_DatabaseNameColon">Имя базы данных:</s:String>
+    <s:String x:Key="String_UserNameColon">Имя пользователя: </s:String>
+    <s:String x:Key="String_PasswordColon">Пароль:</s:String>
+    <s:String x:Key="String_ExecutionResultTypeColon">Тип результата выполнения: </s:String>
+    <s:String x:Key="String_SqlQueryColon">SQL-запрос:</s:String>
+    <s:String x:Key="String_UnableToConnectToDB">Не удается подключиться к целевой базе данных:</s:String>
+    <!-- StartWindowsServiceTestStepEditor.xaml -->
+    <s:String x:Key="String_ServerNameColon">Имя сервера:</s:String>
+    <s:String x:Key="String_DomainUserNameColon">Домен\имя пользователя:</s:String>
+    <!-- UpdateSimulationData.xaml -->
+    <s:String x:Key="String_EditResponse">Изменить ответ</s:String>
+    <s:String x:Key="String_SelectedService">Выбранные услуги</s:String>
+    <s:String x:Key="String_Clean">Очистить</s:String>
+    <s:String x:Key="String_CleanChecked">Четкие ответы той же службы перед добавлением следующих ответов.</s:String>
+    <s:String x:Key="String_CleanUnchecked">Не ясно, ответы, добавить следующие ответы только.</s:String>
+    <!-- ViewCSVDataSource.xaml -->
+    <s:String x:Key="String_ContainsHeaderColon">Содержит заголовок:</s:String>
+    <s:String x:Key="String_ContainsHeaderChecked">Первая строка источника данных содержит заголовок столбца</s:String>
+    <s:String x:Key="String_ContainsHeaderUnchecked">Источник данных не содержит заголовок (необходимо указать заголовок)</s:String>
+    <s:String x:Key="String_SeparatorColon">Сепаратор:</s:String>
+    <s:String x:Key="String_SelectDot">Выберите...</s:String>
+    <!-- ViewDataDrivenTestCase.xaml -->
+    <s:String x:Key="String_DataDrivenTestCaseColon">Данные по инициативе тестового случая:</s:String>
+    <s:String x:Key="String_Import">Импорт</s:String>
+    <s:String x:Key="String_DataSource">Источник данных</s:String>
+    <s:String x:Key="String_TestInstances">Экземпляры теста</s:String>
+    <s:String x:Key="String_TestCase">Тестовый случай</s:String>
+    <s:String x:Key="String_CountSteps"># Шаги</s:String>
+    <s:String x:Key="String_Progress">Прогресс</s:String>
+    <s:String x:Key="String_Information">Информация</s:String>
+    <s:String x:Key="String_SelectDataSourceColon">Выберите источник данных:</s:String>
+    <s:String x:Key="String_RowLimitColon">Ограничение на строки:</s:String>
+    <!-- ViewExcelDataSource.xaml -->
+    <s:String x:Key="String_SpreadSheetNameColon">Имя таблицы:</s:String>
+    <s:String x:Key="String_RangeTypeColon">Тип диапазона:</s:String>
+    <s:String x:Key="StringRangeNameColon">Имя диапазона:</s:String>
+    <s:String x:Key="StringTestDataImported">Тестовые данные импортируются:</s:String>
+    <!-- ViewProjectInfo.xaml -->
+    <s:String x:Key="String_RunAllTests">Выполнение всех тестов</s:String>
+    <s:String x:Key="String_GenerateReport">Создать отчет</s:String>
+    <s:String x:Key="String_ViewReport">Просмотреть отчет</s:String>
+    <s:String x:Key="String_ProjectInformationColon">Информация о проекте:</s:String>
+    <s:String x:Key="String_CreationDateColon">Дата создания:</s:String>
+    <s:String x:Key="String_CreatedByColon">Создан:</s:String>
+    <s:String x:Key="String_LastSavedAtColon">Сохранен в:</s:String>
+    <s:String x:Key="String_ByColon">По:</s:String>
+    <s:String x:Key="String_TestProfile">Проверьте профиль:</s:String>
+    <s:String x:Key="String_TestProfileDescription">Тестовый профиль содержит переменные среды тестирования, учетные данные по умолчанию и тестовые данные для моделирования одежды. Легко настроить тестовый профиль, вы можете пойти для параметров тестирования и экспортировать текущий профиль.</s:String>
+    <s:String x:Key="String_UseActiveProfile">Использование активного профиля</s:String>
+    <s:String x:Key="String_UseActiveProfileTooltip">Использовать ваш текущий профиль тест из Test Runner вручную</s:String>
+    <s:String x:Key="String_LoadProfile">Профиль нагрузки</s:String>
+    <s:String x:Key="String_LoadProfileTooltip">Загрузить существующий профиль с диска</s:String>
+    <s:String x:Key="String_EditProfile">Редактировать профиль</s:String>
+    <s:String x:Key="String_EditProfileTooltip">Редактировать текущий профиль тест</s:String>
+    <s:String x:Key="String_ListTestSuitsColon">Список наборов тестов:</s:String>
+    <s:String x:Key="String_TestSuite">Набор тестов</s:String>
+    <s:String x:Key="String_CountTests"># Тесты</s:String>
+    <s:String x:Key="String_SaveAutomatedTestReport">Сохранить отчет автоматических тестов</s:String>
+    <s:String x:Key="String_ReportExported">Экспорт отчета</s:String>
+    <s:String x:Key="String_ReportExportFailedColon">Доклад не удалось экспортировать: </s:String>
+    <s:String x:Key="String_GeneratingReport">Создание отчета</s:String>
+    <s:String x:Key="String_TestReport">Тестовый отчет</s:String>
+    <!-- ViewTestCase.xaml -->
+    <s:String x:Key="String_TestConfiguration">Тестовая конфигурация</s:String>
+    <s:String x:Key="String_ListTestSteps">Список шагов теста</s:String>
+    <s:String x:Key="String_TestStep">Шаг теста</s:String>
+    <s:String x:Key="String_VariableName">Имя переменной</s:String>
+    <s:String x:Key="String_VariableNameTooltip">Введите имя переменной для текущего тестового случая</s:String>
+    <s:String x:Key="String_VariableNameEmpty">Имя переменной не может быть null или пустой</s:String>
+    <s:String x:Key="String_VariableNameExists">Переменная с именем «{0}» уже существует.</s:String>
+    <s:String x:Key="String_VariableNameNotValid">«{0}» не является допустимым идентификатором для имени переменной.</s:String>
+    <s:String x:Key="String_VariableXRemovedRecover">Переменная {0} удалена. Нажмите здесь, чтобы восстановить.</s:String>
+    <s:String x:Key="String_ClearCustomVariables">Очистить пользовательские переменные</s:String>
+    <s:String x:Key="String_ClearCustomVariablesQuestion">Вы хотите удалить все пользовательские переменные? 
+Это действие не может быть восстановлена.</s:String>
+    <!-- ViewTestSuite.xaml -->
+    <s:String x:Key="String_TestSuiteColon">Набор тестов:</s:String>
+    <s:String x:Key="String_TestSuiteConfiguration">Конфигурация теста Люкс</s:String>
+    <s:String x:Key="String_RemoveSelected">Удалить выбранные</s:String>
+    <s:String x:Key="String_RemoveAll">Удалить все</s:String>
+    <s:String x:Key="String_Sort">Сортировка</s:String>
+    <s:String x:Key="String_TestSuiteInformationColon">Тестовый комплект информации:</s:String>
+    <s:String x:Key="String_ListTestCasesColon">Список тестовых случаев</s:String>
+    <!-- WindowEditAssertion.xaml -->
+    <s:String x:Key="String_Assertion">Утверждение</s:String>
+    <s:String x:Key="String_Test">Тест</s:String>
+    <s:String x:Key="String_AssertionObjectNull">Объект утверждения не может иметь значение null</s:String>
+    <s:String x:Key="String_AssertionTestException">Необработанное исключение, возникающее при тестировании утверждение: </s:String>
+    <!-- WindowEditExtractProperty.xaml -->
+    <s:String x:Key="String_EditPropertyExtraction">Редактирование свойств извлечения</s:String>
+    <s:String x:Key="String_PropertyNameColon">Имя свойства:</s:String>
+    <s:String x:Key="String_PathTypeColon">Тип пути:</s:String>
+    <s:String x:Key="String_PathColon">Путь:</s:String>
+    <s:String x:Key="String_VariableNameColon">Имя переменной</s:String>
+    <s:String x:Key="String_CurrentValue">Текущее значение</s:String>
+    <s:String x:Key="String_GetCurrentValue">Нажмите кнопку вычислить, чтобы получить значение из текущей конфигурации</s:String>
+    <s:String x:Key="String_Evaluate">Оценить</s:String>
+    <!-- XPathValidatorAssertionEditor.xaml -->
+    <s:String x:Key="String_XPathExpression">Выражение XPath</s:String>
+    <!-- ExtractPropertyTestStepEditor.xaml -->
+    <s:String x:Key="String_SelectedExtractPropertyDeleted">Удалить выбранные извлечь свойство, нажмите здесь, чтобы восстановить.</s:String>
+    <s:String x:Key="String_ExtractProperty">Извлечение свойств</s:String>
+    <s:String x:Key="String_RunThisStep">Выполните этот шаг</s:String>
+    <s:String x:Key="String_AddPropertyExtraction">Добавить свойство извлечения</s:String>
+    <s:String x:Key="String_FromTestSuiteColon">Из набора тестов:</s:String>
+    <s:String x:Key="String_VariableLevelColon">Переменная уровня: </s:String>
+    <s:String x:Key="String_PropertyNameU">ИМЯ СВОЙСТВА</s:String>
+    <s:String x:Key="String_PathTypeU">ТИП ПУТИ</s:String>
+    <s:String x:Key="String_PathU">ПУТЬ</s:String>
+    <s:String x:Key="String_VariableU">ПЕРЕМЕННАЯ</s:String>
 </ResourceDictionary>

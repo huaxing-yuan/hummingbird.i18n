@@ -2,6 +2,9 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:Hummingbird.TestManager" xmlns:s="clr-namespace:System;assembly=mscorlib">
     <s:String x:Key="String_ApplicationName">Hummingbird</s:String>
     <s:String x:Key="String_ApplicationDescription">AN INTEGRATED TEST SOLUTION</s:String>
+    <s:String x:Key="String_ErrorOccurred">Παρουσιάστηκε σφάλμα</s:String>
+    <s:String x:Key="String_TestCaseColon">Δοκιμή περίπτωση:</s:String>
+    <s:String x:Key="String_TestStepColon">Βήμα δοκιμής:</s:String>
     <!-- Menu -->
     <s:String x:Key="String_Menu_Home">Αρχική σελίδα</s:String>
     <s:String x:Key="String_Menu_Welcome">Καλώς όρισες</s:String>
@@ -554,4 +557,183 @@ Do να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
     <s:String x:Key="String_RequestSentTo">Αίτηση που στάλθηκε στο:</s:String>
     <s:String x:Key="String_ElapsedTime">Χρόνος που πέρασε: </s:String>
     <s:String x:Key="String_ResponseColon">Απάντηση:</s:String>
+    <!-- CommandLineTestStepEditor.xaml-->
+    <s:String x:Key="String_FileNameColon">Όνομα αρχείου:</s:String>
+    <s:String x:Key="String_ArgumentsColon">Επιχειρήματα:</s:String>
+    <s:String x:Key="String_WorkingDirectoryColon">Κατάλογος εργασίας:</s:String>
+    <s:String x:Key="String_TimeoutColon">Χρονικό όριο:</s:String>
+    <s:String x:Key="String_TimeoutMessage">Μέγιστος αριθμός, σε δευτερόλεπτα του χρόνου θα περιμένει έως ότου η διαδικασία υπάρχει.</s:String>
+    <s:String x:Key="String_FailOnErrorStreamColon">Αποτύχουν στο ρεύμα σφάλματος:</s:String>
+    <s:String x:Key="String_FailOnErrorStreamChecked">Βήμα δοκιμής θα αποτύχει αν κάτι ήταν γραμμένο σε ρεύμα σφάλματος.</s:String>
+    <s:String x:Key="String_FailOnErrorStreamUnchecked">Βήμα δοκιμής δεν θα επισημανθούν ως αποτυχία, αν κάτι ήταν γραμμένο σε ρεύμα σφάλματος.</s:String>
+    <s:String x:Key="String_OutputColon">Ισχύς εξόδου:</s:String>
+    <!-- ContainsAssertionEditor.xaml -->
+    <s:String x:Key="String_ContainsAssertion">Περιέχει διεκδίκησης</s:String>
+    <s:String x:Key="String_ContainsAssertionDescription">Ελέγχει εάν ένα κείμενο που παρουσιάζεται στο της αίτησης ή της απόκρισης</s:String>
+    <s:String x:Key="String_SearchPatternColon">Μοτίβο αναζήτησης:</s:String>
+    <s:String x:Key="String_SearchInColon">Αναζήτηση σε:</s:String>
+    <s:String x:Key="String_CaseSensitiveColon">Διάκριση πεζών-κεφαλαίων:</s:String>
+    <s:String x:Key="String_CaseSensitiveChecked">Διάκριση πεζών-κεφαλαίων</s:String>
+    <s:String x:Key="String_CaseSensitiveUnchecked">Πεζών</s:String>
+    <s:String x:Key="String_UseRegularExpressionColon">Χρησιμοποιήστε την κανονική έκφραση:</s:String>
+    <s:String x:Key="String_UseRegularExpressionChecked">Ταιριάζει με κανονική έκφραση</s:String>
+    <s:String x:Key="String_UseRegularExpressionUnchecked">Μην χρησιμοποιείτε κανονική έκφραση, αγώνα μόνο κείμενο</s:String>
+    <!-- CSharpScriptTestStepEditor -->
+    <s:String x:Key="String_Compile">Μεταγλώττιση</s:String>
+    <s:String x:Key="String_CodeU">ΚΩΔΙΚΌΣ</s:String>
+    <s:String x:Key="String_LineU">ΓΡΑΜΜΉ</s:String>
+    <!-- NotContainsAssertionEditor -->
+    <s:String x:Key="String_NotContainsAssertion">Δεν περιέχει διεκδίκησης</s:String>
+    <s:String x:Key="String_NotContainsAssertionDescription">Ελέγχει αν δοθεί κείμενο δεν παρουσιάζεται σε της αίτησης ή της απόκρισης</s:String>
+    <!-- PathValidatorAssertionEditor.xaml -->
+    <s:String x:Key="String_PathValidationAssertion">Πορεία επικύρωσης διεκδίκησης</s:String>
+    <s:String x:Key="String_AssertFor">Διεκδικήσει</s:String>
+    <s:String x:Key="String_PathExpression">Έκφραση διαδρομής</s:String>
+    <s:String x:Key="String_ExpectedResult">Αναμενόμενο αποτέλεσμα</s:String>
+    <s:String x:Key="String_ResultColon">Αποτέλεσμα:</s:String>
+    <s:String x:Key="String_UseCurrent">Χρήση τρέχουσας</s:String>
+    <s:String x:Key="String_UseCurrentTooltip">Χρησιμοποιήστε την τρέχουσα αξία ως αναμενόμενη τιμή.</s:String>
+    <s:String x:Key="String_UseCurrentReplaced">Το αναμενόμενο αποτέλεσμα αντικαθίσταται με τρέχουσα αξιολόγηση.</s:String>
+    <s:String x:Key="String_UseCurrentFailed">Παρουσιάστηκε ένα σφάλμα κατά την αξιολόγηση της τον ισχυρισμό, απέτυχε να χρησιμοποιήσετε το τρέχον αποτέλεσμα ως αναμενόμενο αποτέλεσμα</s:String>
+    <!-- SendRequestTestStepEditor.xaml -->
+    <s:String x:Key="String_EvaluateAssertions">Αξιολογήσει τους ισχυρισμούς</s:String>
+    <s:String x:Key="String_Assertions">Ισχυρισμοί</s:String>
+    <s:String x:Key="String_UriTemplateColon">Πρότυπο URI:</s:String>
+    <s:String x:Key="String_SelectRequest">Επιλέξτε αίτηση</s:String>
+    <s:String x:Key="String_AddAssertion">Προσθέστε διεκδίκησης</s:String>
+    <s:String x:Key="String_Run">Εκτέλεση</s:String>
+    <s:String x:Key="String_RunAll">Τρέχει όλα</s:String>
+    <s:String x:Key="String_AssertionU">ΔΙΕΚΔΊΚΗΣΗΣ</s:String>
+    <s:String x:Key="String_StatusU">ΚΑΤΆΣΤΑΣΗ</s:String>
+    <s:String x:Key="String_InformationU">ΠΛΗΡΟΦΟΡΊΕΣ</s:String>
+    <!-- StartServiceSimulationTestStepEditor.xaml -->
+    <s:String x:Key="String_SelectServiceToStartColon">Επιλέξτε την υπηρεσία για να ξεκινήσετε: </s:String>
+    <s:String x:Key="String_UseDefaultParameterColon">Χρησιμοποιήστε την προεπιλεγμένη παράμετρο: </s:String>
+    <s:String x:Key="String_UseDefaultParameterChecked">Χρησιμοποιήστε τις προεπιλεγμένες παραμέτρους για την υπηρεσία</s:String>
+    <s:String x:Key="String_UseDefaultParameterUnchecked">Χρήση μετά από παραμέτρους για την υπηρεσία</s:String>
+    <s:String x:Key="String_InformationColon">Πληροφορίες:</s:String>
+    <!-- SoapFaultAssertion.xaml -->
+    <s:String x:Key="String_SoapFaultAssertion">Σαπούνι σφάλμα διεκδίκησης</s:String>
+    <s:String x:Key="String_SoapFaultAssertionDescription">Επαληθεύει αν η απάντηση είναι ένα σφάλμα Soap / ή επαληθεύει αν η απάντηση είναι έγκυρη απόκριση Soap</s:String>
+    <s:String x:Key="String_IsSoapFaultColon">Είναι σφάλμα Soap:</s:String>
+    <s:String x:Key="String_IsSoapFaultChecked">Βεβαιώνει αν η απόκριση από το διακομιστή είναι σφάλμα Soap (Soap 1.1 και 1.2 σαπούνι)</s:String>
+    <s:String x:Key="String_IsSoapFaultUnchecked">Επιβεβαιώσει εάν η απόκριση από το διακομιστή είναι μια έγκυρη απάντηση και όχι ένα σφάλμα Soap</s:String>
+    <!-- SqlQueryTestStepEditor.xaml -->
+    <s:String x:Key="String_RunSQLQuery">Εκτελέστε το ερώτημα SQL:</s:String>
+    <s:String x:Key="String_TestConnectivity">Δοκιμή σύνδεσης</s:String>
+    <s:String x:Key="String_Help">Βοήθεια</s:String>
+    <s:String x:Key="String_Configuration">Ρύθμιση παραμέτρων</s:String>
+    <s:String x:Key="String_Result">Αποτέλεσμα</s:String>
+    <s:String x:Key="String_ServerNameOrIpColon">Όνομα διακομιστή ή διεύθυνση IP:</s:String>
+    <s:String x:Key="String_AuthenticationModeColon">Λειτουργία ελέγχου ταυτότητας: </s:String>
+    <s:String x:Key="String_DatabaseNameColon">Όνομα βάσης δεδομένων:</s:String>
+    <s:String x:Key="String_UserNameColon">Όνομα χρήστη: </s:String>
+    <s:String x:Key="String_PasswordColon">Κωδικός πρόσβασης:</s:String>
+    <s:String x:Key="String_ExecutionResultTypeColon">Τύπος αποτέλεσμα εκτέλεσης: </s:String>
+    <s:String x:Key="String_SqlQueryColon">Ερώτημα SQL:</s:String>
+    <s:String x:Key="String_UnableToConnectToDB">Δεν μπορείτε να συνδεθείτε στη βάση δεδομένων προορισμού:</s:String>
+    <!-- StartWindowsServiceTestStepEditor.xaml -->
+    <s:String x:Key="String_ServerNameColon">Όνομα διακομιστή:</s:String>
+    <s:String x:Key="String_DomainUserNameColon">Τομέας\όνομα χρήστη:</s:String>
+    <!-- UpdateSimulationData.xaml -->
+    <s:String x:Key="String_EditResponse">Επεξεργαστείτε την απάντησή</s:String>
+    <s:String x:Key="String_SelectedService">Επιλεγμένη υπηρεσία</s:String>
+    <s:String x:Key="String_Clean">Καθαρίστε</s:String>
+    <s:String x:Key="String_CleanChecked">Σαφείς απαντήσεις της ίδιας υπηρεσίας πριν από την προσθήκη των παρακάτω απαντήσεων.</s:String>
+    <s:String x:Key="String_CleanUnchecked">Μην σαφείς απαντήσεις, προσθέσετε μετά απαντήσεις μόνο.</s:String>
+    <!-- ViewCSVDataSource.xaml -->
+    <s:String x:Key="String_ContainsHeaderColon">Περιέχει την κεφαλίδα:</s:String>
+    <s:String x:Key="String_ContainsHeaderChecked">Η πρώτη γραμμή του αρχείου προέλευσης δεδομένων είναι στην κεφαλίδα της στήλης</s:String>
+    <s:String x:Key="String_ContainsHeaderUnchecked">Το αρχείο προέλευσης δεδομένων δεν περιέχει κεφαλίδα (πρέπει να καθορίσετε την κεφαλίδα)</s:String>
+    <s:String x:Key="String_SeparatorColon">Διαχωριστικό:</s:String>
+    <s:String x:Key="String_SelectDot">Επιλέξτε...</s:String>
+    <!-- ViewDataDrivenTestCase.xaml -->
+    <s:String x:Key="String_DataDrivenTestCaseColon">Δεδομένα με γνώμονα την περίπτωση δοκιμής:</s:String>
+    <s:String x:Key="String_Import">Εισαγωγή</s:String>
+    <s:String x:Key="String_DataSource">Αρχείο προέλευσης δεδομένων</s:String>
+    <s:String x:Key="String_TestInstances">Δοκιμή περιπτώσεις</s:String>
+    <s:String x:Key="String_TestCase">Δοκιμή περίπτωση</s:String>
+    <s:String x:Key="String_CountSteps"># Βήματα</s:String>
+    <s:String x:Key="String_Progress">Πρόοδος</s:String>
+    <s:String x:Key="String_Information">Πληροφορίες</s:String>
+    <s:String x:Key="String_SelectDataSourceColon">Επιλέξτε ένα αρχείο προέλευσης δεδομένων:</s:String>
+    <s:String x:Key="String_RowLimitColon">Όριο γραμμών:</s:String>
+    <!-- ViewExcelDataSource.xaml -->
+    <s:String x:Key="String_SpreadSheetNameColon">Όνομα του υπολογιστικού φύλλου:</s:String>
+    <s:String x:Key="String_RangeTypeColon">Εύρος Τύπος:</s:String>
+    <s:String x:Key="StringRangeNameColon">Όνομα περιοχής:</s:String>
+    <s:String x:Key="StringTestDataImported">Δοκιμή τα δεδομένα εισάγονται:</s:String>
+    <!-- ViewProjectInfo.xaml -->
+    <s:String x:Key="String_RunAllTests">Εκτελέστε όλες τις δοκιμές</s:String>
+    <s:String x:Key="String_GenerateReport">Δημιουργία έκθεσης</s:String>
+    <s:String x:Key="String_ViewReport">Προβολή έκθεσης</s:String>
+    <s:String x:Key="String_ProjectInformationColon">Πληροφορίες για το έργο:</s:String>
+    <s:String x:Key="String_CreationDateColon">Ημερομηνία δημιουργίας:</s:String>
+    <s:String x:Key="String_CreatedByColon">Δημιουργήθηκε από:</s:String>
+    <s:String x:Key="String_LastSavedAtColon">Αποθηκεύτηκε τελευταία στο:</s:String>
+    <s:String x:Key="String_ByColon">Από:</s:String>
+    <s:String x:Key="String_TestProfile">Προφίλ δοκιμής:</s:String>
+    <s:String x:Key="String_TestProfileDescription">Προφίλ δοκιμής περιέχει μεταβλητές περιβάλλοντος δοκιμών, πιστοποιήσεις και προεπιλεγμένη δοκιμή δεδομένων για την υπηρεσία προσομοίωση. Για να ρυθμίσετε εύκολα το προφίλ δοκιμής, μπορείτε να πάτε να δοκιμάσετε τις ρυθμίσεις και να εξαγάγετε το τρέχον προφίλ.</s:String>
+    <s:String x:Key="String_UseActiveProfile">Χρησιμοποιήστε το ενεργό προφίλ</s:String>
+    <s:String x:Key="String_UseActiveProfileTooltip">Χρησιμοποιήστε το τρέχον προφίλ δοκιμής από το πρώτο πούλι δοκιμή εγχειρίδιο</s:String>
+    <s:String x:Key="String_LoadProfile">Προφίλ φορτίου</s:String>
+    <s:String x:Key="String_LoadProfileTooltip">Φόρτωση ενός υπάρχοντος προφίλ από δίσκο</s:String>
+    <s:String x:Key="String_EditProfile">Επεξεργασία προφίλ</s:String>
+    <s:String x:Key="String_EditProfileTooltip">Επεξεργαστείτε το τρέχον προφίλ δοκιμής</s:String>
+    <s:String x:Key="String_ListTestSuitsColon">Λίστα των οικογενειών προγραμμάτων δοκιμών:</s:String>
+    <s:String x:Key="String_TestSuite">Σουίτα δοκιμής</s:String>
+    <s:String x:Key="String_CountTests"># Δοκιμές</s:String>
+    <s:String x:Key="String_SaveAutomatedTestReport">Αποθηκεύστε την αυτόματη αναφορά δοκιμής</s:String>
+    <s:String x:Key="String_ReportExported">Έκθεση εξάγονται</s:String>
+    <s:String x:Key="String_ReportExportFailedColon">Έκθεση απέτυχε η εξαγωγή: </s:String>
+    <s:String x:Key="String_GeneratingReport">Δημιουργία αναφοράς</s:String>
+    <s:String x:Key="String_TestReport">Αναφορά δοκιμής</s:String>
+    <!-- ViewTestCase.xaml -->
+    <s:String x:Key="String_TestConfiguration">Δοκιμή ρύθμισης παραμέτρων</s:String>
+    <s:String x:Key="String_ListTestSteps">Λίστα των βημάτων δοκιμής</s:String>
+    <s:String x:Key="String_TestStep">Βήμα δοκιμής</s:String>
+    <s:String x:Key="String_VariableName">Το όνομα της μεταβλητής</s:String>
+    <s:String x:Key="String_VariableNameTooltip">Πληκτρολογήστε το όνομα της μεταβλητής για την τρέχουσα περίπτωση δοκιμής</s:String>
+    <s:String x:Key="String_VariableNameEmpty">Το όνομα της μεταβλητής δεν μπορεί να είναι null ή κενό</s:String>
+    <s:String x:Key="String_VariableNameExists">Η μεταβλητή με όνομα '{0}' υπάρχει ήδη.</s:String>
+    <s:String x:Key="String_VariableNameNotValid">'{0}' δεν είναι ένα έγκυρο αναγνωριστικό για ένα όνομα μεταβλητής.</s:String>
+    <s:String x:Key="String_VariableXRemovedRecover">Η μεταβλητή {0} απομακρύνεται. Κάντε κλικ εδώ για να ανακτήσετε.</s:String>
+    <s:String x:Key="String_ClearCustomVariables">Σαφή προσαρμοσμένες μεταβλητές</s:String>
+    <s:String x:Key="String_ClearCustomVariablesQuestion">Θέλετε να διαγράψετε όλες τις προσαρμοσμένες μεταβλητές; 
+Αυτή η ενέργεια δεν μπορεί να ανακτηθεί.</s:String>
+    <!-- ViewTestSuite.xaml -->
+    <s:String x:Key="String_TestSuiteColon">Ακολουθία δοκιμής:</s:String>
+    <s:String x:Key="String_TestSuiteConfiguration">Δοκιμή σουίτα ρύθμισης παραμέτρων</s:String>
+    <s:String x:Key="String_RemoveSelected">Κατάργηση επιλεγμένων</s:String>
+    <s:String x:Key="String_RemoveAll">Κατάργηση όλων</s:String>
+    <s:String x:Key="String_Sort">Είδος</s:String>
+    <s:String x:Key="String_TestSuiteInformationColon">Δοκιμή σουίτα πληροφορίες:</s:String>
+    <s:String x:Key="String_ListTestCasesColon">Κατάλογος των περιπτώσεων δοκιμής</s:String>
+    <!-- WindowEditAssertion.xaml -->
+    <s:String x:Key="String_Assertion">Διεκδίκησης</s:String>
+    <s:String x:Key="String_Test">Δοκιμή</s:String>
+    <s:String x:Key="String_AssertionObjectNull">Αντικείμενο διεκδίκησης δεν μπορεί να είναι null</s:String>
+    <s:String x:Key="String_AssertionTestException">Ανεπίλυτη εξαίρεση κατά τη δοκιμή τον ισχυρισμό: </s:String>
+    <!-- WindowEditExtractProperty.xaml -->
+    <s:String x:Key="String_EditPropertyExtraction">Επεξεργαστείτε εξαγωγής ιδιότητας:</s:String>
+    <s:String x:Key="String_PropertyNameColon">Όνομα ιδιότητας:</s:String>
+    <s:String x:Key="String_PathTypeColon">Τύπος διαδρομής:</s:String>
+    <s:String x:Key="String_PathColon">Διαδρομή:</s:String>
+    <s:String x:Key="String_VariableNameColon">Το όνομα της μεταβλητής</s:String>
+    <s:String x:Key="String_CurrentValue">Τρέχουσα τιμή</s:String>
+    <s:String x:Key="String_GetCurrentValue">Κάντε κλικ στο κουμπί Υπολογισμός να πάρει την τιμή από την τρέχουσα ρύθμιση παραμέτρων</s:String>
+    <s:String x:Key="String_Evaluate">Αξιολόγηση</s:String>
+    <!-- XPathValidatorAssertionEditor.xaml -->
+    <s:String x:Key="String_XPathExpression">Έκφραση XPath</s:String>
+    <!-- ExtractPropertyTestStepEditor.xaml -->
+    <s:String x:Key="String_SelectedExtractPropertyDeleted">Επιλεγμένη ιδιότητα απόσπασμα έχει διαγραφεί, κάντε κλικ εδώ για να ανακτήσετε.</s:String>
+    <s:String x:Key="String_ExtractProperty">Εξαγάγετε το κατάλυμα</s:String>
+    <s:String x:Key="String_RunThisStep">Εκτελέστε αυτό το βήμα</s:String>
+    <s:String x:Key="String_AddPropertyExtraction">Προσθέστε εξαγωγής ιδιότητας:</s:String>
+    <s:String x:Key="String_FromTestSuiteColon">Από σουίτα δοκιμής:</s:String>
+    <s:String x:Key="String_VariableLevelColon">Μεταβλητή επιπέδου: </s:String>
+    <s:String x:Key="String_PropertyNameU">ΌΝΟΜΑ ΙΔΙΌΤΗΤΑΣ</s:String>
+    <s:String x:Key="String_PathTypeU">ΤΎΠΟΣ ΔΙΑΔΡΟΜΉΣ</s:String>
+    <s:String x:Key="String_PathU">ΔΙΑΔΡΟΜΉ</s:String>
+    <s:String x:Key="String_VariableU">ΜΕΤΑΒΛΗΤΉ</s:String>
 </ResourceDictionary>

@@ -2,6 +2,9 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:Hummingbird.TestManager" xmlns:s="clr-namespace:System;assembly=mscorlib">
     <s:String x:Key="String_ApplicationName">Hummingbird</s:String>
     <s:String x:Key="String_ApplicationDescription">AN INTEGRATED TEST SOLUTION</s:String>
+    <s:String x:Key="String_ErrorOccurred">发生错误</s:String>
+    <s:String x:Key="String_TestCaseColon">测试案例:</s:String>
+    <s:String x:Key="String_TestStepColon">测试步骤:</s:String>
     <!-- Menu -->
     <s:String x:Key="String_Menu_Home">主界面</s:String>
     <s:String x:Key="String_Menu_Welcome">欢迎</s:String>
@@ -81,7 +84,7 @@
     <s:String x:Key="String_CloseAndShowOnDemande">返回主窗口</s:String>
     <s:String x:Key="String_AuthenticationU">验证</s:String>
     <s:String x:Key="String_ErrorParsingParameterX">解析参数 "{0}" 时出错</s:String>
-    <s:String x:Key="String_ErrorParsingParameterDetails">服务 {0}, 参数 {1}:
+    <s:String x:Key="String_ErrorParsingParameterDetails">服务 {0}, 参数 {1}: 
  "{2}" 对于类型 "{3}" 不是一个有效的值</s:String>
     <s:String x:Key="String_ResetToDefaultValue">重置为其默认值</s:String>
     <s:String x:Key="String_BrowseDot">浏览。。。</s:String>
@@ -550,4 +553,183 @@
     <s:String x:Key="String_RequestSentTo">发送到的请求:</s:String>
     <s:String x:Key="String_ElapsedTime">运行时间:</s:String>
     <s:String x:Key="String_ResponseColon">响应：</s:String>
+    <!-- CommandLineTestStepEditor.xaml-->
+    <s:String x:Key="String_FileNameColon">文件名:</s:String>
+    <s:String x:Key="String_ArgumentsColon">参数：</s:String>
+    <s:String x:Key="String_WorkingDirectoryColon">工作目录:</s:String>
+    <s:String x:Key="String_TimeoutColon">超时：</s:String>
+    <s:String x:Key="String_TimeoutMessage">最大值, 以秒为单位的时间将等待进程存在。</s:String>
+    <s:String x:Key="String_FailOnErrorStreamColon">错误流失败:</s:String>
+    <s:String x:Key="String_FailOnErrorStreamChecked">如果在错误流上写入了任何内容, 测试步骤将失败。</s:String>
+    <s:String x:Key="String_FailOnErrorStreamUnchecked">如果在错误流上写入了任何内容, 测试步骤将不会标记为失败。</s:String>
+    <s:String x:Key="String_OutputColon">输出：</s:String>
+    <!-- ContainsAssertionEditor.xaml -->
+    <s:String x:Key="String_ContainsAssertion">包含断言</s:String>
+    <s:String x:Key="String_ContainsAssertionDescription">检查请求或响应中是否出现文本</s:String>
+    <s:String x:Key="String_SearchPatternColon">搜索模式:</s:String>
+    <s:String x:Key="String_SearchInColon">搜索范围:</s:String>
+    <s:String x:Key="String_CaseSensitiveColon">区分大小写:</s:String>
+    <s:String x:Key="String_CaseSensitiveChecked">区分大小写</s:String>
+    <s:String x:Key="String_CaseSensitiveUnchecked">不区分大小写</s:String>
+    <s:String x:Key="String_UseRegularExpressionColon">使用正则表达式:</s:String>
+    <s:String x:Key="String_UseRegularExpressionChecked">使用正则表达式匹配</s:String>
+    <s:String x:Key="String_UseRegularExpressionUnchecked">不使用正则表达式, 仅匹配文本</s:String>
+    <!-- CSharpScriptTestStepEditor -->
+    <s:String x:Key="String_Compile">编译</s:String>
+    <s:String x:Key="String_CodeU">代码</s:String>
+    <s:String x:Key="String_LineU">线</s:String>
+    <!-- NotContainsAssertionEditor -->
+    <s:String x:Key="String_NotContainsAssertion">不包含断言</s:String>
+    <s:String x:Key="String_NotContainsAssertionDescription">检查给定的文本是否在请求或响应中未发生</s:String>
+    <!-- PathValidatorAssertionEditor.xaml -->
+    <s:String x:Key="String_PathValidationAssertion">路径验证断言</s:String>
+    <s:String x:Key="String_AssertFor">断言为</s:String>
+    <s:String x:Key="String_PathExpression">路径表达式</s:String>
+    <s:String x:Key="String_ExpectedResult">预期结果</s:String>
+    <s:String x:Key="String_ResultColon">结果：</s:String>
+    <s:String x:Key="String_UseCurrent">使用当前</s:String>
+    <s:String x:Key="String_UseCurrentTooltip">将当前值用作预期值。</s:String>
+    <s:String x:Key="String_UseCurrentReplaced">预期结果将替换为当前评估。</s:String>
+    <s:String x:Key="String_UseCurrentFailed">评估断言时发生错误, 无法将当前结果用作预期结果</s:String>
+    <!-- SendRequestTestStepEditor.xaml -->
+    <s:String x:Key="String_EvaluateAssertions">评估断言</s:String>
+    <s:String x:Key="String_Assertions">断言</s:String>
+    <s:String x:Key="String_UriTemplateColon">Uri 模板:</s:String>
+    <s:String x:Key="String_SelectRequest">选择请求</s:String>
+    <s:String x:Key="String_AddAssertion">添加断言</s:String>
+    <s:String x:Key="String_Run">运行</s:String>
+    <s:String x:Key="String_RunAll">运行所有</s:String>
+    <s:String x:Key="String_AssertionU">断言</s:String>
+    <s:String x:Key="String_StatusU">地位</s:String>
+    <s:String x:Key="String_InformationU">信息</s:String>
+    <!-- StartServiceSimulationTestStepEditor.xaml -->
+    <s:String x:Key="String_SelectServiceToStartColon">选择要启动的服务:</s:String>
+    <s:String x:Key="String_UseDefaultParameterColon">使用默认参数:</s:String>
+    <s:String x:Key="String_UseDefaultParameterChecked">使用服务的默认参数</s:String>
+    <s:String x:Key="String_UseDefaultParameterUnchecked">为服务使用以下参数</s:String>
+    <s:String x:Key="String_InformationColon">信息：</s:String>
+    <!-- SoapFaultAssertion.xaml -->
+    <s:String x:Key="String_SoapFaultAssertion">Soap 错误断言</s:String>
+    <s:String x:Key="String_SoapFaultAssertionDescription">验证响应是否为 soap 错误/或验证响应是否为有效的 Soap 响应</s:String>
+    <s:String x:Key="String_IsSoapFaultColon">是 Soap 错误:</s:String>
+    <s:String x:Key="String_IsSoapFaultChecked">断言服务器的响应是否为 soap 错误 (soap 1.1 和 soap 1.2)</s:String>
+    <s:String x:Key="String_IsSoapFaultUnchecked">断言服务器的响应是有效响应而不是 Soap 错误</s:String>
+    <!-- SqlQueryTestStepEditor.xaml -->
+    <s:String x:Key="String_RunSQLQuery">运行 SQL 查询:</s:String>
+    <s:String x:Key="String_TestConnectivity">测试连接性</s:String>
+    <s:String x:Key="String_Help">帮助</s:String>
+    <s:String x:Key="String_Configuration">配置</s:String>
+    <s:String x:Key="String_Result">结果</s:String>
+    <s:String x:Key="String_ServerNameOrIpColon">服务器名称或 IP 地址:</s:String>
+    <s:String x:Key="String_AuthenticationModeColon">身份验证模式:</s:String>
+    <s:String x:Key="String_DatabaseNameColon">数据库名称:</s:String>
+    <s:String x:Key="String_UserNameColon">用户名:</s:String>
+    <s:String x:Key="String_PasswordColon">密码：</s:String>
+    <s:String x:Key="String_ExecutionResultTypeColon">执行结果类型:</s:String>
+    <s:String x:Key="String_SqlQueryColon">SQL 查询:</s:String>
+    <s:String x:Key="String_UnableToConnectToDB">无法连接到目标数据库:</s:String>
+    <!-- StartWindowsServiceTestStepEditor.xaml -->
+    <s:String x:Key="String_ServerNameColon">服务器名称:</s:String>
+    <s:String x:Key="String_DomainUserNameColon">域 \ 用户名:</s:String>
+    <!-- UpdateSimulationData.xaml -->
+    <s:String x:Key="String_EditResponse">编辑响应</s:String>
+    <s:String x:Key="String_SelectedService">选择的服务</s:String>
+    <s:String x:Key="String_Clean">清洁</s:String>
+    <s:String x:Key="String_CleanChecked">在添加以下响应之前清除同一服务的响应。</s:String>
+    <s:String x:Key="String_CleanUnchecked">不清除响应, 仅添加以下响应。</s:String>
+    <!-- ViewCSVDataSource.xaml -->
+    <s:String x:Key="String_ContainsHeaderColon">包含页眉:</s:String>
+    <s:String x:Key="String_ContainsHeaderChecked">数据源的第一行是列标题</s:String>
+    <s:String x:Key="String_ContainsHeaderUnchecked">数据源不包含页眉 (需要指定页眉)</s:String>
+    <s:String x:Key="String_SeparatorColon">分离：</s:String>
+    <s:String x:Key="String_SelectDot">选择。。。</s:String>
+    <!-- ViewDataDrivenTestCase.xaml -->
+    <s:String x:Key="String_DataDrivenTestCaseColon">数据驱动的测试用例:</s:String>
+    <s:String x:Key="String_Import">进口</s:String>
+    <s:String x:Key="String_DataSource">数据源</s:String>
+    <s:String x:Key="String_TestInstances">测试实例</s:String>
+    <s:String x:Key="String_TestCase">测试案例</s:String>
+    <s:String x:Key="String_CountSteps">步骤</s:String>
+    <s:String x:Key="String_Progress">进展</s:String>
+    <s:String x:Key="String_Information">信息</s:String>
+    <s:String x:Key="String_SelectDataSourceColon">选择数据源:</s:String>
+    <s:String x:Key="String_RowLimitColon">行限制:</s:String>
+    <!-- ViewExcelDataSource.xaml -->
+    <s:String x:Key="String_SpreadSheetNameColon">电子表格名称:</s:String>
+    <s:String x:Key="String_RangeTypeColon">范围类型:</s:String>
+    <s:String x:Key="StringRangeNameColon">范围名称:</s:String>
+    <s:String x:Key="StringTestDataImported">导入的测试数据:</s:String>
+    <!-- ViewProjectInfo.xaml -->
+    <s:String x:Key="String_RunAllTests">运行所有测试</s:String>
+    <s:String x:Key="String_GenerateReport">生成报告</s:String>
+    <s:String x:Key="String_ViewReport">查看报表</s:String>
+    <s:String x:Key="String_ProjectInformationColon">项目信息:</s:String>
+    <s:String x:Key="String_CreationDateColon">创建日期:</s:String>
+    <s:String x:Key="String_CreatedByColon">创建者:</s:String>
+    <s:String x:Key="String_LastSavedAtColon">上次保存于:</s:String>
+    <s:String x:Key="String_ByColon">由</s:String>
+    <s:String x:Key="String_TestProfile">测试配置文件:</s:String>
+    <s:String x:Key="String_TestProfileDescription">测试配置文件包含测试环境变量、凭据和用于服务模拟的默认测试数据。要轻松配置测试配置文件, 您可以转到测试设置并导出当前配置文件。</s:String>
+    <s:String x:Key="String_UseActiveProfile">使用活动配置文件</s:String>
+    <s:String x:Key="String_UseActiveProfileTooltip">使用手动测试运行程序中的当前测试配置文件</s:String>
+    <s:String x:Key="String_LoadProfile">加载配置文件</s:String>
+    <s:String x:Key="String_LoadProfileTooltip">从磁盘加载现有配置文件</s:String>
+    <s:String x:Key="String_EditProfile">编辑配置文件</s:String>
+    <s:String x:Key="String_EditProfileTooltip">编辑当前测试配置文件</s:String>
+    <s:String x:Key="String_ListTestSuitsColon">测试套件列表:</s:String>
+    <s:String x:Key="String_TestSuite">测试套件</s:String>
+    <s:String x:Key="String_CountTests"># 测试</s:String>
+    <s:String x:Key="String_SaveAutomatedTestReport">保存自动测试报告</s:String>
+    <s:String x:Key="String_ReportExported">报表已导出</s:String>
+    <s:String x:Key="String_ReportExportFailedColon">报表导出失败:</s:String>
+    <s:String x:Key="String_GeneratingReport">生成报告</s:String>
+    <s:String x:Key="String_TestReport">测试报告</s:String>
+    <!-- ViewTestCase.xaml -->
+    <s:String x:Key="String_TestConfiguration">测试配置</s:String>
+    <s:String x:Key="String_ListTestSteps">测试步骤列表</s:String>
+    <s:String x:Key="String_TestStep">测试步骤</s:String>
+    <s:String x:Key="String_VariableName">变量名</s:String>
+    <s:String x:Key="String_VariableNameTooltip">输入当前测试用例的变量名</s:String>
+    <s:String x:Key="String_VariableNameEmpty">变量名不能为 null 或为空</s:String>
+    <s:String x:Key="String_VariableNameExists">名称为 "{0}" 的变量已经存在。</s:String>
+    <s:String x:Key="String_VariableNameNotValid">"{0}" 不是有效的变量名。</s:String>
+    <s:String x:Key="String_VariableXRemovedRecover">变量 {0} 已删除。单击此处恢复。</s:String>
+    <s:String x:Key="String_ClearCustomVariables">清除自定义变量</s:String>
+    <s:String x:Key="String_ClearCustomVariablesQuestion">是否要删除所有自定义变量？
+ 无法恢复此操作。</s:String>
+    <!-- ViewTestSuite.xaml -->
+    <s:String x:Key="String_TestSuiteColon">测试套件:</s:String>
+    <s:String x:Key="String_TestSuiteConfiguration">测试套件配置</s:String>
+    <s:String x:Key="String_RemoveSelected">删除选定的</s:String>
+    <s:String x:Key="String_RemoveAll">删除所有</s:String>
+    <s:String x:Key="String_Sort">排序</s:String>
+    <s:String x:Key="String_TestSuiteInformationColon">测试套件信息:</s:String>
+    <s:String x:Key="String_ListTestCasesColon">测试用例列表</s:String>
+    <!-- WindowEditAssertion.xaml -->
+    <s:String x:Key="String_Assertion">断言</s:String>
+    <s:String x:Key="String_Test">测试</s:String>
+    <s:String x:Key="String_AssertionObjectNull">断言对象不能为 null</s:String>
+    <s:String x:Key="String_AssertionTestException">测试断言时引发未处理的异常:</s:String>
+    <!-- WindowEditExtractProperty.xaml -->
+    <s:String x:Key="String_EditPropertyExtraction">编辑属性提取</s:String>
+    <s:String x:Key="String_PropertyNameColon">属性名称:</s:String>
+    <s:String x:Key="String_PathTypeColon">路径类型:</s:String>
+    <s:String x:Key="String_PathColon">路径：</s:String>
+    <s:String x:Key="String_VariableNameColon">变量名</s:String>
+    <s:String x:Key="String_CurrentValue">当前值</s:String>
+    <s:String x:Key="String_GetCurrentValue">单击 "评估" 按钮从当前配置中获取值</s:String>
+    <s:String x:Key="String_Evaluate">评价</s:String>
+    <!-- XPathValidatorAssertionEditor.xaml -->
+    <s:String x:Key="String_XPathExpression">XPath 表达式</s:String>
+    <!-- ExtractPropertyTestStepEditor.xaml -->
+    <s:String x:Key="String_SelectedExtractPropertyDeleted">选定的提取属性已被删除, 请单击此处恢复。</s:String>
+    <s:String x:Key="String_ExtractProperty">提取物属性</s:String>
+    <s:String x:Key="String_RunThisStep">运行此步骤</s:String>
+    <s:String x:Key="String_AddPropertyExtraction">添加属性提取</s:String>
+    <s:String x:Key="String_FromTestSuiteColon">来自测试套件:</s:String>
+    <s:String x:Key="String_VariableLevelColon">可变级别:</s:String>
+    <s:String x:Key="String_PropertyNameU">属性名称</s:String>
+    <s:String x:Key="String_PathTypeU">路径类型</s:String>
+    <s:String x:Key="String_PathU">路径</s:String>
+    <s:String x:Key="String_VariableU">变量</s:String>
 </ResourceDictionary>

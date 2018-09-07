@@ -2,6 +2,9 @@
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:Hummingbird.TestManager" xmlns:s="clr-namespace:System;assembly=mscorlib">
     <s:String x:Key="String_ApplicationName">Hummingbird</s:String>
     <s:String x:Key="String_ApplicationDescription">AN INTEGRATED TEST SOLUTION</s:String>
+    <s:String x:Key="String_ErrorOccurred">오류가 발생 했습니다.</s:String>
+    <s:String x:Key="String_TestCaseColon">테스트 케이스:</s:String>
+    <s:String x:Key="String_TestStepColon">테스트 단계:</s:String>
     <!-- Menu -->
     <s:String x:Key="String_Menu_Home">홈</s:String>
     <s:String x:Key="String_Menu_Welcome">환영 합니다</s:String>
@@ -554,4 +557,183 @@ Do 벌 새를 지금 다시 시작 하 시겠습니까 제거 하 벌 새를 다
     <s:String x:Key="String_RequestSentTo">요청을 전송:</s:String>
     <s:String x:Key="String_ElapsedTime">경과 시간: </s:String>
     <s:String x:Key="String_ResponseColon">응답:</s:String>
+    <!-- CommandLineTestStepEditor.xaml-->
+    <s:String x:Key="String_FileNameColon">파일 이름:</s:String>
+    <s:String x:Key="String_ArgumentsColon">인수:</s:String>
+    <s:String x:Key="String_WorkingDirectoryColon">작업 디렉터리:</s:String>
+    <s:String x:Key="String_TimeoutColon">시간 제한:</s:String>
+    <s:String x:Key="String_TimeoutMessage">최대 수의 시간 초에서 기다릴 것 이다 프로세스가 존재할 때까지.</s:String>
+    <s:String x:Key="String_FailOnErrorStreamColon">오류 스트림에 실패:</s:String>
+    <s:String x:Key="String_FailOnErrorStreamChecked">오류 스트림에 아무것도 작성 한 경우 테스트 단계를 실패 것입니다.</s:String>
+    <s:String x:Key="String_FailOnErrorStreamUnchecked">테스트 단계 오류 스트림에 아무것도 작성 한 경우 실패로 표시 되지 것입니다.</s:String>
+    <s:String x:Key="String_OutputColon">출력:</s:String>
+    <!-- ContainsAssertionEditor.xaml -->
+    <s:String x:Key="String_ContainsAssertion">어설션이 포함</s:String>
+    <s:String x:Key="String_ContainsAssertionDescription">텍스트 요청 또는 응답에서 발생 하는지 확인</s:String>
+    <s:String x:Key="String_SearchPatternColon">검색 패턴:</s:String>
+    <s:String x:Key="String_SearchInColon">검색:</s:String>
+    <s:String x:Key="String_CaseSensitiveColon">대/소문자:</s:String>
+    <s:String x:Key="String_CaseSensitiveChecked">대/소문자 구분</s:String>
+    <s:String x:Key="String_CaseSensitiveUnchecked">대 소문자 구분</s:String>
+    <s:String x:Key="String_UseRegularExpressionColon">정규식을 사용:</s:String>
+    <s:String x:Key="String_UseRegularExpressionChecked">일치 하는 정규식을 사용 하 여</s:String>
+    <s:String x:Key="String_UseRegularExpressionUnchecked">정규식 일치 텍스트 전용을 사용 하지 마십시오</s:String>
+    <!-- CSharpScriptTestStepEditor -->
+    <s:String x:Key="String_Compile">컴파일</s:String>
+    <s:String x:Key="String_CodeU">코드</s:String>
+    <s:String x:Key="String_LineU">선</s:String>
+    <!-- NotContainsAssertionEditor -->
+    <s:String x:Key="String_NotContainsAssertion">하지 주장 포함</s:String>
+    <s:String x:Key="String_NotContainsAssertionDescription">주어진 텍스트 요청 또는 응답에서 발생 하지 않습니다 확인</s:String>
+    <!-- PathValidatorAssertionEditor.xaml -->
+    <s:String x:Key="String_PathValidationAssertion">경로 유효성 검사 어설션</s:String>
+    <s:String x:Key="String_AssertFor">에 대 한 주장</s:String>
+    <s:String x:Key="String_PathExpression">경로 식</s:String>
+    <s:String x:Key="String_ExpectedResult">예상된 결과</s:String>
+    <s:String x:Key="String_ResultColon">결과:</s:String>
+    <s:String x:Key="String_UseCurrent">전류를 사용 하 여</s:String>
+    <s:String x:Key="String_UseCurrentTooltip">예상 값과 현재 값을 사용 합니다.</s:String>
+    <s:String x:Key="String_UseCurrentReplaced">예상된 결과 현재 평가로 대체 됩니다.</s:String>
+    <s:String x:Key="String_UseCurrentFailed">주장, 예상 결과 현재 결과 사용 하 여 실패를 평가 하는 동안 오류가 발생 했습니다.</s:String>
+    <!-- SendRequestTestStepEditor.xaml -->
+    <s:String x:Key="String_EvaluateAssertions">어설션을 평가합니다</s:String>
+    <s:String x:Key="String_Assertions">어설션</s:String>
+    <s:String x:Key="String_UriTemplateColon">Uri 템플릿:</s:String>
+    <s:String x:Key="String_SelectRequest">요청 선택</s:String>
+    <s:String x:Key="String_AddAssertion">어설션 추가</s:String>
+    <s:String x:Key="String_Run">실행</s:String>
+    <s:String x:Key="String_RunAll">모두 실행</s:String>
+    <s:String x:Key="String_AssertionU">어설션</s:String>
+    <s:String x:Key="String_StatusU">상태</s:String>
+    <s:String x:Key="String_InformationU">정보</s:String>
+    <!-- StartServiceSimulationTestStepEditor.xaml -->
+    <s:String x:Key="String_SelectServiceToStartColon">서비스를 시작 하도록 선택 합니다. </s:String>
+    <s:String x:Key="String_UseDefaultParameterColon">기본 매개 변수를 사용 하 여: </s:String>
+    <s:String x:Key="String_UseDefaultParameterChecked">기본 매개 변수를 사용 하 여 서비스에 대 한</s:String>
+    <s:String x:Key="String_UseDefaultParameterUnchecked">다음 서비스에 대 한 매개 변수 사용</s:String>
+    <s:String x:Key="String_InformationColon">정보:</s:String>
+    <!-- SoapFaultAssertion.xaml -->
+    <s:String x:Key="String_SoapFaultAssertion">Soap 오류 어설션</s:String>
+    <s:String x:Key="String_SoapFaultAssertionDescription">응답 Soap 오류 인지 확인 / 또는 응답 유효한 Soap 응답 인지 확인 합니다.</s:String>
+    <s:String x:Key="String_IsSoapFaultColon">Soap 오류는:</s:String>
+    <s:String x:Key="String_IsSoapFaultChecked">서버에서 응답 Soap 오류 (Soap 1.1 및 Soap 1.2) 주장</s:String>
+    <s:String x:Key="String_IsSoapFaultUnchecked">서버에서 응답 유효한 응답을 하지 Soap 오류 인지 주장</s:String>
+    <!-- SqlQueryTestStepEditor.xaml -->
+    <s:String x:Key="String_RunSQLQuery">SQL 쿼리를 실행:</s:String>
+    <s:String x:Key="String_TestConnectivity">연결 테스트</s:String>
+    <s:String x:Key="String_Help">도움말</s:String>
+    <s:String x:Key="String_Configuration">구성</s:String>
+    <s:String x:Key="String_Result">결과</s:String>
+    <s:String x:Key="String_ServerNameOrIpColon">서버 이름 또는 IP 주소:</s:String>
+    <s:String x:Key="String_AuthenticationModeColon">인증 모드: </s:String>
+    <s:String x:Key="String_DatabaseNameColon">데이터베이스 이름:</s:String>
+    <s:String x:Key="String_UserNameColon">사용자 이름: </s:String>
+    <s:String x:Key="String_PasswordColon">비밀 번호:</s:String>
+    <s:String x:Key="String_ExecutionResultTypeColon">실행 결과 유형: </s:String>
+    <s:String x:Key="String_SqlQueryColon">SQL 쿼리:</s:String>
+    <s:String x:Key="String_UnableToConnectToDB">대상 데이터베이스에 연결할 수 없습니다:</s:String>
+    <!-- StartWindowsServiceTestStepEditor.xaml -->
+    <s:String x:Key="String_ServerNameColon">서버 이름:</s:String>
+    <s:String x:Key="String_DomainUserNameColon">도메인 \ 사용자 이름:</s:String>
+    <!-- UpdateSimulationData.xaml -->
+    <s:String x:Key="String_EditResponse">응답 편집</s:String>
+    <s:String x:Key="String_SelectedService">선택 된 서비스</s:String>
+    <s:String x:Key="String_Clean">청소</s:String>
+    <s:String x:Key="String_CleanChecked">다음 응답을 추가 하기 전에 동일한 서비스의 명확한 응답.</s:String>
+    <s:String x:Key="String_CleanUnchecked">취소 응답 하지, 응답만 다음 추가.</s:String>
+    <!-- ViewCSVDataSource.xaml -->
+    <s:String x:Key="String_ContainsHeaderColon">헤더를 포함 되어 있습니다.</s:String>
+    <s:String x:Key="String_ContainsHeaderChecked">데이터 원본의 첫 번째 행이 열 머리글</s:String>
+    <s:String x:Key="String_ContainsHeaderUnchecked">데이터 소스 (헤더를 지정 하려면 필요한) 헤더를 포함 하지 않는</s:String>
+    <s:String x:Key="String_SeparatorColon">구분 기호:</s:String>
+    <s:String x:Key="String_SelectDot">선택...</s:String>
+    <!-- ViewDataDrivenTestCase.xaml -->
+    <s:String x:Key="String_DataDrivenTestCaseColon">데이터 구동 테스트 사례:</s:String>
+    <s:String x:Key="String_Import">가져오기</s:String>
+    <s:String x:Key="String_DataSource">데이터 소스</s:String>
+    <s:String x:Key="String_TestInstances">테스트 인스턴스</s:String>
+    <s:String x:Key="String_TestCase">테스트 사례</s:String>
+    <s:String x:Key="String_CountSteps"># 단계</s:String>
+    <s:String x:Key="String_Progress">진행</s:String>
+    <s:String x:Key="String_Information">정보</s:String>
+    <s:String x:Key="String_SelectDataSourceColon">데이터 소스를 선택 합니다.</s:String>
+    <s:String x:Key="String_RowLimitColon">행 제한:</s:String>
+    <!-- ViewExcelDataSource.xaml -->
+    <s:String x:Key="String_SpreadSheetNameColon">스프레드시트 이름:</s:String>
+    <s:String x:Key="String_RangeTypeColon">범위 유형:</s:String>
+    <s:String x:Key="StringRangeNameColon">범위 이름:</s:String>
+    <s:String x:Key="StringTestDataImported">가져온 데이터를 테스트:</s:String>
+    <!-- ViewProjectInfo.xaml -->
+    <s:String x:Key="String_RunAllTests">모든 테스트 실행</s:String>
+    <s:String x:Key="String_GenerateReport">보고서 생성</s:String>
+    <s:String x:Key="String_ViewReport">보고서 보기</s:String>
+    <s:String x:Key="String_ProjectInformationColon">프로젝트 정보:</s:String>
+    <s:String x:Key="String_CreationDateColon">작성 날짜:</s:String>
+    <s:String x:Key="String_CreatedByColon">작성자:</s:String>
+    <s:String x:Key="String_LastSavedAtColon">마지막에 저장:</s:String>
+    <s:String x:Key="String_ByColon">의해서:</s:String>
+    <s:String x:Key="String_TestProfile">테스트 프로필:</s:String>
+    <s:String x:Key="String_TestProfileDescription">테스트 프로필 테스트 환경 변수를 포함, 자격 증명 및 기본 데이터 서비스 시뮬레이션에 대 한 테스트. 테스트 프로 파일을 쉽게 구성 하려면 테스트 설정에 갈 수 있으며 당신의 현재 프로 파일을 내보낼 수 있습니다.</s:String>
+    <s:String x:Key="String_UseActiveProfile">활성 프로 파일을 사용 하 여</s:String>
+    <s:String x:Key="String_UseActiveProfileTooltip">현재 수동 Test Runner에서 테스트 프로 파일을 사용 하 여</s:String>
+    <s:String x:Key="String_LoadProfile">부하 프로필</s:String>
+    <s:String x:Key="String_LoadProfileTooltip">디스크에서 기존 프로 파일을 로드</s:String>
+    <s:String x:Key="String_EditProfile">프로필 편집</s:String>
+    <s:String x:Key="String_EditProfileTooltip">현재 테스트 프로필 편집</s:String>
+    <s:String x:Key="String_ListTestSuitsColon">테스트 스위트의 목록:</s:String>
+    <s:String x:Key="String_TestSuite">테스트 스위트</s:String>
+    <s:String x:Key="String_CountTests"># 테스트</s:String>
+    <s:String x:Key="String_SaveAutomatedTestReport">자동화 된 테스트 보고서 저장</s:String>
+    <s:String x:Key="String_ReportExported">내보낸 보고서</s:String>
+    <s:String x:Key="String_ReportExportFailedColon">보고서 내보내기 실패: </s:String>
+    <s:String x:Key="String_GeneratingReport">보고서 생성</s:String>
+    <s:String x:Key="String_TestReport">테스트 보고서</s:String>
+    <!-- ViewTestCase.xaml -->
+    <s:String x:Key="String_TestConfiguration">테스트 구성</s:String>
+    <s:String x:Key="String_ListTestSteps">테스트 단계 목록</s:String>
+    <s:String x:Key="String_TestStep">테스트 단계</s:String>
+    <s:String x:Key="String_VariableName">변수 이름</s:String>
+    <s:String x:Key="String_VariableNameTooltip">현재 테스트 사례에 대 한 변수 이름을 입력합니다</s:String>
+    <s:String x:Key="String_VariableNameEmpty">Null 또는 빈 변수 이름 수 없습니다.</s:String>
+    <s:String x:Key="String_VariableNameExists">이름이 ' {0} '에 대 한 변수는 이미 존재 합니다.</s:String>
+    <s:String x:Key="String_VariableNameNotValid">' {0} ' 변수 이름에 대 한 유효한 식별자 아니다.</s:String>
+    <s:String x:Key="String_VariableXRemovedRecover">변수 {0} 제거 됩니다. 복구 하려면 여기를 클릭 하십시오.</s:String>
+    <s:String x:Key="String_ClearCustomVariables">명확한 사용자 정의 변수</s:String>
+    <s:String x:Key="String_ClearCustomVariablesQuestion">모든 사용자 정의 변수를 삭제 하 시겠습니까? 
+이 작업을 복구할 수 없습니다.</s:String>
+    <!-- ViewTestSuite.xaml -->
+    <s:String x:Key="String_TestSuiteColon">테스트 스위트:</s:String>
+    <s:String x:Key="String_TestSuiteConfiguration">테스트 제품군 구성</s:String>
+    <s:String x:Key="String_RemoveSelected">선택 된 제거</s:String>
+    <s:String x:Key="String_RemoveAll">모두 제거</s:String>
+    <s:String x:Key="String_Sort">정렬</s:String>
+    <s:String x:Key="String_TestSuiteInformationColon">테스트 스위트 정보:</s:String>
+    <s:String x:Key="String_ListTestCasesColon">테스트 사례 목록</s:String>
+    <!-- WindowEditAssertion.xaml -->
+    <s:String x:Key="String_Assertion">어설션</s:String>
+    <s:String x:Key="String_Test">테스트</s:String>
+    <s:String x:Key="String_AssertionObjectNull">어설션 개체를 null 수 없습니다.</s:String>
+    <s:String x:Key="String_AssertionTestException">어설션을 테스트 때 throw 되는 처리 되지 않은 예외: </s:String>
+    <!-- WindowEditExtractProperty.xaml -->
+    <s:String x:Key="String_EditPropertyExtraction">편집 속성 추출</s:String>
+    <s:String x:Key="String_PropertyNameColon">속성 이름:</s:String>
+    <s:String x:Key="String_PathTypeColon">경로 유형:</s:String>
+    <s:String x:Key="String_PathColon">경로:</s:String>
+    <s:String x:Key="String_VariableNameColon">변수 이름</s:String>
+    <s:String x:Key="String_CurrentValue">현재 값</s:String>
+    <s:String x:Key="String_GetCurrentValue">현재 구성에서 값을 확인 버튼을 클릭합니다</s:String>
+    <s:String x:Key="String_Evaluate">평가</s:String>
+    <!-- XPathValidatorAssertionEditor.xaml -->
+    <s:String x:Key="String_XPathExpression">XPath 식</s:String>
+    <!-- ExtractPropertyTestStepEditor.xaml -->
+    <s:String x:Key="String_SelectedExtractPropertyDeleted">선택 된 추출 속성 삭제, 복구 하려면 여기를 클릭 하십시오.</s:String>
+    <s:String x:Key="String_ExtractProperty">속성 추출</s:String>
+    <s:String x:Key="String_RunThisStep">이 단계를 실행</s:String>
+    <s:String x:Key="String_AddPropertyExtraction">추가 속성 추출</s:String>
+    <s:String x:Key="String_FromTestSuiteColon">테스트 제품군:</s:String>
+    <s:String x:Key="String_VariableLevelColon">변수 수준: </s:String>
+    <s:String x:Key="String_PropertyNameU">속성 이름</s:String>
+    <s:String x:Key="String_PathTypeU">경로 유형</s:String>
+    <s:String x:Key="String_PathU">경로</s:String>
+    <s:String x:Key="String_VariableU">변수</s:String>
 </ResourceDictionary>
