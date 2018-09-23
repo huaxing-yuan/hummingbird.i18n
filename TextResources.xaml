@@ -177,7 +177,7 @@
 	<s:String x:Key="String_PathXCopiedToClipboard">The path: "{0}" has been copied to Clipboard.</s:String>
 	<s:String x:Key="String_UnableCopyClipboard">Unable to copy the path to clipboard</s:String>
 	<s:String x:Key="String_SelectedElementDeleted">Selected element has been deleted from the array.</s:String>
-	<s:String x:Key="String_SelectedElementSetToNull">"Selected element has been set to null.</s:String>
+	<s:String x:Key="String_SelectedElementSetToNull">Selected element has been set to null.</s:String>
 	<s:String x:Key="String_SelectedElementCanNotDelete">Selected element can not be deleted.</s:String>
 	<s:String x:Key="String_SelectedElementXCopied">The selected element of type {0} has been copied to Clipboard.</s:String>
 	<s:String x:Key="String_UnableCopyObjectClipboard">Unable to copy the selected object to clipboard</s:String>
@@ -220,7 +220,7 @@
 	
 	<!-- ExtensionDesigner\ViewServiceCategory.xaml -->
 	<s:String x:Key="String_ServiceCategory">Service Category</s:String>
-	<s:String x:Key="String_ServiceCategoryTooltip">Service Category holds a set of WebService for the same propose. &#13;For example, you can have a set of Web Service for Customer Management, including 3 Web Services for Customer Creation, Modification and Deletion.</s:String>
+	<s:String x:Key="String_ServiceCategoryTooltip">Service Category holds a set of Web Services of the same propose. &#13;For example, you can have a set of Web Service for Customer Management, including 3 Web Services for Customer Creation, Modification and Deletion.</s:String>
 	<s:String x:Key="String_CategoryNameColon">Category Name:</s:String>
 	<s:String x:Key="String_ServicesIncluded">Services included in this Category</s:String>
 	<s:String x:Key="String_ServicesU">SERVICES</s:String>
@@ -241,8 +241,8 @@
 	<s:String x:Key="String_GenerationFailedMessage">There is an error during the project file generation.</s:String>
 	<s:String x:Key="String_ChooseLocationProjectFiles">Choose a location to store the project files</s:String>
 	<s:String x:Key="String_ProjectGenerated">Project has been generated.</s:String>
-	<s:String x:Key="String_CannotGenerateSolution">Cannot generat solution</s:String>
-	<s:String x:Key="String_CannotGenerateSolutionMessage">"An error has occurred when generating the solution file."</s:String>
+	<s:String x:Key="String_CannotGenerateSolution">Cannot generate solution</s:String>
+	<s:String x:Key="String_CannotGenerateSolutionMessage">An error has occurred when generating the solution file.</s:String>
 	<s:String x:Key="String_ProjectGenerationCancelled">Solution generation has been canceled.</s:String>
 	
 	<!-- ExtensionDesigner\ViewServiceEndpoint.xaml -->
@@ -401,7 +401,7 @@
     <s:String x:Key="String_XMessages">({0} messages)</s:String>
     <s:String x:Key="String_RenameMessage">Rename this message</s:String>
     <s:String x:Key="String_ShowRequestAsObject">Show Request as Object</s:String>
-    <s:String x:Key="String_ShowReponseAsObject">Show Response as Object</s:String>
+    <s:String x:Key="String_ShowResponseAsObject">Show Response as Object</s:String>
     <s:String x:Key="String_DeleteSelectedMessages">Delete Selected Messages</s:String>
     <s:String x:Key="String_ConfirmStatisticReset">Confirm statistic reset</s:String>
     <s:String x:Key="String_ConfirmStatisticResetMessage">All statistics will be removed and could be recovered, would you like to reset statistics anyway?</s:String>
@@ -494,9 +494,9 @@
     <!-- ViewBase64Tool.xaml -->
     <s:String x:Key="String_ActionColon">Action: </s:String>
 	<s:String x:Key="String_Base64EncodingTitle">Base64 Encoding &amp; Decoding</s:String>
-    <s:String x:Key="String_Utf8ToBase64">Encodes the UTF-8 string into a Base64 string</s:String>
-    <s:String x:Key="String_Base64ToString">Decodes a Base64 String as a string, using selected encoding.</s:String>
-    <s:String x:Key="String_BinaryToBase64">Read the binary content from the file and encode its content in Base64 string</s:String>
+    <s:String x:Key="String_Utf8ToBase64">Encodes from UTF-8 string to Base64 string</s:String>
+    <s:String x:Key="String_Base64ToString">Decodes a Base64 String to text, using selected encoding.</s:String>
+    <s:String x:Key="String_BinaryToBase64">Read binary content from file and encode its content to Base64 string</s:String>
     <s:String x:Key="String_Base64ToBinary">Read the base64 string from the TextBox below, decode it and save it to an binary file.</s:String>
     <s:String x:Key="String_SampleTextBase64">Sample text to be encoded to Base64</s:String>
     <s:String x:Key="String_EncodedBase64">Encoded Base64 String</s:String>
@@ -586,7 +586,7 @@
     <s:String x:Key="String_ArgumentsColon">Arguments:</s:String>
     <s:String x:Key="String_WorkingDirectoryColon">Working Directory:</s:String>
     <s:String x:Key="String_TimeoutColon">Timeout:</s:String>
-    <s:String x:Key="String_TimeoutMessage">Maximum number, in seconds of the time will wait until the process exists.</s:String>
+    <s:String x:Key="String_TimeoutMessage">Maximum number, in seconds, of the time will wait until the process times out.</s:String>
     <s:String x:Key="String_FailOnErrorStreamColon">Fail on Error Stream:</s:String>
     <s:String x:Key="String_FailOnErrorStreamChecked">Test step will be failed if anything was written on Error Stream.</s:String>
     <s:String x:Key="String_FailOnErrorStreamUnchecked">Test step will not be marked as Failed if anything was written on Error Stream.</s:String>
@@ -610,7 +610,7 @@
 	<s:String x:Key="String_LineU">LINE</s:String>
 	
 	<!-- NotContainsAssertionEditor -->
-	<s:String x:Key="String_NotContainsAssertion">Not Contains Assertion</s:String>
+	<s:String x:Key="String_NotContainsAssertion">"Not Contains" Assertion</s:String>
 	<s:String x:Key="String_NotContainsAssertionDescription">Checks if given text does not occur in the Request or the Response</s:String>
 	
 	<!-- PathValidatorAssertionEditor.xaml -->
@@ -619,10 +619,10 @@
     <s:String x:Key="String_PathExpression">Path Expression</s:String>
     <s:String x:Key="String_ExpectedResult">Expected Result</s:String>
     <s:String x:Key="String_ResultColon">Result:</s:String>
-    <s:String x:Key="String_UseCurrent">Use Current</s:String>
+    <s:String x:Key="String_UseCurrent">Use current value</s:String>
     <s:String x:Key="String_UseCurrentTooltip">Use current value as expected value.</s:String>
 	<s:String x:Key="String_UseCurrentReplaced">The expected result is replaced with current evaluation.</s:String>
-	<s:String x:Key="String_UseCurrentFailed">An error has occured while evaluating the assertion, Failed to use current result as expected result</s:String>
+	<s:String x:Key="String_UseCurrentFailed">An error has occurred while evaluating the assertion, Failed to use current result as expected result</s:String>
 	
 	<!-- SendRequestTestStepEditor.xaml -->
     <s:String x:Key="String_EvaluateAssertions">Evaluate Assertions</s:String>
@@ -715,7 +715,7 @@
     <s:String x:Key="String_LastSavedAtColon">Last saved at:</s:String>
     <s:String x:Key="String_ByColon">By:</s:String>
     <s:String x:Key="String_TestProfile">Test Profile:</s:String>
-    <s:String x:Key="String_TestProfileDescription">Test profile contains test environment variables, credentials and default test data for service simulation. To easily configure test profile, you can go to Test Settings and export your current profile.</s:String>
+    <s:String x:Key="String_TestProfileDescription">Test profile contains environment variables, credentials and default test data for service simulation. To easily configure test profile, you can go to Test Settings and export your current profile.</s:String>
     <s:String x:Key="String_UseActiveProfile">Use active profile</s:String>
     <s:String x:Key="String_UseActiveProfileTooltip">Use your current test profile from Manual Test Runner</s:String>
     <s:String x:Key="String_LoadProfile">Load profile</s:String>
@@ -727,7 +727,7 @@
     <s:String x:Key="String_CountTests"># Tests</s:String>
     <s:String x:Key="String_SaveAutomatedTestReport">Save Automated test report</s:String>
     <s:String x:Key="String_ReportExported">Report Exported</s:String>
-    <s:String x:Key="String_ReportExportFailedColon">Report Failed to export: </s:String>
+    <s:String x:Key="String_ReportExportFailedColon">Report is failed to export: </s:String>
     <s:String x:Key="String_GeneratingReport">Generating report</s:String>
     <s:String x:Key="String_TestReport">Test Report</s:String>
 	

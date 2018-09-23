@@ -217,8 +217,8 @@ If sie in Anfragen, Antworten oder Automatisierungs-Skripte, referenziert werden
     <s:String x:Key="String_GenerationFailedMessage">Es ist ein Fehler bei der Projekt-Datei-Erzeugung.</s:String>
     <s:String x:Key="String_ChooseLocationProjectFiles">Wählen Sie einen Speicherort zum Speichern der Projektdateien</s:String>
     <s:String x:Key="String_ProjectGenerated">Projekt wurde erstellt.</s:String>
-    <s:String x:Key="String_CannotGenerateSolution">Kann nicht Generat Lösung</s:String>
-    <s:String x:Key="String_CannotGenerateSolutionMessage">"Ein Fehler ist aufgetreten, wenn Sie die Projektmappendatei generieren."</s:String>
+    <s:String x:Key="String_CannotGenerateSolution">Lösung kann nicht generiert werden.</s:String>
+    <s:String x:Key="String_CannotGenerateSolutionMessage">Fehler beim Generieren der Projektmappendatei.</s:String>
     <s:String x:Key="String_ProjectGenerationCancelled">Lösung Generierung wurde abgebrochen.</s:String>
     <!-- ExtensionDesigner\ViewServiceEndpoint.xaml -->
     <s:String x:Key="String_EndpointNameColon">Endpunktnamen:</s:String>
@@ -366,7 +366,7 @@ If sie in Anfragen, Antworten oder Automatisierungs-Skripte, referenziert werden
     <s:String x:Key="String_XMessages">({0} Nachrichten)</s:String>
     <s:String x:Key="String_RenameMessage">Benennen Sie diese Nachricht</s:String>
     <s:String x:Key="String_ShowRequestAsObject">Anfrage als Objekt anzeigen</s:String>
-    <s:String x:Key="String_ShowReponseAsObject">Antwort als Objekt anzeigen</s:String>
+    <s:String x:Key="String_ShowResponseAsObject">Antwort als Objekt anzeigen</s:String>
     <s:String x:Key="String_DeleteSelectedMessages">Ausgewählte Nachrichten löschen</s:String>
     <s:String x:Key="String_ConfirmStatisticReset">Statistik zurücksetzen bestätigen</s:String>
     <s:String x:Key="String_ConfirmStatisticResetMessage">Alle Statistiken werden entfernt und konnte werden wiederhergestellt, möchten Sie trotzdem Statistiken zurücksetzen?</s:String>
@@ -528,7 +528,7 @@ Als Fahrer ist es der Name des Systems, die Sie testen, als Stub ist der Name de
     <s:String x:Key="String_ServiceCategoryU">KATEGORIE "SERVICE"</s:String>
     <!-- ExtensionDesigner\ViewServiceCategory.xaml -->
     <s:String x:Key="String_ServiceCategory">Kategorie "Service"</s:String>
-    <s:String x:Key="String_ServiceCategoryTooltip">Kategorie "Service" enthält einen Satz von WebService für die gleiche vorschlagen. 
+    <s:String x:Key="String_ServiceCategoryTooltip">Kategorie "Service" enthält einen Satz von Web-Diensten die gleichen vorschlagen. 
 Zum Beispiel haben Sie eine Reihe von Web-Service für Kundenmanagement, einschließlich 3 Web-Services für Kunden Erstellung, Änderung und Löschung.</s:String>
     <s:String x:Key="String_CategoryNameColon">Kategoriename:</s:String>
     <s:String x:Key="String_ServicesIncluded">In dieser Kategorie enthaltenen Leistungen</s:String>
@@ -562,7 +562,7 @@ Zum Beispiel haben Sie eine Reihe von Web-Service für Kundenmanagement, einschl
     <s:String x:Key="String_ArgumentsColon">Argumente:</s:String>
     <s:String x:Key="String_WorkingDirectoryColon">Working Directory:</s:String>
     <s:String x:Key="String_TimeoutColon">Timeout:</s:String>
-    <s:String x:Key="String_TimeoutMessage">Maximale Anzahl wird in Sekunden die Zeit warten, bis der Prozess vorhanden ist.</s:String>
+    <s:String x:Key="String_TimeoutMessage">Maximale Anzahl wird in Sekunden, die Zeit warten, bis der Prozess abläuft.</s:String>
     <s:String x:Key="String_FailOnErrorStreamColon">Auf Stream Fehler fehlschlagen:</s:String>
     <s:String x:Key="String_FailOnErrorStreamChecked">Prüfschritt wird ausgeführt werden, wenn etwas auf Fehlerstream geschrieben wurde.</s:String>
     <s:String x:Key="String_FailOnErrorStreamUnchecked">Prüfschritt wird nicht als Fehler markiert werden, wenn etwas auf Fehlerstream geschrieben wurde.</s:String>
@@ -591,7 +591,7 @@ Zum Beispiel haben Sie eine Reihe von Web-Service für Kundenmanagement, einschl
     <s:String x:Key="String_PathExpression">Pfadausdruck</s:String>
     <s:String x:Key="String_ExpectedResult">Erwartetes Ergebnis</s:String>
     <s:String x:Key="String_ResultColon">Ergebnis:</s:String>
-    <s:String x:Key="String_UseCurrent">Aktuelle verwenden</s:String>
+    <s:String x:Key="String_UseCurrent">Aktuellen Wert</s:String>
     <s:String x:Key="String_UseCurrentTooltip">Verwenden Sie aktuellen Wert als Erwartungswert.</s:String>
     <s:String x:Key="String_UseCurrentReplaced">Das erwartete Ergebnis ist mit der aktuellen Bewertung ersetzt.</s:String>
     <s:String x:Key="String_UseCurrentFailed">Fehler bei der Auswertung der Behauptung, Fehler beim aktuellen Ergebnis als erwartetes Ergebnis verwenden</s:String>
@@ -685,7 +685,7 @@ Zum Beispiel haben Sie eine Reihe von Web-Service für Kundenmanagement, einschl
     <s:String x:Key="String_CountTests"># Tests</s:String>
     <s:String x:Key="String_SaveAutomatedTestReport">Automated Testbericht speichern</s:String>
     <s:String x:Key="String_ReportExported">Bericht exportiert</s:String>
-    <s:String x:Key="String_ReportExportFailedColon">Bericht Fehler beim Exportieren: </s:String>
+    <s:String x:Key="String_ReportExportFailedColon">Bericht konnte nicht exportiert werden: </s:String>
     <s:String x:Key="String_GeneratingReport">Bericht erstellen</s:String>
     <s:String x:Key="String_TestReport">Prüfbericht</s:String>
     <!-- ViewTestCase.xaml -->

@@ -213,8 +213,8 @@
     <s:String x:Key="String_GenerationFailedMessage">在專案檔案生成過程中出現錯誤。</s:String>
     <s:String x:Key="String_ChooseLocationProjectFiles">選擇存儲專案檔案的位置</s:String>
     <s:String x:Key="String_ProjectGenerated">專案已生成。</s:String>
-    <s:String x:Key="String_CannotGenerateSolution">無法求解決方案</s:String>
-    <s:String x:Key="String_CannotGenerateSolutionMessage">生成解決方案檔時出現錯誤。</s:String>
+    <s:String x:Key="String_CannotGenerateSolution">無法生成解決方案</s:String>
+    <s:String x:Key="String_CannotGenerateSolutionMessage">生成解決方案檔時出錯。</s:String>
     <s:String x:Key="String_ProjectGenerationCancelled">解決方案生成已被取消。</s:String>
     <!-- ExtensionDesigner\ViewServiceEndpoint.xaml -->
     <s:String x:Key="String_EndpointNameColon">端點名稱:</s:String>
@@ -363,7 +363,7 @@
     <s:String x:Key="String_XMessages">({0} 條消息)</s:String>
     <s:String x:Key="String_RenameMessage">重命名此郵件</s:String>
     <s:String x:Key="String_ShowRequestAsObject">將請求顯示為物件</s:String>
-    <s:String x:Key="String_ShowReponseAsObject">將回應顯示為物件</s:String>
+    <s:String x:Key="String_ShowResponseAsObject">將回應顯示為物件</s:String>
     <s:String x:Key="String_DeleteSelectedMessages">刪除所選郵件</s:String>
     <s:String x:Key="String_ConfirmStatisticReset">確認統計重置</s:String>
     <s:String x:Key="String_ConfirmStatisticResetMessage">所有統計資訊都將被刪除, 並且可以恢復, 是否仍要重置統計資訊？</s:String>
@@ -525,7 +525,7 @@
     <s:String x:Key="String_ServiceCategoryU">服務類別</s:String>
     <!-- ExtensionDesigner\ViewServiceCategory.xaml -->
     <s:String x:Key="String_ServiceCategory">服務類別</s:String>
-    <s:String x:Key="String_ServiceCategoryTooltip">服務類別為同一建議持有一組 WebService。
+    <s:String x:Key="String_ServiceCategoryTooltip">服務類別包含同一建議的一組 Web 服務。
 例如, 您可以擁有一組用於客戶管理的 web 服務, 包括 3 web 服務, 用於客戶創建、修改和刪除。</s:String>
     <s:String x:Key="String_CategoryNameColon">類別名稱:</s:String>
     <s:String x:Key="String_ServicesIncluded">此類別中包含的服務</s:String>
@@ -559,7 +559,7 @@
     <s:String x:Key="String_ArgumentsColon">參數：</s:String>
     <s:String x:Key="String_WorkingDirectoryColon">工作目錄:</s:String>
     <s:String x:Key="String_TimeoutColon">超時：</s:String>
-    <s:String x:Key="String_TimeoutMessage">最大值, 以秒為單位的時間將等待進程存在。</s:String>
+    <s:String x:Key="String_TimeoutMessage">時間的最大值 (以秒為單位) 將等待進程超時。</s:String>
     <s:String x:Key="String_FailOnErrorStreamColon">錯誤流失敗:</s:String>
     <s:String x:Key="String_FailOnErrorStreamChecked">如果在錯誤流上寫入了任何內容, 測試步驟將失敗。</s:String>
     <s:String x:Key="String_FailOnErrorStreamUnchecked">如果在錯誤流上寫入了任何內容, 測試步驟將不會標記為失敗。</s:String>
@@ -588,7 +588,7 @@
     <s:String x:Key="String_PathExpression">路徑運算式</s:String>
     <s:String x:Key="String_ExpectedResult">預期結果</s:String>
     <s:String x:Key="String_ResultColon">結果：</s:String>
-    <s:String x:Key="String_UseCurrent">使用當前</s:String>
+    <s:String x:Key="String_UseCurrent">使用當前值</s:String>
     <s:String x:Key="String_UseCurrentTooltip">將當前值用作預期值。</s:String>
     <s:String x:Key="String_UseCurrentReplaced">預期結果將替換為當前評估。</s:String>
     <s:String x:Key="String_UseCurrentFailed">評估斷言時發生錯誤, 無法將當前結果用作預期結果</s:String>
@@ -682,7 +682,7 @@
     <s:String x:Key="String_CountTests"># 測試</s:String>
     <s:String x:Key="String_SaveAutomatedTestReport">保存自動測試報告</s:String>
     <s:String x:Key="String_ReportExported">報表已匯出</s:String>
-    <s:String x:Key="String_ReportExportFailedColon">報表匯出失敗:</s:String>
+    <s:String x:Key="String_ReportExportFailedColon">報表無法匯出:</s:String>
     <s:String x:Key="String_GeneratingReport">生成報告</s:String>
     <s:String x:Key="String_TestReport">測試報告</s:String>
     <!-- ViewTestCase.xaml -->

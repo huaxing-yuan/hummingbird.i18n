@@ -217,8 +217,8 @@ If citati in richieste, risposte o script di automazione, si verificheranno erro
     <s:String x:Key="String_GenerationFailedMessage">C'è un errore durante la generazione di file di progetto.</s:String>
     <s:String x:Key="String_ChooseLocationProjectFiles">Scegliere un percorso per archiviare i file di progetto</s:String>
     <s:String x:Key="String_ProjectGenerated">Progetto è stato generato.</s:String>
-    <s:String x:Key="String_CannotGenerateSolution">Possibile soluzione generat</s:String>
-    <s:String x:Key="String_CannotGenerateSolutionMessage">"Verificato un errore durante la generazione del file di soluzione."</s:String>
+    <s:String x:Key="String_CannotGenerateSolution">Impossibile generare la soluzione</s:String>
+    <s:String x:Key="String_CannotGenerateSolutionMessage">Si è verificato un errore durante la generazione del file di soluzione.</s:String>
     <s:String x:Key="String_ProjectGenerationCancelled">Generazione di soluzione è stata annullata.</s:String>
     <!-- ExtensionDesigner\ViewServiceEndpoint.xaml -->
     <s:String x:Key="String_EndpointNameColon">Nome dell'endpoint:</s:String>
@@ -366,7 +366,7 @@ Do riavviare Hummingbird ora?</s:String>
     <s:String x:Key="String_XMessages">({0} messaggi)</s:String>
     <s:String x:Key="String_RenameMessage">Rinominare questo messaggio</s:String>
     <s:String x:Key="String_ShowRequestAsObject">Visualizza richiesta come oggetto</s:String>
-    <s:String x:Key="String_ShowReponseAsObject">Visualizza risposta come oggetto</s:String>
+    <s:String x:Key="String_ShowResponseAsObject">Visualizza risposta come oggetto</s:String>
     <s:String x:Key="String_DeleteSelectedMessages">Eliminare i messaggi selezionati</s:String>
     <s:String x:Key="String_ConfirmStatisticReset">Confermare il reset di statistica</s:String>
     <s:String x:Key="String_ConfirmStatisticResetMessage">Tutte le statistiche verranno rimossi e potrebbero essere recuperate, vuoi azzerare le statistiche comunque?</s:String>
@@ -528,7 +528,7 @@ Come Driver è il nome del sistema che si sta testando, come Stub è il nome del
     <s:String x:Key="String_ServiceCategoryU">CATEGORIA DI SERVIZIO</s:String>
     <!-- ExtensionDesigner\ViewServiceCategory.xaml -->
     <s:String x:Key="String_ServiceCategory">Categoria di servizio</s:String>
-    <s:String x:Key="String_ServiceCategoryTooltip">Categoria di servizio contiene un insieme di WebService per il proporre stesso. 
+    <s:String x:Key="String_ServiceCategoryTooltip">Categoria di servizio contiene un insieme di servizi Web del proporre stesso. 
 Ad esempio, si può avere un set di servizio Web per gestione clienti, inclusi i 3 servizi Web per clienti creazione, modifica e cancellazione.</s:String>
     <s:String x:Key="String_CategoryNameColon">Nome categoria:</s:String>
     <s:String x:Key="String_ServicesIncluded">Servizi inclusi in questa categoria</s:String>
@@ -562,7 +562,7 @@ Ad esempio, si può avere un set di servizio Web per gestione clienti, inclusi i
     <s:String x:Key="String_ArgumentsColon">Argomenti:</s:String>
     <s:String x:Key="String_WorkingDirectoryColon">Cartella di lavoro:</s:String>
     <s:String x:Key="String_TimeoutColon">Timeout:</s:String>
-    <s:String x:Key="String_TimeoutMessage">Numero massimo, in secondi del tempo attenderà fino a quando il processo esiste.</s:String>
+    <s:String x:Key="String_TimeoutMessage">Numero massimo, in secondi, del tempo attenderà fino a quando il processo di timeout.</s:String>
     <s:String x:Key="String_FailOnErrorStreamColon">Non il flusso di errore:</s:String>
     <s:String x:Key="String_FailOnErrorStreamChecked">Passo del test verrà eseguito se nulla è stato scritto il flusso di errore.</s:String>
     <s:String x:Key="String_FailOnErrorStreamUnchecked">Istruzione di prova non verrà contrassegnata come non riuscito se nulla è stato scritto il flusso di errore.</s:String>
@@ -591,7 +591,7 @@ Ad esempio, si può avere un set di servizio Web per gestione clienti, inclusi i
     <s:String x:Key="String_PathExpression">Espressione di percorso</s:String>
     <s:String x:Key="String_ExpectedResult">Risultato atteso</s:String>
     <s:String x:Key="String_ResultColon">Risultato:</s:String>
-    <s:String x:Key="String_UseCurrent">Uso corrente</s:String>
+    <s:String x:Key="String_UseCurrent">Utilizzare il valore corrente</s:String>
     <s:String x:Key="String_UseCurrentTooltip">Utilizzare il valore corrente come valore atteso.</s:String>
     <s:String x:Key="String_UseCurrentReplaced">Il risultato previsto è sostituito con valutazione corrente.</s:String>
     <s:String x:Key="String_UseCurrentFailed">Si è verificato un errore durante la valutazione l'asserzione, non è riuscito a utilizzare il risultato corrente come risultato atteso</s:String>
@@ -685,7 +685,7 @@ Ad esempio, si può avere un set di servizio Web per gestione clienti, inclusi i
     <s:String x:Key="String_CountTests"># Test</s:String>
     <s:String x:Key="String_SaveAutomatedTestReport">Salvare il report di test automatizzato</s:String>
     <s:String x:Key="String_ReportExported">Report esportato</s:String>
-    <s:String x:Key="String_ReportExportFailedColon">Report non riuscito per esportare: </s:String>
+    <s:String x:Key="String_ReportExportFailedColon">Relazione è Impossibile esportare: </s:String>
     <s:String x:Key="String_GeneratingReport">Generazione di report</s:String>
     <s:String x:Key="String_TestReport">Rapporto di prova</s:String>
     <!-- ViewTestCase.xaml -->

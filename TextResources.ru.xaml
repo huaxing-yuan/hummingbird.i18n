@@ -366,7 +366,7 @@ Do вы перезагрузить колибри сейчас?</s:String>
     <s:String x:Key="String_XMessages">({0} сообщений)</s:String>
     <s:String x:Key="String_RenameMessage">Переименовать это сообщение</s:String>
     <s:String x:Key="String_ShowRequestAsObject">Показать запрос как объект</s:String>
-    <s:String x:Key="String_ShowReponseAsObject">Показать ответ как объект</s:String>
+    <s:String x:Key="String_ShowResponseAsObject">Показать ответ как объект</s:String>
     <s:String x:Key="String_DeleteSelectedMessages">Удалить выбранные сообщения</s:String>
     <s:String x:Key="String_ConfirmStatisticReset">Подтвердить сброс статистики</s:String>
     <s:String x:Key="String_ConfirmStatisticResetMessage">Все статистические данные будут удалены и могут быть восстановлены, вы хотели бы сбросить статистику в любом случае?</s:String>
@@ -528,7 +528,7 @@ Do вы перезагрузить колибри сейчас?</s:String>
     <s:String x:Key="String_ServiceCategoryU">КАТЕГОРИЯ СЛУЖБЫ</s:String>
     <!-- ExtensionDesigner\ViewServiceCategory.xaml -->
     <s:String x:Key="String_ServiceCategory">Категория службы</s:String>
-    <s:String x:Key="String_ServiceCategoryTooltip">Категория службы проводит набор WebService для же предложить. 
+    <s:String x:Key="String_ServiceCategoryTooltip">Категория службы содержит набор веб-служб из же предложить. 
 Например вы можете иметь набор веб-службы для управления клиентами, включая 3 веб-службы для создания клиента, модификации и удаления.</s:String>
     <s:String x:Key="String_CategoryNameColon">Имя категории:</s:String>
     <s:String x:Key="String_ServicesIncluded">Услуги, включенные в этой категории</s:String>
@@ -562,7 +562,7 @@ Do вы перезагрузить колибри сейчас?</s:String>
     <s:String x:Key="String_ArgumentsColon">Аргументы:</s:String>
     <s:String x:Key="String_WorkingDirectoryColon">Рабочий каталог:</s:String>
     <s:String x:Key="String_TimeoutColon">Время ожидания:</s:String>
-    <s:String x:Key="String_TimeoutMessage">Максимальное число секунд времени будет ждать до тех пор, пока существует этот процесс.</s:String>
+    <s:String x:Key="String_TimeoutMessage">Максимальное число секунд времени будет ждать до тех пор, пока время ожидания процесса.</s:String>
     <s:String x:Key="String_FailOnErrorStreamColon">Не на поток сообщений об ошибках:</s:String>
     <s:String x:Key="String_FailOnErrorStreamChecked">Шаг теста будет сбой, если что-либо было написано на поток сообщений об ошибках.</s:String>
     <s:String x:Key="String_FailOnErrorStreamUnchecked">Шаг теста не помечается как ошибка, если что-либо было написано на поток сообщений об ошибках.</s:String>
@@ -591,7 +591,7 @@ Do вы перезагрузить колибри сейчас?</s:String>
     <s:String x:Key="String_PathExpression">Выражение пути</s:String>
     <s:String x:Key="String_ExpectedResult">Ожидаемый результат</s:String>
     <s:String x:Key="String_ResultColon">Результат:</s:String>
-    <s:String x:Key="String_UseCurrent">Использовать текущие</s:String>
+    <s:String x:Key="String_UseCurrent">Использовать текущее значение</s:String>
     <s:String x:Key="String_UseCurrentTooltip">Используйте текущее значение как ожидаемое значение.</s:String>
     <s:String x:Key="String_UseCurrentReplaced">Ожидаемый результат заменяется текущей оценки.</s:String>
     <s:String x:Key="String_UseCurrentFailed">Произошла ошибка при вычислении утверждение, не удалось использовать текущий результат как ожидаемый результат</s:String>
@@ -685,7 +685,7 @@ Do вы перезагрузить колибри сейчас?</s:String>
     <s:String x:Key="String_CountTests"># Тесты</s:String>
     <s:String x:Key="String_SaveAutomatedTestReport">Сохранить отчет автоматических тестов</s:String>
     <s:String x:Key="String_ReportExported">Экспорт отчета</s:String>
-    <s:String x:Key="String_ReportExportFailedColon">Доклад не удалось экспортировать: </s:String>
+    <s:String x:Key="String_ReportExportFailedColon">Отчет не удается экспортировать: </s:String>
     <s:String x:Key="String_GeneratingReport">Создание отчета</s:String>
     <s:String x:Key="String_TestReport">Тестовый отчет</s:String>
     <!-- ViewTestCase.xaml -->

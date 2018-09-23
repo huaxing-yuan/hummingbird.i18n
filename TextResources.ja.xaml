@@ -216,8 +216,8 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_GenerationFailedMessage">プロジェクト ファイルの生成中にエラーが発生します。</s:String>
     <s:String x:Key="String_ChooseLocationProjectFiles">プロジェクト ファイルを保存する場所を選択します。</s:String>
     <s:String x:Key="String_ProjectGenerated">プロジェクトが生成されました。</s:String>
-    <s:String x:Key="String_CannotGenerateSolution">パーティクルジェネレーター ソリューションをことはできません。</s:String>
-    <s:String x:Key="String_CannotGenerateSolutionMessage">「ソリューション ファイルを生成するときエラーが発生しました」。</s:String>
+    <s:String x:Key="String_CannotGenerateSolution">ソリューションを生成できません。</s:String>
+    <s:String x:Key="String_CannotGenerateSolutionMessage">ソリューション ファイルを生成するときに、エラーが発生しました。</s:String>
     <s:String x:Key="String_ProjectGenerationCancelled">解の生成は取り消されました。</s:String>
     <!-- ExtensionDesigner\ViewServiceEndpoint.xaml -->
     <s:String x:Key="String_EndpointNameColon">エンドポイント名。</s:String>
@@ -365,7 +365,7 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_XMessages">({0} メッセージ)</s:String>
     <s:String x:Key="String_RenameMessage">このメッセージの名前を変更します。</s:String>
     <s:String x:Key="String_ShowRequestAsObject">要求をオブジェクトとして表示します。</s:String>
-    <s:String x:Key="String_ShowReponseAsObject">オブジェクトとして応答を表示します。</s:String>
+    <s:String x:Key="String_ShowResponseAsObject">オブジェクトとして応答を表示します。</s:String>
     <s:String x:Key="String_DeleteSelectedMessages">選択したメッセージを削除します。</s:String>
     <s:String x:Key="String_ConfirmStatisticReset">統計のリセットを確認します。</s:String>
     <s:String x:Key="String_ConfirmStatisticResetMessage">すべての統計情報が削除され、回復できるとにかく統計をリセットしてもよろしいですか。</s:String>
@@ -527,7 +527,7 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_ServiceCategoryU">サービス カテゴリ</s:String>
     <!-- ExtensionDesigner\ViewServiceCategory.xaml -->
     <s:String x:Key="String_ServiceCategory">サービス カテゴリ</s:String>
-    <s:String x:Key="String_ServiceCategoryTooltip">サービス カテゴリは、同じ提案の web サービスのセットを保持します。
+    <s:String x:Key="String_ServiceCategoryTooltip">サービス カテゴリは、同じ提案の Web サービスのセットを保持します。
 たとえば、顧客管理、顧客の作成、変更および削除の 3 の Web サービスの Web サービスのセットを持つことができます。</s:String>
     <s:String x:Key="String_CategoryNameColon">カテゴリ名:</s:String>
     <s:String x:Key="String_ServicesIncluded">このカテゴリに含まれるサービス</s:String>
@@ -561,7 +561,7 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_ArgumentsColon">引数:</s:String>
     <s:String x:Key="String_WorkingDirectoryColon">[作業ディレクトリ]:</s:String>
     <s:String x:Key="String_TimeoutColon">タイムアウト:</s:String>
-    <s:String x:Key="String_TimeoutMessage">最大数時間の秒のプロセスが存在するまでを待機します。</s:String>
+    <s:String x:Key="String_TimeoutMessage">最大数、プロセスがタイムアウトになるまでの時間 (秒単位) を待つが。</s:String>
     <s:String x:Key="String_FailOnErrorStreamColon">エラー ストリームに失敗します。</s:String>
     <s:String x:Key="String_FailOnErrorStreamChecked">何かがエラー ストリームに書き込まれた場合は、テスト ステップが失敗します。</s:String>
     <s:String x:Key="String_FailOnErrorStreamUnchecked">何かがエラー ストリームに書き込まれた場合、テスト ステップは失敗としてマークされません。</s:String>
@@ -590,7 +590,7 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_PathExpression">パス式</s:String>
     <s:String x:Key="String_ExpectedResult">期待される結果</s:String>
     <s:String x:Key="String_ResultColon">結果:</s:String>
-    <s:String x:Key="String_UseCurrent">使用電流</s:String>
+    <s:String x:Key="String_UseCurrent">現在の値を使用して、</s:String>
     <s:String x:Key="String_UseCurrentTooltip">予期される値と現在の値を使用します。</s:String>
     <s:String x:Key="String_UseCurrentReplaced">期待される結果は、現在の評価に置き換えられます。</s:String>
     <s:String x:Key="String_UseCurrentFailed">期待される結果として現在の結果を使用する失敗したアサーションの評価中にエラーが発生します。</s:String>
@@ -684,7 +684,7 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_CountTests"># テスト</s:String>
     <s:String x:Key="String_SaveAutomatedTestReport">自動テスト レポートを保存します。</s:String>
     <s:String x:Key="String_ReportExported">エクスポートされたレポート</s:String>
-    <s:String x:Key="String_ReportExportFailedColon">レポートのエクスポートに失敗しました。</s:String>
+    <s:String x:Key="String_ReportExportFailedColon">レポートは、エクスポートに失敗しました。</s:String>
     <s:String x:Key="String_GeneratingReport">レポートを生成します。</s:String>
     <s:String x:Key="String_TestReport">テスト レポート</s:String>
     <!-- ViewTestCase.xaml -->

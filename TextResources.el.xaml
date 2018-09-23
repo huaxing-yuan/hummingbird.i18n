@@ -217,8 +217,8 @@ If που αναφέρονται στις αιτήσεις, απαντήσεις
     <s:String x:Key="String_GenerationFailedMessage">Υπάρχει ένα σφάλμα κατά τη δημιουργία του αρχείου έργου.</s:String>
     <s:String x:Key="String_ChooseLocationProjectFiles">Επιλέξτε μια θέση για να αποθηκεύσετε τα αρχεία του έργου</s:String>
     <s:String x:Key="String_ProjectGenerated">Το έργο έχει δημιουργηθεί.</s:String>
-    <s:String x:Key="String_CannotGenerateSolution">Δεν παράγεται Fodey λύση</s:String>
-    <s:String x:Key="String_CannotGenerateSolutionMessage">«Σφάλμα παρουσιάστηκε κατά τη δημιουργία του αρχείου λύσης.»</s:String>
+    <s:String x:Key="String_CannotGenerateSolution">Δεν μπορεί να δημιουργήσει λύση</s:String>
+    <s:String x:Key="String_CannotGenerateSolutionMessage">Παρουσιάστηκε ένα σφάλμα κατά τη δημιουργία του αρχείου λύσης.</s:String>
     <s:String x:Key="String_ProjectGenerationCancelled">Γενιάς λύση έχει ακυρωθεί.</s:String>
     <!-- ExtensionDesigner\ViewServiceEndpoint.xaml -->
     <s:String x:Key="String_EndpointNameColon">Όνομα τελικού σημείου:</s:String>
@@ -366,7 +366,7 @@ Do να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
     <s:String x:Key="String_XMessages">({0} μηνύματα)</s:String>
     <s:String x:Key="String_RenameMessage">Μετονομάστε αυτό το μήνυμα</s:String>
     <s:String x:Key="String_ShowRequestAsObject">Εμφάνιση της αίτησης ως αντικείμενο</s:String>
-    <s:String x:Key="String_ShowReponseAsObject">Εμφάνιση απάντηση ως αντικείμενο</s:String>
+    <s:String x:Key="String_ShowResponseAsObject">Εμφάνιση απάντηση ως αντικείμενο</s:String>
     <s:String x:Key="String_DeleteSelectedMessages">Διαγραφή επιλεγμένων μηνυμάτων</s:String>
     <s:String x:Key="String_ConfirmStatisticReset">Επιβεβαίωση Επαναφορά στατιστικών</s:String>
     <s:String x:Key="String_ConfirmStatisticResetMessage">Όλα τα στατιστικά στοιχεία θα πρέπει να αφαιρεθεί και θα μπορούσαν να ανακτηθούν, θα θέλατε να επαναφέρετε τα στατιστικά στοιχεία ούτως ή άλλως;</s:String>
@@ -528,7 +528,7 @@ Do να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
     <s:String x:Key="String_ServiceCategoryU">ΚΑΤΗΓΟΡΊΑ ΥΠΗΡΕΣΊΑΣ</s:String>
     <!-- ExtensionDesigner\ViewServiceCategory.xaml -->
     <s:String x:Key="String_ServiceCategory">Κατηγορία υπηρεσίας</s:String>
-    <s:String x:Key="String_ServiceCategoryTooltip">Κατηγορία υπηρεσίας κατέχει ένα σύνολο WebService για η ίδια προτείνει. 
+    <s:String x:Key="String_ServiceCategoryTooltip">Κατηγορία υπηρεσίας κατέχει ένα σύνολο των υπηρεσιών Web του η ίδια προτείνει. 
 Για παράδειγμα, μπορείτε να έχετε μια σειρά από υπηρεσίες Web για διαχείριση πελατών, συμπεριλαμβανομένων 3 υπηρεσίες Web για δημιουργία πελάτη, τροποποίηση και διαγραφή.</s:String>
     <s:String x:Key="String_CategoryNameColon">Το όνομα της κατηγορίας:</s:String>
     <s:String x:Key="String_ServicesIncluded">Υπηρεσίες που περιλαμβάνονται σε αυτή την κατηγορία</s:String>
@@ -562,7 +562,7 @@ Do να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
     <s:String x:Key="String_ArgumentsColon">Επιχειρήματα:</s:String>
     <s:String x:Key="String_WorkingDirectoryColon">Κατάλογος εργασίας:</s:String>
     <s:String x:Key="String_TimeoutColon">Χρονικό όριο:</s:String>
-    <s:String x:Key="String_TimeoutMessage">Μέγιστος αριθμός, σε δευτερόλεπτα του χρόνου θα περιμένει έως ότου η διαδικασία υπάρχει.</s:String>
+    <s:String x:Key="String_TimeoutMessage">Μέγιστος αριθμός, σε δευτερόλεπτα, του χρόνου θα περιμένει έως ότου η διαδικασία λήξει το χρονικό όριο.</s:String>
     <s:String x:Key="String_FailOnErrorStreamColon">Αποτύχουν στο ρεύμα σφάλματος:</s:String>
     <s:String x:Key="String_FailOnErrorStreamChecked">Βήμα δοκιμής θα αποτύχει αν κάτι ήταν γραμμένο σε ρεύμα σφάλματος.</s:String>
     <s:String x:Key="String_FailOnErrorStreamUnchecked">Βήμα δοκιμής δεν θα επισημανθούν ως αποτυχία, αν κάτι ήταν γραμμένο σε ρεύμα σφάλματος.</s:String>
@@ -591,7 +591,7 @@ Do να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
     <s:String x:Key="String_PathExpression">Έκφραση διαδρομής</s:String>
     <s:String x:Key="String_ExpectedResult">Αναμενόμενο αποτέλεσμα</s:String>
     <s:String x:Key="String_ResultColon">Αποτέλεσμα:</s:String>
-    <s:String x:Key="String_UseCurrent">Χρήση τρέχουσας</s:String>
+    <s:String x:Key="String_UseCurrent">Χρησιμοποιήστε την τρέχουσα τιμή</s:String>
     <s:String x:Key="String_UseCurrentTooltip">Χρησιμοποιήστε την τρέχουσα αξία ως αναμενόμενη τιμή.</s:String>
     <s:String x:Key="String_UseCurrentReplaced">Το αναμενόμενο αποτέλεσμα αντικαθίσταται με τρέχουσα αξιολόγηση.</s:String>
     <s:String x:Key="String_UseCurrentFailed">Παρουσιάστηκε ένα σφάλμα κατά την αξιολόγηση της τον ισχυρισμό, απέτυχε να χρησιμοποιήσετε το τρέχον αποτέλεσμα ως αναμενόμενο αποτέλεσμα</s:String>
@@ -685,7 +685,7 @@ Do να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
     <s:String x:Key="String_CountTests"># Δοκιμές</s:String>
     <s:String x:Key="String_SaveAutomatedTestReport">Αποθηκεύστε την αυτόματη αναφορά δοκιμής</s:String>
     <s:String x:Key="String_ReportExported">Έκθεση εξάγονται</s:String>
-    <s:String x:Key="String_ReportExportFailedColon">Έκθεση απέτυχε η εξαγωγή: </s:String>
+    <s:String x:Key="String_ReportExportFailedColon">Έκθεση είναι απέτυχε η εξαγωγή: </s:String>
     <s:String x:Key="String_GeneratingReport">Δημιουργία αναφοράς</s:String>
     <s:String x:Key="String_TestReport">Αναφορά δοκιμής</s:String>
     <!-- ViewTestCase.xaml -->

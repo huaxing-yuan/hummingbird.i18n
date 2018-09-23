@@ -18,13 +18,13 @@
     <s:String x:Key="String_Menu_Cryptography">CRYPTOGRAPHIE</s:String>
     <s:String x:Key="String_Menu_Regex">REGEX</s:String>
     <s:String x:Key="String_Menu_Help">aide</s:String>
-    <s:String x:Key="String_Menu_SystemLog">SYSTEM LOG</s:String>
+    <s:String x:Key="String_Menu_SystemLog">LOG SYSTEME</s:String>
     <s:String x:Key="String_Menu_HelpTopics">AIDE</s:String>
     <s:String x:Key="String_Menu_About">A PROPOS DE</s:String>
     <s:String x:Key="String_Menu_FunctionalTest">TEST FONCTIONNEL</s:String>
     <s:String x:Key="String_Menu_PerformanceTest">TEST DE PERFORMENCE</s:String>
     <s:String x:Key="String_Menu_Overview">APERÇU</s:String>
-    <s:String x:Key="String_Menu_ExtensionDesigner">EXTENSION DESIGNER</s:String>
+    <s:String x:Key="String_Menu_ExtensionDesigner">CONCEPTEUR D'EXTENSION</s:String>
     <s:String x:Key="String_Menu_XmlTools">OUTILS XML</s:String>
     <s:String x:Key="String_Menu_XmlCompare">COMPARATEUR XML</s:String>
     <s:String x:Key="String_Menu_XpathValidator">VALIDATEUR XPATH</s:String>
@@ -37,21 +37,21 @@
     <s:String x:Key="String_Extensions">Extensions</s:String>
     <s:String x:Key="String_ProfileManagement">Gestion de Profil</s:String>
     <!-- GENERAL SETTINGS -->
-    <s:String x:Key="String_SystemBehaviors">Comportement du System </s:String>
+    <s:String x:Key="String_SystemBehaviors">Comportements du système</s:String>
     <s:String x:Key="String_LogPath">Chemin de Log:</s:String>
     <s:String x:Key="String_LogLevel">Niveau de Log:</s:String>
     <s:String x:Key="String_LogLevelTooltip">Plus le niveau, plus d’informations seront affichés dans la console. Le plus haut niveau est « Verbose ».</s:String>
     <s:String x:Key="String_Language">Langage</s:String>
     <s:String x:Key="String_LanguageTooltip">Définir la langue d’affichage.</s:String>
-    <s:String x:Key="String_SameAsOS">Le parametrage de Windows</s:String>
+    <s:String x:Key="String_SameAsOS">Identique à Windows</s:String>
     <s:String x:Key="String_CSVSeparator">CSV séparateur</s:String>
-    <s:String x:Key="String_CSVSeparatorTooltip">Séparateur utilisé au format CSV.</s:String>
+    <s:String x:Key="String_CSVSeparatorTooltip">Séparateur utilisé pour le format CSV.</s:String>
     <s:String x:Key="String_ThemeColor">Thème</s:String>
-    <s:String x:Key="String_LightThemes">Thèmes claire :</s:String>
-    <s:String x:Key="String_DarkThemes">Thèmes sombre :</s:String>
+    <s:String x:Key="String_LightThemes">Thèmes claires :</s:String>
+    <s:String x:Key="String_DarkThemes">Thèmes sombres :</s:String>
     <s:String x:Key="String_ChooseThemeColor">Chosissez une thème parmi les propositions suivantes: </s:String>
-    <s:String x:Key="String_FontSize">Taille de la police</s:String>
-    <s:String x:Key="String_ChooseFontSize">Choisissez une taille de police qui adapte mieux votre écran</s:String>
+    <s:String x:Key="String_FontSize">Taille de police</s:String>
+    <s:String x:Key="String_ChooseFontSize">Choisissez une taille de police qui s'adapte mieux à votre écran</s:String>
     <s:String x:Key="String_SetFontSizeTo">Définissez la taille de la police:</s:String>
     <s:String x:Key="String_Normal">Normale</s:String>
     <s:String x:Key="String_Large">Large</s:String>
@@ -78,19 +78,19 @@
     <s:String x:Key="String_MaxRequestPerService">Maximum de requêtes sauvegardées par service： </s:String>
     <s:String x:Key="String_MaxRequestPerServiceTooltip">Nombre maximal de requêtes par service peut être sauvegardé pour renvoyer rapidement. la valeur par défaut est 20.</s:String>
     <s:String x:Key="String_MaxMessages">Nb de messages Max.:</s:String>
-    <s:String x:Key="String_MaxMessagesTooltip">Nombre maximal de messages stockés dans les journaux et spectacle en Test Runner</s:String>
+    <s:String x:Key="String_MaxMessagesTooltip">Nombre maximal de messages stockés dans le journal et affichés dans Test Runner</s:String>
     <s:String x:Key="String_WhenSendingRequest">Lors de l'envoi d'une requete:</s:String>
-    <s:String x:Key="String_WaitAndShowResult">Affichez le résultat directement</s:String>
+    <s:String x:Key="String_WaitAndShowResult">Afficher le résultat directement</s:String>
     <s:String x:Key="String_CloseAndShowOnDemande">Retourner à Test runner</s:String>
     <s:String x:Key="String_AuthenticationU">AUTHENTIFICATION</s:String>
     <s:String x:Key="String_ErrorParsingParameterX">Erreur lors de l’analyse de paramètre « {0} »</s:String>
-    <s:String x:Key="String_ErrorParsingParameterDetails">Service {0}, le paramètre {1} : 
+    <s:String x:Key="String_ErrorParsingParameterDetails">Service {0}, Paramètre {1} : 
  Valeur « {2} » n’est pas valide pour le type « {3} »</s:String>
-    <s:String x:Key="String_ResetToDefaultValue">Rétablir la valeur par défaut</s:String>
+    <s:String x:Key="String_ResetToDefaultValue">Réinitialiser à sa valeur par défaut</s:String>
     <s:String x:Key="String_BrowseDot">Parcourir...</s:String>
-    <s:String x:Key="String_FindFileForX">Trouver un fichier {0}</s:String>
+    <s:String x:Key="String_FindFileForX">Rechercher un fichier pour {0}</s:String>
     <s:String x:Key="String_AddTestEnvironment">Ajouter un environnement de Test</s:String>
-    <s:String x:Key="String_AddTestEnvironmentTooltip">Entrez le nom du nouvel environnement d’essai</s:String>
+    <s:String x:Key="String_AddTestEnvironmentTooltip">Entrez le nom du nouvel environnement de test</s:String>
     <s:String x:Key="String_TestEnvironmentXExists">Il y a déjà un environnement de test nommé « {0} »</s:String>
     <s:String x:Key="String_CannotRemove">Impossible de supprimer</s:String>
     <s:String x:Key="String_CannotRemoveDefaultEnvironment">Il s’agit d’un environnement de test par défaut, qui ne peuvent pas être supprimé.</s:String>
@@ -132,14 +132,14 @@ Si les variables sont référencés dans les requêtes, les réponses ou les scr
     <s:String x:Key="String_XMLTooltip">Afficher l’objet au format XML</s:String>
     <s:String x:Key="String_LineColumn">ln {0}, col {1}</s:String>
     <s:String x:Key="String_ObjectTypeNull">&lt;!--Le type d’objet est null. Cette requête n’a pas de paramètre --&gt;</s:String>
-    <s:String x:Key="String_ObjectCannotSerialized">Cet objet ne peut pas être désérialisé, vous pouvez uniquement visualiser l’objet via l’arborescence.</s:String>
+    <s:String x:Key="String_ObjectCannotSerialized">Cet objet ne peut pas être désérialisé, vous pouvez uniquement editer l’objet via Tree View</s:String>
     <s:String x:Key="String_InvalidOperation">Opération non valide</s:String>
-    <s:String x:Key="String_ViewNotSupportDeserialization">Le visualiseur actif ne supporte pas la désérialisation, vous pouvez modifier le contrôle TreeView pour modifier l’objet.
- Si vous souhaitez modifier l’objet en modifiant le texte, veuillez choisir la vue XML.</s:String>
-    <s:String x:Key="String_DeserializationErrorMessage">Erreur de la désérialisation - Impossible de désérialiser le message du texte. « {0} » (cliquez ici pour plus de détails)</s:String>
+    <s:String x:Key="String_ViewNotSupportDeserialization">Le visualiseur actif ne supporte pas la désérialisation, vous pouvez uniquement modifier l’objet via Tree View. 
+ Si vous souhaitez modifier l’objet en modifiant le texte, veuillez utiliser la vue XML.</s:String>
+    <s:String x:Key="String_DeserializationErrorMessage">Erreur de désérialisation - Impossible de désérialiser le message du texte. « {0} » (cliquez ici pour plus de détails)</s:String>
     <s:String x:Key="String_DetailedTechnicalError">Erreur technique détaillée : </s:String>
     <s:String x:Key="String_UnableToParseXml">Impossible d’analyser le code XML : 
-</s:String>
+ </s:String>
     <s:String x:Key="String_ParsedRequest">requête analysée</s:String>
     <!-- Components\ExtensionInformation.xaml -->
     <s:String x:Key="String_SelectedExtensionInfo">Informations de l’Extension sélectionné</s:String>
@@ -147,7 +147,7 @@ Si les variables sont référencés dans les requêtes, les réponses ou les scr
     <s:String x:Key="String_UniqueIdColon">ID unique :</s:String>
     <s:String x:Key="String_VersionColon">Version :</s:String>
     <s:String x:Key="String_SupportsFrameworkColon">Test Framework prise en charge :</s:String>
-    <s:String x:Key="String_CompanyNameColon">Dénomination sociale :</s:String>
+    <s:String x:Key="String_CompanyNameColon">Raison sociale :</s:String>
     <s:String x:Key="String_DescriptionColon">Description :</s:String>
     <s:String x:Key="String_CopyrightColon">Droit d’auteur :</s:String>
     <s:String x:Key="String_ExtensionStatusColon">Cette extension est actuellement :</s:String>
@@ -155,29 +155,29 @@ Si les variables sont référencés dans les requêtes, les réponses ou les scr
     <s:String x:Key="String_MessageColon">Message :</s:String>
     <s:String x:Key="String_RequestText">Contenu de requête</s:String>
     <s:String x:Key="String_ResponseText">Contenu de réponse</s:String>
-    <s:String x:Key="String_ProcessedInColon">Traité en :</s:String>
-    <s:String x:Key="String_SentReceivedAtColon">Envoyés/reçus à :</s:String>
+    <s:String x:Key="String_ProcessedInColon">Traité le :</s:String>
+    <s:String x:Key="String_SentReceivedAtColon">Envoyé/reçu à :</s:String>
     <s:String x:Key="String_MessageNoLongerAvailable">AVERTISSEMENT : Ce message n’est plus disponible car l’extension utilisée par ce service n’est pas chargée. MetadataId =</s:String>
     <s:String x:Key="String_NoMetadata">Aucune métadonnée</s:String>
     <!-- Components\ObjectTreeView.xaml -->
-    <s:String x:Key="String_SelectedFieldTypeXG">Champ sélectionné : {0} est type de {1} &lt;{2}&gt;</s:String>
+    <s:String x:Key="String_SelectedFieldTypeXG">Champ sélectionné : {0} est type de {1}&lt;{2}&gt;</s:String>
     <s:String x:Key="String_SelectedFieldTypeX">Champ sélectionné : {0} est type de {1}</s:String>
-    <s:String x:Key="String_InsertXmlElement">Insérez un élément XML</s:String>
+    <s:String x:Key="String_InsertXmlElement">Insérer un élément XML</s:String>
     <s:String x:Key="String_ClearArray">Effacer ce tableau</s:String>
     <s:String x:Key="String_InsertElement">Insérer un élément</s:String>
     <s:String x:Key="String_AppendElement">Ajouter un élément</s:String>
     <s:String x:Key="String_InitializeAsX">Initialiser comme élément « {0} »</s:String>
-    <s:String x:Key="String_InitializeAsSubTypeX">Initialisez-le en tant que type dérivé « {0} »</s:String>
-    <s:String x:Key="String_InitializeAsObjectX">Initialiser objet « {0} »</s:String>
+    <s:String x:Key="String_InitializeAsSubTypeX">Initialiser en tant que type dérivé « {0} »</s:String>
+    <s:String x:Key="String_InitializeAsObjectX">Initialiser l'objet « {0} »</s:String>
     <s:String x:Key="String_SetNull">Définir comme null</s:String>
-    <s:String x:Key="String_CopyPathClipboard">Chemin de la copie dans le presse-papiers</s:String>
-    <s:String x:Key="String_EditMultiline">Modifier cette propriété sous forme de texte multiligne</s:String>
+    <s:String x:Key="String_CopyPathClipboard">Copier le chemin vers le presse-papier</s:String>
+    <s:String x:Key="String_EditMultiline">Modifier cette propriété en tant que texte multiligne</s:String>
     <s:String x:Key="String_TypeofString">Type de chaîne</s:String>
-    <s:String x:Key="String_PathXCopiedToClipboard">Le chemin d’accès : « {0} » a été copié dans le presse-papiers.</s:String>
-    <s:String x:Key="String_UnableCopyClipboard">Impossible de copier le chemin d’accès dans le presse-papiers</s:String>
+    <s:String x:Key="String_PathXCopiedToClipboard">Le chemin : « {0} » a été copié dans le presse-papiers.</s:String>
+    <s:String x:Key="String_UnableCopyClipboard">Impossible de copier le chemin dans le presse-papiers</s:String>
     <s:String x:Key="String_SelectedElementDeleted">Élément sélectionné a été supprimée du tableau.</s:String>
-    <s:String x:Key="String_SelectedElementSetToNull">« Élément sélectionné a la valeur null.</s:String>
-    <s:String x:Key="String_SelectedElementCanNotDelete">Élément sélectionné ne peut pas être supprimé.</s:String>
+    <s:String x:Key="String_SelectedElementSetToNull">L'élément sélectionné a été défini comme null.</s:String>
+    <s:String x:Key="String_SelectedElementCanNotDelete">L'élément sélectionné ne peut pas être supprimé.</s:String>
     <s:String x:Key="String_SelectedElementXCopied">L’élément sélectionné de type {0} a été copiée dans le presse-papiers.</s:String>
     <s:String x:Key="String_UnableCopyObjectClipboard">Impossible de copier l’objet sélectionné dans le presse-papiers</s:String>
     <s:String x:Key="String_PastedToPosition">Collé à la position actuelle.</s:String>
@@ -214,16 +214,16 @@ Si les variables sont référencés dans les requêtes, les réponses ou les scr
     <s:String x:Key="String_ExportVSSolution">Exporter en tant que solution Visual Studio</s:String>
     <s:String x:Key="String_ExtensionProjectBuilt">Le projet d’extension a été compilé avec succès, cliquez ici pour ouvrir le dossier contenant</s:String>
     <s:String x:Key="String_BuildFailed">Build a échoué</s:String>
-    <s:String x:Key="String_BuildFailedMessage">Il y a erreurs au cours de la compilation. Cliquez sur le lien suivant pour voir les détails.</s:String>
+    <s:String x:Key="String_BuildFailedMessage">Il y a des erreurs pendant la compilation. Cliquez sur le lien suivant pour voir les détails.</s:String>
     <s:String x:Key="String_GenerationFailedMessage">Il y a une erreur pendant la génération du fichier projet.</s:String>
     <s:String x:Key="String_ChooseLocationProjectFiles">Choisissez un emplacement pour stocker les fichiers de projet</s:String>
     <s:String x:Key="String_ProjectGenerated">Projet a été généré.</s:String>
     <s:String x:Key="String_CannotGenerateSolution">Ne peut pas solution generat</s:String>
-    <s:String x:Key="String_CannotGenerateSolutionMessage">« Une erreur s’est produite lors de la génération du fichier solution. »</s:String>
+    <s:String x:Key="String_CannotGenerateSolutionMessage">Une erreur s’est produite lors de la génération du fichier solution.</s:String>
     <s:String x:Key="String_ProjectGenerationCancelled">Génération de la solution a été annulée.</s:String>
     <!-- ExtensionDesigner\ViewServiceEndpoint.xaml -->
-    <s:String x:Key="String_EndpointNameColon">Nom du point de terminaison :</s:String>
-    <s:String x:Key="String_BindingColon">Liaison :</s:String>
+    <s:String x:Key="String_EndpointNameColon">Endpoint :</s:String>
+    <s:String x:Key="String_BindingColon">Binding :</s:String>
     <s:String x:Key="String_ServiceIdColon">Id du service :</s:String>
     <s:String x:Key="String_FriendlyNameColon">Nom convivial :</s:String>
     <s:String x:Key="String_SoapVersionColon">Version de SOAP :</s:String>
@@ -231,16 +231,16 @@ Si les variables sont référencés dans les requêtes, les réponses ou les scr
     <s:String x:Key="String_SessionModeColon">Mode de session :</s:String>
     <s:String x:Key="String_CallerSimulationColon">Simulation de l’appelant :</s:String>
     <s:String x:Key="String_CallerSimulationChecked">Utilisation comme pilote : pourvoir appeler ce service web exposé par votre organization</s:String>
-    <s:String x:Key="String_CallerSimulationUnchecked">Ne génère pas de code pour appeler ce Service</s:String>
+    <s:String x:Key="String_CallerSimulationUnchecked">Ne génère pas de code pour appeler ce service</s:String>
     <s:String x:Key="String_ServiceSimulationColon">Simulation de service :</s:String>
     <s:String x:Key="String_ServiceSimulationChecked">Utilisation comme bouchon :  simuler le service appelé par votre application</s:String>
-    <s:String x:Key="String_ServiceSimulationUnchecked">Ne génère pas de code pour simuler ce Service</s:String>
+    <s:String x:Key="String_ServiceSimulationUnchecked">Ne génère pas de code pour simuler ce service</s:String>
     <s:String x:Key="String_UriTemplateDriverColon">Modèle URI (pilote) :</s:String>
     <s:String x:Key="String_UriTemplateTooltip">Modèle URI peut contenir des variables dans le texte avec format ${NomVariable}</s:String>
     <s:String x:Key="String_UriTemplateStubColon">Modèle URI (bouchon) :</s:String>
     <!-- ExtensionDesigner\ViewSoapService.xaml -->
     <s:String x:Key="String_SoapWebService">Service Web SOAP</s:String>
-    <s:String x:Key="String_SoapWebServiceTooltip">Importer un service web à partir d’un fichier de définition (WSDL). La définition peut être de la télécommande avec une URL ou un fichier local. Chemin d’accès UNC est également pris en charge.</s:String>
+    <s:String x:Key="String_SoapWebServiceTooltip">Importer un service web à partir d’un fichier de définition (WSDL). La définition peut être de la télécommande avec une URL ou un fichier local. chemin UNC est également pris en charge.</s:String>
     <s:String x:Key="String_ServiceNameColon">Nom du service :</s:String>
     <s:String x:Key="String_ServiceDescriptionWsdlColon">Description du service (WSDL) :</s:String>
     <s:String x:Key="String_ImportOptions">Options d’importation</s:String>
@@ -368,7 +368,7 @@ Souhaitez-vous redémarrer Hummingbird maintenant ?</s:String>
     <s:String x:Key="String_XMessages">({0} messages)</s:String>
     <s:String x:Key="String_RenameMessage">Renommez ce message</s:String>
     <s:String x:Key="String_ShowRequestAsObject">Voir la requête en tant qu’objet</s:String>
-    <s:String x:Key="String_ShowReponseAsObject">Voir la réponse en tant qu’objet</s:String>
+    <s:String x:Key="String_ShowResponseAsObject">Voir la réponse en tant qu’objet</s:String>
     <s:String x:Key="String_DeleteSelectedMessages">Supprimer les Messages sélectionnés</s:String>
     <s:String x:Key="String_ConfirmStatisticReset">Confirmer la réinitialisation de la statistique</s:String>
     <s:String x:Key="String_ConfirmStatisticResetMessage">Toutes les statistiques seront supprimés et pourraient être récupérées, vous souhaitez réinitialiser les statistiques de toute façon ?</s:String>
@@ -435,15 +435,15 @@ Souhaitez-vous redémarrer Hummingbird maintenant ?</s:String>
     <s:String x:Key="String_InsertTCAfter">Insérer des cas de test après</s:String>
     <s:String x:Key="String_AddTestCase">Ajoutons un scénario de test</s:String>
     <s:String x:Key="String_AddDataDrivenTestCase">Ajouter un cas de test Data Driven</s:String>
-    <s:String x:Key="String_ReorderTestCases">Réorganiser les scénarios de test</s:String>
-    <s:String x:Key="String_ReorderTestCasesTooltip">Réorganiser les affaires des essais par leurs noms</s:String>
+    <s:String x:Key="String_ReorderTestCases">Réorganiser les cas de test</s:String>
+    <s:String x:Key="String_ReorderTestCasesTooltip">Réorganiser les cas de tests par leurs noms</s:String>
     <s:String x:Key="String_InsertTestSuiteBefore">Insérer une Suite de tests avant</s:String>
     <s:String x:Key="String_InsertTestSuiteAfter">Insérer une Suite de tests après</s:String>
     <s:String x:Key="String_RunTestSuite">Exécuter la suite de tests</s:String>
     <s:String x:Key="String_DeleteTestSuite">Supprimer cette suite de tests</s:String>
     <s:String x:Key="String_AddTestSuite">Ajoutez une suite de tests</s:String>
     <s:String x:Key="String_InsertTestSuite">Insérer une suite de tests</s:String>
-    <s:String x:Key="String_ReorderTestSuites">Réorganiser les suites de tests</s:String>
+    <s:String x:Key="String_ReorderTestSuites">Réordonner les suites de tests</s:String>
     <s:String x:Key="String_ReorderTestSuitesTooltip">Réorganiser les suites de tests par leurs noms</s:String>
     <s:String x:Key="String_RunAutomationProject">Exécutez le projet d’automatisation</s:String>
     <s:String x:Key="String_AutomationProjectSaved">Projet a été enregistré.</s:String>
@@ -453,16 +453,16 @@ Souhaitez-vous redémarrer Hummingbird maintenant ?</s:String>
     <s:String x:Key="String_AnErrorHasOccurred">Une erreur est survenue</s:String>
     <s:String x:Key="String_AnErrorHasOccurredSavingAutomationProject">Une erreur s’est produite lors de l’enregistrement de projet d’automatisation.</s:String>
     <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">Une erreur s’est produite lors du chargement de projet d’automatisation.</s:String>
-    <s:String x:Key="String_SaveCurrentProject">Sauvegarder le projet en cours ?</s:String>
-    <s:String x:Key="String_SaveCurrentProjectMessage">Vous voulez sauvegarder le projet actuel d’automatisation ?</s:String>
+    <s:String x:Key="String_SaveCurrentProject">Enregistrer le projet en cours ?</s:String>
+    <s:String x:Key="String_SaveCurrentProjectMessage">Voulez-vous enregistrer le projet d’automatisation en cours?</s:String>
     <!-- ViewBase64Tool.xaml -->
     <s:String x:Key="String_ActionColon">Action : </s:String>
-    <s:String x:Key="String_Base64EncodingTitle">Le codage Base64 &amp; décodage</s:String>
-    <s:String x:Key="String_Utf8ToBase64">Encode la chaîne UTF-8 dans une chaîne à Base64</s:String>
-    <s:String x:Key="String_Base64ToString">Décode une chaîne Base64 sous forme de chaîne, en utilisant le codage sélectionné.</s:String>
-    <s:String x:Key="String_BinaryToBase64">Lire le contenu binaire du fichier et encoder son contenu dans la chaîne Base64</s:String>
-    <s:String x:Key="String_Base64ToBinary">Lire la chaîne base64 de la zone de texte ci-dessous, décoder et enregistrez-le dans un fichier binaire.</s:String>
-    <s:String x:Key="String_SampleTextBase64">Exemple de texte codage Base64</s:String>
+    <s:String x:Key="String_Base64EncodingTitle">Encodage et décodage Base64</s:String>
+    <s:String x:Key="String_Utf8ToBase64">Encode de la chaîne UTF-8 à la chaîne Base64</s:String>
+    <s:String x:Key="String_Base64ToString">Décode une chaîne Base64 en texte, en utilisant le codage sélectionné.</s:String>
+    <s:String x:Key="String_BinaryToBase64">Lire le contenu binaire à partir du fichier et encoder son contenu dans en Base64</s:String>
+    <s:String x:Key="String_Base64ToBinary">Lire la chaîne base64 de la zone de texte ci-dessous, décoder et enregistrez le contenu dans un fichier binaire.</s:String>
+    <s:String x:Key="String_SampleTextBase64">Exemple de texte à encoder dans Base64</s:String>
     <s:String x:Key="String_EncodedBase64">Chaîne codée en Base64</s:String>
     <s:String x:Key="String_DecodedBase64">Chaîne décodée Base64</s:String>
     <s:String x:Key="String_OpenFileToEncode">Ouvrir un fichier à encoder</s:String>
@@ -470,7 +470,7 @@ Souhaitez-vous redémarrer Hummingbird maintenant ?</s:String>
     <s:String x:Key="String_DecodedAndSaved">Contenu décodé et sauvegardé dans le fichier. Cliquez ici pour l’ouvrir</s:String>
     <!-- ViewToolsOverview.xaml -->
     <s:String x:Key="String_ExtendsThePotetual">Étend le potentiel</s:String>
-    <s:String x:Key="String_ExtensionDesigner">Concepteur de l’extension</s:String>
+    <s:String x:Key="String_ExtensionDesigner">Concepteur d'extension</s:String>
     <s:String x:Key="String_Productivity">Productivité</s:String>
     <s:String x:Key="String_RegularExpression">Expression régulière</s:String>
     <s:String x:Key="String_HashCryptography">Hachage &amp; cryptographie</s:String>
@@ -488,7 +488,7 @@ Souhaitez-vous redémarrer Hummingbird maintenant ?</s:String>
     <s:String x:Key="String_DesignerCategoryTooltip">Catégorie fonctionnelle des services. 
  Par exemple : tous les services pour ajouter, modifier ou supprimer un client peut être organisés dans la catégorie [Customer Management].</s:String>
     <s:String x:Key="String_DesignerServiceTooltip">Le nom du service. Pour les services SOAP, il représente un objet de liaison, il a un point de terminaison peut contenir une ou plusieurs opérations</s:String>
-    <s:String x:Key="String_SaveAs">sauvegarder en tant que</s:String>
+    <s:String x:Key="String_SaveAs">Enregistrer en tant que</s:String>
     <s:String x:Key="String_Close">Fermer</s:String>
     <s:String x:Key="String_ExtensionDesignerTitle">Concepteur d'extension - ajouter des Services Web à tester et à simuler</s:String>
     <s:String x:Key="String_CreateNewExtensionProject">Créez un nouveau projet d’extension de service</s:String>
@@ -523,15 +523,15 @@ Souhaitez-vous redémarrer Hummingbird maintenant ?</s:String>
     <s:String x:Key="String_NoResultMatches">Il n’y a aucune résultat de votre recherche « {0} »</s:String>
     <!-- ExtensionDesigner\ViewApplication.xaml -->
     <s:String x:Key="String_Application">Application</s:String>
-    <s:String x:Key="String_ApplicationTooltip">Entrez un nom de l’Application :
-Comme pilote, c’est le nom du système que vous mettent à l’essai, dans le talon, c’est le nom du système que vous souhaitez simuler.</s:String>
+    <s:String x:Key="String_ApplicationTooltip">Entrez un nom de l’Application : 
+ Comme pilote, c’est le nom du système que vous mettent à l’essai, dans le talon, c’est le nom du système que vous souhaitez simuler.</s:String>
     <s:String x:Key="String_ApplicationNameColon">Nom de l’application :</s:String>
     <s:String x:Key="String_ServiceCategoriesIncluded">Catégories de services inclus dans la présente demande</s:String>
     <s:String x:Key="String_ServiceCategoryU">CATÉGORIE DE SERVICE</s:String>
     <!-- ExtensionDesigner\ViewServiceCategory.xaml -->
     <s:String x:Key="String_ServiceCategory">Catégorie de service</s:String>
-    <s:String x:Key="String_ServiceCategoryTooltip">Catégorie de service contient un ensemble de WebService pour le proposer même. 
-Par exemple, vous pouvez avoir un ensemble de services Web pour la gestion de la clientèle, y compris 3 Web Services pour la création de clientèle, de rectification et de suppression.</s:String>
+    <s:String x:Key="String_ServiceCategoryTooltip">La catégorie de service contient un ensemble de services Web de la même proposition 
+ Par exemple, vous pouvez disposer d'un ensemble de services Web pour la gestion des clients, y compris 3 services Web pour la création, la modification et la suppression de clients.</s:String>
     <s:String x:Key="String_CategoryNameColon">Nom de la catégorie :</s:String>
     <s:String x:Key="String_ServicesIncluded">Services inclus dans cette catégorie</s:String>
     <s:String x:Key="String_ServicesU">SERVICES</s:String>
@@ -539,24 +539,24 @@ Par exemple, vous pouvez avoir un ensemble de services Web pour la gestion de la
     <!-- ExtensionDesigner\ViewProjectOverview.xaml -->
     <s:String x:Key="String_ProjectGeneralInfo">Information générale du projet</s:String>
     <s:String x:Key="String_ProjectNameColon">Nom du projet :</s:String>
-    <s:String x:Key="String_RootNamespaceColon">Root Namespace :</s:String>
-    <s:String x:Key="String_AssemblyInfo">Informations de l’assembly</s:String>
-    <s:String x:Key="String_AssemblyInfoTooltip">Informations de l’assembly sont compilées dans votre assembly d’extension des informations techniques, veuillez vous assurer d’attribuer une dénomination pour chaque champ.</s:String>
-    <s:String x:Key="String_AssemblyNameColon">Nom de l’assembly :</s:String>
+    <s:String x:Key="String_RootNamespaceColon">Espace de noms racine :</s:String>
+    <s:String x:Key="String_AssemblyInfo">Information de l'Assemblée</s:String>
+    <s:String x:Key="String_AssemblyInfoTooltip">Les informations sur l'assemblage sont des informations techniques compilées dans votre extension, assurez-vous d'attribuer un nom légal à chaque champ.</s:String>
+    <s:String x:Key="String_AssemblyNameColon">Nom de Assemblée:</s:String>
     <!-- WindowSelectRequest.xaml -->
     <s:String x:Key="String_SelectARequest">Sélectionnez une requête</s:String>
     <!-- WindowSendRequest.xaml -->
-    <s:String x:Key="String_ServiceColon">Service : </s:String>
+    <s:String x:Key="String_ServiceColon">Service :</s:String>
     <s:String x:Key="String_ChooseServiceToTest">Choisir un service pour tester ↑</s:String>
-    <s:String x:Key="String_HistoryColon">Historoque : </s:String>
+    <s:String x:Key="String_HistoryColon">Historoque :</s:String>
     <s:String x:Key="String_EndpointColon">Point de terminaison : </s:String>
-    <s:String x:Key="String_DeleteCurrentHistoryTooltip">Supprimer l’historique de cours</s:String>
+    <s:String x:Key="String_DeleteCurrentHistoryTooltip">Supprimer cette requête dans l’historique</s:String>
     <s:String x:Key="String_ClearAllHistoryTooltip">Effacer toute l’historique de ce service</s:String>
-    <s:String x:Key="String_ResetEndpointTooltip">Réinitialiser le point de terminaison à UriTemplate avec les valeurs des variables d’environnement de test actuel</s:String>
+    <s:String x:Key="String_ResetEndpointTooltip">Réinitialiser le Uri avec les valeurs des variables d’environnement de test actuel</s:String>
     <s:String x:Key="String_NoEndpointTooltip">Ce service n’a aucun UriTemplate</s:String>
     <s:String x:Key="String_EnvironmentColon">Environnement : </s:String>
     <s:String x:Key="String_Send">Envoyer</s:String>
-    <s:String x:Key="String_RequestSentTo">Requête adressée à :</s:String>
+    <s:String x:Key="String_RequestSentTo">Requête envoyé à :</s:String>
     <s:String x:Key="String_ElapsedTime">Temps écoulé : </s:String>
     <s:String x:Key="String_ResponseColon">Réponse :</s:String>
     <!-- CommandLineTestStepEditor.xaml-->
@@ -564,10 +564,10 @@ Par exemple, vous pouvez avoir un ensemble de services Web pour la gestion de la
     <s:String x:Key="String_ArgumentsColon">Arguments :</s:String>
     <s:String x:Key="String_WorkingDirectoryColon">Répertoire de travail :</s:String>
     <s:String x:Key="String_TimeoutColon">Délai d’attente :</s:String>
-    <s:String x:Key="String_TimeoutMessage">Nombre maximal, en secondes du temps attendra jusqu'à ce que le processus existe.</s:String>
+    <s:String x:Key="String_TimeoutMessage">Le nombre maximal, en secondes, attendra que le processus expire.</s:String>
     <s:String x:Key="String_FailOnErrorStreamColon">Échouer sur le flux d’erreur :</s:String>
-    <s:String x:Key="String_FailOnErrorStreamChecked">Étape de test va être échoué si n’importe quoi a été écrit le flux d’erreur.</s:String>
-    <s:String x:Key="String_FailOnErrorStreamUnchecked">Étape de test ne sera pas marquée comme étant en panne si n’importe quoi a été écrit le flux d’erreur.</s:String>
+    <s:String x:Key="String_FailOnErrorStreamChecked">L'étape de test échouera si quelque chose a été écrit sur le flux d'erreur.</s:String>
+    <s:String x:Key="String_FailOnErrorStreamUnchecked">L'étape de test ne sera pas marquée comme ayant échoué si quelque chose a été écrit sur le flux d'erreur.</s:String>
     <s:String x:Key="String_OutputColon">Sortie :</s:String>
     <!-- ContainsAssertionEditor.xaml -->
     <s:String x:Key="String_ContainsAssertion">Contient l’affirmation</s:String>
@@ -585,15 +585,15 @@ Par exemple, vous pouvez avoir un ensemble de services Web pour la gestion de la
     <s:String x:Key="String_CodeU">CODE</s:String>
     <s:String x:Key="String_LineU">LIGNE</s:String>
     <!-- NotContainsAssertionEditor -->
-    <s:String x:Key="String_NotContainsAssertion">Contient pas affirmation</s:String>
-    <s:String x:Key="String_NotContainsAssertionDescription">Vérifie si elle est donnée texte n’apparaît pas dans la requête ou la réponse</s:String>
+    <s:String x:Key="String_NotContainsAssertion">Assertion « Ne contient pas »</s:String>
+    <s:String x:Key="String_NotContainsAssertionDescription">Vérifie si le texte donné ne figure pas dans la demande ou la réponse</s:String>
     <!-- PathValidatorAssertionEditor.xaml -->
-    <s:String x:Key="String_PathValidationAssertion">Affirmation de validation de chemin d’accès</s:String>
-    <s:String x:Key="String_AssertFor">Faire valoir pour</s:String>
-    <s:String x:Key="String_PathExpression">Expression de chemin d’accès</s:String>
-    <s:String x:Key="String_ExpectedResult">Résultat escompté</s:String>
+    <s:String x:Key="String_PathValidationAssertion">Assertion de validation de chemin</s:String>
+    <s:String x:Key="String_AssertFor">Affirmer pour</s:String>
+    <s:String x:Key="String_PathExpression">Expression de chemin</s:String>
+    <s:String x:Key="String_ExpectedResult">Résultat attendu</s:String>
     <s:String x:Key="String_ResultColon">Résultat :</s:String>
-    <s:String x:Key="String_UseCurrent">Usage courant</s:String>
+    <s:String x:Key="String_UseCurrent">Utiliser la valeur actuelle</s:String>
     <s:String x:Key="String_UseCurrentTooltip">Utiliser valeur actuelle comme valeur attendue.</s:String>
     <s:String x:Key="String_UseCurrentReplaced">Le résultat attendu est remplacé par la présente évaluation.</s:String>
     <s:String x:Key="String_UseCurrentFailed">Une erreur s’est produite tout en évaluant l’échec de l’assertion, d’utiliser le résultat courant comme résultat escompté</s:String>
@@ -615,18 +615,18 @@ Par exemple, vous pouvez avoir un ensemble de services Web pour la gestion de la
     <s:String x:Key="String_UseDefaultParameterUnchecked">Utilisation suivant les paramètres pour le service</s:String>
     <s:String x:Key="String_InformationColon">Informations :</s:String>
     <!-- SoapFaultAssertion.xaml -->
-    <s:String x:Key="String_SoapFaultAssertion">Affirmation de faute SOAP</s:String>
+    <s:String x:Key="String_SoapFaultAssertion">Assertion de faute SOAP</s:String>
     <s:String x:Key="String_SoapFaultAssertionDescription">Vérifie si la réponse est une erreur Soap / ou vérifie si la réponse est une réponse Soap valide</s:String>
     <s:String x:Key="String_IsSoapFaultColon">Est l’erreur Soap :</s:String>
     <s:String x:Key="String_IsSoapFaultChecked">Indique si la réponse du serveur est erreur Soap (Soap 1.1 et Soap 1.2)</s:String>
     <s:String x:Key="String_IsSoapFaultUnchecked">Indique si la réponse du serveur est une réponse valide et non une erreur Soap</s:String>
     <!-- SqlQueryTestStepEditor.xaml -->
-    <s:String x:Key="String_RunSQLQuery">Exécutez la requête SQL :</s:String>
+    <s:String x:Key="String_RunSQLQuery">Exécuter la requête SQL :</s:String>
     <s:String x:Key="String_TestConnectivity">Tester la connectivité</s:String>
     <s:String x:Key="String_Help">Aide</s:String>
     <s:String x:Key="String_Configuration">Configuration</s:String>
     <s:String x:Key="String_Result">Résultat</s:String>
-    <s:String x:Key="String_ServerNameOrIpColon">Nom du serveur ou adresse IP :</s:String>
+    <s:String x:Key="String_ServerNameOrIpColon">Nom ou adresse IP du serveur :</s:String>
     <s:String x:Key="String_AuthenticationModeColon">Mode d’authentification : </s:String>
     <s:String x:Key="String_DatabaseNameColon">Nom de la base de données :</s:String>
     <s:String x:Key="String_UserNameColon">Nom d’utilisateur : </s:String>
@@ -640,42 +640,42 @@ Par exemple, vous pouvez avoir un ensemble de services Web pour la gestion de la
     <!-- UpdateSimulationData.xaml -->
     <s:String x:Key="String_EditResponse">Modifier la réponse</s:String>
     <s:String x:Key="String_SelectedService">Service sélectionné</s:String>
-    <s:String x:Key="String_Clean">Nettoyer</s:String>
-    <s:String x:Key="String_CleanChecked">Réponses claires du même service avant d’ajouter les réponses suivantes.</s:String>
-    <s:String x:Key="String_CleanUnchecked">Ne pas effacer les réponses, ajoutant à la suite des réponses seulement.</s:String>
+    <s:String x:Key="String_Clean">Effacer</s:String>
+    <s:String x:Key="String_CleanChecked">Effacer les réponses du même service avant d'ajouter les réponses suivantes.</s:String>
+    <s:String x:Key="String_CleanUnchecked">Ne pas supprimer les réponses, ajoutez uniquement les réponses suivantes.</s:String>
     <!-- ViewCSVDataSource.xaml -->
     <s:String x:Key="String_ContainsHeaderColon">Contient l’en-tête :</s:String>
-    <s:String x:Key="String_ContainsHeaderChecked">La première ligne de la source de données est l’en-tête de colonne</s:String>
+    <s:String x:Key="String_ContainsHeaderChecked">La première ligne de la source de données est l'en-tête de colonne</s:String>
     <s:String x:Key="String_ContainsHeaderUnchecked">La source de données ne contient-elle pas d’en-tête (vous devez spécifier l’en-tête)</s:String>
     <s:String x:Key="String_SeparatorColon">Séparateur :</s:String>
-    <s:String x:Key="String_SelectDot">Sélectionnez...</s:String>
+    <s:String x:Key="String_SelectDot">Sélectionner...</s:String>
     <!-- ViewDataDrivenTestCase.xaml -->
-    <s:String x:Key="String_DataDrivenTestCaseColon">Data Driven de scénario de Test :</s:String>
+    <s:String x:Key="String_DataDrivenTestCaseColon">Cas de test piloté par les données:</s:String>
     <s:String x:Key="String_Import">Importation</s:String>
     <s:String x:Key="String_DataSource">Source de données</s:String>
-    <s:String x:Key="String_TestInstances">Cas de test</s:String>
-    <s:String x:Key="String_TestCase">Scénario de test</s:String>
+    <s:String x:Key="String_TestInstances">Instance de test</s:String>
+    <s:String x:Key="String_TestCase">Cas de test</s:String>
     <s:String x:Key="String_CountSteps"># Étapes</s:String>
-    <s:String x:Key="String_Progress">Progrès</s:String>
+    <s:String x:Key="String_Progress">Le progrès</s:String>
     <s:String x:Key="String_Information">Informations</s:String>
-    <s:String x:Key="String_SelectDataSourceColon">Sélectionnez une Source de données :</s:String>
+    <s:String x:Key="String_SelectDataSourceColon">Sélectionner une source de données :</s:String>
     <s:String x:Key="String_RowLimitColon">Limite de la ligne :</s:String>
     <!-- ViewExcelDataSource.xaml -->
     <s:String x:Key="String_SpreadSheetNameColon">Nom de la feuille de calcul :</s:String>
-    <s:String x:Key="String_RangeTypeColon">Type de portée :</s:String>
+    <s:String x:Key="String_RangeTypeColon">Type de plage:</s:String>
     <s:String x:Key="StringRangeNameColon">Nom de la plage :</s:String>
     <s:String x:Key="StringTestDataImported">Tester les données importées :</s:String>
     <!-- ViewProjectInfo.xaml -->
-    <s:String x:Key="String_RunAllTests">Exécuter tous les Tests</s:String>
+    <s:String x:Key="String_RunAllTests">Exécuter tous les tests</s:String>
     <s:String x:Key="String_GenerateReport">Générer le rapport</s:String>
     <s:String x:Key="String_ViewReport">Afficher le rapport</s:String>
     <s:String x:Key="String_ProjectInformationColon">Informations sur le projet :</s:String>
     <s:String x:Key="String_CreationDateColon">Date de création :</s:String>
     <s:String x:Key="String_CreatedByColon">Créé par :</s:String>
-    <s:String x:Key="String_LastSavedAtColon">Dernier enregistrement à :</s:String>
+    <s:String x:Key="String_LastSavedAtColon">Enregistré le :</s:String>
     <s:String x:Key="String_ByColon">Par :</s:String>
     <s:String x:Key="String_TestProfile">Profil de test :</s:String>
-    <s:String x:Key="String_TestProfileDescription">Profil de test contient des variables d’environnement de test, informations d’identification et de défaut d’essai données pour la simulation de service. Pour configurer facilement le profil de test, vous pouvez aller dans les paramètres d’essai et exporter votre profil actuel.</s:String>
+    <s:String x:Key="String_TestProfileDescription">Le profil de test contient des variables d'environnement, des informations d'identification et des données de test par défaut pour la simulation de service. Pour configurer facilement le profil de test, vous pouvez accéder aux paramètres de test et exporter votre profil actuel.</s:String>
     <s:String x:Key="String_UseActiveProfile">Utiliser le profil actif</s:String>
     <s:String x:Key="String_UseActiveProfileTooltip">Utilisez votre profil de test actuel de Manual Test Runner</s:String>
     <s:String x:Key="String_LoadProfile">Profil de charge</s:String>
@@ -684,12 +684,12 @@ Par exemple, vous pouvez avoir un ensemble de services Web pour la gestion de la
     <s:String x:Key="String_EditProfileTooltip">Modifier le profil de test actuel</s:String>
     <s:String x:Key="String_ListTestSuitsColon">Liste des suites de tests :</s:String>
     <s:String x:Key="String_TestSuite">Suite de tests</s:String>
-    <s:String x:Key="String_CountTests"># Essais</s:String>
-    <s:String x:Key="String_SaveAutomatedTestReport">Enregistrer le procès-verbal d’essai automatisé</s:String>
+    <s:String x:Key="String_CountTests"># Tests</s:String>
+    <s:String x:Key="String_SaveAutomatedTestReport">Enregistrer le rapport d’test automatisé</s:String>
     <s:String x:Key="String_ReportExported">Rapport exporté</s:String>
-    <s:String x:Key="String_ReportExportFailedColon">Échec du rapport à exporter : </s:String>
+    <s:String x:Key="String_ReportExportFailedColon">Rapport n’arrive pas à exporter : </s:String>
     <s:String x:Key="String_GeneratingReport">Génération de rapport</s:String>
-    <s:String x:Key="String_TestReport">Rapport d’essai</s:String>
+    <s:String x:Key="String_TestReport">Rapport d’test</s:String>
     <!-- ViewTestCase.xaml -->
     <s:String x:Key="String_TestConfiguration">Configuration de test</s:String>
     <s:String x:Key="String_ListTestSteps">Liste des étapes de Test</s:String>
@@ -708,34 +708,34 @@ Cette action ne peut pas être récupérée.</s:String>
     <s:String x:Key="String_TestSuiteConfiguration">Configuration de test Suite</s:String>
     <s:String x:Key="String_RemoveSelected">Supprimer certains</s:String>
     <s:String x:Key="String_RemoveAll">Supprimer tous les</s:String>
-    <s:String x:Key="String_Sort">Tri</s:String>
+    <s:String x:Key="String_Sort">Trier</s:String>
     <s:String x:Key="String_TestSuiteInformationColon">Informations de test de Suite :</s:String>
     <s:String x:Key="String_ListTestCasesColon">Liste des scénarios de Test</s:String>
     <!-- WindowEditAssertion.xaml -->
     <s:String x:Key="String_Assertion">Assertion</s:String>
     <s:String x:Key="String_Test">Test</s:String>
     <s:String x:Key="String_AssertionObjectNull">Objet de l’assertion ne peut pas être null</s:String>
-    <s:String x:Key="String_AssertionTestException">Unhandled exception levée lors de l’essai de l’affirmation : </s:String>
+    <s:String x:Key="String_AssertionTestException">Exception non gérée lors du test de l'assertion : </s:String>
     <!-- WindowEditExtractProperty.xaml -->
-    <s:String x:Key="String_EditPropertyExtraction">Modifier la propriété d’Extraction</s:String>
+    <s:String x:Key="String_EditPropertyExtraction">Modifier l’Extraction de propriétés</s:String>
     <s:String x:Key="String_PropertyNameColon">Nom de la propriété :</s:String>
-    <s:String x:Key="String_PathTypeColon">Type de chemin d’accès :</s:String>
-    <s:String x:Key="String_PathColon">Chemin d’accès :</s:String>
+    <s:String x:Key="String_PathTypeColon">Type de chemin :</s:String>
+    <s:String x:Key="String_PathColon">chemin :</s:String>
     <s:String x:Key="String_VariableNameColon">Nom de la variable</s:String>
     <s:String x:Key="String_CurrentValue">Valeur actuelle</s:String>
-    <s:String x:Key="String_GetCurrentValue">Cliquez sur évaluer pour obtenir la valeur de la configuration actuelle</s:String>
+    <s:String x:Key="String_GetCurrentValue">Cliquez sur Evaluer pour obtenir la valeur de la configuration actuelle</s:String>
     <s:String x:Key="String_Evaluate">Évaluer</s:String>
     <!-- XPathValidatorAssertionEditor.xaml -->
     <s:String x:Key="String_XPathExpression">Expression XPath</s:String>
     <!-- ExtractPropertyTestStepEditor.xaml -->
-    <s:String x:Key="String_SelectedExtractPropertyDeleted">Propriété d’extraire sélectionnée a été supprimée, cliquez ici pour récupérer.</s:String>
+    <s:String x:Key="String_SelectedExtractPropertyDeleted">L’Extraction de propriétés sélectionnée a été supprimée, cliquez ici pour récupérer.</s:String>
     <s:String x:Key="String_ExtractProperty">Extraire la propriété</s:String>
-    <s:String x:Key="String_RunThisStep">Exécutez cette étape</s:String>
+    <s:String x:Key="String_RunThisStep">Exécuter cette étape</s:String>
     <s:String x:Key="String_AddPropertyExtraction">Ajouter l’Extraction de propriétés</s:String>
     <s:String x:Key="String_FromTestSuiteColon">De Suite de tests :</s:String>
     <s:String x:Key="String_VariableLevelColon">Niveau variable : </s:String>
     <s:String x:Key="String_PropertyNameU">NOM DE LA PROPRIÉTÉ</s:String>
-    <s:String x:Key="String_PathTypeU">CHEMIN D’ACCÈS TYPE</s:String>
-    <s:String x:Key="String_PathU">CHEMIN D’ACCÈS</s:String>
+    <s:String x:Key="String_PathTypeU">chemin TYPE</s:String>
+    <s:String x:Key="String_PathU">chemin</s:String>
     <s:String x:Key="String_VariableU">VARIABLE</s:String>
 </ResourceDictionary>

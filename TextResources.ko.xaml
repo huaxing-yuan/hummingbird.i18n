@@ -217,8 +217,8 @@ If 그들은 오류가 발생할 것입니다.</s:String>
     <s:String x:Key="String_GenerationFailedMessage">프로젝트 파일 생성 하는 동안 오류가 있다.</s:String>
     <s:String x:Key="String_ChooseLocationProjectFiles">프로젝트 파일을 저장할 위치 선택</s:String>
     <s:String x:Key="String_ProjectGenerated">프로젝트 생성 되었습니다.</s:String>
-    <s:String x:Key="String_CannotGenerateSolution">생성 솔루션을 수 없습니다.</s:String>
-    <s:String x:Key="String_CannotGenerateSolutionMessage">솔루션 파일을 생성할 때 "오류가 발생 했습니다."</s:String>
+    <s:String x:Key="String_CannotGenerateSolution">솔루션을 생성할 수 없습니다.</s:String>
+    <s:String x:Key="String_CannotGenerateSolutionMessage">솔루션 파일을 생성할 때 오류가 발생 했습니다.</s:String>
     <s:String x:Key="String_ProjectGenerationCancelled">솔루션 생성 취소 되었습니다.</s:String>
     <!-- ExtensionDesigner\ViewServiceEndpoint.xaml -->
     <s:String x:Key="String_EndpointNameColon">끝점 이름:</s:String>
@@ -366,7 +366,7 @@ Do 벌 새를 지금 다시 시작 하 시겠습니까 제거 하 벌 새를 다
     <s:String x:Key="String_XMessages">({0} 메시지)</s:String>
     <s:String x:Key="String_RenameMessage">이 메시지를 이름 바꾸기</s:String>
     <s:String x:Key="String_ShowRequestAsObject">요청 개체 표시</s:String>
-    <s:String x:Key="String_ShowReponseAsObject">개체로 표시 응답</s:String>
+    <s:String x:Key="String_ShowResponseAsObject">개체로 표시 응답</s:String>
     <s:String x:Key="String_DeleteSelectedMessages">선택한 메시지를 삭제</s:String>
     <s:String x:Key="String_ConfirmStatisticReset">통계 재설정 확인</s:String>
     <s:String x:Key="String_ConfirmStatisticResetMessage">모든 통계는 제거 되 고 복구할 수, 어쨌든 통계를 다시 설정 하 시겠습니까?</s:String>
@@ -528,7 +528,7 @@ Do 벌 새를 지금 다시 시작 하 시겠습니까 제거 하 벌 새를 다
     <s:String x:Key="String_ServiceCategoryU">서비스 카테고리</s:String>
     <!-- ExtensionDesigner\ViewServiceCategory.xaml -->
     <s:String x:Key="String_ServiceCategory">서비스 카테고리</s:String>
-    <s:String x:Key="String_ServiceCategoryTooltip">서비스 카테고리 같은 제안에 대 한 웹 서비스의 집합을 보유 하고있다. 
+    <s:String x:Key="String_ServiceCategoryTooltip">서비스 카테고리 같은 제안의 웹 서비스의 집합을 보유 하고있다. 
 예를 들어 고객 관리, 고객 만들기, 수정 및 삭제 3 웹 서비스를 포함 한 웹 서비스의 집합을 가질 수 있습니다.</s:String>
     <s:String x:Key="String_CategoryNameColon">범주 이름:</s:String>
     <s:String x:Key="String_ServicesIncluded">이 범주에 포함 된 서비스</s:String>
@@ -562,7 +562,7 @@ Do 벌 새를 지금 다시 시작 하 시겠습니까 제거 하 벌 새를 다
     <s:String x:Key="String_ArgumentsColon">인수:</s:String>
     <s:String x:Key="String_WorkingDirectoryColon">작업 디렉터리:</s:String>
     <s:String x:Key="String_TimeoutColon">시간 제한:</s:String>
-    <s:String x:Key="String_TimeoutMessage">최대 수의 시간 초에서 기다릴 것 이다 프로세스가 존재할 때까지.</s:String>
+    <s:String x:Key="String_TimeoutMessage">최대 수의 시간 초에서 기다릴 것 이다 프로세스 시간이 초과 될 때까지.</s:String>
     <s:String x:Key="String_FailOnErrorStreamColon">오류 스트림에 실패:</s:String>
     <s:String x:Key="String_FailOnErrorStreamChecked">오류 스트림에 아무것도 작성 한 경우 테스트 단계를 실패 것입니다.</s:String>
     <s:String x:Key="String_FailOnErrorStreamUnchecked">테스트 단계 오류 스트림에 아무것도 작성 한 경우 실패로 표시 되지 것입니다.</s:String>
@@ -591,7 +591,7 @@ Do 벌 새를 지금 다시 시작 하 시겠습니까 제거 하 벌 새를 다
     <s:String x:Key="String_PathExpression">경로 식</s:String>
     <s:String x:Key="String_ExpectedResult">예상된 결과</s:String>
     <s:String x:Key="String_ResultColon">결과:</s:String>
-    <s:String x:Key="String_UseCurrent">전류를 사용 하 여</s:String>
+    <s:String x:Key="String_UseCurrent">현재 값을 사용 하 여</s:String>
     <s:String x:Key="String_UseCurrentTooltip">예상 값과 현재 값을 사용 합니다.</s:String>
     <s:String x:Key="String_UseCurrentReplaced">예상된 결과 현재 평가로 대체 됩니다.</s:String>
     <s:String x:Key="String_UseCurrentFailed">주장, 예상 결과 현재 결과 사용 하 여 실패를 평가 하는 동안 오류가 발생 했습니다.</s:String>
