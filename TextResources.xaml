@@ -282,6 +282,7 @@
 	<s:String x:Key="String_PreviewStubCode">Preview stub code</s:String>
 	<s:String x:Key="String_AnalysisResults">Analysis results</s:String>
 	<s:String x:Key="String_LevelU">LEVEL</s:String>
+    <s:String x:Key="String_ContentU">CONTENT</s:String>
 	<s:String x:Key="String_ErrorAnalysingWebService">Error occurred when analyzing the Web Service</s:String>
 	<s:String x:Key="String_ImportedWithWarnings">Imported with warnings, please see the result below.</s:String>
 	<s:String x:Key="String_WsdlImportedSuccessfully">The WSDL is analyzed and imported successfully</s:String>

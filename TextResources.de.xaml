@@ -256,6 +256,7 @@ If sie in Anfragen, Antworten oder Automatisierungs-Skripte, referenziert werden
     <s:String x:Key="String_PreviewStubCode">Vorschau-Stub-code</s:String>
     <s:String x:Key="String_AnalysisResults">Analyse-Ergebnisse</s:String>
     <s:String x:Key="String_LevelU">EBENE</s:String>
+    <s:String x:Key="String_ContentU">INHALT</s:String>
     <s:String x:Key="String_ErrorAnalysingWebService">Fehler bei der Analyse der Web-Service</s:String>
     <s:String x:Key="String_ImportedWithWarnings">Finden Sie mit Warnungen importiert, das Ergebnis unten.</s:String>
     <s:String x:Key="String_WsdlImportedSuccessfully">Die WSDL-Datei analysiert und erfolgreich importiert</s:String>

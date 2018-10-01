@@ -252,6 +252,7 @@
     <s:String x:Key="String_PreviewStubCode">預覽存根代碼</s:String>
     <s:String x:Key="String_AnalysisResults">分析結果</s:String>
     <s:String x:Key="String_LevelU">水準</s:String>
+    <s:String x:Key="String_ContentU">內容</s:String>
     <s:String x:Key="String_ErrorAnalysingWebService">分析 Web 服務時出錯</s:String>
     <s:String x:Key="String_ImportedWithWarnings">導入時有警告, 請參閱下面的結果。</s:String>
     <s:String x:Key="String_WsdlImportedSuccessfully">分析並成功導入 WSDL</s:String>

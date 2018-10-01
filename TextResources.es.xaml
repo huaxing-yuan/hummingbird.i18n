@@ -256,6 +256,7 @@ If que se hace referencia en las solicitudes, respuestas o secuencias de comando
     <s:String x:Key="String_PreviewStubCode">Escuchar trozo código</s:String>
     <s:String x:Key="String_AnalysisResults">Resultados del análisis</s:String>
     <s:String x:Key="String_LevelU">NIVEL</s:String>
+    <s:String x:Key="String_ContentU">CONTENIDO</s:String>
     <s:String x:Key="String_ErrorAnalysingWebService">Error al analizar el servicio Web</s:String>
     <s:String x:Key="String_ImportedWithWarnings">Importados con advertencias, por favor vea el resultado más abajo.</s:String>
     <s:String x:Key="String_WsdlImportedSuccessfully">El WSDL es analizado e importado con éxito</s:String>

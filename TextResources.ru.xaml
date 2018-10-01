@@ -256,6 +256,7 @@ If они упоминаются в запросы, ответы или сцен
     <s:String x:Key="String_PreviewStubCode">Просмотр кода заглушки</s:String>
     <s:String x:Key="String_AnalysisResults">Результаты анализа</s:String>
     <s:String x:Key="String_LevelU">УРОВЕНЬ</s:String>
+    <s:String x:Key="String_ContentU">СОДЕРЖАНИЕ</s:String>
     <s:String x:Key="String_ErrorAnalysingWebService">Произошла ошибка при анализе веб-службы</s:String>
     <s:String x:Key="String_ImportedWithWarnings">Импортированные с предупреждениями, смотрите результаты ниже.</s:String>
     <s:String x:Key="String_WsdlImportedSuccessfully">WSDL-код анализируется и успешно импортирован</s:String>

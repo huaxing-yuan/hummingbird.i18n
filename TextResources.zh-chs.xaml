@@ -252,6 +252,7 @@
     <s:String x:Key="String_PreviewStubCode">预览 Stub 代码</s:String>
     <s:String x:Key="String_AnalysisResults">分析结果</s:String>
     <s:String x:Key="String_LevelU">级别</s:String>
+    <s:String x:Key="String_ContentU">内容</s:String>
     <s:String x:Key="String_ErrorAnalysingWebService">分析 Web 服务时出错</s:String>
     <s:String x:Key="String_ImportedWithWarnings">导入时有警告, 请参阅下面的结果。</s:String>
     <s:String x:Key="String_WsdlImportedSuccessfully">分析并成功导入 WSDL</s:String>

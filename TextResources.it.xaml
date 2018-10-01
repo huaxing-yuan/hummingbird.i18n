@@ -256,6 +256,7 @@ If citati in richieste, risposte o script di automazione, si verificheranno erro
     <s:String x:Key="String_PreviewStubCode">Anteprima codice stub</s:String>
     <s:String x:Key="String_AnalysisResults">Risultati dell'analisi</s:String>
     <s:String x:Key="String_LevelU">LIVELLO</s:String>
+    <s:String x:Key="String_ContentU">CONTENUTO</s:String>
     <s:String x:Key="String_ErrorAnalysingWebService">Errore durante l'analisi del servizio Web</s:String>
     <s:String x:Key="String_ImportedWithWarnings">Importate con avvisi, vedere il risultato qui sotto.</s:String>
     <s:String x:Key="String_WsdlImportedSuccessfully">Il WSDL è analizzato e importato con successo</s:String>

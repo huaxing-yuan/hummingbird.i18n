@@ -255,6 +255,7 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_PreviewStubCode">プレビュー スタブ コード</s:String>
     <s:String x:Key="String_AnalysisResults">分析結果</s:String>
     <s:String x:Key="String_LevelU">レベル</s:String>
+    <s:String x:Key="String_ContentU">コンテンツ</s:String>
     <s:String x:Key="String_ErrorAnalysingWebService">Web サービスを分析する際にエラーが発生しました</s:String>
     <s:String x:Key="String_ImportedWithWarnings">警告をインポートすると、結果は以下をご覧ください。</s:String>
     <s:String x:Key="String_WsdlImportedSuccessfully">WSDL を分析し、正常にインポート</s:String>

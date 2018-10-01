@@ -257,6 +257,7 @@ Si les variables sont référencés dans les requêtes, les réponses ou les scr
     <s:String x:Key="String_PreviewStubCode">Aperçu du code bouchon</s:String>
     <s:String x:Key="String_AnalysisResults">Résultats de l’analyse</s:String>
     <s:String x:Key="String_LevelU">NIVEAU</s:String>
+    <s:String x:Key="String_ContentU">CONTENU</s:String>
     <s:String x:Key="String_ErrorAnalysingWebService">Erreur s’est produite lors de l’analyse du Service Web</s:String>
     <s:String x:Key="String_ImportedWithWarnings">Importé des avertissements, s’il vous plaît voir le résultat ci-dessous.</s:String>
     <s:String x:Key="String_WsdlImportedSuccessfully">Le WSDL est analysé et importé avec succès</s:String>

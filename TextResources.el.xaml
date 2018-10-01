@@ -256,6 +256,7 @@ If που αναφέρονται στις αιτήσεις, απαντήσεις
     <s:String x:Key="String_PreviewStubCode">Προεπισκόπηση αποκόμματος κώδικα</s:String>
     <s:String x:Key="String_AnalysisResults">Αποτελέσματα της ανάλυσης</s:String>
     <s:String x:Key="String_LevelU">ΕΠΊΠΕΔΟ</s:String>
+    <s:String x:Key="String_ContentU">ΠΕΡΙΕΧΌΜΕΝΟ</s:String>
     <s:String x:Key="String_ErrorAnalysingWebService">Παρουσιάστηκε σφάλμα κατά την ανάλυση της υπηρεσίας Web</s:String>
     <s:String x:Key="String_ImportedWithWarnings">Εισάγονται με τις προειδοποιήσεις, παρακαλώ δείτε το παρακάτω αποτέλεσμα.</s:String>
     <s:String x:Key="String_WsdlImportedSuccessfully">WSDL αναλύεται και εισάγονται με επιτυχία</s:String>
