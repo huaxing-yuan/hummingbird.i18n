@@ -294,6 +294,7 @@ Si les variables sont référencés dans les requêtes, les réponses ou les scr
     <!-- HOME -->
     <s:String x:Key="String_Welcome">Bienvenue</s:String>
     <s:String x:Key="String_WatchIntroductionVideo">Visualiser le vidéo d'introduction:</s:String>
+    <s:String x:Key="String_WhatsNew">Quoi de neuf</s:String>
     <s:String x:Key="String_ComingNext">Que vient-il ensuite?</s:String>
     <s:String x:Key="String_LetsGetStarted">Commençons-nous</s:String>
     <s:String x:Key="String_RecentActivities">Activités récentes</s:String>

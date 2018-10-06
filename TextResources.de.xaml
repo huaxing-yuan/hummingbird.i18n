@@ -292,6 +292,7 @@ If sie in Anfragen, Antworten oder Automatisierungs-Skripte, referenziert werden
     <!-- HOME -->
     <s:String x:Key="String_Welcome">Herzlich Willkommen</s:String>
     <s:String x:Key="String_WatchIntroductionVideo">Sehen Sie sich das Einführungsvideo:</s:String>
+    <s:String x:Key="String_WhatsNew">Was gibt es neues</s:String>
     <s:String x:Key="String_ComingNext">Was kommt als nächstes?</s:String>
     <s:String x:Key="String_LetsGetStarted">Fangen wir an</s:String>
     <s:String x:Key="String_RecentActivities">Community-Aktivitäten</s:String>

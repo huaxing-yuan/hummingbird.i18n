@@ -292,6 +292,7 @@ If они упоминаются в запросы, ответы или сцен
     <!-- HOME -->
     <s:String x:Key="String_Welcome">Добро пожаловать</s:String>
     <s:String x:Key="String_WatchIntroductionVideo">Смотрите видео:</s:String>
+    <s:String x:Key="String_WhatsNew">Что нового</s:String>
     <s:String x:Key="String_ComingNext">Что будет дальше?</s:String>
     <s:String x:Key="String_LetsGetStarted">Давайте начнем</s:String>
     <s:String x:Key="String_RecentActivities">Недавние мероприятия</s:String>

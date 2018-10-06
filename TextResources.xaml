@@ -326,6 +326,7 @@
     <!-- HOME -->
     <s:String x:Key="String_Welcome">Welcome</s:String>
     <s:String x:Key="String_WatchIntroductionVideo">Watch the introduction video:</s:String>
+    <s:String x:Key="String_WhatsNew">What's new</s:String>
     <s:String x:Key="String_ComingNext">What's coming next?</s:String>
     <s:String x:Key="String_LetsGetStarted">Let's get started</s:String>
     <s:String x:Key="String_RecentActivities">Recent activities</s:String>

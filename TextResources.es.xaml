@@ -292,6 +292,7 @@ If que se hace referencia en las solicitudes, respuestas o secuencias de comando
     <!-- HOME -->
     <s:String x:Key="String_Welcome">Bienvenida</s:String>
     <s:String x:Key="String_WatchIntroductionVideo">Ver el video de introducción:</s:String>
+    <s:String x:Key="String_WhatsNew">Cuál es nuevo</s:String>
     <s:String x:Key="String_ComingNext">¿Lo que viene próximo?</s:String>
     <s:String x:Key="String_LetsGetStarted">Vamos a empezar</s:String>
     <s:String x:Key="String_RecentActivities">Actividades recientes</s:String>

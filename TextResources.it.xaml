@@ -292,6 +292,7 @@ If citati in richieste, risposte o script di automazione, si verificheranno erro
     <!-- HOME -->
     <s:String x:Key="String_Welcome">Benvenuto</s:String>
     <s:String x:Key="String_WatchIntroductionVideo">Guarda il video di introduzione:</s:String>
+    <s:String x:Key="String_WhatsNew">What's new</s:String>
     <s:String x:Key="String_ComingNext">Che cosa ci aspetta?</s:String>
     <s:String x:Key="String_LetsGetStarted">Iniziamo</s:String>
     <s:String x:Key="String_RecentActivities">Attività recenti</s:String>

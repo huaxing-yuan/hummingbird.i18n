@@ -289,6 +289,7 @@
     <!-- HOME -->
     <s:String x:Key="String_Welcome">歡迎</s:String>
     <s:String x:Key="String_WatchIntroductionVideo">觀看介紹視頻:</s:String>
+    <s:String x:Key="String_WhatsNew">最新內容</s:String>
     <s:String x:Key="String_ComingNext">接下來會發生什麼？</s:String>
     <s:String x:Key="String_LetsGetStarted">讓我們開始吧</s:String>
     <s:String x:Key="String_RecentActivities">最近的活動</s:String>

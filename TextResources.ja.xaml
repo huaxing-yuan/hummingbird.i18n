@@ -291,6 +291,7 @@ If エラーが発生します。</s:String>
     <!-- HOME -->
     <s:String x:Key="String_Welcome">ようこそ</s:String>
     <s:String x:Key="String_WatchIntroductionVideo">紹介ビデオを見る。</s:String>
+    <s:String x:Key="String_WhatsNew">ホワッツ ニュー</s:String>
     <s:String x:Key="String_ComingNext">次に何が来るか。</s:String>
     <s:String x:Key="String_LetsGetStarted">さあ、始めましょう</s:String>
     <s:String x:Key="String_RecentActivities">最近の活動</s:String>

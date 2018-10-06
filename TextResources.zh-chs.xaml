@@ -288,6 +288,7 @@
     <!-- HOME -->
     <s:String x:Key="String_Welcome">欢迎</s:String>
     <s:String x:Key="String_WatchIntroductionVideo">浏览介绍视频:</s:String>
+    <s:String x:Key="String_WhatsNew">最新内容</s:String>
     <s:String x:Key="String_ComingNext">即将推出</s:String>
     <s:String x:Key="String_LetsGetStarted">让我们开始吧</s:String>
     <s:String x:Key="String_RecentActivities">最近的活动</s:String>

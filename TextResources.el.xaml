@@ -292,6 +292,7 @@ If που αναφέρονται στις αιτήσεις, απαντήσεις
     <!-- HOME -->
     <s:String x:Key="String_Welcome">Καλώς όρισες</s:String>
     <s:String x:Key="String_WatchIntroductionVideo">Δείτε το εισαγωγικό βίντεο:</s:String>
+    <s:String x:Key="String_WhatsNew">Τι νέο υπάρχει</s:String>
     <s:String x:Key="String_ComingNext">Τι έρχεται στη συνέχεια;</s:String>
     <s:String x:Key="String_LetsGetStarted">Ας ξεκινήσουμε</s:String>
     <s:String x:Key="String_RecentActivities">Πρόσφατες δραστηριότητες</s:String>

@@ -292,6 +292,7 @@ If 그들은 오류가 발생할 것입니다.</s:String>
     <!-- HOME -->
     <s:String x:Key="String_Welcome">환영 합니다</s:String>
     <s:String x:Key="String_WatchIntroductionVideo">소개 동영상:</s:String>
+    <s:String x:Key="String_WhatsNew">새로운</s:String>
     <s:String x:Key="String_ComingNext">어찌 다음?</s:String>
     <s:String x:Key="String_LetsGetStarted">시작 하자</s:String>
     <s:String x:Key="String_RecentActivities">최근 활동</s:String>
