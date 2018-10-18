@@ -74,6 +74,7 @@
     <s:String x:Key="String_Services">Services</s:String>
     <s:String x:Key="String_SystemVariables">Vraiables du Système</s:String>
     <s:String x:Key="String_CustomVariables">Variables personnalisées</s:String>
+    <s:String x:Key="String_RuntimeVariables">Variables d’exécution</s:String>
     <s:String x:Key="String_Credentials">Informations d’identification</s:String>
     <s:String x:Key="String_MaxRequestPerService">Maximum de requêtes sauvegardées par service： </s:String>
     <s:String x:Key="String_MaxRequestPerServiceTooltip">Nombre maximal de requêtes par service peut être sauvegardé pour renvoyer rapidement. la valeur par défaut est 20.</s:String>
@@ -84,8 +85,8 @@
     <s:String x:Key="String_CloseAndShowOnDemande">Retourner à Test runner</s:String>
     <s:String x:Key="String_AuthenticationU">AUTHENTIFICATION</s:String>
     <s:String x:Key="String_ErrorParsingParameterX">Erreur lors de l’analyse de paramètre « {0} »</s:String>
-    <s:String x:Key="String_ErrorParsingParameterDetails">Service {0}, Paramètre {1} : 
- Valeur « {2} » n’est pas valide pour le type « {3} »</s:String>
+    <s:String x:Key="String_ErrorParsingParameterDetails"><![CDATA[Service : {0}, le paramètre {1}
+ Valeur « {2} » n’est pas valide pour le type « {3} »]]></s:String>
     <s:String x:Key="String_ResetToDefaultValue">Réinitialiser à sa valeur par défaut</s:String>
     <s:String x:Key="String_BrowseDot">Parcourir...</s:String>
     <s:String x:Key="String_FindFileForX">Rechercher un fichier pour {0}</s:String>
@@ -102,13 +103,11 @@
     <s:String x:Key="String_SystemVariableExists">Vous avez déjà une variable système du même nom.</s:String>
     <s:String x:Key="String_NotAValidVariableName">Le nom d’entrée est un nom de variable non valid.</s:String>
     <s:String x:Key="String_ClearEnvironmentVariables">Vider les variables d’environnement</s:String>
-    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">Cette opération ne peut pas être restauré, voulez-vous vider toutes les variables d’environnement ? 
-Si les variables sont référencés dans les requêtes, les réponses ou les scripts d’automatisation, vous allez rencontrer des erreurs.
-    </s:String>
+    <s:String x:Key="String_ClearEnvironmentVariablesQuestion"><![CDATA[Cette opération ne peut pas être récupéré, tu es sûr effacer toutes les variables d’environnement ?
+ Si elles sont référencées dans les demandes, des réponses ou des scripts d’automatisation, qu’ils rencontreront des erreurs.]]></s:String>
     <s:String x:Key="String_DeleteEnvironmentVariables">Supprimer les variables d’environnement</s:String>
-    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">Cette opération ne peut pas être restauré, voulez-vous supprimer les variables d’environnement selectionnés? 
-Si les variables sont référencés dans les requêtes, les réponses ou les scripts d’automatisation, vous allez rencontrer des erreurs.
-    </s:String>
+    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion"><![CDATA[Cette opération ne peut pas être récupéré, êtes-vous sûr de supprimer les variables d’environnement sélectionnés ?
+ Si elles sont référencées dans les demandes, des réponses ou des scripts d’automatisation, qu’ils rencontreront des erreurs.]]></s:String>
     <s:String x:Key="String_CannotCopyEV">Ne peut pas copier</s:String>
     <s:String x:Key="String_CannotCopyEVTooltip">Il n’est pas possible de copier les valeurs de l’environnement lui-même, s’il vous plaît sélectionner un autre environnement.</s:String>
     <s:String x:Key="String_EnterUserName">Entrez le nom d’utilisateur</s:String>
@@ -134,8 +133,8 @@ Si les variables sont référencés dans les requêtes, les réponses ou les scr
     <s:String x:Key="String_ObjectTypeNull">&lt;!--Le type d’objet est null. Cette requête n’a pas de paramètre --&gt;</s:String>
     <s:String x:Key="String_ObjectCannotSerialized">Cet objet ne peut pas être désérialisé, vous pouvez uniquement editer l’objet via Tree View</s:String>
     <s:String x:Key="String_InvalidOperation">Opération non valide</s:String>
-    <s:String x:Key="String_ViewNotSupportDeserialization">Le visualiseur actif ne supporte pas la désérialisation, vous pouvez uniquement modifier l’objet via Tree View. 
- Si vous souhaitez modifier l’objet en modifiant le texte, veuillez utiliser la vue XML.</s:String>
+    <s:String x:Key="String_ViewNotSupportDeserialization"><![CDATA[Le visualiseur actif ne supporte pas la désérialisation, vous pouvez modifier le contrôle TreeView pour modifier l’objet.
+ Si vous souhaitez modifier l’objet en modifiant le texte, veuillez choisir la vue XML.]]></s:String>
     <s:String x:Key="String_DeserializationErrorMessage">Erreur de désérialisation - Impossible de désérialiser le message du texte. « {0} » (cliquez ici pour plus de détails)</s:String>
     <s:String x:Key="String_DetailedTechnicalError">Erreur technique détaillée : </s:String>
     <s:String x:Key="String_UnableToParseXml">Impossible d’analyser le code XML : 
@@ -221,6 +220,7 @@ Si les variables sont référencés dans les requêtes, les réponses ou les scr
     <s:String x:Key="String_CannotGenerateSolution">Ne peut pas solution generat</s:String>
     <s:String x:Key="String_CannotGenerateSolutionMessage">Une erreur s’est produite lors de la génération du fichier solution.</s:String>
     <s:String x:Key="String_ProjectGenerationCancelled">Génération de la solution a été annulée.</s:String>
+    <s:String x:Key="String_ExtensionCanBeUsedNow">L’extension peut être utilisée maintenant mais il sera installé au prochain redémarrage parce qu’il y a déjà une version antérieure.</s:String>
     <!-- ExtensionDesigner\ViewServiceEndpoint.xaml -->
     <s:String x:Key="String_EndpointNameColon">Endpoint :</s:String>
     <s:String x:Key="String_BindingColon">Binding :</s:String>
@@ -319,8 +319,8 @@ Si les variables sont référencés dans les requêtes, les réponses ou les scr
     <s:String x:Key="String_TestFrameworkDocumentation">Documentation de Test Framework</s:String>
     <s:String x:Key="String_ReportBugsSuggestions">Rapporter des bugs / suggestions</s:String>
     <s:String x:Key="String_LanguageChanged">Langue a changé</s:String>
-    <s:String x:Key="String_LanauageChangedQuestion">Vous avez changé la langue préférée. Hummingbird doit être redémarré pour faire des changements efficaces. 
-Do que vous souhaitez redémarrer Hummingbird maintenant ?</s:String>
+    <s:String x:Key="String_LanauageChangedQuestion"><![CDATA[Vous avez changé votre langue préférée. Hummingbird doit être redémarré pour apporter des modifications efficaces.
+ Voulez-vous redémarrer maintenant les Hummingbirds ?]]></s:String>
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">Désinstaller</s:String>
     <s:String x:Key="String_InstallAnExtension">Installez une Extension</s:String>
@@ -334,10 +334,25 @@ Do que vous souhaitez redémarrer Hummingbird maintenant ?</s:String>
     <s:String x:Key="String_ConfirmExtensionUninstall">Confirmer la désinstallation de l’extension</s:String>
     <s:String x:Key="String_ConfirmExtensionUninstallQuestion">Êtes-vous sûr de désinstaller l’extension « {0} »</s:String>
     <s:String x:Key="String_RestartRequired">Redémarrage requis</s:String>
-    <s:String x:Key="String_RestartRequiredExtensionQuestion">Vous devez redémarrer le Hummingbird pour désinstaller l’extension. 
-Souhaitez-vous redémarrer Hummingbird maintenant ?</s:String>
+    <s:String x:Key="String_RestartRequiredExtensionQuestion"><![CDATA[Vous devez redémarrer le Hummingbird pour désinstaller l’extension sélectionné.
+ Voulez-vous redémarrer maintenant les Hummingbirds ?]]></s:String>
     <s:String x:Key="String_Enabled">Activé</s:String>
     <s:String x:Key="String_Disabled">Désactivé</s:String>
+    <!-- ViewInstallExtension -->
+    <s:String x:Key="String_InstallExtensionFromLocalStorage">Installez une Extension de stockage local</s:String>
+    <s:String x:Key="String_ExtensionPackageZip">Paquet d’extension (*.zip) : </s:String>
+    <s:String x:Key="String_WarningBeforeInstallExtension"><![CDATA[AVERTISSEMENT : Si vous travaillez dans une organisation, assurez-vous que l’extension est fournie par une source fiable. Les extensions de source inconnue peuvent contenir du code malveillant qui va faire mal à votre ordinateur.
+Pour assurer la sécurité, toujours obtenir les extensions du site officiel de Hummingbird Test Manager, personnes en charge de votre organisation, ou les extensions créées par votre équipe.]]></s:String>
+    <s:String x:Key="String_InstallThisExtension">Installer cette Extension</s:String>
+    <s:String x:Key="String_GivenFileIsNotValidExtensionPackage">Le fichier n’est pas un Package d’Extension valide de Hummingbird.</s:String>
+    <s:String x:Key="String_ExtensionUpdate">Mise à jour de l’extension</s:String>
+    <s:String x:Key="String_ExtensionUpdateContent">Version {0} de l’Extension « {1} » a été installé, vous souhaitez le remplacer par celui-ci : {2} ?</s:String>
+    <s:String x:Key="String_RestartRequiredInstallExtensionQuestion"><![CDATA[Vous devez redémarrer le Hummingbird pour installer l’extension.
+Voulez-vous redémarrer maintenant les Hummingbirds ?]]></s:String>
+    <s:String x:Key="String_InstallationFailed">Échoué de l’installation.</s:String>
+    <s:String x:Key="String_InstallationFailedExtensionContent">Une erreur s’est produite lors de l’installation de l’extension, veuillez consulter le journal système pour afficher des messages d’erreur détaillés.</s:String>
+    <s:String x:Key="String_ExtensionInstalledAndLoaded">L’extension est installée et peut être utilisée maintenant.</s:String>
+    <s:String x:Key="String_OpenExtension">Ouvrir un volet</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">Testeur manuel</s:String>
     <s:String x:Key="String_VirtualServices">Services virtualisés</s:String>
@@ -487,8 +502,8 @@ Souhaitez-vous redémarrer Hummingbird maintenant ?</s:String>
     <!-- ViewExtensionDesigner -->
     <s:String x:Key="String_DesignerTooltip">Dans le framework de Test de Hummingbird, les Services sont organisés en 3 niveaux. Veuillez organiser les services aussi naturels que possible au sein de votre organisation.</s:String>
     <s:String x:Key="String_DesignerApplicationTooltip">Lorsqu’il est utilisé en tant que Injecteur, le nom du système à tester. En tant que Bouchon, le nom de l’application qui simule le Hummingbird.</s:String>
-    <s:String x:Key="String_DesignerCategoryTooltip">Catégorie fonctionnelle des services. 
- Par exemple : tous les services pour ajouter, modifier ou supprimer un client peut être organisés dans la catégorie [Customer Management].</s:String>
+    <s:String x:Key="String_DesignerCategoryTooltip"><![CDATA[Catégorie fonctionnelle des services. 
+ Par exemple : tous les services du client en ajoutant, modifiant, supprimant peut être organisée dans la catégorie [Customer Management].]]></s:String>
     <s:String x:Key="String_DesignerServiceTooltip">Le nom du service. Pour les services SOAP, il représente un objet de liaison, il a un point de terminaison peut contenir une ou plusieurs opérations</s:String>
     <s:String x:Key="String_SaveAs">Enregistrer en tant que</s:String>
     <s:String x:Key="String_Close">Fermer</s:String>
@@ -496,6 +511,47 @@ Souhaitez-vous redémarrer Hummingbird maintenant ?</s:String>
     <s:String x:Key="String_CreateNewExtensionProject">Créez un nouveau projet d’extension de service</s:String>
     <s:String x:Key="String_LearnMoreExtensionDesigner">En savoir plus sur le concepteur d’extension de service</s:String>
     <s:String x:Key="String_OtherWaysToExtent">Autres moyens de mesure votre capacité</s:String>
+    <s:String x:Key="String_NewProjectNeverSaved">* nouveau projet, n’a jamais été enregistré.</s:String>
+    <!-- ViewExtensionDesigner.xaml.cs -->
+    <s:String x:Key="String_PleaseFixIssues">S’il vous plaît corriger les problèmes</s:String>
+    <s:String x:Key="String_PleaseFixIssuesContent">Il y a des erreurs sur la configuration, s’il vous plaît le réparer avant de changer pour une autre vue</s:String>
+    <s:String x:Key="String_DeleteThisService">Supprimer ce Service</s:String>
+    <s:String x:Key="String_CategoryHasSubItems">Cette catégorie a sous éléments</s:String>
+    <s:String x:Key="String_CategoryHasSubItemsContent">Vous supprimez cette catégorie de service qui contient un ou plusieurs services, voulez-vous vraiment supprimer cette catégorie de Service de toute façon ?</s:String>
+    <s:String x:Key="String_Rename">Changement de nom</s:String>
+    <s:String x:Key="String_ChangeServiceName">Changement de nom de ce Service</s:String>
+    <s:String x:Key="String_ChangeServiceNameContent">Entrez une nouvelle valeur pour le Service choisi</s:String>
+    <s:String x:Key="String_AddSoapService">Ajouter un Service SOAP</s:String>
+    <s:String x:Key="String_MySoapService">Mon Service SOAP</s:String>
+    <s:String x:Key="String_DeleteThisCategory">Supprimer cette catégorie</s:String>
+    <s:String x:Key="String_ChangeCategoryName">Changement de nom de la catégorie de Service</s:String>
+    <s:String x:Key="String_ChangeCategoryNameContent">Entrez une nouvelle valeur pour la catégorie de Service sélectionné</s:String>
+    <s:String x:Key="String_AddServiceCategory">Ajouter une catégorie de Service</s:String>
+    <s:String x:Key="String_MyCategory">Ma catégorie</s:String>
+    <s:String x:Key="String_AddOpenAPICategory">Ajout d’une catégorie OpenAPI</s:String>
+    <s:String x:Key="String_DeleteThisApplication">Supprimer cette Application</s:String>
+    <s:String x:Key="String_ApplicationHasSubItems">Cette Application possède des éléments sub</s:String>
+    <s:String x:Key="String_ApplicationHasSubItemsContent">Vous supprimez cette application contenant une ou plusieurs catégories de services, \nDo vous voulez supprimer cette Application quelque sorte ?</s:String>
+    <s:String x:Key="String_ChangeNameOfApplication">Changement de nom d’application</s:String>
+    <s:String x:Key="String_AddAnApplication">Ajouter une Application</s:String>
+    <s:String x:Key="String_MyApplication">Ma demande</s:String>
+    <s:String x:Key="String_ChangeExtensionName">Changement de nom d’extension</s:String>
+    <s:String x:Key="String_ChangeExtensionNameContent">Entrez une nouvelle valeur pour l’Application sélectionnée</s:String>
+    <s:String x:Key="String_SaveCurrentProjectContent"><![CDATA[Votre projet actuel n’a pas encore enregistré, vous souhaitez l’enregistrer maintenant ?
+Oui : Enregistrer le projet actuel et créer le nouveau projet.
+NO : Abandonner le projet en cours et créer le nouveau projet.
+ANNULER : restez sur le projet en cours.]]></s:String>
+    <s:String x:Key="String_NewExtensionProject">Nouveau projet d’extension</s:String>
+    <s:String x:Key="String_ProjectSaved">Projet a été enregistré</s:String>
+    <s:String x:Key="String_SaveExtensionProject">Enregistrez le projet d’extension</s:String>
+    <s:String x:Key="String_ProjectXSaved">Projet « {0} » a été enregistré</s:String>
+    <s:String x:Key="String_ErrorSavingProject">Erreur d’enregistrement de projet</s:String>
+    <s:String x:Key="String_ErrorSavingProjectContent">Une erreur s’est produite lors de l’enregistrement du projet d’extension.</s:String>
+    <s:String x:Key="String_ErrorOpenProject">Ouvrir un projet erreur</s:String>
+    <s:String x:Key="String_ProjectFileXCannotFoundRemoveLink">Le fichier de projet « {0} » est introuvable, vous souhaitez retirer ce projet de la liste ?</s:String>
+    <s:String x:Key="String_CannotLoadProjectFromGivenFile">Ne peut pas charger le projet de donnée fichier.</s:String>
+    <s:String x:Key="String_CopyrightInfo">Copyright {0} nom de l’entreprise, tous droits réservés.</s:String>
+    <s:String x:Key="String_ProjectDataInvalid">Les données du projet ne sont pas valides. Assurez-vous que c’est un fichier de concepteur projet extension valide.</s:String>
     <s:String x:Key=" ">Validateur de XPath</s:String>
     <!-- WindowMessageViewer.xaml -->
     <s:String x:Key="String_MessageViewer">Visualiseur des messages</s:String>
@@ -503,6 +559,10 @@ Souhaitez-vous redémarrer Hummingbird maintenant ?</s:String>
     <s:String x:Key="String_Overview">Vue d’ensemble</s:String>
     <s:String x:Key="String_Request">Requête</s:String>
     <s:String x:Key="String_Response">Réponse</s:String>
+    <s:String x:Key="String_ErrorLoadMessageCMV">Message d’erreur chargement avec afficheur des messages personnalisés</s:String>
+    <s:String x:Key="String_ErrorLoadMessageCMVMessage"><![CDATA[Une erreur s’est produite lors de l’affichage de ce message à l’aide de la CustomMessageViewer : {0} de l’extension : {1}
+Pour plus de détails, veuillez communiquer avec le développeur de cette extension.
+Maintenant montrer le message avec l’afficheur par défaut.]]></s:String>
     <!-- WindowMultiLineEditor.xaml -->
     <s:String x:Key="String_Cancel">Annuler</s:String>
     <s:String x:Key="String_EditValueForX">Modification de valeur pour : {0}</s:String>
@@ -525,15 +585,16 @@ Souhaitez-vous redémarrer Hummingbird maintenant ?</s:String>
     <s:String x:Key="String_NoResultMatches">Il n’y a aucune résultat de votre recherche « {0} »</s:String>
     <!-- ExtensionDesigner\ViewApplication.xaml -->
     <s:String x:Key="String_Application">Application</s:String>
-    <s:String x:Key="String_ApplicationTooltip">Entrez un nom de l’Application : 
- Comme pilote, c’est le nom du système que vous mettent à l’essai, dans le talon, c’est le nom du système que vous souhaitez simuler.</s:String>
+    <s:String x:Key="String_ApplicationTooltip"><![CDATA[Entrez un nom de l’Application :
+Comme pilote, c’est le nom du système que vous mettent à l’essai, 
+Comme le talon, c’est le nom du système que vous souhaitez simuler.]]></s:String>
     <s:String x:Key="String_ApplicationNameColon">Nom de l’application :</s:String>
     <s:String x:Key="String_ServiceCategoriesIncluded">Catégories de services inclus dans la présente demande</s:String>
     <s:String x:Key="String_ServiceCategoryU">CATÉGORIE DE SERVICE</s:String>
     <!-- ExtensionDesigner\ViewServiceCategory.xaml -->
     <s:String x:Key="String_ServiceCategory">Catégorie de service</s:String>
-    <s:String x:Key="String_ServiceCategoryTooltip">La catégorie de service contient un ensemble de services Web de la même proposition 
- Par exemple, vous pouvez disposer d'un ensemble de services Web pour la gestion des clients, y compris 3 services Web pour la création, la modification et la suppression de clients.</s:String>
+    <s:String x:Key="String_ServiceCategoryTooltip"><![CDATA[Catégorie de service contient un ensemble de Services Web du proposer même. 
+Par exemple, vous pouvez avoir un ensemble de services Web pour la gestion de la clientèle, y compris 3 Web Services pour la création de clientèle, de rectification et de suppression.]]></s:String>
     <s:String x:Key="String_CategoryNameColon">Nom de la catégorie :</s:String>
     <s:String x:Key="String_ServicesIncluded">Services inclus dans cette catégorie</s:String>
     <s:String x:Key="String_ServicesU">SERVICES</s:String>
@@ -561,6 +622,30 @@ Souhaitez-vous redémarrer Hummingbird maintenant ?</s:String>
     <s:String x:Key="String_RequestSentTo">Requête envoyé à :</s:String>
     <s:String x:Key="String_ElapsedTime">Temps écoulé : </s:String>
     <s:String x:Key="String_ResponseColon">Réponse :</s:String>
+    <s:String x:Key="String_CannotSendRequest">Ne peut pas envoyé de demande</s:String>
+    <s:String x:Key="String_CannotSendRequestContent">La demande ne peut pas être envoyée, le service a renvoyé une erreur :</s:String>
+    <s:String x:Key="String_BeforeSendingChooseARequest">Avant l’envoi, choisissez une demande.</s:String>
+    <s:String x:Key="String_PreventSaving">Empêcher les économies</s:String>
+    <s:String x:Key="String_PreventSavingRequestMessage">Il y a quelques erreurs dans votre éditeur de requête, et il empêche les sauver. s’il vous plaît vérifier votre demande.</s:String>
+    <s:String x:Key="String_ChooseANameU">CHOISISSEZ UN NOM</s:String>
+    <s:String x:Key="String_RequestSavedAtColon"> demande enregistrée au :</s:String>
+    <s:String x:Key="String_BeforeSavingChooseARequest">Avant d’enregistrer, choisissez une demande.</s:String>
+    <s:String x:Key="String_PreventClosing">Empêcher la fermeture</s:String>
+    <s:String x:Key="String_PreventClosingRequestMessage">Il y a quelques erreurs dans votre éditeur de requête, et il empêche la fermeture. s’il vous plaît vérifier votre demande.</s:String>
+    <s:String x:Key="String_KeepFavoriteRequests">Conserver les requêtes favorites ?</s:String>
+    <s:String x:Key="String_KeepFavoriteRequestsMessage"><![CDATA[Vous sont effacer l’historique de la demande pour le service sélectionné, vous voulez garder vos requêtes favorites ?
+Oui : Garder les requêtes favorites.
+NO : Supprimer demande préféré.
+ANNULER : Ne supprimez pas n’importe quoi.]]></s:String>
+    <s:String x:Key="String_WarningUriFormat">AVERTISSEMENT - format d’Uri</s:String>
+    <s:String x:Key="String_WarningUriFormatMessage">Le UriTemplate de ce service « {0} » n’est pas bien formé Uri If Uri utilise des variables, s’il vous plaît vérifiez si tous utilisés variables sont attribués.</s:String>
+    <!-- WindowServerReponse -->
+    <s:String x:Key="String_Type3CharsToFind">S’il vous plaît type, sauf s’il est valide 3 caractères pour trouver les services.</s:String>
+    <s:String x:Key="String_NoResultMatchSearchPattern">aucun résultat pour correspondre à votre modèle de recherche.</s:String>
+    <s:String x:Key="String_RenameYourResponse">Renommez votre réponse</s:String>
+    <s:String x:Key="String_FunctionalError">Erreur fonctionnelle</s:String>
+    <s:String x:Key="String_CannotNameResponseAsDefault">Vous ne pouvez pas nommer une réponse comme « Par défaut » alors que ce nom est réservé.</s:String>
+    <s:String x:Key="String_CannotNameXBecauseExists">Vous ne pouvez pas nommer la réponse comme « {0} » parce qu’une réponse du même nom est déjà existe.</s:String>
     <!-- CommandLineTestStepEditor.xaml-->
     <s:String x:Key="String_FileNameColon">Nom du fichier :</s:String>
     <s:String x:Key="String_ArgumentsColon">Arguments :</s:String>
@@ -630,6 +715,11 @@ Souhaitez-vous redémarrer Hummingbird maintenant ?</s:String>
     <s:String x:Key="String_Result">Résultat</s:String>
     <s:String x:Key="String_ServerNameOrIpColon">Nom ou adresse IP du serveur :</s:String>
     <s:String x:Key="String_AuthenticationModeColon">Mode d’authentification : </s:String>
+    <s:String x:Key="String_CredentialColon">Informations d’identification :</s:String>
+    <s:String x:Key="String_UserDefined">Définies par l’utilisateur</s:String>
+    <s:String x:Key="String_SpecifyAUserDefinedCredential">Spécifiez les informations d’identification définies par l’utilisateur</s:String>
+    <s:String x:Key="String_NonApplicable">Non Applicable</s:String>
+    <s:String x:Key="String_ThisAuthenticationModeNotRequireCredential">Ce mode d’authentification ne nécessite pas l’utilisateur à entrer des informations d’identification</s:String>
     <s:String x:Key="String_DatabaseNameColon">Nom de la base de données :</s:String>
     <s:String x:Key="String_UserNameColon">Nom d’utilisateur : </s:String>
     <s:String x:Key="String_PasswordColon">Mot de passe :</s:String>
@@ -675,6 +765,7 @@ Souhaitez-vous redémarrer Hummingbird maintenant ?</s:String>
     <s:String x:Key="String_CreationDateColon">Date de création :</s:String>
     <s:String x:Key="String_CreatedByColon">Créé par :</s:String>
     <s:String x:Key="String_LastSavedAtColon">Enregistré le :</s:String>
+    <s:String x:Key="String_TestProfileColon">Profil de test :</s:String>
     <s:String x:Key="String_ByColon">Par :</s:String>
     <s:String x:Key="String_TestProfile">Profil de test :</s:String>
     <s:String x:Key="String_TestProfileDescription">Le profil de test contient des variables d'environnement, des informations d'identification et des données de test par défaut pour la simulation de service. Pour configurer facilement le profil de test, vous pouvez accéder aux paramètres de test et exporter votre profil actuel.</s:String>
@@ -703,8 +794,8 @@ Souhaitez-vous redémarrer Hummingbird maintenant ?</s:String>
     <s:String x:Key="String_VariableNameNotValid">« {0} » n’est pas un identificateur valide pour un nom de variable.</s:String>
     <s:String x:Key="String_VariableXRemovedRecover">{0} variable est supprimée. Cliquez ici pour le récupérer.</s:String>
     <s:String x:Key="String_ClearCustomVariables">Variables personnalisées clair</s:String>
-    <s:String x:Key="String_ClearCustomVariablesQuestion">Voulez-vous vraiment supprimer toutes les variables personnalisées ? 
-Cette action ne peut pas être récupérée.</s:String>
+    <s:String x:Key="String_ClearCustomVariablesQuestion"><![CDATA[Voulez-vous vraiment supprimer toutes les variables personnalisées ? 
+Cette action ne peut pas être récupérée.]]></s:String>
     <!-- ViewTestSuite.xaml -->
     <s:String x:Key="String_TestSuiteColon">Suite de tests :</s:String>
     <s:String x:Key="String_TestSuiteConfiguration">Configuration de test Suite</s:String>
@@ -740,4 +831,40 @@ Cette action ne peut pas être récupérée.</s:String>
     <s:String x:Key="String_PathTypeU">chemin TYPE</s:String>
     <s:String x:Key="String_PathU">chemin</s:String>
     <s:String x:Key="String_VariableU">VARIABLE</s:String>
+    <!-- ViewRegex.xaml.cs -->
+    <s:String x:Key="String_SyntaxOfExpressionErros">La syntaxe de l’expression contient des erreurs.</s:String>
+    <s:String x:Key="String_InputStringNotMatchExpression">La chaîne input ne correspond pas à l’expression.</s:String>
+    <s:String x:Key="String_InputStringMatchExpression">La chaîne d’entrée correspond à l’expression.</s:String>
+    <!-- ViewXPathValidator -->
+    <s:String x:Key="String_XPathNotMatchAnything">L’expression XPath donné ne correspond à rien, le résultat de l’évaluation est vide.</s:String>
+    <s:String x:Key="String_XPathEvaluationTool">Outil d’évaluation XPath</s:String>
+    <s:String x:Key="String_XMLDocument">Document XML</s:String>
+    <s:String x:Key="String_EvaluateU">ÉVALUER</s:String>
+    <!-- ViewStockCertificates -->
+    <s:String x:Key="String_TestCertificateInstalled">Certificat d’essai a été installé</s:String>
+    <s:String x:Key="String_TestCertificateInstalledMessage">L’autorité de certification racine et le certificat de Test sont installés.</s:String>
+    <s:String x:Key="String_UnableToInstallCertificate">Impossible d’installer le certificat</s:String>
+    <s:String x:Key="String_TestCertificateIntro">Hummingbird offre un certificat de Test que vous pouvez utiliser pour simuler le transport sécurisé à l’aide de SSL. Pour les deux après le scénario, vous êtes tenu d’installer le certificat sur l’ordinateur de test :</s:String>
+    <s:String x:Key="String_TestCertificateIntroLine1">● Pour la simulation de service à l’aide de SSL, Hummingbird agit comme un serveur HTTP qui requiert le certificat SSL</s:String>
+    <s:String x:Key="String_TestCertificateIntroLine2">● Pour l’envoi de requêtes qui sont nécessaires pour signer ou chiffrer les messages de demande, besoins de Hummingbird qu'un certificat requiert la Signature et le chiffrement.</s:String>
+    <s:String x:Key="String_TestCertificateIntroLine3">Vous pouvez installer le certificat de test fourni par Hummingbird.</s:String>
+    <s:String x:Key="String_InstallTestCertificate">Installer le certificat de Test</s:String>
+    <s:String x:Key="String_InstallCertificateMachine">Installer dans le magasin LocalMachine pour tous les utilisateurs (nécessite l’exécuter en tant qu’administrateur)</s:String>
+    <s:String x:Key="String_InstallCertificateUser">Installation pour l’utilisateur actuel</s:String>
+    <s:String x:Key="String_ToRunServiceSimulationWithSSL">Pour exécuter la simulation de service avec HTTPS/SSL, les certificats doivent être installés dans le magasin LocalMachine</s:String>
+    <s:String x:Key="String_WarningInstallCertificateAdminRequired">ATTENTION : Installer certificat pour tous les utilisateurs exige Hummingbird à exécuter en tant qu’administrateur</s:String>
+    <s:String x:Key="String_InstallCertificateU">INSTALLER LE CERTIFICAT</s:String>
+    <s:String x:Key="String_InstallYourOwnCertificate">Installez votre propre certificat</s:String>
+    <s:String x:Key="String_InstallYourOwnCertificateDescription">Vous pouvez également installer votre propre certificat. Veuillez suivre la procédure décrite dans la documentation de Hummingbird</s:String>
+    <!-- ViewOpenApiCategory -->
+    <s:String x:Key="String_OpenApiService">OpenAPI service</s:String>
+    <s:String x:Key="String_DescriptionOfOpenApiService">Description du Service OpenAPI</s:String>
+    <s:String x:Key="String_OpenApiDefinitionColon">OpenAPI définition : </s:String>
+    <s:String x:Key="String_BaseUrlColon">URL de base : </s:String>
+    <s:String x:Key="String_TagsU">TAGS</s:String>
+    <s:String x:Key="String_MethodU">MÉTHODE</s:String>
+    <!-- EditableTextBlock -->
+    <s:String x:Key="String_ErrorWithInputData">Il y a une erreur avec vos données d’entrée</s:String>
+    <s:String x:Key="String_InputValueNotMatchTypeX">Valeur d’entrée ne correspond pas au type : {0}. Veuillez réessayer ou appuyez sur ÉCHAP pour annuler.</s:String>
+    <s:String x:Key="String_StringEditor">Éditeur de chaînes</s:String>
 </ResourceDictionary>

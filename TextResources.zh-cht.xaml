@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:Hummingbird.TestManager" xmlns:s="clr-namespace:System;assembly=mscorlib">
-    <s:String x:Key="String_ApplicationName">Hummingbird</s:String>
     <s:String x:Key="String_ApplicationDescription">AN INTEGRATED TEST SOLUTION</s:String>
     <s:String x:Key="String_ErrorOccurred">發生錯誤</s:String>
     <s:String x:Key="String_TestCaseColon">測試案例:</s:String>
@@ -10,17 +9,17 @@
     <s:String x:Key="String_Menu_Welcome">歡迎</s:String>
     <s:String x:Key="String_Menu_Dashboard">儀錶 板</s:String>
     <s:String x:Key="String_Menu_Testing">測試</s:String>
-    <s:String x:Key="String_Menu_TestRunner">手動測試</s:String>
-    <s:String x:Key="String_Menu_ServiceList">可用服務列表</s:String>
-    <s:String x:Key="String_Menu_Automation">自動測試</s:String>
-    <s:String x:Key="String_Menu_TestEditor">腳本編輯器</s:String>
+    <s:String x:Key="String_Menu_TestRunner">測試回合程式</s:String>
+    <s:String x:Key="String_Menu_ServiceList">服務清單</s:String>
+    <s:String x:Key="String_Menu_Automation">自動化</s:String>
+    <s:String x:Key="String_Menu_TestEditor">測試編輯器</s:String>
     <s:String x:Key="String_Menu_Tools">工具</s:String>
-    <s:String x:Key="String_Menu_Cryptography">加/解密</s:String>
-    <s:String x:Key="String_Menu_Regex">正則表達式</s:String>
-    <s:String x:Key="String_Menu_Help">幫助</s:String>
-    <s:String x:Key="String_Menu_SystemLog">SYSTEM LOG</s:String>
-    <s:String x:Key="String_Menu_HelpTopics">幫助主題</s:String>
-    <s:String x:Key="String_Menu_About">關於</s:String>
+    <s:String x:Key="String_Menu_Cryptography">密碼</s:String>
+    <s:String x:Key="String_Menu_Regex">Regex</s:String>
+    <s:String x:Key="String_Menu_Help">説明</s:String>
+    <s:String x:Key="String_Menu_SystemLog">系統日誌</s:String>
+    <s:String x:Key="String_Menu_HelpTopics">說明主題</s:String>
+    <s:String x:Key="String_Menu_About">有關</s:String>
     <s:String x:Key="String_Menu_FunctionalTest">功能測試</s:String>
     <s:String x:Key="String_Menu_PerformanceTest">效能測試</s:String>
     <s:String x:Key="String_Menu_Overview">概述</s:String>
@@ -28,112 +27,115 @@
     <s:String x:Key="String_Menu_XmlTools">XML 工具</s:String>
     <s:String x:Key="String_Menu_XmlCompare">XML 比較</s:String>
     <s:String x:Key="String_Menu_XpathValidator">XPATH 驗證程式</s:String>
-    <s:String x:Key="String_Menu_DocFormat">DOC FORMAT</s:String>
+    <s:String x:Key="String_Menu_DocFormat">文檔格式</s:String>
     <s:String x:Key="String_Menu_Base64">BASE64</s:String>
     <s:String x:Key="String_StartupInformation">啟動資訊</s:String>
     <!-- BACK STAGE -->
-    <s:String x:Key="String_General">基本設置</s:String>
-    <s:String x:Key="String_TestSettings">測試框架設置</s:String>
+    <s:String x:Key="String_General">一般</s:String>
+    <s:String x:Key="String_TestSettings">測試設定</s:String>
     <s:String x:Key="String_Extensions">擴展</s:String>
-    <s:String x:Key="String_ProfileManagement">Profile Management</s:String>
+    <s:String x:Key="String_ProfileManagement">設定檔管理</s:String>
     <!-- GENERAL SETTINGS -->
     <s:String x:Key="String_SystemBehaviors">系統行為</s:String>
     <s:String x:Key="String_LogPath">日誌路徑:</s:String>
     <s:String x:Key="String_LogLevel">日誌級別:</s:String>
-    <s:String x:Key="String_LogLevelTooltip">級別越高, 主控台就會顯示更多資訊。最高級別是 "冗長"。</s:String>
+    <s:String x:Key="String_LogLevelTooltip">級別越高, 主控台中將顯示更多資訊。最高級別為 "詳細"。</s:String>
     <s:String x:Key="String_Language">語言</s:String>
     <s:String x:Key="String_LanguageTooltip">設置顯示語言。</s:String>
-    <s:String x:Key="String_SameAsOS">與系統相同</s:String>
+    <s:String x:Key="String_SameAsOS">與系統設置相同</s:String>
     <s:String x:Key="String_CSVSeparator">CSV 分隔符號</s:String>
-    <s:String x:Key="String_CSVSeparatorTooltip">用於 CSV 格式的分隔符號。</s:String>
-    <s:String x:Key="String_ThemeColor">主題與顏色</s:String>
-    <s:String x:Key="String_LightThemes">輕的主題:</s:String>
-    <s:String x:Key="String_DarkThemes">暗主題:</s:String>
-    <s:String x:Key="String_ChooseThemeColor">請從下面列表中選擇壹個主題顏色</s:String>
-    <s:String x:Key="String_FontSize">字體</s:String>
-    <s:String x:Key="String_ChooseFontSize">請根據您的屏幕選擇合適的字體大小</s:String>
-    <s:String x:Key="String_SetFontSizeTo">設置字體為:</s:String>
+    <s:String x:Key="String_CSVSeparatorTooltip">CSV 格式使用的分隔符號。</s:String>
+    <s:String x:Key="String_ThemeColor">主題顏色</s:String>
+    <s:String x:Key="String_LightThemes">燈光主題:</s:String>
+    <s:String x:Key="String_DarkThemes">深色主題:</s:String>
+    <s:String x:Key="String_ChooseThemeColor">從以下方案中選擇主題顏色</s:String>
+    <s:String x:Key="String_FontSize">字體大小</s:String>
+    <s:String x:Key="String_ChooseFontSize">選擇適合您的螢幕的字體大小</s:String>
+    <s:String x:Key="String_SetFontSizeTo">將字體大小設置為:</s:String>
     <s:String x:Key="String_Normal">正常</s:String>
-    <s:String x:Key="String_Large">放大</s:String>
-    <s:String x:Key="String_NameU">名稱</s:String>
-    <s:String x:Key="String_ValueU">值</s:String>
-    <s:String x:Key="String_CopyFrom">從...復制</s:String>
-    <s:String x:Key="String_AddVariable">添加變量</s:String>
-    <s:String x:Key="String_DeleteSelection">刪除變量</s:String>
+    <s:String x:Key="String_Large">大</s:String>
+    <s:String x:Key="String_NameU">名字</s:String>
+    <s:String x:Key="String_ValueU">價值</s:String>
+    <s:String x:Key="String_CopyFrom">複製自..。</s:String>
+    <s:String x:Key="String_AddVariable">添加變數</s:String>
+    <s:String x:Key="String_DeleteSelection">刪除選定內容</s:String>
     <s:String x:Key="String_ClearAll">全部清除</s:String>
-    <s:String x:Key="String_UsernameU">用戶名</s:String>
+    <s:String x:Key="String_UsernameU">使用者</s:String>
     <s:String x:Key="String_PasswordU">密碼</s:String>
-    <s:String x:Key="String_AddToken">添加令牌</s:String>
-    <s:String x:Key="String_SelectATestEnv">選擇測試環境</s:String>
-    <s:String x:Key="String_Active">當前的</s:String>
-    <s:String x:Key="String_SetActive">設為當前環境</s:String>
+    <s:String x:Key="String_AddToken">添加權杖</s:String>
+    <s:String x:Key="String_SelectATestEnv">選擇測試環境:</s:String>
+    <s:String x:Key="String_Active">積極</s:String>
+    <s:String x:Key="String_SetActive">設置活動</s:String>
     <s:String x:Key="String_Add">添加</s:String>
     <s:String x:Key="String_Remove">刪除</s:String>
     <!-- TEST SETTINGS -->
     <s:String x:Key="String_TestFramework">測試框架</s:String>
     <s:String x:Key="String_Services">服務</s:String>
-    <s:String x:Key="String_SystemVariables">系統變量</s:String>
-    <s:String x:Key="String_CustomVariables">自定義變量</s:String>
+    <s:String x:Key="String_SystemVariables">系統變數</s:String>
+    <s:String x:Key="String_CustomVariables">自訂變數</s:String>
+    <s:String x:Key="String_RuntimeVariables">運行時變數</s:String>
     <s:String x:Key="String_Credentials">憑據</s:String>
-    <s:String x:Key="String_MaxRequestPerService">每個服務可存儲的請求數:</s:String>
-    <s:String x:Key="String_MaxRequestPerServiceTooltip">可以保存每個服務的最大請求數以快速重新發送。預設值為20。</s:String>
-    <s:String x:Key="String_MaxMessages">Max Messages:</s:String>
+    <s:String x:Key="String_MaxRequestPerService">每個服務的最大保存請求數:</s:String>
+    <s:String x:Key="String_MaxRequestPerServiceTooltip">可以保存每個服務的最大請求數, 以便快速重新發送。預設值為20。</s:String>
+    <s:String x:Key="String_MaxMessages">最大消息數:</s:String>
     <s:String x:Key="String_MaxMessagesTooltip">在測試回合程式中存儲在日誌和顯示中的最大消息數</s:String>
-    <s:String x:Key="String_WhenSendingRequest">當發送請求時:</s:String>
-    <s:String x:Key="String_WaitAndShowResult">直接顯示結果</s:String>
-    <s:String x:Key="String_CloseAndShowOnDemande">返回主窗口</s:String>
+    <s:String x:Key="String_WhenSendingRequest">發送請求時:</s:String>
+    <s:String x:Key="String_WaitAndShowResult">直接等待並顯示結果</s:String>
+    <s:String x:Key="String_CloseAndShowOnDemande">關閉視窗並按需顯示結果</s:String>
     <s:String x:Key="String_AuthenticationU">認證</s:String>
-    <s:String x:Key="String_ErrorParsingParameterX">解析參數 "{0}" 時出錯</s:String>
-    <s:String x:Key="String_ErrorParsingParameterDetails">服務 {0}, 參數 {1}:
- 值 "{2}" 對其類型 "{3}" 無效</s:String>
+    <s:String x:Key="String_ErrorParsingParameterX">分析參數 "{0}" 時出錯</s:String>
+    <s:String x:Key="String_ErrorParsingParameterDetails" xml:space="preserve"><![CDATA[服務 {0}, 參數 {1}:
+值 "{2}" 對其類型 "{3}" 無效]]></s:String>
     <s:String x:Key="String_ResetToDefaultValue">重置為其預設值</s:String>
     <s:String x:Key="String_BrowseDot">流覽。。。</s:String>
     <s:String x:Key="String_FindFileForX">查找 {0} 的檔</s:String>
     <s:String x:Key="String_AddTestEnvironment">添加測試環境</s:String>
     <s:String x:Key="String_AddTestEnvironmentTooltip">輸入新測試環境的名稱</s:String>
-    <s:String x:Key="String_TestEnvironmentXExists">"已經有一個名為" {0} "的測試環境</s:String>
+    <s:String x:Key="String_TestEnvironmentXExists">已有一個名為 "{0}" 的測試環境</s:String>
     <s:String x:Key="String_CannotRemove">無法刪除</s:String>
     <s:String x:Key="String_CannotRemoveDefaultEnvironment">這是一個無法刪除的預設測試環境。</s:String>
     <s:String x:Key="String_ConfirmDelete">確認刪除</s:String>
     <s:String x:Key="String_ConformDeleteTestEnvironment">無法反轉此操作, 是否確實要刪除此測試環境？</s:String>
-    <s:String x:Key="String_EnterVariableName">輸入變數的名稱</s:String>
-    <s:String x:Key="String_EnterVariableNameTooltip">名稱必須是有效的識別碼, 包含大寫/小寫字母、數位和底線</s:String>
+    <s:String x:Key="String_EnterVariableName">輸入變數名稱</s:String>
+    <s:String x:Key="String_EnterVariableNameTooltip">名稱必須是有效識別碼, 包含大寫/小寫字母、數位和底線</s:String>
     <s:String x:Key="String_EnvironmentVariableExists">同名的環境變數已經存在。</s:String>
-    <s:String x:Key="String_SystemVariableExists">您已經有一個同名的系統變數。</s:String>
+    <s:String x:Key="String_SystemVariableExists">您已經有相同名稱的系統變數。</s:String>
     <s:String x:Key="String_NotAValidVariableName">輸入名稱是不正確變數名。</s:String>
     <s:String x:Key="String_ClearEnvironmentVariables">清除環境變數</s:String>
-    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">無法恢復此操作, 是否確實要清除所有環境變數？在請求、回應或自動化腳本中引用它們時, 它們將遇到錯誤。</s:String>
+    <s:String x:Key="String_ClearEnvironmentVariablesQuestion" xml:space="preserve"><![CDATA[無法恢復此操作, 您確定要清除所有環境變數嗎？
+如果在請求、回應或自動化腳本中引用它們, 它們將遇到錯誤。]]></s:String>
     <s:String x:Key="String_DeleteEnvironmentVariables">刪除環境變數</s:String>
-    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">無法恢復此操作, 是否確實要刪除選定的環境變數？如果在請求、回應或自動化腳本中引用了它們, 它們將會遇到錯誤。</s:String>
+    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion" xml:space="preserve"><![CDATA[無法恢復此操作, 是否確實要刪除選定的環境變數？
+如果在請求、回應或自動化腳本中引用它們, 它們將遇到錯誤。]]></s:String>
     <s:String x:Key="String_CannotCopyEV">無法複製</s:String>
     <s:String x:Key="String_CannotCopyEVTooltip">無法從環境本身複製值, 請選擇其他環境。</s:String>
     <s:String x:Key="String_EnterUserName">輸入使用者名</s:String>
     <s:String x:Key="String_EnterUserNameTooltip">請輸入要使用的使用者名。</s:String>
-    <s:String x:Key="String_TokenExists">同名的憑據已經存在。</s:String>
+    <s:String x:Key="String_TokenExists">同名的憑據已存在。</s:String>
     <s:String x:Key="String_DeleteCredentials">刪除憑據</s:String>
-    <s:String x:Key="String_DeleteCredentialsQuestion">無法恢復此操作, 是否確實要刪除所選憑據？</s:String>
+    <s:String x:Key="String_DeleteCredentialsQuestion">無法恢復此操作, 是否確實要刪除選定的憑據？</s:String>
     <s:String x:Key="String_ClearCredentials">清除憑據</s:String>
-    <s:String x:Key="String_ClearCredentialsQuestion">無法恢復此操作, 是否確實要清除所有憑據？</s:String>
+    <s:String x:Key="String_ClearCredentialsQuestion">無法恢復此操作, 您確定要清除所有憑據嗎？</s:String>
     <!-- Components\DefaultObjectEditor.xaml-->
     <s:String x:Key="String_SyncColon">同步：</s:String>
-    <s:String x:Key="String_SyncTextFromTreeView">從樹狀檢視中同步文本。</s:String>
-    <s:String x:Key="String_SyncTreeViewFromText">將樹狀檢視與文本同步</s:String>
+    <s:String x:Key="String_SyncTextFromTreeView">從樹狀檢視同步文本。</s:String>
+    <s:String x:Key="String_SyncTreeViewFromText">從文本同步樹狀檢視</s:String>
     <s:String x:Key="String_SearchTextTooltip">從樹狀檢視或文字方塊中搜索文本</s:String>
-    <s:String x:Key="String_CompareObjectTooltip">比較兩邊發現差異。</s:String>
-    <s:String x:Key="String_ParseVariablesTooltip">在請求中分析變數</s:String>
+    <s:String x:Key="String_CompareObjectTooltip">比較兩邊發現的差異。</s:String>
+    <s:String x:Key="String_ParseVariablesTooltip">分析請求中的變數</s:String>
     <s:String x:Key="String_ShowParsedText">顯示已分析的文本</s:String>
     <s:String x:Key="String_ManualMode">手動模式</s:String>
     <s:String x:Key="String_ExpertMode">專家模式</s:String>
     <s:String x:Key="String_RAWTooltip">以原始形式顯示物件</s:String>
     <s:String x:Key="String_XMLTooltip">以 XML 格式顯示物件</s:String>
-    <s:String x:Key="String_LineColumn">在 {0} 中, 列 {1}</s:String>
-    <s:String x:Key="String_ObjectTypeNull">&lt;!--物件類型為 null. 此請求沒有參數--&gt;</s:String>
+    <s:String x:Key="String_LineColumn">ln {0} 中, col {1}</s:String>
+    <s:String x:Key="String_ObjectTypeNull">!--物件類型 null. 此請求沒有參數--&gt;</s:String>
     <s:String x:Key="String_ObjectCannotSerialized">無法序列化此物件, 只能通過樹狀檢視查看物件。</s:String>
     <s:String x:Key="String_InvalidOperation">無效操作</s:String>
-    <s:String x:Key="String_ViewNotSupportDeserialization">當前檢視器不支援反序列化, 可以編輯 TreeView 以修改物件。
- 如果要通過編輯文本來修改物件, 請選擇 "XML 視圖"。</s:String>
+    <s:String x:Key="String_ViewNotSupportDeserialization" xml:space="preserve"><![CDATA[當前檢視器不支援反序列化, 您可以編輯樹狀檢視來修改物件。
+如果要通過編輯文本修改物件, 請選擇 "XML 視圖"。]]></s:String>
     <s:String x:Key="String_DeserializationErrorMessage">反序列化錯誤-無法將文本反序列化為消息。"{0}" (按一下此處瞭解詳細資訊)</s:String>
-    <s:String x:Key="String_DetailedTechnicalError">詳細技術錯誤:</s:String>
+    <s:String x:Key="String_DetailedTechnicalError">詳細的技術錯誤:</s:String>
     <s:String x:Key="String_UnableToParseXml">無法解析 XML:</s:String>
     <s:String x:Key="String_ParsedRequest">分析的請求</s:String>
     <!-- Components\ExtensionInformation.xaml -->
@@ -145,18 +147,18 @@
     <s:String x:Key="String_CompanyNameColon">公司名稱:</s:String>
     <s:String x:Key="String_DescriptionColon">描述：</s:String>
     <s:String x:Key="String_CopyrightColon">版權：</s:String>
-    <s:String x:Key="String_ExtensionStatusColon">此副檔名當前為:</s:String>
+    <s:String x:Key="String_ExtensionStatusColon">此擴展目前是:</s:String>
     <!-- Components\MessageOverview.xaml -->
     <s:String x:Key="String_MessageColon">消息：</s:String>
     <s:String x:Key="String_RequestText">請求文本</s:String>
     <s:String x:Key="String_ResponseText">回應文本</s:String>
-    <s:String x:Key="String_ProcessedInColon">處理于:</s:String>
+    <s:String x:Key="String_ProcessedInColon">處理在:</s:String>
     <s:String x:Key="String_SentReceivedAtColon">發送/接收:</s:String>
-    <s:String x:Key="String_MessageNoLongerAvailable">警告: 此消息不再可用, 因為此服務使用的擴展未載入。MetadataId =</s:String>
+    <s:String x:Key="String_MessageNoLongerAvailable">警告: 此消息不再可用, 因為未載入此服務使用的副檔名。MetadataId =</s:String>
     <s:String x:Key="String_NoMetadata">無中繼資料</s:String>
     <!-- Components\ObjectTreeView.xaml -->
-    <s:String x:Key="String_SelectedFieldTypeXG">選定的欄位: {0} 是 {1} 的類型 &lt;{2}&gt;</s:String>
-    <s:String x:Key="String_SelectedFieldTypeX">選定欄位: {0} 是 {1} 的類型</s:String>
+    <s:String x:Key="String_SelectedFieldTypeXG">所選欄位: {0} 是 {1} 的類型 &lt;{2}&gt;</s:String>
+    <s:String x:Key="String_SelectedFieldTypeX">所選欄位: {0} 是 {1} 的類型</s:String>
     <s:String x:Key="String_InsertXmlElement">插入 XML 元素</s:String>
     <s:String x:Key="String_ClearArray">清除此陣列</s:String>
     <s:String x:Key="String_InsertElement">插入元素</s:String>
@@ -164,89 +166,98 @@
     <s:String x:Key="String_InitializeAsX">初始化為元素 "{0}"</s:String>
     <s:String x:Key="String_InitializeAsSubTypeX">初始化為派生類型 "{0}"</s:String>
     <s:String x:Key="String_InitializeAsObjectX">初始化為物件 "{0}"</s:String>
-    <s:String x:Key="String_SetNull">設置為 null</s:String>
+    <s:String x:Key="String_SetNull">設置為空</s:String>
     <s:String x:Key="String_CopyPathClipboard">將路徑複製到剪貼簿</s:String>
     <s:String x:Key="String_EditMultiline">將此屬性編輯為多行文本</s:String>
     <s:String x:Key="String_TypeofString">字串類型</s:String>
     <s:String x:Key="String_PathXCopiedToClipboard">路徑: "{0}" 已複製到剪貼簿。</s:String>
     <s:String x:Key="String_UnableCopyClipboard">無法將路徑複製到剪貼簿</s:String>
-    <s:String x:Key="String_SelectedElementDeleted">已從陣列中刪除選定元素。</s:String>
+    <s:String x:Key="String_SelectedElementDeleted">已從陣列中刪除選定的元素。</s:String>
     <s:String x:Key="String_SelectedElementSetToNull">選定的元素已設置為 null。</s:String>
-    <s:String x:Key="String_SelectedElementCanNotDelete">無法刪除所選元素。</s:String>
+    <s:String x:Key="String_SelectedElementCanNotDelete">無法刪除選定的元素。</s:String>
     <s:String x:Key="String_SelectedElementXCopied">類型為 {0} 的選定元素已複製到剪貼簿。</s:String>
     <s:String x:Key="String_UnableCopyObjectClipboard">無法將所選物件複製到剪貼簿</s:String>
     <s:String x:Key="String_PastedToPosition">粘貼到當前位置。</s:String>
-    <s:String x:Key="String_PastedSubTypeXAsY">已將派生類型 {0} 粘貼為 {1} 到當前位置。</s:String>
-    <s:String x:Key="String_ElementAppended">元素已追加到當前陣列中。</s:String>
+    <s:String x:Key="String_PastedSubTypeXAsY">將派生類型 {0} 作為 {1} 粘貼到當前位置。</s:String>
+    <s:String x:Key="String_ElementAppended">元素已追加到當前陣列。</s:String>
     <s:String x:Key="String_CannotPasteXToY">錯誤: 無法在 "{1}" 物件上粘貼 "{0}"</s:String>
     <s:String x:Key="String_CannotPasteToPosition">無法粘貼到當前位置。</s:String>
     <!-- Components\RequestOptionsPanel -->
-    <s:String x:Key="String_SearchFilter">搜索篩選器</s:String>
+    <s:String x:Key="String_SearchFilter">搜索篩檢程式</s:String>
     <s:String x:Key="String_Type3Chars">請鍵入至少3個有效字元以查找服務。</s:String>
-    <s:String x:Key="String_GeneralOptions">常規選項</s:String>
-    <s:String x:Key="String_AuthenticationColon">認證：</s:String>
-    <s:String x:Key="String_PreEmptiveColon">先發制人:</s:String>
-    <s:String x:Key="String_PreEmptiveChecked">先發制人的身份驗證</s:String>
-    <s:String x:Key="String_PreEmptiveUnchecked">常規身份驗證</s:String>
-    <s:String x:Key="String_SoapOptions">SOAP 選項</s:String>
-    <s:String x:Key="String_MessageEncodingColon">郵件編碼:</s:String>
-    <s:String x:Key="String_MessageEncodingMtoM">MtoM (應用/xop)</s:String>
-    <s:String x:Key="String_MessageEncodingText">文本/XML</s:String>
-    <s:String x:Key="String_MessageVersionColon">郵件版本:</s:String>
-    <s:String x:Key="String_CustomHttpHeaders">自訂 HTTP 標頭</s:String>
-    <s:String x:Key="String_Anonymous">匿名</s:String>
-    <s:String x:Key="String_WindowsAuthentication">Windows 身份驗證</s:String>
-    <s:String x:Key="String_WindowsAuthenticationTooltip">使用您當前的 windows 憑據調用此服務, 並使用 windows 集成身份驗證</s:String>
-    <s:String x:Key="String_NtlmAuthentication">NTLM 身份驗證</s:String>
-    <s:String x:Key="String_NtlmAuthenticationTooltip">使用您當前的 Windows 憑據調用此服務, 使用 NTLM 身份驗證</s:String>
-    <!-- ViewProfileManagement.xaml -->
-    <s:String x:Key="String_ImportFromDot">從..。</s:String>
-    <s:String x:Key="String_ProfileManagement_Para1">測試設定 (包括服務參數、測試環境、自訂變數、安全權杖、服務類比行為) 被打包到設定檔中。</s:String>
-    <s:String x:Key="String_ProfileManagement_Para2">設定檔可以導入、匯出或共用給其他人。設定檔還可以嵌入到自動化專案中, 以簡化自動化專案的測試設定。以下是可在應用程式中使用的所有設定檔:</s:String>
-    <s:String x:Key="String_ProfileManagement_Note">注意: 手動測試使用預設設定檔, 無法在此編輯或刪除。要修改預設設定檔, 請轉到測試設定。</s:String>
-    <s:String x:Key="String_ActionsU">行動</s:String>
+    <s:String x:Key="String_NoResultMatches">沒有結果與搜索模式匹配。</s:String>
+    <s:String x:Key="String_AuthenticationModeColon">身份驗證模式:</s:String>
+    <s:String x:Key="String_CredentialColon">憑據：</s:String>
+    <s:String x:Key="String_UserDefined">使用者定義</s:String>
+    <s:String x:Key="String_SpecifyAUserDefinedCredential">指定使用者定義的憑據</s:String>
+    <s:String x:Key="String_NonApplicable">不適用</s:String>
+    <s:String x:Key="String_ThisAuthenticationModeNotRequireCredential">此身份驗證模式不要求使用者輸入憑據</s:String>
+    <!-- ExtensionDesigner\ViewApplication.xaml -->
+    <s:String x:Key="String_Application">應用</s:String>
+    <s:String x:Key="String_ApplicationTooltip" xml:space="preserve"><![CDATA[輸入應用程式的名稱:
+作為驅動程式, 它是您正在測試的系統的名稱,
+作為存根, 它是要類比的系統的名稱。]]></s:String>
+    <s:String x:Key="String_ApplicationNameColon">應用程式名稱:</s:String>
+    <s:String x:Key="String_ServiceCategoriesIncluded">此應用程式中包含的服務類別</s:String>
+    <s:String x:Key="String_ServiceCategoryU">服務類別</s:String>
+    <!-- ExtensionDesigner\ViewServiceCategory.xaml -->
+    <s:String x:Key="String_ServiceCategory">服務類別</s:String>
+    <s:String x:Key="String_ServiceCategoryTooltip" xml:space="preserve"><![CDATA[服務類別包含同一建議的一組 Web 服務。
+例如, 您可以擁有一組用於客戶管理的 web 服務, 包括用於創建、修改和刪除客戶的 3 web 服務。]]></s:String>
+    <s:String x:Key="String_CategoryNameColon">類別名稱:</s:String>
+    <s:String x:Key="String_ServicesIncluded">此類別中包含的服務</s:String>
+    <s:String x:Key="String_ServicesU">服務</s:String>
+    <s:String x:Key="String_TypeU">類型</s:String>
+    <!-- ExtensionDesigner\ViewProjectOverview.xaml -->
+    <s:String x:Key="String_ProjectGeneralInfo">專案一般資訊</s:String>
+    <s:String x:Key="String_ProjectNameColon">專案名稱:</s:String>
+    <s:String x:Key="String_RootNamespaceColon">根命名空間:</s:String>
+    <s:String x:Key="String_AssemblyInfo">裝配資訊</s:String>
+    <s:String x:Key="String_AssemblyInfoTooltip">程式集資訊是在您的擴展程式集中編譯的技術資訊, 請確保為每個欄位指定一個法定名稱。</s:String>
+    <s:String x:Key="String_AssemblyNameColon">程式集名稱:</s:String>
     <s:String x:Key="String_Actions">行動</s:String>
-    <s:String x:Key="String_ExportVSSolution">匯出為 Visual Studio 解決方案</s:String>
+    <s:String x:Key="String_ExportVSSolution">匯出為可視工作室解決方案</s:String>
     <s:String x:Key="String_ExtensionProjectBuilt">擴展專案已成功生成, 請按一下此處打開包含資料夾</s:String>
     <s:String x:Key="String_BuildFailed">生成失敗</s:String>
-    <s:String x:Key="String_BuildFailedMessage">生成過程中存在錯誤。按一下下面的連結查看詳細資訊。</s:String>
+    <s:String x:Key="String_BuildFailedMessage">生成過程中出現錯誤。按一下下面的連結以查看詳細資訊。</s:String>
     <s:String x:Key="String_GenerationFailedMessage">在專案檔案生成過程中出現錯誤。</s:String>
     <s:String x:Key="String_ChooseLocationProjectFiles">選擇存儲專案檔案的位置</s:String>
-    <s:String x:Key="String_ProjectGenerated">專案已生成。</s:String>
+    <s:String x:Key="String_ProjectGenerated">已生成專案。</s:String>
     <s:String x:Key="String_CannotGenerateSolution">無法生成解決方案</s:String>
     <s:String x:Key="String_CannotGenerateSolutionMessage">生成解決方案檔時出錯。</s:String>
     <s:String x:Key="String_ProjectGenerationCancelled">解決方案生成已被取消。</s:String>
+    <s:String x:Key="String_ExtensionCanBeUsedNow">該擴展現在可以使用, 但它將安裝在下次重新開機, 因為已經有以前的版本。</s:String>
     <!-- ExtensionDesigner\ViewServiceEndpoint.xaml -->
-    <s:String x:Key="String_EndpointNameColon">端點名稱:</s:String>
+    <s:String x:Key="String_EndpointNameColon">終結點名稱:</s:String>
     <s:String x:Key="String_BindingColon">綁定：</s:String>
-    <s:String x:Key="String_ServiceIdColon">服務編號:</s:String>
-    <s:String x:Key="String_FriendlyNameColon">友情名稱:</s:String>
+    <s:String x:Key="String_ServiceIdColon">服務 Id:</s:String>
+    <s:String x:Key="String_FriendlyNameColon">易記名稱:</s:String>
     <s:String x:Key="String_SoapVersionColon">Soap 版本:</s:String>
-    <s:String x:Key="String_ProtectionLevelColon">保護層級:</s:String>
+    <s:String x:Key="String_ProtectionLevelColon">保護等級:</s:String>
     <s:String x:Key="String_SessionModeColon">會話模式:</s:String>
-    <s:String x:Key="String_CallerSimulationColon">呼叫者類比:</s:String>
+    <s:String x:Key="String_CallerSimulationColon">調用方類比:</s:String>
     <s:String x:Key="String_CallerSimulationChecked">用作驅動程式: 調用應用程式公開的此 web 服務</s:String>
     <s:String x:Key="String_CallerSimulationUnchecked">不會生成調用此服務的代碼</s:String>
     <s:String x:Key="String_ServiceSimulationColon">服務類比:</s:String>
     <s:String x:Key="String_ServiceSimulationChecked">用作存根: 類比應用程式調用的服務</s:String>
     <s:String x:Key="String_ServiceSimulationUnchecked">不會生成用於類比此服務的代碼</s:String>
     <s:String x:Key="String_UriTemplateDriverColon">Uri 範本 (驅動程式):</s:String>
-    <s:String x:Key="String_UriTemplateTooltip">Uri 範本可以包含格式為 $ {VariableName} 的文本中的變數</s:String>
+    <s:String x:Key="String_UriTemplateTooltip">Uri 範本可以包含格式為 $ {變數名} 的文本中的變數</s:String>
     <s:String x:Key="String_UriTemplateStubColon">Uri 範本 (存根):</s:String>
     <!-- ExtensionDesigner\ViewSoapService.xaml -->
     <s:String x:Key="String_SoapWebService">SOAP Web 服務</s:String>
-    <s:String x:Key="String_SoapWebServiceTooltip">從定義檔 (WSDL) 導入 web 服務。定義可以與 URL 或本地檔進行遠端處理。還支援 UNC 路徑。</s:String>
+    <s:String x:Key="String_SoapWebServiceTooltip">從定義檔 (WSDL) 導入 web 服務。定義可以在遠端使用 URL 或本地檔。還支援 UNC 路徑。</s:String>
     <s:String x:Key="String_ServiceNameColon">服務名稱:</s:String>
-    <s:String x:Key="String_ServiceDescriptionWsdlColon">服務描述 (WSDL):</s:String>
+    <s:String x:Key="String_ServiceDescriptionWsdlColon">服務說明 (WSDL):</s:String>
     <s:String x:Key="String_ImportOptions">導入選項</s:String>
-    <s:String x:Key="String_GenerateOrderColon">生成順序:</s:String>
-    <s:String x:Key="String_GenerateOrderChecked">僅接受已訂購的 XML Documnets</s:String>
+    <s:String x:Key="String_GenerateOrderColon">生成訂單:</s:String>
+    <s:String x:Key="String_GenerateOrderChecked">僅接受有序的 XML Documnets</s:String>
     <s:String x:Key="String_GenerateORderUnchecked">接受無序的 XML 文檔</s:String>
-    <s:String x:Key="String_DispatchByBodyColon">按正文發送:</s:String>
+    <s:String x:Key="String_DispatchByBodyColon">機構派遣:</s:String>
     <s:String x:Key="String_DispatchByBodyChecked">按正文元素調度操作 (不符合 WS-1 基本設定檔 1.1)。</s:String>
-    <s:String x:Key="String_DispatchByBodyUnchecked">由 SoapAction 發送 (更快, 適合大多數 web 服務)。</s:String>
+    <s:String x:Key="String_DispatchByBodyUnchecked">通過 SoapAction (速度更快, 適合大多數 web 服務) 進行調度。</s:String>
     <s:String x:Key="String_ImportUpdateService">導入/更新服務</s:String>
-    <s:String x:Key="String_ServiceEndpointConfiguration">服務端點和配置</s:String>
+    <s:String x:Key="String_ServiceEndpointConfiguration">服務終結點和配置</s:String>
     <s:String x:Key="String_ViewGeneratedCode">查看生成的代碼</s:String>
     <s:String x:Key="String_PreviewProxyCode">預覽代理代碼</s:String>
     <s:String x:Key="String_PreviewStubCode">預覽存根代碼</s:String>
@@ -254,12 +265,18 @@
     <s:String x:Key="String_LevelU">水準</s:String>
     <s:String x:Key="String_ContentU">內容</s:String>
     <s:String x:Key="String_ErrorAnalysingWebService">分析 Web 服務時出錯</s:String>
-    <s:String x:Key="String_ImportedWithWarnings">導入時有警告, 請參閱下面的結果。</s:String>
-    <s:String x:Key="String_WsdlImportedSuccessfully">分析並成功導入 WSDL</s:String>
+    <s:String x:Key="String_ImportedWithWarnings">輸入警告, 請參閱下面的結果。</s:String>
+    <s:String x:Key="String_WsdlImportedSuccessfully">已成功分析和導入 WSDL</s:String>
     <s:String x:Key="String_GeneratedProxyCode">生成的 WCF 代理代碼</s:String>
     <s:String x:Key="String_GeneratedStubCode">生成的 WCF 存根代碼</s:String>
     <s:String x:Key="String_NoFilesGenerated">未生成檔</s:String>
-    <s:String x:Key="String_NoFilesGeneratedMessage">指定的 WSDL 檔案不包含任何服務定義。</s:String>
+    <s:String x:Key="String_NoFilesGeneratedMessage">所指示的 WSDL 檔案不包含任何服務定義。</s:String>
+    <!-- ViewProfileManagement.xaml -->
+    <s:String x:Key="String_ImportFromDot">從..。</s:String>
+    <s:String x:Key="String_ProfileManagement_Para1">測試設定 (包括服務參數、測試環境、自訂變數、安全權杖、服務類比行為) 被打包到設定檔中。</s:String>
+    <s:String x:Key="String_ProfileManagement_Para2">設定檔可以導入、匯出或共用給其他人。設定檔還可以嵌入到自動化專案中, 以便簡化自動化專案的測試設定。以下是可在應用程式中使用的所有設定檔:</s:String>
+    <s:String x:Key="String_ProfileManagement_Note">注意: 手動測試使用預設設定檔, 此處無法編輯或刪除。要修改預設設定檔, 請轉到測試設定。</s:String>
+    <s:String x:Key="String_ActionsU">行動</s:String>
     <s:String x:Key="String_Duplicate">重複</s:String>
     <s:String x:Key="String_Delete">刪除</s:String>
     <s:String x:Key="String_Edit">編輯</s:String>
@@ -267,46 +284,45 @@
     <s:String x:Key="String_ProfileName">設定檔名稱</s:String>
     <s:String x:Key="String_LastUpdated">上次更新時間</s:String>
     <s:String x:Key="String_EditProfileX">編輯設定檔: {0}</s:String>
-    <s:String x:Key="String_RecoverDeletedProfileX">設定檔 "{0}" 已被刪除。如果您做錯了什麼, 請按一下此處恢復</s:String>
+    <s:String x:Key="String_RecoverDeletedProfileX">設定檔 "{0}" 已被刪除。如果你做錯了什麼, 點擊這裡恢復</s:String>
     <s:String x:Key="String_EnterProfileName">輸入設定檔名稱</s:String>
-    <s:String x:Key="String_EnterProfileNameTooltip">輸入將為其複製當前設定檔的設定檔的名稱。</s:String>
+    <s:String x:Key="String_EnterProfileNameTooltip">輸入當前設定檔將複製到的設定檔的名稱。</s:String>
     <s:String x:Key="String_ProfileNameCannotBeEmpty">設定檔名稱不能為空。</s:String>
     <s:String x:Key="String_ProfileXExists">設定檔 "{0}" 已存在。</s:String>
     <s:String x:Key="String_ImportAProfile">導入設定檔</s:String>
-    <!-- PROFILE MANAGEMENT -->
     <!-- TEST MESSAGE STATUS -->
-    <s:String x:Key="String_Status_None">未知</s:String>
-    <s:String x:Key="String_Status_Pending">等待中</s:String>
-    <s:String x:Key="String_Status_Sending">正在發送</s:String>
-    <s:String x:Key="String_Status_Sent">已發送</s:String>
-    <s:String x:Key="String_Status_Receiving">正在接收</s:String>
-    <s:String x:Key="String_Status_Received">已接收</s:String>
+    <s:String x:Key="String_Status_None">沒有</s:String>
+    <s:String x:Key="String_Status_Pending">等待</s:String>
+    <s:String x:Key="String_Status_Sending">發送</s:String>
+    <s:String x:Key="String_Status_Sent">送</s:String>
+    <s:String x:Key="String_Status_Receiving">接收</s:String>
+    <s:String x:Key="String_Status_Received">收到</s:String>
     <s:String x:Key="String_Status_Timeout">超時</s:String>
     <s:String x:Key="String_Status_Failed">失敗</s:String>
-    <s:String x:Key="String_Status_Abandoned">已放棄</s:String>
+    <s:String x:Key="String_Status_Abandoned">放棄</s:String>
     <s:String x:Key="String_Status_Replied">回答</s:String>
-    <s:String x:Key="String_Status_FaultReplied">Fault</s:String>
+    <s:String x:Key="String_Status_FaultReplied">故障</s:String>
     <!-- HOME -->
     <s:String x:Key="String_Welcome">歡迎</s:String>
     <s:String x:Key="String_WatchIntroductionVideo">觀看介紹視頻:</s:String>
-    <s:String x:Key="String_WhatsNew">最新內容</s:String>
-    <s:String x:Key="String_ComingNext">接下來會發生什麼？</s:String>
+    <s:String x:Key="String_WhatsNew">新增內容</s:String>
+    <s:String x:Key="String_ComingNext">接下來要做什麼？</s:String>
     <s:String x:Key="String_LetsGetStarted">讓我們開始吧</s:String>
-    <s:String x:Key="String_RecentActivities">最近的活動</s:String>
+    <s:String x:Key="String_RecentActivities">近期活動</s:String>
     <s:String x:Key="String_ManualTesting">手動測試</s:String>
     <s:String x:Key="String_AutomatedTesting">自動化測試</s:String>
     <s:String x:Key="String_PerformanceTest">效能測試</s:String>
     <s:String x:Key="String_IntegratedTools">集成工具</s:String>
     <s:String x:Key="String_BuildExtension">生成擴展</s:String>
-    <s:String x:Key="String_ExtensionDevelop">副檔名 (開發人員)</s:String>
+    <s:String x:Key="String_ExtensionDevelop">擴展 (開發人員)</s:String>
     <s:String x:Key="String_RequestsSent">發送的請求</s:String>
     <s:String x:Key="String_TotalRequestsSent">作為驅動程式發送的請求總數</s:String>
     <s:String x:Key="String_RequestsReceived">收到的請求</s:String>
     <s:String x:Key="String_TotalRequestsReceived">作為存根接收的請求總數</s:String>
     <s:String x:Key="String_Automation">自動化</s:String>
-    <s:String x:Key="String_AutomatedTestCreated">創建的自動測試</s:String>
+    <s:String x:Key="String_AutomatedTestCreated">自動測試已創建</s:String>
     <s:String x:Key="String_AutomatedTestExecuted">執行的自動測試</s:String>
-    <s:String x:Key="String_SeeMoreDetails">查看更多詳細資訊..。</s:String>
+    <s:String x:Key="String_SeeMoreDetails">查看更多詳情..。</s:String>
     <s:String x:Key="String_ResourcesLinks">資源和有用的連結</s:String>
     <s:String x:Key="String_Documentation">文檔</s:String>
     <s:String x:Key="String_HummingbirdProjectHomePage">Hummingbird專案主頁</s:String>
@@ -314,48 +330,63 @@
     <s:String x:Key="String_TestFrameworkDocumentation">測試框架文檔</s:String>
     <s:String x:Key="String_ReportBugsSuggestions">報告 bug/建議</s:String>
     <s:String x:Key="String_LanguageChanged">語言已更改</s:String>
-    <s:String x:Key="String_LanauageChangedQuestion">您已經更改了首選語言。必須重新開機Hummingbird才能使更改生效. 
- 您想現在重新開機 Hummingbird 嗎？</s:String>
+    <s:String x:Key="String_LanauageChangedQuestion" xml:space="preserve"><![CDATA[您更改了首選語言。Hummingbird必須重新開機才能使更改生效。
+現在要重新開機Hummingbird嗎？]]></s:String>
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">卸載</s:String>
-    <s:String x:Key="String_InstallAnExtension">安裝副檔名</s:String>
+    <s:String x:Key="String_InstallAnExtension">安裝擴展</s:String>
     <s:String x:Key="String_InstalledExtensions">已安裝的擴展</s:String>
-    <s:String x:Key="String_ExtensionTooltip">選擇一個擴展以顯示其詳細資訊。啟用/禁用擴展將在應用程式重新開機後考慮</s:String>
+    <s:String x:Key="String_ExtensionTooltip">選擇一個擴展以顯示其詳細資訊。啟用/禁用擴展將在應用程式重新開機後進行考慮</s:String>
     <s:String x:Key="String_OperationU">操作</s:String>
     <s:String x:Key="String_VersionU">版本</s:String>
     <s:String x:Key="String_CompanyU">公司</s:String>
     <s:String x:Key="String_DescriptionU">描述</s:String>
     <s:String x:Key="String_Id">Id</s:String>
-    <s:String x:Key="String_ConfirmExtensionUninstall">確認擴展卸載</s:String>
+    <s:String x:Key="String_ConfirmExtensionUninstall">確認擴展外掛程式卸載</s:String>
     <s:String x:Key="String_ConfirmExtensionUninstallQuestion">是否確實要卸載副檔名 "{0}"</s:String>
     <s:String x:Key="String_RestartRequired">需要重新開機</s:String>
-    <s:String x:Key="String_RestartRequiredExtensionQuestion">您需要重新開機 Hummingbird 以卸載選定的副檔名. 
- 是否現在要重新開機 Hummingbird？</s:String>
+    <s:String x:Key="String_RestartRequiredExtensionQuestion" xml:space="preserve"><![CDATA[您需要重新開機Hummingbird才能卸載所選擴展。
+現在要重新開機Hummingbird嗎？]]></s:String>
     <s:String x:Key="String_Enabled">啟用</s:String>
     <s:String x:Key="String_Disabled">禁用</s:String>
+    <!-- ViewInstallExtension -->
+    <s:String x:Key="String_InstallExtensionFromLocalStorage">從本機存放區安裝擴展</s:String>
+    <s:String x:Key="String_ExtensionPackageZip">擴展包 (*.zip):</s:String>
+    <s:String x:Key="String_WarningBeforeInstallExtension" xml:space="preserve"><![CDATA[警告: 如果您在組織中工作, 請確保該擴展由受信任的源提供。來自未知源的擴展可能包含將對您的電腦造成損害的惡意程式碼。
+為確保安全, 請始終從官方Hummingbird測試管理器網站、您的組織負責人或您的團隊創建的擴展中獲得擴展。]]></s:String>
+    <s:String x:Key="String_InstallThisExtension">安裝此擴展</s:String>
+    <s:String x:Key="String_GivenFileIsNotValidExtensionPackage">給定的檔不是有效的Hummingbird擴展包。</s:String>
+    <s:String x:Key="String_ExtensionUpdate">擴展更新</s:String>
+    <s:String x:Key="String_ExtensionUpdateContent">已安裝副檔名為 {1} 的版本 {0}, 是否要將其替換為: {2}？</s:String>
+    <s:String x:Key="String_RestartRequiredInstallExtensionQuestion" xml:space="preserve"><![CDATA[您需要重新開機Hummingbird才能安裝擴展。
+現在要重新開機Hummingbird嗎？]]></s:String>
+    <s:String x:Key="String_InstallationFailed">安裝失敗。</s:String>
+    <s:String x:Key="String_InstallationFailedExtensionContent">安裝擴展時發生錯誤, 請參閱系統日誌以查看詳細的錯誤訊息。</s:String>
+    <s:String x:Key="String_ExtensionInstalledAndLoaded">擴展已安裝, 現在可以使用。</s:String>
+    <s:String x:Key="String_OpenExtension">打開擴展</s:String>
     <!-- TEST RUNNER -->
-    <s:String x:Key="String_ManualTestRunner">手動測試轉輪</s:String>
+    <s:String x:Key="String_ManualTestRunner">手動測試運行程式</s:String>
     <s:String x:Key="String_VirtualServices">虛擬服務</s:String>
     <s:String x:Key="String_Messages">消息</s:String>
     <s:String x:Key="String_SendRequest">發送請求</s:String>
-    <s:String x:Key="String_ServerReplies">設置虛擬服務回復</s:String>
-    <s:String x:Key="String_AddRemoveServers">添加/刪除虛擬服務</s:String>
-    <s:String x:Key="String_StartServices">啟動所有服務</s:String>
-    <s:String x:Key="String_StopServices">停止所有服務</s:String>
-    <s:String x:Key="String_ServiceList">服務類型列表</s:String>
-    <s:String x:Key="String_Date">時間</s:String>
-    <s:String x:Key="String_Status">狀態</s:String>
-    <s:String x:Key="String_Start">啟動</s:String>
+    <s:String x:Key="String_ServerReplies">伺服器答覆</s:String>
+    <s:String x:Key="String_AddRemoveServers">添加/刪除伺服器</s:String>
+    <s:String x:Key="String_StartServices">啟動服務</s:String>
+    <s:String x:Key="String_StopServices">停止服務</s:String>
+    <s:String x:Key="String_ServiceList">服務清單</s:String>
+    <s:String x:Key="String_Date">日期</s:String>
+    <s:String x:Key="String_Status">地位</s:String>
+    <s:String x:Key="String_Start">開始</s:String>
     <s:String x:Key="String_Stop">停止</s:String>
-    <s:String x:Key="String_SelectServices">選擇虛擬服務</s:String>
+    <s:String x:Key="String_SelectServices">選擇服務</s:String>
     <s:String x:Key="String_Options">選項</s:String>
-    <s:String x:Key="String_ClearMessages">清空所有消息</s:String>
-    <s:String x:Key="String_ActivateLoging">激活日誌</s:String>
-    <s:String x:Key="String_ClearMessagesU">清空所有消息</s:String>
+    <s:String x:Key="String_ClearMessages">清除消息</s:String>
+    <s:String x:Key="String_ActivateLoging">啟動日誌記錄</s:String>
+    <s:String x:Key="String_ClearMessagesU">清除消息</s:String>
     <s:String x:Key="String_StatisticU">統計</s:String>
-    <s:String x:Key="String_SentU">已發送:</s:String>
-    <s:String x:Key="String_ReceivedU">, 已接收:</s:String>
-    <s:String x:Key="String_NoServerConfigured">您還未選擇任何虛擬服務，請按下面的按鈕來添加虛擬服務</s:String>
+    <s:String x:Key="String_SentU">發送的消息</s:String>
+    <s:String x:Key="String_ReceivedU">收到的消息</s:String>
+    <s:String x:Key="String_NoServerConfigured">沒有配置虛擬伺服器, 請使用下面的按鈕添加它們。</s:String>
     <s:String x:Key="String_TooltipDirection">請求/回應的方向。</s:String>
     <s:String x:Key="String_TooltipSecuredConnection">此事務是使用安全連線執行的。</s:String>
     <s:String x:Key="String_TooltipAuthenticationProcess">此事務是通過身份驗證過程執行的。</s:String>
@@ -367,37 +398,37 @@
     <s:String x:Key="String_ShowRequestAsObject">將請求顯示為物件</s:String>
     <s:String x:Key="String_ShowResponseAsObject">將回應顯示為物件</s:String>
     <s:String x:Key="String_DeleteSelectedMessages">刪除所選郵件</s:String>
-    <s:String x:Key="String_ConfirmStatisticReset">確認統計重置</s:String>
-    <s:String x:Key="String_ConfirmStatisticResetMessage">所有統計資訊都將被刪除, 並且可以恢復, 是否仍要重置統計資訊？</s:String>
+    <s:String x:Key="String_ConfirmStatisticReset">確認統計資訊重置</s:String>
+    <s:String x:Key="String_ConfirmStatisticResetMessage">所有統計資料將被刪除, 並可以恢復, 你想重置統計嗎？</s:String>
     <s:String x:Key="String_ChangeSettings">更改設置</s:String>
     <s:String x:Key="String_Error">錯誤</s:String>
     <s:String x:Key="String_CannotStartFollowingService">無法啟動以下服務:</s:String>
     <s:String x:Key="String_ConfirmClearMessages">清除所有郵件？</s:String>
     <s:String x:Key="String_ConfirmClearMessagesMessage">是否確實要清除所有郵件歷史記錄？</s:String>
-    <s:String x:Key="String_XofYMatches">{0} 個 {1} 個匹配項</s:String>
+    <s:String x:Key="String_XofYMatches">{0} {1} 匹配</s:String>
     <!-- SERVICE LIST -->
-    <s:String x:Key="String_ShowListOf">顯示列表</s:String>
-    <s:String x:Key="String_SupportedRequests">支持的請求類型</s:String>
-    <s:String x:Key="String_VirtualizedServices">可模擬的虛擬服務類型</s:String>
-    <s:String x:Key="String_SupportedRequestsDescription">Hummingbird 能夠發送的服務請求</s:String>
-    <s:String x:Key="String_VirtualizedServicesDescription">Hummingbird 能夠模擬的虛擬服務</s:String>
+    <s:String x:Key="String_ShowListOf">顯示清單:</s:String>
+    <s:String x:Key="String_SupportedRequests">支援的請求</s:String>
+    <s:String x:Key="String_VirtualizedServices">虛擬化服務</s:String>
+    <s:String x:Key="String_SupportedRequestsDescription">請求可以發送與Hummingbird</s:String>
+    <s:String x:Key="String_VirtualizedServicesDescription">虛擬服務可以通過Hummingbird進行類比</s:String>
     <s:String x:Key="String_System">系統</s:String>
-    <s:String x:Key="String_Category">服務分類</s:String>
+    <s:String x:Key="String_Category">類別</s:String>
     <s:String x:Key="String_Service">服務</s:String>
-    <s:String x:Key="String_UriTemplate">Uri模板</s:String>
+    <s:String x:Key="String_UriTemplate">Uri 範本</s:String>
     <!-- ABOUT -->
-    <s:String x:Key="String_Build">編譯時間：</s:String>
-    <s:String x:Key="String_Copyright">© 版權所有 2013-2018 袁華幸，保留所有權利</s:String>
-    <s:String x:Key="String_WarningCopyright">警告：本計算機程序受著作權法和國際公約的保護，未經授權擅自復制或散布本程序的部分或全部，將遭受最嚴厲的民事及刑事處罰，對已知的違反者將給予法律範圍內的最高制裁。</s:String>
-    <s:String x:Key="String_LawDisclaimer">本軟體按 "原樣" 提供, 作者對此軟體不作任何保證, 包括適售性和適用性的所有隱含保證。在任何情況下, 提交人不得對任何特殊的、直接的、間接的或相應的損害或因使用、資料或利潤損失而造成的任何損害承擔責任, 無論是在合同、過失或其他侵權行為中引起的或在與此軟體的使用或性能有關。</s:String>
+    <s:String x:Key="String_Build">建立：</s:String>
+    <s:String x:Key="String_Copyright">©版權所有2013-2018 Huaxing YUAN, 保留擁有權利。</s:String>
+    <s:String x:Key="String_WarningCopyright">警告: 此電腦程式受版權法和國際條約的保護。未經授權複製或分發本程式或其中任何部分, 可能導致嚴重的民事或刑事處罰, 並將在法律允許的最大範圍內予以起訴。</s:String>
+    <s:String x:Key="String_LawDisclaimer">本軟體按 "原樣" 提供, 作者不承擔有關本軟體的所有保證, 包括適售性和適用性的所有默示擔保。在任何情況下, 提交人不得對因使用、資料或利潤損失而產生的任何特殊、直接、間接或後果性損害或任何損害承擔責任, 無論是在合同、疏忽或其他侵權行為中產生的或在與本軟體的使用或性能的連接。</s:String>
     <s:String x:Key="String_Components">元件</s:String>
     <s:String x:Key="String_AddinExtension">外接程式和擴展</s:String>
     <!-- ViewStatistics.xaml -->
     <s:String x:Key="String_TodaysActivities">今天的活動</s:String>
-    <s:String x:Key="String_ResponsesSimulated">回應類比</s:String>
+    <s:String x:Key="String_ResponsesSimulated">類比回應</s:String>
     <s:String x:Key="String_AutomatedTestRun">自動測試回合</s:String>
-    <s:String x:Key="String_ServiceSimulation">服務類比</s:String>
-    <s:String x:Key="String_OvercallCalculatedFrom">整體-計算自:</s:String>
+    <s:String x:Key="String_ServiceSimulation">服務模擬</s:String>
+    <s:String x:Key="String_OvercallCalculatedFrom">總體計算:</s:String>
     <s:String x:Key="String_Passed">通過</s:String>
     <s:String x:Key="String_Warning">警告</s:String>
     <s:String x:Key="String_Failed">失敗</s:String>
@@ -408,15 +439,15 @@
     <s:String x:Key="String_CloseProject">關閉專案</s:String>
     <s:String x:Key="String_Save">救</s:String>
     <s:String x:Key="String_AutomationProject">自動化專案</s:String>
-    <s:String x:Key="String_FunctionalTestEditorRunner">功能測試編輯器和轉輪</s:String>
+    <s:String x:Key="String_FunctionalTestEditorRunner">功能測試編輯器和亞軍</s:String>
     <s:String x:Key="String_StartsFromHere">從這裡開始</s:String>
     <s:String x:Key="String_CreateNewAutomationProject">創建新的自動化專案</s:String>
     <s:String x:Key="String_OpenExistingProject">打開現有專案</s:String>
     <s:String x:Key="String_LeanMore">瞭解更多 (外部網站)..。</s:String>
     <s:String x:Key="String_RecentProjects">近期專案:</s:String>
     <s:String x:Key="String_NoRecentProjects">沒有最近的專案, 打開或創建一個。</s:String>
-    <s:String x:Key="String_UsefulLinks">有用連結</s:String>
-    <s:String x:Key="String_TestAutomationWithHummingbird">測試自動化與Hummingbird</s:String>
+    <s:String x:Key="String_UsefulLinks">有用的連結</s:String>
+    <s:String x:Key="String_TestAutomationWithHummingbird">使用Hummingbird測試自動化</s:String>
     <s:String x:Key="String_DifferentTestSteps">不同類型的測試步驟</s:String>
     <s:String x:Key="String_ValidateWithAssertions">通過斷言驗證測試</s:String>
     <s:String x:Key="String_RunInCI">在連續集成平臺中運行自動測試</s:String>
@@ -424,12 +455,12 @@
     <s:String x:Key="String_AddAStep">添加測試步驟</s:String>
     <s:String x:Key="String_DeleteThisTestCase">刪除此測試案例</s:String>
     <s:String x:Key="String_RunTestCase">運行測試案例</s:String>
-    <s:String x:Key="String_MoveUp">向上移動</s:String>
+    <s:String x:Key="String_MoveUp">上移</s:String>
     <s:String x:Key="String_MoveDown">向下移動</s:String>
     <s:String x:Key="String_MoveToFirst">移至第一個</s:String>
     <s:String x:Key="String_MoveToLast">移至最後一個</s:String>
-    <s:String x:Key="String_InsertTCBefore">在之前插入測試案例</s:String>
-    <s:String x:Key="String_InsertTCAfter">在之後插入測試案例</s:String>
+    <s:String x:Key="String_InsertTCBefore">插入測試案例之前</s:String>
+    <s:String x:Key="String_InsertTCAfter">插入測試案例後</s:String>
     <s:String x:Key="String_AddTestCase">添加測試案例</s:String>
     <s:String x:Key="String_AddDataDrivenTestCase">添加資料驅動的測試案例</s:String>
     <s:String x:Key="String_ReorderTestCases">重新排序測試案例</s:String>
@@ -440,33 +471,33 @@
     <s:String x:Key="String_DeleteTestSuite">刪除此測試套件</s:String>
     <s:String x:Key="String_AddTestSuite">添加測試套件</s:String>
     <s:String x:Key="String_InsertTestSuite">插入測試套件</s:String>
-    <s:String x:Key="String_ReorderTestSuites">重新排列測試套件</s:String>
+    <s:String x:Key="String_ReorderTestSuites">重新排序測試套件</s:String>
     <s:String x:Key="String_ReorderTestSuitesTooltip">按名稱對測試套件重新排序</s:String>
     <s:String x:Key="String_RunAutomationProject">運行自動化專案</s:String>
-    <s:String x:Key="String_AutomationProjectSaved">專案已保存。</s:String>
+    <s:String x:Key="String_AutomationProjectSaved">已保存專案。</s:String>
     <s:String x:Key="String_SaveAutomationProjectTitle">保存自動化專案: {0}</s:String>
     <s:String x:Key="String_OpenAutomationProjectTitle">打開自動化專案檔案</s:String>
-    <s:String x:Key="String_SaveAutomationProjectFilter">自動化專案 (*.APX) |*.APX |所有檔 (**) |*.*</s:String>
+    <s:String x:Key="String_SaveAutomationProjectFilter">自動化專案 (*.APX) |*.APX|所有檔 (*.*) |*.*</s:String>
     <s:String x:Key="String_AnErrorHasOccurred">發生錯誤</s:String>
-    <s:String x:Key="String_AnErrorHasOccurredSavingAutomationProject">保存自動化專案時發生錯誤。</s:String>
-    <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">載入自動化專案時發生錯誤。</s:String>
+    <s:String x:Key="String_AnErrorHasOccurredSavingAutomationProject">保存自動化專案時出錯。</s:String>
+    <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">載入自動化專案時出錯</s:String>
     <s:String x:Key="String_SaveCurrentProject">是否保存當前專案？</s:String>
     <s:String x:Key="String_SaveCurrentProjectMessage">是否要保存當前的自動化專案？</s:String>
     <!-- ViewBase64Tool.xaml -->
     <s:String x:Key="String_ActionColon">行動：</s:String>
-    <s:String x:Key="String_Base64EncodingTitle">Base64 編碼解碼</s:String>
-    <s:String x:Key="String_Utf8ToBase64">將 UTF-8 字串編碼為 Base64 字串</s:String>
-    <s:String x:Key="String_Base64ToString">使用選定的編碼將 Base64 字串解碼為字串。</s:String>
-    <s:String x:Key="String_BinaryToBase64">從檔中讀取二進位內容並在 Base64 字串中對其內容進行編碼</s:String>
-    <s:String x:Key="String_Base64ToBinary">從下面的文字方塊中讀取 base64 字串, 對其進行解碼並將其保存到二進位檔案中。</s:String>
-    <s:String x:Key="String_SampleTextBase64">要編碼到 Base64 的示例文本</s:String>
+    <s:String x:Key="String_Base64EncodingTitle">Base64 編碼和解碼</s:String>
+    <s:String x:Key="String_Utf8ToBase64">從 UTF-8 字串到 Base64 字串的編碼</s:String>
+    <s:String x:Key="String_Base64ToString">使用所選編碼將 Base64 字串解碼為文本。</s:String>
+    <s:String x:Key="String_BinaryToBase64">從檔中讀取二進位內容並將其內容編碼為 Base64 字串</s:String>
+    <s:String x:Key="String_Base64ToBinary">從下面的文字方塊中讀取 base64 字串, 對其進行解碼並將其保存為二進位檔案。</s:String>
+    <s:String x:Key="String_SampleTextBase64">要編碼為 Base64 的示例文本</s:String>
     <s:String x:Key="String_EncodedBase64">編碼的 Base64 字串</s:String>
     <s:String x:Key="String_DecodedBase64">解碼的 Base64 字串</s:String>
     <s:String x:Key="String_OpenFileToEncode">打開要編碼的檔</s:String>
-    <s:String x:Key="String_SaveBinaryAsFile">將解碼後的內容保存為檔</s:String>
-    <s:String x:Key="String_DecodedAndSaved">內容已解碼並保存到檔中。按一下此處打開它</s:String>
+    <s:String x:Key="String_SaveBinaryAsFile">將解碼的內容另存為檔</s:String>
+    <s:String x:Key="String_DecodedAndSaved">內容已解碼並保存到檔中。點擊這裡打開它</s:String>
     <!-- ViewToolsOverview.xaml -->
-    <s:String x:Key="String_ExtendsThePotetual">擴展了潛在</s:String>
+    <s:String x:Key="String_ExtendsThePotetual">擴展潛力</s:String>
     <s:String x:Key="String_ExtensionDesigner">擴展設計器</s:String>
     <s:String x:Key="String_Productivity">生產力</s:String>
     <s:String x:Key="String_RegularExpression">正則運算式</s:String>
@@ -480,24 +511,68 @@
     <s:String x:Key="String_XmlCompare">XML 比較</s:String>
     <s:String x:Key="String_XPathValidator">XPath 驗證程式</s:String>
     <!-- ViewExtensionDesigner -->
-    <s:String x:Key="String_DesignerTooltip">在Hummingbird測試框架中, 服務以3級組織。請在組織內盡可能自然地組織這些服務。</s:String>
+    <s:String x:Key="String_DesignerTooltip">在Hummingbird測試框架中, 服務組織在3級。請在組織內盡可能自然地組織服務。</s:String>
     <s:String x:Key="String_DesignerApplicationTooltip">當用作驅動程式時, 您正在測試的系統的名稱。作為存根, Hummingbird類比的應用程式的名稱。</s:String>
-    <s:String x:Key="String_DesignerCategoryTooltip">功能類別的服務。
- 例如: 客戶添加、修改、刪除的所有服務都可以在 [客戶管理] 類別中組織。</s:String>
-    <s:String x:Key="String_DesignerServiceTooltip">服務的名稱。對於 SOAP 服務, 它表示一個綁定物件, 它有一個端點, 並且可能包含一個或多個操作</s:String>
+    <s:String x:Key="String_DesignerCategoryTooltip" xml:space="preserve"><![CDATA[服務的功能類別。
+例如: 客戶添加、修改、刪除的所有服務都可以在 [客戶管理] 類別中進行組織。]]></s:String>
+    <s:String x:Key="String_DesignerServiceTooltip">服務的名稱。對於 SOAP 服務, 它表示綁定物件, 它具有一個終結點, 並且可能包含一個或多個操作</s:String>
     <s:String x:Key="String_SaveAs">另存為</s:String>
     <s:String x:Key="String_Close">關閉</s:String>
-    <s:String x:Key="String_ExtensionDesignerTitle">擴展設計器-添加要測試和類比的 Web 服務定義</s:String>
+    <s:String x:Key="String_ExtensionDesignerTitle">擴展設計器-添加 Web 服務定義以測試和類比</s:String>
     <s:String x:Key="String_CreateNewExtensionProject">創建新的服務擴展專案</s:String>
     <s:String x:Key="String_LearnMoreExtensionDesigner">瞭解有關服務擴展設計器的詳細資訊</s:String>
-    <s:String x:Key="String_OtherWaysToExtent">其他方式, 以程度你的能力</s:String>
-    <s:String x:Key=" ">XPath 驗證程式</s:String>
+    <s:String x:Key="String_OtherWaysToExtent">其他方式, 以範圍你的能力</s:String>
+    <s:String x:Key="String_NewProjectNeverSaved">* 新專案, 從未保存。</s:String>
+    <!-- ViewExtensionDesigner.xaml.cs -->
+    <s:String x:Key="String_PleaseFixIssues">請解決問題</s:String>
+    <s:String x:Key="String_PleaseFixIssuesContent">配置上有錯誤, 請在更改為其他視圖之前修復它</s:String>
+    <s:String x:Key="String_DeleteThisService">刪除此服務</s:String>
+    <s:String x:Key="String_CategoryHasSubItems">此類別有子項</s:String>
+    <s:String x:Key="String_CategoryHasSubItemsContent">您正在刪除包含一個或多個服務的此服務類別, 是否仍要刪除此服務類別？</s:String>
+    <s:String x:Key="String_Rename">重 命名</s:String>
+    <s:String x:Key="String_ChangeServiceName">更改此服務的名稱</s:String>
+    <s:String x:Key="String_ChangeServiceNameContent">為所選服務輸入新值</s:String>
+    <s:String x:Key="String_AddSoapService">添加 SOAP 服務</s:String>
+    <s:String x:Key="String_MySoapService">我的肥皂服務</s:String>
+    <s:String x:Key="String_DeleteThisCategory">刪除此類別</s:String>
+    <s:String x:Key="String_ChangeCategoryName">更改服務類別的名稱</s:String>
+    <s:String x:Key="String_ChangeCategoryNameContent">為所選服務類別輸入新值</s:String>
+    <s:String x:Key="String_AddServiceCategory">添加服務類別</s:String>
+    <s:String x:Key="String_MyCategory">我的類別</s:String>
+    <s:String x:Key="String_AddOpenAPICategory">添加 OpenAPI 類別</s:String>
+    <s:String x:Key="String_DeleteThisApplication">刪除此應用程式</s:String>
+    <s:String x:Key="String_ApplicationHasSubItems">此應用程式具有子項</s:String>
+    <s:String x:Key="String_ApplicationHasSubItemsContent">您要刪除包含一個或多個服務類別的此應用程式 \n 是否要以任何方式刪除此應用程式？</s:String>
+    <s:String x:Key="String_ChangeNameOfApplication">更改應用程式名稱</s:String>
+    <s:String x:Key="String_AddAnApplication">添加應用程式</s:String>
+    <s:String x:Key="String_MyApplication">我的申請</s:String>
+    <s:String x:Key="String_ChangeExtensionName">更改副檔名</s:String>
+    <s:String x:Key="String_ChangeExtensionNameContent">為所選應用程式輸入新值</s:String>
+    <s:String x:Key="String_SaveCurrentProjectContent" xml:space="preserve"><![CDATA[您當前的專案還沒有保存, 現在要保存嗎？
+是: 保存當前專案並創建新專案。
+否: 放棄當前專案並創建新專案。
+取消: 保持當前專案。]]></s:String>
+    <s:String x:Key="String_NewExtensionProject">新的擴展專案</s:String>
+    <s:String x:Key="String_ProjectSaved">已保存專案</s:String>
+    <s:String x:Key="String_SaveExtensionProject">保存擴展專案</s:String>
+    <s:String x:Key="String_ProjectXSaved">已保存專案 "{0}"</s:String>
+    <s:String x:Key="String_ErrorSavingProject">保存專案時出錯</s:String>
+    <s:String x:Key="String_ErrorSavingProjectContent">保存擴展專案時出錯。</s:String>
+    <s:String x:Key="String_ErrorOpenProject">打開專案時出錯</s:String>
+    <s:String x:Key="String_ProjectFileXCannotFoundRemoveLink">無法找到專案檔案 "{0}", 是否要從清單中刪除此專案？</s:String>
+    <s:String x:Key="String_CannotLoadProjectFromGivenFile">無法從給定檔載入專案。</s:String>
+    <s:String x:Key="String_CopyrightInfo">版權所有 {0} 公司名稱, 保留擁有權利。</s:String>
+    <s:String x:Key="String_ProjectDataInvalid">專案資料無效。請確保它是有效的擴展設計器專案檔案。</s:String>
     <!-- WindowMessageViewer.xaml -->
     <s:String x:Key="String_MessageViewer">消息檢視器</s:String>
-    <s:String x:Key="String_ViewMessage">查看留言:</s:String>
+    <s:String x:Key="String_ViewMessage">查看資訊:</s:String>
     <s:String x:Key="String_Overview">概述</s:String>
     <s:String x:Key="String_Request">請求</s:String>
     <s:String x:Key="String_Response">回應</s:String>
+    <s:String x:Key="String_ErrorLoadMessageCMV">使用自訂消息檢視器載入消息時出錯</s:String>
+    <s:String x:Key="String_ErrorLoadMessageCMVMessage" xml:space="preserve"><![CDATA[使用 CustomMessageViewer {0} 從副檔名: {1} 顯示此消息時出現錯誤
+有關詳細資訊, 請與此擴展的開發人員聯繫。
+現在顯示帶有預設檢視器的消息。]]></s:String>
     <!-- WindowMultiLineEditor.xaml -->
     <s:String x:Key="String_Cancel">取消</s:String>
     <s:String x:Key="String_EditValueForX">編輯: {0} 的值</s:String>
@@ -508,40 +583,17 @@
     <s:String x:Key="String_Search">搜索</s:String>
     <s:String x:Key="String_SearchColon">搜索：</s:String>
     <s:String x:Key="String_InColon">在</s:String>
-    <s:String x:Key="String_SearchPropertyAndValue">在屬性名稱和值中搜索 (樹狀檢視)</s:String>
+    <s:String x:Key="String_SearchPropertyAndValue">在屬性名稱和值 (TreeView) 中搜索</s:String>
     <s:String x:Key="String_SearchValueOnly">僅搜索屬性值 (樹狀檢視)</s:String>
     <s:String x:Key="String_IgnoreCase">忽略大小寫</s:String>
     <s:String x:Key="String_MatchCase">匹配案例</s:String>
     <s:String x:Key="String_MatchWholeWord">匹配整個單詞</s:String>
-    <s:String x:Key="String_MatchAnyWhere">匹配任何位置</s:String>
+    <s:String x:Key="String_MatchAnyWhere">隨時隨地匹配</s:String>
     <s:String x:Key="String_SearchNext">下</s:String>
-    <s:String x:Key="String_CannotFindPattern">找不到圖案。</s:String>
+    <s:String x:Key="String_CannotFindPattern">無法找到模式。</s:String>
     <s:String x:Key="String_NoResultMatchesPattern">沒有與搜索 "{0}" 匹配的結果</s:String>
-    <s:String x:Key="String_NoResultMatches">沒有與搜索 "{0}" 匹配的結果</s:String>
-    <!-- ExtensionDesigner\ViewApplication.xaml -->
-    <s:String x:Key="String_Application">應用</s:String>
-    <s:String x:Key="String_ApplicationTooltip">輸入應用程式的名稱:
-作為驅動程式, 它是您要測試的系統的名稱, 作為存根, 它是要類比的系統的名稱。</s:String>
-    <s:String x:Key="String_ApplicationNameColon">申請名稱:</s:String>
-    <s:String x:Key="String_ServiceCategoriesIncluded">此應用程式中包含的服務類別</s:String>
-    <s:String x:Key="String_ServiceCategoryU">服務類別</s:String>
-    <!-- ExtensionDesigner\ViewServiceCategory.xaml -->
-    <s:String x:Key="String_ServiceCategory">服務類別</s:String>
-    <s:String x:Key="String_ServiceCategoryTooltip">服務類別包含同一建議的一組 Web 服務。
-例如, 您可以擁有一組用於客戶管理的 web 服務, 包括 3 web 服務, 用於客戶創建、修改和刪除。</s:String>
-    <s:String x:Key="String_CategoryNameColon">類別名稱:</s:String>
-    <s:String x:Key="String_ServicesIncluded">此類別中包含的服務</s:String>
-    <s:String x:Key="String_ServicesU">服務</s:String>
-    <s:String x:Key="String_TypeU">類型</s:String>
-    <!-- ExtensionDesigner\ViewProjectOverview.xaml -->
-    <s:String x:Key="String_ProjectGeneralInfo">專案一般資訊</s:String>
-    <s:String x:Key="String_ProjectNameColon">專案名稱:</s:String>
-    <s:String x:Key="String_RootNamespaceColon">根命名空間:</s:String>
-    <s:String x:Key="String_AssemblyInfo">程式集資訊</s:String>
-    <s:String x:Key="String_AssemblyInfoTooltip">程式集資訊是在擴展程式集中編譯的技術資訊, 請確保為每個欄位指定一個法定名稱。</s:String>
-    <s:String x:Key="String_AssemblyNameColon">程式集名稱:</s:String>
     <!-- WindowSelectRequest.xaml -->
-    <s:String x:Key="String_SelectARequest">選擇一個請求</s:String>
+    <s:String x:Key="String_SelectARequest">選擇請求</s:String>
     <!-- WindowSendRequest.xaml -->
     <s:String x:Key="String_ServiceColon">服務：</s:String>
     <s:String x:Key="String_ChooseServiceToTest">選擇要測試的服務↑</s:String>
@@ -549,41 +601,66 @@
     <s:String x:Key="String_EndpointColon">端點：</s:String>
     <s:String x:Key="String_DeleteCurrentHistoryTooltip">刪除當前歷史記錄</s:String>
     <s:String x:Key="String_ClearAllHistoryTooltip">清除此服務的所有歷史記錄</s:String>
-    <s:String x:Key="String_ResetEndpointTooltip">使用當前測試環境中的變數值將端點重置為 UriTemplate</s:String>
-    <s:String x:Key="String_NoEndpointTooltip">此服務沒有 UriTemplate</s:String>
+    <s:String x:Key="String_ResetEndpointTooltip">使用當前測試環境中的可變值將終結點重置為實例</s:String>
+    <s:String x:Key="String_NoEndpointTooltip">此服務沒有實例</s:String>
     <s:String x:Key="String_EnvironmentColon">環境：</s:String>
     <s:String x:Key="String_Send">發送</s:String>
-    <s:String x:Key="String_RequestSentTo">發送到的請求:</s:String>
-    <s:String x:Key="String_ElapsedTime">執行時間:</s:String>
+    <s:String x:Key="String_RequestSentTo">要求傳送到:</s:String>
+    <s:String x:Key="String_ElapsedTime">經過時間:</s:String>
     <s:String x:Key="String_ResponseColon">回應：</s:String>
+    <s:String x:Key="String_CannotSendRequest">無法發送請求</s:String>
+    <s:String x:Key="String_CannotSendRequestContent">無法發送請求, 服務返回錯誤:</s:String>
+    <s:String x:Key="String_BeforeSendingChooseARequest">在發送之前, 請選擇一個請求。</s:String>
+    <s:String x:Key="String_PreventSaving">防止保存</s:String>
+    <s:String x:Key="String_PreventSavingRequestMessage">您的請求編輯器中有一些錯誤, 它會阻止保存。請檢查您的請求。</s:String>
+    <s:String x:Key="String_ChooseANameU">選擇名稱</s:String>
+    <s:String x:Key="String_RequestSavedAtColon">請求保存在:</s:String>
+    <s:String x:Key="String_BeforeSavingChooseARequest">保存之前, 請選擇一個請求。</s:String>
+    <s:String x:Key="String_PreventClosing">防止關閉</s:String>
+    <s:String x:Key="String_PreventClosingRequestMessage">在您的請求編輯器中有一些錯誤, 它可以防止關閉。請檢查您的請求。</s:String>
+    <s:String x:Key="String_KeepFavoriteRequests">保留最喜歡的請求？</s:String>
+    <s:String x:Key="String_KeepFavoriteRequestsMessage" xml:space="preserve"><![CDATA[您正在清除所選服務的請求歷史記錄, 是否要保留您最喜歡的請求？
+是: 保留最喜歡的請求。
+否: 刪除我的最愛請求。
+取消: 不要刪除任何內容。]]></s:String>
+    <s:String x:Key="String_WarningUriFormat">警告-Uri 格式</s:String>
+    <s:String x:Key="String_WarningUriFormatMessage" xml:space="preserve"><![CDATA[此服務 "{0}" 的實例不是格式正確的 Uri
+如果此 Uri 使用變數, 請檢查設置是否分配了所有使用的變數。]]></s:String>
+    <!-- WindowServerReponse -->
+    <s:String x:Key="String_Type3CharsToFind">請鍵入, 除非3有效字元查找服務。</s:String>
+    <s:String x:Key="String_NoResultMatchSearchPattern">沒有結果匹配您的搜索模式。</s:String>
+    <s:String x:Key="String_RenameYourResponse">重命名您的回應</s:String>
+    <s:String x:Key="String_FunctionalError">功能錯誤</s:String>
+    <s:String x:Key="String_CannotNameResponseAsDefault">保留此名稱時, 不能將回應命名為 "預設"。</s:String>
+    <s:String x:Key="String_CannotNameXBecauseExists">不能將回應命名為 "{0}", 因為同名的回應已存在。</s:String>
     <!-- CommandLineTestStepEditor.xaml-->
     <s:String x:Key="String_FileNameColon">檔案名:</s:String>
     <s:String x:Key="String_ArgumentsColon">參數：</s:String>
     <s:String x:Key="String_WorkingDirectoryColon">工作目錄:</s:String>
     <s:String x:Key="String_TimeoutColon">超時：</s:String>
-    <s:String x:Key="String_TimeoutMessage">時間的最大值 (以秒為單位) 將等待進程超時。</s:String>
+    <s:String x:Key="String_TimeoutMessage">時間的最大數 (以秒為單位) 將等待進程超時。</s:String>
     <s:String x:Key="String_FailOnErrorStreamColon">錯誤流失敗:</s:String>
-    <s:String x:Key="String_FailOnErrorStreamChecked">如果在錯誤流上寫入了任何內容, 測試步驟將失敗。</s:String>
+    <s:String x:Key="String_FailOnErrorStreamChecked">如果在錯誤流上寫入了任何內容, 則測試步驟將失敗。</s:String>
     <s:String x:Key="String_FailOnErrorStreamUnchecked">如果在錯誤流上寫入了任何內容, 測試步驟將不會標記為失敗。</s:String>
     <s:String x:Key="String_OutputColon">輸出：</s:String>
     <!-- ContainsAssertionEditor.xaml -->
     <s:String x:Key="String_ContainsAssertion">包含斷言</s:String>
     <s:String x:Key="String_ContainsAssertionDescription">檢查請求或回應中是否出現文本</s:String>
     <s:String x:Key="String_SearchPatternColon">搜索模式:</s:String>
-    <s:String x:Key="String_SearchInColon">搜尋範圍:</s:String>
+    <s:String x:Key="String_SearchInColon">搜索:</s:String>
     <s:String x:Key="String_CaseSensitiveColon">區分大小寫:</s:String>
     <s:String x:Key="String_CaseSensitiveChecked">區分大小寫</s:String>
     <s:String x:Key="String_CaseSensitiveUnchecked">不區分大小寫</s:String>
     <s:String x:Key="String_UseRegularExpressionColon">使用正則運算式:</s:String>
     <s:String x:Key="String_UseRegularExpressionChecked">使用正則運算式匹配</s:String>
-    <s:String x:Key="String_UseRegularExpressionUnchecked">不使用正則運算式, 僅匹配文本</s:String>
+    <s:String x:Key="String_UseRegularExpressionUnchecked">不要使用正則運算式, 僅匹配文本</s:String>
     <!-- CSharpScriptTestStepEditor -->
     <s:String x:Key="String_Compile">編譯</s:String>
     <s:String x:Key="String_CodeU">代碼</s:String>
     <s:String x:Key="String_LineU">線</s:String>
     <!-- NotContainsAssertionEditor -->
-    <s:String x:Key="String_NotContainsAssertion">不包含斷言</s:String>
-    <s:String x:Key="String_NotContainsAssertionDescription">檢查給定的文本是否在請求或回應中未發生</s:String>
+    <s:String x:Key="String_NotContainsAssertion">"不包含" 斷言</s:String>
+    <s:String x:Key="String_NotContainsAssertionDescription">檢查請求或回應中是否未出現給定文本</s:String>
     <!-- PathValidatorAssertionEditor.xaml -->
     <s:String x:Key="String_PathValidationAssertion">路徑驗證斷言</s:String>
     <s:String x:Key="String_AssertFor">斷言為</s:String>
@@ -591,9 +668,9 @@
     <s:String x:Key="String_ExpectedResult">預期結果</s:String>
     <s:String x:Key="String_ResultColon">結果：</s:String>
     <s:String x:Key="String_UseCurrent">使用當前值</s:String>
-    <s:String x:Key="String_UseCurrentTooltip">將當前值用作預期值。</s:String>
+    <s:String x:Key="String_UseCurrentTooltip">使用當前值作為預期值。</s:String>
     <s:String x:Key="String_UseCurrentReplaced">預期結果將替換為當前評估。</s:String>
-    <s:String x:Key="String_UseCurrentFailed">評估斷言時發生錯誤, 無法將當前結果用作預期結果</s:String>
+    <s:String x:Key="String_UseCurrentFailed">評估斷言時出錯, 未能將當前結果用作預期結果</s:String>
     <!-- SendRequestTestStepEditor.xaml -->
     <s:String x:Key="String_EvaluateAssertions">評估斷言</s:String>
     <s:String x:Key="String_Assertions">斷言</s:String>
@@ -613,10 +690,10 @@
     <s:String x:Key="String_InformationColon">資訊：</s:String>
     <!-- SoapFaultAssertion.xaml -->
     <s:String x:Key="String_SoapFaultAssertion">Soap 錯誤斷言</s:String>
-    <s:String x:Key="String_SoapFaultAssertionDescription">驗證回應是否為 soap 錯誤/或驗證回應是否為有效的 Soap 回應</s:String>
+    <s:String x:Key="String_SoapFaultAssertionDescription">驗證回應是否為 soap 錯誤/或驗證回應是否為有效的 soap 回應</s:String>
     <s:String x:Key="String_IsSoapFaultColon">是 Soap 錯誤:</s:String>
     <s:String x:Key="String_IsSoapFaultChecked">斷言伺服器的回應是否為 soap 錯誤 (soap 1.1 和 soap 1.2)</s:String>
-    <s:String x:Key="String_IsSoapFaultUnchecked">斷言伺服器的回應是有效的回應而不是 Soap 錯誤</s:String>
+    <s:String x:Key="String_IsSoapFaultUnchecked">斷言伺服器的回應是否為有效回應, 而不是 Soap 錯誤</s:String>
     <!-- SqlQueryTestStepEditor.xaml -->
     <s:String x:Key="String_RunSQLQuery">運行 SQL 查詢:</s:String>
     <s:String x:Key="String_TestConnectivity">測試連線性</s:String>
@@ -624,7 +701,6 @@
     <s:String x:Key="String_Configuration">配置</s:String>
     <s:String x:Key="String_Result">結果</s:String>
     <s:String x:Key="String_ServerNameOrIpColon">伺服器名稱或 IP 位址:</s:String>
-    <s:String x:Key="String_AuthenticationModeColon">身份驗證模式:</s:String>
     <s:String x:Key="String_DatabaseNameColon">資料庫名稱:</s:String>
     <s:String x:Key="String_UserNameColon">使用者名:</s:String>
     <s:String x:Key="String_PasswordColon">密碼：</s:String>
@@ -636,14 +712,14 @@
     <s:String x:Key="String_DomainUserNameColon">域 \ 使用者名:</s:String>
     <!-- UpdateSimulationData.xaml -->
     <s:String x:Key="String_EditResponse">編輯回應</s:String>
-    <s:String x:Key="String_SelectedService">選擇的服務</s:String>
+    <s:String x:Key="String_SelectedService">所選服務</s:String>
     <s:String x:Key="String_Clean">清潔</s:String>
-    <s:String x:Key="String_CleanChecked">在添加以下回應之前清除同一服務的回應。</s:String>
+    <s:String x:Key="String_CleanChecked">在添加以下回應之前, 清除相同服務的回應。</s:String>
     <s:String x:Key="String_CleanUnchecked">不清除回應, 僅添加以下回應。</s:String>
     <!-- ViewCSVDataSource.xaml -->
     <s:String x:Key="String_ContainsHeaderColon">包含頁眉:</s:String>
     <s:String x:Key="String_ContainsHeaderChecked">資料來源的第一行是列標題</s:String>
-    <s:String x:Key="String_ContainsHeaderUnchecked">資料來源不包含頁眉 (需要指定頁眉)</s:String>
+    <s:String x:Key="String_ContainsHeaderUnchecked">資料來源不包含標頭 (您需要指定標頭)</s:String>
     <s:String x:Key="String_SeparatorColon">分離：</s:String>
     <s:String x:Key="String_SelectDot">選擇。。。</s:String>
     <!-- ViewDataDrivenTestCase.xaml -->
@@ -652,7 +728,7 @@
     <s:String x:Key="String_DataSource">資料來源</s:String>
     <s:String x:Key="String_TestInstances">測試實例</s:String>
     <s:String x:Key="String_TestCase">測試案例</s:String>
-    <s:String x:Key="String_CountSteps">步驟</s:String>
+    <s:String x:Key="String_CountSteps"># 步驟</s:String>
     <s:String x:Key="String_Progress">進展</s:String>
     <s:String x:Key="String_Information">資訊</s:String>
     <s:String x:Key="String_SelectDataSourceColon">選擇資料來源:</s:String>
@@ -665,14 +741,15 @@
     <!-- ViewProjectInfo.xaml -->
     <s:String x:Key="String_RunAllTests">運行所有測試</s:String>
     <s:String x:Key="String_GenerateReport">生成報告</s:String>
-    <s:String x:Key="String_ViewReport">查看報表</s:String>
+    <s:String x:Key="String_ViewReport">查看報告</s:String>
     <s:String x:Key="String_ProjectInformationColon">專案資訊:</s:String>
     <s:String x:Key="String_CreationDateColon">創建日期:</s:String>
     <s:String x:Key="String_CreatedByColon">建立者:</s:String>
     <s:String x:Key="String_LastSavedAtColon">上次保存于:</s:String>
+    <s:String x:Key="String_TestProfileColon">測試組態檔:</s:String>
     <s:String x:Key="String_ByColon">的</s:String>
     <s:String x:Key="String_TestProfile">測試組態檔:</s:String>
-    <s:String x:Key="String_TestProfileDescription">測試組態檔包含測試環境變數、憑據和用於服務類比的預設測試資料。要輕鬆配置測試組態檔, 您可以轉到測試設定並匯出當前設定檔。</s:String>
+    <s:String x:Key="String_TestProfileDescription">測試組態檔包含服務類比的環境變數、憑據和預設測試資料。若要輕鬆配置測試組態檔, 可以轉到 "測試設定" 並匯出當前設定檔。</s:String>
     <s:String x:Key="String_UseActiveProfile">使用活動設定檔</s:String>
     <s:String x:Key="String_UseActiveProfileTooltip">使用手動測試運行程式中的當前測試組態檔</s:String>
     <s:String x:Key="String_LoadProfile">載入設定檔</s:String>
@@ -684,22 +761,22 @@
     <s:String x:Key="String_CountTests"># 測試</s:String>
     <s:String x:Key="String_SaveAutomatedTestReport">保存自動測試報告</s:String>
     <s:String x:Key="String_ReportExported">報表已匯出</s:String>
-    <s:String x:Key="String_ReportExportFailedColon">報表無法匯出:</s:String>
-    <s:String x:Key="String_GeneratingReport">生成報告</s:String>
+    <s:String x:Key="String_ReportExportFailedColon">報告未能匯出:</s:String>
+    <s:String x:Key="String_GeneratingReport">生成報表</s:String>
     <s:String x:Key="String_TestReport">測試報告</s:String>
     <!-- ViewTestCase.xaml -->
     <s:String x:Key="String_TestConfiguration">測試組態</s:String>
     <s:String x:Key="String_ListTestSteps">測試步驟清單</s:String>
     <s:String x:Key="String_TestStep">測試步驟</s:String>
-    <s:String x:Key="String_VariableName">變數名</s:String>
-    <s:String x:Key="String_VariableNameTooltip">輸入當前測試案例的變數名</s:String>
-    <s:String x:Key="String_VariableNameEmpty">變數名不能為 null 或為空</s:String>
-    <s:String x:Key="String_VariableNameExists">名稱為 "{0}" 的變數已經存在。</s:String>
-    <s:String x:Key="String_VariableNameNotValid">"{0}" 不是變數名的有效識別碼。</s:String>
-    <s:String x:Key="String_VariableXRemovedRecover">變數 {0} 已刪除。按一下此處恢復。</s:String>
+    <s:String x:Key="String_VariableName">變數名稱</s:String>
+    <s:String x:Key="String_VariableNameTooltip">輸入當前測試案例的變數名稱</s:String>
+    <s:String x:Key="String_VariableNameEmpty">變數名不能為空或空</s:String>
+    <s:String x:Key="String_VariableNameExists">名稱為 "{0}" 的變數已存在。</s:String>
+    <s:String x:Key="String_VariableNameNotValid">"{0}" 不是變數名稱的有效識別碼。</s:String>
+    <s:String x:Key="String_VariableXRemovedRecover">變數 {0} 被刪除。按一下此處恢復。</s:String>
     <s:String x:Key="String_ClearCustomVariables">清除自訂變數</s:String>
-    <s:String x:Key="String_ClearCustomVariablesQuestion">是否要刪除所有自訂變數？
-無法恢復此操作。</s:String>
+    <s:String x:Key="String_ClearCustomVariablesQuestion" xml:space="preserve"><![CDATA[是否要刪除所有自訂變數？
+無法恢復此操作。]]></s:String>
     <!-- ViewTestSuite.xaml -->
     <s:String x:Key="String_TestSuiteColon">測試套件:</s:String>
     <s:String x:Key="String_TestSuiteConfiguration">測試套件配置</s:String>
@@ -711,14 +788,14 @@
     <!-- WindowEditAssertion.xaml -->
     <s:String x:Key="String_Assertion">斷言</s:String>
     <s:String x:Key="String_Test">測試</s:String>
-    <s:String x:Key="String_AssertionObjectNull">斷言物件不能為 null</s:String>
-    <s:String x:Key="String_AssertionTestException">測試斷言時引發未處理的異常:</s:String>
+    <s:String x:Key="String_AssertionObjectNull">斷言物件不能為空</s:String>
+    <s:String x:Key="String_AssertionTestException">測試斷言時引發的未處理異常:</s:String>
     <!-- WindowEditExtractProperty.xaml -->
     <s:String x:Key="String_EditPropertyExtraction">編輯屬性提取</s:String>
     <s:String x:Key="String_PropertyNameColon">屬性名稱:</s:String>
     <s:String x:Key="String_PathTypeColon">路徑類型:</s:String>
     <s:String x:Key="String_PathColon">路徑：</s:String>
-    <s:String x:Key="String_VariableNameColon">變數名</s:String>
+    <s:String x:Key="String_VariableNameColon">變數名稱</s:String>
     <s:String x:Key="String_CurrentValue">當前值</s:String>
     <s:String x:Key="String_GetCurrentValue">按一下 "評估" 按鈕從當前配置中獲取值</s:String>
     <s:String x:Key="String_Evaluate">評價</s:String>
@@ -726,13 +803,67 @@
     <s:String x:Key="String_XPathExpression">XPath 運算式</s:String>
     <!-- ExtractPropertyTestStepEditor.xaml -->
     <s:String x:Key="String_SelectedExtractPropertyDeleted">選定的提取屬性已被刪除, 請按一下此處恢復。</s:String>
-    <s:String x:Key="String_ExtractProperty">提取物屬性</s:String>
+    <s:String x:Key="String_ExtractProperty">提取屬性</s:String>
     <s:String x:Key="String_RunThisStep">運行此步驟</s:String>
     <s:String x:Key="String_AddPropertyExtraction">添加屬性提取</s:String>
-    <s:String x:Key="String_FromTestSuiteColon">來自測試套件:</s:String>
+    <s:String x:Key="String_FromTestSuiteColon">從測試套件:</s:String>
     <s:String x:Key="String_VariableLevelColon">可變級別:</s:String>
     <s:String x:Key="String_PropertyNameU">屬性名稱</s:String>
     <s:String x:Key="String_PathTypeU">路徑類型</s:String>
     <s:String x:Key="String_PathU">路徑</s:String>
     <s:String x:Key="String_VariableU">變數</s:String>
+    <!-- ViewRegex.xaml.cs -->
+    <s:String x:Key="String_SyntaxOfExpressionErros">運算式的語法有錯誤。</s:String>
+    <s:String x:Key="String_InputStringNotMatchExpression">輸入字串與運算式不匹配。</s:String>
+    <s:String x:Key="String_InputStringMatchExpression">輸入字串與運算式匹配。</s:String>
+    <!-- ViewXPathValidator -->
+    <s:String x:Key="String_XPathNotMatchAnything">給定的 XPath 與任何內容都不匹配, 因此評估結果為空。</s:String>
+    <s:String x:Key="String_XPathEvaluationTool">XPath 評估工具</s:String>
+    <s:String x:Key="String_XMLDocument">XML 文檔</s:String>
+    <s:String x:Key="String_EvaluateU">評價</s:String>
+    <!-- ViewStockCertificates -->
+    <s:String x:Key="String_TestCertificateInstalled">已安裝測試憑證</s:String>
+    <s:String x:Key="String_TestCertificateInstalledMessage">安裝了根憑證授權單位和測試憑證。</s:String>
+    <s:String x:Key="String_UnableToInstallCertificate">無法安裝證書</s:String>
+    <s:String x:Key="String_TestCertificateIntro">Hummingbird提供了一個測試憑證, 您可以使用它來類比使用 SSL 的安全傳輸。對於以下兩種情況, 需要在測試電腦上安裝證書:</s:String>
+    <s:String x:Key="String_TestCertificateIntroLine1">對於使用 ssl 的服務類比, Hummingbird的行為類似于需要 ssl 證書的 HTTP 伺服器</s:String>
+    <s:String x:Key="String_TestCertificateIntroLine2">對於發送簽名或加密請求消息所需的請求, Hummingbird需要證書, 需要簽名和加密。</s:String>
+    <s:String x:Key="String_TestCertificateIntroLine3">您可以安裝Hummingbird提供的測試憑證。</s:String>
+    <s:String x:Key="String_InstallTestCertificate">安裝測試憑證</s:String>
+    <s:String x:Key="String_InstallCertificateMachine">在本地電腦存儲中為所有使用者安裝 (需要以管理員身份運行)</s:String>
+    <s:String x:Key="String_InstallCertificateUser">為當前使用者安裝</s:String>
+    <s:String x:Key="String_ToRunServiceSimulationWithSSL">若要使用 HTTPS/SSL 運行服務類比, 必須在本地電腦存儲中安裝證書</s:String>
+    <s:String x:Key="String_WarningInstallCertificateAdminRequired">警告: 為所有使用者安裝證書要求Hummingbird以管理員身份運行</s:String>
+    <s:String x:Key="String_InstallCertificateU">安裝證書</s:String>
+    <s:String x:Key="String_InstallYourOwnCertificate">安裝您自己的證書</s:String>
+    <s:String x:Key="String_InstallYourOwnCertificateDescription">您還可以安裝自己的證書。請按照Hummingbird文檔中的步驟操作</s:String>
+    <!-- ViewOpenApiCategory -->
+    <s:String x:Key="String_OpenApiService">OpenAPI 服務</s:String>
+    <s:String x:Key="String_DescriptionOfOpenApiService">OpenAPI 服務的描述</s:String>
+    <s:String x:Key="String_OpenApiDefinitionColon">OpenAPI 定義:</s:String>
+    <s:String x:Key="String_BaseUrlColon">基本網址:</s:String>
+    <s:String x:Key="String_TagsU">標籤</s:String>
+    <s:String x:Key="String_MethodU">方法</s:String>
+    <!-- EditableTextBlock -->
+    <s:String x:Key="String_ErrorWithInputData">輸入資料出錯</s:String>
+    <s:String x:Key="String_InputValueNotMatchTypeX" xml:space="preserve"><![CDATA[輸入值與類型: {0} 不匹配。
+請重試或按 ESC 鍵取消。]]></s:String>
+    <s:String x:Key="String_StringEditor">字串編輯器</s:String>
+    <s:String x:Key="String_GeneralOptions">常規選項</s:String>
+    <s:String x:Key="String_AuthenticationColon">認證：</s:String>
+    <s:String x:Key="String_PreEmptiveColon">先發制人:</s:String>
+    <s:String x:Key="String_PreEmptiveChecked">先發制人的身份驗證</s:String>
+    <s:String x:Key="String_PreEmptiveUnchecked">正常身份驗證</s:String>
+    <s:String x:Key="String_SoapOptions">SOAP 選項</s:String>
+    <s:String x:Key="String_MessageEncodingColon">消息編碼:</s:String>
+    <s:String x:Key="String_MessageEncodingMtoM">MtoM (應用/xop)</s:String>
+    <s:String x:Key="String_MessageEncodingText">文本/XML</s:String>
+    <s:String x:Key="String_MessageVersionColon">消息版本:</s:String>
+    <s:String x:Key="String_CustomHttpHeaders">自訂 HTTP 標頭</s:String>
+    <s:String x:Key="String_Anonymous">匿名</s:String>
+    <s:String x:Key="String_WindowsAuthentication">Windows 身份驗證</s:String>
+    <s:String x:Key="String_WindowsAuthenticationTooltip">使用您當前的 windows 憑據來調用此服務, 與 Windows 集成身份驗證</s:String>
+    <s:String x:Key="String_NtlmAuthentication">NTLM 身份驗證</s:String>
+    <s:String x:Key="String_NtlmAuthenticationTooltip">使用您當前的 Windows 憑據調用此服務, 使用 NTLM 身份驗證</s:String>
+    <s:String x:Key="String_ApplicationName">Hummingbird</s:String>
 </ResourceDictionary>

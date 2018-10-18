@@ -34,7 +34,6 @@
 
     <s:String x:Key="String_StartupInformation">Startup information</s:String>
     
-    
     <!-- BACK STAGE -->
     <s:String x:Key="String_General">General</s:String>
     <s:String x:Key="String_TestSettings">Test Settings</s:String>
@@ -78,6 +77,7 @@
     <s:String x:Key="String_Services">Services</s:String>
     <s:String x:Key="String_SystemVariables">System Variables</s:String>
     <s:String x:Key="String_CustomVariables">Custom Variables</s:String>
+	<s:String x:Key="String_RuntimeVariables">Runtime Variables</s:String>
     <s:String x:Key="String_Credentials">Credentials</s:String>
     <s:String x:Key="String_MaxRequestPerService">Max saved requests per service:</s:String>
     <s:String x:Key="String_MaxRequestPerServiceTooltip">Maximum number of requests per service can be saved for fast resend. the default value is 20.</s:String>
@@ -88,7 +88,7 @@
     <s:String x:Key="String_CloseAndShowOnDemande">Close window and show result on-demand</s:String>
     <s:String x:Key="String_AuthenticationU">AUTHENTICATION</s:String>
     <s:String x:Key="String_ErrorParsingParameterX">Error when parsing parameter '{0}'</s:String>
-    <s:String x:Key="String_ErrorParsingParameterDetails">Service {0}, Parameter {1}:&#13; Value '{2}' is not valid for its type '{3}'</s:String>
+    <s:String x:Key="String_ErrorParsingParameterDetails">Service {0}, Parameter {1}:&#x0a; Value '{2}' is not valid for its type '{3}'</s:String>
     <s:String x:Key="String_ResetToDefaultValue">Reset to its default value</s:String>
     <s:String x:Key="String_BrowseDot">Browse ...</s:String>
     <s:String x:Key="String_FindFileForX">Find a file for {0}</s:String>
@@ -105,9 +105,9 @@
     <s:String x:Key="String_SystemVariableExists">You have already a system variable of the same name.</s:String>
     <s:String x:Key="String_NotAValidVariableName">The input name is an not valid variable name.</s:String>
     <s:String x:Key="String_ClearEnvironmentVariables">Clear environment variables</s:String>
-    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">This operation can not be recovered, Are you sure to clear all environment variables?&#13; If they are referenced in requests, responses or automation scripts, they will encounter errors.</s:String>
+    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">This operation can not be recovered, Are you sure to clear all environment variables?&#x0a; If they are referenced in requests, responses or automation scripts, they will encounter errors.</s:String>
     <s:String x:Key="String_DeleteEnvironmentVariables">Delete environment variables</s:String>
-    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">This operation can not be recovered, Are you sure to delete selected environment variables?&#13; If they are referenced in requests, responses or automation scripts, they will encounter errors.</s:String>
+    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">This operation can not be recovered, Are you sure to delete selected environment variables?&#x0a; If they are referenced in requests, responses or automation scripts, they will encounter errors.</s:String>
     <s:String x:Key="String_CannotCopyEV">Can not copy</s:String>
     <s:String x:Key="String_CannotCopyEVTooltip">It is not possible to copy the values from the environment itself, please select another environment.</s:String>
     <s:String x:Key="String_EnterUserName">Enter the user name</s:String>
@@ -134,10 +134,10 @@
 	<s:String x:Key="String_ObjectTypeNull">&lt;!-- The object type is null. This request does not have a parameter --></s:String>
 	<s:String x:Key="String_ObjectCannotSerialized">This object can not be serialized, you can only view the object via the tree view.</s:String>
 	<s:String x:Key="String_InvalidOperation">Invalid operation</s:String>
-	<s:String x:Key="String_ViewNotSupportDeserialization">The current viewer does not support deserialization, you can edit the TreeView to modify the object.&#13; If you want to modify the object by editing the text, please choose XML view.</s:String>
+	<s:String x:Key="String_ViewNotSupportDeserialization">The current viewer does not support deserialization, you can edit the TreeView to modify the object.&#x0a; If you want to modify the object by editing the text, please choose XML view.</s:String>
 	<s:String x:Key="String_DeserializationErrorMessage">Deserialization Error - Unable to deserialize text to message. '{0}' (Click here for details)</s:String>
 	<s:String x:Key="String_DetailedTechnicalError">Detailed technical error: </s:String>
-	<s:String x:Key="String_UnableToParseXml">Unable to parse the XML: &#13;</s:String>
+	<s:String x:Key="String_UnableToParseXml">Unable to parse the XML: &#x0a;</s:String>
 	<s:String x:Key="String_ParsedRequest">Parsed Request</s:String>
 	
 	<!-- Components\ExtensionInformation.xaml -->
@@ -209,18 +209,24 @@
 	<s:String x:Key="String_SearchFilter">Search filter</s:String>
 	<s:String x:Key="String_Type3Chars">Please type at least 3 valid characters to find the services.</s:String>
 	<s:String x:Key="String_NoResultMatches">No result matches the search pattern.</s:String>
+	<s:String x:Key="String_AuthenticationModeColon">Authentication Mode:</s:String>
+	<s:String x:Key="String_CredentialColon">Credential:</s:String>
+	<s:String x:Key="String_UserDefined">User defined</s:String>
+	<s:String x:Key="String_SpecifyAUserDefinedCredential">Specify a user defined credential</s:String>
+	<s:String x:Key="String_NonApplicable">Non Applicable</s:String>
+	<s:String x:Key="String_ThisAuthenticationModeNotRequireCredential">This authentication mode does not require the user to enter a credential</s:String>
 	
 	
 	<!-- ExtensionDesigner\ViewApplication.xaml -->
 	<s:String x:Key="String_Application">Application</s:String>
-	<s:String x:Key="String_ApplicationTooltip">Enter a name of the Application:&#13;As Driver it is the name of system you are testing, &#13;As Stub it is the name of system you want to simulate.</s:String>
+	<s:String x:Key="String_ApplicationTooltip">Enter a name of the Application:&#x0a;As Driver it is the name of system you are testing, &#x0a;As Stub it is the name of system you want to simulate.</s:String>
 	<s:String x:Key="String_ApplicationNameColon">Application Name:</s:String>
 	<s:String x:Key="String_ServiceCategoriesIncluded">Service Categories included in this Application</s:String>
 	<s:String x:Key="String_ServiceCategoryU">SERVICE CATEGORY</s:String>
 	
 	<!-- ExtensionDesigner\ViewServiceCategory.xaml -->
 	<s:String x:Key="String_ServiceCategory">Service Category</s:String>
-	<s:String x:Key="String_ServiceCategoryTooltip">Service Category holds a set of Web Services of the same propose. &#13;For example, you can have a set of Web Service for Customer Management, including 3 Web Services for Customer Creation, Modification and Deletion.</s:String>
+	<s:String x:Key="String_ServiceCategoryTooltip">Service Category holds a set of Web Services of the same propose. &#x0a;For example, you can have a set of Web Service for Customer Management, including 3 Web Services for Customer Creation, Modification and Deletion.</s:String>
 	<s:String x:Key="String_CategoryNameColon">Category Name:</s:String>
 	<s:String x:Key="String_ServicesIncluded">Services included in this Category</s:String>
 	<s:String x:Key="String_ServicesU">SERVICES</s:String>
@@ -244,6 +250,7 @@
 	<s:String x:Key="String_CannotGenerateSolution">Cannot generate solution</s:String>
 	<s:String x:Key="String_CannotGenerateSolutionMessage">An error has occurred when generating the solution file.</s:String>
 	<s:String x:Key="String_ProjectGenerationCancelled">Solution generation has been canceled.</s:String>
+	<s:String x:Key="String_ExtensionCanBeUsedNow">The extension can be used now but it will be installed at next restart because there is already a previous version.</s:String>
 	
 	<!-- ExtensionDesigner\ViewServiceEndpoint.xaml -->
 	<s:String x:Key="String_EndpointNameColon">Endpoint Name:</s:String>
@@ -351,7 +358,7 @@
     <s:String x:Key="String_TestFrameworkDocumentation">Test Framework documentation</s:String>
     <s:String x:Key="String_ReportBugsSuggestions">Report bugs/suggestions</s:String>
     <s:String x:Key="String_LanguageChanged">Language Changed</s:String>
-    <s:String x:Key="String_LanauageChangedQuestion">You have changed your preferred language. Hummingbird must be restarted to make changes effective.&#13; Do you want to restart Hummingbird now?</s:String>
+    <s:String x:Key="String_LanauageChangedQuestion">You have changed your preferred language. Hummingbird must be restarted to make changes effective.&#x0a; Do you want to restart Hummingbird now?</s:String>
      
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">Uninstall</s:String>
@@ -366,10 +373,23 @@
     <s:String x:Key="String_ConfirmExtensionUninstall">Confirm extension uninstall</s:String>
     <s:String x:Key="String_ConfirmExtensionUninstallQuestion">Are you sure to uninstall the extension '{0}'</s:String>
     <s:String x:Key="String_RestartRequired">Restart Required</s:String>
-    <s:String x:Key="String_RestartRequiredExtensionQuestion">You need to restart Hummingbird to uninstall the selected extension.&#13; Do you want to restart Hummingbird now?</s:String>
+    <s:String x:Key="String_RestartRequiredExtensionQuestion">You need to restart Hummingbird to uninstall the selected extension.&#x0a; Do you want to restart Hummingbird now?</s:String>
     <s:String x:Key="String_Enabled">Enabled</s:String>
 	<s:String x:Key="String_Disabled">Disabled</s:String>
 	
+	<!-- ViewInstallExtension -->
+	<s:String x:Key="String_InstallExtensionFromLocalStorage">Install an Extension from local storage</s:String>
+	<s:String x:Key="String_ExtensionPackageZip">Extension package (*.zip): </s:String>
+	<s:String x:Key="String_WarningBeforeInstallExtension">Warning: If you are working in an Organization, Make sure that the extension is provided by a trusted source. Extensions from unknown source may contain malicious code that will do harm to your computer.&#x0a;To ensure the security, always get extensions from official Hummingbird Test Manager website, people in charge from your organization, or extensions created by your team.</s:String>
+	<s:String x:Key="String_InstallThisExtension">Install this Extension</s:String>
+	<s:String x:Key="String_GivenFileIsNotValidExtensionPackage">The given file is not an valid Hummingbird Extension Package.</s:String>
+	<s:String x:Key="String_ExtensionUpdate">Extension update</s:String>
+	<s:String x:Key="String_ExtensionUpdateContent">Version {0} of Extension ‘{1}’ has been installed, do you want to replace it by this one: {2} ?</s:String>
+	<s:String x:Key="String_RestartRequiredInstallExtensionQuestion">You need to restart Hummingbird to install the extension.&#x0a;Do you want to restart Hummingbird now?</s:String>
+	<s:String x:Key="String_InstallationFailed">Installation Failed.</s:String>
+	<s:String x:Key="String_InstallationFailedExtensionContent">An error has occurred when installing the extension, Please refer the system log to see detailed error messages.</s:String>
+	<s:String x:Key="String_ExtensionInstalledAndLoaded">The extension is installed and can be used now.</s:String>
+	<s:String x:Key="String_OpenExtension">Open an extension</s:String>
 
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">Manual test runner</s:String>
@@ -526,7 +546,7 @@
     <!-- ViewExtensionDesigner -->
     <s:String x:Key="String_DesignerTooltip">In Hummingbird Test Framework, Services are organized in 3 levels. Please organize the services as natural as possible within your organization.</s:String>
     <s:String x:Key="String_DesignerApplicationTooltip">When used as Driver, Name of the system your are testing. As Stub, name of the application which Hummingbird simulates.</s:String>
-    <s:String x:Key="String_DesignerCategoryTooltip">Functional category of services. &#13; For example: All services of customer adding, modifying, removing can be organized in [Customer Management] category.</s:String>
+    <s:String x:Key="String_DesignerCategoryTooltip">Functional category of services. &#x0a; For example: All services of customer adding, modifying, removing can be organized in [Customer Management] category.</s:String>
     <s:String x:Key="String_DesignerServiceTooltip">The name of the service. For SOAP services, it represents a binding object, it has an Endpoint and may contains one or more operations</s:String>
     <s:String x:Key="String_SaveAs">Save as</s:String>
     <s:String x:Key="String_Close">Close</s:String>
@@ -534,14 +554,58 @@
     <s:String x:Key="String_CreateNewExtensionProject">Create a new service extension project</s:String>
     <s:String x:Key="String_LearnMoreExtensionDesigner">Learn more about service extension designer</s:String>
     <s:String x:Key="String_OtherWaysToExtent">Other ways to extent your ability</s:String>
+	<s:String x:Key="String_NewProjectNeverSaved">* new project, never has been saved.</s:String>
     
-    
+	<!-- ViewExtensionDesigner.xaml.cs -->
+	<s:String x:Key="String_PleaseFixIssues">Please fix issues</s:String>
+	<s:String x:Key="String_PleaseFixIssuesContent">There are errors on the configuration, please fix it before changing to another view</s:String>
+	<s:String x:Key="String_DeleteThisService">Delete this Service</s:String>
+	<s:String x:Key="String_CategoryHasSubItems">This Category has sub items</s:String>
+	<s:String x:Key="String_CategoryHasSubItemsContent">You are deleting this service category which contains one or more services, Do you want to delete this Service category anyway?</s:String>
+	<s:String x:Key="String_Rename">Rename</s:String>
+	<s:String x:Key="String_ChangeServiceName">Change name of this Service</s:String>
+	<s:String x:Key="String_ChangeServiceNameContent">Enter a new value for the selected Service</s:String>
+	<s:String x:Key="String_AddSoapService">Add a SOAP Service</s:String>
+	<s:String x:Key="String_MySoapService">My SOAP Service</s:String>
+	<s:String x:Key="String_DeleteThisCategory">Delete this category</s:String>
+	<s:String x:Key="String_ChangeCategoryName">Change name of Service Category</s:String>
+	<s:String x:Key="String_ChangeCategoryNameContent">Enter a new value for the selected Service Category</s:String>
+	<s:String x:Key="String_AddServiceCategory">Add a Service Category</s:String>
+	<s:String x:Key="String_MyCategory">My Category</s:String>
+	<s:String x:Key="String_AddOpenAPICategory">Add an OpenAPI Category</s:String>
+	<s:String x:Key="String_DeleteThisApplication">Delete this Application</s:String>
+	<s:String x:Key="String_ApplicationHasSubItems">This Application has sub items</s:String>
+	<s:String x:Key="String_ApplicationHasSubItemsContent">You are deleting this application containing one or more Service Categories,\nDo you want to delete this Application any way?</s:String>
+	<s:String x:Key="String_ChangeNameOfApplication">Change name of application</s:String>
+	<s:String x:Key="String_AddAnApplication">Add an Application</s:String>
+	<s:String x:Key="String_MyApplication">My application</s:String>
+	<s:String x:Key="String_ChangeExtensionName">Change name of extension</s:String>
+	<s:String x:Key="String_ChangeExtensionNameContent">Enter a new value for the selected Application</s:String>
+	<s:String x:Key="String_SaveCurrentProjectContent">Your current project has not yet saved, do you want to save it now?&#x0a;
+YES: Save the current project and create new project.&#x0a;
+NO: Abandon current project and create new project.&#x0a;
+CANCEL: stay on current project.</s:String>
+    <s:String x:Key="String_NewExtensionProject">New extension project</s:String>
+	<s:String x:Key="String_ProjectSaved">Project has been saved</s:String>
+	<s:String x:Key="String_SaveExtensionProject">Save the extension project</s:String>
+	<s:String x:Key="String_ProjectXSaved">Project '{0}' has been saved</s:String>
+	<s:String x:Key="String_ErrorSavingProject">Error saving project</s:String>
+	<s:String x:Key="String_ErrorSavingProjectContent">An error has occurred when saving the extension project.</s:String>
+	<s:String x:Key="String_ErrorOpenProject">Error open project</s:String>
+	<s:String x:Key="String_ProjectFileXCannotFoundRemoveLink">The project file '{0}' can not be found, would you like to remove this project from the list?</s:String>
+	<s:String x:Key="String_CannotLoadProjectFromGivenFile">Can not load the project from given file.</s:String>
+	<s:String x:Key="String_CopyrightInfo">Copyright {0} Company Name, All rights reserved.</s:String>
+	<s:String x:Key="String_ProjectDataInvalid">The project data is invalid. Make sure it is an valid extension designer project file.</s:String>
     <!-- WindowMessageViewer.xaml -->
     <s:String x:Key="String_MessageViewer">Message Viewer</s:String>
     <s:String x:Key="String_ViewMessage">View message :</s:String>
     <s:String x:Key="String_Overview">Overview</s:String>
     <s:String x:Key="String_Request">Request</s:String>
     <s:String x:Key="String_Response">Response</s:String>
+	<s:String x:Key="String_ErrorLoadMessageCMV">Error load message with Custom Message Viewer</s:String>
+	<s:String x:Key="String_ErrorLoadMessageCMVMessage">An error has occurred when showing this message using the CustomMessageViewer: {0} from extension: {1}&#x0a;Please contact the developer of this extension for more details.&#x0a;Now showing the message with default viewer.</s:String>
+
+	
     
     <!-- WindowMultiLineEditor.xaml -->
     <s:String x:Key="String_Cancel">Cancel</s:String>
@@ -582,6 +646,28 @@
     <s:String x:Key="String_RequestSentTo">Request sent to:</s:String>
     <s:String x:Key="String_ElapsedTime">Elapsed Time: </s:String>
     <s:String x:Key="String_ResponseColon">Response:</s:String>
+	<s:String x:Key="String_CannotSendRequest">Cannot sent request</s:String>
+	<s:String x:Key="String_CannotSendRequestContent">The request cannot be sent, The service returned an error:</s:String>
+	<s:String x:Key="String_BeforeSendingChooseARequest">Before sending, choose a request.</s:String>
+	<s:String x:Key="String_PreventSaving">Prevent Saving</s:String>
+	<s:String x:Key="String_PreventSavingRequestMessage">There are some errors in your request editor, and it prevents saving. please check your request.</s:String>
+	<s:String x:Key="String_ChooseANameU">CHOOSE A NAME</s:String>
+	<s:String x:Key="String_RequestSavedAtColon"> request saved at:</s:String>
+	<s:String x:Key="String_BeforeSavingChooseARequest">Before saving, choose a request.</s:String>
+	<s:String x:Key="String_PreventClosing">Prevent Closing</s:String>
+	<s:String x:Key="String_PreventClosingRequestMessage">There are some errors in your request editor, and it prevents closing. please check your request.</s:String>
+	<s:String x:Key="String_KeepFavoriteRequests">Keep favorite requests?</s:String>
+	<s:String x:Key="String_KeepFavoriteRequestsMessage">You are clearing the request history for selected service, Do you want to keep your favorite requests?&#x0a;YES: Keep favorite requests.&#x0a;NO: Delete favorite request.&#x0a;CANCEL: Do not delete anything.</s:String>
+	<s:String x:Key="String_WarningUriFormat">Warning - Uri format</s:String>
+	<s:String x:Key="String_WarningUriFormatMessage">The UriTemplate of this service '{0}' is not well formed Uri&#x0a;If this Uri uses variables, please check settings if all used variables are assigned.</s:String>
+
+	<!-- WindowServerReponse -->
+	<s:String x:Key="String_Type3CharsToFind">Please type unless 3 valid chars to find the services.</s:String>
+	<s:String x:Key="String_NoResultMatchSearchPattern">no result to match your search pattern.</s:String>
+	<s:String x:Key="String_RenameYourResponse">Rename your response</s:String>
+	<s:String x:Key="String_FunctionalError">Functional Error</s:String>
+	<s:String x:Key="String_CannotNameResponseAsDefault">You can't name a response as "Default" while this name is reserved.</s:String>
+	<s:String x:Key="String_CannotNameXBecauseExists">You can't name the response as "{0}" because a response of same name is already exists.</s:String>
 	
 	<!-- CommandLineTestStepEditor.xaml-->
     <s:String x:Key="String_FileNameColon">File Name:</s:String>
@@ -661,7 +747,6 @@
     <s:String x:Key="String_Configuration">Configuration</s:String>
     <s:String x:Key="String_Result">Result</s:String>
     <s:String x:Key="String_ServerNameOrIpColon">Server Name or IP Address:</s:String>
-    <s:String x:Key="String_AuthenticationModeColon">Authentication Mode: </s:String>
     <s:String x:Key="String_DatabaseNameColon">Database Name:</s:String>
     <s:String x:Key="String_UserNameColon">User Name: </s:String>
     <s:String x:Key="String_PasswordColon">Password:</s:String>
@@ -715,6 +800,7 @@
     <s:String x:Key="String_CreationDateColon">Creation Date:</s:String>
     <s:String x:Key="String_CreatedByColon">Created By:</s:String>
     <s:String x:Key="String_LastSavedAtColon">Last saved at:</s:String>
+    <s:String x:Key="String_TestProfileColon">Test Profile:</s:String>
     <s:String x:Key="String_ByColon">By:</s:String>
     <s:String x:Key="String_TestProfile">Test Profile:</s:String>
     <s:String x:Key="String_TestProfileDescription">Test profile contains environment variables, credentials and default test data for service simulation. To easily configure test profile, you can go to Test Settings and export your current profile.</s:String>
@@ -744,7 +830,7 @@
     <s:String x:Key="String_VariableNameNotValid">'{0}' is not a valid identifier for a variable name.</s:String>
     <s:String x:Key="String_VariableXRemovedRecover">Variable {0} is removed. Click here to recover.</s:String>
     <s:String x:Key="String_ClearCustomVariables">Clear custom variables</s:String>
-    <s:String x:Key="String_ClearCustomVariablesQuestion">Do you want to delete all the custom variables? &#13;This action can not be recovered.</s:String>
+    <s:String x:Key="String_ClearCustomVariablesQuestion">Do you want to delete all the custom variables? &#x0a;This action can not be recovered.</s:String>
 	
 	<!-- ViewTestSuite.xaml -->
     <s:String x:Key="String_TestSuiteColon">Test Suite:</s:String>
@@ -786,6 +872,46 @@
 	<s:String x:Key="String_PathU">PATH</s:String>
 	<s:String x:Key="String_VariableU">VARIABLE</s:String>
 	
+	<!-- ViewRegex.xaml.cs -->
+	<s:String x:Key="String_SyntaxOfExpressionErros">The syntax of the expression has errors.</s:String>
+	<s:String x:Key="String_InputStringNotMatchExpression">The input string does not match the expression.</s:String>
+	<s:String x:Key="String_InputStringMatchExpression">The input string matches the expression.</s:String>
+
+	<!-- ViewXPathValidator -->
+	<s:String x:Key="String_XPathNotMatchAnything">The given XPath does not match anything, The evaluation result is empty.</s:String>
+	<s:String x:Key="String_XPathEvaluationTool">XPath Evaluation Tool</s:String>
+	<s:String x:Key="String_XMLDocument">XML Document</s:String>
+	<s:String x:Key="String_EvaluateU">EVALUATE</s:String>
 	
+	<!-- ViewStockCertificates -->
+	<s:String x:Key="String_TestCertificateInstalled">Test certificate has been installed</s:String>
+	<s:String x:Key="String_TestCertificateInstalledMessage">The Root Certificate Authority and Test certificate are installed.</s:String>
+	<s:String x:Key="String_UnableToInstallCertificate">Unable to install the certificate</s:String>
+	<s:String x:Key="String_TestCertificateIntro">Hummingbird provides a Test Certificate that you can use to simulate secured transport using SSL. For the two following scenario, you are required to install the certificate on your test machine:</s:String>
+	<s:String x:Key="String_TestCertificateIntroLine1">● For service simulation using SSL, Hummingbird acts like a HTTP server that requires the SSL Certificate</s:String>
+	<s:String x:Key="String_TestCertificateIntroLine2">● For sending requests which are required to sign or encrypt the request messages, Hummingbird needs a certificate requires Signature and encryption.</s:String>
+	<s:String x:Key="String_TestCertificateIntroLine3">You can install the test certificate provided by Hummingbird.</s:String>
+	<s:String x:Key="String_InstallTestCertificate">Install Test Certificate</s:String>
+	<s:String x:Key="String_InstallCertificateMachine">Install in LocalMachine store for All users (requires run-as Administrator)</s:String>
+	<s:String x:Key="String_InstallCertificateUser">Install for current user</s:String>
+	<s:String x:Key="String_ToRunServiceSimulationWithSSL">To run service simulation with HTTPS/SSL, certificates must be installed in the LocalMachine store</s:String>
+	<s:String x:Key="String_WarningInstallCertificateAdminRequired">Warning: Install certificate for All users requires Hummingbird to be run as Administrator</s:String>
+	<s:String x:Key="String_InstallCertificateU">INSTALL CERTIFICATE</s:String>
+	<s:String x:Key="String_InstallYourOwnCertificate">Install your own Certificate</s:String>
+	<s:String x:Key="String_InstallYourOwnCertificateDescription">You may also install your own certificate. Please follow the procedure in Hummingbird documentation</s:String>
+
+	
+	<!-- ViewOpenApiCategory -->
+	<s:String x:Key="String_OpenApiService">OpenAPI service</s:String>
+	<s:String x:Key="String_DescriptionOfOpenApiService">Description of the OpenAPI Service</s:String>
+	<s:String x:Key="String_OpenApiDefinitionColon">OpenAPI Definition: </s:String>
+	<s:String x:Key="String_BaseUrlColon">Base URL: </s:String>
+	<s:String x:Key="String_TagsU">TAGS</s:String>
+	<s:String x:Key="String_MethodU">METHOD</s:String>
+	
+	<!-- EditableTextBlock -->
+	<s:String x:Key="String_ErrorWithInputData">There is an error with your input data</s:String>
+	<s:String x:Key="String_InputValueNotMatchTypeX">Input value does not match to type: {0}.&#x0a;Please retry or press ESC to cancel.</s:String>
+	<s:String x:Key="String_StringEditor">String editor</s:String>	
 	
 </ResourceDictionary>

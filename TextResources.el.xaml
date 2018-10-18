@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:Hummingbird.TestManager" xmlns:s="clr-namespace:System;assembly=mscorlib">
-    <s:String x:Key="String_ApplicationName">Hummingbird</s:String>
     <s:String x:Key="String_ApplicationDescription">AN INTEGRATED TEST SOLUTION</s:String>
     <s:String x:Key="String_ErrorOccurred">Παρουσιάστηκε σφάλμα</s:String>
     <s:String x:Key="String_TestCaseColon">Δοκιμή περίπτωση:</s:String>
@@ -74,6 +73,7 @@
     <s:String x:Key="String_Services">Υπηρεσίες</s:String>
     <s:String x:Key="String_SystemVariables">Μεταβλητές συστήματος</s:String>
     <s:String x:Key="String_CustomVariables">Προσαρμοσμένες μεταβλητές</s:String>
+    <s:String x:Key="String_RuntimeVariables">Μεταβλητών κατά το χρόνο εκτέλεσης</s:String>
     <s:String x:Key="String_Credentials">Πιστοποιήσεις</s:String>
     <s:String x:Key="String_MaxRequestPerService">Max αποθηκευμένες αιτήσεις ανά υπηρεσία:</s:String>
     <s:String x:Key="String_MaxRequestPerServiceTooltip">Μέγιστος αριθμός των αιτήσεων ανά υπηρεσία μπορούν να αποθηκευτούν για γρήγορη επανάληψη αποστολής. η προεπιλεγμένη τιμή είναι 20.</s:String>
@@ -84,14 +84,14 @@
     <s:String x:Key="String_CloseAndShowOnDemande">Κλείστε το παράθυρο και να δείξει αποτέλεσμα κατ΄απαίτηση</s:String>
     <s:String x:Key="String_AuthenticationU">ΈΛΕΓΧΟΣ ΤΑΥΤΌΤΗΤΑΣ</s:String>
     <s:String x:Key="String_ErrorParsingParameterX">Σφάλμα κατά την ανάλυση η παράμετρος '{0}'</s:String>
-    <s:String x:Key="String_ErrorParsingParameterDetails">Υπηρεσία {0}, {1} η παράμετρος:
- Τιμή '{2}' δεν είναι έγκυρη για τον τύπο '{3}'</s:String>
+    <s:String x:Key="String_ErrorParsingParameterDetails"><![CDATA[Υπηρεσία {0}, {1} η παράμετρος:
+ Τιμή '{2}' δεν είναι έγκυρη για τον τύπο '{3}']]></s:String>
     <s:String x:Key="String_ResetToDefaultValue">Επαναφορά στην προεπιλεγμένη τιμή</s:String>
     <s:String x:Key="String_BrowseDot">Περιήγηση και στα...</s:String>
     <s:String x:Key="String_FindFileForX">Βρείτε ένα αρχείο για {0}</s:String>
     <s:String x:Key="String_AddTestEnvironment">Προσθέστε ένα δοκιμαστικό περιβάλλον</s:String>
     <s:String x:Key="String_AddTestEnvironmentTooltip">Πληκτρολογήστε το όνομα του νέου περιβάλλοντος δοκιμής</s:String>
-    <s:String x:Key="String_TestEnvironmentXExists">«Υπάρχει ήδη ένα δοκιμαστικό περιβάλλον που ονομάζεται '{0}'</s:String>
+    <s:String x:Key="String_TestEnvironmentXExists">Υπάρχει ήδη ένα δοκιμαστικό περιβάλλον που ονομάζεται '{0}'</s:String>
     <s:String x:Key="String_CannotRemove">Δεν είναι δυνατό να καταργήσετε</s:String>
     <s:String x:Key="String_CannotRemoveDefaultEnvironment">Αυτό είναι ένα προεπιλεγμένο περιβάλλον δοκιμής που δεν μπορεί να αφαιρεθεί.</s:String>
     <s:String x:Key="String_ConfirmDelete">Επιβεβαίωση διαγραφής</s:String>
@@ -102,11 +102,11 @@
     <s:String x:Key="String_SystemVariableExists">Έχετε ήδη μια μεταβλητή συστήματος του ίδιου ονόματος.</s:String>
     <s:String x:Key="String_NotAValidVariableName">Το όνομα εισόδου είναι ένα μη έγκυρο όνομα μεταβλητής.</s:String>
     <s:String x:Key="String_ClearEnvironmentVariables">Μεταβλητές περιβάλλοντος σαφή</s:String>
-    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">Αυτή η λειτουργία δεν μπορεί να ανακτηθεί, είστε βέβαιοι να καταργήσετε όλες τις μεταβλητές περιβάλλοντος; 
-If που αναφέρονται στις αιτήσεις, απαντήσεις ή δεσμών ενεργειών αυτοματισμού, αυτοί θα αντιμετωπίσετε σφάλματα.</s:String>
+    <s:String x:Key="String_ClearEnvironmentVariablesQuestion"><![CDATA[Αυτή η λειτουργία δεν μπορεί να ανακτηθεί, είστε βέβαιοι να καταργήσετε όλες τις μεταβλητές περιβάλλοντος;
+ Εάν αυτοί αναφέρονται σε αιτήσεις, απαντήσεις ή δεσμών ενεργειών αυτοματισμού, αυτοί θα αντιμετωπίσετε σφάλματα.]]></s:String>
     <s:String x:Key="String_DeleteEnvironmentVariables">Διαγραφή του μεταβλητές περιβάλλοντος</s:String>
-    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">Αυτή η λειτουργία δεν μπορεί να ανακτηθεί, είστε βέβαιοι να διαγράψετε την επιλεγμένη Περιβάλλοντοςτο; 
-If που αναφέρονται στις αιτήσεις, απαντήσεις ή δεσμών ενεργειών αυτοματισμού, αυτοί θα αντιμετωπίσετε σφάλματα.</s:String>
+    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion"><![CDATA[Αυτή η λειτουργία δεν μπορεί να ανακτηθεί, είστε βέβαιοι να διαγράψετε την επιλεγμένη Περιβάλλοντοςτο;
+ Εάν αυτοί αναφέρονται σε αιτήσεις, απαντήσεις ή δεσμών ενεργειών αυτοματισμού, αυτοί θα αντιμετωπίσετε σφάλματα.]]></s:String>
     <s:String x:Key="String_CannotCopyEV">Δεν μπορεί να αντιγράψει</s:String>
     <s:String x:Key="String_CannotCopyEVTooltip">Δεν είναι δυνατό να αντιγράψετε τις τιμές από το ίδιο το περιβάλλον, παρακαλώ επιλέξτε ένα άλλο περιβάλλον.</s:String>
     <s:String x:Key="String_EnterUserName">Εισάγετε το όνομα χρήστη</s:String>
@@ -132,12 +132,11 @@ If που αναφέρονται στις αιτήσεις, απαντήσεις
     <s:String x:Key="String_ObjectTypeNull">&lt;!--Ο τύπος αντικειμένου είναι Αυτό το αίτημα δεν έχει μια παράμετρο--&gt; τιμή null.</s:String>
     <s:String x:Key="String_ObjectCannotSerialized">Αυτό το αντικείμενο δεν μπορεί να σειριοποιηθεί, μπορείτε να δείτε μόνο το αντικείμενο μέσω της προβολής δέντρου.</s:String>
     <s:String x:Key="String_InvalidOperation">Μη έγκυρη λειτουργία</s:String>
-    <s:String x:Key="String_ViewNotSupportDeserialization">Της τρέχουσας προβολής δεν υποστηρίζει αποσειριοποίησης, μπορείτε να επεξεργαστείτε το TreeView για να τροποποιήσετε το αντικείμενο.
- Εάν θέλετε να τροποποιήσετε το αντικείμενο με την επεξεργασία του κειμένου, επιλέξτε Προβολή XML.</s:String>
+    <s:String x:Key="String_ViewNotSupportDeserialization"><![CDATA[Της τρέχουσας προβολής δεν υποστηρίζει αποσειριοποίησης, μπορείτε να επεξεργαστείτε το TreeView για να τροποποιήσετε το αντικείμενο.
+ Εάν θέλετε να τροποποιήσετε το αντικείμενο με την επεξεργασία του κειμένου, επιλέξτε Προβολή XML.]]></s:String>
     <s:String x:Key="String_DeserializationErrorMessage">Deserialization σφάλμα - δεν είναι δυνατή η αποσειριοποίηση του κειμένου σε μήνυμα. '{0}' (κάντε κλικ εδώ για λεπτομέρειες)</s:String>
     <s:String x:Key="String_DetailedTechnicalError">Λεπτομερή τεχνικό σφάλμα: </s:String>
-    <s:String x:Key="String_UnableToParseXml">Δυνατό να αναλύσει το αρχείο XML: 
-</s:String>
+    <s:String x:Key="String_UnableToParseXml">Δυνατό να αναλύσει το αρχείο XML: </s:String>
     <s:String x:Key="String_ParsedRequest">Αναλυθεί αιτήματος</s:String>
     <!-- Components\ExtensionInformation.xaml -->
     <s:String x:Key="String_SelectedExtensionInfo">Επιλεγμένη επέκταση πληροφοριών</s:String>
@@ -174,7 +173,7 @@ If που αναφέρονται στις αιτήσεις, απαντήσεις
     <s:String x:Key="String_PathXCopiedToClipboard">Η διαδρομή: «{0}» έχει αντιγραφεί στο Πρόχειρο.</s:String>
     <s:String x:Key="String_UnableCopyClipboard">Δεν είναι δυνατή η αντιγραφή του μονοπατιού σε πρόχειρο</s:String>
     <s:String x:Key="String_SelectedElementDeleted">Επιλεγμένο στοιχείο έχει διαγραφεί από τη συστοιχία.</s:String>
-    <s:String x:Key="String_SelectedElementSetToNull">«Επιλεγμένο στοιχείο έχει οριστεί σε τιμή null.</s:String>
+    <s:String x:Key="String_SelectedElementSetToNull">Επιλεγμένο στοιχείο έχει οριστεί σε τιμή null.</s:String>
     <s:String x:Key="String_SelectedElementCanNotDelete">Δεν μπορεί να διαγραφεί το επιλεγμένο στοιχείο.</s:String>
     <s:String x:Key="String_SelectedElementXCopied">Το επιλεγμένο στοιχείο του τύπου {0} έχει αντιγραφεί στο Πρόχειρο.</s:String>
     <s:String x:Key="String_UnableCopyObjectClipboard">Δεν είναι δυνατή η αντιγραφή του επιλεγμένου αντικειμένου στο Πρόχειρο</s:String>
@@ -186,30 +185,185 @@ If που αναφέρονται στις αιτήσεις, απαντήσεις
     <!-- Components\RequestOptionsPanel -->
     <s:String x:Key="String_SearchFilter">Φίλτρο αναζήτησης</s:String>
     <s:String x:Key="String_Type3Chars">Παρακαλώ πληκτρολογήστε τουλάχιστον 3 έγκυροι χαρακτήρες για να βρείτε τις υπηρεσίες.</s:String>
-    <s:String x:Key="String_GeneralOptions">Γενικές επιλογές</s:String>
-    <s:String x:Key="String_AuthenticationColon">Έλεγχος ταυτότητας:</s:String>
-    <s:String x:Key="String_PreEmptiveColon">Προληπτικό:</s:String>
-    <s:String x:Key="String_PreEmptiveChecked">Προληπτικό έλεγχο ταυτότητας</s:String>
-    <s:String x:Key="String_PreEmptiveUnchecked">Κανονικές ελέγχου ταυτότητας</s:String>
-    <s:String x:Key="String_SoapOptions">ΣΑΠΟΎΝΙ επιλογές</s:String>
-    <s:String x:Key="String_MessageEncodingColon">Κωδικοποίηση μηνύματος:</s:String>
-    <s:String x:Key="String_MessageEncodingMtoM">MtoM (εφαρμογή/xop)</s:String>
-    <s:String x:Key="String_MessageEncodingText">Κείμενο/XML</s:String>
-    <s:String x:Key="String_MessageVersionColon">Έκδοση του μηνύματος:</s:String>
-    <s:String x:Key="String_CustomHttpHeaders">Κεφαλίδες HTTP συνήθειας</s:String>
-    <s:String x:Key="String_Anonymous">Ανώνυμος</s:String>
-    <s:String x:Key="String_WindowsAuthentication">Έλεγχος ταυτότητας των Windows</s:String>
-    <s:String x:Key="String_WindowsAuthenticationTooltip">Χρησιμοποιήστε σας τρέχουσα διαπιστευτηρίου των Windows για να καλέσετε αυτήν την υπηρεσία, με ενσωματωμένο έλεγχο ταυτότητας των Windows</s:String>
-    <s:String x:Key="String_NtlmAuthentication">Ο έλεγχος ταυτότητας NTLM</s:String>
-    <s:String x:Key="String_NtlmAuthenticationTooltip">Χρησιμοποιήστε σας τρέχουσα διαπιστευτηρίου των Windows για να καλέσετε αυτήν την υπηρεσία, με τον έλεγχο ταυτότητας NTLM</s:String>
-    <!-- ViewProfileManagement.xaml -->
-    <s:String x:Key="String_ImportFromDot">Εισαγωγή από...</s:String>
-    <!-- PROFILE MANAGEMENT -->
-    <s:String x:Key="String_ProfileManagement_Para1">Δοκιμή ρυθμίσεις, συμπεριλαμβανομένων των υπηρεσιών παραμέτρους περιβάλλοντα δοκιμής, προσαρμοσμένες μεταβλητές, κωδικοί ασφαλείας, υπηρεσία προσομοίωση συμπεριφορές, συσκευάζονται σε προφίλ.</s:String>
-    <s:String x:Key="String_ProfileManagement_Para2">Προφίλ μπορεί να εισάγονται, να εξάγονται ή να μοιραστεί με τους άλλους ανθρώπους. Προφίλ μπορούν επίσης να ενσωματωθούν σε ένα έργο της αυτοματοποίησης προκειμένου να απλοποιηθούν οι ρυθμίσεις δοκιμή για την αυτοματοποίηση του έργου. Ακολουθούν όλα τα προφίλ που μπορεί να χρησιμοποιηθεί στην εφαρμογή: </s:String>
-    <s:String x:Key="String_ProfileManagement_Note">Σημείωση: Προεπιλεγμένο προφίλ χρησιμοποιείται από Εγχειρίδιο δοκιμών, δεν μπορεί να επεξεργαστεί ή να αφαιρεθεί εδώ. Για να τροποποιήσετε το προεπιλεγμένο προφίλ, μεταβείτε στις ρυθμίσεις της δοκιμής.</s:String>
-    <s:String x:Key="String_ActionsU">ΔΡΆΣΕΙΣ</s:String>
-    <s:String x:Key="String_Actions">ΔΡΆΣΕΙΣ</s:String>
+    <s:String x:Key="String_NoResultMatches">Κανένα αποτέλεσμα ταιριάζει το μοτίβο αναζήτησης.</s:String>
+    <s:String x:Key="String_AuthenticationModeColon">Λειτουργία ελέγχου ταυτότητας:</s:String>
+    <s:String x:Key="String_DatabaseNameColon">Όνομα βάσης δεδομένων:</s:String>
+    <s:String x:Key="String_UserNameColon">Όνομα χρήστη: </s:String>
+    <s:String x:Key="String_PasswordColon">Κωδικός πρόσβασης:</s:String>
+    <s:String x:Key="String_ExecutionResultTypeColon">Τύπος αποτέλεσμα εκτέλεσης: </s:String>
+    <s:String x:Key="String_SqlQueryColon">Ερώτημα SQL:</s:String>
+    <s:String x:Key="String_UnableToConnectToDB">Δεν μπορείτε να συνδεθείτε στη βάση δεδομένων προορισμού:</s:String>
+    <!-- StartWindowsServiceTestStepEditor.xaml -->
+    <s:String x:Key="String_ServerNameColon">Όνομα διακομιστή:</s:String>
+    <s:String x:Key="String_DomainUserNameColon">Τομέας\όνομα χρήστη:</s:String>
+    <!-- UpdateSimulationData.xaml -->
+    <s:String x:Key="String_EditResponse">Επεξεργαστείτε την απάντησή</s:String>
+    <s:String x:Key="String_SelectedService">Επιλεγμένη υπηρεσία</s:String>
+    <s:String x:Key="String_Clean">Καθαρίστε</s:String>
+    <s:String x:Key="String_CleanChecked">Σαφείς απαντήσεις της ίδιας υπηρεσίας πριν από την προσθήκη των παρακάτω απαντήσεων.</s:String>
+    <s:String x:Key="String_CleanUnchecked">Μην σαφείς απαντήσεις, προσθέσετε μετά απαντήσεις μόνο.</s:String>
+    <!-- ViewCSVDataSource.xaml -->
+    <s:String x:Key="String_ContainsHeaderColon">Περιέχει την κεφαλίδα:</s:String>
+    <s:String x:Key="String_ContainsHeaderChecked">Η πρώτη γραμμή του αρχείου προέλευσης δεδομένων είναι στην κεφαλίδα της στήλης</s:String>
+    <s:String x:Key="String_ContainsHeaderUnchecked">Το αρχείο προέλευσης δεδομένων δεν περιέχει κεφαλίδα (πρέπει να καθορίσετε την κεφαλίδα)</s:String>
+    <s:String x:Key="String_SeparatorColon">Διαχωριστικό:</s:String>
+    <s:String x:Key="String_SelectDot">Επιλέξτε...</s:String>
+    <!-- ViewDataDrivenTestCase.xaml -->
+    <s:String x:Key="String_DataDrivenTestCaseColon">Δεδομένα με γνώμονα την περίπτωση δοκιμής:</s:String>
+    <s:String x:Key="String_Import">Εισαγωγή</s:String>
+    <s:String x:Key="String_DataSource">Αρχείο προέλευσης δεδομένων</s:String>
+    <s:String x:Key="String_TestInstances">Δοκιμή περιπτώσεις</s:String>
+    <s:String x:Key="String_TestCase">Δοκιμή περίπτωση</s:String>
+    <s:String x:Key="String_CountSteps"># Βήματα</s:String>
+    <s:String x:Key="String_Progress">Πρόοδος</s:String>
+    <s:String x:Key="String_Information">Πληροφορίες</s:String>
+    <s:String x:Key="String_SelectDataSourceColon">Επιλέξτε ένα αρχείο προέλευσης δεδομένων:</s:String>
+    <s:String x:Key="String_RowLimitColon">Όριο γραμμών:</s:String>
+    <!-- ViewExcelDataSource.xaml -->
+    <s:String x:Key="String_SpreadSheetNameColon">Όνομα του υπολογιστικού φύλλου:</s:String>
+    <s:String x:Key="String_RangeTypeColon">Εύρος Τύπος:</s:String>
+    <s:String x:Key="StringRangeNameColon">Όνομα περιοχής:</s:String>
+    <s:String x:Key="StringTestDataImported">Δοκιμή τα δεδομένα εισάγονται:</s:String>
+    <!-- ViewProjectInfo.xaml -->
+    <s:String x:Key="String_RunAllTests">Εκτελέστε όλες τις δοκιμές</s:String>
+    <s:String x:Key="String_GenerateReport">Δημιουργία έκθεσης</s:String>
+    <s:String x:Key="String_ViewReport">Προβολή έκθεσης</s:String>
+    <s:String x:Key="String_ProjectInformationColon">Πληροφορίες για το έργο:</s:String>
+    <s:String x:Key="String_CreationDateColon">Ημερομηνία δημιουργίας:</s:String>
+    <s:String x:Key="String_CreatedByColon">Δημιουργήθηκε από:</s:String>
+    <s:String x:Key="String_LastSavedAtColon">Αποθηκεύτηκε τελευταία στο:</s:String>
+    <s:String x:Key="String_TestProfileColon">Προφίλ δοκιμής:</s:String>
+    <s:String x:Key="String_ByColon">Από:</s:String>
+    <s:String x:Key="String_TestProfile">Προφίλ δοκιμής:</s:String>
+    <s:String x:Key="String_TestProfileDescription">Προφίλ δοκιμής περιέχει μεταβλητές περιβάλλοντος, διαπιστευτήρια και προεπιλεγμένη δοκιμή δεδομένων για την υπηρεσία προσομοίωση. Για να ρυθμίσετε εύκολα το προφίλ δοκιμής, μπορείτε να πάτε να δοκιμάσετε τις ρυθμίσεις και να εξαγάγετε το τρέχον προφίλ.</s:String>
+    <s:String x:Key="String_UseActiveProfile">Χρησιμοποιήστε το ενεργό προφίλ</s:String>
+    <s:String x:Key="String_UseActiveProfileTooltip">Χρησιμοποιήστε το τρέχον προφίλ δοκιμής από το πρώτο πούλι δοκιμή εγχειρίδιο</s:String>
+    <s:String x:Key="String_LoadProfile">Προφίλ φορτίου</s:String>
+    <s:String x:Key="String_LoadProfileTooltip">Φόρτωση ενός υπάρχοντος προφίλ από δίσκο</s:String>
+    <s:String x:Key="String_EditProfile">Επεξεργασία προφίλ</s:String>
+    <s:String x:Key="String_EditProfileTooltip">Επεξεργαστείτε το τρέχον προφίλ δοκιμής</s:String>
+    <s:String x:Key="String_ListTestSuitsColon">Λίστα των οικογενειών προγραμμάτων δοκιμών:</s:String>
+    <s:String x:Key="String_TestSuite">Σουίτα δοκιμής</s:String>
+    <s:String x:Key="String_CountTests"># Δοκιμές</s:String>
+    <s:String x:Key="String_SaveAutomatedTestReport">Αποθηκεύστε την αυτόματη αναφορά δοκιμής</s:String>
+    <s:String x:Key="String_ReportExported">Έκθεση εξάγονται</s:String>
+    <s:String x:Key="String_ReportExportFailedColon">Έκθεση είναι απέτυχε η εξαγωγή: </s:String>
+    <s:String x:Key="String_GeneratingReport">Δημιουργία αναφοράς</s:String>
+    <s:String x:Key="String_TestReport">Αναφορά δοκιμής</s:String>
+    <!-- ViewTestCase.xaml -->
+    <s:String x:Key="String_TestConfiguration">Δοκιμή ρύθμισης παραμέτρων</s:String>
+    <s:String x:Key="String_ListTestSteps">Λίστα των βημάτων δοκιμής</s:String>
+    <s:String x:Key="String_TestStep">Βήμα δοκιμής</s:String>
+    <s:String x:Key="String_VariableName">Το όνομα της μεταβλητής</s:String>
+    <s:String x:Key="String_VariableNameTooltip">Πληκτρολογήστε το όνομα της μεταβλητής για την τρέχουσα περίπτωση δοκιμής</s:String>
+    <s:String x:Key="String_VariableNameEmpty">Το όνομα της μεταβλητής δεν μπορεί να είναι null ή κενό</s:String>
+    <s:String x:Key="String_VariableNameExists">Η μεταβλητή με όνομα '{0}' υπάρχει ήδη.</s:String>
+    <s:String x:Key="String_VariableNameNotValid">'{0}' δεν είναι ένα έγκυρο αναγνωριστικό για ένα όνομα μεταβλητής.</s:String>
+    <s:String x:Key="String_VariableXRemovedRecover">Η μεταβλητή {0} απομακρύνεται. Κάντε κλικ εδώ για να ανακτήσετε.</s:String>
+    <s:String x:Key="String_ClearCustomVariables">Σαφή προσαρμοσμένες μεταβλητές</s:String>
+    <s:String x:Key="String_ClearCustomVariablesQuestion"><![CDATA[Θέλετε να διαγράψετε όλες τις προσαρμοσμένες μεταβλητές; 
+Αυτή η ενέργεια δεν μπορεί να ανακτηθεί.]]></s:String>
+    <!-- ViewTestSuite.xaml -->
+    <s:String x:Key="String_TestSuiteColon">Ακολουθία δοκιμής:</s:String>
+    <s:String x:Key="String_TestSuiteConfiguration">Δοκιμή σουίτα ρύθμισης παραμέτρων</s:String>
+    <s:String x:Key="String_RemoveSelected">Κατάργηση επιλεγμένων</s:String>
+    <s:String x:Key="String_RemoveAll">Κατάργηση όλων</s:String>
+    <s:String x:Key="String_Sort">Είδος</s:String>
+    <s:String x:Key="String_TestSuiteInformationColon">Δοκιμή σουίτα πληροφορίες:</s:String>
+    <s:String x:Key="String_ListTestCasesColon">Κατάλογος των περιπτώσεων δοκιμής</s:String>
+    <!-- WindowEditAssertion.xaml -->
+    <s:String x:Key="String_Assertion">Διεκδίκησης</s:String>
+    <s:String x:Key="String_Test">Δοκιμή</s:String>
+    <s:String x:Key="String_AssertionObjectNull">Αντικείμενο διεκδίκησης δεν μπορεί να είναι null</s:String>
+    <s:String x:Key="String_AssertionTestException">Ανεπίλυτη εξαίρεση κατά τη δοκιμή τον ισχυρισμό: </s:String>
+    <!-- WindowEditExtractProperty.xaml -->
+    <s:String x:Key="String_EditPropertyExtraction">Επεξεργαστείτε εξαγωγής ιδιότητας:</s:String>
+    <s:String x:Key="String_PropertyNameColon">Όνομα ιδιότητας:</s:String>
+    <s:String x:Key="String_PathTypeColon">Τύπος διαδρομής:</s:String>
+    <s:String x:Key="String_PathColon">Διαδρομή:</s:String>
+    <s:String x:Key="String_VariableNameColon">Το όνομα της μεταβλητής</s:String>
+    <s:String x:Key="String_CurrentValue">Τρέχουσα τιμή</s:String>
+    <s:String x:Key="String_GetCurrentValue">Κάντε κλικ στο κουμπί Υπολογισμός να πάρει την τιμή από την τρέχουσα ρύθμιση παραμέτρων</s:String>
+    <s:String x:Key="String_Evaluate">Αξιολόγηση</s:String>
+    <!-- XPathValidatorAssertionEditor.xaml -->
+    <s:String x:Key="String_XPathExpression">Έκφραση XPath</s:String>
+    <!-- ExtractPropertyTestStepEditor.xaml -->
+    <s:String x:Key="String_SelectedExtractPropertyDeleted">Επιλεγμένη ιδιότητα απόσπασμα έχει διαγραφεί, κάντε κλικ εδώ για να ανακτήσετε.</s:String>
+    <s:String x:Key="String_ExtractProperty">Εξαγάγετε το κατάλυμα</s:String>
+    <s:String x:Key="String_RunThisStep">Εκτελέστε αυτό το βήμα</s:String>
+    <s:String x:Key="String_AddPropertyExtraction">Προσθέστε εξαγωγής ιδιότητας:</s:String>
+    <s:String x:Key="String_FromTestSuiteColon">Από σουίτα δοκιμής:</s:String>
+    <s:String x:Key="String_VariableLevelColon">Μεταβλητή επιπέδου: </s:String>
+    <s:String x:Key="String_PropertyNameU">ΌΝΟΜΑ ΙΔΙΌΤΗΤΑΣ</s:String>
+    <s:String x:Key="String_PathTypeU">ΤΎΠΟΣ ΔΙΑΔΡΟΜΉΣ</s:String>
+    <s:String x:Key="String_PathU">ΔΙΑΔΡΟΜΉ</s:String>
+    <s:String x:Key="String_VariableU">ΜΕΤΑΒΛΗΤΉ</s:String>
+    <!-- ViewRegex.xaml.cs -->
+    <s:String x:Key="String_SyntaxOfExpressionErros">Η σύνταξη της έκφρασης έχει σφάλματα.</s:String>
+    <s:String x:Key="String_InputStringNotMatchExpression">Η συμβολοσειρά εισόδου δεν ταιριάζει με την έκφραση.</s:String>
+    <s:String x:Key="String_InputStringMatchExpression">Η συμβολοσειρά εισόδου ταιριάζει με την έκφραση.</s:String>
+    <!-- ViewXPathValidator -->
+    <s:String x:Key="String_XPathNotMatchAnything">Η δεδομένη έκφραση XPath δεν ταιριάζει με τίποτα, το αποτέλεσμα της αξιολόγησης είναι άδειο.</s:String>
+    <s:String x:Key="String_XPathEvaluationTool">Εργαλείο αξιολόγησης XPath</s:String>
+    <s:String x:Key="String_XMLDocument">Έγγραφο XML</s:String>
+    <s:String x:Key="String_EvaluateU">ΑΞΙΟΛΌΓΗΣΗ</s:String>
+    <!-- ViewStockCertificates -->
+    <s:String x:Key="String_TestCertificateInstalled">Πιστοποιητικό δοκιμής έχει εγκατασταθεί</s:String>
+    <s:String x:Key="String_TestCertificateInstalledMessage">Η αρχή έκδοσης πιστοποιητικών ρίζας και το πιστοποιητικό δοκιμής εγκαθίστανται.</s:String>
+    <s:String x:Key="String_UnableToInstallCertificate">Δεν μπορείτε να εγκαταστήσετε το πιστοποιητικό</s:String>
+    <s:String x:Key="String_TestCertificateIntro">Hummingbird παρέχει ένα πιστοποιητικό δοκιμής που μπορείτε να χρησιμοποιήσετε για να προσομοιώσετε ασφαλούς μεταφοράς χρησιμοποιώντας τη SSL. Για τις δύο μετά το σενάριο, θα σας ζητηθεί να εγκαταστήσετε το πιστοποιητικό στον υπολογιστή σας δοκιμή:</s:String>
+    <s:String x:Key="String_TestCertificateIntroLine1">● Για υπηρεσία προσομοίωσης με χρήση SSL, Hummingbird ενεργεί όπως ένα διακομιστή HTTP που απαιτεί το πιστοποιητικό SSL</s:String>
+    <s:String x:Key="String_TestCertificateIntroLine2">● Για την αποστολή αιτήσεων που απαιτούνται για την υπογραφή ή κρυπτογράφηση μηνυμάτων του αιτήματος, Hummingbird ανάγκες απαιτεί ένα πιστοποιητικό, υπογραφή και κρυπτογράφηση.</s:String>
+    <s:String x:Key="String_TestCertificateIntroLine3">Μπορείτε να εγκαταστήσετε το πιστοποιητικό δοκιμής που παρέχονται από κολιβρίων.</s:String>
+    <s:String x:Key="String_InstallTestCertificate">Εγκατάσταση του δοκιμαστικού πιστοποιητικού</s:String>
+    <s:String x:Key="String_InstallCertificateMachine">Εγκατάσταση στο LocalMachine κατάστημα για όλους τους χρήστες (απαιτεί εκτέλεση ως διαχειριστής)</s:String>
+    <s:String x:Key="String_InstallCertificateUser">Εγκατάσταση για τον τρέχοντα χρήστη</s:String>
+    <s:String x:Key="String_ToRunServiceSimulationWithSSL">Για να εκτελέσετε την υπηρεσία προσομοίωσης με HTTPS/SSL, πρέπει να εγκατασταθεί τα πιστοποιητικά στο χώρο αποθήκευσης του LocalMachine</s:String>
+    <s:String x:Key="String_WarningInstallCertificateAdminRequired">Προειδοποίηση: Εγκατάσταση πιστοποιητικού για όλους τους χρήστες απαιτεί Hummingbird να τρέξει ως διαχειριστής</s:String>
+    <s:String x:Key="String_InstallCertificateU">ΕΓΚΑΤΑΣΤΉΣΤΕ ΤΟ ΠΙΣΤΟΠΟΙΗΤΙΚΌ</s:String>
+    <s:String x:Key="String_InstallYourOwnCertificate">Εγκαταστήσετε το δικό σας πιστοποιητικό</s:String>
+    <s:String x:Key="String_InstallYourOwnCertificateDescription">Μπορείτε επίσης να εγκαταστήσετε το δικό σας πιστοποιητικό. Παρακαλούμε ακολουθήστε τη διαδικασία στην τεκμηρίωση Hummingbird</s:String>
+    <!-- ViewOpenApiCategory -->
+    <s:String x:Key="String_OpenApiService">OpenAPI υπηρεσία</s:String>
+    <s:String x:Key="String_DescriptionOfOpenApiService">Περιγραφή της υπηρεσίας OpenAPI</s:String>
+    <s:String x:Key="String_OpenApiDefinitionColon">OpenAPI Ορισμός: </s:String>
+    <s:String x:Key="String_BaseUrlColon">Βασική διεύθυνση URL: </s:String>
+    <s:String x:Key="String_TagsU">ΕΤΙΚΈΤΕΣ</s:String>
+    <s:String x:Key="String_MethodU">Η ΜΈΘΟΔΟΣ</s:String>
+    <!-- EditableTextBlock -->
+    <s:String x:Key="String_ErrorWithInputData">Υπάρχει ένα σφάλμα με τα δεδομένα εισόδου σας</s:String>
+    <s:String x:Key="String_InputValueNotMatchTypeX"><![CDATA[Τιμή εισόδου δεν ταιριάζει να πληκτρολογήσετε: {0}.
+Παρακαλούμε προσπαθήστε ξανά ή πιέστε το πλήκτρο ESC για να ακυρώσετε.]]></s:String>
+    <s:String x:Key="String_StringEditor">Επεξεργαστή συμβολοσειράς</s:String>
+    <s:String x:Key="String_CredentialColon">Διαπιστευτηρίων:</s:String>
+    <s:String x:Key="String_UserDefined">Ορίζονται από το χρήστη</s:String>
+    <s:String x:Key="String_SpecifyAUserDefinedCredential">Καθορίστε μια πιστοποίηση χρήστη</s:String>
+    <s:String x:Key="String_NonApplicable">Μη εφαρμοστέο</s:String>
+    <s:String x:Key="String_ThisAuthenticationModeNotRequireCredential">Αυτή η λειτουργία ελέγχου ταυτότητας απαιτούν από το χρήστη να εισάγετε μια πιστοποίηση</s:String>
+    <!-- ExtensionDesigner\ViewApplication.xaml -->
+    <s:String x:Key="String_Application">Εφαρμογή</s:String>
+    <s:String x:Key="String_ApplicationTooltip"><![CDATA[Πληκτρολογήστε ένα όνομα της εφαρμογής:
+Ως οδηγός είναι το όνομα του συστήματος που έχετε τον έλεγχο, 
+Ως στέλεχος είναι το όνομα του συστήματος που θέλετε να μιμηθεί.]]></s:String>
+    <s:String x:Key="String_ApplicationNameColon">Όνομα εφαρμογής:</s:String>
+    <s:String x:Key="String_ServiceCategoriesIncluded">Κατηγορίες υπηρεσιών που περιλαμβάνονται στην παρούσα αίτηση</s:String>
+    <s:String x:Key="String_ServiceCategoryU">ΚΑΤΗΓΟΡΊΑ ΥΠΗΡΕΣΊΑΣ</s:String>
+    <!-- ExtensionDesigner\ViewServiceCategory.xaml -->
+    <s:String x:Key="String_ServiceCategory">Κατηγορία υπηρεσίας</s:String>
+    <s:String x:Key="String_ServiceCategoryTooltip"><![CDATA[Κατηγορία υπηρεσίας κατέχει ένα σύνολο των υπηρεσιών Web του η ίδια προτείνει. 
+Για παράδειγμα, μπορείτε να έχετε μια σειρά από υπηρεσίες Web για διαχείριση πελατών, συμπεριλαμβανομένων 3 υπηρεσίες Web για δημιουργία πελάτη, τροποποίηση και διαγραφή.]]></s:String>
+    <s:String x:Key="String_CategoryNameColon">Το όνομα της κατηγορίας:</s:String>
+    <s:String x:Key="String_ServicesIncluded">Υπηρεσίες που περιλαμβάνονται σε αυτή την κατηγορία</s:String>
+    <s:String x:Key="String_ServicesU">ΥΠΗΡΕΣΊΕΣ</s:String>
+    <s:String x:Key="String_TypeU">ΤΎΠΟΣ</s:String>
+    <!-- ExtensionDesigner\ViewProjectOverview.xaml -->
+    <s:String x:Key="String_ProjectGeneralInfo">Έργο γενικές πληροφορίες</s:String>
+    <s:String x:Key="String_ProjectNameColon">Όνομα έργου:</s:String>
+    <s:String x:Key="String_RootNamespaceColon">Ρίζα Namespace:</s:String>
+    <s:String x:Key="String_AssemblyInfo">Πληροφοριών συναρμολόγησης</s:String>
+    <s:String x:Key="String_AssemblyInfoTooltip">Πληροφορίες συγκρότησης είναι τεχνικές πληροφορίες που συγκεντρώνονται στη Συνέλευσή σας επέκταση, παρακαλούμε φροντίστε να αντιστοιχίσετε ένα νομικό όνομα για κάθε πεδίο.</s:String>
+    <s:String x:Key="String_AssemblyNameColon">Όνομα συγκρότησης:</s:String>
+    <s:String x:Key="String_Actions">Δράσεις</s:String>
     <s:String x:Key="String_ExportVSSolution">Εξαγωγή ως λύση Visual Studio</s:String>
     <s:String x:Key="String_ExtensionProjectBuilt">Το έργο επέκταση έχει κατασκευαστεί με επιτυχία, κάντε κλικ εδώ, για να ανοίξετε το φάκελο που περιέχει</s:String>
     <s:String x:Key="String_BuildFailed">Κατασκευή απέτυχε</s:String>
@@ -220,6 +374,7 @@ If που αναφέρονται στις αιτήσεις, απαντήσεις
     <s:String x:Key="String_CannotGenerateSolution">Δεν μπορεί να δημιουργήσει λύση</s:String>
     <s:String x:Key="String_CannotGenerateSolutionMessage">Παρουσιάστηκε ένα σφάλμα κατά τη δημιουργία του αρχείου λύσης.</s:String>
     <s:String x:Key="String_ProjectGenerationCancelled">Γενιάς λύση έχει ακυρωθεί.</s:String>
+    <s:String x:Key="String_ExtensionCanBeUsedNow">Τώρα μπορεί να χρησιμοποιηθεί για την επέκταση, αλλά αυτό θα εγκατασταθεί κατά την επόμενη επανεκκίνηση, επειδή υπάρχει ήδη μια προηγούμενη έκδοση.</s:String>
     <!-- ExtensionDesigner\ViewServiceEndpoint.xaml -->
     <s:String x:Key="String_EndpointNameColon">Όνομα τελικού σημείου:</s:String>
     <s:String x:Key="String_BindingColon">Βιβλιοδεσία:</s:String>
@@ -264,6 +419,12 @@ If που αναφέρονται στις αιτήσεις, απαντήσεις
     <s:String x:Key="String_GeneratedStubCode">WCF που δημιουργείται αποκόμματος κώδικα</s:String>
     <s:String x:Key="String_NoFilesGenerated">δεν υπάρχουν αρχεία που δημιουργούνται</s:String>
     <s:String x:Key="String_NoFilesGeneratedMessage">Το υποδεικνυόμενο αρχείο WSDL δεν περιέχει κανέναν ορισμό της υπηρεσίας.</s:String>
+    <!-- ViewProfileManagement.xaml -->
+    <s:String x:Key="String_ImportFromDot">Εισαγωγή από...</s:String>
+    <s:String x:Key="String_ProfileManagement_Para1">Δοκιμή ρυθμίσεις, συμπεριλαμβανομένων των υπηρεσιών παραμέτρους περιβάλλοντα δοκιμής, προσαρμοσμένες μεταβλητές, κωδικοί ασφαλείας, υπηρεσία προσομοίωση συμπεριφορές, συσκευάζονται σε προφίλ.</s:String>
+    <s:String x:Key="String_ProfileManagement_Para2">Προφίλ μπορεί να εισάγονται, να εξάγονται ή να μοιραστεί με τους άλλους ανθρώπους. Προφίλ μπορούν επίσης να ενσωματωθούν σε ένα έργο της αυτοματοποίησης προκειμένου να απλοποιηθούν οι ρυθμίσεις δοκιμή για την αυτοματοποίηση του έργου. Ακολουθούν όλα τα προφίλ που μπορεί να χρησιμοποιηθεί στην εφαρμογή: </s:String>
+    <s:String x:Key="String_ProfileManagement_Note">Σημείωση: Προεπιλεγμένο προφίλ χρησιμοποιείται από Εγχειρίδιο δοκιμών, δεν μπορεί να επεξεργαστεί ή να αφαιρεθεί εδώ. Για να τροποποιήσετε το προεπιλεγμένο προφίλ, μεταβείτε στις ρυθμίσεις της δοκιμής.</s:String>
+    <s:String x:Key="String_ActionsU">ΔΡΆΣΕΙΣ</s:String>
     <s:String x:Key="String_Duplicate">Διπλότυπο</s:String>
     <s:String x:Key="String_Delete">Διαγραφή του</s:String>
     <s:String x:Key="String_Edit">Επεξεργασία</s:String>
@@ -317,8 +478,8 @@ If που αναφέρονται στις αιτήσεις, απαντήσεις
     <s:String x:Key="String_TestFrameworkDocumentation">Ελέγξτε την τεκμηρίωση Framework</s:String>
     <s:String x:Key="String_ReportBugsSuggestions">Έκθεση σφάλματα/προτάσεις</s:String>
     <s:String x:Key="String_LanguageChanged">Άλλαξε γλώσσα</s:String>
-    <s:String x:Key="String_LanauageChangedQuestion">Έχετε αλλάξει τη γλώσσα της προτίμησής σας. Κολιμπρί πρέπει να επανεκκινηθεί για να κάνει αλλαγές αποτελεσματικές. 
-Do να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
+    <s:String x:Key="String_LanauageChangedQuestion"><![CDATA[Έχετε αλλάξει τη γλώσσα της προτίμησής σας. Hummingbird πρέπει να επανεκκινηθεί για να κάνετε αλλαγές αποτελεσματικά.
+ Θέλετε να επανεκκινήσετε το κολίμπρι τώρα;]]></s:String>
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">Κατάργηση εγκατάστασης</s:String>
     <s:String x:Key="String_InstallAnExtension">Εγκαταστήσετε μια επέκταση</s:String>
@@ -332,10 +493,25 @@ Do να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
     <s:String x:Key="String_ConfirmExtensionUninstall">Επιβεβαίωση κατάργησης εγκατάστασης επέκτασης</s:String>
     <s:String x:Key="String_ConfirmExtensionUninstallQuestion">Είστε βέβαιοι ότι για να απεγκαταστήσετε την επέκταση '{0}'</s:String>
     <s:String x:Key="String_RestartRequired">Απαιτείται επανεκκίνηση</s:String>
-    <s:String x:Key="String_RestartRequiredExtensionQuestion">Πρέπει να επανεκκινήσετε το κολίβριο για να απεγκαταστήσετε το επιλεγμένο επέκταση. 
-Do να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
+    <s:String x:Key="String_RestartRequiredExtensionQuestion"><![CDATA[Πρέπει να επανεκκινήσετε το κολίβριο για να καταργήσετε την επιλεγμένη επέκταση.
+ Θέλετε να επανεκκινήσετε το κολίμπρι τώρα;]]></s:String>
     <s:String x:Key="String_Enabled">Ενεργοποιημένη</s:String>
     <s:String x:Key="String_Disabled">Άτομα με ειδικές ανάγκες</s:String>
+    <!-- ViewInstallExtension -->
+    <s:String x:Key="String_InstallExtensionFromLocalStorage">Για να εγκαταστήσετε μια επέκταση από τοπικό χώρο αποθήκευσης</s:String>
+    <s:String x:Key="String_ExtensionPackageZip">Πακέτο επέκτασης (*.zip): </s:String>
+    <s:String x:Key="String_WarningBeforeInstallExtension"><![CDATA[Προειδοποίηση: Εάν εργάζεστε σε έναν οργανισμό, βεβαιωθείτε ότι η επέκταση παρέχεται από μια αξιόπιστη πηγή. Επεκτάσεις από άγνωστο αρχείο προέλευσης μπορεί να περιέχουν κακόβουλο κώδικα που θα κάνει για να βλάψει τον υπολογιστή σας.
+Για να εξασφαλίσετε την ασφάλεια, πάντα να πάρετε επεκτάσεις από επίσημη ιστοσελίδα Διαχείριση δοκιμή κολιβρίων, άνθρωποι σε χρέωση από την εταιρεία σας ή επεκτάσεις που δημιουργήθηκαν από την ομάδα σας.]]></s:String>
+    <s:String x:Key="String_InstallThisExtension">Εγκαθιστώ this επέκταση</s:String>
+    <s:String x:Key="String_GivenFileIsNotValidExtensionPackage">Το συγκεκριμένο αρχείο δεν είναι ένα έγκυρο πακέτο επέκτασης κολιβρίων.</s:String>
+    <s:String x:Key="String_ExtensionUpdate">Ενημέρωση επεκτάσεων</s:String>
+    <s:String x:Key="String_ExtensionUpdateContent">Έκδοση {0} του επέκταση '{1}' έχει εγκατασταθεί, είστε βέβαιοι ότι θέλετε να το αντικαταστήσετε από αυτό: {2};</s:String>
+    <s:String x:Key="String_RestartRequiredInstallExtensionQuestion"><![CDATA[Πρέπει να επανεκκινήσετε το κολίβριο για να εγκαταστήσετε την επέκταση.
+Θέλετε να επανεκκινήσετε το κολίμπρι τώρα;]]></s:String>
+    <s:String x:Key="String_InstallationFailed">Η εγκατάσταση απέτυχε.</s:String>
+    <s:String x:Key="String_InstallationFailedExtensionContent">Παρουσιάστηκε ένα σφάλμα κατά την εγκατάσταση της επέκτασης, ανατρέξτε στο αρχείο καταγραφής συστήματος να δείτε λεπτομερών μηνυμάτων σφάλματος.</s:String>
+    <s:String x:Key="String_ExtensionInstalledAndLoaded">Η επέκταση είναι εγκατεστημένο και μπορεί να χρησιμοποιηθεί πλέον.</s:String>
+    <s:String x:Key="String_OpenExtension">Ανοίξτε μια επέκταση</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">Μη αυτόματη δοκιμή δρομέας</s:String>
     <s:String x:Key="String_VirtualServices">Εικονικές υπηρεσίες</s:String>
@@ -449,18 +625,18 @@ Do να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
     <s:String x:Key="String_AutomationProjectSaved">Το έργο έχει αποθηκευτεί.</s:String>
     <s:String x:Key="String_SaveAutomationProjectTitle">Αποθήκευση έργου αυτοματισμού: {0}</s:String>
     <s:String x:Key="String_OpenAutomationProjectTitle">Ανοίξτε ένα αρχείο έργου αυτοματισμού</s:String>
-    <s:String x:Key="String_SaveAutomationProjectFilter">Έργου αυτοματισμού (*.APX)|*.APX | Όλα τα αρχεία (*.*)|*.*</s:String>
+    <s:String x:Key="String_SaveAutomationProjectFilter">Έργου αυτοματισμού (*.APX) |*.APX| Όλα τα αρχεία (*.*) |*.*</s:String>
     <s:String x:Key="String_AnErrorHasOccurred">Παρουσιάστηκε σφάλμα</s:String>
     <s:String x:Key="String_AnErrorHasOccurredSavingAutomationProject">Παρουσιάστηκε ένα σφάλμα κατά την αποθήκευση του έργου αυτοματισμού.</s:String>
-    <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">Παρουσιάστηκε ένα σφάλμα κατά τη φόρτωση του έργου αυτοματισμού.</s:String>
+    <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">Παρουσιάστηκε ένα σφάλμα κατά τη φόρτωση του έργου αυτοματισμού</s:String>
     <s:String x:Key="String_SaveCurrentProject">Αποθηκεύστε το τρέχον έργο;</s:String>
     <s:String x:Key="String_SaveCurrentProjectMessage">Θέλετε να αποθηκεύσετε το τρέχον έργο αυτοματοποίησης;</s:String>
     <!-- ViewBase64Tool.xaml -->
     <s:String x:Key="String_ActionColon">Δράση: </s:String>
     <s:String x:Key="String_Base64EncodingTitle">Κωδικοποίηση base64 &amp; αποκωδικοποίηση</s:String>
-    <s:String x:Key="String_Utf8ToBase64">Κωδικοποιεί τη συμβολοσειρά UTF-8 σε μια συμβολοσειρά τύπου Base64</s:String>
-    <s:String x:Key="String_Base64ToString">Αποκωδικοποιεί μια συμβολοσειρά τύπου Base64 ως συμβολοσειρά, χρησιμοποιώντας την επιλεγμένη κωδικοποίηση.</s:String>
-    <s:String x:Key="String_BinaryToBase64">Διαβάσετε το δυαδικό περιεχόμενο από το αρχείο και να κωδικοποιήσει το περιεχόμενό του σε συμβολοσειρά τύπου Base64</s:String>
+    <s:String x:Key="String_Utf8ToBase64">Κωδικοποιεί από UTF-8 string σε συμβολοσειρά τύπου Base64</s:String>
+    <s:String x:Key="String_Base64ToString">Αποκωδικοποιεί μια συμβολοσειρά τύπου Base64 σε κείμενο, χρησιμοποιώντας την επιλεγμένη κωδικοποίηση.</s:String>
+    <s:String x:Key="String_BinaryToBase64">Διαβάσετε το δυαδικό περιεχόμενο από το αρχείο και να κωδικοποιήσει το περιεχόμενό της συμβολοσειράς Base64</s:String>
     <s:String x:Key="String_Base64ToBinary">Διαβάστε τη συμβολοσειρά τύπου base64 από το παρακάτω πλαίσιο κειμένου, αποκωδικοποιεί το και αποθηκεύστε το σε ένα δυαδικό αρχείο.</s:String>
     <s:String x:Key="String_SampleTextBase64">Δείγμα κειμένου πρέπει να κωδικοποιηθούν σε Base64</s:String>
     <s:String x:Key="String_EncodedBase64">Συμβολοσειρά τύπου Base64 κωδικοποιημένο</s:String>
@@ -482,12 +658,11 @@ Do να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
     <s:String x:Key="String_XmlRelated">XML που σχετίζονται</s:String>
     <s:String x:Key="String_XmlCompare">Συγκρίνετε XML</s:String>
     <s:String x:Key="String_XPathValidator">Validator έκφραση XPath</s:String>
-    <s:String x:Key=" ">Validator έκφραση XPath</s:String>
     <!-- ViewExtensionDesigner -->
     <s:String x:Key="String_DesignerTooltip">Στο πλαίσιο δοκιμών κολιβρίων, υπηρεσίες οργανώνονται σε 3 επίπεδα. Παρακαλούμε να οργανώσει τις υπηρεσίες ως φυσικά όσο το δυνατόν εντός του οργανισμού σας.</s:String>
     <s:String x:Key="String_DesignerApplicationTooltip">Όταν χρησιμοποιείται ως οδηγός, το όνομα του συστήματος σας είναι δοκιμή. Ως στέλεχος, το όνομα της εφαρμογής που μιμείται το κολίβριο.</s:String>
-    <s:String x:Key="String_DesignerCategoryTooltip">Λειτουργική κατηγορία των υπηρεσιών. 
- Για παράδειγμα: Όλες οι υπηρεσίες του πελάτη Προσθήκη, τροποποίηση, αφαίρεση μπορεί να οργανώνονται σε κατηγορία [διαχείριση πελατών].</s:String>
+    <s:String x:Key="String_DesignerCategoryTooltip"><![CDATA[Λειτουργική κατηγορία των υπηρεσιών. 
+ Για παράδειγμα: Όλες οι υπηρεσίες του πελάτη Προσθήκη, τροποποίηση, αφαίρεση μπορεί να οργανώνονται σε κατηγορία [διαχείριση πελατών].]]></s:String>
     <s:String x:Key="String_DesignerServiceTooltip">Το όνομα της υπηρεσίας. Για τις υπηρεσίες σαπούνι, αντιπροσωπεύει ένα αντικείμενο σύνδεσης, έχει ένα σημείο κατάληξης και μπορεί να περιέχει μία ή περισσότερες λειτουργίες</s:String>
     <s:String x:Key="String_SaveAs">Αποθήκευση ως</s:String>
     <s:String x:Key="String_Close">Κλείστε</s:String>
@@ -495,12 +670,57 @@ Do να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
     <s:String x:Key="String_CreateNewExtensionProject">Δημιουργήστε ένα νέο έργο για την επέκταση των υπηρεσιών</s:String>
     <s:String x:Key="String_LearnMoreExtensionDesigner">Μάθετε περισσότερα σχετικά με την υπηρεσία επέκταση σχεδιαστής</s:String>
     <s:String x:Key="String_OtherWaysToExtent">Άλλοι τρόποι βαθμό την ικανότητά σας</s:String>
+    <s:String x:Key="String_NewProjectNeverSaved">* νέο έργο, ποτέ δεν έχει αποθηκευτεί.</s:String>
+    <!-- ViewExtensionDesigner.xaml.cs -->
+    <s:String x:Key="String_PleaseFixIssues">Παρακαλείστε να διορθώσετε ζητήματα</s:String>
+    <s:String x:Key="String_PleaseFixIssuesContent">Υπάρχουν σφάλματα σχετικά με τη διαμόρφωση, παρακαλώ διορθώστε το πριν να αλλάξετε σε άλλη προβολή</s:String>
+    <s:String x:Key="String_DeleteThisService">Διαγραφή αυτής της υπηρεσίας</s:String>
+    <s:String x:Key="String_CategoryHasSubItems">Αυτή η κατηγορία έχει υποκατηγορίες</s:String>
+    <s:String x:Key="String_CategoryHasSubItemsContent">Θέλετε να διαγράψετε αυτήν την κατηγορία υπηρεσίας που περιέχει μία ή περισσότερες υπηρεσίες, που θέλετε να διαγράψετε αυτήν την κατηγορία υπηρεσίας ούτως ή άλλως;</s:String>
+    <s:String x:Key="String_Rename">Μετονομασία</s:String>
+    <s:String x:Key="String_ChangeServiceName">Αλλαγή ονόματος αυτής της υπηρεσίας</s:String>
+    <s:String x:Key="String_ChangeServiceNameContent">Εισαγάγετε μια νέα τιμή για την επιλεγμένη υπηρεσία</s:String>
+    <s:String x:Key="String_AddSoapService">Προσθέστε μια υπηρεσία SOAP</s:String>
+    <s:String x:Key="String_MySoapService">Μου υπηρεσία SOAP</s:String>
+    <s:String x:Key="String_DeleteThisCategory">Διαγράψετε αυτήν την κατηγορία</s:String>
+    <s:String x:Key="String_ChangeCategoryName">Αλλαγή ονόματος υπηρεσίας της κατηγορίας</s:String>
+    <s:String x:Key="String_ChangeCategoryNameContent">Εισαγάγετε μια νέα τιμή για την επιλεγμένη κατηγορία υπηρεσίες</s:String>
+    <s:String x:Key="String_AddServiceCategory">Προσθέστε μια κατηγορία υπηρεσίας</s:String>
+    <s:String x:Key="String_MyCategory">Κατηγορία μου</s:String>
+    <s:String x:Key="String_AddOpenAPICategory">Προσθέστε μια κατηγορία OpenAPI</s:String>
+    <s:String x:Key="String_DeleteThisApplication">Διαγραφή αυτής της εφαρμογής</s:String>
+    <s:String x:Key="String_ApplicationHasSubItems">Αυτή η εφαρμογή έχει δευτερεύοντα στοιχεία</s:String>
+    <s:String x:Key="String_ApplicationHasSubItemsContent">Θέλετε να διαγράψετε αυτήν την εφαρμογή που περιέχει μία ή περισσότερες κατηγορίες υπηρεσιών, \nDo να διαγράψετε αυτήν την εφαρμογή κάθε τρόπο;</s:String>
+    <s:String x:Key="String_ChangeNameOfApplication">Αλλαγή ονόματος εφαρμογής</s:String>
+    <s:String x:Key="String_AddAnApplication">Προσθέστε μια εφαρμογή</s:String>
+    <s:String x:Key="String_MyApplication">Αίτησή μου</s:String>
+    <s:String x:Key="String_ChangeExtensionName">Αλλαγή ονόματος της επέκτασης</s:String>
+    <s:String x:Key="String_ChangeExtensionNameContent">Εισαγάγετε μια νέα τιμή για την επιλεγμένη εφαρμογή</s:String>
+    <s:String x:Key="String_SaveCurrentProjectContent"><![CDATA[Το τρέχον έργο σας δεν έχει ακόμη αποθηκευτεί, θέλετε να το αποθηκεύσετε τώρα;
+Ναι: Αποθηκεύστε το τρέχον σχέδιο και να δημιουργήσετε νέο έργο.
+NO: Εγκαταλείψει τρέχον έργο και να δημιουργήσετε νέο έργο.
+Ακύρωση: παραμονή στο τρέχον έργο.]]></s:String>
+    <s:String x:Key="String_NewExtensionProject">Νέα επέκταση έργου</s:String>
+    <s:String x:Key="String_ProjectSaved">Έργο έχει αποθηκευτεί</s:String>
+    <s:String x:Key="String_SaveExtensionProject">Αποθήκευση του έργου επέκταση</s:String>
+    <s:String x:Key="String_ProjectXSaved">Έργο '{0}' έχει αποθηκευτεί</s:String>
+    <s:String x:Key="String_ErrorSavingProject">Σφάλμα κατά την αποθήκευση του έργου</s:String>
+    <s:String x:Key="String_ErrorSavingProjectContent">Παρουσιάστηκε ένα σφάλμα κατά την αποθήκευση του έργου επέκτασης.</s:String>
+    <s:String x:Key="String_ErrorOpenProject">Σφάλμα Άνοιγμα έργου</s:String>
+    <s:String x:Key="String_ProjectFileXCannotFoundRemoveLink">Το αρχείο έργου '{0}' δεν μπορεί να βρεθεί, θα θέλατε να καταργήσετε αυτό το πρόγραμμα από τη λίστα;</s:String>
+    <s:String x:Key="String_CannotLoadProjectFromGivenFile">Δεν μπορεί να φορτώσει το έργο από το συγκεκριμένο αρχείο.</s:String>
+    <s:String x:Key="String_CopyrightInfo">Πνευματικά δικαιώματα {0} το όνομα της εταιρείας, όλα τα δικαιώματα κατοχυρωμένα.</s:String>
+    <s:String x:Key="String_ProjectDataInvalid">Τα δεδομένα του έργου δεν είναι έγκυρη. Βεβαιωθείτε ότι είναι μια έγκυρη επέκταση αρχείου σχεδιαστής έργου.</s:String>
     <!-- WindowMessageViewer.xaml -->
     <s:String x:Key="String_MessageViewer">Προβολή μηνυμάτων</s:String>
     <s:String x:Key="String_ViewMessage">Προβολή μήνυμα:</s:String>
     <s:String x:Key="String_Overview">Επισκόπηση</s:String>
     <s:String x:Key="String_Request">Αίτηση</s:String>
     <s:String x:Key="String_Response">Απάντηση</s:String>
+    <s:String x:Key="String_ErrorLoadMessageCMV">Μήνυμα λάθους φορτίο με προσαρμοσμένη προβολή μηνυμάτων</s:String>
+    <s:String x:Key="String_ErrorLoadMessageCMVMessage"><![CDATA[Παρουσιάστηκε ένα σφάλμα κατά την εμφάνιση αυτού του μηνύματος χρησιμοποιώντας το CustomMessageViewer: {0} από επέκταση: {1}
+Για περισσότερες λεπτομέρειες, παρακαλώ επικοινωνήστε με τον προγραμματιστή της επέκτασης αυτής.
+Τώρα δείχνει το μήνυμα με το προεπιλεγμένο πρόγραμμα προβολής.]]></s:String>
     <!-- WindowMultiLineEditor.xaml -->
     <s:String x:Key="String_Cancel">Άκυρο</s:String>
     <s:String x:Key="String_EditValueForX">Επεξεργασία για: {0}</s:String>
@@ -520,29 +740,6 @@ Do να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
     <s:String x:Key="String_SearchNext">Επόμενη</s:String>
     <s:String x:Key="String_CannotFindPattern">Δεν μπορεί να βρει το μοτίβο.</s:String>
     <s:String x:Key="String_NoResultMatchesPattern">Δεν υπάρχει καμία αγώνες αποτέλεσμα αναζήτησης '{0}'</s:String>
-    <s:String x:Key="String_NoResultMatches">Δεν υπάρχει καμία αγώνες αποτέλεσμα αναζήτησης '{0}'</s:String>
-    <!-- ExtensionDesigner\ViewApplication.xaml -->
-    <s:String x:Key="String_Application">Εφαρμογή</s:String>
-    <s:String x:Key="String_ApplicationTooltip">Πληκτρολογήστε ένα όνομα της εφαρμογής:
-Ως οδηγός είναι το όνομα του συστήματος είστε δοκιμές, ως στέλεχος είναι το όνομα του συστήματος που θέλετε να μιμηθεί.</s:String>
-    <s:String x:Key="String_ApplicationNameColon">Όνομα εφαρμογής:</s:String>
-    <s:String x:Key="String_ServiceCategoriesIncluded">Κατηγορίες υπηρεσιών που περιλαμβάνονται στην παρούσα αίτηση</s:String>
-    <s:String x:Key="String_ServiceCategoryU">ΚΑΤΗΓΟΡΊΑ ΥΠΗΡΕΣΊΑΣ</s:String>
-    <!-- ExtensionDesigner\ViewServiceCategory.xaml -->
-    <s:String x:Key="String_ServiceCategory">Κατηγορία υπηρεσίας</s:String>
-    <s:String x:Key="String_ServiceCategoryTooltip">Κατηγορία υπηρεσίας κατέχει ένα σύνολο των υπηρεσιών Web του η ίδια προτείνει. 
-Για παράδειγμα, μπορείτε να έχετε μια σειρά από υπηρεσίες Web για διαχείριση πελατών, συμπεριλαμβανομένων 3 υπηρεσίες Web για δημιουργία πελάτη, τροποποίηση και διαγραφή.</s:String>
-    <s:String x:Key="String_CategoryNameColon">Το όνομα της κατηγορίας:</s:String>
-    <s:String x:Key="String_ServicesIncluded">Υπηρεσίες που περιλαμβάνονται σε αυτή την κατηγορία</s:String>
-    <s:String x:Key="String_ServicesU">ΥΠΗΡΕΣΊΕΣ</s:String>
-    <s:String x:Key="String_TypeU">ΤΎΠΟΣ</s:String>
-    <!-- ExtensionDesigner\ViewProjectOverview.xaml -->
-    <s:String x:Key="String_ProjectGeneralInfo">Έργο γενικές πληροφορίες</s:String>
-    <s:String x:Key="String_ProjectNameColon">Όνομα έργου:</s:String>
-    <s:String x:Key="String_RootNamespaceColon">Ρίζα Namespace:</s:String>
-    <s:String x:Key="String_AssemblyInfo">Πληροφοριών συναρμολόγησης</s:String>
-    <s:String x:Key="String_AssemblyInfoTooltip">Πληροφορίες συγκρότησης είναι τεχνικές πληροφορίες που συγκεντρώνονται στη Συνέλευσή σας επέκταση, παρακαλούμε φροντίστε να αντιστοιχίσετε ένα νομικό όνομα για κάθε πεδίο.</s:String>
-    <s:String x:Key="String_AssemblyNameColon">Όνομα συγκρότησης:</s:String>
     <!-- WindowSelectRequest.xaml -->
     <s:String x:Key="String_SelectARequest">Επιλέξτε ένα αίτημα</s:String>
     <!-- WindowSendRequest.xaml -->
@@ -559,6 +756,31 @@ Do να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
     <s:String x:Key="String_RequestSentTo">Αίτηση που στάλθηκε στο:</s:String>
     <s:String x:Key="String_ElapsedTime">Χρόνος που πέρασε: </s:String>
     <s:String x:Key="String_ResponseColon">Απάντηση:</s:String>
+    <s:String x:Key="String_CannotSendRequest">Δεν απέστειλε αίτημα</s:String>
+    <s:String x:Key="String_CannotSendRequestContent">Η αίτηση δεν μπορεί να αποσταλεί, την υπηρεσία επέστρεψε ένα σφάλμα:</s:String>
+    <s:String x:Key="String_BeforeSendingChooseARequest">Πριν από την αποστολή, επιλέξτε ένα αίτημα.</s:String>
+    <s:String x:Key="String_PreventSaving">Πρόληψη της εξοικονόμησης</s:String>
+    <s:String x:Key="String_PreventSavingRequestMessage">Υπάρχουν κάποια λάθη στο συντάκτη σας αιτήματος, και εμποδίζει την αποθήκευση. Παρακαλώ ελέγξτε το αίτημά σας.</s:String>
+    <s:String x:Key="String_ChooseANameU">ΕΠΙΛΈΞΤΕ ΈΝΑ ΌΝΟΜΑ</s:String>
+    <s:String x:Key="String_RequestSavedAtColon"> αίτημα που αποθηκεύτηκε στο:</s:String>
+    <s:String x:Key="String_BeforeSavingChooseARequest">Πριν από την αποθήκευση, επιλέξτε μια αίτηση.</s:String>
+    <s:String x:Key="String_PreventClosing">Πρόληψη κλεισίματος</s:String>
+    <s:String x:Key="String_PreventClosingRequestMessage">Υπάρχουν κάποια λάθη στο συντάκτη σας αιτήματος, και αποτρέπει κλεισίματος. Παρακαλώ ελέγξτε το αίτημά σας.</s:String>
+    <s:String x:Key="String_KeepFavoriteRequests">Κρατήστε τις αγαπημένες αιτήσεις;</s:String>
+    <s:String x:Key="String_KeepFavoriteRequestsMessage"><![CDATA[Αποσαφηνίζετε το ιστορικό αίτημα για επιλεγμένη υπηρεσία, που θέλετε να κρατήσετε τις αγαπημένες αιτήσεις σας;
+Ναι: Κρατήσει αγαπημένες αιτήσεις.
+NO: Διαγραφή αγαπημένο αίτηση.
+Ακύρωση: Μην διαγράψετε τίποτα.]]></s:String>
+    <s:String x:Key="String_WarningUriFormat">Προειδοποίηση - Uri μορφή</s:String>
+    <s:String x:Key="String_WarningUriFormatMessage"><![CDATA[Το πρότυπο UriTemplate αυτής της υπηρεσίας '{0}' δεν είναι καλά σχηματίζεται Uri
+Αν αυτό το Uri χρησιμοποιεί μεταβλητές, παρακαλούμε να ελέγξετε ρυθμίσεις αν όλα χρησιμοποιούνται μεταβλητές έχουν εκχωρηθεί.]]></s:String>
+    <!-- WindowServerReponse -->
+    <s:String x:Key="String_Type3CharsToFind">Παρακαλούμε πληκτρολογήστε εκτός εάν ισχύουν 3 χαρακτήρες για να βρείτε τις υπηρεσίες.</s:String>
+    <s:String x:Key="String_NoResultMatchSearchPattern">κανένα αποτέλεσμα που να ταιριάζει με το μοτίβο αναζήτησης σας.</s:String>
+    <s:String x:Key="String_RenameYourResponse">Μετονομάστε την απάντησή σας</s:String>
+    <s:String x:Key="String_FunctionalError">Σφάλμα λειτουργική</s:String>
+    <s:String x:Key="String_CannotNameResponseAsDefault">Δεν μπορείτε να ονομάσετε μια απάντηση όπως «Προεπιλογής», ενώ αυτό το όνομα είναι δεσμευμένο.</s:String>
+    <s:String x:Key="String_CannotNameXBecauseExists">Δεν μπορείτε να ονομάσετε την απάντηση, όπως "{0}" διότι μια απάντηση του ίδιου ονόματος είναι ήδη υπάρχει.</s:String>
     <!-- CommandLineTestStepEditor.xaml-->
     <s:String x:Key="String_FileNameColon">Όνομα αρχείου:</s:String>
     <s:String x:Key="String_ArgumentsColon">Επιχειρήματα:</s:String>
@@ -585,7 +807,7 @@ Do να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
     <s:String x:Key="String_CodeU">ΚΩΔΙΚΌΣ</s:String>
     <s:String x:Key="String_LineU">ΓΡΑΜΜΉ</s:String>
     <!-- NotContainsAssertionEditor -->
-    <s:String x:Key="String_NotContainsAssertion">Δεν περιέχει διεκδίκησης</s:String>
+    <s:String x:Key="String_NotContainsAssertion">Ισχυρισμό «Δεν περιέχει»</s:String>
     <s:String x:Key="String_NotContainsAssertionDescription">Ελέγχει αν δοθεί κείμενο δεν παρουσιάζεται σε της αίτησης ή της απόκρισης</s:String>
     <!-- PathValidatorAssertionEditor.xaml -->
     <s:String x:Key="String_PathValidationAssertion">Πορεία επικύρωσης διεκδίκησης</s:String>
@@ -627,115 +849,21 @@ Do να επανεκκινήσετε το κολίμπρι τώρα;</s:String>
     <s:String x:Key="String_Configuration">Ρύθμιση παραμέτρων</s:String>
     <s:String x:Key="String_Result">Αποτέλεσμα</s:String>
     <s:String x:Key="String_ServerNameOrIpColon">Όνομα διακομιστή ή διεύθυνση IP:</s:String>
-    <s:String x:Key="String_AuthenticationModeColon">Λειτουργία ελέγχου ταυτότητας: </s:String>
-    <s:String x:Key="String_DatabaseNameColon">Όνομα βάσης δεδομένων:</s:String>
-    <s:String x:Key="String_UserNameColon">Όνομα χρήστη: </s:String>
-    <s:String x:Key="String_PasswordColon">Κωδικός πρόσβασης:</s:String>
-    <s:String x:Key="String_ExecutionResultTypeColon">Τύπος αποτέλεσμα εκτέλεσης: </s:String>
-    <s:String x:Key="String_SqlQueryColon">Ερώτημα SQL:</s:String>
-    <s:String x:Key="String_UnableToConnectToDB">Δεν μπορείτε να συνδεθείτε στη βάση δεδομένων προορισμού:</s:String>
-    <!-- StartWindowsServiceTestStepEditor.xaml -->
-    <s:String x:Key="String_ServerNameColon">Όνομα διακομιστή:</s:String>
-    <s:String x:Key="String_DomainUserNameColon">Τομέας\όνομα χρήστη:</s:String>
-    <!-- UpdateSimulationData.xaml -->
-    <s:String x:Key="String_EditResponse">Επεξεργαστείτε την απάντησή</s:String>
-    <s:String x:Key="String_SelectedService">Επιλεγμένη υπηρεσία</s:String>
-    <s:String x:Key="String_Clean">Καθαρίστε</s:String>
-    <s:String x:Key="String_CleanChecked">Σαφείς απαντήσεις της ίδιας υπηρεσίας πριν από την προσθήκη των παρακάτω απαντήσεων.</s:String>
-    <s:String x:Key="String_CleanUnchecked">Μην σαφείς απαντήσεις, προσθέσετε μετά απαντήσεις μόνο.</s:String>
-    <!-- ViewCSVDataSource.xaml -->
-    <s:String x:Key="String_ContainsHeaderColon">Περιέχει την κεφαλίδα:</s:String>
-    <s:String x:Key="String_ContainsHeaderChecked">Η πρώτη γραμμή του αρχείου προέλευσης δεδομένων είναι στην κεφαλίδα της στήλης</s:String>
-    <s:String x:Key="String_ContainsHeaderUnchecked">Το αρχείο προέλευσης δεδομένων δεν περιέχει κεφαλίδα (πρέπει να καθορίσετε την κεφαλίδα)</s:String>
-    <s:String x:Key="String_SeparatorColon">Διαχωριστικό:</s:String>
-    <s:String x:Key="String_SelectDot">Επιλέξτε...</s:String>
-    <!-- ViewDataDrivenTestCase.xaml -->
-    <s:String x:Key="String_DataDrivenTestCaseColon">Δεδομένα με γνώμονα την περίπτωση δοκιμής:</s:String>
-    <s:String x:Key="String_Import">Εισαγωγή</s:String>
-    <s:String x:Key="String_DataSource">Αρχείο προέλευσης δεδομένων</s:String>
-    <s:String x:Key="String_TestInstances">Δοκιμή περιπτώσεις</s:String>
-    <s:String x:Key="String_TestCase">Δοκιμή περίπτωση</s:String>
-    <s:String x:Key="String_CountSteps"># Βήματα</s:String>
-    <s:String x:Key="String_Progress">Πρόοδος</s:String>
-    <s:String x:Key="String_Information">Πληροφορίες</s:String>
-    <s:String x:Key="String_SelectDataSourceColon">Επιλέξτε ένα αρχείο προέλευσης δεδομένων:</s:String>
-    <s:String x:Key="String_RowLimitColon">Όριο γραμμών:</s:String>
-    <!-- ViewExcelDataSource.xaml -->
-    <s:String x:Key="String_SpreadSheetNameColon">Όνομα του υπολογιστικού φύλλου:</s:String>
-    <s:String x:Key="String_RangeTypeColon">Εύρος Τύπος:</s:String>
-    <s:String x:Key="StringRangeNameColon">Όνομα περιοχής:</s:String>
-    <s:String x:Key="StringTestDataImported">Δοκιμή τα δεδομένα εισάγονται:</s:String>
-    <!-- ViewProjectInfo.xaml -->
-    <s:String x:Key="String_RunAllTests">Εκτελέστε όλες τις δοκιμές</s:String>
-    <s:String x:Key="String_GenerateReport">Δημιουργία έκθεσης</s:String>
-    <s:String x:Key="String_ViewReport">Προβολή έκθεσης</s:String>
-    <s:String x:Key="String_ProjectInformationColon">Πληροφορίες για το έργο:</s:String>
-    <s:String x:Key="String_CreationDateColon">Ημερομηνία δημιουργίας:</s:String>
-    <s:String x:Key="String_CreatedByColon">Δημιουργήθηκε από:</s:String>
-    <s:String x:Key="String_LastSavedAtColon">Αποθηκεύτηκε τελευταία στο:</s:String>
-    <s:String x:Key="String_ByColon">Από:</s:String>
-    <s:String x:Key="String_TestProfile">Προφίλ δοκιμής:</s:String>
-    <s:String x:Key="String_TestProfileDescription">Προφίλ δοκιμής περιέχει μεταβλητές περιβάλλοντος δοκιμών, πιστοποιήσεις και προεπιλεγμένη δοκιμή δεδομένων για την υπηρεσία προσομοίωση. Για να ρυθμίσετε εύκολα το προφίλ δοκιμής, μπορείτε να πάτε να δοκιμάσετε τις ρυθμίσεις και να εξαγάγετε το τρέχον προφίλ.</s:String>
-    <s:String x:Key="String_UseActiveProfile">Χρησιμοποιήστε το ενεργό προφίλ</s:String>
-    <s:String x:Key="String_UseActiveProfileTooltip">Χρησιμοποιήστε το τρέχον προφίλ δοκιμής από το πρώτο πούλι δοκιμή εγχειρίδιο</s:String>
-    <s:String x:Key="String_LoadProfile">Προφίλ φορτίου</s:String>
-    <s:String x:Key="String_LoadProfileTooltip">Φόρτωση ενός υπάρχοντος προφίλ από δίσκο</s:String>
-    <s:String x:Key="String_EditProfile">Επεξεργασία προφίλ</s:String>
-    <s:String x:Key="String_EditProfileTooltip">Επεξεργαστείτε το τρέχον προφίλ δοκιμής</s:String>
-    <s:String x:Key="String_ListTestSuitsColon">Λίστα των οικογενειών προγραμμάτων δοκιμών:</s:String>
-    <s:String x:Key="String_TestSuite">Σουίτα δοκιμής</s:String>
-    <s:String x:Key="String_CountTests"># Δοκιμές</s:String>
-    <s:String x:Key="String_SaveAutomatedTestReport">Αποθηκεύστε την αυτόματη αναφορά δοκιμής</s:String>
-    <s:String x:Key="String_ReportExported">Έκθεση εξάγονται</s:String>
-    <s:String x:Key="String_ReportExportFailedColon">Έκθεση είναι απέτυχε η εξαγωγή: </s:String>
-    <s:String x:Key="String_GeneratingReport">Δημιουργία αναφοράς</s:String>
-    <s:String x:Key="String_TestReport">Αναφορά δοκιμής</s:String>
-    <!-- ViewTestCase.xaml -->
-    <s:String x:Key="String_TestConfiguration">Δοκιμή ρύθμισης παραμέτρων</s:String>
-    <s:String x:Key="String_ListTestSteps">Λίστα των βημάτων δοκιμής</s:String>
-    <s:String x:Key="String_TestStep">Βήμα δοκιμής</s:String>
-    <s:String x:Key="String_VariableName">Το όνομα της μεταβλητής</s:String>
-    <s:String x:Key="String_VariableNameTooltip">Πληκτρολογήστε το όνομα της μεταβλητής για την τρέχουσα περίπτωση δοκιμής</s:String>
-    <s:String x:Key="String_VariableNameEmpty">Το όνομα της μεταβλητής δεν μπορεί να είναι null ή κενό</s:String>
-    <s:String x:Key="String_VariableNameExists">Η μεταβλητή με όνομα '{0}' υπάρχει ήδη.</s:String>
-    <s:String x:Key="String_VariableNameNotValid">'{0}' δεν είναι ένα έγκυρο αναγνωριστικό για ένα όνομα μεταβλητής.</s:String>
-    <s:String x:Key="String_VariableXRemovedRecover">Η μεταβλητή {0} απομακρύνεται. Κάντε κλικ εδώ για να ανακτήσετε.</s:String>
-    <s:String x:Key="String_ClearCustomVariables">Σαφή προσαρμοσμένες μεταβλητές</s:String>
-    <s:String x:Key="String_ClearCustomVariablesQuestion">Θέλετε να διαγράψετε όλες τις προσαρμοσμένες μεταβλητές; 
-Αυτή η ενέργεια δεν μπορεί να ανακτηθεί.</s:String>
-    <!-- ViewTestSuite.xaml -->
-    <s:String x:Key="String_TestSuiteColon">Ακολουθία δοκιμής:</s:String>
-    <s:String x:Key="String_TestSuiteConfiguration">Δοκιμή σουίτα ρύθμισης παραμέτρων</s:String>
-    <s:String x:Key="String_RemoveSelected">Κατάργηση επιλεγμένων</s:String>
-    <s:String x:Key="String_RemoveAll">Κατάργηση όλων</s:String>
-    <s:String x:Key="String_Sort">Είδος</s:String>
-    <s:String x:Key="String_TestSuiteInformationColon">Δοκιμή σουίτα πληροφορίες:</s:String>
-    <s:String x:Key="String_ListTestCasesColon">Κατάλογος των περιπτώσεων δοκιμής</s:String>
-    <!-- WindowEditAssertion.xaml -->
-    <s:String x:Key="String_Assertion">Διεκδίκησης</s:String>
-    <s:String x:Key="String_Test">Δοκιμή</s:String>
-    <s:String x:Key="String_AssertionObjectNull">Αντικείμενο διεκδίκησης δεν μπορεί να είναι null</s:String>
-    <s:String x:Key="String_AssertionTestException">Ανεπίλυτη εξαίρεση κατά τη δοκιμή τον ισχυρισμό: </s:String>
-    <!-- WindowEditExtractProperty.xaml -->
-    <s:String x:Key="String_EditPropertyExtraction">Επεξεργαστείτε εξαγωγής ιδιότητας:</s:String>
-    <s:String x:Key="String_PropertyNameColon">Όνομα ιδιότητας:</s:String>
-    <s:String x:Key="String_PathTypeColon">Τύπος διαδρομής:</s:String>
-    <s:String x:Key="String_PathColon">Διαδρομή:</s:String>
-    <s:String x:Key="String_VariableNameColon">Το όνομα της μεταβλητής</s:String>
-    <s:String x:Key="String_CurrentValue">Τρέχουσα τιμή</s:String>
-    <s:String x:Key="String_GetCurrentValue">Κάντε κλικ στο κουμπί Υπολογισμός να πάρει την τιμή από την τρέχουσα ρύθμιση παραμέτρων</s:String>
-    <s:String x:Key="String_Evaluate">Αξιολόγηση</s:String>
-    <!-- XPathValidatorAssertionEditor.xaml -->
-    <s:String x:Key="String_XPathExpression">Έκφραση XPath</s:String>
-    <!-- ExtractPropertyTestStepEditor.xaml -->
-    <s:String x:Key="String_SelectedExtractPropertyDeleted">Επιλεγμένη ιδιότητα απόσπασμα έχει διαγραφεί, κάντε κλικ εδώ για να ανακτήσετε.</s:String>
-    <s:String x:Key="String_ExtractProperty">Εξαγάγετε το κατάλυμα</s:String>
-    <s:String x:Key="String_RunThisStep">Εκτελέστε αυτό το βήμα</s:String>
-    <s:String x:Key="String_AddPropertyExtraction">Προσθέστε εξαγωγής ιδιότητας:</s:String>
-    <s:String x:Key="String_FromTestSuiteColon">Από σουίτα δοκιμής:</s:String>
-    <s:String x:Key="String_VariableLevelColon">Μεταβλητή επιπέδου: </s:String>
-    <s:String x:Key="String_PropertyNameU">ΌΝΟΜΑ ΙΔΙΌΤΗΤΑΣ</s:String>
-    <s:String x:Key="String_PathTypeU">ΤΎΠΟΣ ΔΙΑΔΡΟΜΉΣ</s:String>
-    <s:String x:Key="String_PathU">ΔΙΑΔΡΟΜΉ</s:String>
-    <s:String x:Key="String_VariableU">ΜΕΤΑΒΛΗΤΉ</s:String>
+    <s:String x:Key="String_GeneralOptions">Γενικές επιλογές</s:String>
+    <s:String x:Key="String_AuthenticationColon">Έλεγχος ταυτότητας:</s:String>
+    <s:String x:Key="String_PreEmptiveColon">Προληπτικό:</s:String>
+    <s:String x:Key="String_PreEmptiveChecked">Προληπτικό έλεγχο ταυτότητας</s:String>
+    <s:String x:Key="String_PreEmptiveUnchecked">Κανονικές ελέγχου ταυτότητας</s:String>
+    <s:String x:Key="String_SoapOptions">ΣΑΠΟΎΝΙ επιλογές</s:String>
+    <s:String x:Key="String_MessageEncodingColon">Κωδικοποίηση μηνύματος:</s:String>
+    <s:String x:Key="String_MessageEncodingMtoM">MtoM (εφαρμογή/xop)</s:String>
+    <s:String x:Key="String_MessageEncodingText">Κείμενο/XML</s:String>
+    <s:String x:Key="String_MessageVersionColon">Έκδοση του μηνύματος:</s:String>
+    <s:String x:Key="String_CustomHttpHeaders">Κεφαλίδες HTTP συνήθειας</s:String>
+    <s:String x:Key="String_Anonymous">Ανώνυμος</s:String>
+    <s:String x:Key="String_WindowsAuthentication">Έλεγχος ταυτότητας των Windows</s:String>
+    <s:String x:Key="String_WindowsAuthenticationTooltip">Χρησιμοποιήστε σας τρέχουσα διαπιστευτηρίου των Windows για να καλέσετε αυτήν την υπηρεσία, με ενσωματωμένο έλεγχο ταυτότητας των Windows</s:String>
+    <s:String x:Key="String_NtlmAuthentication">Ο έλεγχος ταυτότητας NTLM</s:String>
+    <s:String x:Key="String_NtlmAuthenticationTooltip">Χρησιμοποιήστε σας τρέχουσα διαπιστευτηρίου των Windows για να καλέσετε αυτήν την υπηρεσία, με τον έλεγχο ταυτότητας NTLM</s:String>
+    <s:String x:Key="String_ApplicationName">Hummingbird</s:String>
 </ResourceDictionary>

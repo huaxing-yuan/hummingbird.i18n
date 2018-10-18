@@ -1,6 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation" xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml" xmlns:local="clr-namespace:Hummingbird.TestManager" xmlns:s="clr-namespace:System;assembly=mscorlib">
-    <s:String x:Key="String_ApplicationName">Hummingbird</s:String>
     <s:String x:Key="String_ApplicationDescription">AN INTEGRATED TEST SOLUTION</s:String>
     <s:String x:Key="String_ErrorOccurred">エラーが発生しました</s:String>
     <s:String x:Key="String_TestCaseColon">テスト _ ケース:</s:String>
@@ -74,6 +73,7 @@
     <s:String x:Key="String_Services">サービス</s:String>
     <s:String x:Key="String_SystemVariables">システム変数</s:String>
     <s:String x:Key="String_CustomVariables">カスタム変数</s:String>
+    <s:String x:Key="String_RuntimeVariables">ランタイム変数</s:String>
     <s:String x:Key="String_Credentials">資格情報</s:String>
     <s:String x:Key="String_MaxRequestPerService">Max には、サービスごとの要求が保存されます。</s:String>
     <s:String x:Key="String_MaxRequestPerServiceTooltip">高速再送サービスごとの要求の最大数を保存できます。既定値は 20 です。</s:String>
@@ -84,14 +84,14 @@
     <s:String x:Key="String_CloseAndShowOnDemande">ウィンドウを閉じるし、オンデマンドで結果を表示</s:String>
     <s:String x:Key="String_AuthenticationU">認証</s:String>
     <s:String x:Key="String_ErrorParsingParameterX">パラメーター '{0}' を解析中にエラー</s:String>
-    <s:String x:Key="String_ErrorParsingParameterDetails">サービス {0}、{1} のパラメーター:
- 値 '{2}' が型 '{3}' に対して有効ではないです。</s:String>
+    <s:String x:Key="String_ErrorParsingParameterDetails"><![CDATA[サービス {0}、{1} のパラメーター:
+値 '{2}' が型 '{3}' に対して有効ではないです。]]></s:String>
     <s:String x:Key="String_ResetToDefaultValue">既定値にリセットします。</s:String>
     <s:String x:Key="String_BrowseDot">参照.</s:String>
     <s:String x:Key="String_FindFileForX">{0} のファイルを見つける</s:String>
     <s:String x:Key="String_AddTestEnvironment">テスト環境を追加します。</s:String>
     <s:String x:Key="String_AddTestEnvironmentTooltip">新しいテスト環境の名前を入力します。</s:String>
-    <s:String x:Key="String_TestEnvironmentXExists">「そこは既に '{0}' という名前のテスト環境</s:String>
+    <s:String x:Key="String_TestEnvironmentXExists">既に '{0}' という名前のテスト環境があります。</s:String>
     <s:String x:Key="String_CannotRemove">削除できません。</s:String>
     <s:String x:Key="String_CannotRemoveDefaultEnvironment">これは、削除できない既定のテスト環境です。</s:String>
     <s:String x:Key="String_ConfirmDelete">削除を確認します。</s:String>
@@ -102,11 +102,11 @@
     <s:String x:Key="String_SystemVariableExists">既に同じ名前のシステム変数があります。</s:String>
     <s:String x:Key="String_NotAValidVariableName">入力した名前は有効ではない変数名です。</s:String>
     <s:String x:Key="String_ClearEnvironmentVariables">明確な環境変数</s:String>
-    <s:String x:Key="String_ClearEnvironmentVariablesQuestion">回復することができない、あなたはすべての環境変数をクリアすることを確認この操作? 要求、応答または自動化スクリプトの中で参照する 
-If エラーが発生します。</s:String>
+    <s:String x:Key="String_ClearEnvironmentVariablesQuestion"><![CDATA[この操作回復しないことができます、すべての環境変数をクリアするよろしいですか。
+要求、応答または自動化スクリプト中で参照する場合にエラーが発生します。]]></s:String>
     <s:String x:Key="String_DeleteEnvironmentVariables">環境変数を削除します。</s:String>
-    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion">この操作は復元できません、選択した環境変数を削除するよろしいですか? 要求、応答または自動化スクリプトの中で参照する 
-If エラーが発生します。</s:String>
+    <s:String x:Key="String_DeleteEnvironmentVariablesQuestion"><![CDATA[この操作は回復することができない、選択した環境変数を削除するよろしいですか。
+要求、応答または自動化スクリプト中で参照する場合にエラーが発生します。]]></s:String>
     <s:String x:Key="String_CannotCopyEV">コピーすることができます。</s:String>
     <s:String x:Key="String_CannotCopyEVTooltip">環境自体の値をコピー、別の環境を選択してくださいに不可能です。</s:String>
     <s:String x:Key="String_EnterUserName">ユーザー名を入力します。</s:String>
@@ -132,8 +132,8 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_ObjectTypeNull">&lt;!-オブジェクト型は null この要求には、--&gt; パラメーターがありません。</s:String>
     <s:String x:Key="String_ObjectCannotSerialized">このオブジェクトがシリアル化されないことができます、のみ、ツリー ビューでオブジェクトを表示できます。</s:String>
     <s:String x:Key="String_InvalidOperation">無効な操作</s:String>
-    <s:String x:Key="String_ViewNotSupportDeserialization">現在の閲覧者は逆シリアル化をサポートしていません、TreeView オブジェクトを変更するを編集することができます。
- テキストを編集することによって、オブジェクトを変更する場合は、XML ビューを選択してください。</s:String>
+    <s:String x:Key="String_ViewNotSupportDeserialization"><![CDATA[現在の閲覧者は逆シリアル化をサポートしていません、TreeView オブジェクトを変更するを編集することができます。
+テキストを編集することによって、オブジェクトを変更する場合は、XML ビューを選択してください。]]></s:String>
     <s:String x:Key="String_DeserializationErrorMessage">シリアル化解除エラー - メッセージ本文を逆シリアル化できません。'{0}' (詳細についてはここをクリック)</s:String>
     <s:String x:Key="String_DetailedTechnicalError">詳細な技術的なエラー:</s:String>
     <s:String x:Key="String_UnableToParseXml">XML を解析できません。</s:String>
@@ -173,7 +173,7 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_PathXCopiedToClipboard">パス:「{0}」がクリップボードにコピーされました。</s:String>
     <s:String x:Key="String_UnableCopyClipboard">パスをクリップボードにコピーできません。</s:String>
     <s:String x:Key="String_SelectedElementDeleted">選択した要素は配列から削除されています。</s:String>
-    <s:String x:Key="String_SelectedElementSetToNull">「選択した要素が設定されている null にします。</s:String>
+    <s:String x:Key="String_SelectedElementSetToNull">選択した要素が設定されている null にします。</s:String>
     <s:String x:Key="String_SelectedElementCanNotDelete">選択した要素の削除はできません。</s:String>
     <s:String x:Key="String_SelectedElementXCopied">型 {0} の選択した要素をクリップボードにコピーされています。</s:String>
     <s:String x:Key="String_UnableCopyObjectClipboard">選択したオブジェクトをクリップボードにコピーすることができません。</s:String>
@@ -185,29 +185,184 @@ If エラーが発生します。</s:String>
     <!-- Components\RequestOptionsPanel -->
     <s:String x:Key="String_SearchFilter">検索フィルター</s:String>
     <s:String x:Key="String_Type3Chars">サービスを見つけることの少なくとも 3 の有効な文字を入力してください。</s:String>
-    <s:String x:Key="String_GeneralOptions">[全般オプション]</s:String>
-    <s:String x:Key="String_AuthenticationColon">認証:</s:String>
-    <s:String x:Key="String_PreEmptiveColon">先制。</s:String>
-    <s:String x:Key="String_PreEmptiveChecked">先制認証</s:String>
-    <s:String x:Key="String_PreEmptiveUnchecked">通常の認証</s:String>
-    <s:String x:Key="String_SoapOptions">石鹸のオプション</s:String>
-    <s:String x:Key="String_MessageEncodingColon">メッセージのエンコード:</s:String>
-    <s:String x:Key="String_MessageEncodingMtoM">MtoM (アプリケーション/xop)</s:String>
-    <s:String x:Key="String_MessageEncodingText">テキストまたは XML</s:String>
-    <s:String x:Key="String_MessageVersionColon">メッセージのバージョン:</s:String>
-    <s:String x:Key="String_CustomHttpHeaders">カスタム HTTP ヘッダー</s:String>
-    <s:String x:Key="String_Anonymous">匿名</s:String>
-    <s:String x:Key="String_WindowsAuthentication">Windows 認証</s:String>
-    <s:String x:Key="String_WindowsAuthenticationTooltip">あなたの現在の Windows 資格情報を使用して、Windows 統合認証で、このサービスを呼び出す</s:String>
-    <s:String x:Key="String_NtlmAuthentication">NTLM 認証</s:String>
-    <s:String x:Key="String_NtlmAuthenticationTooltip">あなたの現在の Windows 資格情報を使用して、NTLM 認証では、このサービスを呼び出す</s:String>
-    <!-- ViewProfileManagement.xaml -->
-    <s:String x:Key="String_ImportFromDot">インポート.</s:String>
-    <!-- PROFILE MANAGEMENT -->
-    <s:String x:Key="String_ProfileManagement_Para1">サービスのシミュレーション動作、セキュリティ トークン カスタム変数テスト環境サービス パラメーターを含むテストの設定は、プロファイルに詰め込まれています。</s:String>
-    <s:String x:Key="String_ProfileManagement_Para2">プロファイルのインポート、エクスポートまたは他の人に共有することができます。オートメーション プロジェクトのテストの設定を簡素化するために、オートメーション プロジェクトにプロファイルを埋め込むこともできます。次に、アプリケーションで使用することができますすべてのプロファイル。</s:String>
-    <s:String x:Key="String_ProfileManagement_Note">注: 既定のプロファイルが手動テストで使用されて、編集またはここで削除できません。既定のプロファイルを変更するのには、テストの設定に移動します。</s:String>
-    <s:String x:Key="String_ActionsU">アクション</s:String>
+    <s:String x:Key="String_NoResultMatches">検索パターンに一致する結果がありません。</s:String>
+    <s:String x:Key="String_AuthenticationModeColon">認証モード:</s:String>
+    <s:String x:Key="String_DatabaseNameColon">データベース名:</s:String>
+    <s:String x:Key="String_UserNameColon">ユーザー名:</s:String>
+    <s:String x:Key="String_PasswordColon">パスワード:</s:String>
+    <s:String x:Key="String_ExecutionResultTypeColon">実行結果のタイプ:</s:String>
+    <s:String x:Key="String_SqlQueryColon">SQL クエリ:</s:String>
+    <s:String x:Key="String_UnableToConnectToDB">ターゲット データベースに接続できません。</s:String>
+    <!-- StartWindowsServiceTestStepEditor.xaml -->
+    <s:String x:Key="String_ServerNameColon">サーバー名:</s:String>
+    <s:String x:Key="String_DomainUserNameColon">ドメイン \ ユーザー名:</s:String>
+    <!-- UpdateSimulationData.xaml -->
+    <s:String x:Key="String_EditResponse">応答を編集します。</s:String>
+    <s:String x:Key="String_SelectedService">選択したサービス</s:String>
+    <s:String x:Key="String_Clean">きれい</s:String>
+    <s:String x:Key="String_CleanChecked">次の応答を追加する前に同じサービスの明確な回答は。</s:String>
+    <s:String x:Key="String_CleanUnchecked">応答をオフに、次の応答のみを追加しないでください。</s:String>
+    <!-- ViewCSVDataSource.xaml -->
+    <s:String x:Key="String_ContainsHeaderColon">ヘッダーが含まれています。</s:String>
+    <s:String x:Key="String_ContainsHeaderChecked">データ ソースの最初の行が列ヘッダーです。</s:String>
+    <s:String x:Key="String_ContainsHeaderUnchecked">ヘッダー (ヘッダーを指定する必要があります) がデータ ソースに含まれていません。</s:String>
+    <s:String x:Key="String_SeparatorColon">区切り記号:</s:String>
+    <s:String x:Key="String_SelectDot">選択してください.</s:String>
+    <!-- ViewDataDrivenTestCase.xaml -->
+    <s:String x:Key="String_DataDrivenTestCaseColon">データ駆動テストの場合:</s:String>
+    <s:String x:Key="String_Import">インポート</s:String>
+    <s:String x:Key="String_DataSource">データ ソース</s:String>
+    <s:String x:Key="String_TestInstances">インスタンスをテストします。</s:String>
+    <s:String x:Key="String_TestCase">テスト _ ケース</s:String>
+    <s:String x:Key="String_CountSteps"># 手順</s:String>
+    <s:String x:Key="String_Progress">進行状況</s:String>
+    <s:String x:Key="String_Information">情報</s:String>
+    <s:String x:Key="String_SelectDataSourceColon">データ ソースを選択します。</s:String>
+    <s:String x:Key="String_RowLimitColon">行数の上限:</s:String>
+    <!-- ViewExcelDataSource.xaml -->
+    <s:String x:Key="String_SpreadSheetNameColon">スプレッドシートの名前:</s:String>
+    <s:String x:Key="String_RangeTypeColon">範囲の種類:</s:String>
+    <s:String x:Key="StringRangeNameColon">範囲名:</s:String>
+    <s:String x:Key="StringTestDataImported">テスト データをインポート:</s:String>
+    <!-- ViewProjectInfo.xaml -->
+    <s:String x:Key="String_RunAllTests">すべてのテストを実行します。</s:String>
+    <s:String x:Key="String_GenerateReport">レポートを生成します。</s:String>
+    <s:String x:Key="String_ViewReport">レポートの表示</s:String>
+    <s:String x:Key="String_ProjectInformationColon">プロジェクト情報:</s:String>
+    <s:String x:Key="String_CreationDateColon">作成日:</s:String>
+    <s:String x:Key="String_CreatedByColon">作成者。</s:String>
+    <s:String x:Key="String_LastSavedAtColon">最後に保存されます。</s:String>
+    <s:String x:Key="String_TestProfileColon">プロファイルをテストするには。</s:String>
+    <s:String x:Key="String_ByColon">者によって。</s:String>
+    <s:String x:Key="String_TestProfile">プロファイルをテストするには。</s:String>
+    <s:String x:Key="String_TestProfileDescription">テスト プロファイル環境変数を含む、資格情報および既定のテスト サービスのシミュレーションのためのデータ。テスト プロファイルを簡単に構成するには、テストの設定に移動し、現在のプロファイルをエクスポートできます。</s:String>
+    <s:String x:Key="String_UseActiveProfile">アクティブなプロファイルを使用して、</s:String>
+    <s:String x:Key="String_UseActiveProfileTooltip">マニュアル テスト ランナーから現在テスト プロファイルを使用します。</s:String>
+    <s:String x:Key="String_LoadProfile">負荷プロファイル</s:String>
+    <s:String x:Key="String_LoadProfileTooltip">ディスクから既存のプロファイルを読み込む</s:String>
+    <s:String x:Key="String_EditProfile">プロファイルを編集します。</s:String>
+    <s:String x:Key="String_EditProfileTooltip">現在のテスト プロファイルを編集します。</s:String>
+    <s:String x:Key="String_ListTestSuitsColon">テスト スイートの一覧:</s:String>
+    <s:String x:Key="String_TestSuite">テスト スイート</s:String>
+    <s:String x:Key="String_CountTests"># テスト</s:String>
+    <s:String x:Key="String_SaveAutomatedTestReport">自動テスト レポートを保存します。</s:String>
+    <s:String x:Key="String_ReportExported">エクスポートされたレポート</s:String>
+    <s:String x:Key="String_ReportExportFailedColon">レポートは、エクスポートに失敗しました。</s:String>
+    <s:String x:Key="String_GeneratingReport">レポートを生成します。</s:String>
+    <s:String x:Key="String_TestReport">テスト レポート</s:String>
+    <!-- ViewTestCase.xaml -->
+    <s:String x:Key="String_TestConfiguration">テスト構成</s:String>
+    <s:String x:Key="String_ListTestSteps">テスト ステップのリスト</s:String>
+    <s:String x:Key="String_TestStep">テストの手順</s:String>
+    <s:String x:Key="String_VariableName">変数名</s:String>
+    <s:String x:Key="String_VariableNameTooltip">現在のテスト_ケースの変数の名前を入力してください。</s:String>
+    <s:String x:Key="String_VariableNameEmpty">変数名が null または空にできません。</s:String>
+    <s:String x:Key="String_VariableNameExists">名前 '{0}' の変数は既に存在します。</s:String>
+    <s:String x:Key="String_VariableNameNotValid">'{0}' 変数の名前の有効な識別子ではありません。</s:String>
+    <s:String x:Key="String_VariableXRemovedRecover">変数 {0} は削除されます。回復するには、ここをクリックします。</s:String>
+    <s:String x:Key="String_ClearCustomVariables">明確なカスタム変数</s:String>
+    <s:String x:Key="String_ClearCustomVariablesQuestion"><![CDATA[カスタム変数をすべて削除しますか。
+この操作は回復されません。]]></s:String>
+    <!-- ViewTestSuite.xaml -->
+    <s:String x:Key="String_TestSuiteColon">テスト スイート:</s:String>
+    <s:String x:Key="String_TestSuiteConfiguration">テスト スイートの構成</s:String>
+    <s:String x:Key="String_RemoveSelected">選択項目の削除します。</s:String>
+    <s:String x:Key="String_RemoveAll">すべて削除します。</s:String>
+    <s:String x:Key="String_Sort">並べ替え</s:String>
+    <s:String x:Key="String_TestSuiteInformationColon">テスト スイートの情報:</s:String>
+    <s:String x:Key="String_ListTestCasesColon">テスト事例の一覧</s:String>
+    <!-- WindowEditAssertion.xaml -->
+    <s:String x:Key="String_Assertion">アサーション</s:String>
+    <s:String x:Key="String_Test">テスト</s:String>
+    <s:String x:Key="String_AssertionObjectNull">アサーション オブジェクトを null にすることはできません。</s:String>
+    <s:String x:Key="String_AssertionTestException">未処理の例外は、アサーションをテストするときにスローされます。</s:String>
+    <!-- WindowEditExtractProperty.xaml -->
+    <s:String x:Key="String_EditPropertyExtraction">プロパティ抽出を編集します。</s:String>
+    <s:String x:Key="String_PropertyNameColon">プロパティ名:</s:String>
+    <s:String x:Key="String_PathTypeColon">パスの種類:</s:String>
+    <s:String x:Key="String_PathColon">パス:</s:String>
+    <s:String x:Key="String_VariableNameColon">変数名</s:String>
+    <s:String x:Key="String_CurrentValue">現在の値</s:String>
+    <s:String x:Key="String_GetCurrentValue">現在の構成から値を取得する評価ボタンをクリックします。</s:String>
+    <s:String x:Key="String_Evaluate">評価</s:String>
+    <!-- XPathValidatorAssertionEditor.xaml -->
+    <s:String x:Key="String_XPathExpression">XPath 式</s:String>
+    <!-- ExtractPropertyTestStepEditor.xaml -->
+    <s:String x:Key="String_SelectedExtractPropertyDeleted">選択した抽出プロパティが削除されている、回復するここをクリックします。</s:String>
+    <s:String x:Key="String_ExtractProperty">プロパティを抽出します。</s:String>
+    <s:String x:Key="String_RunThisStep">このステップを実行します。</s:String>
+    <s:String x:Key="String_AddPropertyExtraction">プロパティ抽出を追加します。</s:String>
+    <s:String x:Key="String_FromTestSuiteColon">テスト スイート: から</s:String>
+    <s:String x:Key="String_VariableLevelColon">変数のレベル:</s:String>
+    <s:String x:Key="String_PropertyNameU">プロパティ名</s:String>
+    <s:String x:Key="String_PathTypeU">パスの種類</s:String>
+    <s:String x:Key="String_PathU">パス</s:String>
+    <s:String x:Key="String_VariableU">変数</s:String>
+    <!-- ViewRegex.xaml.cs -->
+    <s:String x:Key="String_SyntaxOfExpressionErros">式の構文エラーがあります。</s:String>
+    <s:String x:Key="String_InputStringNotMatchExpression">入力文字列が式に一致しません。</s:String>
+    <s:String x:Key="String_InputStringMatchExpression">入力文字列には、式が一致します。</s:String>
+    <!-- ViewXPathValidator -->
+    <s:String x:Key="String_XPathNotMatchAnything">指定された XPath は何も一致しない、評価結果は空。</s:String>
+    <s:String x:Key="String_XPathEvaluationTool">XPath 評価ツール</s:String>
+    <s:String x:Key="String_XMLDocument">XML ドキュメント</s:String>
+    <s:String x:Key="String_EvaluateU">評価</s:String>
+    <!-- ViewStockCertificates -->
+    <s:String x:Key="String_TestCertificateInstalled">テスト証明書をインストールします。</s:String>
+    <s:String x:Key="String_TestCertificateInstalledMessage">ルート証明書機関とテスト証明書がインストールされます。</s:String>
+    <s:String x:Key="String_UnableToInstallCertificate">証明書をインストールできません。</s:String>
+    <s:String x:Key="String_TestCertificateIntro">Hummingbirdは、SSL を使用してセキュリティで保護されたトランスポートをシミュレートするために使用することができますテスト証明書を提供します。2 つの次のシナリオでは、テスト コンピューターに証明書をインストールする必要があります。</s:String>
+    <s:String x:Key="String_TestCertificateIntroLine1">● SSL を使用してサービスのシミュレーション、Hummingbirdは、SSL 証明書を必要とする HTTP サーバーのような行為します。</s:String>
+    <s:String x:Key="String_TestCertificateIntroLine2">● 署名または暗号化証明書は、署名と暗号化を必要とする要求のメッセージをHummingbirdのニーズに必要な要求を送信するため。</s:String>
+    <s:String x:Key="String_TestCertificateIntroLine3">Hummingbirdによって提供されるテスト証明書をインストールすることができます。</s:String>
+    <s:String x:Key="String_InstallTestCertificate">テスト証明書をインストールします。</s:String>
+    <s:String x:Key="String_InstallCertificateMachine">LocalMachine ストアのすべてのユーザーのためのインストール (管理者として実行が必要です)</s:String>
+    <s:String x:Key="String_InstallCertificateUser">現在のユーザー向けのインストール</s:String>
+    <s:String x:Key="String_ToRunServiceSimulationWithSSL">サービスのシミュレーションを実行すると、HTTPS/ssl、証明書のインストール必要があります LocalMachine ストア内</s:String>
+    <s:String x:Key="String_WarningInstallCertificateAdminRequired">警告: すべてのユーザーに対して証明書のインストールが必要です管理者として実行するHummingbird</s:String>
+    <s:String x:Key="String_InstallCertificateU">証明書をインストールします。</s:String>
+    <s:String x:Key="String_InstallYourOwnCertificate">独自の証明書をインストールします。</s:String>
+    <s:String x:Key="String_InstallYourOwnCertificateDescription">また、独自の証明書をインストールすることがあります。Hummingbirdのマニュアルの手順に従ってください。</s:String>
+    <!-- ViewOpenApiCategory -->
+    <s:String x:Key="String_OpenApiService">OpenAPI サービス</s:String>
+    <s:String x:Key="String_DescriptionOfOpenApiService">OpenAPI サービスの説明</s:String>
+    <s:String x:Key="String_OpenApiDefinitionColon">OpenAPI の定義:</s:String>
+    <s:String x:Key="String_BaseUrlColon">ベース URL:</s:String>
+    <s:String x:Key="String_TagsU">タグ</s:String>
+    <s:String x:Key="String_MethodU">メソッド</s:String>
+    <!-- EditableTextBlock -->
+    <s:String x:Key="String_ErrorWithInputData">入力データにエラーがあります。</s:String>
+    <s:String x:Key="String_InputValueNotMatchTypeX"><![CDATA[入力値が入力と一致しません: {0}。
+ください再試行するかキャンセルする esc キーを押します。]]></s:String>
+    <s:String x:Key="String_StringEditor">文字列エディター</s:String>
+    <s:String x:Key="String_CredentialColon">資格情報:</s:String>
+    <s:String x:Key="String_UserDefined">ユーザー定義</s:String>
+    <s:String x:Key="String_SpecifyAUserDefinedCredential">定義されているユーザー資格情報を指定します。</s:String>
+    <s:String x:Key="String_NonApplicable">非該当</s:String>
+    <s:String x:Key="String_ThisAuthenticationModeNotRequireCredential">この認証モードでは資格情報を入力するユーザーを不要します。</s:String>
+    <!-- ExtensionDesigner\ViewApplication.xaml -->
+    <s:String x:Key="String_Application">アプリケーション</s:String>
+    <s:String x:Key="String_ApplicationTooltip"><![CDATA[アプリケーションの名前を入力します。
+ドライバーとしてはテストしているシステムの名前です。
+スタブとしてシミュレートするシステムの名前です。]]></s:String>
+    <s:String x:Key="String_ApplicationNameColon">アプリケーション名:</s:String>
+    <s:String x:Key="String_ServiceCategoriesIncluded">このアプリケーションに含まれるサービスの分類</s:String>
+    <s:String x:Key="String_ServiceCategoryU">サービス カテゴリ</s:String>
+    <!-- ExtensionDesigner\ViewServiceCategory.xaml -->
+    <s:String x:Key="String_ServiceCategory">サービス カテゴリ</s:String>
+    <s:String x:Key="String_ServiceCategoryTooltip"><![CDATA[サービス カテゴリは、同じ提案の Web サービスのセットを保持します。
+たとえば、顧客管理、顧客の作成、変更および削除の 3 の Web サービスの Web サービスのセットを持つことができます。]]></s:String>
+    <s:String x:Key="String_CategoryNameColon">カテゴリ名:</s:String>
+    <s:String x:Key="String_ServicesIncluded">このカテゴリに含まれるサービス</s:String>
+    <s:String x:Key="String_ServicesU">サービス</s:String>
+    <s:String x:Key="String_TypeU">タイプ</s:String>
+    <!-- ExtensionDesigner\ViewProjectOverview.xaml -->
+    <s:String x:Key="String_ProjectGeneralInfo">プロジェクトの一般的な情報</s:String>
+    <s:String x:Key="String_ProjectNameColon">プロジェクト名:</s:String>
+    <s:String x:Key="String_RootNamespaceColon">Root Namespace:</s:String>
+    <s:String x:Key="String_AssemblyInfo">アセンブリ情報</s:String>
+    <s:String x:Key="String_AssemblyInfoTooltip">アセンブリ情報は、技術情報拡張機能アセンブリにコンパイルされ、各フィールドの法的名前を割り当てることを確認してください。</s:String>
+    <s:String x:Key="String_AssemblyNameColon">アセンブリ名:</s:String>
     <s:String x:Key="String_Actions">アクション</s:String>
     <s:String x:Key="String_ExportVSSolution">Visual Studio ソリューションとしてエクスポートします。</s:String>
     <s:String x:Key="String_ExtensionProjectBuilt">成功、ここをクリックして、含まれているフォルダーを開くと拡張プロジェクトがビルドされました。</s:String>
@@ -219,6 +374,7 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_CannotGenerateSolution">ソリューションを生成できません。</s:String>
     <s:String x:Key="String_CannotGenerateSolutionMessage">ソリューション ファイルを生成するときに、エラーが発生しました。</s:String>
     <s:String x:Key="String_ProjectGenerationCancelled">解の生成は取り消されました。</s:String>
+    <s:String x:Key="String_ExtensionCanBeUsedNow">拡張機能を今すぐ使用ことができますが、以前のバージョンが既にあるために、次の再起動時にインストールされます。</s:String>
     <!-- ExtensionDesigner\ViewServiceEndpoint.xaml -->
     <s:String x:Key="String_EndpointNameColon">エンドポイント名。</s:String>
     <s:String x:Key="String_BindingColon">バインディング:</s:String>
@@ -263,6 +419,12 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_GeneratedStubCode">スタブの生成された WCF コード</s:String>
     <s:String x:Key="String_NoFilesGenerated">生成されたファイルはありません。</s:String>
     <s:String x:Key="String_NoFilesGeneratedMessage">指定した WSDL ファイルに任意のサービスの定義が含まれていません。</s:String>
+    <!-- ViewProfileManagement.xaml -->
+    <s:String x:Key="String_ImportFromDot">インポート.</s:String>
+    <s:String x:Key="String_ProfileManagement_Para1">サービスのシミュレーション動作、セキュリティ トークン カスタム変数テスト環境サービス パラメーターを含むテストの設定は、プロファイルに詰め込まれています。</s:String>
+    <s:String x:Key="String_ProfileManagement_Para2">プロファイルのインポート、エクスポートまたは他の人に共有することができます。オートメーション プロジェクトのテストの設定を簡素化するために、オートメーション プロジェクトにプロファイルを埋め込むこともできます。次に、アプリケーションで使用することができますすべてのプロファイル。</s:String>
+    <s:String x:Key="String_ProfileManagement_Note">注: 既定のプロファイルが手動テストで使用されて、編集またはここで削除できません。既定のプロファイルを変更するのには、テストの設定に移動します。</s:String>
+    <s:String x:Key="String_ActionsU">アクション</s:String>
     <s:String x:Key="String_Duplicate">重複</s:String>
     <s:String x:Key="String_Delete">削除</s:String>
     <s:String x:Key="String_Edit">編集</s:String>
@@ -316,8 +478,8 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_TestFrameworkDocumentation">テスト フレームワークのドキュメント</s:String>
     <s:String x:Key="String_ReportBugsSuggestions">レポートのバグ/ご提案</s:String>
     <s:String x:Key="String_LanguageChanged">言語の変更</s:String>
-    <s:String x:Key="String_LanauageChangedQuestion">ご希望の言語を変更しました。ハチドリを再起動して、変更有効。 
-ハチドリを今すぐ再起動するを作る必要があります?</s:String>
+    <s:String x:Key="String_LanauageChangedQuestion"><![CDATA[ご希望の言語を変更しました。Hummingbirdを再起動して、変更を有効にする必要があります。
+Hummingbirdを今すぐ再起動しますか。]]></s:String>
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">アンインストール</s:String>
     <s:String x:Key="String_InstallAnExtension">拡張機能をインストールします。</s:String>
@@ -331,10 +493,25 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_ConfirmExtensionUninstall">拡張機能のアンインストールを確認します。</s:String>
     <s:String x:Key="String_ConfirmExtensionUninstallQuestion">拡張機能 '{0}' をアンインストールしてよろしい</s:String>
     <s:String x:Key="String_RestartRequired">再起動が必要です。</s:String>
-    <s:String x:Key="String_RestartRequiredExtensionQuestion">ハチドリはハチドリを今再起動する選択した拡張子。 
-をアンインストールするを再起動する必要が?</s:String>
+    <s:String x:Key="String_RestartRequiredExtensionQuestion"><![CDATA[選択した拡張機能をアンインストールするHummingbirdを再起動する必要があります。
+Hummingbirdを今すぐ再起動しますか。]]></s:String>
     <s:String x:Key="String_Enabled">有効になっています。</s:String>
     <s:String x:Key="String_Disabled">無効になっています。</s:String>
+    <!-- ViewInstallExtension -->
+    <s:String x:Key="String_InstallExtensionFromLocalStorage">ローカル記憶域から拡張機能をインストールします。</s:String>
+    <s:String x:Key="String_ExtensionPackageZip">拡張パッケージ (*.zip)。</s:String>
+    <s:String x:Key="String_WarningBeforeInstallExtension"><![CDATA[警告: 組織で作業している場合は、拡張子が信頼されたソースによって提供されることを確認します。未知のソースから拡張機能を実行する悪意のあるコードを含む可能性がありますお使いのコンピューターに害を与えます。
+セキュリティを確保する、Hummingbird テスト マネージャーの公式サイト、組織、またはあなたのチームによって作成された拡張機能から担当の人から拡張機能を常に得る。]]></s:String>
+    <s:String x:Key="String_InstallThisExtension">この拡張機能をインストールします。</s:String>
+    <s:String x:Key="String_GivenFileIsNotValidExtensionPackage">指定されたファイルは有効なHummingbird拡張パッケージではありません。</s:String>
+    <s:String x:Key="String_ExtensionUpdate">拡張機能の更新</s:String>
+    <s:String x:Key="String_ExtensionUpdateContent">拡張子 '{1}' のバージョン {0} がインストールされている、この 1 つでそれを交換する: {2}?</s:String>
+    <s:String x:Key="String_RestartRequiredInstallExtensionQuestion"><![CDATA[拡張機能をインストールするHummingbirdを再起動する必要があります。
+Hummingbirdを今すぐ再起動しますか。]]></s:String>
+    <s:String x:Key="String_InstallationFailed">インストールに失敗しました。</s:String>
+    <s:String x:Key="String_InstallationFailedExtensionContent">拡張機能をインストールするときにエラーが発生しました、詳細なエラー メッセージを表示するシステム ログを参照してください。</s:String>
+    <s:String x:Key="String_ExtensionInstalledAndLoaded">拡張機能がインストールされているし、今すぐ使用ことができます。</s:String>
+    <s:String x:Key="String_OpenExtension">拡張子を開く</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">手動テスト ランナー</s:String>
     <s:String x:Key="String_VirtualServices">仮想サービス</s:String>
@@ -389,7 +566,7 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_UriTemplate">Uri テンプレート</s:String>
     <!-- ABOUT -->
     <s:String x:Key="String_Build">ビルド:</s:String>
-    <s:String x:Key="String_Copyright">© 著作権 2013年-2018 Huaxing YUAN、すべての権利予約します。</s:String>
+    <s:String x:Key="String_Copyright">© 著作権 2013年-2018 Huaxing 元、すべての権利予約します。</s:String>
     <s:String x:Key="String_WarningCopyright">警告: このコンピューター プログラムは著作権法および国際条約により保護されています。このプログラムの全部またはその一部を無断複製または民事または刑事上の重い罰則があり、法律の下で最大限可能な限り告訴されます。</s:String>
     <s:String x:Key="String_LawDisclaimer">ソフトウェアを配信、提供されて""あり著者が適合と適合性の暗黙の保証も含めこのソフトウェアに関するすべての保証を放棄します。はない著者ならない特別、直接的、間接的、あるいは必然的な損害または損害の責任を負う行為、契約、過失、またはその他の不法行為、使用、データ、利益の損失から生じる一切のうちで発生しました。使用またはこのソフトウェアのパフォーマンスと接続。</s:String>
     <s:String x:Key="String_Components">コンポーネント</s:String>
@@ -448,18 +625,18 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_AutomationProjectSaved">プロジェクトが保存されています。</s:String>
     <s:String x:Key="String_SaveAutomationProjectTitle">オートメーション プロジェクトを保存: {0}</s:String>
     <s:String x:Key="String_OpenAutomationProjectTitle">オートメーション プロジェクトのファイルを開く</s:String>
-    <s:String x:Key="String_SaveAutomationProjectFilter">オートメーション プロジェクト (*.APX) | *.APX |すべてのファイル (*.*) |*.*</s:String>
+    <s:String x:Key="String_SaveAutomationProjectFilter">オートメーション プロジェクト (*.APX) |*.APX|すべてのファイル (*.*) |*.*</s:String>
     <s:String x:Key="String_AnErrorHasOccurred">エラーが発生しました</s:String>
     <s:String x:Key="String_AnErrorHasOccurredSavingAutomationProject">オートメーション プロジェクトを保存するときに、エラーが発生しました。</s:String>
-    <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">オートメーション プロジェクトをロードするときに、エラーが発生しました。</s:String>
+    <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">オートメーション プロジェクトをロードするときにエラーが発生しました</s:String>
     <s:String x:Key="String_SaveCurrentProject">現在のプロジェクトを保存しますか。</s:String>
     <s:String x:Key="String_SaveCurrentProjectMessage">現在の自動化プロジェクトを保存しますか。</s:String>
     <!-- ViewBase64Tool.xaml -->
     <s:String x:Key="String_ActionColon">アクション:</s:String>
     <s:String x:Key="String_Base64EncodingTitle">Base64 エンコーディング ・ デコーディング</s:String>
-    <s:String x:Key="String_Utf8ToBase64">Utf-8 文字列を Base64 文字列にエンコードします。</s:String>
-    <s:String x:Key="String_Base64ToString">選択されたエンコーディングを使用して文字列として Base64 文字列をデコードします。</s:String>
-    <s:String x:Key="String_BinaryToBase64">ファイルからバイナリ コンテンツを読み取り、Base64 文字列でそのコンテンツをエンコード</s:String>
+    <s:String x:Key="String_Utf8ToBase64">Base64 文字列にエンコード utf-8 文字列から</s:String>
+    <s:String x:Key="String_Base64ToString">選択されたエンコーディングを使用してテキストに Base64 文字列をデコードします。</s:String>
+    <s:String x:Key="String_BinaryToBase64">ファイルからのバイナリ コンテンツを読み取り、Base64 文字列形式にコンテンツをエンコード</s:String>
     <s:String x:Key="String_Base64ToBinary">下のテキスト ボックスから base64 文字列を読み取り、それをデコードおよびバイナリ ファイルに保存します。</s:String>
     <s:String x:Key="String_SampleTextBase64">サンプル テキストを Base64 エンコードします。</s:String>
     <s:String x:Key="String_EncodedBase64">エンコードされた Base64 文字列</s:String>
@@ -481,12 +658,11 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_XmlRelated">XML 関連</s:String>
     <s:String x:Key="String_XmlCompare">XML 比較</s:String>
     <s:String x:Key="String_XPathValidator">XPath の検証</s:String>
-    <s:String x:Key=" ">XPath の検証</s:String>
     <!-- ViewExtensionDesigner -->
-    <s:String x:Key="String_DesignerTooltip">ハチドリ テスト フレームワーク、サービスは 3 つのレベルで編成されています。組織内でできるだけ自然のサービスを整理してください。</s:String>
-    <s:String x:Key="String_DesignerApplicationTooltip">あなたがドライバー、システムの名前として使用する場合をテストします。としてスタブ、ハチドリをシミュレートするアプリケーションの名前。</s:String>
-    <s:String x:Key="String_DesignerCategoryTooltip">サービスの機能的なカテゴリです。
- 例えば: すべてのサービスの顧客の追加、変更、削除整理できます [顧客管理] カテゴリの。</s:String>
+    <s:String x:Key="String_DesignerTooltip">Hummingbird テスト フレームワーク、サービスは 3 つのレベルで編成されています。組織内でできるだけ自然のサービスを整理してください。</s:String>
+    <s:String x:Key="String_DesignerApplicationTooltip">あなたがドライバー、システムの名前として使用する場合をテストします。としてスタブ、Hummingbirdをシミュレートするアプリケーションの名前。</s:String>
+    <s:String x:Key="String_DesignerCategoryTooltip"><![CDATA[サービスの機能的なカテゴリです。
+例えば: すべてのサービスの顧客の追加、変更、削除整理できます [顧客管理] カテゴリの。]]></s:String>
     <s:String x:Key="String_DesignerServiceTooltip">サービスの名前。SOAP サービスに対してバインド オブジェクトを表す、エンドポイントがあり、1 つまたは複数の操作が含まれている可能性があります。</s:String>
     <s:String x:Key="String_SaveAs">付けて保存</s:String>
     <s:String x:Key="String_Close">閉じる</s:String>
@@ -494,12 +670,57 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_CreateNewExtensionProject">新しいサービス拡張機能プロジェクトを作成します。</s:String>
     <s:String x:Key="String_LearnMoreExtensionDesigner">サービス拡張のデザイナーについての詳細を学ぶ</s:String>
     <s:String x:Key="String_OtherWaysToExtent">その他さまざまな程度にあなたの能力</s:String>
+    <s:String x:Key="String_NewProjectNeverSaved">* 新しいプロジェクトは保存されています。</s:String>
+    <!-- ViewExtensionDesigner.xaml.cs -->
+    <s:String x:Key="String_PleaseFixIssues">問題を修正してください。</s:String>
+    <s:String x:Key="String_PleaseFixIssuesContent">構成にエラーがある、別のビューに変更する前に修正してください。</s:String>
+    <s:String x:Key="String_DeleteThisService">このサービスを削除します。</s:String>
+    <s:String x:Key="String_CategoryHasSubItems">このカテゴリには、サブ項目</s:String>
+    <s:String x:Key="String_CategoryHasSubItemsContent">1 つまたは複数のサービスが含まれているこのサービス カテゴリを削除する、とにかくこのサービス カテゴリを削除しますか。</s:String>
+    <s:String x:Key="String_Rename">名前の変更</s:String>
+    <s:String x:Key="String_ChangeServiceName">このサービスの名前を変更</s:String>
+    <s:String x:Key="String_ChangeServiceNameContent">選択したサービスに新しい値を入力します。</s:String>
+    <s:String x:Key="String_AddSoapService">SOAP サービスを追加します。</s:String>
+    <s:String x:Key="String_MySoapService">私の SOAP サービス</s:String>
+    <s:String x:Key="String_DeleteThisCategory">このカテゴリを削除します。</s:String>
+    <s:String x:Key="String_ChangeCategoryName">サービス カテゴリの名前の変更</s:String>
+    <s:String x:Key="String_ChangeCategoryNameContent">選択したサービス カテゴリの新しい値を入力します。</s:String>
+    <s:String x:Key="String_AddServiceCategory">サービス カテゴリを追加します。</s:String>
+    <s:String x:Key="String_MyCategory">私のカテゴリー</s:String>
+    <s:String x:Key="String_AddOpenAPICategory">OpenAPI カテゴリを追加します。</s:String>
+    <s:String x:Key="String_DeleteThisApplication">このアプリケーションを削除します。</s:String>
+    <s:String x:Key="String_ApplicationHasSubItems">このアプリケーションは、サブ項目</s:String>
+    <s:String x:Key="String_ApplicationHasSubItemsContent">1 つまたは複数のサービス カテゴリ \nDo このアプリケーションの任意の方法を削除するを含むこのアプリケーションを削除するか。</s:String>
+    <s:String x:Key="String_ChangeNameOfApplication">アプリケーションの名前の変更</s:String>
+    <s:String x:Key="String_AddAnApplication">アプリケーションを追加します。</s:String>
+    <s:String x:Key="String_MyApplication">私のアプリケーション</s:String>
+    <s:String x:Key="String_ChangeExtensionName">拡張子の名前を変更</s:String>
+    <s:String x:Key="String_ChangeExtensionNameContent">選択したアプリケーションの新しい値を入力します。</s:String>
+    <s:String x:Key="String_SaveCurrentProjectContent"><![CDATA[現在のプロジェクトにはまだあなたの今それを保存する必要が保存すると、?
+[はい]: 現在のプロジェクトを保存し、新しいプロジェクトを作成します。
+NO: 現在のプロジェクトを放棄し、新しいプロジェクトを作成します。
+[キャンセル]: は、現在のプロジェクトに滞在します。]]></s:String>
+    <s:String x:Key="String_NewExtensionProject">新しい拡張機能プロジェクト</s:String>
+    <s:String x:Key="String_ProjectSaved">プロジェクトが保存されています。</s:String>
+    <s:String x:Key="String_SaveExtensionProject">拡張機能プロジェクトを保存します。</s:String>
+    <s:String x:Key="String_ProjectXSaved">プロジェクト '{0}' が保存されています。</s:String>
+    <s:String x:Key="String_ErrorSavingProject">プロジェクトの保存エラー</s:String>
+    <s:String x:Key="String_ErrorSavingProjectContent">拡張機能プロジェクトを保存するときに、エラーが発生しました。</s:String>
+    <s:String x:Key="String_ErrorOpenProject">開いているプロジェクトでエラー</s:String>
+    <s:String x:Key="String_ProjectFileXCannotFoundRemoveLink">プロジェクト ファイル '{0}' が見つかりません、このプロジェクトを一覧から削除してもよろしいですか。</s:String>
+    <s:String x:Key="String_CannotLoadProjectFromGivenFile">プロジェクトを読み込むことができませんファイル。</s:String>
+    <s:String x:Key="String_CopyrightInfo">{0} 会社名、すべての権利予約著作権します。</s:String>
+    <s:String x:Key="String_ProjectDataInvalid">プロジェクト データは無効です。それは有効な拡張子デザイナー プロジェクト ファイルを確認してください。</s:String>
     <!-- WindowMessageViewer.xaml -->
     <s:String x:Key="String_MessageViewer">メッセージ ビューアー</s:String>
     <s:String x:Key="String_ViewMessage">メッセージを表示する:</s:String>
     <s:String x:Key="String_Overview">概要</s:String>
     <s:String x:Key="String_Request">要求</s:String>
     <s:String x:Key="String_Response">応答</s:String>
+    <s:String x:Key="String_ErrorLoadMessageCMV">カスタム メッセージ ビューアーとメッセージの読み込みエラー</s:String>
+    <s:String x:Key="String_ErrorLoadMessageCMVMessage"><![CDATA[CustomMessageViewer を使用してこのメッセージを表示するときにエラーが発生しました: 拡張機能から {0}: {1}
+詳細については、この拡張機能の開発者にお問い合わせください。
+今デフォルトのビューアーを使用してメッセージを示しています。]]></s:String>
     <!-- WindowMultiLineEditor.xaml -->
     <s:String x:Key="String_Cancel">キャンセル</s:String>
     <s:String x:Key="String_EditValueForX">編集の値: {0}</s:String>
@@ -519,29 +740,6 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_SearchNext">次に</s:String>
     <s:String x:Key="String_CannotFindPattern">パターンを見つけることができません。</s:String>
     <s:String x:Key="String_NoResultMatchesPattern">検索 '{0}' と一致する結果はありません。</s:String>
-    <s:String x:Key="String_NoResultMatches">検索 '{0}' と一致する結果はありません。</s:String>
-    <!-- ExtensionDesigner\ViewApplication.xaml -->
-    <s:String x:Key="String_Application">アプリケーション</s:String>
-    <s:String x:Key="String_ApplicationTooltip">アプリケーションの名前を入力します。
-ドライバーとしてテストしているシステムをシミュレートするシステムの名前だとスタブの名前です。</s:String>
-    <s:String x:Key="String_ApplicationNameColon">アプリケーション名:</s:String>
-    <s:String x:Key="String_ServiceCategoriesIncluded">このアプリケーションに含まれるサービスの分類</s:String>
-    <s:String x:Key="String_ServiceCategoryU">サービス カテゴリ</s:String>
-    <!-- ExtensionDesigner\ViewServiceCategory.xaml -->
-    <s:String x:Key="String_ServiceCategory">サービス カテゴリ</s:String>
-    <s:String x:Key="String_ServiceCategoryTooltip">サービス カテゴリは、同じ提案の Web サービスのセットを保持します。
-たとえば、顧客管理、顧客の作成、変更および削除の 3 の Web サービスの Web サービスのセットを持つことができます。</s:String>
-    <s:String x:Key="String_CategoryNameColon">カテゴリ名:</s:String>
-    <s:String x:Key="String_ServicesIncluded">このカテゴリに含まれるサービス</s:String>
-    <s:String x:Key="String_ServicesU">サービス</s:String>
-    <s:String x:Key="String_TypeU">タイプ</s:String>
-    <!-- ExtensionDesigner\ViewProjectOverview.xaml -->
-    <s:String x:Key="String_ProjectGeneralInfo">プロジェクトの一般的な情報</s:String>
-    <s:String x:Key="String_ProjectNameColon">プロジェクト名:</s:String>
-    <s:String x:Key="String_RootNamespaceColon">Root Namespace:</s:String>
-    <s:String x:Key="String_AssemblyInfo">アセンブリ情報</s:String>
-    <s:String x:Key="String_AssemblyInfoTooltip">アセンブリ情報は、技術情報拡張機能アセンブリにコンパイルされ、各フィールドの法的名前を割り当てることを確認してください。</s:String>
-    <s:String x:Key="String_AssemblyNameColon">アセンブリ名:</s:String>
     <!-- WindowSelectRequest.xaml -->
     <s:String x:Key="String_SelectARequest">要求を選択します。</s:String>
     <!-- WindowSendRequest.xaml -->
@@ -558,6 +756,31 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_RequestSentTo">送信する要求:</s:String>
     <s:String x:Key="String_ElapsedTime">経過時間:</s:String>
     <s:String x:Key="String_ResponseColon">応答:</s:String>
+    <s:String x:Key="String_CannotSendRequest">要求を送信することはできません。</s:String>
+    <s:String x:Key="String_CannotSendRequestContent">要求を送信できません、サービスがエラーを返しました。</s:String>
+    <s:String x:Key="String_BeforeSendingChooseARequest">前に送信を要求を選択します。</s:String>
+    <s:String x:Key="String_PreventSaving">防ぐための保存</s:String>
+    <s:String x:Key="String_PreventSavingRequestMessage">要求エディターでいくつかエラーがあるし、それを防ぐ保存します。あなたの要求を確認してください。</s:String>
+    <s:String x:Key="String_ChooseANameU">名前を選択します。</s:String>
+    <s:String x:Key="String_RequestSavedAtColon">保存された要求:</s:String>
+    <s:String x:Key="String_BeforeSavingChooseARequest">保存、する前に要求を選択します。</s:String>
+    <s:String x:Key="String_PreventClosing">終了を防ぐ</s:String>
+    <s:String x:Key="String_PreventClosingRequestMessage">要求エディターでいくつかエラーがあるし、それが終了を防ぐことができます。あなたの要求を確認してください。</s:String>
+    <s:String x:Key="String_KeepFavoriteRequests">好きな要求を保持しますか。</s:String>
+    <s:String x:Key="String_KeepFavoriteRequestsMessage"><![CDATA[選択したサービスの要求の履歴をクリアする、あなたの好きな要求を残しておきたいですか。
+はい: 好きな要求を保ちます。
+NO: 好きな要求を削除します。
+[キャンセル]: は、何かを削除しないでください。]]></s:String>
+    <s:String x:Key="String_WarningUriFormat">警告 - Uri の形式</s:String>
+    <s:String x:Key="String_WarningUriFormatMessage"><![CDATA[このサービス '{0}' の UriTemplate は順調ではない Uri を形成
+この Uri は、変数を使用して、すべての変数を使用する場合の設定が割り当てられているを確認してください。]]></s:String>
+    <!-- WindowServerReponse -->
+    <s:String x:Key="String_Type3CharsToFind">しない限り、有効な 3 文字サービスを見つけることを入力してください。</s:String>
+    <s:String x:Key="String_NoResultMatchSearchPattern">検索パターンに一致する結果はありません。</s:String>
+    <s:String x:Key="String_RenameYourResponse">あなたの応答の名前を変更します。</s:String>
+    <s:String x:Key="String_FunctionalError">機能的なエラー</s:String>
+    <s:String x:Key="String_CannotNameResponseAsDefault">「デフォルト」この名前は予約されている間、応答に名前をことはできません。</s:String>
+    <s:String x:Key="String_CannotNameXBecauseExists">「{0}」は、既に同じ名前の応答するための存在として応答の名前を付けることはできません。</s:String>
     <!-- CommandLineTestStepEditor.xaml-->
     <s:String x:Key="String_FileNameColon">ファイル名:</s:String>
     <s:String x:Key="String_ArgumentsColon">引数:</s:String>
@@ -584,7 +807,7 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_CodeU">コード</s:String>
     <s:String x:Key="String_LineU">ライン</s:String>
     <!-- NotContainsAssertionEditor -->
-    <s:String x:Key="String_NotContainsAssertion">アサーションが含まれていません</s:String>
+    <s:String x:Key="String_NotContainsAssertion">「含まない」アサーション</s:String>
     <s:String x:Key="String_NotContainsAssertionDescription">チェックするテキスト、要求または応答では発生しません</s:String>
     <!-- PathValidatorAssertionEditor.xaml -->
     <s:String x:Key="String_PathValidationAssertion">パス検証アサーション</s:String>
@@ -626,115 +849,21 @@ If エラーが発生します。</s:String>
     <s:String x:Key="String_Configuration">構成</s:String>
     <s:String x:Key="String_Result">結果</s:String>
     <s:String x:Key="String_ServerNameOrIpColon">サーバー名または IP アドレス:</s:String>
-    <s:String x:Key="String_AuthenticationModeColon">認証モード:</s:String>
-    <s:String x:Key="String_DatabaseNameColon">データベース名:</s:String>
-    <s:String x:Key="String_UserNameColon">ユーザー名:</s:String>
-    <s:String x:Key="String_PasswordColon">パスワード:</s:String>
-    <s:String x:Key="String_ExecutionResultTypeColon">実行結果のタイプ:</s:String>
-    <s:String x:Key="String_SqlQueryColon">SQL クエリ:</s:String>
-    <s:String x:Key="String_UnableToConnectToDB">ターゲット データベースに接続できません。</s:String>
-    <!-- StartWindowsServiceTestStepEditor.xaml -->
-    <s:String x:Key="String_ServerNameColon">サーバー名:</s:String>
-    <s:String x:Key="String_DomainUserNameColon">ドメイン \ ユーザー名:</s:String>
-    <!-- UpdateSimulationData.xaml -->
-    <s:String x:Key="String_EditResponse">応答を編集します。</s:String>
-    <s:String x:Key="String_SelectedService">選択したサービス</s:String>
-    <s:String x:Key="String_Clean">きれい</s:String>
-    <s:String x:Key="String_CleanChecked">次の応答を追加する前に同じサービスの明確な回答は。</s:String>
-    <s:String x:Key="String_CleanUnchecked">応答をオフに、次の応答のみを追加しないでください。</s:String>
-    <!-- ViewCSVDataSource.xaml -->
-    <s:String x:Key="String_ContainsHeaderColon">ヘッダーが含まれています。</s:String>
-    <s:String x:Key="String_ContainsHeaderChecked">データ ソースの最初の行が列ヘッダーです。</s:String>
-    <s:String x:Key="String_ContainsHeaderUnchecked">ヘッダー (ヘッダーを指定する必要があります) がデータ ソースに含まれていません。</s:String>
-    <s:String x:Key="String_SeparatorColon">区切り記号:</s:String>
-    <s:String x:Key="String_SelectDot">選択してください.</s:String>
-    <!-- ViewDataDrivenTestCase.xaml -->
-    <s:String x:Key="String_DataDrivenTestCaseColon">データ駆動テストの場合:</s:String>
-    <s:String x:Key="String_Import">インポート</s:String>
-    <s:String x:Key="String_DataSource">データ ソース</s:String>
-    <s:String x:Key="String_TestInstances">インスタンスをテストします。</s:String>
-    <s:String x:Key="String_TestCase">テスト _ ケース</s:String>
-    <s:String x:Key="String_CountSteps"># 手順</s:String>
-    <s:String x:Key="String_Progress">進行状況</s:String>
-    <s:String x:Key="String_Information">情報</s:String>
-    <s:String x:Key="String_SelectDataSourceColon">データ ソースを選択します。</s:String>
-    <s:String x:Key="String_RowLimitColon">行数の上限:</s:String>
-    <!-- ViewExcelDataSource.xaml -->
-    <s:String x:Key="String_SpreadSheetNameColon">スプレッドシートの名前:</s:String>
-    <s:String x:Key="String_RangeTypeColon">範囲の種類:</s:String>
-    <s:String x:Key="StringRangeNameColon">範囲名:</s:String>
-    <s:String x:Key="StringTestDataImported">テスト データをインポート:</s:String>
-    <!-- ViewProjectInfo.xaml -->
-    <s:String x:Key="String_RunAllTests">すべてのテストを実行します。</s:String>
-    <s:String x:Key="String_GenerateReport">レポートを生成します。</s:String>
-    <s:String x:Key="String_ViewReport">レポートの表示</s:String>
-    <s:String x:Key="String_ProjectInformationColon">プロジェクト情報:</s:String>
-    <s:String x:Key="String_CreationDateColon">作成日:</s:String>
-    <s:String x:Key="String_CreatedByColon">作成者。</s:String>
-    <s:String x:Key="String_LastSavedAtColon">最後に保存されます。</s:String>
-    <s:String x:Key="String_ByColon">者によって。</s:String>
-    <s:String x:Key="String_TestProfile">プロファイルをテストするには。</s:String>
-    <s:String x:Key="String_TestProfileDescription">プロファイルのテストはテスト環境変数を含む、資格情報および既定のテスト サービスのシミュレーションのためのデータ。テスト プロファイルを簡単に構成するには、テストの設定に移動し、現在のプロファイルをエクスポートできます。</s:String>
-    <s:String x:Key="String_UseActiveProfile">アクティブなプロファイルを使用して、</s:String>
-    <s:String x:Key="String_UseActiveProfileTooltip">マニュアル テスト ランナーから現在テスト プロファイルを使用します。</s:String>
-    <s:String x:Key="String_LoadProfile">負荷プロファイル</s:String>
-    <s:String x:Key="String_LoadProfileTooltip">ディスクから既存のプロファイルを読み込む</s:String>
-    <s:String x:Key="String_EditProfile">プロファイルを編集します。</s:String>
-    <s:String x:Key="String_EditProfileTooltip">現在のテスト プロファイルを編集します。</s:String>
-    <s:String x:Key="String_ListTestSuitsColon">テスト スイートの一覧:</s:String>
-    <s:String x:Key="String_TestSuite">テスト スイート</s:String>
-    <s:String x:Key="String_CountTests"># テスト</s:String>
-    <s:String x:Key="String_SaveAutomatedTestReport">自動テスト レポートを保存します。</s:String>
-    <s:String x:Key="String_ReportExported">エクスポートされたレポート</s:String>
-    <s:String x:Key="String_ReportExportFailedColon">レポートは、エクスポートに失敗しました。</s:String>
-    <s:String x:Key="String_GeneratingReport">レポートを生成します。</s:String>
-    <s:String x:Key="String_TestReport">テスト レポート</s:String>
-    <!-- ViewTestCase.xaml -->
-    <s:String x:Key="String_TestConfiguration">テスト構成</s:String>
-    <s:String x:Key="String_ListTestSteps">テスト ステップのリスト</s:String>
-    <s:String x:Key="String_TestStep">テストの手順</s:String>
-    <s:String x:Key="String_VariableName">変数名</s:String>
-    <s:String x:Key="String_VariableNameTooltip">現在のテスト_ケースの変数の名前を入力してください。</s:String>
-    <s:String x:Key="String_VariableNameEmpty">変数名が null または空にできません。</s:String>
-    <s:String x:Key="String_VariableNameExists">名前 '{0}' の変数は既に存在します。</s:String>
-    <s:String x:Key="String_VariableNameNotValid">'{0}' 変数の名前の有効な識別子ではありません。</s:String>
-    <s:String x:Key="String_VariableXRemovedRecover">変数 {0} は削除されます。回復するには、ここをクリックします。</s:String>
-    <s:String x:Key="String_ClearCustomVariables">明確なカスタム変数</s:String>
-    <s:String x:Key="String_ClearCustomVariablesQuestion">カスタム変数をすべて削除しますか。
-この操作は回復されません。</s:String>
-    <!-- ViewTestSuite.xaml -->
-    <s:String x:Key="String_TestSuiteColon">テスト スイート:</s:String>
-    <s:String x:Key="String_TestSuiteConfiguration">テスト スイートの構成</s:String>
-    <s:String x:Key="String_RemoveSelected">選択項目の削除します。</s:String>
-    <s:String x:Key="String_RemoveAll">すべて削除します。</s:String>
-    <s:String x:Key="String_Sort">並べ替え</s:String>
-    <s:String x:Key="String_TestSuiteInformationColon">テスト スイートの情報:</s:String>
-    <s:String x:Key="String_ListTestCasesColon">テスト事例の一覧</s:String>
-    <!-- WindowEditAssertion.xaml -->
-    <s:String x:Key="String_Assertion">アサーション</s:String>
-    <s:String x:Key="String_Test">テスト</s:String>
-    <s:String x:Key="String_AssertionObjectNull">アサーション オブジェクトを null にすることはできません。</s:String>
-    <s:String x:Key="String_AssertionTestException">未処理の例外は、アサーションをテストするときにスローされます。</s:String>
-    <!-- WindowEditExtractProperty.xaml -->
-    <s:String x:Key="String_EditPropertyExtraction">プロパティ抽出を編集します。</s:String>
-    <s:String x:Key="String_PropertyNameColon">プロパティ名:</s:String>
-    <s:String x:Key="String_PathTypeColon">パスの種類:</s:String>
-    <s:String x:Key="String_PathColon">パス:</s:String>
-    <s:String x:Key="String_VariableNameColon">変数名</s:String>
-    <s:String x:Key="String_CurrentValue">現在の値</s:String>
-    <s:String x:Key="String_GetCurrentValue">現在の構成から値を取得する評価ボタンをクリックします。</s:String>
-    <s:String x:Key="String_Evaluate">評価</s:String>
-    <!-- XPathValidatorAssertionEditor.xaml -->
-    <s:String x:Key="String_XPathExpression">XPath 式</s:String>
-    <!-- ExtractPropertyTestStepEditor.xaml -->
-    <s:String x:Key="String_SelectedExtractPropertyDeleted">選択した抽出プロパティが削除されている、回復するここをクリックします。</s:String>
-    <s:String x:Key="String_ExtractProperty">プロパティを抽出します。</s:String>
-    <s:String x:Key="String_RunThisStep">このステップを実行します。</s:String>
-    <s:String x:Key="String_AddPropertyExtraction">プロパティ抽出を追加します。</s:String>
-    <s:String x:Key="String_FromTestSuiteColon">テスト スイート: から</s:String>
-    <s:String x:Key="String_VariableLevelColon">変数のレベル:</s:String>
-    <s:String x:Key="String_PropertyNameU">プロパティ名</s:String>
-    <s:String x:Key="String_PathTypeU">パスの種類</s:String>
-    <s:String x:Key="String_PathU">パス</s:String>
-    <s:String x:Key="String_VariableU">変数</s:String>
+    <s:String x:Key="String_GeneralOptions">[全般オプション]</s:String>
+    <s:String x:Key="String_AuthenticationColon">認証:</s:String>
+    <s:String x:Key="String_PreEmptiveColon">先制。</s:String>
+    <s:String x:Key="String_PreEmptiveChecked">先制認証</s:String>
+    <s:String x:Key="String_PreEmptiveUnchecked">通常の認証</s:String>
+    <s:String x:Key="String_SoapOptions">石鹸のオプション</s:String>
+    <s:String x:Key="String_MessageEncodingColon">メッセージのエンコード:</s:String>
+    <s:String x:Key="String_MessageEncodingMtoM">MtoM (アプリケーション/xop)</s:String>
+    <s:String x:Key="String_MessageEncodingText">テキストまたは XML</s:String>
+    <s:String x:Key="String_MessageVersionColon">メッセージのバージョン:</s:String>
+    <s:String x:Key="String_CustomHttpHeaders">カスタム HTTP ヘッダー</s:String>
+    <s:String x:Key="String_Anonymous">匿名</s:String>
+    <s:String x:Key="String_WindowsAuthentication">Windows 認証</s:String>
+    <s:String x:Key="String_WindowsAuthenticationTooltip">あなたの現在の Windows 資格情報を使用して、Windows 統合認証で、このサービスを呼び出す</s:String>
+    <s:String x:Key="String_NtlmAuthentication">NTLM 認証</s:String>
+    <s:String x:Key="String_NtlmAuthenticationTooltip">あなたの現在の Windows 資格情報を使用して、NTLM 認証では、このサービスを呼び出す</s:String>
+    <s:String x:Key="String_ApplicationName">Hummingbird</s:String>
 </ResourceDictionary>
