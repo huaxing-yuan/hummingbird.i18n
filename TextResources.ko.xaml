@@ -35,6 +35,7 @@
     <s:String x:Key="String_TestSettings">테스트 설정</s:String>
     <s:String x:Key="String_Extensions">확장</s:String>
     <s:String x:Key="String_ProfileManagement">프로 파일 관리</s:String>
+    <s:String x:Key="String_Certificate">인증서</s:String>
     <!-- GENERAL SETTINGS -->
     <s:String x:Key="String_SystemBehaviors">시스템 동작</s:String>
     <s:String x:Key="String_LogPath">로그 경로:</s:String>
@@ -263,6 +264,12 @@
     <s:String x:Key="String_ClearCustomVariables">명확한 사용자 정의 변수</s:String>
     <s:String x:Key="String_ClearCustomVariablesQuestion"><![CDATA[모든 사용자 정의 변수를 삭제 하 시겠습니까? 
 이 작업을 복구할 수 없습니다.]]></s:String>
+    <!-- ViewLoadTest -->
+    <s:String x:Key="String_LoadTest">부하 테스트</s:String>
+    <s:String x:Key="String_RunLoadTest">부하 테스트 실행</s:String>
+    <s:String x:Key="String_ShowMonitoring">모니터링 보기</s:String>
+    <s:String x:Key="String_LoadConfiguration">부하 구성</s:String>
+    <s:String x:Key="String_EstimatedLoadGraph">예상된 부하 그래프</s:String>
     <!-- ViewTestSuite.xaml -->
     <s:String x:Key="String_TestSuiteColon">테스트 스위트:</s:String>
     <s:String x:Key="String_TestSuiteConfiguration">테스트 제품군 구성</s:String>
@@ -276,12 +283,30 @@
     <s:String x:Key="String_Test">테스트</s:String>
     <s:String x:Key="String_AssertionObjectNull">어설션 개체를 null 수 없습니다.</s:String>
     <s:String x:Key="String_AssertionTestException">어설션을 테스트 때 throw 되는 처리 되지 않은 예외: </s:String>
+    <!-- WindowPerformanceTestMonitor -->
+    <s:String x:Key="String_PerformanceTestMonitor">성능 테스트 모니터</s:String>
+    <s:String x:Key="String_ExpectedLoad">예상 되는 부하</s:String>
+    <s:String x:Key="String_ActualLoad">실제 부하</s:String>
+    <s:String x:Key="String_RunningThreads">스레드 실행</s:String>
+    <s:String x:Key="String_SystemResources">시스템 리소스</s:String>
+    <s:String x:Key="String_Cpu">CPU</s:String>
+    <s:String x:Key="String_Memory">메모리</s:String>
+    <s:String x:Key="String_PerformanceIndicators">성과 지표</s:String>
+    <s:String x:Key="String_IterationPassrate">반복 패스-속도</s:String>
+    <s:String x:Key="String_IterationCycletime">반복 주기 시간</s:String>
+    <s:String x:Key="String_ServicePassrate">서비스 패스-속도</s:String>
+    <s:String x:Key="String_ServiceResponsetime">서비스 응답 시간</s:String>
+    <s:String x:Key="String_PercentCpuUtilization">%CPU 사용률</s:String>
+    <s:String x:Key="String_PercentMemoryUsage">% 메모리 사용</s:String>
+    <s:String x:Key="String_PercentIterationPassrate">% 반복 패스 속도</s:String>
+    <s:String x:Key="String_Ignored">무시</s:String>
     <!-- WindowEditExtractProperty.xaml -->
     <s:String x:Key="String_EditPropertyExtraction">편집 속성 추출</s:String>
     <s:String x:Key="String_PropertyNameColon">속성 이름:</s:String>
     <s:String x:Key="String_PathTypeColon">경로 유형:</s:String>
     <s:String x:Key="String_PathColon">경로:</s:String>
     <s:String x:Key="String_VariableNameColon">변수 이름</s:String>
+    <s:String x:Key="String_PossibleValues">가능한 값: </s:String>
     <s:String x:Key="String_CurrentValue">현재 값</s:String>
     <s:String x:Key="String_GetCurrentValue">현재 구성에서 값을 확인 버튼을 클릭합니다</s:String>
     <s:String x:Key="String_Evaluate">평가</s:String>
@@ -335,6 +360,11 @@
     <s:String x:Key="String_InputValueNotMatchTypeX"><![CDATA[입력된 값 입력을 일치 하지 않습니다: {0}.
 제발 다시 시도 하거나 취소 하려면 esc 키를 누릅니다.]]></s:String>
     <s:String x:Key="String_StringEditor">문자열 편집기</s:String>
+    <!-- ViewLoadTestReportItem -->
+    <s:String x:Key="String_AllU">모든</s:String>
+    <s:String x:Key="String_CycleTime">사이클 시간 (s)</s:String>
+    <s:String x:Key="String_TheoreticalActualLoad">이론 및 실제 부하</s:String>
+    <s:String x:Key="String_TestIterations">테스트 반복</s:String>
     <s:String x:Key="String_CredentialColon">자격 증명:</s:String>
     <s:String x:Key="String_UserDefined">사용자 정의</s:String>
     <s:String x:Key="String_SpecifyAUserDefinedCredential">사용자 정의 된 자격 증명 지정</s:String>
@@ -587,7 +617,7 @@ Hummingbird를 지금 다시 시작 하 시겠습니까?]]></s:String>
     <s:String x:Key="String_CloseProject">프로젝트 닫기</s:String>
     <s:String x:Key="String_Save">저장</s:String>
     <s:String x:Key="String_AutomationProject">자동화 프로젝트</s:String>
-    <s:String x:Key="String_FunctionalTestEditorRunner">기능 테스트 편집기 및 러너</s:String>
+    <s:String x:Key="String_FunctionalTestEditorRunner">자동화 된 테스트 편집기</s:String>
     <s:String x:Key="String_StartsFromHere">여기에서 시작</s:String>
     <s:String x:Key="String_CreateNewAutomationProject">새로운 자동화 프로젝트 만들기</s:String>
     <s:String x:Key="String_OpenExistingProject">기존 프로젝트 열기</s:String>
@@ -631,6 +661,19 @@ Hummingbird를 지금 다시 시작 하 시겠습니까?]]></s:String>
     <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">자동화 프로젝트를 로드할 때 오류가 발생 했습니다.</s:String>
     <s:String x:Key="String_SaveCurrentProject">현재 프로젝트를 저장?</s:String>
     <s:String x:Key="String_SaveCurrentProjectMessage">현재 자동화 프로젝트를 저장 하 시겠습니까?</s:String>
+    <s:String x:Key="String_AutomationObjectNotRecognized">자동화 테스트 개체 인식 되지 않을 수 있습니다.</s:String>
+    <s:String x:Key="String_NewTestCase">새 테스트 사례</s:String>
+    <s:String x:Key="String_NewDataDrivenTest">새로운 데이터 기반 테스트</s:String>
+    <s:String x:Key="String_NewTestSuite">새로운 테스트 스위트</s:String>
+    <s:String x:Key="String_AddLoadTestSuite">부하 테스트 도구 모음 추가</s:String>
+    <s:String x:Key="String_NewLoadTestSuite">새로운 부하 테스트 스위트</s:String>
+    <s:String x:Key="String_InsertLoadTestSuite">부하 테스트 도구 모음을 삽입</s:String>
+    <s:String x:Key="String_AddBasicLoadTest">기본 부하 테스트 추가</s:String>
+    <s:String x:Key="String_NewLoadTest">새로운 부하 테스트</s:String>
+    <s:String x:Key="String_AddStressTest">스트레스 테스트 추가</s:String>
+    <s:String x:Key="String_NewStressTest">새로운 스트레스 테스트</s:String>
+    <s:String x:Key="String_AddSpikeTest">스파이크 테스트 추가</s:String>
+    <s:String x:Key="String_NewSpikeTest">새 스파이크 테스트</s:String>
     <!-- ViewBase64Tool.xaml -->
     <s:String x:Key="String_ActionColon">작업: </s:String>
     <s:String x:Key="String_Base64EncodingTitle">Base64 인코딩 및 디코딩</s:String>
@@ -775,8 +818,8 @@ NO: 좋아하는 요청을 삭제 합니다.
     <s:String x:Key="String_WarningUriFormatMessage"><![CDATA[이 서비스 ' {0} '의 UriTemplate 잘은 Uri를 형성
 이 Uri 변수를 사용 하면 설정 모든 변수를 사용 하는 경우 할당 된 확인 하십시오.]]></s:String>
     <!-- WindowServerReponse -->
-    <s:String x:Key="String_Type3CharsToFind">3 유효한 문자 서비스를 찾으려고 하지 않는 한 입력 하십시오.</s:String>
-    <s:String x:Key="String_NoResultMatchSearchPattern">검색 패턴에 맞게 아무 결과입니다.</s:String>
+    <s:String x:Key="String_Type3CharsToFind">서비스를 검색 하려면 적어도 3 유효한 문자를 입력 하십시오.</s:String>
+    <s:String x:Key="String_NoResultMatchSearchPattern">결과 검색 패턴을 일치합니다.</s:String>
     <s:String x:Key="String_RenameYourResponse">귀하의 회신을 이름 바꾸기</s:String>
     <s:String x:Key="String_FunctionalError">기능 오류</s:String>
     <s:String x:Key="String_CannotNameResponseAsDefault">이 이름은 예약 하는 동안 "기본"으로 응답을 이름을 수 없습니다.</s:String>
@@ -791,6 +834,8 @@ NO: 좋아하는 요청을 삭제 합니다.
     <s:String x:Key="String_FailOnErrorStreamChecked">오류 스트림에 아무것도 작성 한 경우 테스트 단계를 실패 것입니다.</s:String>
     <s:String x:Key="String_FailOnErrorStreamUnchecked">테스트 단계 오류 스트림에 아무것도 작성 한 경우 실패로 표시 되지 것입니다.</s:String>
     <s:String x:Key="String_OutputColon">출력:</s:String>
+    <!-- DataGeneratorTestStepEditor.xaml -->
+    <s:String x:Key="String_ListOfVariablesColon">변수 목록: </s:String>
     <!-- ContainsAssertionEditor.xaml -->
     <s:String x:Key="String_ContainsAssertion">어설션이 포함</s:String>
     <s:String x:Key="String_ContainsAssertionDescription">텍스트 요청 또는 응답에서 발생 하는지 확인</s:String>

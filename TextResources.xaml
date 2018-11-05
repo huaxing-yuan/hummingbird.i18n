@@ -39,6 +39,7 @@
     <s:String x:Key="String_TestSettings">Test Settings</s:String>
     <s:String x:Key="String_Extensions">Extensions</s:String>
     <s:String x:Key="String_ProfileManagement">Profile Management</s:String>
+	<s:String x:Key="String_Certificate">Certificate</s:String>
     <!-- GENERAL SETTINGS -->
     <s:String x:Key="String_SystemBehaviors">System behaviors</s:String>
     <s:String x:Key="String_LogPath">Log path:</s:String>
@@ -61,7 +62,7 @@
     <s:String x:Key="String_NameU">NAME</s:String>
     <s:String x:Key="String_ValueU">VALUE</s:String>
     <s:String x:Key="String_CopyFrom">Copy from ...</s:String>
-    <s:String x:Key="String_AddVariable">Add variable</s:String>
+    <s:String x:Key="String_AddVariable">Add Variable</s:String>
     <s:String x:Key="String_DeleteSelection">Delete selection</s:String>
     <s:String x:Key="String_ClearAll">Clear all</s:String>
     <s:String x:Key="String_UsernameU">USERNAME</s:String>
@@ -250,7 +251,7 @@
 	<s:String x:Key="String_CannotGenerateSolution">Cannot generate solution</s:String>
 	<s:String x:Key="String_CannotGenerateSolutionMessage">An error has occurred when generating the solution file.</s:String>
 	<s:String x:Key="String_ProjectGenerationCancelled">Solution generation has been canceled.</s:String>
-	<s:String x:Key="String_ExtensionCanBeUsedNow">The extension can be used now but it will be installed at next restart because there is already a previous version.</s:String>
+	<s:String x:Key="String_ExtensionCanBeUsedNow">The extension can be used now but it will be installed at next restart because the previous version of this extension has already been loaded.</s:String>
 	
 	<!-- ExtensionDesigner\ViewServiceEndpoint.xaml -->
 	<s:String x:Key="String_EndpointNameColon">Endpoint Name:</s:String>
@@ -429,7 +430,7 @@
     <s:String x:Key="String_ConfirmStatisticResetMessage">All statistics will be removed and could be recovered, would you like to reset statistics anyway?</s:String>
     <s:String x:Key="String_ChangeSettings">Change settings</s:String>
     <s:String x:Key="String_Error">Error</s:String>
-    <s:String x:Key="String_CannotStartFollowingService">Can not start the following service: </s:String>
+    <s:String x:Key="String_CannotStartFollowingService">Following service cannot be started: </s:String>
     <s:String x:Key="String_ConfirmClearMessages">Clear all messages?</s:String>
     <s:String x:Key="String_ConfirmClearMessagesMessage">Are you sure to clear all message history?</s:String>
     <s:String x:Key="String_XofYMatches">{0} of {1} MATCHES</s:String>
@@ -468,7 +469,7 @@
     <s:String x:Key="String_CloseProject">Close project</s:String>
     <s:String x:Key="String_Save">Save</s:String>
     <s:String x:Key="String_AutomationProject">Automation Project</s:String>
-    <s:String x:Key="String_FunctionalTestEditorRunner">Functional Test Editor &amp; Runner</s:String>
+    <s:String x:Key="String_FunctionalTestEditorRunner">Automated Test Editor</s:String>
     <s:String x:Key="String_StartsFromHere">Starts from here</s:String>
     <s:String x:Key="String_CreateNewAutomationProject">Create a new automation project</s:String>
     <s:String x:Key="String_OpenExistingProject">Open an existing project</s:String>
@@ -479,7 +480,7 @@
     <s:String x:Key="String_TestAutomationWithHummingbird">Test Automation with Hummingbird</s:String>
     <s:String x:Key="String_DifferentTestSteps">Different kind of test steps</s:String>
     <s:String x:Key="String_ValidateWithAssertions">Validate the test by Assertions</s:String>
-    <s:String x:Key="String_RunInCI">Run automated test in an Continuous Integration platform</s:String>
+    <s:String x:Key="String_RunInCI">Run automated test in an CI/CD platform</s:String>
     <s:String x:Key="String_DeleteThisTestStep">Delete this test step</s:String>
     <s:String x:Key="String_AddAStep">Add a Test Step</s:String>
     <s:String x:Key="String_DeleteThisTestCase">Delete this test case</s:String>
@@ -512,6 +513,21 @@
     <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">An error has occurred when loading automation project</s:String>
     <s:String x:Key="String_SaveCurrentProject">Save current project?</s:String>
     <s:String x:Key="String_SaveCurrentProjectMessage">Do you want to save the current automation project?</s:String>
+	<s:String x:Key="String_AutomationObjectNotRecognized">The Automation test object can not be recognized.</s:String>
+	<s:String x:Key="String_NewTestCase">New Test case</s:String>
+	<s:String x:Key="String_NewDataDrivenTest">New Data-driven Test</s:String>
+	<s:String x:Key="String_NewTestSuite">New Test Suite</s:String>
+	<s:String x:Key="String_AddLoadTestSuite">Add a Load Test Suite</s:String>
+	<s:String x:Key="String_NewLoadTestSuite">New Load Test Suite</s:String>
+	<s:String x:Key="String_InsertLoadTestSuite">Insert a Load Test Suite</s:String>
+	<s:String x:Key="String_AddBasicLoadTest">Add a Basic Load Test</s:String>
+	<s:String x:Key="String_NewLoadTest">New Load Test</s:String>
+	<s:String x:Key="String_AddStressTest">Add a Stress Test</s:String>
+	<s:String x:Key="String_NewStressTest">New Stress test</s:String>
+	<s:String x:Key="String_AddSpikeTest">Add a Spike Test</s:String>
+	<s:String x:Key="String_NewSpikeTest">New Spike test</s:String>
+	
+	
     
     <!-- ViewBase64Tool.xaml -->
     <s:String x:Key="String_ActionColon">Action: </s:String>
@@ -659,15 +675,16 @@ CANCEL: stay on current project.</s:String>
 	<s:String x:Key="String_KeepFavoriteRequests">Keep favorite requests?</s:String>
 	<s:String x:Key="String_KeepFavoriteRequestsMessage">You are clearing the request history for selected service, Do you want to keep your favorite requests?&#x0a;YES: Keep favorite requests.&#x0a;NO: Delete favorite request.&#x0a;CANCEL: Do not delete anything.</s:String>
 	<s:String x:Key="String_WarningUriFormat">Warning - Uri format</s:String>
-	<s:String x:Key="String_WarningUriFormatMessage">The UriTemplate of this service '{0}' is not well formed Uri&#x0a;If this Uri uses variables, please check settings if all used variables are assigned.</s:String>
+	<s:String x:Key="String_WarningUriFormatMessage" xml:space="preserve">The UriTemplate of this service '{0}' is not well formed.
+If this Uri uses variables, please check settings if all used variables are assigned.</s:String>
 
 	<!-- WindowServerReponse -->
-	<s:String x:Key="String_Type3CharsToFind">Please type unless 3 valid chars to find the services.</s:String>
-	<s:String x:Key="String_NoResultMatchSearchPattern">no result to match your search pattern.</s:String>
+	<s:String x:Key="String_Type3CharsToFind">Please type at least 3 valid chars to search services.</s:String>
+	<s:String x:Key="String_NoResultMatchSearchPattern">no result matches your search pattern.</s:String>
 	<s:String x:Key="String_RenameYourResponse">Rename your response</s:String>
 	<s:String x:Key="String_FunctionalError">Functional Error</s:String>
-	<s:String x:Key="String_CannotNameResponseAsDefault">You can't name a response as "Default" while this name is reserved.</s:String>
-	<s:String x:Key="String_CannotNameXBecauseExists">You can't name the response as "{0}" because a response of same name is already exists.</s:String>
+	<s:String x:Key="String_CannotNameResponseAsDefault">Cannot name a response as "Default", this name is reserved.</s:String>
+	<s:String x:Key="String_CannotNameXBecauseExists">Cannot name the response to "{0}" because a response of same name already exists.</s:String>
 	
 	<!-- CommandLineTestStepEditor.xaml-->
     <s:String x:Key="String_FileNameColon">File Name:</s:String>
@@ -679,6 +696,11 @@ CANCEL: stay on current project.</s:String>
     <s:String x:Key="String_FailOnErrorStreamChecked">Test step will be failed if anything was written on Error Stream.</s:String>
     <s:String x:Key="String_FailOnErrorStreamUnchecked">Test step will not be marked as Failed if anything was written on Error Stream.</s:String>
     <s:String x:Key="String_OutputColon">Output:</s:String>
+	
+	<!-- DataGeneratorTestStepEditor.xaml -->
+	<s:String x:Key="String_ListOfVariablesColon">List of variables: </s:String>
+	<s:String x:Key="String_VariableNameColon">Variable name: </s:String>
+	<s:String x:Key="String_PossibleValues">Possible values: </s:String>
 	
 	<!-- ContainsAssertionEditor.xaml -->
     <s:String x:Key="String_ContainsAssertion">Contains Assertion</s:String>
@@ -736,8 +758,8 @@ CANCEL: stay on current project.</s:String>
     <s:String x:Key="String_SoapFaultAssertion">Soap Fault Assertion</s:String>
     <s:String x:Key="String_SoapFaultAssertionDescription">Verifies if the response is a Soap Fault / or Verifies if the response is a valid Soap Response</s:String>
     <s:String x:Key="String_IsSoapFaultColon">Is Soap Fault:</s:String>
-    <s:String x:Key="String_IsSoapFaultChecked">Asserts if the response from the server is Soap Fault (Soap 1.1 and Soap 1.2)</s:String>
-    <s:String x:Key="String_IsSoapFaultUnchecked">Assert if the response from the server is a valid response and not a Soap Fault</s:String>
+    <s:String x:Key="String_IsSoapFaultChecked">Verify if the response is Soap Fault (Soap 1.1 and Soap 1.2)</s:String>
+    <s:String x:Key="String_IsSoapFaultUnchecked">Verify if the response is a valid SOAP response</s:String>
 	
 	
 	<!-- SqlQueryTestStepEditor.xaml -->
@@ -832,6 +854,15 @@ CANCEL: stay on current project.</s:String>
     <s:String x:Key="String_ClearCustomVariables">Clear custom variables</s:String>
     <s:String x:Key="String_ClearCustomVariablesQuestion">Do you want to delete all the custom variables? &#x0a;This action can not be recovered.</s:String>
 	
+	
+	<!-- ViewLoadTest -->
+	<s:String x:Key="String_LoadTest">Load Test</s:String>
+	<s:String x:Key="String_RunLoadTest">Run Load Test</s:String>
+	<s:String x:Key="String_ShowMonitoring">Show Monitoring</s:String>
+	<s:String x:Key="String_LoadConfiguration">Load Configuration</s:String>
+	<s:String x:Key="String_EstimatedLoadGraph">Estimated load graph</s:String>
+	
+	
 	<!-- ViewTestSuite.xaml -->
     <s:String x:Key="String_TestSuiteColon">Test Suite:</s:String>
     <s:String x:Key="String_TestSuiteConfiguration">Test Suite Configuration</s:String>
@@ -847,12 +878,29 @@ CANCEL: stay on current project.</s:String>
     <s:String x:Key="String_AssertionObjectNull">Assertion object can not be null</s:String>
     <s:String x:Key="String_AssertionTestException">Unhandled exception thrown when testing the Assertion: </s:String>
 
+	<!-- WindowPerformanceTestMonitor -->
+	<s:String x:Key="String_PerformanceTestMonitor">Performance Test Monitor</s:String>
+	<s:String x:Key="String_ExpectedLoad">Expected Load</s:String>
+	<s:String x:Key="String_ActualLoad">Actual Load</s:String>
+	<s:String x:Key="String_RunningThreads">Running Threads</s:String>
+	<s:String x:Key="String_SystemResources">System Resources</s:String>
+	<s:String x:Key="String_Cpu">CPU</s:String>
+	<s:String x:Key="String_Memory">Memory</s:String>
+	<s:String x:Key="String_PerformanceIndicators">Performance Indicators</s:String>
+	<s:String x:Key="String_IterationPassrate">Iteration Pass-rate</s:String>
+	<s:String x:Key="String_IterationCycletime">Iteration Cycle time</s:String>
+	<s:String x:Key="String_ServicePassrate">Service Pass-rate</s:String>
+	<s:String x:Key="String_ServiceResponsetime">Service Response time</s:String>
+	<s:String x:Key="String_PercentCpuUtilization">% CPU Utilization</s:String>
+	<s:String x:Key="String_PercentMemoryUsage">% Memory usage</s:String>
+	<s:String x:Key="String_PercentIterationPassrate">% Iteration pass rate</s:String>	
+	<s:String x:Key="String_Ignored">Ignored</s:String>
+	
 	<!-- WindowEditExtractProperty.xaml -->
     <s:String x:Key="String_EditPropertyExtraction">Edit Property Extraction</s:String>
     <s:String x:Key="String_PropertyNameColon">Property Name:</s:String>
     <s:String x:Key="String_PathTypeColon">Path Type:</s:String>
     <s:String x:Key="String_PathColon">Path:</s:String>
-    <s:String x:Key="String_VariableNameColon">Variable Name</s:String>
     <s:String x:Key="String_CurrentValue">Current Value</s:String>
     <s:String x:Key="String_GetCurrentValue">Click on Evaluate button to get the value from the current configuration</s:String>
     <s:String x:Key="String_Evaluate">Evaluate</s:String>
@@ -911,7 +959,16 @@ CANCEL: stay on current project.</s:String>
 	
 	<!-- EditableTextBlock -->
 	<s:String x:Key="String_ErrorWithInputData">There is an error with your input data</s:String>
-	<s:String x:Key="String_InputValueNotMatchTypeX">Input value does not match to type: {0}.&#x0a;Please retry or press ESC to cancel.</s:String>
+	<s:String x:Key="String_InputValueNotMatchTypeX" xml:space="preserve">Input value does not match to type: {0}.
+	Please retry or press ESC to cancel.</s:String>
 	<s:String x:Key="String_StringEditor">String editor</s:String>	
+	
+	<!-- ViewLoadTestReportItem -->
+	<s:String x:Key="String_AllU">ALL</s:String>
+	<s:String x:Key="String_CycleTime">Cycle Time (s)</s:String>
+	<s:String x:Key="String_TheoreticalActualLoad">Theoretical and actual load</s:String>
+	<s:String x:Key="String_TestIterations">Test Iterations</s:String>
+	
+	
 	
 </ResourceDictionary>

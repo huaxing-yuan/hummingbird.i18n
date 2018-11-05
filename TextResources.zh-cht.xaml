@@ -35,6 +35,7 @@
     <s:String x:Key="String_TestSettings">測試設定</s:String>
     <s:String x:Key="String_Extensions">擴展</s:String>
     <s:String x:Key="String_ProfileManagement">設定檔管理</s:String>
+    <s:String x:Key="String_Certificate">證書</s:String>
     <!-- GENERAL SETTINGS -->
     <s:String x:Key="String_SystemBehaviors">系統行為</s:String>
     <s:String x:Key="String_LogPath">日誌路徑:</s:String>
@@ -439,7 +440,7 @@
     <s:String x:Key="String_CloseProject">關閉專案</s:String>
     <s:String x:Key="String_Save">救</s:String>
     <s:String x:Key="String_AutomationProject">自動化專案</s:String>
-    <s:String x:Key="String_FunctionalTestEditorRunner">功能測試編輯器和亞軍</s:String>
+    <s:String x:Key="String_FunctionalTestEditorRunner">自動測試編輯器</s:String>
     <s:String x:Key="String_StartsFromHere">從這裡開始</s:String>
     <s:String x:Key="String_CreateNewAutomationProject">創建新的自動化專案</s:String>
     <s:String x:Key="String_OpenExistingProject">打開現有專案</s:String>
@@ -483,6 +484,19 @@
     <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">載入自動化專案時出錯</s:String>
     <s:String x:Key="String_SaveCurrentProject">是否保存當前專案？</s:String>
     <s:String x:Key="String_SaveCurrentProjectMessage">是否要保存當前的自動化專案？</s:String>
+    <s:String x:Key="String_AutomationObjectNotRecognized">無法識別自動化測試物件。</s:String>
+    <s:String x:Key="String_NewTestCase">新的測試案例</s:String>
+    <s:String x:Key="String_NewDataDrivenTest">新的資料驅動測試</s:String>
+    <s:String x:Key="String_NewTestSuite">新的測試套件</s:String>
+    <s:String x:Key="String_AddLoadTestSuite">添加負載測試套件</s:String>
+    <s:String x:Key="String_NewLoadTestSuite">新的負載測試套件</s:String>
+    <s:String x:Key="String_InsertLoadTestSuite">插入負載測試套件</s:String>
+    <s:String x:Key="String_AddBasicLoadTest">添加基本負載測試</s:String>
+    <s:String x:Key="String_NewLoadTest">新的負載測試</s:String>
+    <s:String x:Key="String_AddStressTest">添加壓力測試</s:String>
+    <s:String x:Key="String_NewStressTest">新的壓力測試</s:String>
+    <s:String x:Key="String_AddSpikeTest">添加尖刺測試</s:String>
+    <s:String x:Key="String_NewSpikeTest">新斯派克測試</s:String>
     <!-- ViewBase64Tool.xaml -->
     <s:String x:Key="String_ActionColon">行動：</s:String>
     <s:String x:Key="String_Base64EncodingTitle">Base64 編碼和解碼</s:String>
@@ -627,8 +641,8 @@
     <s:String x:Key="String_WarningUriFormatMessage" xml:space="preserve"><![CDATA[此服務 "{0}" 的實例不是格式正確的 Uri
 如果此 Uri 使用變數, 請檢查設置是否分配了所有使用的變數。]]></s:String>
     <!-- WindowServerReponse -->
-    <s:String x:Key="String_Type3CharsToFind">請鍵入, 除非3有效字元查找服務。</s:String>
-    <s:String x:Key="String_NoResultMatchSearchPattern">沒有結果匹配您的搜索模式。</s:String>
+    <s:String x:Key="String_Type3CharsToFind">請鍵入至少3個有效的字元進行搜索服務。</s:String>
+    <s:String x:Key="String_NoResultMatchSearchPattern">沒有與您的搜索模式匹配的結果。</s:String>
     <s:String x:Key="String_RenameYourResponse">重命名您的回應</s:String>
     <s:String x:Key="String_FunctionalError">功能錯誤</s:String>
     <s:String x:Key="String_CannotNameResponseAsDefault">保留此名稱時, 不能將回應命名為 "預設"。</s:String>
@@ -643,6 +657,8 @@
     <s:String x:Key="String_FailOnErrorStreamChecked">如果在錯誤流上寫入了任何內容, 則測試步驟將失敗。</s:String>
     <s:String x:Key="String_FailOnErrorStreamUnchecked">如果在錯誤流上寫入了任何內容, 測試步驟將不會標記為失敗。</s:String>
     <s:String x:Key="String_OutputColon">輸出：</s:String>
+    <!-- DataGeneratorTestStepEditor.xaml -->
+    <s:String x:Key="String_ListOfVariablesColon">變數清單:</s:String>
     <!-- ContainsAssertionEditor.xaml -->
     <s:String x:Key="String_ContainsAssertion">包含斷言</s:String>
     <s:String x:Key="String_ContainsAssertionDescription">檢查請求或回應中是否出現文本</s:String>
@@ -777,6 +793,12 @@
     <s:String x:Key="String_ClearCustomVariables">清除自訂變數</s:String>
     <s:String x:Key="String_ClearCustomVariablesQuestion" xml:space="preserve"><![CDATA[是否要刪除所有自訂變數？
 無法恢復此操作。]]></s:String>
+    <!-- ViewLoadTest -->
+    <s:String x:Key="String_LoadTest">負載測試</s:String>
+    <s:String x:Key="String_RunLoadTest">運行負載測試</s:String>
+    <s:String x:Key="String_ShowMonitoring">顯示監控</s:String>
+    <s:String x:Key="String_LoadConfiguration">負載配置</s:String>
+    <s:String x:Key="String_EstimatedLoadGraph">估計負載圖</s:String>
     <!-- ViewTestSuite.xaml -->
     <s:String x:Key="String_TestSuiteColon">測試套件:</s:String>
     <s:String x:Key="String_TestSuiteConfiguration">測試套件配置</s:String>
@@ -790,12 +812,30 @@
     <s:String x:Key="String_Test">測試</s:String>
     <s:String x:Key="String_AssertionObjectNull">斷言物件不能為空</s:String>
     <s:String x:Key="String_AssertionTestException">測試斷言時引發的未處理異常:</s:String>
+    <!-- WindowPerformanceTestMonitor -->
+    <s:String x:Key="String_PerformanceTestMonitor">效能測試監視器</s:String>
+    <s:String x:Key="String_ExpectedLoad">預期負載</s:String>
+    <s:String x:Key="String_ActualLoad">實際負載</s:String>
+    <s:String x:Key="String_RunningThreads">正在運行的執行緒</s:String>
+    <s:String x:Key="String_SystemResources">系統資源</s:String>
+    <s:String x:Key="String_Cpu">Cpu</s:String>
+    <s:String x:Key="String_Memory">記憶</s:String>
+    <s:String x:Key="String_PerformanceIndicators">績效指標</s:String>
+    <s:String x:Key="String_IterationPassrate">反覆運算密碼</s:String>
+    <s:String x:Key="String_IterationCycletime">反覆運算迴圈時間</s:String>
+    <s:String x:Key="String_ServicePassrate">服務費率</s:String>
+    <s:String x:Key="String_ServiceResponsetime">服務回應時間</s:String>
+    <s:String x:Key="String_PercentCpuUtilization">百分比 cpu 利用率</s:String>
+    <s:String x:Key="String_PercentMemoryUsage">記憶體使用率%</s:String>
+    <s:String x:Key="String_PercentIterationPassrate">反覆運算率%</s:String>
+    <s:String x:Key="String_Ignored">忽視</s:String>
     <!-- WindowEditExtractProperty.xaml -->
     <s:String x:Key="String_EditPropertyExtraction">編輯屬性提取</s:String>
     <s:String x:Key="String_PropertyNameColon">屬性名稱:</s:String>
     <s:String x:Key="String_PathTypeColon">路徑類型:</s:String>
     <s:String x:Key="String_PathColon">路徑：</s:String>
     <s:String x:Key="String_VariableNameColon">變數名稱</s:String>
+    <s:String x:Key="String_PossibleValues">可能的值:</s:String>
     <s:String x:Key="String_CurrentValue">當前值</s:String>
     <s:String x:Key="String_GetCurrentValue">按一下 "評估" 按鈕從當前配置中獲取值</s:String>
     <s:String x:Key="String_Evaluate">評價</s:String>
@@ -849,6 +889,11 @@
     <s:String x:Key="String_InputValueNotMatchTypeX" xml:space="preserve"><![CDATA[輸入值與類型: {0} 不匹配。
 請重試或按 ESC 鍵取消。]]></s:String>
     <s:String x:Key="String_StringEditor">字串編輯器</s:String>
+    <!-- ViewLoadTestReportItem -->
+    <s:String x:Key="String_AllU">所有</s:String>
+    <s:String x:Key="String_CycleTime">迴圈時間</s:String>
+    <s:String x:Key="String_TheoreticalActualLoad">理論和實際載荷</s:String>
+    <s:String x:Key="String_TestIterations">測試反覆運算</s:String>
     <s:String x:Key="String_GeneralOptions">常規選項</s:String>
     <s:String x:Key="String_AuthenticationColon">認證：</s:String>
     <s:String x:Key="String_PreEmptiveColon">先發制人:</s:String>

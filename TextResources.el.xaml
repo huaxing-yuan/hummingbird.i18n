@@ -35,6 +35,7 @@
     <s:String x:Key="String_TestSettings">Έλεγχος ρυθμίσεων</s:String>
     <s:String x:Key="String_Extensions">Επεκτάσεις</s:String>
     <s:String x:Key="String_ProfileManagement">Διαχείριση προφίλ</s:String>
+    <s:String x:Key="String_Certificate">Πιστοποιητικό</s:String>
     <!-- GENERAL SETTINGS -->
     <s:String x:Key="String_SystemBehaviors">Σύστημα συμπεριφορές</s:String>
     <s:String x:Key="String_LogPath">Διαδρομή αρχείου καταγραφής:</s:String>
@@ -263,6 +264,12 @@
     <s:String x:Key="String_ClearCustomVariables">Σαφή προσαρμοσμένες μεταβλητές</s:String>
     <s:String x:Key="String_ClearCustomVariablesQuestion"><![CDATA[Θέλετε να διαγράψετε όλες τις προσαρμοσμένες μεταβλητές; 
 Αυτή η ενέργεια δεν μπορεί να ανακτηθεί.]]></s:String>
+    <!-- ViewLoadTest -->
+    <s:String x:Key="String_LoadTest">Φορτίο δοκιμής</s:String>
+    <s:String x:Key="String_RunLoadTest">Εκτέλεση δοκιμής φορτίου</s:String>
+    <s:String x:Key="String_ShowMonitoring">Προβολή παρακολούθησης</s:String>
+    <s:String x:Key="String_LoadConfiguration">Ρύθμιση παραμέτρων φορτίου</s:String>
+    <s:String x:Key="String_EstimatedLoadGraph">Εκτιμώμενο φορτίο γράφημα</s:String>
     <!-- ViewTestSuite.xaml -->
     <s:String x:Key="String_TestSuiteColon">Ακολουθία δοκιμής:</s:String>
     <s:String x:Key="String_TestSuiteConfiguration">Δοκιμή σουίτα ρύθμισης παραμέτρων</s:String>
@@ -276,12 +283,30 @@
     <s:String x:Key="String_Test">Δοκιμή</s:String>
     <s:String x:Key="String_AssertionObjectNull">Αντικείμενο διεκδίκησης δεν μπορεί να είναι null</s:String>
     <s:String x:Key="String_AssertionTestException">Ανεπίλυτη εξαίρεση κατά τη δοκιμή τον ισχυρισμό: </s:String>
+    <!-- WindowPerformanceTestMonitor -->
+    <s:String x:Key="String_PerformanceTestMonitor">Δοκιμή εποπτείας επιδόσεων</s:String>
+    <s:String x:Key="String_ExpectedLoad">Αναμενόμενο φορτίο</s:String>
+    <s:String x:Key="String_ActualLoad">Πραγματικό φορτίο</s:String>
+    <s:String x:Key="String_RunningThreads">Τα νήματα που εκτελούνται</s:String>
+    <s:String x:Key="String_SystemResources">Τους πόρους του συστήματος</s:String>
+    <s:String x:Key="String_Cpu">CPU</s:String>
+    <s:String x:Key="String_Memory">Μνήμη</s:String>
+    <s:String x:Key="String_PerformanceIndicators">Δείκτες απόδοσης</s:String>
+    <s:String x:Key="String_IterationPassrate">Pass-Ρυθμός επανάληψης</s:String>
+    <s:String x:Key="String_IterationCycletime">Επανάληψη χρόνος κύκλου</s:String>
+    <s:String x:Key="String_ServicePassrate">Υπηρεσία Pass-ποσοστό</s:String>
+    <s:String x:Key="String_ServiceResponsetime">Χρόνος απόκρισης υπηρεσία</s:String>
+    <s:String x:Key="String_PercentCpuUtilization">Χρήση CPU %</s:String>
+    <s:String x:Key="String_PercentMemoryUsage">% Χρήση μνήμης</s:String>
+    <s:String x:Key="String_PercentIterationPassrate">% Ποσοστό επιτυχίας επανάληψης</s:String>
+    <s:String x:Key="String_Ignored">Αγνοούνται</s:String>
     <!-- WindowEditExtractProperty.xaml -->
     <s:String x:Key="String_EditPropertyExtraction">Επεξεργαστείτε εξαγωγής ιδιότητας:</s:String>
     <s:String x:Key="String_PropertyNameColon">Όνομα ιδιότητας:</s:String>
     <s:String x:Key="String_PathTypeColon">Τύπος διαδρομής:</s:String>
     <s:String x:Key="String_PathColon">Διαδρομή:</s:String>
     <s:String x:Key="String_VariableNameColon">Το όνομα της μεταβλητής</s:String>
+    <s:String x:Key="String_PossibleValues">Πιθανές τιμές: </s:String>
     <s:String x:Key="String_CurrentValue">Τρέχουσα τιμή</s:String>
     <s:String x:Key="String_GetCurrentValue">Κάντε κλικ στο κουμπί Υπολογισμός να πάρει την τιμή από την τρέχουσα ρύθμιση παραμέτρων</s:String>
     <s:String x:Key="String_Evaluate">Αξιολόγηση</s:String>
@@ -335,6 +360,11 @@
     <s:String x:Key="String_InputValueNotMatchTypeX"><![CDATA[Τιμή εισόδου δεν ταιριάζει να πληκτρολογήσετε: {0}.
 Παρακαλούμε προσπαθήστε ξανά ή πιέστε το πλήκτρο ESC για να ακυρώσετε.]]></s:String>
     <s:String x:Key="String_StringEditor">Επεξεργαστή συμβολοσειράς</s:String>
+    <!-- ViewLoadTestReportItem -->
+    <s:String x:Key="String_AllU">ΌΛΑ ΤΑ</s:String>
+    <s:String x:Key="String_CycleTime">Χρόνος κύκλου (s)</s:String>
+    <s:String x:Key="String_TheoreticalActualLoad">Θεωρητικές και το πραγματικό φορτίο</s:String>
+    <s:String x:Key="String_TestIterations">Δοκιμή επαναλήψεις</s:String>
     <s:String x:Key="String_CredentialColon">Διαπιστευτηρίων:</s:String>
     <s:String x:Key="String_UserDefined">Ορίζονται από το χρήστη</s:String>
     <s:String x:Key="String_SpecifyAUserDefinedCredential">Καθορίστε μια πιστοποίηση χρήστη</s:String>
@@ -587,7 +617,7 @@
     <s:String x:Key="String_CloseProject">Κλείσιμο έργου</s:String>
     <s:String x:Key="String_Save">Αποθήκευση</s:String>
     <s:String x:Key="String_AutomationProject">Έργου αυτοματισμού</s:String>
-    <s:String x:Key="String_FunctionalTestEditorRunner">Λειτουργική Editor για δοκιμή &amp; δρομέας</s:String>
+    <s:String x:Key="String_FunctionalTestEditorRunner">Αυτοματοποιημένη δοκιμή συντάκτη</s:String>
     <s:String x:Key="String_StartsFromHere">Ξεκινά από εδώ</s:String>
     <s:String x:Key="String_CreateNewAutomationProject">Δημιουργήστε ένα νέο έργο αυτοματοποίησης</s:String>
     <s:String x:Key="String_OpenExistingProject">Ανοίξτε ένα υπάρχον έργο</s:String>
@@ -631,6 +661,19 @@
     <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">Παρουσιάστηκε ένα σφάλμα κατά τη φόρτωση του έργου αυτοματισμού</s:String>
     <s:String x:Key="String_SaveCurrentProject">Αποθηκεύστε το τρέχον έργο;</s:String>
     <s:String x:Key="String_SaveCurrentProjectMessage">Θέλετε να αποθηκεύσετε το τρέχον έργο αυτοματοποίησης;</s:String>
+    <s:String x:Key="String_AutomationObjectNotRecognized">Το αντικείμενο αυτοματισμού δοκιμασία δεν μπορεί να αναγνωριστεί.</s:String>
+    <s:String x:Key="String_NewTestCase">Νέα περίπτωση δοκιμής</s:String>
+    <s:String x:Key="String_NewDataDrivenTest">Νέα δεδομένα με γνώμονα δοκιμή</s:String>
+    <s:String x:Key="String_NewTestSuite">Νέα δοκιμή σουίτα</s:String>
+    <s:String x:Key="String_AddLoadTestSuite">Προσθέστε μια δοκιμαστική σουίτα φορτίο</s:String>
+    <s:String x:Key="String_NewLoadTestSuite">Νέα σουίτα δοκιμών φορτίο</s:String>
+    <s:String x:Key="String_InsertLoadTestSuite">Εισαγάγετε μια σουίτα δοκιμών φορτίο</s:String>
+    <s:String x:Key="String_AddBasicLoadTest">Προσθέστε ένα βασικό φορτίο δοκιμής</s:String>
+    <s:String x:Key="String_NewLoadTest">Νέο φορτίο δοκιμής</s:String>
+    <s:String x:Key="String_AddStressTest">Προσθέστε μια δοκιμή καταπόνησης</s:String>
+    <s:String x:Key="String_NewStressTest">Νέα στρες τεστ</s:String>
+    <s:String x:Key="String_AddSpikeTest">Προσθέστε μια δοκιμή στιλέτο</s:String>
+    <s:String x:Key="String_NewSpikeTest">Νέα δοκιμή στιλέτο</s:String>
     <!-- ViewBase64Tool.xaml -->
     <s:String x:Key="String_ActionColon">Δράση: </s:String>
     <s:String x:Key="String_Base64EncodingTitle">Κωδικοποίηση base64 &amp; αποκωδικοποίηση</s:String>
@@ -775,8 +818,8 @@ NO: Διαγραφή αγαπημένο αίτηση.
     <s:String x:Key="String_WarningUriFormatMessage"><![CDATA[Το πρότυπο UriTemplate αυτής της υπηρεσίας '{0}' δεν είναι καλά σχηματίζεται Uri
 Αν αυτό το Uri χρησιμοποιεί μεταβλητές, παρακαλούμε να ελέγξετε ρυθμίσεις αν όλα χρησιμοποιούνται μεταβλητές έχουν εκχωρηθεί.]]></s:String>
     <!-- WindowServerReponse -->
-    <s:String x:Key="String_Type3CharsToFind">Παρακαλούμε πληκτρολογήστε εκτός εάν ισχύουν 3 χαρακτήρες για να βρείτε τις υπηρεσίες.</s:String>
-    <s:String x:Key="String_NoResultMatchSearchPattern">κανένα αποτέλεσμα που να ταιριάζει με το μοτίβο αναζήτησης σας.</s:String>
+    <s:String x:Key="String_Type3CharsToFind">Παρακαλώ πληκτρολογήστε τουλάχιστον 3 έγκυρες χαρακτήρες για την αναζήτηση υπηρεσιών.</s:String>
+    <s:String x:Key="String_NoResultMatchSearchPattern">κανένα αποτέλεσμα που ταιριάζει με το μοτίβο αναζήτησης σας.</s:String>
     <s:String x:Key="String_RenameYourResponse">Μετονομάστε την απάντησή σας</s:String>
     <s:String x:Key="String_FunctionalError">Σφάλμα λειτουργική</s:String>
     <s:String x:Key="String_CannotNameResponseAsDefault">Δεν μπορείτε να ονομάσετε μια απάντηση όπως «Προεπιλογής», ενώ αυτό το όνομα είναι δεσμευμένο.</s:String>
@@ -791,6 +834,8 @@ NO: Διαγραφή αγαπημένο αίτηση.
     <s:String x:Key="String_FailOnErrorStreamChecked">Βήμα δοκιμής θα αποτύχει αν κάτι ήταν γραμμένο σε ρεύμα σφάλματος.</s:String>
     <s:String x:Key="String_FailOnErrorStreamUnchecked">Βήμα δοκιμής δεν θα επισημανθούν ως αποτυχία, αν κάτι ήταν γραμμένο σε ρεύμα σφάλματος.</s:String>
     <s:String x:Key="String_OutputColon">Ισχύς εξόδου:</s:String>
+    <!-- DataGeneratorTestStepEditor.xaml -->
+    <s:String x:Key="String_ListOfVariablesColon">Λίστα των μεταβλητών: </s:String>
     <!-- ContainsAssertionEditor.xaml -->
     <s:String x:Key="String_ContainsAssertion">Περιέχει διεκδίκησης</s:String>
     <s:String x:Key="String_ContainsAssertionDescription">Ελέγχει εάν ένα κείμενο που παρουσιάζεται στο της αίτησης ή της απόκρισης</s:String>

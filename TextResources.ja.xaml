@@ -35,6 +35,7 @@
     <s:String x:Key="String_TestSettings">テストの設定</s:String>
     <s:String x:Key="String_Extensions">拡張機能</s:String>
     <s:String x:Key="String_ProfileManagement">プロファイルの管理</s:String>
+    <s:String x:Key="String_Certificate">証明書</s:String>
     <!-- GENERAL SETTINGS -->
     <s:String x:Key="String_SystemBehaviors">システムの動作</s:String>
     <s:String x:Key="String_LogPath">ログのパス:</s:String>
@@ -263,6 +264,12 @@
     <s:String x:Key="String_ClearCustomVariables">明確なカスタム変数</s:String>
     <s:String x:Key="String_ClearCustomVariablesQuestion"><![CDATA[カスタム変数をすべて削除しますか。
 この操作は回復されません。]]></s:String>
+    <!-- ViewLoadTest -->
+    <s:String x:Key="String_LoadTest">負荷テスト</s:String>
+    <s:String x:Key="String_RunLoadTest">ロード テストを実行します。</s:String>
+    <s:String x:Key="String_ShowMonitoring">監視を表示します。</s:String>
+    <s:String x:Key="String_LoadConfiguration">負荷構成</s:String>
+    <s:String x:Key="String_EstimatedLoadGraph">推定負荷グラフ</s:String>
     <!-- ViewTestSuite.xaml -->
     <s:String x:Key="String_TestSuiteColon">テスト スイート:</s:String>
     <s:String x:Key="String_TestSuiteConfiguration">テスト スイートの構成</s:String>
@@ -276,12 +283,30 @@
     <s:String x:Key="String_Test">テスト</s:String>
     <s:String x:Key="String_AssertionObjectNull">アサーション オブジェクトを null にすることはできません。</s:String>
     <s:String x:Key="String_AssertionTestException">未処理の例外は、アサーションをテストするときにスローされます。</s:String>
+    <!-- WindowPerformanceTestMonitor -->
+    <s:String x:Key="String_PerformanceTestMonitor">パフォーマンス テストのモニター</s:String>
+    <s:String x:Key="String_ExpectedLoad">予想される負荷</s:String>
+    <s:String x:Key="String_ActualLoad">実際の負荷</s:String>
+    <s:String x:Key="String_RunningThreads">実行中のスレッド</s:String>
+    <s:String x:Key="String_SystemResources">システム リソース</s:String>
+    <s:String x:Key="String_Cpu">CPU</s:String>
+    <s:String x:Key="String_Memory">メモリ</s:String>
+    <s:String x:Key="String_PerformanceIndicators">業績評価指標</s:String>
+    <s:String x:Key="String_IterationPassrate">イテレーションの合格率</s:String>
+    <s:String x:Key="String_IterationCycletime">イテレーション サイクル タイム</s:String>
+    <s:String x:Key="String_ServicePassrate">サービスの合格率</s:String>
+    <s:String x:Key="String_ServiceResponsetime">サービス応答時間</s:String>
+    <s:String x:Key="String_PercentCpuUtilization">CPU 使用率</s:String>
+    <s:String x:Key="String_PercentMemoryUsage">% のメモリ使用量</s:String>
+    <s:String x:Key="String_PercentIterationPassrate">イテレーション パス率 %</s:String>
+    <s:String x:Key="String_Ignored">無視されます。</s:String>
     <!-- WindowEditExtractProperty.xaml -->
     <s:String x:Key="String_EditPropertyExtraction">プロパティ抽出を編集します。</s:String>
     <s:String x:Key="String_PropertyNameColon">プロパティ名:</s:String>
     <s:String x:Key="String_PathTypeColon">パスの種類:</s:String>
     <s:String x:Key="String_PathColon">パス:</s:String>
     <s:String x:Key="String_VariableNameColon">変数名</s:String>
+    <s:String x:Key="String_PossibleValues">可能な値:</s:String>
     <s:String x:Key="String_CurrentValue">現在の値</s:String>
     <s:String x:Key="String_GetCurrentValue">現在の構成から値を取得する評価ボタンをクリックします。</s:String>
     <s:String x:Key="String_Evaluate">評価</s:String>
@@ -335,6 +360,11 @@
     <s:String x:Key="String_InputValueNotMatchTypeX"><![CDATA[入力値が入力と一致しません: {0}。
 ください再試行するかキャンセルする esc キーを押します。]]></s:String>
     <s:String x:Key="String_StringEditor">文字列エディター</s:String>
+    <!-- ViewLoadTestReportItem -->
+    <s:String x:Key="String_AllU">すべての</s:String>
+    <s:String x:Key="String_CycleTime">サイクル タイム (秒)</s:String>
+    <s:String x:Key="String_TheoreticalActualLoad">理論と実際の負荷</s:String>
+    <s:String x:Key="String_TestIterations">テスト イテレーションの数</s:String>
     <s:String x:Key="String_CredentialColon">資格情報:</s:String>
     <s:String x:Key="String_UserDefined">ユーザー定義</s:String>
     <s:String x:Key="String_SpecifyAUserDefinedCredential">定義されているユーザー資格情報を指定します。</s:String>
@@ -587,7 +617,7 @@ Hummingbirdを今すぐ再起動しますか。]]></s:String>
     <s:String x:Key="String_CloseProject">プロジェクトを閉じる</s:String>
     <s:String x:Key="String_Save">保存</s:String>
     <s:String x:Key="String_AutomationProject">オートメーション プロジェクト</s:String>
-    <s:String x:Key="String_FunctionalTestEditorRunner">機能的なテスト エディター ・ ランナー</s:String>
+    <s:String x:Key="String_FunctionalTestEditorRunner">自動化されたテスト エディター</s:String>
     <s:String x:Key="String_StartsFromHere">ここから始まります</s:String>
     <s:String x:Key="String_CreateNewAutomationProject">新しいオートメーション プロジェクトを作成します。</s:String>
     <s:String x:Key="String_OpenExistingProject">既存のプロジェクトを開く</s:String>
@@ -631,6 +661,19 @@ Hummingbirdを今すぐ再起動しますか。]]></s:String>
     <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">オートメーション プロジェクトをロードするときにエラーが発生しました</s:String>
     <s:String x:Key="String_SaveCurrentProject">現在のプロジェクトを保存しますか。</s:String>
     <s:String x:Key="String_SaveCurrentProjectMessage">現在の自動化プロジェクトを保存しますか。</s:String>
+    <s:String x:Key="String_AutomationObjectNotRecognized">自動化テスト オブジェクトを認識されませんすることができます。</s:String>
+    <s:String x:Key="String_NewTestCase">新しいテスト _ ケース</s:String>
+    <s:String x:Key="String_NewDataDrivenTest">新しいデータ ドリブン テスト</s:String>
+    <s:String x:Key="String_NewTestSuite">新しいテスト スイート</s:String>
+    <s:String x:Key="String_AddLoadTestSuite">負荷テスト スイートを追加します。</s:String>
+    <s:String x:Key="String_NewLoadTestSuite">新しいロード テスト スイート</s:String>
+    <s:String x:Key="String_InsertLoadTestSuite">負荷テスト スイートを挿入します。</s:String>
+    <s:String x:Key="String_AddBasicLoadTest">基本的なロード テストを追加します。</s:String>
+    <s:String x:Key="String_NewLoadTest">新しいロード テスト</s:String>
+    <s:String x:Key="String_AddStressTest">ストレス テストを追加します。</s:String>
+    <s:String x:Key="String_NewStressTest">新しいストレス テスト</s:String>
+    <s:String x:Key="String_AddSpikeTest">スパイク テストを追加します。</s:String>
+    <s:String x:Key="String_NewSpikeTest">新しいスパイク テスト</s:String>
     <!-- ViewBase64Tool.xaml -->
     <s:String x:Key="String_ActionColon">アクション:</s:String>
     <s:String x:Key="String_Base64EncodingTitle">Base64 エンコーディング ・ デコーディング</s:String>
@@ -775,8 +818,8 @@ NO: 好きな要求を削除します。
     <s:String x:Key="String_WarningUriFormatMessage"><![CDATA[このサービス '{0}' の UriTemplate は順調ではない Uri を形成
 この Uri は、変数を使用して、すべての変数を使用する場合の設定が割り当てられているを確認してください。]]></s:String>
     <!-- WindowServerReponse -->
-    <s:String x:Key="String_Type3CharsToFind">しない限り、有効な 3 文字サービスを見つけることを入力してください。</s:String>
-    <s:String x:Key="String_NoResultMatchSearchPattern">検索パターンに一致する結果はありません。</s:String>
+    <s:String x:Key="String_Type3CharsToFind">サービスを検索する、少なくとも 3 の有効な文字を入力してください。</s:String>
+    <s:String x:Key="String_NoResultMatchSearchPattern">検索パターンに一致する結果がありません。</s:String>
     <s:String x:Key="String_RenameYourResponse">あなたの応答の名前を変更します。</s:String>
     <s:String x:Key="String_FunctionalError">機能的なエラー</s:String>
     <s:String x:Key="String_CannotNameResponseAsDefault">「デフォルト」この名前は予約されている間、応答に名前をことはできません。</s:String>
@@ -791,6 +834,8 @@ NO: 好きな要求を削除します。
     <s:String x:Key="String_FailOnErrorStreamChecked">何かがエラー ストリームに書き込まれた場合は、テスト ステップが失敗します。</s:String>
     <s:String x:Key="String_FailOnErrorStreamUnchecked">何かがエラー ストリームに書き込まれた場合、テスト ステップは失敗としてマークされません。</s:String>
     <s:String x:Key="String_OutputColon">出力:</s:String>
+    <!-- DataGeneratorTestStepEditor.xaml -->
+    <s:String x:Key="String_ListOfVariablesColon">変数の一覧:</s:String>
     <!-- ContainsAssertionEditor.xaml -->
     <s:String x:Key="String_ContainsAssertion">アサーションが含まれています</s:String>
     <s:String x:Key="String_ContainsAssertionDescription">場合、要求または応答のテキストをチェックします。</s:String>

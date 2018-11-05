@@ -35,6 +35,7 @@
     <s:String x:Key="String_TestSettings">Параметры тестирования</s:String>
     <s:String x:Key="String_Extensions">Расширения</s:String>
     <s:String x:Key="String_ProfileManagement">Управление профилем</s:String>
+    <s:String x:Key="String_Certificate">Сертификат</s:String>
     <!-- GENERAL SETTINGS -->
     <s:String x:Key="String_SystemBehaviors">Поведения системы</s:String>
     <s:String x:Key="String_LogPath">Путь к журналу:</s:String>
@@ -263,6 +264,12 @@
     <s:String x:Key="String_ClearCustomVariables">Очистить пользовательские переменные</s:String>
     <s:String x:Key="String_ClearCustomVariablesQuestion"><![CDATA[Вы хотите удалить все пользовательские переменные? 
 Это действие не может быть восстановлена.]]></s:String>
+    <!-- ViewLoadTest -->
+    <s:String x:Key="String_LoadTest">Нагрузочный тест</s:String>
+    <s:String x:Key="String_RunLoadTest">Запуск нагрузочного теста</s:String>
+    <s:String x:Key="String_ShowMonitoring">Показать мониторинг</s:String>
+    <s:String x:Key="String_LoadConfiguration">Загрузить конфигурацию</s:String>
+    <s:String x:Key="String_EstimatedLoadGraph">По оценкам нагрузки граф</s:String>
     <!-- ViewTestSuite.xaml -->
     <s:String x:Key="String_TestSuiteColon">Набор тестов:</s:String>
     <s:String x:Key="String_TestSuiteConfiguration">Конфигурация теста Люкс</s:String>
@@ -276,12 +283,30 @@
     <s:String x:Key="String_Test">Тест</s:String>
     <s:String x:Key="String_AssertionObjectNull">Объект утверждения не может иметь значение null</s:String>
     <s:String x:Key="String_AssertionTestException">Необработанное исключение, возникающее при тестировании утверждение: </s:String>
+    <!-- WindowPerformanceTestMonitor -->
+    <s:String x:Key="String_PerformanceTestMonitor">Монитор производительности теста</s:String>
+    <s:String x:Key="String_ExpectedLoad">Ожидаемые нагрузки</s:String>
+    <s:String x:Key="String_ActualLoad">Фактическая нагрузка</s:String>
+    <s:String x:Key="String_RunningThreads">Выполнение потоков</s:String>
+    <s:String x:Key="String_SystemResources">Системные ресурсы</s:String>
+    <s:String x:Key="String_Cpu">ПРОЦЕССОР</s:String>
+    <s:String x:Key="String_Memory">Память</s:String>
+    <s:String x:Key="String_PerformanceIndicators">Показатели деятельности</s:String>
+    <s:String x:Key="String_IterationPassrate">Итерации проходной</s:String>
+    <s:String x:Key="String_IterationCycletime">Итерации цикла времени</s:String>
+    <s:String x:Key="String_ServicePassrate">Сервис-проходной</s:String>
+    <s:String x:Key="String_ServiceResponsetime">Время ответа службы</s:String>
+    <s:String x:Key="String_PercentCpuUtilization">Использование % CPU</s:String>
+    <s:String x:Key="String_PercentMemoryUsage">% Использования памяти</s:String>
+    <s:String x:Key="String_PercentIterationPassrate">% Итерации проходной</s:String>
+    <s:String x:Key="String_Ignored">Игнорируется</s:String>
     <!-- WindowEditExtractProperty.xaml -->
     <s:String x:Key="String_EditPropertyExtraction">Редактирование свойств извлечения</s:String>
     <s:String x:Key="String_PropertyNameColon">Имя свойства:</s:String>
     <s:String x:Key="String_PathTypeColon">Тип пути:</s:String>
     <s:String x:Key="String_PathColon">Путь:</s:String>
     <s:String x:Key="String_VariableNameColon">Имя переменной</s:String>
+    <s:String x:Key="String_PossibleValues">Возможные значения: </s:String>
     <s:String x:Key="String_CurrentValue">Текущее значение</s:String>
     <s:String x:Key="String_GetCurrentValue">Нажмите кнопку вычислить, чтобы получить значение из текущей конфигурации</s:String>
     <s:String x:Key="String_Evaluate">Оценить</s:String>
@@ -335,6 +360,11 @@
     <s:String x:Key="String_InputValueNotMatchTypeX"><![CDATA[Введенное значение не соответствует к типу: {0}.
 Пожалуйста попробуйте еще раз или нажмите ESC для отмены.]]></s:String>
     <s:String x:Key="String_StringEditor">Редактор строк</s:String>
+    <!-- ViewLoadTestReportItem -->
+    <s:String x:Key="String_AllU">ВСЕ</s:String>
+    <s:String x:Key="String_CycleTime">Время цикла (s)</s:String>
+    <s:String x:Key="String_TheoreticalActualLoad">Теоретические и фактической нагрузки</s:String>
+    <s:String x:Key="String_TestIterations">Итерации теста</s:String>
     <s:String x:Key="String_CredentialColon">Учетные данные:</s:String>
     <s:String x:Key="String_UserDefined">Определяемые пользователем</s:String>
     <s:String x:Key="String_SpecifyAUserDefinedCredential">Указание учетных данных пользователем</s:String>
@@ -587,7 +617,7 @@
     <s:String x:Key="String_CloseProject">Закрыть проект</s:String>
     <s:String x:Key="String_Save">Сохранить</s:String>
     <s:String x:Key="String_AutomationProject">Проект автоматизации</s:String>
-    <s:String x:Key="String_FunctionalTestEditorRunner">Функциональный тест редактор &amp; бегун</s:String>
+    <s:String x:Key="String_FunctionalTestEditorRunner">Автоматизированный тест редактор</s:String>
     <s:String x:Key="String_StartsFromHere">Начинается от здесь</s:String>
     <s:String x:Key="String_CreateNewAutomationProject">Создайте новый проект автоматизации</s:String>
     <s:String x:Key="String_OpenExistingProject">Открыть существующий проект</s:String>
@@ -631,6 +661,19 @@
     <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">Произошла ошибка при загрузке проекта автоматизации</s:String>
     <s:String x:Key="String_SaveCurrentProject">Сохранить текущий проект?</s:String>
     <s:String x:Key="String_SaveCurrentProjectMessage">Вы хотите сохранить текущий проект автоматизации?</s:String>
+    <s:String x:Key="String_AutomationObjectNotRecognized">Объект автоматизации тестирования не может быть признано.</s:String>
+    <s:String x:Key="String_NewTestCase">Новый тестовый случай</s:String>
+    <s:String x:Key="String_NewDataDrivenTest">Новый тест, управляемый данными</s:String>
+    <s:String x:Key="String_NewTestSuite">Новый набор тестов</s:String>
+    <s:String x:Key="String_AddLoadTestSuite">Добавление набора тестов нагрузки</s:String>
+    <s:String x:Key="String_NewLoadTestSuite">Новый набор тестов нагрузки</s:String>
+    <s:String x:Key="String_InsertLoadTestSuite">Вставка набора тестов нагрузки</s:String>
+    <s:String x:Key="String_AddBasicLoadTest">Добавление базового нагрузочного теста</s:String>
+    <s:String x:Key="String_NewLoadTest">Новый нагрузочный тест</s:String>
+    <s:String x:Key="String_AddStressTest">Добавьте нагрузочный тест</s:String>
+    <s:String x:Key="String_NewStressTest">Новые стресс-тест</s:String>
+    <s:String x:Key="String_AddSpikeTest">Добавьте тест Спайк</s:String>
+    <s:String x:Key="String_NewSpikeTest">Новый всплеск тест</s:String>
     <!-- ViewBase64Tool.xaml -->
     <s:String x:Key="String_ActionColon">Действия: </s:String>
     <s:String x:Key="String_Base64EncodingTitle">Base64 кодирование &amp; декодирование</s:String>
@@ -775,8 +818,8 @@ NO: Удаление любимых запрос.
     <s:String x:Key="String_WarningUriFormatMessage"><![CDATA[UriTemplate этой службы «{0}» не является хорошо формируется Uri
 Если этот Uri использует переменные, пожалуйста проверьте настройки если все используемые переменные назначаются.]]></s:String>
     <!-- WindowServerReponse -->
-    <s:String x:Key="String_Type3CharsToFind">Введите, пожалуйста, если 3 допустимые символы найти услуги.</s:String>
-    <s:String x:Key="String_NoResultMatchSearchPattern">никакой результат соответствует шаблону поиска.</s:String>
+    <s:String x:Key="String_Type3CharsToFind">Пожалуйста, введите по крайней мере 3 допустимых символов для поиска служб.</s:String>
+    <s:String x:Key="String_NoResultMatchSearchPattern">результат не соответствует ваш шаблон поиска.</s:String>
     <s:String x:Key="String_RenameYourResponse">Переименуйте ваш ответ</s:String>
     <s:String x:Key="String_FunctionalError">Ошибка</s:String>
     <s:String x:Key="String_CannotNameResponseAsDefault">Вы не можете назвать ответ как «По умолчанию», в то время как это имя зарезервировано.</s:String>
@@ -791,6 +834,8 @@ NO: Удаление любимых запрос.
     <s:String x:Key="String_FailOnErrorStreamChecked">Шаг теста будет сбой, если что-либо было написано на поток сообщений об ошибках.</s:String>
     <s:String x:Key="String_FailOnErrorStreamUnchecked">Шаг теста не помечается как ошибка, если что-либо было написано на поток сообщений об ошибках.</s:String>
     <s:String x:Key="String_OutputColon">Выход:</s:String>
+    <!-- DataGeneratorTestStepEditor.xaml -->
+    <s:String x:Key="String_ListOfVariablesColon">Список переменных: </s:String>
     <!-- ContainsAssertionEditor.xaml -->
     <s:String x:Key="String_ContainsAssertion">Содержит утверждение</s:String>
     <s:String x:Key="String_ContainsAssertionDescription">Проверяет, если текст происходит в запрос или ответ</s:String>

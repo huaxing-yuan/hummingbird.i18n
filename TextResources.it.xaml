@@ -35,6 +35,7 @@
     <s:String x:Key="String_TestSettings">Impostazioni di test</s:String>
     <s:String x:Key="String_Extensions">Estensioni</s:String>
     <s:String x:Key="String_ProfileManagement">Gestione dei profili</s:String>
+    <s:String x:Key="String_Certificate">Certificato</s:String>
     <!-- GENERAL SETTINGS -->
     <s:String x:Key="String_SystemBehaviors">Comportamenti del sistema</s:String>
     <s:String x:Key="String_LogPath">Percorso del registro:</s:String>
@@ -263,6 +264,12 @@
     <s:String x:Key="String_ClearCustomVariables">Variabili personalizzate chiaro</s:String>
     <s:String x:Key="String_ClearCustomVariablesQuestion"><![CDATA[Si desidera eliminare tutte le variabili personalizzate? 
 Questa azione non può essere recuperata.]]></s:String>
+    <!-- ViewLoadTest -->
+    <s:String x:Key="String_LoadTest">Test di carico</s:String>
+    <s:String x:Key="String_RunLoadTest">Eseguire Test di carico</s:String>
+    <s:String x:Key="String_ShowMonitoring">Visualizza monitoraggio</s:String>
+    <s:String x:Key="String_LoadConfiguration">Caricare la configurazione</s:String>
+    <s:String x:Key="String_EstimatedLoadGraph">Grafico del carico stimato</s:String>
     <!-- ViewTestSuite.xaml -->
     <s:String x:Key="String_TestSuiteColon">Gruppo di test:</s:String>
     <s:String x:Key="String_TestSuiteConfiguration">Configurazione della Suite di test</s:String>
@@ -276,12 +283,30 @@ Questa azione non può essere recuperata.]]></s:String>
     <s:String x:Key="String_Test">Prova</s:String>
     <s:String x:Key="String_AssertionObjectNull">Oggetto dell'asserzione non può essere null</s:String>
     <s:String x:Key="String_AssertionTestException">Generata quando si verifica l'asserzione di eccezione non gestita: </s:String>
+    <!-- WindowPerformanceTestMonitor -->
+    <s:String x:Key="String_PerformanceTestMonitor">Performance Test Monitor</s:String>
+    <s:String x:Key="String_ExpectedLoad">Carico previsto</s:String>
+    <s:String x:Key="String_ActualLoad">Carico effettivo</s:String>
+    <s:String x:Key="String_RunningThreads">Thread in esecuzione.</s:String>
+    <s:String x:Key="String_SystemResources">Risorse di sistema</s:String>
+    <s:String x:Key="String_Cpu">CPU</s:String>
+    <s:String x:Key="String_Memory">Memoria</s:String>
+    <s:String x:Key="String_PerformanceIndicators">Indicatori di performance</s:String>
+    <s:String x:Key="String_IterationPassrate">Tasso di passaggio di iterazione</s:String>
+    <s:String x:Key="String_IterationCycletime">Tempo di ciclo di iterazione</s:String>
+    <s:String x:Key="String_ServicePassrate">Tasso di passaggio di servizio</s:String>
+    <s:String x:Key="String_ServiceResponsetime">Tempo di risposta del servizio</s:String>
+    <s:String x:Key="String_PercentCpuUtilization">% CPU utilizzo</s:String>
+    <s:String x:Key="String_PercentMemoryUsage">% L'utilizzo della memoria</s:String>
+    <s:String x:Key="String_PercentIterationPassrate">Tasso di passaggio di iterazione %</s:String>
+    <s:String x:Key="String_Ignored">Ignorato</s:String>
     <!-- WindowEditExtractProperty.xaml -->
     <s:String x:Key="String_EditPropertyExtraction">Modificare proprietà estrazione</s:String>
     <s:String x:Key="String_PropertyNameColon">Nome dell'immobile:</s:String>
     <s:String x:Key="String_PathTypeColon">Tipo di percorso:</s:String>
     <s:String x:Key="String_PathColon">Percorso:</s:String>
     <s:String x:Key="String_VariableNameColon">Nome della variabile</s:String>
+    <s:String x:Key="String_PossibleValues">Valori possibili: </s:String>
     <s:String x:Key="String_CurrentValue">Valore corrente</s:String>
     <s:String x:Key="String_GetCurrentValue">Fare clic sul pulsante Evaluate per ottenere il valore dalla configurazione corrente</s:String>
     <s:String x:Key="String_Evaluate">Valutare</s:String>
@@ -335,6 +360,11 @@ Questa azione non può essere recuperata.]]></s:String>
     <s:String x:Key="String_InputValueNotMatchTypeX"><![CDATA[Valore di input non corrisponde al tipo: {0}.
 Si prega di riprovare o premere ESC per annullare.]]></s:String>
     <s:String x:Key="String_StringEditor">Editor di stringa</s:String>
+    <!-- ViewLoadTestReportItem -->
+    <s:String x:Key="String_AllU">TUTTI i</s:String>
+    <s:String x:Key="String_CycleTime">Tempo di ciclo (s)</s:String>
+    <s:String x:Key="String_TheoreticalActualLoad">Carico teorico ed effettivo</s:String>
+    <s:String x:Key="String_TestIterations">Iterazioni test</s:String>
     <s:String x:Key="String_CredentialColon">Credenziali:</s:String>
     <s:String x:Key="String_UserDefined">Definito dall'utente</s:String>
     <s:String x:Key="String_SpecifyAUserDefinedCredential">Specificare una credenziale utente definito</s:String>
@@ -587,7 +617,7 @@ Si desidera riavviare ora il Hummingbird?]]></s:String>
     <s:String x:Key="String_CloseProject">Chiudi progetto</s:String>
     <s:String x:Key="String_Save">Salva</s:String>
     <s:String x:Key="String_AutomationProject">Progetto di automazione</s:String>
-    <s:String x:Key="String_FunctionalTestEditorRunner">Editor di Test funzionale &amp; Runner</s:String>
+    <s:String x:Key="String_FunctionalTestEditorRunner">Editor di Test automatizzati</s:String>
     <s:String x:Key="String_StartsFromHere">Comincia da qui</s:String>
     <s:String x:Key="String_CreateNewAutomationProject">Creare un nuovo progetto di automazione</s:String>
     <s:String x:Key="String_OpenExistingProject">Aprire un progetto esistente</s:String>
@@ -631,6 +661,19 @@ Si desidera riavviare ora il Hummingbird?]]></s:String>
     <s:String x:Key="String_AnErrorHasOccurredLoadingAutomationProject">Si è verificato un errore durante il caricamento di progetto di automazione</s:String>
     <s:String x:Key="String_SaveCurrentProject">Salvare il progetto corrente?</s:String>
     <s:String x:Key="String_SaveCurrentProjectMessage">Vuoi salvare il progetto corrente di automazione?</s:String>
+    <s:String x:Key="String_AutomationObjectNotRecognized">L'oggetto del test di automazione non può essere riconosciuto.</s:String>
+    <s:String x:Key="String_NewTestCase">Nuovo Test case</s:String>
+    <s:String x:Key="String_NewDataDrivenTest">Nuovi Test basati sui dati</s:String>
+    <s:String x:Key="String_NewTestSuite">Nuovo gruppo di Test</s:String>
+    <s:String x:Key="String_AddLoadTestSuite">Aggiungere un gruppo di Test di carico</s:String>
+    <s:String x:Key="String_NewLoadTestSuite">Nuovo gruppo di Test di carico</s:String>
+    <s:String x:Key="String_InsertLoadTestSuite">Inserire un gruppo di Test di carico</s:String>
+    <s:String x:Key="String_AddBasicLoadTest">Aggiungere un Test di carico di base</s:String>
+    <s:String x:Key="String_NewLoadTest">Nuovo Test di carico</s:String>
+    <s:String x:Key="String_AddStressTest">Aggiungere un Test di Stress</s:String>
+    <s:String x:Key="String_NewStressTest">Nuovi Stress test</s:String>
+    <s:String x:Key="String_AddSpikeTest">Aggiungere un Test di Spike</s:String>
+    <s:String x:Key="String_NewSpikeTest">Nuovo test di Spike</s:String>
     <!-- ViewBase64Tool.xaml -->
     <s:String x:Key="String_ActionColon">Azione: </s:String>
     <s:String x:Key="String_Base64EncodingTitle">La codifica Base64 &amp; decodifica</s:String>
@@ -775,8 +818,8 @@ Annulla: Non eliminare nulla.]]></s:String>
     <s:String x:Key="String_WarningUriFormatMessage"><![CDATA[UriTemplate di questo servizio '{0}' non è ben formato Uri
 Se questo Uri utilizza variabili, si prega di controllare se tutte le variabili usate vengono assegnate.]]></s:String>
     <!-- WindowServerReponse -->
-    <s:String x:Key="String_Type3CharsToFind">Si prega di digitare a meno che 3 valido chars per trovare i servizi.</s:String>
-    <s:String x:Key="String_NoResultMatchSearchPattern">Nessun risultato per abbinare il vostro criterio di ricerca.</s:String>
+    <s:String x:Key="String_Type3CharsToFind">Si prega di digitare almeno 3 caratteri validi per servizi di ricerca.</s:String>
+    <s:String x:Key="String_NoResultMatchSearchPattern">Nessun risultato corrisponde il tuo criterio di ricerca.</s:String>
     <s:String x:Key="String_RenameYourResponse">Rinominare la tua risposta</s:String>
     <s:String x:Key="String_FunctionalError">Errore funzionale</s:String>
     <s:String x:Key="String_CannotNameResponseAsDefault">Non è possibile denominare una risposta come "Predefinito", mentre questo nome è riservato.</s:String>
@@ -791,6 +834,8 @@ Se questo Uri utilizza variabili, si prega di controllare se tutte le variabili 
     <s:String x:Key="String_FailOnErrorStreamChecked">Passo del test verrà eseguito se nulla è stato scritto il flusso di errore.</s:String>
     <s:String x:Key="String_FailOnErrorStreamUnchecked">Istruzione di prova non verrà contrassegnata come non riuscito se nulla è stato scritto il flusso di errore.</s:String>
     <s:String x:Key="String_OutputColon">Uscita:</s:String>
+    <!-- DataGeneratorTestStepEditor.xaml -->
+    <s:String x:Key="String_ListOfVariablesColon">Elenco delle variabili: </s:String>
     <!-- ContainsAssertionEditor.xaml -->
     <s:String x:Key="String_ContainsAssertion">Contiene asserzione</s:String>
     <s:String x:Key="String_ContainsAssertionDescription">Controlla se un testo si verifica la richiesta o la risposta</s:String>
