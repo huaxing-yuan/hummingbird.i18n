@@ -278,6 +278,19 @@
     <s:String x:Key="String_Sort">排序</s:String>
     <s:String x:Key="String_TestSuiteInformationColon">测试套件信息:</s:String>
     <s:String x:Key="String_ListTestCasesColon">测试用例列表</s:String>
+    <!-- PanelLoadTestParameters.xaml -->
+    <s:String x:Key="String_ExpectedLoadColon">预期负载:</s:String>
+    <s:String x:Key="String_TestDurationColon">持续时间:</s:String>
+    <s:String x:Key="String_RampupTimeColon">预热时间:</s:String>
+    <s:String x:Key="String_StartDelayColon">开始延迟:</s:String>
+    <s:String x:Key="String_ExpectedSpikeLoadColon">预期的尖峰负载:</s:String>
+    <s:String x:Key="String_SpikeDurationColon">尖峰持续时间:</s:String>
+    <s:String x:Key="String_NumberOfSpikesColon">尖峰数量:</s:String>
+    <s:String x:Key="String_ExpectedPeakLoadColon">预期峰值负载:</s:String>
+    <s:String x:Key="String_PeakDurationColon">峰值持续时间:</s:String>
+    <s:String x:Key="String_RampUpToPeakTime">到峰值的时间:</s:String>
+    <s:String x:Key="String_AddControlPoint">添加控制点</s:String>
+    <s:String x:Key="String_TimePoint">时间点</s:String>
     <!-- WindowEditAssertion.xaml -->
     <s:String x:Key="String_Assertion">断言</s:String>
     <s:String x:Key="String_Test">测试</s:String>
@@ -665,15 +678,15 @@
     <s:String x:Key="String_NewTestCase">新的测试用例</s:String>
     <s:String x:Key="String_NewDataDrivenTest">新的数据驱动测试</s:String>
     <s:String x:Key="String_NewTestSuite">新的测试套件</s:String>
-    <s:String x:Key="String_AddLoadTestSuite">添加负载测试套件</s:String>
-    <s:String x:Key="String_NewLoadTestSuite">新的负载测试套件</s:String>
-    <s:String x:Key="String_InsertLoadTestSuite">插入负载测试套件</s:String>
-    <s:String x:Key="String_AddBasicLoadTest">添加基本负载测试</s:String>
-    <s:String x:Key="String_NewLoadTest">新的负载测试</s:String>
+    <s:String x:Key="String_AddLoadTestSuite">添加性能测试套件</s:String>
+    <s:String x:Key="String_NewLoadTestSuite">新的性能测试套件</s:String>
+    <s:String x:Key="String_InsertLoadTestSuite">插入性能测试套件</s:String>
+    <s:String x:Key="String_AddBasicLoadTest">添加基本性能测试</s:String>
+    <s:String x:Key="String_NewLoadTest">新的性能测试</s:String>
     <s:String x:Key="String_AddStressTest">添加压力测试</s:String>
     <s:String x:Key="String_NewStressTest">新的压力测试</s:String>
-    <s:String x:Key="String_AddSpikeTest">添加尖刺测试</s:String>
-    <s:String x:Key="String_NewSpikeTest">新的尖刺测试</s:String>
+    <s:String x:Key="String_AddSpikeTest">添加尖峰冲击测试</s:String>
+    <s:String x:Key="String_NewSpikeTest">新的尖峰冲击测试</s:String>
     <!-- ViewBase64Tool.xaml -->
     <s:String x:Key="String_ActionColon">行动：</s:String>
     <s:String x:Key="String_Base64EncodingTitle">Base64 编码和解码</s:String>
@@ -724,7 +737,7 @@
     <s:String x:Key="String_ChangeServiceName">更改此服务的名称</s:String>
     <s:String x:Key="String_ChangeServiceNameContent">为所选服务输入新值</s:String>
     <s:String x:Key="String_AddSoapService">添加 SOAP 服务</s:String>
-    <s:String x:Key="String_MySoapService">我的肥皂服务</s:String>
+    <s:String x:Key="String_MySoapService">我的 SOAP 服务</s:String>
     <s:String x:Key="String_DeleteThisCategory">删除此类别</s:String>
     <s:String x:Key="String_ChangeCategoryName">更改服务类别的名称</s:String>
     <s:String x:Key="String_ChangeCategoryNameContent">为所选服务类别输入新值</s:String>
@@ -736,9 +749,9 @@
     <s:String x:Key="String_ApplicationHasSubItemsContent">您要删除包含一个或多个服务类别的此应用程序 \n 是否要以任何方式删除此应用程序？</s:String>
     <s:String x:Key="String_ChangeNameOfApplication">更改应用程序名称</s:String>
     <s:String x:Key="String_AddAnApplication">添加应用程序</s:String>
-    <s:String x:Key="String_MyApplication">我的申请</s:String>
-    <s:String x:Key="String_ChangeExtensionName">更改扩展名</s:String>
-    <s:String x:Key="String_ChangeExtensionNameContent">为所选应用程序输入新值</s:String>
+    <s:String x:Key="String_MyApplication">我的应用程序</s:String>
+    <s:String x:Key="String_ChangeExtensionName">更改扩展名称</s:String>
+    <s:String x:Key="String_ChangeExtensionNameContent">为所选应用程序输入新的名字</s:String>
     <s:String x:Key="String_SaveCurrentProjectContent"><![CDATA[您当前的项目还没有保存, 现在要保存吗？
 是: 保存当前项目并创建新项目。
 否: 放弃当前项目并创建新项目。
@@ -773,15 +786,15 @@
     <!-- WindowSearch.xaml -->
     <s:String x:Key="String_Search">搜索</s:String>
     <s:String x:Key="String_SearchColon">搜索：</s:String>
-    <s:String x:Key="String_InColon">在</s:String>
+    <s:String x:Key="String_InColon">在：</s:String>
     <s:String x:Key="String_SearchPropertyAndValue">在属性名称和值 (TreeView) 中搜索</s:String>
     <s:String x:Key="String_SearchValueOnly">仅搜索属性值 (树视图)</s:String>
     <s:String x:Key="String_IgnoreCase">忽略大小写</s:String>
-    <s:String x:Key="String_MatchCase">匹配案例</s:String>
+    <s:String x:Key="String_MatchCase">匹配大小写</s:String>
     <s:String x:Key="String_MatchWholeWord">匹配整个单词</s:String>
-    <s:String x:Key="String_MatchAnyWhere">随时随地匹配</s:String>
-    <s:String x:Key="String_SearchNext">下</s:String>
-    <s:String x:Key="String_CannotFindPattern">无法找到模式。</s:String>
+    <s:String x:Key="String_MatchAnyWhere">匹配任意位置</s:String>
+    <s:String x:Key="String_SearchNext">下一个</s:String>
+    <s:String x:Key="String_CannotFindPattern">无法找到匹配的词。</s:String>
     <s:String x:Key="String_NoResultMatchesPattern">没有与搜索 "{0}" 匹配的结果</s:String>
     <!-- WindowSelectRequest.xaml -->
     <s:String x:Key="String_SelectARequest">选择请求</s:String>
@@ -814,23 +827,23 @@
 是: 保留最喜欢的请求。
 否: 删除收藏夹请求。
 取消: 不要删除任何内容。]]></s:String>
-    <s:String x:Key="String_WarningUriFormat">警告-Uri 格式</s:String>
-    <s:String x:Key="String_WarningUriFormatMessage"><![CDATA[此服务 "{0}" 的实例不是格式正确的 Uri
-如果此 Uri 使用变量, 请检查设置是否分配了所有使用的变量。]]></s:String>
+    <s:String x:Key="String_WarningUriFormat">警告 Uri 格式错误</s:String>
+    <s:String x:Key="String_WarningUriFormatMessage"><![CDATA[服务 "{0}" 的 Uri 模板格式不正确 
+如果此 Uri 模板中包含了变量, 请检查测试配置文件是否给该变量分配了正确的值。]]></s:String>
     <!-- WindowServerReponse -->
-    <s:String x:Key="String_Type3CharsToFind">请键入至少3个有效的字符进行搜索服务。</s:String>
+    <s:String x:Key="String_Type3CharsToFind">请键入至少3个有效的字符进行搜索。</s:String>
     <s:String x:Key="String_NoResultMatchSearchPattern">没有与您的搜索模式匹配的结果。</s:String>
-    <s:String x:Key="String_RenameYourResponse">重命名您的回复</s:String>
-    <s:String x:Key="String_FunctionalError">功能错误</s:String>
-    <s:String x:Key="String_CannotNameResponseAsDefault">保留此名称时, 不能将回复命名为 "默认"。</s:String>
-    <s:String x:Key="String_CannotNameXBecauseExists">不能将回复命名为 "{0}", 因为同名的回复已存在。</s:String>
+    <s:String x:Key="String_RenameYourResponse">重命名回复</s:String>
+    <s:String x:Key="String_FunctionalError">功能性错误</s:String>
+    <s:String x:Key="String_CannotNameResponseAsDefault">"Default" 是默认的回复，不能将其他回复命名为 Default。</s:String>
+    <s:String x:Key="String_CannotNameXBecauseExists">不能将回复命名为 "{0}", 因为同名的回复已经存在。</s:String>
     <!-- CommandLineTestStepEditor.xaml-->
     <s:String x:Key="String_FileNameColon">文件名:</s:String>
     <s:String x:Key="String_ArgumentsColon">参数：</s:String>
     <s:String x:Key="String_WorkingDirectoryColon">工作目录:</s:String>
     <s:String x:Key="String_TimeoutColon">超时：</s:String>
     <s:String x:Key="String_TimeoutMessage">等待的最大时间 (秒)，超过此时间将导致超时</s:String>
-    <s:String x:Key="String_FailOnErrorStreamColon">错误流失败:</s:String>
+    <s:String x:Key="String_FailOnErrorStreamColon">错误流标记失败:</s:String>
     <s:String x:Key="String_FailOnErrorStreamChecked">如果在错误流上写入了任何内容, 则测试步骤标记为失败。</s:String>
     <s:String x:Key="String_FailOnErrorStreamUnchecked">如果在错误流上写入了任何内容, 测试步骤将不会标记为失败。</s:String>
     <s:String x:Key="String_OutputColon">输出：</s:String>
@@ -850,7 +863,7 @@
     <!-- CSharpScriptTestStepEditor -->
     <s:String x:Key="String_Compile">编译</s:String>
     <s:String x:Key="String_CodeU">代码</s:String>
-    <s:String x:Key="String_LineU">线</s:String>
+    <s:String x:Key="String_LineU">行</s:String>
     <!-- NotContainsAssertionEditor -->
     <s:String x:Key="String_NotContainsAssertion">"不包含" 断言</s:String>
     <s:String x:Key="String_NotContainsAssertionDescription">检查请求或回复中是否未出现给定文本</s:String>
@@ -871,9 +884,9 @@
     <s:String x:Key="String_SelectRequest">选择请求</s:String>
     <s:String x:Key="String_AddAssertion">添加断言</s:String>
     <s:String x:Key="String_Run">运行</s:String>
-    <s:String x:Key="String_RunAll">运行所有</s:String>
+    <s:String x:Key="String_RunAll">全部运行</s:String>
     <s:String x:Key="String_AssertionU">断言</s:String>
-    <s:String x:Key="String_StatusU">地位</s:String>
+    <s:String x:Key="String_StatusU">状态</s:String>
     <s:String x:Key="String_InformationU">信息</s:String>
     <!-- StartServiceSimulationTestStepEditor.xaml -->
     <s:String x:Key="String_SelectServiceToStartColon">选择要启动的服务:</s:String>
@@ -883,18 +896,18 @@
     <s:String x:Key="String_InformationColon">信息：</s:String>
     <!-- SoapFaultAssertion.xaml -->
     <s:String x:Key="String_SoapFaultAssertion">Soap Fault 断言</s:String>
-    <s:String x:Key="String_SoapFaultAssertionDescription">验证回复是否为 soap Fault/或验证回复是否为有效的 soap 回复</s:String>
+    <s:String x:Key="String_SoapFaultAssertionDescription">验证回复是否为 Soap Fault/或验证回复是否为有效的 soap 回复</s:String>
     <s:String x:Key="String_IsSoapFaultColon">是 Soap Fault:</s:String>
-    <s:String x:Key="String_IsSoapFaultChecked">断言服务器的回复是否为 soap Fault (soap 1.1 和 soap 1.2)</s:String>
-    <s:String x:Key="String_IsSoapFaultUnchecked">断言服务器的回复是否为有效回复, 而不是 Soap 错误</s:String>
+    <s:String x:Key="String_IsSoapFaultChecked">验证服务器的回复为 Soap Fault (Soap 1.1 和 Soap 1.2)</s:String>
+    <s:String x:Key="String_IsSoapFaultUnchecked">验证服务器的回复为有效回复, 而不是 Soap Fault</s:String>
     <!-- SqlQueryTestStepEditor.xaml -->
-    <s:String x:Key="String_RunSQLQuery">运行 SQL 查询:</s:String>
+    <s:String x:Key="String_RunSQLQuery">运行 SQL 查询语句:</s:String>
     <s:String x:Key="String_TestConnectivity">测试连接</s:String>
     <s:String x:Key="String_Help">帮助</s:String>
     <s:String x:Key="String_Configuration">配置</s:String>
     <s:String x:Key="String_Result">结果</s:String>
     <s:String x:Key="String_ServerNameOrIpColon">服务器名称或 IP 地址:</s:String>
-    <s:String x:Key="String_GeneralOptions">常规选项</s:String>
+    <s:String x:Key="String_GeneralOptions">常规选项</s:String> 
     <s:String x:Key="String_AuthenticationColon">认证：</s:String>
     <s:String x:Key="String_PreEmptiveColon">预授权认证:</s:String>
     <s:String x:Key="String_PreEmptiveChecked">使用预授权认证 (Pre-Emptive))</s:String>
@@ -907,8 +920,8 @@
     <s:String x:Key="String_CustomHttpHeaders">自定义 HTTP 标头</s:String>
     <s:String x:Key="String_Anonymous">匿名</s:String>
     <s:String x:Key="String_WindowsAuthentication">Windows 身份验证</s:String>
-    <s:String x:Key="String_WindowsAuthenticationTooltip">使用您当前的 windows 凭据来调用此服务, 与 Windows 集成身份验证</s:String>
+    <s:String x:Key="String_WindowsAuthenticationTooltip">使用您当前的 windows 凭据来调用此服务, 使用 Windows 集成身份验证</s:String>
     <s:String x:Key="String_NtlmAuthentication">NTLM 身份验证</s:String>
-    <s:String x:Key="String_NtlmAuthenticationTooltip">使用您当前的 Windows 凭据调用此服务, 使用 NTLM 身份验证</s:String>
+    <s:String x:Key="String_NtlmAuthenticationTooltip">使用您当前的 Windows 凭据来调用此服务, 使用 NTLM 身份验证</s:String>
     <s:String x:Key="String_ApplicationName">Hummingbird</s:String>
 </ResourceDictionary>

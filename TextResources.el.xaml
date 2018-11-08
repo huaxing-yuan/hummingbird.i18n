@@ -278,6 +278,19 @@
     <s:String x:Key="String_Sort">Είδος</s:String>
     <s:String x:Key="String_TestSuiteInformationColon">Δοκιμή σουίτα πληροφορίες:</s:String>
     <s:String x:Key="String_ListTestCasesColon">Κατάλογος των περιπτώσεων δοκιμής</s:String>
+    <!-- PanelLoadTestParameters.xaml -->
+    <s:String x:Key="String_ExpectedLoadColon">Αναμενόμενο φορτίο: </s:String>
+    <s:String x:Key="String_TestDurationColon">Διάρκεια δοκιμής (s): </s:String>
+    <s:String x:Key="String_RampupTimeColon">Κεκλιμένο επίπεδο-up χρόνος (s): </s:String>
+    <s:String x:Key="String_StartDelayColon">Καθυστέρηση εκκίνησης (s): </s:String>
+    <s:String x:Key="String_ExpectedSpikeLoadColon">Αναμενόμενη ακίδα φορτίο: </s:String>
+    <s:String x:Key="String_SpikeDurationColon">Στιλέτο Duration(s): </s:String>
+    <s:String x:Key="String_NumberOfSpikesColon">Αριθμός αιχμές: </s:String>
+    <s:String x:Key="String_ExpectedPeakLoadColon">Αναμενόμενο φορτίο αιχμής: </s:String>
+    <s:String x:Key="String_PeakDurationColon">Μέγιστη διάρκεια: </s:String>
+    <s:String x:Key="String_RampUpToPeakTime">Ράμπα-επάνω στην κορυφή (s): </s:String>
+    <s:String x:Key="String_AddControlPoint">Προσθήκη σημείου ελέγχου</s:String>
+    <s:String x:Key="String_TimePoint">Χρονικό σημείο (s)</s:String>
     <!-- WindowEditAssertion.xaml -->
     <s:String x:Key="String_Assertion">Διεκδίκησης</s:String>
     <s:String x:Key="String_Test">Δοκιμή</s:String>

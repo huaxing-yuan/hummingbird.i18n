@@ -872,6 +872,21 @@ If this Uri uses variables, please check settings if all used variables are assi
     <s:String x:Key="String_TestSuiteInformationColon">Test Suite Information:</s:String>
     <s:String x:Key="String_ListTestCasesColon">List of Test cases</s:String>
 
+	<!-- PanelLoadTestParameters.xaml -->
+	<s:String x:Key="String_ExpectedLoadColon">Expected Load: </s:String>
+	<s:String x:Key="String_TestDurationColon">Test Duration (s): </s:String>
+	<s:String x:Key="String_RampupTimeColon">Ramp-up Time (s): </s:String>
+	<s:String x:Key="String_StartDelayColon">Start Delay (s): </s:String>
+	<s:String x:Key="String_ExpectedSpikeLoadColon">Expected Spike Load: </s:String>
+	<s:String x:Key="String_SpikeDurationColon">Spike Duration(s): </s:String>
+	<s:String x:Key="String_NumberOfSpikesColon">Number of Spikes: </s:String>
+	<s:String x:Key="String_ExpectedPeakLoadColon">Expected Peak Load: </s:String>
+	<s:String x:Key="String_PeakDurationColon">Peak Duration: </s:String>
+	<s:String x:Key="String_RampUpToPeakTime">Ramp-up to Peak (s): </s:String>
+	<s:String x:Key="String_AddControlPoint">Add control point</s:String>
+	<s:String x:Key="String_TimePoint">Time point (s)</s:String>
+	
+	
 	<!-- WindowEditAssertion.xaml -->
     <s:String x:Key="String_Assertion">Assertion</s:String>
     <s:String x:Key="String_Test">Test</s:String>

@@ -278,6 +278,19 @@ Questa azione non può essere recuperata.]]></s:String>
     <s:String x:Key="String_Sort">Ordinamento</s:String>
     <s:String x:Key="String_TestSuiteInformationColon">Informazioni di Suite di test:</s:String>
     <s:String x:Key="String_ListTestCasesColon">Elenco di Test case</s:String>
+    <!-- PanelLoadTestParameters.xaml -->
+    <s:String x:Key="String_ExpectedLoadColon">Carico previsto: </s:String>
+    <s:String x:Key="String_TestDurationColon">Durata del test (s): </s:String>
+    <s:String x:Key="String_RampupTimeColon">Ramp-up Time (s): </s:String>
+    <s:String x:Key="String_StartDelayColon">Ritardo di avvio (s): </s:String>
+    <s:String x:Key="String_ExpectedSpikeLoadColon">Carico di picco previsto: </s:String>
+    <s:String x:Key="String_SpikeDurationColon">Duration(s) a spillo: </s:String>
+    <s:String x:Key="String_NumberOfSpikesColon">Numero di punte: </s:String>
+    <s:String x:Key="String_ExpectedPeakLoadColon">Carico di picco previsto: </s:String>
+    <s:String x:Key="String_PeakDurationColon">Durata di punta: </s:String>
+    <s:String x:Key="String_RampUpToPeakTime">Ramp-up di picco (s): </s:String>
+    <s:String x:Key="String_AddControlPoint">Aggiungi punto di controllo</s:String>
+    <s:String x:Key="String_TimePoint">Punto di tempo (s)</s:String>
     <!-- WindowEditAssertion.xaml -->
     <s:String x:Key="String_Assertion">Asserzione</s:String>
     <s:String x:Key="String_Test">Prova</s:String>

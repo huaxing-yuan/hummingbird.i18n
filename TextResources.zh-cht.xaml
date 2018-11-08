@@ -807,6 +807,19 @@
     <s:String x:Key="String_Sort">排序</s:String>
     <s:String x:Key="String_TestSuiteInformationColon">測試套件資訊:</s:String>
     <s:String x:Key="String_ListTestCasesColon">測試案例清單</s:String>
+    <!-- PanelLoadTestParameters.xaml -->
+    <s:String x:Key="String_ExpectedLoadColon">預期負載:</s:String>
+    <s:String x:Key="String_TestDurationColon">測試持續時間:</s:String>
+    <s:String x:Key="String_RampupTimeColon">啟動時間:</s:String>
+    <s:String x:Key="String_StartDelayColon">開始延遲:</s:String>
+    <s:String x:Key="String_ExpectedSpikeLoadColon">預期的尖峰負載:</s:String>
+    <s:String x:Key="String_SpikeDurationColon">尖峰持續時間:</s:String>
+    <s:String x:Key="String_NumberOfSpikesColon">尖峰數量:</s:String>
+    <s:String x:Key="String_ExpectedPeakLoadColon">預期峰值負載:</s:String>
+    <s:String x:Key="String_PeakDurationColon">高峰時間:</s:String>
+    <s:String x:Key="String_RampUpToPeakTime">到高峰:</s:String>
+    <s:String x:Key="String_AddControlPoint">添加控制點</s:String>
+    <s:String x:Key="String_TimePoint">時間點</s:String>
     <!-- WindowEditAssertion.xaml -->
     <s:String x:Key="String_Assertion">斷言</s:String>
     <s:String x:Key="String_Test">測試</s:String>

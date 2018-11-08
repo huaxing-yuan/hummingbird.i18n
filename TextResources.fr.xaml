@@ -452,7 +452,7 @@ Voulez-vous redémarrer Hummingbird maintenant?]]></s:String>
     <s:String x:Key="String_MoveToLast">Déplacer au dernier</s:String>
     <s:String x:Key="String_InsertTCBefore">Insérer des cas de test avant</s:String>
     <s:String x:Key="String_InsertTCAfter">Insérer des cas de test après</s:String>
-    <s:String x:Key="String_AddTestCase">Ajoutons un cas de test</s:String>
+    <s:String x:Key="String_AddTestCase">Ajouter un cas de test</s:String>
     <s:String x:Key="String_AddDataDrivenTestCase">Ajouter un cas de test piloté par les données</s:String>
     <s:String x:Key="String_ReorderTestCases">Réorganiser les cas de test</s:String>
     <s:String x:Key="String_ReorderTestCasesTooltip">Réorganiser les cas de tests par leurs noms</s:String>
@@ -460,7 +460,7 @@ Voulez-vous redémarrer Hummingbird maintenant?]]></s:String>
     <s:String x:Key="String_InsertTestSuiteAfter">Insérer une Suite de tests après</s:String>
     <s:String x:Key="String_RunTestSuite">Exécuter la suite de tests</s:String>
     <s:String x:Key="String_DeleteTestSuite">Supprimer cette suite de tests</s:String>
-    <s:String x:Key="String_AddTestSuite">Ajoutez une suite de tests</s:String>
+    <s:String x:Key="String_AddTestSuite">Ajouter une suite de tests</s:String>
     <s:String x:Key="String_InsertTestSuite">Insérer une suite de tests</s:String>
     <s:String x:Key="String_ReorderTestSuites">Réordonner les suites de tests</s:String>
     <s:String x:Key="String_ReorderTestSuitesTooltip">Réorganiser les suites de tests par leurs noms</s:String>
@@ -485,15 +485,15 @@ Voulez-vous redémarrer Hummingbird maintenant?]]></s:String>
     <s:String x:Key="String_NewLoadTest">Nouveau Test de charge</s:String>
     <s:String x:Key="String_AddStressTest">Ajouter un Test de Stress</s:String>
     <s:String x:Key="String_NewStressTest">Nouveau test de Stress</s:String>
-    <s:String x:Key="String_AddSpikeTest">Ajouter un Test de Spike</s:String>
-    <s:String x:Key="String_NewSpikeTest">Nouveau test de Spike</s:String>
+    <s:String x:Key="String_AddSpikeTest">Ajouter un Test de Pointe</s:String>
+    <s:String x:Key="String_NewSpikeTest">Nouveau test de Pointe</s:String>
     <!-- ViewBase64Tool.xaml -->
     <s:String x:Key="String_ActionColon">Action : </s:String>
     <s:String x:Key="String_Base64EncodingTitle">Encodage et décodage Base64</s:String>
     <s:String x:Key="String_Utf8ToBase64">Encode de la chaîne UTF-8 à la chaîne Base64</s:String>
     <s:String x:Key="String_Base64ToString">Décode une chaîne Base64 en texte, en utilisant le codage sélectionné.</s:String>
     <s:String x:Key="String_BinaryToBase64">Lire le contenu binaire à partir du fichier et encoder son contenu dans en Base64</s:String>
-    <s:String x:Key="String_Base64ToBinary">Lire la chaîne base64 de la zone de texte ci-dessous, décoder et enregistrez le contenu dans un fichier binaire.</s:String>
+    <s:String x:Key="String_Base64ToBinary">Lire la chaîne base64 de la zone de texte ci-dessous, décoder et enregistrer le contenu dans un fichier binaire.</s:String>
     <s:String x:Key="String_SampleTextBase64">Exemple de texte à encoder dans Base64</s:String>
     <s:String x:Key="String_EncodedBase64">Chaîne codée en Base64</s:String>
     <s:String x:Key="String_DecodedBase64">Chaîne décodée Base64</s:String>
@@ -523,7 +523,7 @@ Voulez-vous redémarrer Hummingbird maintenant?]]></s:String>
     <s:String x:Key="String_SaveAs">Sauvegarder en tant que</s:String>
     <s:String x:Key="String_Close">Fermer</s:String>
     <s:String x:Key="String_ExtensionDesignerTitle">Concepteur d'extension - ajouter des Services Web à tester et à simuler</s:String>
-    <s:String x:Key="String_CreateNewExtensionProject">Créez un nouveau projet d’extension de service</s:String>
+    <s:String x:Key="String_CreateNewExtensionProject">Créer un nouveau projet d’extension de service</s:String>
     <s:String x:Key="String_LearnMoreExtensionDesigner">En savoir plus sur le concepteur d’extension de service</s:String>
     <s:String x:Key="String_OtherWaysToExtent">Autres moyens d'étendre la capacité</s:String>
     <s:String x:Key="String_NewProjectNeverSaved">* nouveau projet, pas encore sauvegardé.</s:String>
@@ -532,7 +532,7 @@ Voulez-vous redémarrer Hummingbird maintenant?]]></s:String>
     <s:String x:Key="String_PleaseFixIssuesContent">Il y a des erreurs sur la configuration, Veuillez-le réparer avant de changer à une autre vue</s:String>
     <s:String x:Key="String_DeleteThisService">Supprimer ce Service</s:String>
     <s:String x:Key="String_CategoryHasSubItems">Cette catégorie a des sous éléments</s:String>
-    <s:String x:Key="String_CategoryHasSubItemsContent">Vous supprimez cette catégorie de service qui contient un ou plusieurs services, voulez-vous vraiment supprimer cette catégorie de Service ?</s:String>
+    <s:String x:Key="String_CategoryHasSubItemsContent">Cette catégorie contient un ou plusieurs services, voulez-vous vraiment supprimer cette catégorie de service ?</s:String>
     <s:String x:Key="String_Rename">Renommer</s:String>
     <s:String x:Key="String_ChangeServiceName">Renommer ce Service</s:String>
     <s:String x:Key="String_ChangeServiceNameContent">Entrez une nouvelle valeur pour le Service choisi</s:String>
@@ -546,10 +546,10 @@ Voulez-vous redémarrer Hummingbird maintenant?]]></s:String>
     <s:String x:Key="String_AddOpenAPICategory">Ajout d’une catégorie OpenAPI</s:String>
     <s:String x:Key="String_DeleteThisApplication">Supprimer cette Application</s:String>
     <s:String x:Key="String_ApplicationHasSubItems">Cette Application possède des éléments sub</s:String>
-    <s:String x:Key="String_ApplicationHasSubItemsContent">Vous supprimez cette application contenant une ou plusieurs catégories de services, \nDo vous voulez supprimer cette Application quelque sorte ?</s:String>
+    <s:String x:Key="String_ApplicationHasSubItemsContent">Cette application contient une ou plusieurs catégories de services, \nVoulez-vous vraiment supprimer cette Application ?</s:String>
     <s:String x:Key="String_ChangeNameOfApplication">Renommer l’application</s:String>
     <s:String x:Key="String_AddAnApplication">Ajouter une Application</s:String>
-    <s:String x:Key="String_MyApplication">Ma requête</s:String>
+    <s:String x:Key="String_MyApplication">Mon application</s:String>
     <s:String x:Key="String_ChangeExtensionName">Renommer l'extension</s:String>
     <s:String x:Key="String_ChangeExtensionNameContent">Entrez une nouvelle valeur pour l’Application sélectionnée</s:String>
     <s:String x:Key="String_SaveCurrentProjectContent" xml:space="preserve">&gt;<![CDATA[Votre projet actuel n’a pas encore l’sauvegardé, vous souhaitez l’sauvegarder maintenant ?
@@ -827,6 +827,19 @@ Cette action ne peut pas être restaurée.]]></s:String>
     <s:String x:Key="String_Sort">Trier</s:String>
     <s:String x:Key="String_TestSuiteInformationColon">Informations de test de Suite :</s:String>
     <s:String x:Key="String_ListTestCasesColon">Liste de cas de Test</s:String>
+    <!-- PanelLoadTestParameters.xaml -->
+    <s:String x:Key="String_ExpectedLoadColon">Charge attendu :</s:String>
+    <s:String x:Key="String_TestDurationColon">Durée de test (s) :</s:String>
+    <s:String x:Key="String_RampupTimeColon">Temps de montée en charge (s) :</s:String>
+    <s:String x:Key="String_StartDelayColon">Temporisation de démarrage (s) :</s:String>
+    <s:String x:Key="String_ExpectedSpikeLoadColon">Charge de pointes attendus :</s:String>
+    <s:String x:Key="String_SpikeDurationColon">Durée de la pointe :</s:String>
+    <s:String x:Key="String_NumberOfSpikesColon">Nombre de pointes : </s:String>
+    <s:String x:Key="String_ExpectedPeakLoadColon">Charge maximale attendue : </s:String>
+    <s:String x:Key="String_PeakDurationColon">Durée de charge maximale : </s:String>
+    <s:String x:Key="String_RampUpToPeakTime">Temps de montée au pic (s) : </s:String>
+    <s:String x:Key="String_AddControlPoint">Ajouter un point de contrôle</s:String>
+    <s:String x:Key="String_TimePoint">Point du temps (s)</s:String>
     <!-- WindowEditAssertion.xaml -->
     <s:String x:Key="String_Assertion">Assertion</s:String>
     <s:String x:Key="String_Test">Test</s:String>

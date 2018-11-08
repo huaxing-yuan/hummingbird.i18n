@@ -279,6 +279,19 @@ Diese Aktion kann nicht wiederhergestellt werden.]]></s:String>
     <s:String x:Key="String_Sort">Art</s:String>
     <s:String x:Key="String_TestSuiteInformationColon">Test-Suite-Informationen:</s:String>
     <s:String x:Key="String_ListTestCasesColon">Liste von Testfällen</s:String>
+    <!-- PanelLoadTestParameters.xaml -->
+    <s:String x:Key="String_ExpectedLoadColon">Erwartende Belastung: </s:String>
+    <s:String x:Key="String_TestDurationColon">Dauer der Prüfung (s): </s:String>
+    <s:String x:Key="String_RampupTimeColon">Ramp-Up-Zeit (s): </s:String>
+    <s:String x:Key="String_StartDelayColon">Startverzögerung (s): </s:String>
+    <s:String x:Key="String_ExpectedSpikeLoadColon">Erwarteten Spike Last: </s:String>
+    <s:String x:Key="String_SpikeDurationColon">Spike-Duration(s)": </s:String>
+    <s:String x:Key="String_NumberOfSpikesColon">Anzahl der Spikes: </s:String>
+    <s:String x:Key="String_ExpectedPeakLoadColon">Erwarteten Spitzenlast: </s:String>
+    <s:String x:Key="String_PeakDurationColon">Peak-Dauer: </s:String>
+    <s:String x:Key="String_RampUpToPeakTime">Ramp-Up auf Peak (s): </s:String>
+    <s:String x:Key="String_AddControlPoint">Kontrollpunkt hinzufügen</s:String>
+    <s:String x:Key="String_TimePoint">Zeitpunkt (s)</s:String>
     <!-- WindowEditAssertion.xaml -->
     <s:String x:Key="String_Assertion">Behauptung</s:String>
     <s:String x:Key="String_Test">Test</s:String>

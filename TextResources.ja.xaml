@@ -278,6 +278,19 @@
     <s:String x:Key="String_Sort">並べ替え</s:String>
     <s:String x:Key="String_TestSuiteInformationColon">テスト スイートの情報:</s:String>
     <s:String x:Key="String_ListTestCasesColon">テスト事例の一覧</s:String>
+    <!-- PanelLoadTestParameters.xaml -->
+    <s:String x:Key="String_ExpectedLoadColon">予想される負荷:</s:String>
+    <s:String x:Key="String_TestDurationColon">テスト時間 (秒):</s:String>
+    <s:String x:Key="String_RampupTimeColon">ランプアップ時間 (秒):</s:String>
+    <s:String x:Key="String_StartDelayColon">開始遅延 (秒):</s:String>
+    <s:String x:Key="String_ExpectedSpikeLoadColon">スパイク負荷を予想しました。</s:String>
+    <s:String x:Key="String_SpikeDurationColon">スパイク Duration(s):</s:String>
+    <s:String x:Key="String_NumberOfSpikesColon">スパイクの数:</s:String>
+    <s:String x:Key="String_ExpectedPeakLoadColon">予想されるピーク負荷:</s:String>
+    <s:String x:Key="String_PeakDurationColon">ピーク期間:</s:String>
+    <s:String x:Key="String_RampUpToPeakTime">ランプアップ ピーク (s)。</s:String>
+    <s:String x:Key="String_AddControlPoint">コントロール ポイントを追加します。</s:String>
+    <s:String x:Key="String_TimePoint">ポイントの時間 (秒)</s:String>
     <!-- WindowEditAssertion.xaml -->
     <s:String x:Key="String_Assertion">アサーション</s:String>
     <s:String x:Key="String_Test">テスト</s:String>

@@ -278,6 +278,19 @@
     <s:String x:Key="String_Sort">Сортировка</s:String>
     <s:String x:Key="String_TestSuiteInformationColon">Тестовый комплект информации:</s:String>
     <s:String x:Key="String_ListTestCasesColon">Список тестовых случаев</s:String>
+    <!-- PanelLoadTestParameters.xaml -->
+    <s:String x:Key="String_ExpectedLoadColon">Ожидаемые нагрузки: </s:String>
+    <s:String x:Key="String_TestDurationColon">Продолжительность теста (s): </s:String>
+    <s:String x:Key="String_RampupTimeColon">Времени (s): </s:String>
+    <s:String x:Key="String_StartDelayColon">Задержка запуска (s): </s:String>
+    <s:String x:Key="String_ExpectedSpikeLoadColon">Ожидается всплеск нагрузки: </s:String>
+    <s:String x:Key="String_SpikeDurationColon">Спайк Duration(s): </s:String>
+    <s:String x:Key="String_NumberOfSpikesColon">Количество шипов: </s:String>
+    <s:String x:Key="String_ExpectedPeakLoadColon">Ожидаемой пиковой нагрузки: </s:String>
+    <s:String x:Key="String_PeakDurationColon">Пик продолжительность: </s:String>
+    <s:String x:Key="String_RampUpToPeakTime">Пандус до пика (s): </s:String>
+    <s:String x:Key="String_AddControlPoint">Добавить контрольную точку</s:String>
+    <s:String x:Key="String_TimePoint">Момент времени (s)</s:String>
     <!-- WindowEditAssertion.xaml -->
     <s:String x:Key="String_Assertion">Утверждение</s:String>
     <s:String x:Key="String_Test">Тест</s:String>
