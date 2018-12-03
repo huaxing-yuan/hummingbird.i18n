@@ -228,6 +228,7 @@
     <!-- ViewProjectInfo.xaml -->
     <s:String x:Key="String_RunAllTests">Εκτελέστε όλες τις δοκιμές</s:String>
     <s:String x:Key="String_GenerateReport">Δημιουργία έκθεσης</s:String>
+    <s:String x:Key="String_Report">Έκθεση</s:String>
     <s:String x:Key="String_ViewReport">Προβολή έκθεσης</s:String>
     <s:String x:Key="String_ProjectInformationColon">Πληροφορίες για το έργο:</s:String>
     <s:String x:Key="String_CreationDateColon">Ημερομηνία δημιουργίας:</s:String>
@@ -378,6 +379,15 @@
     <s:String x:Key="String_CycleTime">Χρόνος κύκλου (s)</s:String>
     <s:String x:Key="String_TheoreticalActualLoad">Θεωρητικές και το πραγματικό φορτίο</s:String>
     <s:String x:Key="String_TestIterations">Δοκιμή επαναλήψεις</s:String>
+    <!-- WindowServiceSelector -->
+    <s:String x:Key="String_RequestsAndResponse">Αιτήσεις και απαντήσεις: </s:String>
+    <s:String x:Key="String_WithThisServerXStub">Με αυτόν το διακομιστή, μπορείτε να προσομοιώσετε {0} υπηρεσίες ως στέλεχος.</s:String>
+    <s:String x:Key="String_WithThisServerXDriver">Επίσης, μπορείτε να προσομοιώσετε {0} υπηρεσίες ως οδηγός.</s:String>
+    <s:String x:Key="String_ServiceSelector">Επιλογέας υπηρεσιών</s:String>
+    <s:String x:Key="String_AvailableServices">Διαθέσιμες υπηρεσίες</s:String>
+    <s:String x:Key="String_Description">Περιγραφή</s:String>
+    <s:String x:Key="String_OkU">_OK</s:String>
+    <s:String x:Key="String_CancelU">_CANCEL</s:String>
     <s:String x:Key="String_CredentialColon">Διαπιστευτηρίων:</s:String>
     <s:String x:Key="String_UserDefined">Ορίζονται από το χρήστη</s:String>
     <s:String x:Key="String_SpecifyAUserDefinedCredential">Καθορίστε μια πιστοποίηση χρήστη</s:String>
@@ -442,7 +452,7 @@
     <s:String x:Key="String_ServiceDescriptionWsdlColon">Περιγραφή υπηρεσίας (WSDL):</s:String>
     <s:String x:Key="String_ImportOptions">Επιλογές εισαγωγής</s:String>
     <s:String x:Key="String_GenerateOrderColon">Δημιουργία παραγγελίας:</s:String>
-    <s:String x:Key="String_GenerateOrderChecked">Δέχεται διέταξε XML Documnets μόνο</s:String>
+    <s:String x:Key="String_GenerateOrderChecked">Δέχονται μόνο τα παραγγελθέντα XML έγγραφα</s:String>
     <s:String x:Key="String_GenerateORderUnchecked">Αποδοχή μη διατεταγμένη έγγραφα XML</s:String>
     <s:String x:Key="String_DispatchByBodyColon">Αποστολή από:</s:String>
     <s:String x:Key="String_DispatchByBodyChecked">Λειτουργίες αποστολής από ΟΡΓΑΝΙΣΜΌΣ στοιχείο (μη συμμορφούμενα με WS-1 Basic Profile 1.1).</s:String>
@@ -499,6 +509,15 @@
     <s:String x:Key="String_WhatsNew">Τι νέο υπάρχει</s:String>
     <s:String x:Key="String_ComingNext">Τι έρχεται στη συνέχεια;</s:String>
     <s:String x:Key="String_LetsGetStarted">Ας ξεκινήσουμε</s:String>
+    <s:String x:Key="String_ManualTestingAndServiceSimulation">Εγχειρίδιο δοκιμών και υπηρεσία προσομοίωση</s:String>
+    <s:String x:Key="String_StartManualTesting">Ξεκινήστε χειροκίνητη δοκιμές</s:String>
+    <s:String x:Key="String_LearnMoreAboutTestRunner">Μάθετε περισσότερα σχετικά με το πρώτο πούλι δοκιμής</s:String>
+    <s:String x:Key="String_UnderstandingServiceSimulation">Κατανόηση υπηρεσία προσομοίωσης</s:String>
+    <s:String x:Key="String_ViewLoadedExtensions">Προβολή φορτωμένο επεκτάσεων</s:String>
+    <s:String x:Key="String_AutomatedAndPerformanceTesting">Αυτοματοποιημένη &amp; δοκιμών απόδοσης</s:String>
+    <s:String x:Key="String_ExtensibilityAndTools">Επεκτασιμότητας &amp; εργαλεία</s:String>
+    <s:String x:Key="String_OpenExtensionDesigner">Ανοικτή επέκταση σχεδιαστής</s:String>
+    <s:String x:Key="String_UseExtensionDesigner">Χρησιμοποιήστε επέκταση σχεδιαστής</s:String>
     <s:String x:Key="String_RecentActivities">Πρόσφατες δραστηριότητες</s:String>
     <s:String x:Key="String_ManualTesting">Εγχειρίδιο δοκιμών</s:String>
     <s:String x:Key="String_AutomatedTesting">Αυτοματοποιημένη δοκιμή</s:String>
@@ -555,6 +574,7 @@
     <s:String x:Key="String_InstallationFailedExtensionContent">Παρουσιάστηκε ένα σφάλμα κατά την εγκατάσταση της επέκτασης, ανατρέξτε στο αρχείο καταγραφής συστήματος να δείτε λεπτομερών μηνυμάτων σφάλματος.</s:String>
     <s:String x:Key="String_ExtensionInstalledAndLoaded">Η επέκταση είναι εγκατεστημένο και μπορεί να χρησιμοποιηθεί πλέον.</s:String>
     <s:String x:Key="String_OpenExtension">Ανοίξτε μια επέκταση</s:String>
+    <s:String x:Key="String_Open">Ανοιχτό</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">Μη αυτόματη δοκιμή δρομέας</s:String>
     <s:String x:Key="String_VirtualServices">Εικονικές υπηρεσίες</s:String>
@@ -606,6 +626,7 @@
     <s:String x:Key="String_System">Σύστημα</s:String>
     <s:String x:Key="String_Category">Κατηγορία</s:String>
     <s:String x:Key="String_Service">Υπηρεσία</s:String>
+    <s:String x:Key="String_Operation">Λειτουργία</s:String>
     <s:String x:Key="String_UriTemplate">Το πρότυπο URI</s:String>
     <!-- ABOUT -->
     <s:String x:Key="String_Build">Κατασκευή:</s:String>
@@ -800,6 +821,7 @@ NO: Εγκαταλείψει τρέχον έργο και να δημιουργ�
     <s:String x:Key="String_SelectARequest">Επιλέξτε ένα αίτημα</s:String>
     <!-- WindowSendRequest.xaml -->
     <s:String x:Key="String_ServiceColon">Υπηρεσία: </s:String>
+    <s:String x:Key="String_ServiceOptions">Επιλογές υπηρεσιών</s:String>
     <s:String x:Key="String_ChooseServiceToTest">Επιλέξτε μια υπηρεσία για τη δοκιμή ↑</s:String>
     <s:String x:Key="String_HistoryColon">Ιστορία: </s:String>
     <s:String x:Key="String_EndpointColon">Απόληξη: </s:String>

@@ -64,7 +64,7 @@
     <s:String x:Key="String_ClearAll">Supprimer Tout</s:String>
     <s:String x:Key="String_UsernameU">NOM UTILISATEUR</s:String>
     <s:String x:Key="String_PasswordU">MOT DE PASSE</s:String>
-    <s:String x:Key="String_AddToken">Ajouter un jeton</s:String>
+    <s:String x:Key="String_AddToken">Ajouter un crédentiel</s:String>
     <s:String x:Key="String_SelectATestEnv">Sélectionnez un environnement de test:</s:String>
     <s:String x:Key="String_Active">Actif</s:String>
     <s:String x:Key="String_SetActive">Définir comme actif</s:String>
@@ -299,6 +299,15 @@
     <s:String x:Key="String_WhatsNew">Quoi de neuf</s:String>
     <s:String x:Key="String_ComingNext">Ce qui va arriver</s:String>
     <s:String x:Key="String_LetsGetStarted">Commençons-nous</s:String>
+    <s:String x:Key="String_ManualTestingAndServiceSimulation">Tests manuels et simulation de service</s:String>
+    <s:String x:Key="String_StartManualTesting">Commencer les tests manuels</s:String>
+    <s:String x:Key="String_LearnMoreAboutTestRunner">En savoir plus sur Test Runner</s:String>
+    <s:String x:Key="String_UnderstandingServiceSimulation">La simulation de service</s:String>
+    <s:String x:Key="String_ViewLoadedExtensions">Découvrir les extensions chargées</s:String>
+    <s:String x:Key="String_AutomatedAndPerformanceTesting">Automatisation et test de performance</s:String>
+    <s:String x:Key="String_ExtensibilityAndTools">Extensibilité &amp; les outils</s:String>
+    <s:String x:Key="String_OpenExtensionDesigner">Ouvrir Concepteur d’Extension</s:String>
+    <s:String x:Key="String_UseExtensionDesigner">Utiliser le concepteur de l’Extension</s:String>
     <s:String x:Key="String_RecentActivities">Activités récentes</s:String>
     <s:String x:Key="String_ManualTesting">Test manuel</s:String>
     <s:String x:Key="String_AutomatedTesting">Test automatisé</s:String>
@@ -355,6 +364,7 @@ Voulez-vous redémarrer Hummingbird maintenant?]]></s:String>
     <s:String x:Key="String_InstallationFailedExtensionContent">Une erreur s’est produite lors de l’installation de l’extension, veuillez consulter le journal système pour afficher des messages d’erreur détaillés.</s:String>
     <s:String x:Key="String_ExtensionInstalledAndLoaded">L’extension est installée et peut être utilisée maintenant.</s:String>
     <s:String x:Key="String_OpenExtension">Ouvrir une extension</s:String>
+    <s:String x:Key="String_Open">Ouvert</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">Test manuel</s:String>
     <s:String x:Key="String_VirtualServices">Services virtualisés</s:String>
@@ -406,6 +416,7 @@ Voulez-vous redémarrer Hummingbird maintenant?]]></s:String>
     <s:String x:Key="String_System">Système</s:String>
     <s:String x:Key="String_Category">Catégorie</s:String>
     <s:String x:Key="String_Service">Service</s:String>
+    <s:String x:Key="String_Operation">Opération</s:String>
     <s:String x:Key="String_UriTemplate">Uri Template</s:String>
     <!-- ABOUT -->
     <s:String x:Key="String_Build">Construit : le </s:String>
@@ -441,7 +452,7 @@ Voulez-vous redémarrer Hummingbird maintenant?]]></s:String>
     <s:String x:Key="String_TestAutomationWithHummingbird">Automatisation de test avec Hummingbird</s:String>
     <s:String x:Key="String_DifferentTestSteps">Différentes étapes de tests</s:String>
     <s:String x:Key="String_ValidateWithAssertions">Valider le test via Assertions</s:String>
-    <s:String x:Key="String_RunInCI">Exécuter les tests automatisés dans une plate-forme d'intégration continue</s:String>
+    <s:String x:Key="String_RunInCI">Tests &amp; intégration continue</s:String>
     <s:String x:Key="String_DeleteThisTestStep">Supprimer cette étape de test</s:String>
     <s:String x:Key="String_AddAStep">Ajouter une étape de Test</s:String>
     <s:String x:Key="String_DeleteThisTestCase">Supprimer ce cas de test</s:String>
@@ -552,10 +563,10 @@ Voulez-vous redémarrer Hummingbird maintenant?]]></s:String>
     <s:String x:Key="String_MyApplication">Mon application</s:String>
     <s:String x:Key="String_ChangeExtensionName">Renommer l'extension</s:String>
     <s:String x:Key="String_ChangeExtensionNameContent">Entrez une nouvelle valeur pour l’Application sélectionnée</s:String>
-    <s:String x:Key="String_SaveCurrentProjectContent" xml:space="preserve">&gt;<![CDATA[Votre projet actuel n’a pas encore l’sauvegardé, vous souhaitez l’sauvegarder maintenant ?
-Oui : Sauvegarder le projet actuel et créer le nouveau projet.
-NO : Abandonner le projet en cours et créer le nouveau projet.
-ANNULER : restez sur le projet en cours.]]></s:String>
+    <s:String x:Key="String_SaveCurrentProjectContent" xml:space="preserve">Votre projet n’est pas encore sauvegardé, voulez-vous le sauvegarder maintenant ?
+Oui : Sauvegarder le projet actuel.
+Non : Abandonner le projet en cours.
+Annuler : rester sur le projet en cours.</s:String>
     <s:String x:Key="String_NewExtensionProject">Nouveau projet d’extension</s:String>
     <s:String x:Key="String_ProjectSaved">Projet a été sauvegardé</s:String>
     <s:String x:Key="String_SaveExtensionProject">Sauvegarder le projet d’extension</s:String>
@@ -595,8 +606,8 @@ Maintenant montrer le message avec l’afficheur par défaut.]]></s:String>
     <s:String x:Key="String_MatchAnyWhere">N’importe où</s:String>
     <s:String x:Key="String_SearchNext">Suivant</s:String>
     <s:String x:Key="String_CannotFindPattern">Mots non trouvé.</s:String>
-    <s:String x:Key="String_NoResultMatchesPattern">Il n’y a aucun résultat trouvé de votre recherche « {0} »</s:String>
-    <s:String x:Key="String_NoResultMatches">Il n’y a aucune résultat de votre recherche « {0} »</s:String>
+    <s:String x:Key="String_NoResultMatchesPattern">Il n’y a aucun résultat trouvé pour votre recherche « {0} »</s:String>
+    <s:String x:Key="String_NoResultMatches">Il n’y a aucun résultat pour votre recherche « {0} »</s:String>
     <!-- ExtensionDesigner\ViewApplication.xaml -->
     <s:String x:Key="String_Application">Application</s:String>
     <s:String x:Key="String_ApplicationTooltip" xml:space="preserve"><![CDATA[Entrez un nom de l’Application :
@@ -607,8 +618,8 @@ Comme le talon, c’est le nom du système que vous souhaitez simuler.]]></s:Str
     <s:String x:Key="String_ServiceCategoryU">CATÉGORIE DE SERVICE</s:String>
     <!-- ExtensionDesigner\ViewServiceCategory.xaml -->
     <s:String x:Key="String_ServiceCategory">Catégorie de service</s:String>
-    <s:String x:Key="String_ServiceCategoryTooltip" xml:space="preserve"><![CDATA[Catégorie de service contient un ensemble de Services Web du proposer même. 
-Par exemple, vous pouvez avoir un ensemble de services Web pour la gestion de la clientèle, y compris 3 Web Services pour la création de clientèle, de rectification et de suppression.]]></s:String>
+    <s:String x:Key="String_ServiceCategoryTooltip" xml:space="preserve"><![CDATA[la catégorie de service contient un ensemble de services web. 
+Par exemple, vous pouvez avoir une catégorie de services pour la gestion du client, qui compren la création, modification et la suppression du client.]]></s:String>
     <s:String x:Key="String_CategoryNameColon">Nom de la catégorie :</s:String>
     <s:String x:Key="String_ServicesIncluded">Services inclus dans cette catégorie</s:String>
     <s:String x:Key="String_ServicesU">SERVICES</s:String>
@@ -624,6 +635,7 @@ Par exemple, vous pouvez avoir un ensemble de services Web pour la gestion de la
     <s:String x:Key="String_SelectARequest">Sélectionner une requête</s:String>
     <!-- WindowSendRequest.xaml -->
     <s:String x:Key="String_ServiceColon">Service :</s:String>
+    <s:String x:Key="String_ServiceOptions">Options de service</s:String>
     <s:String x:Key="String_ChooseServiceToTest">Choisir un service pour tester ↑</s:String>
     <s:String x:Key="String_HistoryColon">Historique :</s:String>
     <s:String x:Key="String_EndpointColon">Point de terminaison : </s:String>
@@ -777,6 +789,7 @@ Si cet Uri contient des variables, Veuillez-vérifier que les variables sont val
     <!-- ViewProjectInfo.xaml -->
     <s:String x:Key="String_RunAllTests">Exécuter tous les tests</s:String>
     <s:String x:Key="String_GenerateReport">Générer le rapport</s:String>
+    <s:String x:Key="String_Report">Rapport</s:String>
     <s:String x:Key="String_ViewReport">Afficher le rapport</s:String>
     <s:String x:Key="String_ProjectInformationColon">Informations du projet :</s:String>
     <s:String x:Key="String_CreationDateColon">Date de création :</s:String>
@@ -898,12 +911,12 @@ Cette action ne peut pas être restaurée.]]></s:String>
     <s:String x:Key="String_TestCertificateInstalled">Certificat d’essai a été installé</s:String>
     <s:String x:Key="String_TestCertificateInstalledMessage">L’autorité de certification racine et le certificat de test sont installés.</s:String>
     <s:String x:Key="String_UnableToInstallCertificate">Impossible d’installer le certificat</s:String>
-    <s:String x:Key="String_TestCertificateIntro">Hummingbird offre un certificat de Test que vous pouvez utiliser pour simuler le transport sécurisé à l’aide de SSL. Pour les deux après le scénario, vous êtes tenu d’installer le certificat sur l’ordinateur de test :</s:String>
-    <s:String x:Key="String_TestCertificateIntroLine1">● Pour la simulation de service à l’aide de SSL, Hummingbird agit comme un serveur HTTP qui requiert le certificat SSL</s:String>
-    <s:String x:Key="String_TestCertificateIntroLine2">● Pour l’envoi de requêtes qui sont nécessaires pour signer ou chiffrer les messages de requête, besoins de Hummingbird qu'un certificat requiert la Signature et le chiffrement.</s:String>
+    <s:String x:Key="String_TestCertificateIntro">Hummingbird offre un certificat de test que vous pouvez utiliser pour simuler le transport sécurisé à l’aide de SSL. Pour les deux scénario suivant, vous avez besoin un certificat sur le serveur de test :</s:String>
+    <s:String x:Key="String_TestCertificateIntroLine1">● Pour la simulation de service via le canal sécurisé SSL, Hummingbird travaille en tant qu'un serveur HTTP qui a besoin d'un certificat SSL</s:String>
+    <s:String x:Key="String_TestCertificateIntroLine2">● Pour l’envoi de requêtes qui sont signées ou chiffrées, Hummingbird a besoin d'un certificat de signature et du chiffrement.</s:String>
     <s:String x:Key="String_TestCertificateIntroLine3">Vous pouvez installer le certificat de test fourni par Hummingbird.</s:String>
     <s:String x:Key="String_InstallTestCertificate">Installer le certificat de Test</s:String>
-    <s:String x:Key="String_InstallCertificateMachine">Installer dans le magasin LocalMachine pour tous les utilisateurs (nécessite l’exécuter en tant qu’administrateur)</s:String>
+    <s:String x:Key="String_InstallCertificateMachine">Installer dans le magasin LocalMachine pour tous les utilisateurs (nécessite le droit administrateur)</s:String>
     <s:String x:Key="String_InstallCertificateUser">Installer pour l’utilisateur actuel</s:String>
     <s:String x:Key="String_ToRunServiceSimulationWithSSL">Pour exécuter la simulation de service avec HTTPS/SSL, les certificats doivent être installés dans le magasin LocalMachine</s:String>
     <s:String x:Key="String_WarningInstallCertificateAdminRequired">ATTENTION : Installer certificat pour tous les utilisateurs exige Hummingbird à exécuter en tant qu’administrateur</s:String>
@@ -923,8 +936,17 @@ Cette action ne peut pas être restaurée.]]></s:String>
 Veuillez réessayer ou appuyez sur ÉCHAP pour annuler.</s:String>
     <s:String x:Key="String_StringEditor">Éditeur de chaînes</s:String>
     <!-- ViewLoadTestReportItem -->
-    <s:String x:Key="String_AllU">TOUS LES</s:String>
+    <s:String x:Key="String_AllU">TOUS</s:String>
     <s:String x:Key="String_CycleTime">Temps de cycle (s)</s:String>
     <s:String x:Key="String_TheoreticalActualLoad">Charge théorique et réelle</s:String>
     <s:String x:Key="String_TestIterations">Itérations de test</s:String>
+    <!-- WindowServiceSelector -->
+    <s:String x:Key="String_RequestsAndResponse">Demandes et les réponses : </s:String>
+    <s:String x:Key="String_WithThisServerXStub">Avec ce serveur, vous pouvez simuler des services {0} comme Stub.</s:String>
+    <s:String x:Key="String_WithThisServerXDriver">Vous pouvez également simuler {0} services comme chauffeur.</s:String>
+    <s:String x:Key="String_ServiceSelector">Sélecteur de fonction</s:String>
+    <s:String x:Key="String_AvailableServices">Services disponibles</s:String>
+    <s:String x:Key="String_Description">Description</s:String>
+    <s:String x:Key="String_OkU">_OK</s:String>
+    <s:String x:Key="String_CancelU">_ANNULER</s:String>
 </ResourceDictionary>

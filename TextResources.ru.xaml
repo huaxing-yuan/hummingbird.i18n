@@ -228,6 +228,7 @@
     <!-- ViewProjectInfo.xaml -->
     <s:String x:Key="String_RunAllTests">Выполнение всех тестов</s:String>
     <s:String x:Key="String_GenerateReport">Создать отчет</s:String>
+    <s:String x:Key="String_Report">Отчет</s:String>
     <s:String x:Key="String_ViewReport">Просмотреть отчет</s:String>
     <s:String x:Key="String_ProjectInformationColon">Информация о проекте:</s:String>
     <s:String x:Key="String_CreationDateColon">Дата создания:</s:String>
@@ -378,6 +379,15 @@
     <s:String x:Key="String_CycleTime">Время цикла (s)</s:String>
     <s:String x:Key="String_TheoreticalActualLoad">Теоретические и фактической нагрузки</s:String>
     <s:String x:Key="String_TestIterations">Итерации теста</s:String>
+    <!-- WindowServiceSelector -->
+    <s:String x:Key="String_RequestsAndResponse">Запросы и ответы: </s:String>
+    <s:String x:Key="String_WithThisServerXStub">С этим сервером вы можете моделировать {0} услуги как заглушку.</s:String>
+    <s:String x:Key="String_WithThisServerXDriver">Также вы можете моделировать {0} услуги как водитель.</s:String>
+    <s:String x:Key="String_ServiceSelector">Селектор обслуживания</s:String>
+    <s:String x:Key="String_AvailableServices">Доступные услуги</s:String>
+    <s:String x:Key="String_Description">Описание</s:String>
+    <s:String x:Key="String_OkU">_OK</s:String>
+    <s:String x:Key="String_CancelU">_CANCEL</s:String>
     <s:String x:Key="String_CredentialColon">Учетные данные:</s:String>
     <s:String x:Key="String_UserDefined">Определяемые пользователем</s:String>
     <s:String x:Key="String_SpecifyAUserDefinedCredential">Указание учетных данных пользователем</s:String>
@@ -442,7 +452,7 @@
     <s:String x:Key="String_ServiceDescriptionWsdlColon">Описание службы (WSDL):</s:String>
     <s:String x:Key="String_ImportOptions">Параметры импорта</s:String>
     <s:String x:Key="String_GenerateOrderColon">Создание заказа:</s:String>
-    <s:String x:Key="String_GenerateOrderChecked">Примите приказал XML Documnets только</s:String>
+    <s:String x:Key="String_GenerateOrderChecked">Принимать только заказанные документы XML</s:String>
     <s:String x:Key="String_GenerateORderUnchecked">Примите неупорядоченных XML-документов</s:String>
     <s:String x:Key="String_DispatchByBodyColon">Направить органом:</s:String>
     <s:String x:Key="String_DispatchByBodyChecked">Операций отправки в элемент body (Non совместимыми с WS-1 Basic Profile 1.1).</s:String>
@@ -499,6 +509,15 @@
     <s:String x:Key="String_WhatsNew">Что нового</s:String>
     <s:String x:Key="String_ComingNext">Что будет дальше?</s:String>
     <s:String x:Key="String_LetsGetStarted">Давайте начнем</s:String>
+    <s:String x:Key="String_ManualTestingAndServiceSimulation">Ручное тестирование и моделирование одежды</s:String>
+    <s:String x:Key="String_StartManualTesting">Начать тестирование вручную</s:String>
+    <s:String x:Key="String_LearnMoreAboutTestRunner">Узнайте больше о Test Runner</s:String>
+    <s:String x:Key="String_UnderstandingServiceSimulation">Понимание службы моделирования</s:String>
+    <s:String x:Key="String_ViewLoadedExtensions">Просмотр загруженных расширений</s:String>
+    <s:String x:Key="String_AutomatedAndPerformanceTesting">Автоматизированный &amp; тестирования производительности</s:String>
+    <s:String x:Key="String_ExtensibilityAndTools">Расширяемость &amp; инструменты</s:String>
+    <s:String x:Key="String_OpenExtensionDesigner">Открыть расширение конструктора</s:String>
+    <s:String x:Key="String_UseExtensionDesigner">Использовать расширение конструктора</s:String>
     <s:String x:Key="String_RecentActivities">Недавние мероприятия</s:String>
     <s:String x:Key="String_ManualTesting">Ручное тестирование</s:String>
     <s:String x:Key="String_AutomatedTesting">Автоматизированное тестирование</s:String>
@@ -555,6 +574,7 @@
     <s:String x:Key="String_InstallationFailedExtensionContent">Произошла ошибка при установке расширения, пожалуйста, обратитесь в журнал системы, чтобы увидеть подробные сообщения об ошибках.</s:String>
     <s:String x:Key="String_ExtensionInstalledAndLoaded">Расширение устанавливается и может быть использован теперь.</s:String>
     <s:String x:Key="String_OpenExtension">Открыть расширение</s:String>
+    <s:String x:Key="String_Open">Открытые</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">Ручных тестов</s:String>
     <s:String x:Key="String_VirtualServices">Виртуальные услуги</s:String>
@@ -606,6 +626,7 @@
     <s:String x:Key="String_System">Системы</s:String>
     <s:String x:Key="String_Category">Категория</s:String>
     <s:String x:Key="String_Service">Услуги</s:String>
+    <s:String x:Key="String_Operation">Операция</s:String>
     <s:String x:Key="String_UriTemplate">Шаблон URI</s:String>
     <!-- ABOUT -->
     <s:String x:Key="String_Build">Сборка:</s:String>
@@ -800,6 +821,7 @@ NO: Отказаться от текущего проекта и создать 
     <s:String x:Key="String_SelectARequest">Выберите запрос на</s:String>
     <!-- WindowSendRequest.xaml -->
     <s:String x:Key="String_ServiceColon">Услуги: </s:String>
+    <s:String x:Key="String_ServiceOptions">Варианты обслуживания</s:String>
     <s:String x:Key="String_ChooseServiceToTest">Выберите службу для проверки ↑</s:String>
     <s:String x:Key="String_HistoryColon">История: </s:String>
     <s:String x:Key="String_EndpointColon">Конечная точка: </s:String>

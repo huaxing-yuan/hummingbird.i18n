@@ -67,7 +67,7 @@
     <s:String x:Key="String_ClearAll">Clear all</s:String>
     <s:String x:Key="String_UsernameU">USERNAME</s:String>
     <s:String x:Key="String_PasswordU">PASSWORD</s:String>
-    <s:String x:Key="String_AddToken">Add token</s:String>
+    <s:String x:Key="String_AddToken">Add credential</s:String>
     <s:String x:Key="String_SelectATestEnv">Select a test environment:</s:String>
     <s:String x:Key="String_Active">Active</s:String>
     <s:String x:Key="String_SetActive">Set Active</s:String>
@@ -278,7 +278,7 @@
     <s:String x:Key="String_ServiceDescriptionWsdlColon">Service Description (WSDL):</s:String>
 	<s:String x:Key="String_ImportOptions">Import Options</s:String>
 	<s:String x:Key="String_GenerateOrderColon">Generate Order:</s:String>
-	<s:String x:Key="String_GenerateOrderChecked">Accept ordered XML Documnets only</s:String>
+	<s:String x:Key="String_GenerateOrderChecked">Accept ordered XML documents only</s:String>
 	<s:String x:Key="String_GenerateORderUnchecked">Accept unordered XML documents</s:String>
 	<s:String x:Key="String_DispatchByBodyColon">Dispatch by body:</s:String>
 	<s:String x:Key="String_DispatchByBodyChecked">Dispatch operations by body element (Non-compliant with WS-1 Basic Profile 1.1).</s:String>
@@ -337,6 +337,15 @@
     <s:String x:Key="String_WhatsNew">What's new</s:String>
     <s:String x:Key="String_ComingNext">What's coming next?</s:String>
     <s:String x:Key="String_LetsGetStarted">Let's get started</s:String>
+	<s:String x:Key="String_ManualTestingAndServiceSimulation">Manual testing and Service simulation</s:String>
+	<s:String x:Key="String_StartManualTesting">Start manual testing</s:String>
+	<s:String x:Key="String_LearnMoreAboutTestRunner">Learn more about Test Runner</s:String>
+	<s:String x:Key="String_UnderstandingServiceSimulation">Understanding Service Simulation</s:String>
+	<s:String x:Key="String_ViewLoadedExtensions">View loaded extensions</s:String>
+	<s:String x:Key="String_AutomatedAndPerformanceTesting">Automated &amp; Performance testing</s:String>
+	<s:String x:Key="String_ExtensibilityAndTools">Extensibility &amp; tools</s:String>
+	<s:String x:Key="String_OpenExtensionDesigner">Open Extension Designer</s:String>
+	<s:String x:Key="String_UseExtensionDesigner">Use Extension Designer</s:String>	
     <s:String x:Key="String_RecentActivities">Recent activities</s:String>
     <s:String x:Key="String_ManualTesting">Manual Testing</s:String>
     <s:String x:Key="String_AutomatedTesting">Automated Testing</s:String>
@@ -391,6 +400,7 @@
 	<s:String x:Key="String_InstallationFailedExtensionContent">An error has occurred when installing the extension, Please refer the system log to see detailed error messages.</s:String>
 	<s:String x:Key="String_ExtensionInstalledAndLoaded">The extension is installed and can be used now.</s:String>
 	<s:String x:Key="String_OpenExtension">Open an extension</s:String>
+	<s:String x:Key="String_Open">Open</s:String>
 
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">Manual test runner</s:String>
@@ -444,6 +454,7 @@
     <s:String x:Key="String_System">System</s:String>
     <s:String x:Key="String_Category">Category</s:String>
     <s:String x:Key="String_Service">Service</s:String>
+	<s:String x:Key="String_Operation">Operation</s:String>
     <s:String x:Key="String_UriTemplate">Uri Template</s:String>
     <!-- ABOUT -->
     <s:String x:Key="String_Build">Build:</s:String>
@@ -570,7 +581,7 @@
     <s:String x:Key="String_CreateNewExtensionProject">Create a new service extension project</s:String>
     <s:String x:Key="String_LearnMoreExtensionDesigner">Learn more about service extension designer</s:String>
     <s:String x:Key="String_OtherWaysToExtent">Other ways to extent your ability</s:String>
-	<s:String x:Key="String_NewProjectNeverSaved">* new project, never has been saved.</s:String>
+	<s:String x:Key="String_NewProjectNeverSaved">* new project has never been saved.</s:String>
     
 	<!-- ViewExtensionDesigner.xaml.cs -->
 	<s:String x:Key="String_PleaseFixIssues">Please fix issues</s:String>
@@ -597,9 +608,9 @@
 	<s:String x:Key="String_MyApplication">My application</s:String>
 	<s:String x:Key="String_ChangeExtensionName">Change name of extension</s:String>
 	<s:String x:Key="String_ChangeExtensionNameContent">Enter a new value for the selected Application</s:String>
-	<s:String x:Key="String_SaveCurrentProjectContent">Your current project has not yet saved, do you want to save it now?&#x0a;
-YES: Save the current project and create new project.&#x0a;
-NO: Abandon current project and create new project.&#x0a;
+	<s:String x:Key="String_SaveCurrentProjectContent" xml:space="preserve">Your current project has not yet saved, do you want to save it now?
+YES: Save the current project and create new project.
+NO: Abandon current project and create new project.
 CANCEL: stay on current project.</s:String>
     <s:String x:Key="String_NewExtensionProject">New extension project</s:String>
 	<s:String x:Key="String_ProjectSaved">Project has been saved</s:String>
@@ -650,6 +661,7 @@ CANCEL: stay on current project.</s:String>
     
     <!-- WindowSendRequest.xaml -->
     <s:String x:Key="String_ServiceColon">Service: </s:String>
+	<s:String x:Key="String_ServiceOptions">Service Options</s:String>
     <s:String x:Key="String_ChooseServiceToTest">Choose a service to test ↑</s:String>
     <s:String x:Key="String_HistoryColon">History: </s:String>
     <s:String x:Key="String_EndpointColon">Endpoint: </s:String>
@@ -817,6 +829,7 @@ If this Uri uses variables, please check settings if all used variables are assi
 	<!-- ViewProjectInfo.xaml -->
     <s:String x:Key="String_RunAllTests">Run All Tests</s:String>
     <s:String x:Key="String_GenerateReport">Generate Report</s:String>
+	<s:String x:Key="String_Report">Report</s:String>
     <s:String x:Key="String_ViewReport">View Report</s:String>
     <s:String x:Key="String_ProjectInformationColon">Project Information:</s:String>
     <s:String x:Key="String_CreationDateColon">Creation Date:</s:String>
@@ -975,7 +988,7 @@ If this Uri uses variables, please check settings if all used variables are assi
 	<!-- EditableTextBlock -->
 	<s:String x:Key="String_ErrorWithInputData">There is an error with your input data</s:String>
 	<s:String x:Key="String_InputValueNotMatchTypeX" xml:space="preserve">Input value does not match to type: {0}.
-	Please retry or press ESC to cancel.</s:String>
+Please retry or press ESC to cancel.</s:String>
 	<s:String x:Key="String_StringEditor">String editor</s:String>	
 	
 	<!-- ViewLoadTestReportItem -->
@@ -985,5 +998,16 @@ If this Uri uses variables, please check settings if all used variables are assi
 	<s:String x:Key="String_TestIterations">Test Iterations</s:String>
 	
 	
+	<!-- WindowServiceSelector -->
+	<s:String x:Key="String_ServiceSelector">Service Selector</s:String>
+	<s:String x:Key="String_AvailableServices">Available Services</s:String>
+	<s:String x:Key="String_Description">Description</s:String>
+	<s:String x:Key="String_OkU">_OK</s:String>
+	<s:String x:Key="String_CancelU">_CANCEL</s:String>
+	
+	<!-- WindowServiceSelector -->
+	<s:String x:Key="String_RequestsAndResponse">Requests and responses: </s:String>
+	<s:String x:Key="String_WithThisServerXStub">With this server, you can simulate {0} services as Stub.</s:String>
+	<s:String x:Key="String_WithThisServerXDriver">You can also simulate {0} services as Driver.</s:String>
 	
 </ResourceDictionary>

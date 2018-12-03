@@ -228,6 +228,7 @@
     <!-- ViewProjectInfo.xaml -->
     <s:String x:Key="String_RunAllTests">Eseguire tutti i test</s:String>
     <s:String x:Key="String_GenerateReport">Generare Report</s:String>
+    <s:String x:Key="String_Report">Relazione</s:String>
     <s:String x:Key="String_ViewReport">Visualizza Report</s:String>
     <s:String x:Key="String_ProjectInformationColon">Informazioni sul progetto:</s:String>
     <s:String x:Key="String_CreationDateColon">Data di creazione:</s:String>
@@ -378,6 +379,15 @@ Si prega di riprovare o premere ESC per annullare.]]></s:String>
     <s:String x:Key="String_CycleTime">Tempo di ciclo (s)</s:String>
     <s:String x:Key="String_TheoreticalActualLoad">Carico teorico ed effettivo</s:String>
     <s:String x:Key="String_TestIterations">Iterazioni test</s:String>
+    <!-- WindowServiceSelector -->
+    <s:String x:Key="String_RequestsAndResponse">Richieste e risposte: </s:String>
+    <s:String x:Key="String_WithThisServerXStub">Con questo server, è possibile simulare {0} servizi come Stub.</s:String>
+    <s:String x:Key="String_WithThisServerXDriver">È anche possibile simulare {0} servizi come Driver.</s:String>
+    <s:String x:Key="String_ServiceSelector">Selettore di servizio</s:String>
+    <s:String x:Key="String_AvailableServices">Servizi disponibili</s:String>
+    <s:String x:Key="String_Description">Descrizione</s:String>
+    <s:String x:Key="String_OkU">_OK</s:String>
+    <s:String x:Key="String_CancelU">_CANCEL</s:String>
     <s:String x:Key="String_CredentialColon">Credenziali:</s:String>
     <s:String x:Key="String_UserDefined">Definito dall'utente</s:String>
     <s:String x:Key="String_SpecifyAUserDefinedCredential">Specificare una credenziale utente definito</s:String>
@@ -442,7 +452,7 @@ Ad esempio, si può avere un set di servizio Web per gestione clienti, inclusi i
     <s:String x:Key="String_ServiceDescriptionWsdlColon">Descrizione del servizio (WSDL):</s:String>
     <s:String x:Key="String_ImportOptions">Opzioni di importazione</s:String>
     <s:String x:Key="String_GenerateOrderColon">Generare l'ordine:</s:String>
-    <s:String x:Key="String_GenerateOrderChecked">Accettare ordinato XML Documnets solo</s:String>
+    <s:String x:Key="String_GenerateOrderChecked">Accettare solo ordinati documenti XML</s:String>
     <s:String x:Key="String_GenerateORderUnchecked">Accettare documenti XML non ordinati</s:String>
     <s:String x:Key="String_DispatchByBodyColon">Spedizione di corpo:</s:String>
     <s:String x:Key="String_DispatchByBodyChecked">Operazioni di spedizione di elemento body (Non compatibile con WS-1 Basic Profile 1.1).</s:String>
@@ -499,6 +509,15 @@ Ad esempio, si può avere un set di servizio Web per gestione clienti, inclusi i
     <s:String x:Key="String_WhatsNew">What's new</s:String>
     <s:String x:Key="String_ComingNext">Che cosa ci aspetta?</s:String>
     <s:String x:Key="String_LetsGetStarted">Iniziamo</s:String>
+    <s:String x:Key="String_ManualTestingAndServiceSimulation">Test manuale e simulazione di servizio</s:String>
+    <s:String x:Key="String_StartManualTesting">Avviare il test manuale</s:String>
+    <s:String x:Key="String_LearnMoreAboutTestRunner">Scopri di più sui Test Runner</s:String>
+    <s:String x:Key="String_UnderstandingServiceSimulation">Comprensione di simulazione di servizio</s:String>
+    <s:String x:Key="String_ViewLoadedExtensions">Mostra le estensioni caricate</s:String>
+    <s:String x:Key="String_AutomatedAndPerformanceTesting">Automatizzato &amp; test delle prestazioni</s:String>
+    <s:String x:Key="String_ExtensibilityAndTools">Estensibilità &amp; strumenti</s:String>
+    <s:String x:Key="String_OpenExtensionDesigner">Designer di estensione aperta</s:String>
+    <s:String x:Key="String_UseExtensionDesigner">Utilizzare Progettazione estensione</s:String>
     <s:String x:Key="String_RecentActivities">Attività recenti</s:String>
     <s:String x:Key="String_ManualTesting">Test manuale</s:String>
     <s:String x:Key="String_AutomatedTesting">Test automatizzato</s:String>
@@ -555,6 +574,7 @@ Si desidera riavviare ora il Hummingbird?]]></s:String>
     <s:String x:Key="String_InstallationFailedExtensionContent">Si è verificato un errore quando si installa l'estensione, consultare il registro di sistema per visualizzare messaggi di errore dettagliati.</s:String>
     <s:String x:Key="String_ExtensionInstalledAndLoaded">L'estensione è installato e può essere utilizzato in questo momento.</s:String>
     <s:String x:Key="String_OpenExtension">Aprire un'estensione</s:String>
+    <s:String x:Key="String_Open">Aperto</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">Corridore di test manuale</s:String>
     <s:String x:Key="String_VirtualServices">Servizi virtuali</s:String>
@@ -606,6 +626,7 @@ Si desidera riavviare ora il Hummingbird?]]></s:String>
     <s:String x:Key="String_System">Sistema</s:String>
     <s:String x:Key="String_Category">Categoria</s:String>
     <s:String x:Key="String_Service">Servizio</s:String>
+    <s:String x:Key="String_Operation">Funzionamento</s:String>
     <s:String x:Key="String_UriTemplate">Modello URI</s:String>
     <!-- ABOUT -->
     <s:String x:Key="String_Build">Costruire:</s:String>
@@ -800,6 +821,7 @@ Ora mostra il messaggio con il visualizzatore predefinito.]]></s:String>
     <s:String x:Key="String_SelectARequest">Selezionare una richiesta</s:String>
     <!-- WindowSendRequest.xaml -->
     <s:String x:Key="String_ServiceColon">Servizio: </s:String>
+    <s:String x:Key="String_ServiceOptions">Opzioni di servizio</s:String>
     <s:String x:Key="String_ChooseServiceToTest">Scegli un servizio per testare ↑</s:String>
     <s:String x:Key="String_HistoryColon">Storia: </s:String>
     <s:String x:Key="String_EndpointColon">Endpoint: </s:String>

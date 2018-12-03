@@ -251,8 +251,8 @@
     <s:String x:Key="String_ServiceNameColon">服務名稱:</s:String>
     <s:String x:Key="String_ServiceDescriptionWsdlColon">服務說明 (WSDL):</s:String>
     <s:String x:Key="String_ImportOptions">導入選項</s:String>
-    <s:String x:Key="String_GenerateOrderColon">生成訂單:</s:String>
-    <s:String x:Key="String_GenerateOrderChecked">僅接受有序的 XML Documnets</s:String>
+    <s:String x:Key="String_GenerateOrderColon">生成文档顺序:</s:String>
+    <s:String x:Key="String_GenerateOrderChecked">僅接受有序的 XML 文檔</s:String>
     <s:String x:Key="String_GenerateORderUnchecked">接受無序的 XML 文檔</s:String>
     <s:String x:Key="String_DispatchByBodyColon">機構派遣:</s:String>
     <s:String x:Key="String_DispatchByBodyChecked">按正文元素調度操作 (不符合 WS-1 基本設定檔 1.1)。</s:String>
@@ -309,6 +309,15 @@
     <s:String x:Key="String_WhatsNew">新增內容</s:String>
     <s:String x:Key="String_ComingNext">接下來要做什麼？</s:String>
     <s:String x:Key="String_LetsGetStarted">讓我們開始吧</s:String>
+    <s:String x:Key="String_ManualTestingAndServiceSimulation">手動測試和服務類比</s:String>
+    <s:String x:Key="String_StartManualTesting">開始手動測試</s:String>
+    <s:String x:Key="String_LearnMoreAboutTestRunner">瞭解有關測試回合程式的詳細資訊</s:String>
+    <s:String x:Key="String_UnderstandingServiceSimulation">瞭解服務類比</s:String>
+    <s:String x:Key="String_ViewLoadedExtensions">查看載入的擴展</s:String>
+    <s:String x:Key="String_AutomatedAndPerformanceTesting">自動化和效能測試</s:String>
+    <s:String x:Key="String_ExtensibilityAndTools">可擴充性和工具</s:String>
+    <s:String x:Key="String_OpenExtensionDesigner">打開擴展設計器</s:String>
+    <s:String x:Key="String_UseExtensionDesigner">使用擴展設計器</s:String>
     <s:String x:Key="String_RecentActivities">近期活動</s:String>
     <s:String x:Key="String_ManualTesting">手動測試</s:String>
     <s:String x:Key="String_AutomatedTesting">自動化測試</s:String>
@@ -365,6 +374,7 @@
     <s:String x:Key="String_InstallationFailedExtensionContent">安裝擴展時發生錯誤, 請參閱系統日誌以查看詳細的錯誤訊息。</s:String>
     <s:String x:Key="String_ExtensionInstalledAndLoaded">擴展已安裝, 現在可以使用。</s:String>
     <s:String x:Key="String_OpenExtension">打開擴展</s:String>
+    <s:String x:Key="String_Open">打開</s:String>
     <!-- TEST RUNNER -->
     <s:String x:Key="String_ManualTestRunner">手動測試運行程式</s:String>
     <s:String x:Key="String_VirtualServices">虛擬服務</s:String>
@@ -416,6 +426,7 @@
     <s:String x:Key="String_System">系統</s:String>
     <s:String x:Key="String_Category">類別</s:String>
     <s:String x:Key="String_Service">服務</s:String>
+    <s:String x:Key="String_Operation">操作</s:String>
     <s:String x:Key="String_UriTemplate">Uri 範本</s:String>
     <!-- ABOUT -->
     <s:String x:Key="String_Build">建立：</s:String>
@@ -610,6 +621,7 @@
     <s:String x:Key="String_SelectARequest">選擇請求</s:String>
     <!-- WindowSendRequest.xaml -->
     <s:String x:Key="String_ServiceColon">服務：</s:String>
+    <s:String x:Key="String_ServiceOptions">服務選項</s:String>
     <s:String x:Key="String_ChooseServiceToTest">選擇要測試的服務↑</s:String>
     <s:String x:Key="String_HistoryColon">歷史：</s:String>
     <s:String x:Key="String_EndpointColon">端點：</s:String>
@@ -757,6 +769,7 @@
     <!-- ViewProjectInfo.xaml -->
     <s:String x:Key="String_RunAllTests">運行所有測試</s:String>
     <s:String x:Key="String_GenerateReport">生成報告</s:String>
+    <s:String x:Key="String_Report">報告</s:String>
     <s:String x:Key="String_ViewReport">查看報告</s:String>
     <s:String x:Key="String_ProjectInformationColon">專案資訊:</s:String>
     <s:String x:Key="String_CreationDateColon">創建日期:</s:String>
@@ -907,6 +920,15 @@
     <s:String x:Key="String_CycleTime">迴圈時間</s:String>
     <s:String x:Key="String_TheoreticalActualLoad">理論和實際載荷</s:String>
     <s:String x:Key="String_TestIterations">測試反覆運算</s:String>
+    <!-- WindowServiceSelector -->
+    <s:String x:Key="String_RequestsAndResponse">請求和答覆:</s:String>
+    <s:String x:Key="String_WithThisServerXStub">使用此伺服器, 您可以將 {0} 服務類比為 stub。</s:String>
+    <s:String x:Key="String_WithThisServerXDriver">您還可以將 {0} 服務類比為驅動程式。</s:String>
+    <s:String x:Key="String_ServiceSelector">服務選擇器</s:String>
+    <s:String x:Key="String_AvailableServices">可提供的服務</s:String>
+    <s:String x:Key="String_Description">描述</s:String>
+    <s:String x:Key="String_OkU">確定(_O)</s:String>
+    <s:String x:Key="String_CancelU">取消(_C)</s:String>
     <s:String x:Key="String_GeneralOptions">常規選項</s:String>
     <s:String x:Key="String_AuthenticationColon">認證：</s:String>
     <s:String x:Key="String_PreEmptiveColon">先發制人:</s:String>
@@ -914,14 +936,14 @@
     <s:String x:Key="String_PreEmptiveUnchecked">正常身份驗證</s:String>
     <s:String x:Key="String_SoapOptions">SOAP 選項</s:String>
     <s:String x:Key="String_MessageEncodingColon">消息編碼:</s:String>
-    <s:String x:Key="String_MessageEncodingMtoM">MtoM (應用/xop)</s:String>
+    <s:String x:Key="String_MessageEncodingMtoM">MtoM (application/xop)</s:String>
     <s:String x:Key="String_MessageEncodingText">文本/XML</s:String>
     <s:String x:Key="String_MessageVersionColon">消息版本:</s:String>
     <s:String x:Key="String_CustomHttpHeaders">自訂 HTTP 標頭</s:String>
     <s:String x:Key="String_Anonymous">匿名</s:String>
     <s:String x:Key="String_WindowsAuthentication">Windows 身份驗證</s:String>
-    <s:String x:Key="String_WindowsAuthenticationTooltip">使用您當前的 windows 憑據來調用此服務, 與 Windows 集成身份驗證</s:String>
+    <s:String x:Key="String_WindowsAuthenticationTooltip">使用Windows 集成身份驗證，并用您當前的 windows 憑據來調用此服務。</s:String>
     <s:String x:Key="String_NtlmAuthentication">NTLM 身份驗證</s:String>
-    <s:String x:Key="String_NtlmAuthenticationTooltip">使用您當前的 Windows 憑據調用此服務, 使用 NTLM 身份驗證</s:String>
+    <s:String x:Key="String_NtlmAuthenticationTooltip">使用 NTLM 身份驗證，并用您當前的 Windows 憑據來調用此服務。 </s:String>
     <s:String x:Key="String_ApplicationName">Hummingbird</s:String>
 </ResourceDictionary>
