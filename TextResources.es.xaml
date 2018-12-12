@@ -271,6 +271,10 @@ Esta acción no puede ser recuperada.]]></s:String>
     <s:String x:Key="String_ShowMonitoring">Mostrar control</s:String>
     <s:String x:Key="String_LoadConfiguration">Configuración de carga</s:String>
     <s:String x:Key="String_EstimatedLoadGraph">Gráfico de la carga estimada</s:String>
+    <s:String x:Key="String_PerformanceThreshold">Umbral de rendimiento</s:String>
+    <s:String x:Key="String_AddPerformanceThreshold">Agregar rendimiento umbral</s:String>
+    <s:String x:Key="String_PerformanceThresholdU">UMBRAL DE RENDIMIENTO</s:String>
+    <s:String x:Key="String_ServiceU">SERVICIO</s:String>
     <!-- ViewTestSuite.xaml -->
     <s:String x:Key="String_TestSuiteColon">Serie de pruebas:</s:String>
     <s:String x:Key="String_TestSuiteConfiguration">Configuración de Suite de prueba</s:String>
@@ -383,6 +387,12 @@ Por favor Reintentar o presione ESC para cancelar.]]></s:String>
     <s:String x:Key="String_RequestsAndResponse">Solicitudes y respuestas: </s:String>
     <s:String x:Key="String_WithThisServerXStub">Con este servidor, puede simular {0} servicios como Stub.</s:String>
     <s:String x:Key="String_WithThisServerXDriver">También puede simular {0} servicios como conductor.</s:String>
+    <!-- WindowEditPerformanceThreshold -->
+    <s:String x:Key="String_CannotApplyThreshold">No se puede aplicar el umbral de rendimiento</s:String>
+    <s:String x:Key="String_CannotApplyThresholdMessage">El umbral seleccionado se aplica a un servicio individual, pero no hay ningún tipo de servicio seleccionado.</s:String>
+    <s:String x:Key="String_AddEditThreshold">Agregar/Editar umbral de rendimiento</s:String>
+    <s:String x:Key="String_ThresholdTypeColon">Tipo de umbral: </s:String>
+    <s:String x:Key="String_ValueColon">Valor: </s:String>
     <s:String x:Key="String_ServiceSelector">Selector de servicio</s:String>
     <s:String x:Key="String_AvailableServices">Servicios disponibles</s:String>
     <s:String x:Key="String_Description">Descripción</s:String>

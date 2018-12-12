@@ -271,6 +271,10 @@
     <s:String x:Key="String_ShowMonitoring">Προβολή παρακολούθησης</s:String>
     <s:String x:Key="String_LoadConfiguration">Ρύθμιση παραμέτρων φορτίου</s:String>
     <s:String x:Key="String_EstimatedLoadGraph">Εκτιμώμενο φορτίο γράφημα</s:String>
+    <s:String x:Key="String_PerformanceThreshold">Όριο απόδοσης</s:String>
+    <s:String x:Key="String_AddPerformanceThreshold">Προσθήκη ορίου επίδοσης</s:String>
+    <s:String x:Key="String_PerformanceThresholdU">ΌΡΙΟ ΑΠΌΔΟΣΗΣ</s:String>
+    <s:String x:Key="String_ServiceU">ΥΠΗΡΕΣΊΑ</s:String>
     <!-- ViewTestSuite.xaml -->
     <s:String x:Key="String_TestSuiteColon">Ακολουθία δοκιμής:</s:String>
     <s:String x:Key="String_TestSuiteConfiguration">Δοκιμή σουίτα ρύθμισης παραμέτρων</s:String>
@@ -383,6 +387,12 @@
     <s:String x:Key="String_RequestsAndResponse">Αιτήσεις και απαντήσεις: </s:String>
     <s:String x:Key="String_WithThisServerXStub">Με αυτόν το διακομιστή, μπορείτε να προσομοιώσετε {0} υπηρεσίες ως στέλεχος.</s:String>
     <s:String x:Key="String_WithThisServerXDriver">Επίσης, μπορείτε να προσομοιώσετε {0} υπηρεσίες ως οδηγός.</s:String>
+    <!-- WindowEditPerformanceThreshold -->
+    <s:String x:Key="String_CannotApplyThreshold">Δεν ισχύει το κατώτατο όριο απόδοσης</s:String>
+    <s:String x:Key="String_CannotApplyThresholdMessage">Το επιλεγμένο όριο ισχύει για μια μεμονωμένη υπηρεσία, αλλά δεν υπάρχει καμία υπηρεσία που επιλέξατε.</s:String>
+    <s:String x:Key="String_AddEditThreshold">Προσθήκη/Επεξεργασία ορίου επίδοσης</s:String>
+    <s:String x:Key="String_ThresholdTypeColon">Τύπος όριο: </s:String>
+    <s:String x:Key="String_ValueColon">Αξία: </s:String>
     <s:String x:Key="String_ServiceSelector">Επιλογέας υπηρεσιών</s:String>
     <s:String x:Key="String_AvailableServices">Διαθέσιμες υπηρεσίες</s:String>
     <s:String x:Key="String_Description">Περιγραφή</s:String>

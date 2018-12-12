@@ -271,6 +271,10 @@
     <s:String x:Key="String_ShowMonitoring">監視を表示します。</s:String>
     <s:String x:Key="String_LoadConfiguration">負荷構成</s:String>
     <s:String x:Key="String_EstimatedLoadGraph">推定負荷グラフ</s:String>
+    <s:String x:Key="String_PerformanceThreshold">パフォーマンスのしきい値</s:String>
+    <s:String x:Key="String_AddPerformanceThreshold">パフォーマンスしきい値を追加します。</s:String>
+    <s:String x:Key="String_PerformanceThresholdU">パフォーマンスのしきい値</s:String>
+    <s:String x:Key="String_ServiceU">サービス</s:String>
     <!-- ViewTestSuite.xaml -->
     <s:String x:Key="String_TestSuiteColon">テスト スイート:</s:String>
     <s:String x:Key="String_TestSuiteConfiguration">テスト スイートの構成</s:String>
@@ -383,6 +387,12 @@
     <s:String x:Key="String_RequestsAndResponse">要求と応答:</s:String>
     <s:String x:Key="String_WithThisServerXStub">このサーバーには、スタブとして {0} サービスをシミュレートできます。</s:String>
     <s:String x:Key="String_WithThisServerXDriver">ドライバーとして {0} 個のサービスをシミュレートすることもできます。</s:String>
+    <!-- WindowEditPerformanceThreshold -->
+    <s:String x:Key="String_CannotApplyThreshold">パフォーマンスのしきい値を適用することはできません。</s:String>
+    <s:String x:Key="String_CannotApplyThresholdMessage">個々 のサービスを選択したしきい値が適用されますが、選択サービスはありません。</s:String>
+    <s:String x:Key="String_AddEditThreshold">パフォーマンスしきい値の追加/編集</s:String>
+    <s:String x:Key="String_ThresholdTypeColon">しきい値の種類:</s:String>
+    <s:String x:Key="String_ValueColon">値:</s:String>
     <s:String x:Key="String_ServiceSelector">サービス選択</s:String>
     <s:String x:Key="String_AvailableServices">利用可能なサービス</s:String>
     <s:String x:Key="String_Description">説明</s:String>

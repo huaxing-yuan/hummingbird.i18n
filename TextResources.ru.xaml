@@ -271,6 +271,10 @@
     <s:String x:Key="String_ShowMonitoring">Показать мониторинг</s:String>
     <s:String x:Key="String_LoadConfiguration">Загрузить конфигурацию</s:String>
     <s:String x:Key="String_EstimatedLoadGraph">По оценкам нагрузки граф</s:String>
+    <s:String x:Key="String_PerformanceThreshold">Порог производительности</s:String>
+    <s:String x:Key="String_AddPerformanceThreshold">Добавить порог производительности</s:String>
+    <s:String x:Key="String_PerformanceThresholdU">ПОРОГ ПРОИЗВОДИТЕЛЬНОСТИ</s:String>
+    <s:String x:Key="String_ServiceU">УСЛУГИ</s:String>
     <!-- ViewTestSuite.xaml -->
     <s:String x:Key="String_TestSuiteColon">Набор тестов:</s:String>
     <s:String x:Key="String_TestSuiteConfiguration">Конфигурация теста Люкс</s:String>
@@ -383,6 +387,12 @@
     <s:String x:Key="String_RequestsAndResponse">Запросы и ответы: </s:String>
     <s:String x:Key="String_WithThisServerXStub">С этим сервером вы можете моделировать {0} услуги как заглушку.</s:String>
     <s:String x:Key="String_WithThisServerXDriver">Также вы можете моделировать {0} услуги как водитель.</s:String>
+    <!-- WindowEditPerformanceThreshold -->
+    <s:String x:Key="String_CannotApplyThreshold">Не удается применить порог производительности</s:String>
+    <s:String x:Key="String_CannotApplyThresholdMessage">Выбранный порог относится к индивидуальным обслуживанием, но существует служба не выбран.</s:String>
+    <s:String x:Key="String_AddEditThreshold">Добавить/изменить порог производительности</s:String>
+    <s:String x:Key="String_ThresholdTypeColon">Порог тип: </s:String>
+    <s:String x:Key="String_ValueColon">Значение: </s:String>
     <s:String x:Key="String_ServiceSelector">Селектор обслуживания</s:String>
     <s:String x:Key="String_AvailableServices">Доступные услуги</s:String>
     <s:String x:Key="String_Description">Описание</s:String>

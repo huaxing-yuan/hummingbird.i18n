@@ -832,6 +832,10 @@ Cette action ne peut pas être restaurée.]]></s:String>
     <s:String x:Key="String_ShowMonitoring">Voir la surveillance</s:String>
     <s:String x:Key="String_LoadConfiguration">Configuration de charge</s:String>
     <s:String x:Key="String_EstimatedLoadGraph">Graphe de la charge estimée</s:String>
+    <s:String x:Key="String_PerformanceThreshold">Seuil de performance</s:String>
+    <s:String x:Key="String_AddPerformanceThreshold">Ajouter un seuil de performance</s:String>
+    <s:String x:Key="String_PerformanceThresholdU">SEUIL DE PERFORMANCE</s:String>
+    <s:String x:Key="String_ServiceU">SERVICE</s:String>
     <!-- ViewTestSuite.xaml -->
     <s:String x:Key="String_TestSuiteColon">Suite de tests :</s:String>
     <s:String x:Key="String_TestSuiteConfiguration">Configuration de test Suite</s:String>
@@ -944,6 +948,12 @@ Veuillez réessayer ou appuyez sur ÉCHAP pour annuler.</s:String>
     <s:String x:Key="String_RequestsAndResponse">Demandes et les réponses : </s:String>
     <s:String x:Key="String_WithThisServerXStub">Avec ce serveur, vous pouvez simuler des services {0} comme Stub.</s:String>
     <s:String x:Key="String_WithThisServerXDriver">Vous pouvez également simuler {0} services comme chauffeur.</s:String>
+    <!-- WindowEditPerformanceThreshold -->
+    <s:String x:Key="String_CannotApplyThreshold">Impossible d’appliquer le seuil de performance</s:String>
+    <s:String x:Key="String_CannotApplyThresholdMessage">Le seuil sélectionné s’applique à un service individuel, mais aucun service n'est sélectionné.</s:String>
+    <s:String x:Key="String_AddEditThreshold">Ajouter/modifier le seuil de Performance</s:String>
+    <s:String x:Key="String_ThresholdTypeColon">Type de seuil : </s:String>
+    <s:String x:Key="String_ValueColon">Valeur : </s:String>
     <s:String x:Key="String_ServiceSelector">Sélecteur de fonction</s:String>
     <s:String x:Key="String_AvailableServices">Services disponibles</s:String>
     <s:String x:Key="String_Description">Description</s:String>

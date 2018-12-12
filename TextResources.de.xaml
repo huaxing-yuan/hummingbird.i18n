@@ -272,6 +272,10 @@ Diese Aktion kann nicht wiederhergestellt werden.]]></s:String>
     <s:String x:Key="String_ShowMonitoring">Zeigen, Überwachung</s:String>
     <s:String x:Key="String_LoadConfiguration">Last-Konfiguration</s:String>
     <s:String x:Key="String_EstimatedLoadGraph">Geschätzte Last graph</s:String>
+    <s:String x:Key="String_PerformanceThreshold">Leistungsschwellenwert</s:String>
+    <s:String x:Key="String_AddPerformanceThreshold">Leistungsschwellenwert hinzufügen</s:String>
+    <s:String x:Key="String_PerformanceThresholdU">LEISTUNGSSCHWELLENWERT</s:String>
+    <s:String x:Key="String_ServiceU">SERVICE</s:String>
     <!-- ViewTestSuite.xaml -->
     <s:String x:Key="String_TestSuiteColon">Test-Suite:</s:String>
     <s:String x:Key="String_TestSuiteConfiguration">Test-Suite-Konfiguration</s:String>
@@ -385,6 +389,12 @@ Bitte versuchen Sie erneut, oder drücken Sie ESC, um abzubrechen.</s:String>
     <s:String x:Key="String_RequestsAndResponse">Anfragen und Antworten: </s:String>
     <s:String x:Key="String_WithThisServerXStub">Mit diesem Server können Sie {0} Dienstleistungen als Stub simulieren.</s:String>
     <s:String x:Key="String_WithThisServerXDriver">Sie können auch {0} Dienstleistungen als Treiber simulieren.</s:String>
+    <!-- WindowEditPerformanceThreshold -->
+    <s:String x:Key="String_CannotApplyThreshold">Leistungsschwellenwert kann nicht angewendet werden.</s:String>
+    <s:String x:Key="String_CannotApplyThresholdMessage">Die ausgewählten Schwellenwert gilt für einen individuellen Service, aber es gibt kein Dienst ausgewählt.</s:String>
+    <s:String x:Key="String_AddEditThreshold">Leistungsschwellenwert hinzufügen/bearbeiten</s:String>
+    <s:String x:Key="String_ThresholdTypeColon">Schwelle Typ: </s:String>
+    <s:String x:Key="String_ValueColon">Wert: </s:String>
     <s:String x:Key="String_ServiceSelector">Service-Selektor</s:String>
     <s:String x:Key="String_AvailableServices">Verfügbare Dienste</s:String>
     <s:String x:Key="String_Description">Beschreibung</s:String>

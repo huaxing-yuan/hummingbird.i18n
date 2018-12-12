@@ -874,7 +874,10 @@ If this Uri uses variables, please check settings if all used variables are assi
 	<s:String x:Key="String_ShowMonitoring">Show Monitoring</s:String>
 	<s:String x:Key="String_LoadConfiguration">Load Configuration</s:String>
 	<s:String x:Key="String_EstimatedLoadGraph">Estimated load graph</s:String>
-	
+	<s:String x:Key="String_PerformanceThreshold">Performance Threshold</s:String>
+	<s:String x:Key="String_AddPerformanceThreshold">Add Performance Threshold</s:String>
+	<s:String x:Key="String_PerformanceThresholdU">PERFORMANCE THRESHOLD</s:String>
+	<s:String x:Key="String_ServiceU">SERVICE</s:String>
 	
 	<!-- ViewTestSuite.xaml -->
     <s:String x:Key="String_TestSuiteColon">Test Suite:</s:String>
@@ -1009,5 +1012,13 @@ Please retry or press ESC to cancel.</s:String>
 	<s:String x:Key="String_RequestsAndResponse">Requests and responses: </s:String>
 	<s:String x:Key="String_WithThisServerXStub">With this server, you can simulate {0} services as Stub.</s:String>
 	<s:String x:Key="String_WithThisServerXDriver">You can also simulate {0} services as Driver.</s:String>
+	
+	
+	<!-- WindowEditPerformanceThreshold -->
+	<s:String x:Key="String_CannotApplyThreshold">Cannot apply performance threshold</s:String>
+	<s:String x:Key="String_CannotApplyThresholdMessage">The selected threshold applies to an individual service, but there is no service selected.</s:String>
+	<s:String x:Key="String_AddEditThreshold">Add/Edit Performance Threshold</s:String>
+	<s:String x:Key="String_ThresholdTypeColon">Threshold Type: </s:String>
+	<s:String x:Key="String_ValueColon">Value: </s:String>
 	
 </ResourceDictionary>
