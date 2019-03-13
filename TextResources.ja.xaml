@@ -29,6 +29,7 @@
     <s:String x:Key="String_Menu_XpathValidator">XPATH の検証</s:String>
     <s:String x:Key="String_Menu_DocFormat">DOC 形式</s:String>
     <s:String x:Key="String_Menu_Base64">BASE64</s:String>
+    <s:String x:Key="String_Menu_CustomTools">カスタム ツール</s:String>
     <s:String x:Key="String_StartupInformation">スタートアップ情報</s:String>
     <!-- BACK STAGE -->
     <s:String x:Key="String_General">一般的です</s:String>
@@ -220,6 +221,7 @@
     <s:String x:Key="String_Information">情報</s:String>
     <s:String x:Key="String_SelectDataSourceColon">データ ソースを選択します。</s:String>
     <s:String x:Key="String_RowLimitColon">行数の上限:</s:String>
+    <s:String x:Key="String_DataStorage">データ ストレージ</s:String>
     <!-- ViewExcelDataSource.xaml -->
     <s:String x:Key="String_SpreadSheetNameColon">スプレッドシートの名前:</s:String>
     <s:String x:Key="String_RangeTypeColon">範囲の種類:</s:String>
@@ -501,6 +503,7 @@
     <s:String x:Key="String_ProfileNameCannotBeEmpty">プロファイル名を空にすることはできません。</s:String>
     <s:String x:Key="String_ProfileXExists">プロファイル '{0}' が既に存在します。</s:String>
     <s:String x:Key="String_ImportAProfile">プロファイルをインポートします。</s:String>
+    <s:String x:Key="String_Export">エクスポート</s:String>
     <!-- TEST MESSAGE STATUS -->
     <s:String x:Key="String_Status_None">どれも</s:String>
     <s:String x:Key="String_Status_Pending">保留中</s:String>
@@ -718,6 +721,33 @@ Hummingbirdを今すぐ再起動しますか。]]></s:String>
     <s:String x:Key="String_NewStressTest">新しいストレス テスト</s:String>
     <s:String x:Key="String_AddSpikeTest">スパイク テストを追加します。</s:String>
     <s:String x:Key="String_NewSpikeTest">新しいスパイク テスト</s:String>
+    <s:String x:Key="String_AutoSave">自動保存します。</s:String>
+    <s:String x:Key="String_AutoSaveTooltip">必要に応じてオートメーション プロジェクトを自動的に保存します。</s:String>
+    <s:String x:Key="String_ConsoleOutput">コンソール出力</s:String>
+    <s:String x:Key="String_ConsoleOutputU">コンソール出力</s:String>
+    <s:String x:Key="String_ClearLog">ログのクリア</s:String>
+    <s:String x:Key="String_SaveLogAs">としてログを保存.</s:String>
+    <s:String x:Key="String_ActiveEnvironmentColon">アクティブな環境:</s:String>
+    <s:String x:Key="String_ActiveEnvironmentTooltip">アクティブなテスト環境です。(Uri テンプレート、資格情報および環境変数に影響可能性があります)。</s:String>
+    <s:String x:Key="String_ProjectNotSaved">プロジェクトは保存されません。</s:String>
+    <!-- DataStorage -->
+    <s:String x:Key="String_NoDataStorageInfo1">データ ストレージは、中間データを CSV、EXCEL、XML データベースなどの保存場所に書き込みます。</s:String>
+    <s:String x:Key="String_NoDataStorageInfo2">これらのデータを保存するには、任意のデータ ストレージを選択してください。</s:String>
+    <s:String x:Key="String_WriteHeadersOn">列ヘッダーをファイルに書く</s:String>
+    <s:String x:Key="String_WriteHeadersOff">ヘッダーなしのデータのみを書く</s:String>
+    <s:String x:Key="String_SortColumnHeaders">列ヘッダーを並べ替え。</s:String>
+    <s:String x:Key="String_SortColumnHeadersOn">アルファベット順に列のヘッダーを書き込み</s:String>
+    <s:String x:Key="String_SortColumnHeadersOff">元の順序で列ヘッダーを書き込みます</s:String>
+    <s:String x:Key="String_ExistingFilebehavior">既存のファイルの動作</s:String>
+    <s:String x:Key="String_ReplaceExistingFile">既存のファイルを置き換えます。</s:String>
+    <s:String x:Key="String_OverwriteData">指定したワークシートのデータと他のワークシートの保持データを上書きします。</s:String>
+    <s:String x:Key="String_WorksheetName">ワークシート名</s:String>
+    <s:String x:Key="String_WriteData">データを書き込む</s:String>
+    <s:String x:Key="String_CSVFile">CSV ファイル</s:String>
+    <s:String x:Key="String_ExcelFile">EXCEL ファイル</s:String>
+    <s:String x:Key="String_SQLDataBase">SQL データベース</s:String>
+    <s:String x:Key="String_SelectDataStorageColon">データ ストレージを選択します。</s:String>
+    <s:String x:Key="String_DataToBeExported">エクスポートされるデータ</s:String>
     <!-- ViewBase64Tool.xaml -->
     <s:String x:Key="String_ActionColon">アクション:</s:String>
     <s:String x:Key="String_Base64EncodingTitle">Base64 エンコーディング ・ デコーディング</s:String>
@@ -731,6 +761,19 @@ Hummingbirdを今すぐ再起動しますか。]]></s:String>
     <s:String x:Key="String_OpenFileToEncode">エンコードするファイルを開く</s:String>
     <s:String x:Key="String_SaveBinaryAsFile">デコードされた内容をファイルとして保存します。</s:String>
     <s:String x:Key="String_DecodedAndSaved">内容は解読され、ファイルに保存されます。それを開くにはここをクリック</s:String>
+    <s:String x:Key="String_Encode">エンコード</s:String>
+    <s:String x:Key="String_Decode">デコード</s:String>
+    <s:String x:Key="String_EncodeFromFile">ファイルからエンコードします。</s:String>
+    <s:String x:Key="String_DecodeToFile">ファイルをデコードします。</s:String>
+    <s:String x:Key="String_WordWrap">ワード ラップ</s:String>
+    <s:String x:Key="String_NoWordWrap">単語を折り返さない</s:String>
+    <s:String x:Key="String_Original">翻訳元</s:String>
+    <s:String x:Key="String_Target">ターゲット</s:String>
+    <!-- Regex -->
+    <s:String x:Key="String_RegexToolHeader">正規表現マッチ ・抽出ツール</s:String>
+    <s:String x:Key="String_Expression">式</s:String>
+    <s:String x:Key="String_InputStringColon">入力文字列:</s:String>
+    <s:String x:Key="String_Output">出力</s:String>
     <!-- ViewToolsOverview.xaml -->
     <s:String x:Key="String_ExtendsThePotetual">可能性を大きく広げます</s:String>
     <s:String x:Key="String_ExtensionDesigner">拡張子デザイナー</s:String>

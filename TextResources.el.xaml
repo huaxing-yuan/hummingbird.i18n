@@ -29,6 +29,7 @@
     <s:String x:Key="String_Menu_XpathValidator">VALIDATOR ΈΚΦΡΑΣΗ XPATH</s:String>
     <s:String x:Key="String_Menu_DocFormat">ΜΟΡΦΉ DOC</s:String>
     <s:String x:Key="String_Menu_Base64">BASE64</s:String>
+    <s:String x:Key="String_Menu_CustomTools">ΠΡΟΣΑΡΜΟΣΜΈΝΑ ΕΡΓΑΛΕΊΑ</s:String>
     <s:String x:Key="String_StartupInformation">Πληροφορίες εκκίνησης</s:String>
     <!-- BACK STAGE -->
     <s:String x:Key="String_General">Γενικά</s:String>
@@ -220,6 +221,7 @@
     <s:String x:Key="String_Information">Πληροφορίες</s:String>
     <s:String x:Key="String_SelectDataSourceColon">Επιλέξτε ένα αρχείο προέλευσης δεδομένων:</s:String>
     <s:String x:Key="String_RowLimitColon">Όριο γραμμών:</s:String>
+    <s:String x:Key="String_DataStorage">Αποθήκευση δεδομένων</s:String>
     <!-- ViewExcelDataSource.xaml -->
     <s:String x:Key="String_SpreadSheetNameColon">Όνομα του υπολογιστικού φύλλου:</s:String>
     <s:String x:Key="String_RangeTypeColon">Εύρος Τύπος:</s:String>
@@ -501,6 +503,7 @@
     <s:String x:Key="String_ProfileNameCannotBeEmpty">Το όνομα του προφίλ δεν μπορεί να είναι κενό.</s:String>
     <s:String x:Key="String_ProfileXExists">Το προφίλ '{0}' έχει ήδη υπάρχει.</s:String>
     <s:String x:Key="String_ImportAProfile">Εισαγάγετε ένα προφίλ</s:String>
+    <s:String x:Key="String_Export">Εξαγωγή</s:String>
     <!-- TEST MESSAGE STATUS -->
     <s:String x:Key="String_Status_None">Κανένας</s:String>
     <s:String x:Key="String_Status_Pending">Σε εκκρεμότητα</s:String>
@@ -718,6 +721,33 @@
     <s:String x:Key="String_NewStressTest">Νέα στρες τεστ</s:String>
     <s:String x:Key="String_AddSpikeTest">Προσθέστε μια δοκιμή στιλέτο</s:String>
     <s:String x:Key="String_NewSpikeTest">Νέα δοκιμή στιλέτο</s:String>
+    <s:String x:Key="String_AutoSave">Αυτόματη Αποθήκευση</s:String>
+    <s:String x:Key="String_AutoSaveTooltip">Αποθηκεύει αυτόματα την αυτοματοποίηση του έργου όταν χρειάζεται.</s:String>
+    <s:String x:Key="String_ConsoleOutput">Κονσόλας εξόδου</s:String>
+    <s:String x:Key="String_ConsoleOutputU">ΚΟΝΣΌΛΑΣ ΕΞΌΔΟΥ</s:String>
+    <s:String x:Key="String_ClearLog">Εκκαθάριση αρχείου καταγραφής</s:String>
+    <s:String x:Key="String_SaveLogAs">Αποθήκευση αρχείου καταγραφής ως...</s:String>
+    <s:String x:Key="String_ActiveEnvironmentColon">Ενεργό περιβάλλον:</s:String>
+    <s:String x:Key="String_ActiveEnvironmentTooltip">Ενεργό δοκιμαστικό περιβάλλον. (μπορεί να επηρεάσουν Uri πρότυπο, πιστοποίηση και περιβάλλον μεταβλητές).</s:String>
+    <s:String x:Key="String_ProjectNotSaved">Έργου δεν αποθηκεύτηκε.</s:String>
+    <!-- DataStorage -->
+    <s:String x:Key="String_NoDataStorageInfo1">Αποθήκευση δεδομένων εγγράφει ενδιάμεσα δεδομένα σε μια μόνιμα θέση όπως CSV, EXCEL, XML ή τη βάση δεδομένων.</s:String>
+    <s:String x:Key="String_NoDataStorageInfo2">Για να αποθηκεύσετε αυτά τα δεδομένα, επιλέξτε οποιοδήποτε χώρο αποθήκευσης δεδομένων.</s:String>
+    <s:String x:Key="String_WriteHeadersOn">Γράψτε στην κεφαλίδα της στήλης με το αρχείο</s:String>
+    <s:String x:Key="String_WriteHeadersOff">Γράψτε μόνο τα δεδομένα χωρίς κεφαλίδα</s:String>
+    <s:String x:Key="String_SortColumnHeaders">Ταξινομήσετε κεφαλίδες στήλης:</s:String>
+    <s:String x:Key="String_SortColumnHeadersOn">Γράψτε κεφαλίδες στηλών με αλφαβητική σειρά</s:String>
+    <s:String x:Key="String_SortColumnHeadersOff">Γράψτε κεφαλίδες στηλών στην αρχική τάξη</s:String>
+    <s:String x:Key="String_ExistingFilebehavior">Υπάρχον αρχείο της συμπεριφοράς</s:String>
+    <s:String x:Key="String_ReplaceExistingFile">Αντικατάσταση υπάρχοντος αρχείου.</s:String>
+    <s:String x:Key="String_OverwriteData">Αντικατάσταση δεδομένων του συγκεκριμένου φύλλου εργασίας, και διατηρεί δεδομένα σε άλλα φύλλα εργασίας.</s:String>
+    <s:String x:Key="String_WorksheetName">Όνομα φύλλου εργασίας</s:String>
+    <s:String x:Key="String_WriteData">Εγγραφή δεδομένων</s:String>
+    <s:String x:Key="String_CSVFile">Αρχείο CSV</s:String>
+    <s:String x:Key="String_ExcelFile">Αρχείο EXCEL</s:String>
+    <s:String x:Key="String_SQLDataBase">Βάση δεδομένων SQL</s:String>
+    <s:String x:Key="String_SelectDataStorageColon">Επιλέξτε ένα χώρο αποθήκευσης δεδομένων:</s:String>
+    <s:String x:Key="String_DataToBeExported">Δεδομένα για εξαγωγή</s:String>
     <!-- ViewBase64Tool.xaml -->
     <s:String x:Key="String_ActionColon">Δράση: </s:String>
     <s:String x:Key="String_Base64EncodingTitle">Κωδικοποίηση base64 &amp; αποκωδικοποίηση</s:String>
@@ -731,6 +761,19 @@
     <s:String x:Key="String_OpenFileToEncode">Ανοίξτε ένα αρχείο να κωδικοποίηση</s:String>
     <s:String x:Key="String_SaveBinaryAsFile">Αποθηκεύει στο αποκωδικοποιημένες περιεχόμενο ως αρχείο</s:String>
     <s:String x:Key="String_DecodedAndSaved">Περιεχόμενο κωδικοποιημένο και αποθηκεύονται στο αρχείο. Κάντε κλικ εδώ, για να το ανοίξετε</s:String>
+    <s:String x:Key="String_Encode">Κωδικοποίηση</s:String>
+    <s:String x:Key="String_Decode">Αποκωδικοποίηση</s:String>
+    <s:String x:Key="String_EncodeFromFile">Κωδικοποίηση από αρχείο</s:String>
+    <s:String x:Key="String_DecodeToFile">Αποκωδικοποίηση αρχείο</s:String>
+    <s:String x:Key="String_WordWrap">Αναδίπλωση λέξεων</s:String>
+    <s:String x:Key="String_NoWordWrap">Χωρίς αναδίπλωση λέξεων</s:String>
+    <s:String x:Key="String_Original">Αρχική</s:String>
+    <s:String x:Key="String_Target">Στόχος</s:String>
+    <!-- Regex -->
+    <s:String x:Key="String_RegexToolHeader">Τακτικές εργαλείο έκφρασης αγώνα &amp; εξαγωγής</s:String>
+    <s:String x:Key="String_Expression">Έκφραση</s:String>
+    <s:String x:Key="String_InputStringColon">Η συμβολοσειρά εισόδου:</s:String>
+    <s:String x:Key="String_Output">Έξοδος</s:String>
     <!-- ViewToolsOverview.xaml -->
     <s:String x:Key="String_ExtendsThePotetual">Επεκτείνει τις δυνατότητες</s:String>
     <s:String x:Key="String_ExtensionDesigner">Επέκταση σχεδιαστής</s:String>

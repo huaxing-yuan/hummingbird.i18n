@@ -30,6 +30,7 @@
     <s:String x:Key="String_Menu_XpathValidator">VALIDATEUR XPATH</s:String>
     <s:String x:Key="String_Menu_DocFormat">FORMATEUR DE DOC</s:String>
     <s:String x:Key="String_Menu_Base64">BASE64</s:String>
+    <s:String x:Key="String_Menu_CustomTools">OUTILS PERSONNALISÉS</s:String>
     <s:String x:Key="String_StartupInformation">Informations de démarrage</s:String>
     <!-- BACK STAGE -->
     <s:String x:Key="String_General">Général</s:String>
@@ -280,6 +281,7 @@
     <s:String x:Key="String_ProfileNameCannotBeEmpty">Le nom de profil ne peut pas être vide.</s:String>
     <s:String x:Key="String_ProfileXExists">Le profil « {0} » existe déjà.</s:String>
     <s:String x:Key="String_ImportAProfile">Importer un profil</s:String>
+    <s:String x:Key="String_Export">Export</s:String>
     <!-- PROFILE MANAGEMENT -->
     <!-- TEST MESSAGE STATUS -->
     <s:String x:Key="String_Status_None">Non</s:String>
@@ -498,19 +500,59 @@ Voulez-vous redémarrer Hummingbird maintenant?]]></s:String>
     <s:String x:Key="String_NewStressTest">Nouveau test de Stress</s:String>
     <s:String x:Key="String_AddSpikeTest">Ajouter un Test de Pointe</s:String>
     <s:String x:Key="String_NewSpikeTest">Nouveau test de Pointe</s:String>
+    <s:String x:Key="String_AutoSave">sauvegarde automatique</s:String>
+    <s:String x:Key="String_AutoSaveTooltip">Sauvegarder automatiquement le projet d’automatisation si nécessaire.</s:String>
+    <s:String x:Key="String_ConsoleOutput">Sortie de la console</s:String>
+    <s:String x:Key="String_ConsoleOutputU">SORTIE DE LA CONSOLE</s:String>
+    <s:String x:Key="String_ClearLog">Effacer le journal</s:String>
+    <s:String x:Key="String_SaveLogAs">Enregistrer le journal sous la forme...</s:String>
+    <s:String x:Key="String_ActiveEnvironmentColon">Environnement actif :</s:String>
+    <s:String x:Key="String_ActiveEnvironmentTooltip">Environnement de test actif. (peut affecter les variables d'environnement, les modèle URI et les informations d’identification).</s:String>
+    <s:String x:Key="String_ProjectNotSaved">Projet ne pas enregistré.</s:String>
+    <!-- DataStorage -->
+    <s:String x:Key="String_NoDataStorageInfo1">Stockage de données écrit les données intermédiaires dans un emplacement persistant comme CSV, EXCEL, XML ou Base de données.</s:String>
+    <s:String x:Key="String_NoDataStorageInfo2">Pour enregistrer ces données, veuillez choisir un stockage de données.</s:String>
+    <s:String x:Key="String_WriteHeadersOn">Écrire l’en-tête de colonne avec le fichier</s:String>
+    <s:String x:Key="String_WriteHeadersOff">Écrire les données uniquement sans l’en-tête</s:String>
+    <s:String x:Key="String_SortColumnHeaders">Trier les en-têtes de colonnes :</s:String>
+    <s:String x:Key="String_SortColumnHeadersOn">Écrire des en-têtes de colonne dans l’ordre alphabétique</s:String>
+    <s:String x:Key="String_SortColumnHeadersOff">Écrire des en-têtes de colonne dans l’ordre originale</s:String>
+    <s:String x:Key="String_ExistingFilebehavior">Comportement de fichier existant</s:String>
+    <s:String x:Key="String_ReplaceExistingFile">Remplacer le fichier existant.</s:String>
+    <s:String x:Key="String_OverwriteData">Écraser les données de la feuille de calcul donné et continue dans les autres feuilles de calcul.</s:String>
+    <s:String x:Key="String_WorksheetName">Nom de la feuille de calcul</s:String>
+    <s:String x:Key="String_WriteData">Écrire les données</s:String>
+    <s:String x:Key="String_CSVFile">Fichier CSV</s:String>
+    <s:String x:Key="String_ExcelFile">Fichier EXCEL</s:String>
+    <s:String x:Key="String_SQLDataBase">Base de données SQL</s:String>
+    <s:String x:Key="String_SelectDataStorageColon">Sélectionnez un stockage de données :</s:String>
+    <s:String x:Key="String_DataToBeExported">Données à exporter</s:String>
     <!-- ViewBase64Tool.xaml -->
     <s:String x:Key="String_ActionColon">Action : </s:String>
     <s:String x:Key="String_Base64EncodingTitle">Encodage et décodage Base64</s:String>
     <s:String x:Key="String_Utf8ToBase64">Encode de la chaîne UTF-8 à la chaîne Base64</s:String>
     <s:String x:Key="String_Base64ToString">Décode une chaîne Base64 en texte, en utilisant le codage sélectionné.</s:String>
-    <s:String x:Key="String_BinaryToBase64">Lire le contenu binaire à partir du fichier et encoder son contenu dans en Base64</s:String>
+    <s:String x:Key="String_BinaryToBase64">Lire le contenu à partir du fichier binaire et encoder son contenu en Base64</s:String>
     <s:String x:Key="String_Base64ToBinary">Lire la chaîne base64 de la zone de texte ci-dessous, décoder et enregistrer le contenu dans un fichier binaire.</s:String>
-    <s:String x:Key="String_SampleTextBase64">Exemple de texte à encoder dans Base64</s:String>
-    <s:String x:Key="String_EncodedBase64">Chaîne codée en Base64</s:String>
-    <s:String x:Key="String_DecodedBase64">Chaîne décodée Base64</s:String>
+    <s:String x:Key="String_SampleTextBase64">Exemple de texte à encoder en Base64</s:String>
+    <s:String x:Key="String_EncodedBase64">Chaîne encodée en Base64</s:String>
+    <s:String x:Key="String_DecodedBase64">Chaîne décodée de Base64</s:String>
     <s:String x:Key="String_OpenFileToEncode">Ouvrir un fichier à encoder</s:String>
-    <s:String x:Key="String_SaveBinaryAsFile">Enregistre le contenu décodé en tant que fichier</s:String>
+    <s:String x:Key="String_SaveBinaryAsFile">Enregistrer le contenu décodé en tant que fichier</s:String>
     <s:String x:Key="String_DecodedAndSaved">Contenu décodé et sauvegardé dans le fichier. Cliquez ici pour l’ouvrir</s:String>
+    <s:String x:Key="String_Encode">Encoder</s:String>
+    <s:String x:Key="String_Decode">Décoder</s:String>
+    <s:String x:Key="String_EncodeFromFile">Encoder à partir de fichier</s:String>
+    <s:String x:Key="String_DecodeToFile">Décoder au fichier</s:String>
+    <s:String x:Key="String_WordWrap">Retour à la ligne</s:String>
+    <s:String x:Key="String_NoWordWrap">Aucun retour à la ligne</s:String>
+    <s:String x:Key="String_Original">Source</s:String>
+    <s:String x:Key="String_Target">Cible</s:String>
+    <!-- Regex -->
+    <s:String x:Key="String_RegexToolHeader">Outil de l'Expression régulière</s:String>
+    <s:String x:Key="String_Expression">Expression</s:String>
+    <s:String x:Key="String_InputStringColon">Chaîne d’entrée :</s:String>
+    <s:String x:Key="String_Output">Sortie</s:String>
     <!-- ViewToolsOverview.xaml -->
     <s:String x:Key="String_ExtendsThePotetual">Étend le potentiel</s:String>
     <s:String x:Key="String_ExtensionDesigner">Concepteur d'extension</s:String>
@@ -781,6 +823,7 @@ Si cet Uri contient des variables, Veuillez-vérifier que les variables sont val
     <s:String x:Key="String_Information">Informations</s:String>
     <s:String x:Key="String_SelectDataSourceColon">Sélectionner une source de données :</s:String>
     <s:String x:Key="String_RowLimitColon">Nb de ligne maximal :</s:String>
+    <s:String x:Key="String_DataStorage">Stockage de données</s:String>
     <!-- ViewExcelDataSource.xaml -->
     <s:String x:Key="String_SpreadSheetNameColon">Nom de la feuille de calcul :</s:String>
     <s:String x:Key="String_RangeTypeColon">Type de plage:</s:String>

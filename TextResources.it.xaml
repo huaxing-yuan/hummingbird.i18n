@@ -29,6 +29,7 @@
     <s:String x:Key="String_Menu_XpathValidator">VALIDATORE DI XPATH</s:String>
     <s:String x:Key="String_Menu_DocFormat">FORMATO DOC</s:String>
     <s:String x:Key="String_Menu_Base64">BASE64</s:String>
+    <s:String x:Key="String_Menu_CustomTools">STRUMENTI PERSONALIZZATI</s:String>
     <s:String x:Key="String_StartupInformation">Informazioni di avvio</s:String>
     <!-- BACK STAGE -->
     <s:String x:Key="String_General">Generale</s:String>
@@ -220,6 +221,7 @@
     <s:String x:Key="String_Information">Informazioni</s:String>
     <s:String x:Key="String_SelectDataSourceColon">Selezionare un'origine dati:</s:String>
     <s:String x:Key="String_RowLimitColon">Limite di riga:</s:String>
+    <s:String x:Key="String_DataStorage">Archiviazione dei dati</s:String>
     <!-- ViewExcelDataSource.xaml -->
     <s:String x:Key="String_SpreadSheetNameColon">Nome del foglio di calcolo:</s:String>
     <s:String x:Key="String_RangeTypeColon">Tipo di intervallo:</s:String>
@@ -501,6 +503,7 @@ Ad esempio, si può avere un set di servizio Web per gestione clienti, inclusi i
     <s:String x:Key="String_ProfileNameCannotBeEmpty">Il nome del profilo non può essere vuoto.</s:String>
     <s:String x:Key="String_ProfileXExists">Il profilo '{0}' ha già esiste.</s:String>
     <s:String x:Key="String_ImportAProfile">Importare un profilo</s:String>
+    <s:String x:Key="String_Export">Esportazione</s:String>
     <!-- TEST MESSAGE STATUS -->
     <s:String x:Key="String_Status_None">Nessuno</s:String>
     <s:String x:Key="String_Status_Pending">In sospeso</s:String>
@@ -718,6 +721,33 @@ Si desidera riavviare ora il Hummingbird?]]></s:String>
     <s:String x:Key="String_NewStressTest">Nuovi Stress test</s:String>
     <s:String x:Key="String_AddSpikeTest">Aggiungere un Test di Spike</s:String>
     <s:String x:Key="String_NewSpikeTest">Nuovo test di Spike</s:String>
+    <s:String x:Key="String_AutoSave">salvataggio automatico</s:String>
+    <s:String x:Key="String_AutoSaveTooltip">Salva automaticamente il progetto di automazione quando necessario.</s:String>
+    <s:String x:Key="String_ConsoleOutput">Output della console</s:String>
+    <s:String x:Key="String_ConsoleOutputU">OUTPUT DELLA CONSOLE</s:String>
+    <s:String x:Key="String_ClearLog">Cancella registro</s:String>
+    <s:String x:Key="String_SaveLogAs">Salvare il log come...</s:String>
+    <s:String x:Key="String_ActiveEnvironmentColon">Ambiente attivo:</s:String>
+    <s:String x:Key="String_ActiveEnvironmentTooltip">Ambiente di test attivo. (possono interessare le variabili di modello, credenziali e ambiente di Uri).</s:String>
+    <s:String x:Key="String_ProjectNotSaved">Progetto non salvato.</s:String>
+    <!-- DataStorage -->
+    <s:String x:Key="String_NoDataStorageInfo1">Archiviazione dati scrive dati intermedi in una posizione permanente come CSV, EXCEL, XML o Base di dati.</s:String>
+    <s:String x:Key="String_NoDataStorageInfo2">Per salvare questi dati, si prega di scegliere qualsiasi deposito di dati.</s:String>
+    <s:String x:Key="String_WriteHeadersOn">Scrivere l'intestazione di colonna con il file.</s:String>
+    <s:String x:Key="String_WriteHeadersOff">Scrivere solo i dati senza l'intestazione</s:String>
+    <s:String x:Key="String_SortColumnHeaders">Ordinare le intestazioni di colonna:</s:String>
+    <s:String x:Key="String_SortColumnHeadersOn">Scrivere le intestazioni di colonna in ordine alfabetico</s:String>
+    <s:String x:Key="String_SortColumnHeadersOff">Scrivere le intestazioni di colonna nell'ordine originale</s:String>
+    <s:String x:Key="String_ExistingFilebehavior">Comportamento di File esistente</s:String>
+    <s:String x:Key="String_ReplaceExistingFile">Sostituire il file esistente.</s:String>
+    <s:String x:Key="String_OverwriteData">Sovrascrivere i dati del foglio di lavoro specificato e mantiene in altri fogli di lavoro.</s:String>
+    <s:String x:Key="String_WorksheetName">Nome foglio di lavoro</s:String>
+    <s:String x:Key="String_WriteData">Scrivere dati</s:String>
+    <s:String x:Key="String_CSVFile">File CSV</s:String>
+    <s:String x:Key="String_ExcelFile">File di EXCEL</s:String>
+    <s:String x:Key="String_SQLDataBase">Database SQL</s:String>
+    <s:String x:Key="String_SelectDataStorageColon">Selezionare un archivio di dati:</s:String>
+    <s:String x:Key="String_DataToBeExported">Esportazione dei dati</s:String>
     <!-- ViewBase64Tool.xaml -->
     <s:String x:Key="String_ActionColon">Azione: </s:String>
     <s:String x:Key="String_Base64EncodingTitle">La codifica Base64 &amp; decodifica</s:String>
@@ -731,6 +761,19 @@ Si desidera riavviare ora il Hummingbird?]]></s:String>
     <s:String x:Key="String_OpenFileToEncode">Aprire un file da codificare</s:String>
     <s:String x:Key="String_SaveBinaryAsFile">Salva il contenuto decodificato come file</s:String>
     <s:String x:Key="String_DecodedAndSaved">Contenuti decodificati e salvati nel file. Clicca qui per aprirlo</s:String>
+    <s:String x:Key="String_Encode">Codificare</s:String>
+    <s:String x:Key="String_Decode">Decodificare</s:String>
+    <s:String x:Key="String_EncodeFromFile">Codificare da File</s:String>
+    <s:String x:Key="String_DecodeToFile">Decodificare file</s:String>
+    <s:String x:Key="String_WordWrap">Ritorno a capo automatico</s:String>
+    <s:String x:Key="String_NoWordWrap">Nessun ritorno a capo automatico</s:String>
+    <s:String x:Key="String_Original">Originale</s:String>
+    <s:String x:Key="String_Target">bersaglio</s:String>
+    <!-- Regex -->
+    <s:String x:Key="String_RegexToolHeader">Strumento di espressione Match &amp; estrazione regolare</s:String>
+    <s:String x:Key="String_Expression">Espressione</s:String>
+    <s:String x:Key="String_InputStringColon">Stringa di input:</s:String>
+    <s:String x:Key="String_Output">Uscita</s:String>
     <!-- ViewToolsOverview.xaml -->
     <s:String x:Key="String_ExtendsThePotetual">Estende le potenzialità</s:String>
     <s:String x:Key="String_ExtensionDesigner">Designer di estensione</s:String>

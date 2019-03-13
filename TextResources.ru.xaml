@@ -29,6 +29,7 @@
     <s:String x:Key="String_Menu_XpathValidator">ВАЛИДАТОР XPATH</s:String>
     <s:String x:Key="String_Menu_DocFormat">ФОРМАТ DOC</s:String>
     <s:String x:Key="String_Menu_Base64">BASE64</s:String>
+    <s:String x:Key="String_Menu_CustomTools">ПОЛЬЗОВАТЕЛЬСКИЕ ИНСТРУМЕНТЫ</s:String>
     <s:String x:Key="String_StartupInformation">Данные о запуске</s:String>
     <!-- BACK STAGE -->
     <s:String x:Key="String_General">Общие</s:String>
@@ -220,6 +221,7 @@
     <s:String x:Key="String_Information">Информация</s:String>
     <s:String x:Key="String_SelectDataSourceColon">Выберите источник данных:</s:String>
     <s:String x:Key="String_RowLimitColon">Ограничение на строки:</s:String>
+    <s:String x:Key="String_DataStorage">Хранение данных</s:String>
     <!-- ViewExcelDataSource.xaml -->
     <s:String x:Key="String_SpreadSheetNameColon">Имя таблицы:</s:String>
     <s:String x:Key="String_RangeTypeColon">Тип диапазона:</s:String>
@@ -501,6 +503,7 @@
     <s:String x:Key="String_ProfileNameCannotBeEmpty">Имя профиля не может быть пустым.</s:String>
     <s:String x:Key="String_ProfileXExists">Профиль «{0}» уже существует.</s:String>
     <s:String x:Key="String_ImportAProfile">Импорт профиля</s:String>
+    <s:String x:Key="String_Export">Экспорт</s:String>
     <!-- TEST MESSAGE STATUS -->
     <s:String x:Key="String_Status_None">Нет</s:String>
     <s:String x:Key="String_Status_Pending">Ожидание</s:String>
@@ -718,6 +721,33 @@
     <s:String x:Key="String_NewStressTest">Новые стресс-тест</s:String>
     <s:String x:Key="String_AddSpikeTest">Добавьте тест Спайк</s:String>
     <s:String x:Key="String_NewSpikeTest">Новый всплеск тест</s:String>
+    <s:String x:Key="String_AutoSave">Автосохранение</s:String>
+    <s:String x:Key="String_AutoSaveTooltip">Автоматически сохраняет проект автоматизации при необходимости.</s:String>
+    <s:String x:Key="String_ConsoleOutput">Вывод на консоль</s:String>
+    <s:String x:Key="String_ConsoleOutputU">ВЫВОД НА КОНСОЛЬ</s:String>
+    <s:String x:Key="String_ClearLog">Очистить журнал</s:String>
+    <s:String x:Key="String_SaveLogAs">Сохранить журнал как...</s:String>
+    <s:String x:Key="String_ActiveEnvironmentColon">Активная среда:</s:String>
+    <s:String x:Key="String_ActiveEnvironmentTooltip">Активные тестовой среды. (может повлиять на Uri шаблона, учетных данных и переменных среды).</s:String>
+    <s:String x:Key="String_ProjectNotSaved">Проект не сохраняются.</s:String>
+    <!-- DataStorage -->
+    <s:String x:Key="String_NoDataStorageInfo1">Хранения данных записывает промежуточных данных в сохраненное местоположение например, CSV, EXCEL, XML или базе данных.</s:String>
+    <s:String x:Key="String_NoDataStorageInfo2">Чтобы сохранить эти данные, пожалуйста выберите любой хранения данных.</s:String>
+    <s:String x:Key="String_WriteHeadersOn">Написать заголовок столбца с файлом</s:String>
+    <s:String x:Key="String_WriteHeadersOff">Записи только данных без заголовка</s:String>
+    <s:String x:Key="String_SortColumnHeaders">Заголовки столбцов сортировки:</s:String>
+    <s:String x:Key="String_SortColumnHeadersOn">Запись заголовков столбцов в алфавитном порядке</s:String>
+    <s:String x:Key="String_SortColumnHeadersOff">Запись заголовков столбцов в оригинальном порядке.</s:String>
+    <s:String x:Key="String_ExistingFilebehavior">Поведение существующих файлов</s:String>
+    <s:String x:Key="String_ReplaceExistingFile">Замените существующий файл.</s:String>
+    <s:String x:Key="String_OverwriteData">Перезапись данных данного листа и сохраняет данные в других листах.</s:String>
+    <s:String x:Key="String_WorksheetName">Имя листа</s:String>
+    <s:String x:Key="String_WriteData">Запись данных</s:String>
+    <s:String x:Key="String_CSVFile">CSV-файл</s:String>
+    <s:String x:Key="String_ExcelFile">Файл EXCEL</s:String>
+    <s:String x:Key="String_SQLDataBase">База данных SQL</s:String>
+    <s:String x:Key="String_SelectDataStorageColon">Выберите хранения данных:</s:String>
+    <s:String x:Key="String_DataToBeExported">Данные для экспорта</s:String>
     <!-- ViewBase64Tool.xaml -->
     <s:String x:Key="String_ActionColon">Действия: </s:String>
     <s:String x:Key="String_Base64EncodingTitle">Base64 кодирование &amp; декодирование</s:String>
@@ -731,6 +761,19 @@
     <s:String x:Key="String_OpenFileToEncode">Открыть файл для кодирования</s:String>
     <s:String x:Key="String_SaveBinaryAsFile">Сохраняет содержимое декодированного файла</s:String>
     <s:String x:Key="String_DecodedAndSaved">Содержимое расшифровано и сохраняется в файле. Нажмите здесь, чтобы открыть его</s:String>
+    <s:String x:Key="String_Encode">Кодирование</s:String>
+    <s:String x:Key="String_Decode">Декодирование</s:String>
+    <s:String x:Key="String_EncodeFromFile">Кодировать из файла</s:String>
+    <s:String x:Key="String_DecodeToFile">Расшифровать файл</s:String>
+    <s:String x:Key="String_WordWrap">Перенос слов</s:String>
+    <s:String x:Key="String_NoWordWrap">Без переноса слов</s:String>
+    <s:String x:Key="String_Original">Исходный текст</s:String>
+    <s:String x:Key="String_Target">Цель</s:String>
+    <!-- Regex -->
+    <s:String x:Key="String_RegexToolHeader">Регулярное выражение Match &amp; извлечения инструмент</s:String>
+    <s:String x:Key="String_Expression">Выражение</s:String>
+    <s:String x:Key="String_InputStringColon">Входная строка:</s:String>
+    <s:String x:Key="String_Output">Выход</s:String>
     <!-- ViewToolsOverview.xaml -->
     <s:String x:Key="String_ExtendsThePotetual">Расширяет потенциал</s:String>
     <s:String x:Key="String_ExtensionDesigner">Расширение конструктора</s:String>

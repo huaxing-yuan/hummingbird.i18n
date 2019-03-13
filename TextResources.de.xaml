@@ -30,6 +30,7 @@
     <s:String x:Key="String_Menu_XpathValidator">XPATH-VALIDATOR</s:String>
     <s:String x:Key="String_Menu_DocFormat">DOC-FORMAT</s:String>
     <s:String x:Key="String_Menu_Base64">BASE64</s:String>
+    <s:String x:Key="String_Menu_CustomTools">BENUTZERDEFINIERTE TOOLS</s:String>
     <s:String x:Key="String_StartupInformation">Startup-Informationen</s:String>
     <!-- BACK STAGE -->
     <s:String x:Key="String_General">Allgemeine</s:String>
@@ -221,6 +222,7 @@
     <s:String x:Key="String_Information">Informationen</s:String>
     <s:String x:Key="String_SelectDataSourceColon">Wählen Sie eine Datenquelle:</s:String>
     <s:String x:Key="String_RowLimitColon">Zeilenlimit:</s:String>
+    <s:String x:Key="String_DataStorage">Speicherung von Daten</s:String>
     <!-- ViewExcelDataSource.xaml -->
     <s:String x:Key="String_SpreadSheetNameColon">Name der Tabelle:</s:String>
     <s:String x:Key="String_RangeTypeColon">Bereichstyp:</s:String>
@@ -503,6 +505,7 @@ Zum Beispiel haben Sie eine Reihe von Web-Service für Kundenmanagement, einschl
     <s:String x:Key="String_ProfileNameCannotBeEmpty">Der Name des Profils darf nicht leer sein.</s:String>
     <s:String x:Key="String_ProfileXExists">Das Profil "{0}" bereits vorhanden ist.</s:String>
     <s:String x:Key="String_ImportAProfile">Ein Profil importieren</s:String>
+    <s:String x:Key="String_Export">Export</s:String>
     <!-- TEST MESSAGE STATUS -->
     <s:String x:Key="String_Status_None">Keine</s:String>
     <s:String x:Key="String_Status_Pending">Ausstehende</s:String>
@@ -720,6 +723,33 @@ Möchten Sie Hummingbird jetzt neu starten?]]></s:String>
     <s:String x:Key="String_NewStressTest">Neuen Stress-test</s:String>
     <s:String x:Key="String_AddSpikeTest">Fügen Sie einen Spike-Test</s:String>
     <s:String x:Key="String_NewSpikeTest">Neuen Spike-test</s:String>
+    <s:String x:Key="String_AutoSave">Automatisches Speichern</s:String>
+    <s:String x:Key="String_AutoSaveTooltip">Speichert automatisch die Automatisierungsprojekt bei Bedarf.</s:String>
+    <s:String x:Key="String_ConsoleOutput">Konsolenausgabe</s:String>
+    <s:String x:Key="String_ConsoleOutputU">KONSOLENAUSGABE</s:String>
+    <s:String x:Key="String_ClearLog">Protokoll löschen</s:String>
+    <s:String x:Key="String_SaveLogAs">Speichern Sie Protokoll als...</s:String>
+    <s:String x:Key="String_ActiveEnvironmentColon">Aktive Umgebung:</s:String>
+    <s:String x:Key="String_ActiveEnvironmentTooltip">Aktive Testumgebung. (beeinträchtigen Uri-Vorlage, Anmeldeinformationen und Umgebungsvariablen).</s:String>
+    <s:String x:Key="String_ProjectNotSaved">Projekt nicht gespeichert.</s:String>
+    <!-- DataStorage -->
+    <s:String x:Key="String_NoDataStorageInfo1">Die Datenspeicherung schreibt Zwischendaten in einem permanenten Speicherort z. B. CSV, EXCEL, XML oder Datenbank.</s:String>
+    <s:String x:Key="String_NoDataStorageInfo2">Um diese Daten zu speichern, wählen Sie bitte Datenspeicherung.</s:String>
+    <s:String x:Key="String_WriteHeadersOn">Schreiben Sie die Überschrift der Spalte mit der Datei</s:String>
+    <s:String x:Key="String_WriteHeadersOff">Nur Daten ohne den Header schreiben</s:String>
+    <s:String x:Key="String_SortColumnHeaders">Sortieren Sie Spaltenüberschriften:</s:String>
+    <s:String x:Key="String_SortColumnHeadersOn">Schreiben Sie Spaltenüberschriften in alphabetisch Ordnung</s:String>
+    <s:String x:Key="String_SortColumnHeadersOff">Spaltenüberschriften in ihrer ursprünglichen Reihenfolge zu schreiben</s:String>
+    <s:String x:Key="String_ExistingFilebehavior">Vorhandene Datei Verhalten</s:String>
+    <s:String x:Key="String_ReplaceExistingFile">Ersetzen Sie vorhandene Datei.</s:String>
+    <s:String x:Key="String_OverwriteData">Überschreiben von dem angegebenen Arbeitsblatt und hält Daten in anderen Arbeitsblättern.</s:String>
+    <s:String x:Key="String_WorksheetName">Name des Arbeitsblatts</s:String>
+    <s:String x:Key="String_WriteData">Schreiben von Daten</s:String>
+    <s:String x:Key="String_CSVFile">CSV-Datei</s:String>
+    <s:String x:Key="String_ExcelFile">EXCEL-Datei</s:String>
+    <s:String x:Key="String_SQLDataBase">SQL-Datenbank</s:String>
+    <s:String x:Key="String_SelectDataStorageColon">Wählen Sie eine Speicherung von Daten:</s:String>
+    <s:String x:Key="String_DataToBeExported">Daten exportiert werden sollen</s:String>
     <!-- ViewBase64Tool.xaml -->
     <s:String x:Key="String_ActionColon">Aktion:</s:String>
     <s:String x:Key="String_Base64EncodingTitle">Base64-Codierung &amp; Decodierung</s:String>
@@ -733,6 +763,19 @@ Möchten Sie Hummingbird jetzt neu starten?]]></s:String>
     <s:String x:Key="String_OpenFileToEncode">Öffnen Sie eine Datei verschlüsseln</s:String>
     <s:String x:Key="String_SaveBinaryAsFile">Speichert den dekodierten Inhalt als Datei</s:String>
     <s:String x:Key="String_DecodedAndSaved">Inhalt decodiert und in der Datei gespeichert. Klicken Sie hier, um es zu öffnen</s:String>
+    <s:String x:Key="String_Encode">Codieren</s:String>
+    <s:String x:Key="String_Decode">Decodieren</s:String>
+    <s:String x:Key="String_EncodeFromFile">Aus Datei kodieren</s:String>
+    <s:String x:Key="String_DecodeToFile">Datei entschlüsseln</s:String>
+    <s:String x:Key="String_WordWrap">Zeilenumbruch</s:String>
+    <s:String x:Key="String_NoWordWrap">Kein Zeilenumbruch</s:String>
+    <s:String x:Key="String_Original">Original</s:String>
+    <s:String x:Key="String_Target">Ziel</s:String>
+    <!-- Regex -->
+    <s:String x:Key="String_RegexToolHeader">Regulären Ausdruck Match &amp; Extraktions-Werkzeug</s:String>
+    <s:String x:Key="String_Expression">Ausdruck</s:String>
+    <s:String x:Key="String_InputStringColon">Eingabe-String:</s:String>
+    <s:String x:Key="String_Output">Ausgabe</s:String>
     <!-- ViewToolsOverview.xaml -->
     <s:String x:Key="String_ExtendsThePotetual">Erstreckt sich das Potenzial</s:String>
     <s:String x:Key="String_ExtensionDesigner">Erweiterung-Designer</s:String>

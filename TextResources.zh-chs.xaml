@@ -29,6 +29,7 @@
     <s:String x:Key="String_Menu_XpathValidator">XPATH 验证程序</s:String>
     <s:String x:Key="String_Menu_DocFormat">文档格式</s:String>
     <s:String x:Key="String_Menu_Base64">BASE64</s:String>
+    <s:String x:Key="String_Menu_CustomTools">定制工具</s:String>
     <s:String x:Key="String_StartupInformation">启动信息</s:String>
     <!-- BACK STAGE -->
     <s:String x:Key="String_General">常规设置</s:String>
@@ -220,6 +221,7 @@
     <s:String x:Key="String_Information">信息</s:String>
     <s:String x:Key="String_SelectDataSourceColon">选择数据源:</s:String>
     <s:String x:Key="String_RowLimitColon">行限制:</s:String>
+    <s:String x:Key="String_DataStorage">数据存储</s:String>
     <!-- ViewExcelDataSource.xaml -->
     <s:String x:Key="String_SpreadSheetNameColon">数据表格名称:</s:String>
     <s:String x:Key="String_RangeTypeColon">范围类型:</s:String>
@@ -501,6 +503,7 @@
     <s:String x:Key="String_ProfileNameCannotBeEmpty">配置文件名称不能为空。</s:String>
     <s:String x:Key="String_ProfileXExists">配置文件 "{0}" 已存在。</s:String>
     <s:String x:Key="String_ImportAProfile">导入配置文件</s:String>
+    <s:String x:Key="String_Export">出口</s:String>
     <!-- TEST MESSAGE STATUS -->
     <s:String x:Key="String_Status_None">无状态</s:String>
     <s:String x:Key="String_Status_Pending">等待中</s:String>
@@ -718,6 +721,33 @@
     <s:String x:Key="String_NewStressTest">新的压力测试</s:String>
     <s:String x:Key="String_AddSpikeTest">添加尖峰冲击测试</s:String>
     <s:String x:Key="String_NewSpikeTest">新的尖峰冲击测试</s:String>
+    <s:String x:Key="String_AutoSave">自动保存</s:String>
+    <s:String x:Key="String_AutoSaveTooltip">在需要时自动保存自动化项目。</s:String>
+    <s:String x:Key="String_ConsoleOutput">控制台输出</s:String>
+    <s:String x:Key="String_ConsoleOutputU">连接输出</s:String>
+    <s:String x:Key="String_ClearLog">清除日志</s:String>
+    <s:String x:Key="String_SaveLogAs">将日志另存为..。</s:String>
+    <s:String x:Key="String_ActiveEnvironmentColon">活动环境:</s:String>
+    <s:String x:Key="String_ActiveEnvironmentTooltip">活动测试环境。(可能会影响 uri 模板、凭据和环境变量)。</s:String>
+    <s:String x:Key="String_ProjectNotSaved">未保存项目。</s:String>
+    <!-- DataStorage -->
+    <s:String x:Key="String_NoDataStorageInfo1">数据存储将中间数据写入持久位置, 如 csv、excel、xml 或数据库。</s:String>
+    <s:String x:Key="String_NoDataStorageInfo2">要保存这些数据, 请选择任何数据存储。</s:String>
+    <s:String x:Key="String_WriteHeadersOn">使用文件编写列标题</s:String>
+    <s:String x:Key="String_WriteHeadersOff">只写入不带标头的数据</s:String>
+    <s:String x:Key="String_SortColumnHeaders">对列标题进行排序:</s:String>
+    <s:String x:Key="String_SortColumnHeadersOn">按字母顺序编写列标题</s:String>
+    <s:String x:Key="String_SortColumnHeadersOff">按原始顺序写入列标题</s:String>
+    <s:String x:Key="String_ExistingFilebehavior">现有文件行为</s:String>
+    <s:String x:Key="String_ReplaceExistingFile">替换现有文件。</s:String>
+    <s:String x:Key="String_OverwriteData">覆盖给定工作表的数据, 并将数据保留在其他工作表中。</s:String>
+    <s:String x:Key="String_WorksheetName">工作表名称</s:String>
+    <s:String x:Key="String_WriteData">写入数据</s:String>
+    <s:String x:Key="String_CSVFile">csv 文件</s:String>
+    <s:String x:Key="String_ExcelFile">excel 文件</s:String>
+    <s:String x:Key="String_SQLDataBase">sql 数据库</s:String>
+    <s:String x:Key="String_SelectDataStorageColon">选择数据存储:</s:String>
+    <s:String x:Key="String_DataToBeExported">要导出的数据</s:String>
     <!-- ViewBase64Tool.xaml -->
     <s:String x:Key="String_ActionColon">动作：</s:String>
     <s:String x:Key="String_Base64EncodingTitle">Base64 编码和解码</s:String>
@@ -731,6 +761,19 @@
     <s:String x:Key="String_OpenFileToEncode">打开要编码的文件</s:String>
     <s:String x:Key="String_SaveBinaryAsFile">将解码的内容另存为文件</s:String>
     <s:String x:Key="String_DecodedAndSaved">内容已解码并保存到文件中。点击这里打开它</s:String>
+    <s:String x:Key="String_Encode">编码</s:String>
+    <s:String x:Key="String_Decode">解码</s:String>
+    <s:String x:Key="String_EncodeFromFile">从文件中编码</s:String>
+    <s:String x:Key="String_DecodeToFile">解码到文件</s:String>
+    <s:String x:Key="String_WordWrap">换行</s:String>
+    <s:String x:Key="String_NoWordWrap">无换行</s:String>
+    <s:String x:Key="String_Original">源语言</s:String>
+    <s:String x:Key="String_Target">目标</s:String>
+    <!-- Regex -->
+    <s:String x:Key="String_RegexToolHeader">正则表达式匹配 &amp; 提取工具</s:String>
+    <s:String x:Key="String_Expression">表达</s:String>
+    <s:String x:Key="String_InputStringColon">输入字符串:</s:String>
+    <s:String x:Key="String_Output">输出</s:String>
     <!-- ViewToolsOverview.xaml -->
     <s:String x:Key="String_ExtendsThePotetual">扩展潜力</s:String>
     <s:String x:Key="String_ExtensionDesigner">扩展设计器</s:String>

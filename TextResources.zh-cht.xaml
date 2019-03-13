@@ -29,6 +29,7 @@
     <s:String x:Key="String_Menu_XpathValidator">XPATH 驗證程式</s:String>
     <s:String x:Key="String_Menu_DocFormat">文檔格式</s:String>
     <s:String x:Key="String_Menu_Base64">BASE64</s:String>
+    <s:String x:Key="String_Menu_CustomTools">定制工具</s:String>
     <s:String x:Key="String_StartupInformation">啟動資訊</s:String>
     <!-- BACK STAGE -->
     <s:String x:Key="String_General">一般</s:String>
@@ -291,6 +292,7 @@
     <s:String x:Key="String_ProfileNameCannotBeEmpty">設定檔名稱不能為空。</s:String>
     <s:String x:Key="String_ProfileXExists">設定檔 "{0}" 已存在。</s:String>
     <s:String x:Key="String_ImportAProfile">導入設定檔</s:String>
+    <s:String x:Key="String_Export">出口</s:String>
     <!-- TEST MESSAGE STATUS -->
     <s:String x:Key="String_Status_None">沒有</s:String>
     <s:String x:Key="String_Status_Pending">等待</s:String>
@@ -508,6 +510,33 @@
     <s:String x:Key="String_NewStressTest">新的壓力測試</s:String>
     <s:String x:Key="String_AddSpikeTest">添加尖刺測試</s:String>
     <s:String x:Key="String_NewSpikeTest">新斯派克測試</s:String>
+    <s:String x:Key="String_AutoSave">自動儲存</s:String>
+    <s:String x:Key="String_AutoSaveTooltip">在需要時自動儲存自動化專案。</s:String>
+    <s:String x:Key="String_ConsoleOutput">主控台輸出</s:String>
+    <s:String x:Key="String_ConsoleOutputU">連接輸出</s:String>
+    <s:String x:Key="String_ClearLog">清除日誌</s:String>
+    <s:String x:Key="String_SaveLogAs">將日誌另存為..。</s:String>
+    <s:String x:Key="String_ActiveEnvironmentColon">活動環境:</s:String>
+    <s:String x:Key="String_ActiveEnvironmentTooltip">活動測試環境。(可能會影響 uri 範本、憑據和環境變數)。</s:String>
+    <s:String x:Key="String_ProjectNotSaved">未保存專案。</s:String>
+    <!-- DataStorage -->
+    <s:String x:Key="String_NoDataStorageInfo1">資料存儲將中間資料寫入持久位置, 如 csv、excel、xml 或資料庫。</s:String>
+    <s:String x:Key="String_NoDataStorageInfo2">要保存這些資料, 請選擇任何資料存儲。</s:String>
+    <s:String x:Key="String_WriteHeadersOn">使用檔編寫列標題</s:String>
+    <s:String x:Key="String_WriteHeadersOff">只寫入不帶標頭的資料</s:String>
+    <s:String x:Key="String_SortColumnHeaders">對列標題進行排序:</s:String>
+    <s:String x:Key="String_SortColumnHeadersOn">按字母順序編寫列標題</s:String>
+    <s:String x:Key="String_SortColumnHeadersOff">按原始順序寫入列標題</s:String>
+    <s:String x:Key="String_ExistingFilebehavior">現有檔行為</s:String>
+    <s:String x:Key="String_ReplaceExistingFile">替換現有檔。</s:String>
+    <s:String x:Key="String_OverwriteData">覆蓋給定工作表的資料, 並將資料保留在其他工作表中。</s:String>
+    <s:String x:Key="String_WorksheetName">工作表名稱</s:String>
+    <s:String x:Key="String_WriteData">寫入資料</s:String>
+    <s:String x:Key="String_CSVFile">csv 檔</s:String>
+    <s:String x:Key="String_ExcelFile">excel 檔</s:String>
+    <s:String x:Key="String_SQLDataBase">sql 資料庫</s:String>
+    <s:String x:Key="String_SelectDataStorageColon">選擇資料存儲:</s:String>
+    <s:String x:Key="String_DataToBeExported">要匯出的資料</s:String>
     <!-- ViewBase64Tool.xaml -->
     <s:String x:Key="String_ActionColon">行動：</s:String>
     <s:String x:Key="String_Base64EncodingTitle">Base64 編碼和解碼</s:String>
@@ -521,6 +550,19 @@
     <s:String x:Key="String_OpenFileToEncode">打開要編碼的檔</s:String>
     <s:String x:Key="String_SaveBinaryAsFile">將解碼的內容另存為檔</s:String>
     <s:String x:Key="String_DecodedAndSaved">內容已解碼並保存到檔中。點擊這裡打開它</s:String>
+    <s:String x:Key="String_Encode">編碼</s:String>
+    <s:String x:Key="String_Decode">解碼</s:String>
+    <s:String x:Key="String_EncodeFromFile">從檔中編碼</s:String>
+    <s:String x:Key="String_DecodeToFile">解碼到檔</s:String>
+    <s:String x:Key="String_WordWrap">換行</s:String>
+    <s:String x:Key="String_NoWordWrap">無換行</s:String>
+    <s:String x:Key="String_Original">來源語言</s:String>
+    <s:String x:Key="String_Target">目標</s:String>
+    <!-- Regex -->
+    <s:String x:Key="String_RegexToolHeader">正則運算式匹配 &amp; 提取工具</s:String>
+    <s:String x:Key="String_Expression">表達</s:String>
+    <s:String x:Key="String_InputStringColon">輸入字串:</s:String>
+    <s:String x:Key="String_Output">輸出</s:String>
     <!-- ViewToolsOverview.xaml -->
     <s:String x:Key="String_ExtendsThePotetual">擴展潛力</s:String>
     <s:String x:Key="String_ExtensionDesigner">擴展設計器</s:String>
@@ -761,6 +803,7 @@
     <s:String x:Key="String_Information">資訊</s:String>
     <s:String x:Key="String_SelectDataSourceColon">選擇資料來源:</s:String>
     <s:String x:Key="String_RowLimitColon">行限制:</s:String>
+    <s:String x:Key="String_DataStorage">資料存儲</s:String>
     <!-- ViewExcelDataSource.xaml -->
     <s:String x:Key="String_SpreadSheetNameColon">試算表名稱:</s:String>
     <s:String x:Key="String_RangeTypeColon">範圍類型:</s:String>
