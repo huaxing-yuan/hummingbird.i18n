@@ -44,14 +44,14 @@
     <s:String x:Key="String_LogLevel">Niveau de Log:</s:String>
     <s:String x:Key="String_LogLevelTooltip">Plus le niveau, plus d’informations seront affichés dans la console. Le plus haut niveau est « Verbose ».</s:String>
     <s:String x:Key="String_Language">Langage :</s:String>
-    <s:String x:Key="String_LanguageTooltip">Définir le language d’affichage.</s:String>
+    <s:String x:Key="String_LanguageTooltip">Définir le langage d’affichage.</s:String>
     <s:String x:Key="String_SameAsOS">Identique à Windows</s:String>
     <s:String x:Key="String_CSVSeparator">CSV séparateur</s:String>
     <s:String x:Key="String_CSVSeparatorTooltip">Séparateur utilisé pour le format CSV.</s:String>
     <s:String x:Key="String_ThemeColor">Thème</s:String>
     <s:String x:Key="String_LightThemes">Claires :</s:String>
     <s:String x:Key="String_DarkThemes">Sombres :</s:String>
-    <s:String x:Key="String_ChooseThemeColor">Sélectionner une thème parmi les propositions suivantes: </s:String>
+    <s:String x:Key="String_ChooseThemeColor">Sélectionner un thème parmi les propositions suivantes :</s:String>
     <s:String x:Key="String_FontSize">Taille de police</s:String>
     <s:String x:Key="String_ChooseFontSize">Sélectionner une taille de police qui vous adapte mieux.</s:String>
     <s:String x:Key="String_SetFontSizeTo">Définir la taille de la police:</s:String>
@@ -65,8 +65,8 @@
     <s:String x:Key="String_ClearAll">Supprimer Tout</s:String>
     <s:String x:Key="String_UsernameU">NOM UTILISATEUR</s:String>
     <s:String x:Key="String_PasswordU">MOT DE PASSE</s:String>
-    <s:String x:Key="String_AddToken">Ajouter un crédentiel</s:String>
-    <s:String x:Key="String_SelectATestEnv">Sélectionnez un environnement de test:</s:String>
+    <s:String x:Key="String_AddToken">Ajouter un Identifiant</s:String>
+    <s:String x:Key="String_SelectATestEnv">Sélectionner un environnement de test:</s:String>
     <s:String x:Key="String_Active">Actif</s:String>
     <s:String x:Key="String_SetActive">Définir comme actif</s:String>
     <s:String x:Key="String_Add">Ajouter</s:String>
@@ -82,7 +82,7 @@
     <s:String x:Key="String_MaxRequestPerServiceTooltip">Nombre maximal de requêtes par service sauvegardé pour renvoyer rapidement. la valeur par défaut est 20.</s:String>
     <s:String x:Key="String_MaxMessages">Nb de messages maximal:</s:String>
     <s:String x:Key="String_MaxMessagesTooltip">Nombre maximal de messages stockés dans le journal et affichés dans Test Runner</s:String>
-    <s:String x:Key="String_WhenSendingRequest">Lors de l'envoi d'une requete:</s:String>
+    <s:String x:Key="String_WhenSendingRequest">Lors de l'envoi d'une requête:</s:String>
     <s:String x:Key="String_WaitAndShowResult">Afficher le résultat directement</s:String>
     <s:String x:Key="String_CloseAndShowOnDemande">Fermez la fenêtre et afficher le résultat à la demande</s:String>
     <s:String x:Key="String_CloseAndShowOnrequête">Retourner à Test runner</s:String>
@@ -115,7 +115,7 @@
     <s:String x:Key="String_CannotCopyEVTooltip">Il n’est pas possible de copier les valeurs de l’environnement lui-même, Veuillez-sélectionner un autre environnement.</s:String>
     <s:String x:Key="String_EnterUserName">Entrez le nom d’utilisateur</s:String>
     <s:String x:Key="String_EnterUserNameTooltip">Veuillez entrer un nom d’utilisateur à utiliser.</s:String>
-    <s:String x:Key="String_TokenExists">Les tokens du même nom existe déjà.</s:String>
+    <s:String x:Key="String_TokenExists">L'identifiant du même nom existe déjà.</s:String>
     <s:String x:Key="String_DeleteCredentials">Supprimer les informations d’identification</s:String>
     <s:String x:Key="String_DeleteCredentialsQuestion">Cette opération ne peut pas être restaurée, êtes-vous sûr de supprimer des références sélectionnées ?</s:String>
     <s:String x:Key="String_ClearCredentials">Vider les informations d’identification</s:String>
@@ -133,7 +133,7 @@
     <s:String x:Key="String_RAWTooltip">Afficher l’objet sous sa forme originale</s:String>
     <s:String x:Key="String_XMLTooltip">Afficher l’objet au format XML</s:String>
     <s:String x:Key="String_LineColumn">ln {0}, col {1}</s:String>
-    <s:String x:Key="String_ObjectTypeNull">&lt;!--Le type d’objet est null. Cette requête n’a pas de paramètre --&gt;</s:String>
+    <s:String x:Key="String_ObjectTypeNull">&lt;!--Le type d’objet est nul. Cette requête n’a aucun paramètre --&gt;</s:String>
     <s:String x:Key="String_ObjectCannotSerialized">Cet objet ne peut pas être désérialisé, vous pouvez uniquement editer l’objet via Tree View</s:String>
     <s:String x:Key="String_InvalidOperation">Opération non valide</s:String>
     <s:String x:Key="String_ViewNotSupportDeserialization" xml:space="preserve"><![CDATA[Le visualiseur actif ne supporte pas la désérialisation, vous pouvez uniquement modifier l'objet via TreeView.
@@ -171,14 +171,14 @@
     <s:String x:Key="String_InitializeAsX">Initialiser comme élément « {0} »</s:String>
     <s:String x:Key="String_InitializeAsSubTypeX">Initialiser en tant que type dérivé « {0} »</s:String>
     <s:String x:Key="String_InitializeAsObjectX">Initialiser l'objet « {0} »</s:String>
-    <s:String x:Key="String_SetNull">Définir comme null</s:String>
+    <s:String x:Key="String_SetNull">Définir comme nul</s:String>
     <s:String x:Key="String_CopyPathClipboard">Copier le chemin vers le presse-papier</s:String>
     <s:String x:Key="String_EditMultiline">Modifier cette propriété en tant que texte multilignes</s:String>
     <s:String x:Key="String_TypeofString">Type de chaîne</s:String>
     <s:String x:Key="String_PathXCopiedToClipboard">Le chemin : « {0} » a été copié dans le presse-papiers.</s:String>
     <s:String x:Key="String_UnableCopyClipboard">Impossible de copier le chemin dans le presse-papiers</s:String>
     <s:String x:Key="String_SelectedElementDeleted">L'élément sélectionné a été supprimée du tableau.</s:String>
-    <s:String x:Key="String_SelectedElementSetToNull">L'élément sélectionné a été défini comme null.</s:String>
+    <s:String x:Key="String_SelectedElementSetToNull">L'élément sélectionné a été défini comme nul.</s:String>
     <s:String x:Key="String_SelectedElementCanNotDelete">L'élément sélectionné ne peut pas être supprimé.</s:String>
     <s:String x:Key="String_SelectedElementXCopied">L’élément sélectionné de type {0} a été copiée dans le presse-papiers.</s:String>
     <s:String x:Key="String_UnableCopyObjectClipboard">Impossible de copier l’objet sélectionné dans le presse-papiers</s:String>
@@ -214,6 +214,7 @@
     <s:String x:Key="String_ActionsU">ACTIONS</s:String>
     <s:String x:Key="String_Actions">Actions</s:String>
     <s:String x:Key="String_ExportVSSolution">Exporter en tant que solution Visual Studio</s:String>
+    <s:String x:Key="String_GenerateAndLoad">Générer &amp; charger cette extension</s:String>
     <s:String x:Key="String_ExtensionProjectBuilt">Le projet d’extension a été compilé avec succès, cliquez ici pour ouvrir le dossier contenant</s:String>
     <s:String x:Key="String_BuildFailed">La compilation a échoué</s:String>
     <s:String x:Key="String_BuildFailedMessage">Il y a des erreurs survenues durant la compilation. Cliquez sur le lien suivant pour voir les détails.</s:String>
@@ -233,13 +234,13 @@
     <s:String x:Key="String_ProtectionLevelColon">Niveau de protection :</s:String>
     <s:String x:Key="String_SessionModeColon">Mode de session :</s:String>
     <s:String x:Key="String_CallerSimulationColon">Simulation de l’appelant :</s:String>
-    <s:String x:Key="String_CallerSimulationChecked">Utilisation comme pilote : pourvoir appeler ce service web exposé par votre organization</s:String>
+    <s:String x:Key="String_CallerSimulationChecked">Utilisation en tant qu'un pilote : pourvoir tester ce service web exposé par votre organisation</s:String>
     <s:String x:Key="String_CallerSimulationUnchecked">Ne génère pas de code pour appeler ce service</s:String>
     <s:String x:Key="String_ServiceSimulationColon">Simulation de service :</s:String>
-    <s:String x:Key="String_ServiceSimulationChecked">Utilisation comme bouchon : simuler le service appelé par votre application</s:String>
+    <s:String x:Key="String_ServiceSimulationChecked">Utilisation en tant qu'un bouchon : ce service sera appelé par votre application</s:String>
     <s:String x:Key="String_ServiceSimulationUnchecked">Ne génère pas de code pour simuler ce service</s:String>
     <s:String x:Key="String_UriTemplateDriverColon">Modèle URI (pilote) :</s:String>
-    <s:String x:Key="String_UriTemplateTooltip">Modèle URI peut contenir des variables dans le texte avec format ${NomVariable}</s:String>
+    <s:String x:Key="String_UriTemplateTooltip">Modèle URI peut contenir des variables dans le texte sous format ${NomVariable}</s:String>
     <s:String x:Key="String_UriTemplateStubColon">Modèle URI (bouchon) :</s:String>
     <!-- ExtensionDesigner\ViewSoapService.xaml -->
     <s:String x:Key="String_SoapWebService">Service Web SOAP</s:String>
@@ -252,23 +253,24 @@
     <s:String x:Key="String_GenerateORderUnchecked">Générer les documents XML non ordonnées</s:String>
     <s:String x:Key="String_DispatchByBodyColon">Répartition par corps :</s:String>
     <s:String x:Key="String_DispatchByBodyChecked">Répartir les opérations par l’élément body (Non compatible avec Basic Profile 1.1 de WS-1).</s:String>
-    <s:String x:Key="String_DispatchByBodyUnchecked">Répartir les opérations par SoapAction (Conforme Basic Profile 1.1).</s:String>
+    <s:String x:Key="String_DispatchByBodyUnchecked">Répartir les opérations par Soap Action (Conforme au Basic Profile 1.1).</s:String>
     <s:String x:Key="String_ImportUpdateService">Importer/Mettre à jour le Service</s:String>
     <s:String x:Key="String_ServiceEndpointConfiguration">Points de terminaison de service &amp; Configuration</s:String>
-    <s:String x:Key="String_ViewGeneratedCode">Découvre le code généré</s:String>
+    <s:String x:Key="String_ViewGeneratedCode">Découvrir le code généré</s:String>
     <s:String x:Key="String_PreviewProxyCode">Aperçu du code pilote</s:String>
     <s:String x:Key="String_PreviewStubCode">Aperçu du code bouchon</s:String>
     <s:String x:Key="String_AnalysisResults">Résultats de l’analyse</s:String>
     <s:String x:Key="String_LevelU">NIVEAU</s:String>
     <s:String x:Key="String_ContentU">CONTENU</s:String>
     <s:String x:Key="String_ErrorAnalysingWebService">Erreur s’est produite lors de l’analyse du Service Web</s:String>
-    <s:String x:Key="String_ImportedWithWarnings">Importé avec avertissements, Veuillez-voir le résultat ci-dessous.</s:String>
+    <s:String x:Key="String_ImportedWithWarnings">Service importé avec avertissements, Veuillez consulter le résultat ci-dessous.</s:String>
     <s:String x:Key="String_WsdlImportedSuccessfully">Le WSDL est analysé et importé avec succès</s:String>
-    <s:String x:Key="String_GeneratedProxyCode">Code Proxy généré</s:String>
-    <s:String x:Key="String_GeneratedStubCode">Code Stub généré</s:String>
-    <s:String x:Key="String_NoFilesGenerated">aucun fichier généré</s:String>
+    <s:String x:Key="String_GeneratedProxyCode">Code Proxy généré (commun pour Pilot et Bouchon)</s:String>
+    <s:String x:Key="String_GeneratedStubCode">Code Bouchon généré</s:String>
+    <s:String x:Key="String_NoFilesGenerated">Aucun fichier généré</s:String>
     <s:String x:Key="String_NoFilesGeneratedMessage">Le fichier WSDL ne contient aucune définition de service.</s:String>
-    <s:String x:Key="String_Duplicate">Dupliquer</s:String>
+    <!-- PROFILE MANAGEMENT -->
+	<s:String x:Key="String_Duplicate">Dupliquer</s:String>
     <s:String x:Key="String_Delete">Supprimer</s:String>
     <s:String x:Key="String_Edit">Edit</s:String>
     <s:String x:Key="String_SetAsActiveProfile">Définir ce profil comme actif</s:String>
@@ -282,7 +284,6 @@
     <s:String x:Key="String_ProfileXExists">Le profil « {0} » existe déjà.</s:String>
     <s:String x:Key="String_ImportAProfile">Importer un profil</s:String>
     <s:String x:Key="String_Export">Export</s:String>
-    <!-- PROFILE MANAGEMENT -->
     <!-- TEST MESSAGE STATUS -->
     <s:String x:Key="String_Status_None">Non</s:String>
     <s:String x:Key="String_Status_Pending">En attente</s:String>
@@ -631,6 +632,7 @@ Annuler : rester sur le projet en cours.</s:String>
 Pour plus de détails, veuillez communiquer avec le développeur de cette extension.
 Maintenant montrer le message avec l’afficheur par défaut.]]></s:String>
     <!-- WindowMultiLineEditor.xaml -->
+    <s:String x:Key="String_EditString">Modifier la chaîne</s:String>
     <s:String x:Key="String_Cancel">Annuler</s:String>
     <s:String x:Key="String_EditValueForX">Modification de valeur pour : {0}</s:String>
     <!-- WindowObjectEditor.xaml -->
@@ -715,6 +717,27 @@ Si cet Uri contient des variables, Veuillez-vérifier que les variables sont val
     <s:String x:Key="String_FunctionalError">Erreur fonctionnelle</s:String>
     <s:String x:Key="String_CannotNameResponseAsDefault">Impossible de nommer la réponse à "Default", ce nom est réservé.</s:String>
     <s:String x:Key="String_CannotNameXBecauseExists">Impossible de nommer la réponse "{0}" car une réponse du même nom existe déjà.</s:String>
+    <s:String x:Key="String_SelectedServiceColon">Service choisi :</s:String>
+    <s:String x:Key="String_ServiceTypeColon">Type de service :</s:String>
+    <s:String x:Key="String_ResponsesColon">Réponses :</s:String>
+    <s:String x:Key="String_ResponsesToolTip">Vous pouvez définir une ou plusieurs réponses possibles pour le service et utiliser le déclencheur afin de déterminer lequel sera répondue.</s:String>
+    <s:String x:Key="String_ResponseDelayColon">Délai de réponse (s) :</s:String>
+    <s:String x:Key="String_ResponseDelayTooltip">Délai de réponse en nombre de secondes</s:String>
+    <s:String x:Key="String_AlternativeResponseColon">Autre réponse :</s:String>
+    <s:String x:Key="String_AlternativeResponse">Réponse alternative</s:String>
+    <s:String x:Key="String_ResponseType">Type de réponse :</s:String>
+    <s:String x:Key="String_SelectService">Sélectionnez le service</s:String>
+    <s:String x:Key="String_SelectServiceTootip">Sélectionnez le service web de se moquer</s:String>
+    <s:String x:Key="String_SaveResponseTooltip">Enregistrer les réponses actuelles.</s:String>
+    <s:String x:Key="String_SaveAndClose">Enregistrer la fermeture</s:String>
+    <s:String x:Key="String_SaveAndCloseTooltip">« Enregistrer les réponses actuelles et fermez la fenêtre.</s:String>
+    <s:String x:Key="String_Reload">Reload</s:String>
+    <s:String x:Key="String_ReloadTooltip">Ignorer les modifications et recharger les réponses actuelles des paramètres.</s:String>
+    <s:String x:Key="String_ViewRequest">Demande d’avis</s:String>
+    <s:String x:Key="String_ViewRequestTooltip">Découvre l’objet de demande quelle simulation de service est reçue.</s:String>
+    <s:String x:Key="String_EditTrigger">Modifier le déclencheur</s:String>
+    <s:String x:Key="String_EditTriggerTooltip">Modifier le déclencheur pour déterminer quelle réponse à une réponse.</s:String>
+    <!-- WindowStringEditor -->
     <!-- CommandLineTestStepEditor.xaml-->
     <s:String x:Key="String_FileNameColon">Nom du fichier :</s:String>
     <s:String x:Key="String_ArgumentsColon">Arguments :</s:String>
@@ -903,7 +926,7 @@ Cette action ne peut pas être restaurée.]]></s:String>
     <!-- WindowEditAssertion.xaml -->
     <s:String x:Key="String_Assertion">Assertion</s:String>
     <s:String x:Key="String_Test">Test</s:String>
-    <s:String x:Key="String_AssertionObjectNull">Objet de l’assertion ne peut pas être null</s:String>
+    <s:String x:Key="String_AssertionObjectNull">Objet de l’assertion ne peut pas être nul</s:String>
     <s:String x:Key="String_AssertionTestException">Exception non gérée lors du test de l'assertion : </s:String>
     <!-- WindowPerformanceTestMonitor -->
     <s:String x:Key="String_PerformanceTestMonitor">Moniteur de Test de performance</s:String>
@@ -982,6 +1005,32 @@ Cette action ne peut pas être restaurée.]]></s:String>
     <s:String x:Key="String_InputValueNotMatchTypeX" xml:space="preserve">Valeur d’entrée ne correspond pas au type : {0}.
 Veuillez réessayer ou appuyez sur ÉCHAP pour annuler.</s:String>
     <s:String x:Key="String_StringEditor">Éditeur de chaînes</s:String>
+    <s:String x:Key="String_EnterNewValueColon">Entrez une nouvelle valeur :</s:String>
+    <!-- ConditionalTestStepEditor.xaml-->
+    <s:String x:Key="String_ConditionalTestStepDescription">Cette étape de test évalue une condition donnée. Pas vrais seront exécutés si la condition est remplie, sinon False étapes seront exécutées.</s:String>
+    <s:String x:Key="String_InitializeAsDots">Initialise les en...</s:String>
+    <s:String x:Key="String_EvaluationFailureBehaviorColon">Comportement d’échec évaluation :</s:String>
+    <s:String x:Key="String_TestFailed">Échec du test</s:String>
+    <!-- JsonWebTokenTestStepEditor.xaml -->
+    <s:String x:Key="String_SigningAlgorithmU">ALGORITHME DE SIGNATURE</s:String>
+    <s:String x:Key="String_Algorithm">Algorithme :</s:String>
+    <s:String x:Key="String_PayloadU">CHARGE UTILE</s:String>
+    <s:String x:Key="String_AddClaim">Ajouter la réclamation</s:String>
+    <s:String x:Key="String_TokenU">JETON</s:String>
+    <s:String x:Key="String_TestStepFailed">Étape de test a échoué</s:String>
+    <s:String x:Key="String_NewClaim">Nouvelle demande</s:String>
+    <!-- TableDataGeneratorTestStepEditor.xaml -->
+    <s:String x:Key="String_Reset">Remise à zéro</s:String>
+    <s:String x:Key="String_DataSourceChanging">Source de données change</s:String>
+    <s:String x:Key="String_DataSourceChangingDescription">Si les changements de type de la source de données, tous les paramètres liés à la source de données actuelle seront perdues. Vous voulez changer la source de données de toute façon ?</s:String>
+    <!-- ControlSymmetricKey.xaml -->
+    <s:String x:Key="String_SecretColon">Secret :</s:String>
+    <s:String x:Key="String_SecretTooltip">UrlBase64 codé secret (clé privée), assurez-vous que la taille de la clé est assez long pour répondre aux exigences de l’algorithme.</s:String>
+    <s:String x:Key="String_KeyFormatColon">Format de la clé :</s:String>
+    <!-- ControlCertificate.xaml -->
+    <s:String x:Key="String_CertificateColon">Certificat :</s:String>
+    <s:String x:Key="String_SelectCertificateTooltip">Sélectionnez un certificat PFX PKCS #12 utilisant l’algorithme sélectionné. (*.pfx, *.p12)</s:String>
+    <s:String x:Key="String_CertificatePassword">Mot de passe du certificat donné.</s:String>
     <!-- ViewLoadTestReportItem -->
     <s:String x:Key="String_AllU">TOUS</s:String>
     <s:String x:Key="String_CycleTime">Temps de cycle (s)</s:String>

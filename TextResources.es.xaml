@@ -380,6 +380,32 @@ Esta acción no puede ser recuperada.]]></s:String>
     <s:String x:Key="String_InputValueNotMatchTypeX"><![CDATA[Valor de entrada no coincide con el tipo: {0}.
 Por favor Reintentar o presione ESC para cancelar.]]></s:String>
     <s:String x:Key="String_StringEditor">Editor de cadenas</s:String>
+    <s:String x:Key="String_EnterNewValueColon">Introduzca un nuevo valor:</s:String>
+    <!-- ConditionalTestStepEditor.xaml-->
+    <s:String x:Key="String_ConditionalTestStepDescription">Este paso de prueba evalúa una condición dada. Pasos de true se ejecutará si la condición se cumple, de lo contrario se ejecutarán los pasos falsos.</s:String>
+    <s:String x:Key="String_InitializeAsDots">Inicializar como...</s:String>
+    <s:String x:Key="String_EvaluationFailureBehaviorColon">Comportamiento de la falta de evaluación:</s:String>
+    <s:String x:Key="String_TestFailed">Ha fallado el test</s:String>
+    <!-- JsonWebTokenTestStepEditor.xaml -->
+    <s:String x:Key="String_SigningAlgorithmU">ALGORITMO DE FIRMA</s:String>
+    <s:String x:Key="String_Algorithm">Algoritmo:</s:String>
+    <s:String x:Key="String_PayloadU">CAPACIDAD DE CARGA</s:String>
+    <s:String x:Key="String_AddClaim">Añadir reclamación</s:String>
+    <s:String x:Key="String_TokenU">TOKEN</s:String>
+    <s:String x:Key="String_TestStepFailed">Paso de la prueba fallada</s:String>
+    <s:String x:Key="String_NewClaim">Nueva reclamación</s:String>
+    <!-- TableDataGeneratorTestStepEditor.xaml -->
+    <s:String x:Key="String_Reset">RESET</s:String>
+    <s:String x:Key="String_DataSourceChanging">Origen de datos cambiando</s:String>
+    <s:String x:Key="String_DataSourceChangingDescription">Si el origen de datos tipo de cambios, se perderán todos los ajustes relacionados con el origen de datos actual. ¿Desea cambiar la fuente de datos de todos modos?</s:String>
+    <!-- ControlSymmetricKey.xaml -->
+    <s:String x:Key="String_SecretColon">Secreto:</s:String>
+    <s:String x:Key="String_SecretTooltip">UrlBase64 codificado en secreto (clave privada), asegúrese de que el tamaño de la clave es tiempo suficiente para cumplir con los requisitos del algoritmo.</s:String>
+    <s:String x:Key="String_KeyFormatColon">Formato de clave:</s:String>
+    <!-- ControlCertificate.xaml -->
+    <s:String x:Key="String_CertificateColon">Certificado:</s:String>
+    <s:String x:Key="String_SelectCertificateTooltip">Seleccione un certificado PFX o PKCS #12 utilizando el algoritmo seleccionado. (*.pfx, *.p12)</s:String>
+    <s:String x:Key="String_CertificatePassword">Contraseña de protección del certificado dado.</s:String>
     <!-- ViewLoadTestReportItem -->
     <s:String x:Key="String_AllU">TODOS</s:String>
     <s:String x:Key="String_CycleTime">Tiempo de ciclo (s)</s:String>
@@ -430,6 +456,7 @@ Por ejemplo, puede tener un conjunto de servicio Web para gestión de clientes, 
     <s:String x:Key="String_AssemblyNameColon">Nombre del montaje:</s:String>
     <s:String x:Key="String_Actions">Acciones</s:String>
     <s:String x:Key="String_ExportVSSolution">Exportación como solución de Visual Studio</s:String>
+    <s:String x:Key="String_GenerateAndLoad">Generar y cargar esta extensión</s:String>
     <s:String x:Key="String_ExtensionProjectBuilt">El proyecto de extensión se ha construido con éxito, haga clic aquí para abrir la carpeta que contiene</s:String>
     <s:String x:Key="String_BuildFailed">No se pudo construir</s:String>
     <s:String x:Key="String_BuildFailedMessage">Hay errores durante la compilación. Haga clic en el siguiente enlace para ver los detalles.</s:String>
@@ -852,6 +879,7 @@ CANCELAR: estancia en el proyecto actual.]]></s:String>
 Para más detalles por favor póngase en contacto con el desarrollador de esta extensión.
 Ahora muestra el mensaje con el visor por defecto.]]></s:String>
     <!-- WindowMultiLineEditor.xaml -->
+    <s:String x:Key="String_EditString">Editar la cadena de</s:String>
     <s:String x:Key="String_Cancel">Cancelar</s:String>
     <s:String x:Key="String_EditValueForX">Editar valor: {0}</s:String>
     <!-- WindowObjectEditor.xaml -->
@@ -912,6 +940,27 @@ Si esta Uri utiliza variables, por favor comprueba la configuración si todos ut
     <s:String x:Key="String_FunctionalError">Error funcional</s:String>
     <s:String x:Key="String_CannotNameResponseAsDefault">No se puede nombrar una respuesta como "Default", mientras que este nombre se reserva.</s:String>
     <s:String x:Key="String_CannotNameXBecauseExists">No se puede nombrar la respuesta como "{0}" porque es una respuesta del mismo nombre ya existe.</s:String>
+    <s:String x:Key="String_SelectedServiceColon">Servicio seleccionado:</s:String>
+    <s:String x:Key="String_ServiceTypeColon">Tipo de servicio:</s:String>
+    <s:String x:Key="String_ResponsesColon">Respuestas:</s:String>
+    <s:String x:Key="String_ResponsesToolTip">Puede definir una o más respuestas posibles para el servicio y usar disparador para determinar cuál será contestada.</s:String>
+    <s:String x:Key="String_ResponseDelayColon">Demora de respuesta (s):</s:String>
+    <s:String x:Key="String_ResponseDelayTooltip">Demora de respuesta número de segundos</s:String>
+    <s:String x:Key="String_AlternativeResponseColon">Respuesta alternativa:</s:String>
+    <s:String x:Key="String_AlternativeResponse">Respuesta alternativa</s:String>
+    <s:String x:Key="String_ResponseType">Tipo de respuesta:</s:String>
+    <s:String x:Key="String_SelectService">Seleccione servicio</s:String>
+    <s:String x:Key="String_SelectServiceTootip">Seleccione el servicio web para burlarse</s:String>
+    <s:String x:Key="String_SaveResponseTooltip">Guarda las respuestas actuales.</s:String>
+    <s:String x:Key="String_SaveAndClose">Guardar cerrar</s:String>
+    <s:String x:Key="String_SaveAndCloseTooltip">"Guarda las respuestas actuales y cerrar la ventana.</s:String>
+    <s:String x:Key="String_Reload">Volver a cargar</s:String>
+    <s:String x:Key="String_ReloadTooltip">Descartar cambios y volver a cargar las respuestas actuales de configuración.</s:String>
+    <s:String x:Key="String_ViewRequest">Solicitud de vista</s:String>
+    <s:String x:Key="String_ViewRequestTooltip">Ve el objeto request que simulación de servicio será recibida.</s:String>
+    <s:String x:Key="String_EditTrigger">Editar gatillo</s:String>
+    <s:String x:Key="String_EditTriggerTooltip">Editar el gatillo para determinar qué respuesta a lo que respondió.</s:String>
+    <!-- WindowStringEditor -->
     <!-- CommandLineTestStepEditor.xaml-->
     <s:String x:Key="String_FileNameColon">Nombre del archivo:</s:String>
     <s:String x:Key="String_ArgumentsColon">Argumentos:</s:String>

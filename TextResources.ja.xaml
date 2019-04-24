@@ -380,6 +380,32 @@
     <s:String x:Key="String_InputValueNotMatchTypeX"><![CDATA[入力値が入力と一致しません: {0}。
 ください再試行するかキャンセルする esc キーを押します。]]></s:String>
     <s:String x:Key="String_StringEditor">文字列エディター</s:String>
+    <s:String x:Key="String_EnterNewValueColon">新しい値を入力します。</s:String>
+    <!-- ConditionalTestStepEditor.xaml-->
+    <s:String x:Key="String_ConditionalTestStepDescription">このテスト手順は、与えられた条件を評価します。条件が満たされる場合に実行される真の手順、それ以外の場合 False 手順が実行されます。</s:String>
+    <s:String x:Key="String_InitializeAsDots">として初期化.</s:String>
+    <s:String x:Key="String_EvaluationFailureBehaviorColon">障害の評価の動作:</s:String>
+    <s:String x:Key="String_TestFailed">テストに失敗しました</s:String>
+    <!-- JsonWebTokenTestStepEditor.xaml -->
+    <s:String x:Key="String_SigningAlgorithmU">署名アルゴリズム</s:String>
+    <s:String x:Key="String_Algorithm">アルゴリズム:</s:String>
+    <s:String x:Key="String_PayloadU">ペイロード</s:String>
+    <s:String x:Key="String_AddClaim">クレームを追加します。</s:String>
+    <s:String x:Key="String_TokenU">トークン</s:String>
+    <s:String x:Key="String_TestStepFailed">テスト ステップが失敗しました</s:String>
+    <s:String x:Key="String_NewClaim">新しい要求</s:String>
+    <!-- TableDataGeneratorTestStepEditor.xaml -->
+    <s:String x:Key="String_Reset">リセット</s:String>
+    <s:String x:Key="String_DataSourceChanging">データ ソースを変更します。</s:String>
+    <s:String x:Key="String_DataSourceChangingDescription">データ ソースの種類の変更、現在のデータ ソースに関連するすべての設定が失われます。とにかくデータ ソースを変更しますか。</s:String>
+    <!-- ControlSymmetricKey.xaml -->
+    <s:String x:Key="String_SecretColon">秘密:</s:String>
+    <s:String x:Key="String_SecretTooltip">エンコードされた UrlBase64 の秘密 (秘密キー)、確認キー サイズはアルゴリズムの要件を満たすために十分な長さです。</s:String>
+    <s:String x:Key="String_KeyFormatColon">キーの形式:</s:String>
+    <!-- ControlCertificate.xaml -->
+    <s:String x:Key="String_CertificateColon">証明書:</s:String>
+    <s:String x:Key="String_SelectCertificateTooltip">選択したアルゴリズムを使用して PFX または PKCS #12 証明書を選択します。(*.p12, *.pfx)</s:String>
+    <s:String x:Key="String_CertificatePassword">指定された証明書のパスワード。</s:String>
     <!-- ViewLoadTestReportItem -->
     <s:String x:Key="String_AllU">すべての</s:String>
     <s:String x:Key="String_CycleTime">サイクル タイム (秒)</s:String>
@@ -430,6 +456,7 @@
     <s:String x:Key="String_AssemblyNameColon">アセンブリ名:</s:String>
     <s:String x:Key="String_Actions">アクション</s:String>
     <s:String x:Key="String_ExportVSSolution">Visual Studio ソリューションとしてエクスポートします。</s:String>
+    <s:String x:Key="String_GenerateAndLoad">生成・この拡張を読み込む</s:String>
     <s:String x:Key="String_ExtensionProjectBuilt">成功、ここをクリックして、含まれているフォルダーを開くと拡張プロジェクトがビルドされました。</s:String>
     <s:String x:Key="String_BuildFailed">ビルドに失敗しました</s:String>
     <s:String x:Key="String_BuildFailedMessage">ビルド中にエラーがあります。詳細を表示する次のリンクをクリックします。</s:String>
@@ -852,6 +879,7 @@ NO: 現在のプロジェクトを放棄し、新しいプロジェクトを作�
 詳細については、この拡張機能の開発者にお問い合わせください。
 今デフォルトのビューアーを使用してメッセージを示しています。]]></s:String>
     <!-- WindowMultiLineEditor.xaml -->
+    <s:String x:Key="String_EditString">文字列を編集します。</s:String>
     <s:String x:Key="String_Cancel">キャンセル</s:String>
     <s:String x:Key="String_EditValueForX">編集の値: {0}</s:String>
     <!-- WindowObjectEditor.xaml -->
@@ -912,6 +940,27 @@ NO: 好きな要求を削除します。
     <s:String x:Key="String_FunctionalError">機能的なエラー</s:String>
     <s:String x:Key="String_CannotNameResponseAsDefault">「デフォルト」この名前は予約されている間、応答に名前をことはできません。</s:String>
     <s:String x:Key="String_CannotNameXBecauseExists">「{0}」は、既に同じ名前の応答するための存在として応答の名前を付けることはできません。</s:String>
+    <s:String x:Key="String_SelectedServiceColon">サービスを選択しました。</s:String>
+    <s:String x:Key="String_ServiceTypeColon">サービスの種類:</s:String>
+    <s:String x:Key="String_ResponsesColon">応答:</s:String>
+    <s:String x:Key="String_ResponsesToolTip">サービスは、1 つ以上の可能な回答を定義し、1 つの回答となるだろうを決定するトリガーを使用できます。</s:String>
+    <s:String x:Key="String_ResponseDelayColon">応答の遅延 (秒):</s:String>
+    <s:String x:Key="String_ResponseDelayTooltip">秒数で返信の遅延</s:String>
+    <s:String x:Key="String_AlternativeResponseColon">代替の応答:</s:String>
+    <s:String x:Key="String_AlternativeResponse">代替の応答</s:String>
+    <s:String x:Key="String_ResponseType">応答の種類:</s:String>
+    <s:String x:Key="String_SelectService">サービスを選択します。</s:String>
+    <s:String x:Key="String_SelectServiceTootip">モックを作成する web サービスを選択します。</s:String>
+    <s:String x:Key="String_SaveResponseTooltip">現在の応答を保存します。</s:String>
+    <s:String x:Key="String_SaveAndClose">閉じるを保存します。</s:String>
+    <s:String x:Key="String_SaveAndCloseTooltip">「現在の回答を保存しウィンドウを閉じます。</s:String>
+    <s:String x:Key="String_Reload">再読み込み</s:String>
+    <s:String x:Key="String_ReloadTooltip">変更を破棄し、設定から現在の応答を再読み込みします。</s:String>
+    <s:String x:Key="String_ViewRequest">ビューの要求</s:String>
+    <s:String x:Key="String_ViewRequestTooltip">どのサービスのシミュレーションが受信される要求オブジェクトを表示します。</s:String>
+    <s:String x:Key="String_EditTrigger">トリガーを編集します。</s:String>
+    <s:String x:Key="String_EditTriggerTooltip">答えたことに応答を決定するトリガーを編集します。</s:String>
+    <!-- WindowStringEditor -->
     <!-- CommandLineTestStepEditor.xaml-->
     <s:String x:Key="String_FileNameColon">ファイル名:</s:String>
     <s:String x:Key="String_ArgumentsColon">引数:</s:String>

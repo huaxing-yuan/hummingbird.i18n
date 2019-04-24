@@ -380,6 +380,32 @@
     <s:String x:Key="String_InputValueNotMatchTypeX"><![CDATA[Τιμή εισόδου δεν ταιριάζει να πληκτρολογήσετε: {0}.
 Παρακαλούμε προσπαθήστε ξανά ή πιέστε το πλήκτρο ESC για να ακυρώσετε.]]></s:String>
     <s:String x:Key="String_StringEditor">Επεξεργαστή συμβολοσειράς</s:String>
+    <s:String x:Key="String_EnterNewValueColon">Εισαγάγετε μια νέα τιμή:</s:String>
+    <!-- ConditionalTestStepEditor.xaml-->
+    <s:String x:Key="String_ConditionalTestStepDescription">Αυτό το βήμα δοκιμής αξιολογεί μια δεδομένη κατάσταση. Αληθινή βήματα θα εκτελεστεί αν η προϋπόθεση πληρούται, άλλως θα εκτελεσθεί ψευδή βήματα.</s:String>
+    <s:String x:Key="String_InitializeAsDots">Προετοιμασία ως...</s:String>
+    <s:String x:Key="String_EvaluationFailureBehaviorColon">Αξιολόγηση αποτυχία συμπεριφορά:</s:String>
+    <s:String x:Key="String_TestFailed">Δοκιμή απέτυχε</s:String>
+    <!-- JsonWebTokenTestStepEditor.xaml -->
+    <s:String x:Key="String_SigningAlgorithmU">Ο ΑΛΓΌΡΙΘΜΟΣ ΥΠΟΓΡΑΦΉΣ</s:String>
+    <s:String x:Key="String_Algorithm">Αλγόριθμος:</s:String>
+    <s:String x:Key="String_PayloadU">ΩΦΈΛΙΜΟ ΦΟΡΤΊΟ</s:String>
+    <s:String x:Key="String_AddClaim">Προσθέστε απαίτηση</s:String>
+    <s:String x:Key="String_TokenU">ΔΙΑΚΡΙΤΙΚΌ</s:String>
+    <s:String x:Key="String_TestStepFailed">Βήμα δοκιμής που απέτυχε</s:String>
+    <s:String x:Key="String_NewClaim">Νέο αίτημα</s:String>
+    <!-- TableDataGeneratorTestStepEditor.xaml -->
+    <s:String x:Key="String_Reset">Επαναφορά</s:String>
+    <s:String x:Key="String_DataSourceChanging">Αλλαγή αρχείου προέλευσης δεδομένων</s:String>
+    <s:String x:Key="String_DataSourceChangingDescription">Εάν το αρχείο προέλευσης δεδομένων, πληκτρολογήστε τις αλλαγές, τότε θα χαθούν όλες τις ρυθμίσεις που σχετίζονται με την τρέχουσα προέλευση δεδομένων. Θέλετε να αλλάξετε το αρχείο προέλευσης δεδομένων ούτως ή άλλως;</s:String>
+    <!-- ControlSymmetricKey.xaml -->
+    <s:String x:Key="String_SecretColon">Μυστικό:</s:String>
+    <s:String x:Key="String_SecretTooltip">UrlBase64 κωδικοποιημένο μυστικό (ιδιωτικό κλειδί), βεβαιωθείτε ότι το μέγεθος του κλειδιού είναι αρκετά μεγάλη ώστε να πληρούν τις απαιτήσεις του αλγορίθμου.</s:String>
+    <s:String x:Key="String_KeyFormatColon">Μορφή κλειδιού:</s:String>
+    <!-- ControlCertificate.xaml -->
+    <s:String x:Key="String_CertificateColon">Πιστοποιητικό:</s:String>
+    <s:String x:Key="String_SelectCertificateTooltip">Επιλέξτε χρήση του επιλεγμένου αλγόριθμου πιστοποιητικού PFX ή PKCS #12. (*.pfx, *.p12)</s:String>
+    <s:String x:Key="String_CertificatePassword">Κωδικό πρόσβασης προστασίας του συγκεκριμένου πιστοποιητικού.</s:String>
     <!-- ViewLoadTestReportItem -->
     <s:String x:Key="String_AllU">ΌΛΑ ΤΑ</s:String>
     <s:String x:Key="String_CycleTime">Χρόνος κύκλου (s)</s:String>
@@ -430,6 +456,7 @@
     <s:String x:Key="String_AssemblyNameColon">Όνομα συγκρότησης:</s:String>
     <s:String x:Key="String_Actions">Δράσεις</s:String>
     <s:String x:Key="String_ExportVSSolution">Εξαγωγή ως λύση Visual Studio</s:String>
+    <s:String x:Key="String_GenerateAndLoad">Δημιουργία &amp; να φορτώσει αυτήν την επέκταση</s:String>
     <s:String x:Key="String_ExtensionProjectBuilt">Το έργο επέκταση έχει κατασκευαστεί με επιτυχία, κάντε κλικ εδώ, για να ανοίξετε το φάκελο που περιέχει</s:String>
     <s:String x:Key="String_BuildFailed">Κατασκευή απέτυχε</s:String>
     <s:String x:Key="String_BuildFailedMessage">Υπάρχουν σφάλματα κατά τη διάρκεια της μεταγλώττισης. Κάντε κλικ στον παρακάτω σύνδεσμο για να δείτε λεπτομέρειες.</s:String>
@@ -852,6 +879,7 @@ NO: Εγκαταλείψει τρέχον έργο και να δημιουργ�
 Για περισσότερες λεπτομέρειες, παρακαλώ επικοινωνήστε με τον προγραμματιστή της επέκτασης αυτής.
 Τώρα δείχνει το μήνυμα με το προεπιλεγμένο πρόγραμμα προβολής.]]></s:String>
     <!-- WindowMultiLineEditor.xaml -->
+    <s:String x:Key="String_EditString">Επεξεργαστείτε τη συμβολοσειρά</s:String>
     <s:String x:Key="String_Cancel">Άκυρο</s:String>
     <s:String x:Key="String_EditValueForX">Επεξεργασία για: {0}</s:String>
     <!-- WindowObjectEditor.xaml -->
@@ -912,6 +940,27 @@ NO: Διαγραφή αγαπημένο αίτηση.
     <s:String x:Key="String_FunctionalError">Σφάλμα λειτουργική</s:String>
     <s:String x:Key="String_CannotNameResponseAsDefault">Δεν μπορείτε να ονομάσετε μια απάντηση όπως «Προεπιλογής», ενώ αυτό το όνομα είναι δεσμευμένο.</s:String>
     <s:String x:Key="String_CannotNameXBecauseExists">Δεν μπορείτε να ονομάσετε την απάντηση, όπως "{0}" διότι μια απάντηση του ίδιου ονόματος είναι ήδη υπάρχει.</s:String>
+    <s:String x:Key="String_SelectedServiceColon">Επιλεγμένη υπηρεσία:</s:String>
+    <s:String x:Key="String_ServiceTypeColon">Τον τύπο της υπηρεσίας:</s:String>
+    <s:String x:Key="String_ResponsesColon">Απαντήσεις:</s:String>
+    <s:String x:Key="String_ResponsesToolTip">Μπορείτε να ορίσετε μία ή περισσότερες πιθανές απαντήσεις για την υπηρεσία, και χρησιμοποιούν σκανδάλη για να προσδιορίσετε ποιο θα απαντηθούν.</s:String>
+    <s:String x:Key="String_ResponseDelayColon">Καθυστέρηση ανταπόκρισης (s):</s:String>
+    <s:String x:Key="String_ResponseDelayTooltip">Καθυστέρηση της απάντησης σε αριθμό δευτερολέπτων</s:String>
+    <s:String x:Key="String_AlternativeResponseColon">Εναλλακτική απάντηση:</s:String>
+    <s:String x:Key="String_AlternativeResponse">Εναλλακτική απάντηση</s:String>
+    <s:String x:Key="String_ResponseType">Απάντηση του τύπου:</s:String>
+    <s:String x:Key="String_SelectService">Επιλέξτε υπηρεσία</s:String>
+    <s:String x:Key="String_SelectServiceTootip">Επιλέξτε την υπηρεσία web να κοροϊδεύει</s:String>
+    <s:String x:Key="String_SaveResponseTooltip">Για να αποθηκεύσετε την τρέχουσα απαντήσεις.</s:String>
+    <s:String x:Key="String_SaveAndClose">Αποθηκεύσετε το κλείσιμο</s:String>
+    <s:String x:Key="String_SaveAndCloseTooltip">«Αποθηκεύστε τις τρέχουσες απαντήσεις και κλείστε το παράθυρο.</s:String>
+    <s:String x:Key="String_Reload">Νέα φόρτωση</s:String>
+    <s:String x:Key="String_ReloadTooltip">Απορρίψτε τις αλλαγές και επαναλάβετε τη φόρτωση τρέχουσα απαντήσεις από τις ρυθμίσεις.</s:String>
+    <s:String x:Key="String_ViewRequest">Προβολή αιτήματος</s:String>
+    <s:String x:Key="String_ViewRequestTooltip">Δείτε το αντικείμενο request προσομοίωση υπηρεσία που θα παραληφθούν.</s:String>
+    <s:String x:Key="String_EditTrigger">Επεξεργαστείτε σκανδάλη</s:String>
+    <s:String x:Key="String_EditTriggerTooltip">Για να επεξεργαστείτε τη σκανδάλη για να προσδιορίσετε ποια απάντηση για να απαντηθείτε.</s:String>
+    <!-- WindowStringEditor -->
     <!-- CommandLineTestStepEditor.xaml-->
     <s:String x:Key="String_FileNameColon">Όνομα αρχείου:</s:String>
     <s:String x:Key="String_ArgumentsColon">Επιχειρήματα:</s:String>

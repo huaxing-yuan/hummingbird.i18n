@@ -243,6 +243,8 @@
 	<s:String x:Key="String_AssemblyNameColon">Assembly Name:</s:String>
 	<s:String x:Key="String_Actions">Actions</s:String>
 	<s:String x:Key="String_ExportVSSolution">Export as Visual Studio solution</s:String>
+	<s:String x:Key="String_GenerateAndLoad">Generate &amp; Load this extension</s:String>
+	
 	<s:String x:Key="String_ExtensionProjectBuilt">The extension project has been built with success, Click here to open the containing folder</s:String>
 	<s:String x:Key="String_BuildFailed">Build failed</s:String>
 	<s:String x:Key="String_BuildFailedMessage">There are errors during the Build. click on the following link to see details.</s:String>
@@ -624,7 +626,7 @@
     <s:String x:Key="String_ExtensionDesignerTitle">Extension Designer - Add Web Services definitions to test and to simulate</s:String>
     <s:String x:Key="String_CreateNewExtensionProject">Create a new service extension project</s:String>
     <s:String x:Key="String_LearnMoreExtensionDesigner">Learn more about service extension designer</s:String>
-    <s:String x:Key="String_OtherWaysToExtent">Other ways to extent your ability</s:String>
+    <s:String x:Key="String_OtherWaysToExtent">Other ways to extent the ability of Hummingbird</s:String>
 	<s:String x:Key="String_NewProjectNeverSaved">* new project has never been saved.</s:String>
     
 	<!-- ViewExtensionDesigner.xaml.cs -->
@@ -679,13 +681,15 @@ CANCEL: stay on current project.</s:String>
 	
     
     <!-- WindowMultiLineEditor.xaml -->
+	<s:String x:Key="String_EditString">Edit String</s:String>
     <s:String x:Key="String_Cancel">Cancel</s:String>
     <s:String x:Key="String_EditValueForX">Editing Value for: {0}</s:String>
     
     <!-- WindowObjectEditor.xaml -->
     <s:String x:Key="String_ObjectEditor">Object Editor</s:String>
     <s:String x:Key="String_EditingObjectOfTypeX">Editing the object of type {0}</s:String>
-    
+
+	
     <!-- WindowSearch.xaml -->
     <s:String x:Key="String_Search">Search</s:String>
     <s:String x:Key="String_SearchColon">Search:</s:String>
@@ -741,6 +745,60 @@ If this Uri uses variables, please check settings if all used variables are assi
 	<s:String x:Key="String_FunctionalError">Functional Error</s:String>
 	<s:String x:Key="String_CannotNameResponseAsDefault">Cannot name a response as "Default", this name is reserved.</s:String>
 	<s:String x:Key="String_CannotNameXBecauseExists">Cannot name the response to "{0}" because a response of same name already exists.</s:String>
+	<s:String x:Key="String_SelectedServiceColon">Selected Service:</s:String>
+	<s:String x:Key="String_ServiceTypeColon">Service Type:</s:String>
+	<s:String x:Key="String_ResponsesColon">Responses:</s:String>
+	<s:String x:Key="String_ResponsesToolTip">You can define one or more possible replies for the service, and use trigger to determine which one will be replied.</s:String>
+	<s:String x:Key="String_ResponseDelayColon">Response Delay (s):</s:String>
+	<s:String x:Key="String_ResponseDelayTooltip">Delay of reply in number of seconds</s:String>
+	<s:String x:Key="String_AlternativeResponseColon">Alternative Response:</s:String>
+	<s:String x:Key="String_AlternativeResponse">Alternative Response</s:String>
+	<s:String x:Key="String_ResponseType">Response Type:</s:String>
+	<s:String x:Key="String_SelectService">Select service</s:String>
+	<s:String x:Key="String_SelectServiceTootip">Select the web service to mock</s:String>
+	<s:String x:Key="String_SaveResponseTooltip">Save the current responses.</s:String>
+	<s:String x:Key="String_SaveAndClose">Save Close</s:String>
+	<s:String x:Key="String_SaveAndCloseTooltip">"Save the current responses and close the window.</s:String>
+	<s:String x:Key="String_Reload">Reload</s:String>
+	<s:String x:Key="String_ReloadTooltip">Discard any changes and reload current responses from settings.</s:String>
+	<s:String x:Key="String_ViewRequest">View Request</s:String>
+	<s:String x:Key="String_ViewRequestTooltip">View the request object which service simulation will be received.</s:String>
+	<s:String x:Key="String_EditTrigger">Edit Trigger</s:String>
+	<s:String x:Key="String_EditTriggerTooltip">Edit the trigger to determine which response to be replied.</s:String>
+
+	<!-- WindowStringEditor -->
+	<s:String x:Key="String_StringEditor">String Editor</s:String>
+	<s:String x:Key="String_EnterNewValueColon">Enter a new value:</s:String>
+	
+	<!-- ConditionalTestStepEditor.xaml-->
+	<s:String x:Key="String_ConditionalTestStepDescription">This test step evaluates a given condition. True Steps will be executed if the condition is met, otherwise False Steps will be executed.</s:String>
+	<s:String x:Key="String_InitializeAsDots">Initialize as...</s:String>
+	<s:String x:Key="String_EvaluationFailureBehaviorColon">Evaluation failure behavior:</s:String>
+	<s:String x:Key="String_TestFailed">Test failed</s:String>
+
+	<!-- JsonWebTokenTestStepEditor.xaml -->
+	<s:String x:Key="String_SigningAlgorithmU">SIGNING ALGORITHM</s:String>
+	<s:String x:Key="String_Algorithm">Algorithm:</s:String>
+	<s:String x:Key="String_PayloadU">PAYLOAD</s:String>
+	<s:String x:Key="String_AddClaim">Add Claim</s:String>
+	<s:String x:Key="String_TokenU">TOKEN</s:String>
+	<s:String x:Key="String_TestStepFailed">Test step failed</s:String>
+	<s:String x:Key="String_NewClaim">New Claim</s:String>
+	
+	<!-- TableDataGeneratorTestStepEditor.xaml -->
+	<s:String x:Key="String_Reset">Reset</s:String>
+	<s:String x:Key="String_DataSourceChanging">Data Source Changing</s:String>
+	<s:String x:Key="String_DataSourceChangingDescription">If the data source type changes, all settings related to current data source will be lost. Do you want to change the data source anyway?</s:String>
+	
+	<!-- ControlSymmetricKey.xaml -->
+	<s:String x:Key="String_SecretColon">Secret:</s:String>
+	<s:String x:Key="String_SecretTooltip">UrlBase64 encoded secret (private key), Ensure the key size is long enough to meet algorithm requirements.</s:String>
+	<s:String x:Key="String_KeyFormatColon">Key Format:</s:String>
+	
+	<!-- ControlCertificate.xaml -->
+	<s:String x:Key="String_CertificateColon">Certificate:</s:String>
+	<s:String x:Key="String_SelectCertificateTooltip">Select a PFX or PKCS#12 certificate using selected algorithm. (*.pfx, *.p12)</s:String>
+	<s:String x:Key="String_CertificatePassword">Protection password of the given certificate.</s:String>
 	
 	<!-- CommandLineTestStepEditor.xaml-->
     <s:String x:Key="String_FileNameColon">File Name:</s:String>
@@ -1035,11 +1093,10 @@ If this Uri uses variables, please check settings if all used variables are assi
 	
 	<!-- EditableTextBlock -->
 	<s:String x:Key="String_ErrorWithInputData">There is an error with your input data</s:String>
-	<s:String x:Key="String_InputValueNotMatchTypeX" xml:space="preserve">Input value does not match to type: {0}.
+    <s:String x:Key="String_InputValueNotMatchTypeX" xml:space="preserve">Input value does not match to type: {0}.
 Please retry or press ESC to cancel.</s:String>
-	<s:String x:Key="String_StringEditor">String editor</s:String>	
-	
-	<!-- ViewLoadTestReportItem -->
+
+    <!-- ViewLoadTestReportItem -->
 	<s:String x:Key="String_AllU">ALL</s:String>
 	<s:String x:Key="String_CycleTime">Cycle Time (s)</s:String>
 	<s:String x:Key="String_TheoreticalActualLoad">Theoretical and actual load</s:String>
@@ -1053,6 +1110,7 @@ Please retry or press ESC to cancel.</s:String>
 	<s:String x:Key="String_OkU">_OK</s:String>
 	<s:String x:Key="String_CancelU">_CANCEL</s:String>
 	
+	
 	<!-- WindowServiceSelector -->
 	<s:String x:Key="String_RequestsAndResponse">Requests and responses: </s:String>
 	<s:String x:Key="String_WithThisServerXStub">With this server, you can simulate {0} services as Stub.</s:String>
@@ -1065,5 +1123,7 @@ Please retry or press ESC to cancel.</s:String>
 	<s:String x:Key="String_AddEditThreshold">Add/Edit Performance Threshold</s:String>
 	<s:String x:Key="String_ThresholdTypeColon">Threshold Type: </s:String>
 	<s:String x:Key="String_ValueColon">Value: </s:String>
+	
+	
 	
 </ResourceDictionary>

@@ -380,6 +380,32 @@
     <s:String x:Key="String_InputValueNotMatchTypeX"><![CDATA[Введенное значение не соответствует к типу: {0}.
 Пожалуйста попробуйте еще раз или нажмите ESC для отмены.]]></s:String>
     <s:String x:Key="String_StringEditor">Редактор строк</s:String>
+    <s:String x:Key="String_EnterNewValueColon">Введите новое значение:</s:String>
+    <!-- ConditionalTestStepEditor.xaml-->
+    <s:String x:Key="String_ConditionalTestStepDescription">Этот шаг теста оценивает заданное условие. Истинный шаги будет выполняться, если условие выполняется, в противном случае будет выполняться ложные шаги.</s:String>
+    <s:String x:Key="String_InitializeAsDots">Инициализировать как...</s:String>
+    <s:String x:Key="String_EvaluationFailureBehaviorColon">Оценки отказ поведение:</s:String>
+    <s:String x:Key="String_TestFailed">Тест не пройден</s:String>
+    <!-- JsonWebTokenTestStepEditor.xaml -->
+    <s:String x:Key="String_SigningAlgorithmU">АЛГОРИТМ ПОДПИСИ</s:String>
+    <s:String x:Key="String_Algorithm">Алгоритм:</s:String>
+    <s:String x:Key="String_PayloadU">ПОЛЕЗНАЯ НАГРУЗКА</s:String>
+    <s:String x:Key="String_AddClaim">Добавить претензию</s:String>
+    <s:String x:Key="String_TokenU">МАРКЕР</s:String>
+    <s:String x:Key="String_TestStepFailed">Шаг теста не удалось</s:String>
+    <s:String x:Key="String_NewClaim">Новые претензии</s:String>
+    <!-- TableDataGeneratorTestStepEditor.xaml -->
+    <s:String x:Key="String_Reset">Сброс</s:String>
+    <s:String x:Key="String_DataSourceChanging">Изменение источника данных</s:String>
+    <s:String x:Key="String_DataSourceChangingDescription">Если изменения типа источника данных, будут потеряны все параметры, относящиеся к текущему источнику данных. Вы хотите изменить источник данных в любом случае?</s:String>
+    <!-- ControlSymmetricKey.xaml -->
+    <s:String x:Key="String_SecretColon">Секрет:</s:String>
+    <s:String x:Key="String_SecretTooltip">Секрет UrlBase64 кодировке (закрытый ключ), убедитесь, что размер ключа находится достаточно долго удовлетворить требования алгоритма.</s:String>
+    <s:String x:Key="String_KeyFormatColon">Формат ключа:</s:String>
+    <!-- ControlCertificate.xaml -->
+    <s:String x:Key="String_CertificateColon">Сертификат:</s:String>
+    <s:String x:Key="String_SelectCertificateTooltip">Выберите сертификат PFX или PKCS #12, с помощью выбранного алгоритма. (*.pfx, *.p12)</s:String>
+    <s:String x:Key="String_CertificatePassword">Пароль защиты данного сертификата.</s:String>
     <!-- ViewLoadTestReportItem -->
     <s:String x:Key="String_AllU">ВСЕ</s:String>
     <s:String x:Key="String_CycleTime">Время цикла (s)</s:String>
@@ -430,6 +456,7 @@
     <s:String x:Key="String_AssemblyNameColon">Имя сборки:</s:String>
     <s:String x:Key="String_Actions">Действия</s:String>
     <s:String x:Key="String_ExportVSSolution">Экспортировать как решение Visual Studio</s:String>
+    <s:String x:Key="String_GenerateAndLoad">Генерировать &amp; загрузить это расширение</s:String>
     <s:String x:Key="String_ExtensionProjectBuilt">Проект расширения был построен с успехом, нажмите здесь, чтобы открыть содержащую папку</s:String>
     <s:String x:Key="String_BuildFailed">Ошибка построения</s:String>
     <s:String x:Key="String_BuildFailedMessage">Есть ошибки во время построения. Нажмите на следующую ссылку, чтобы увидеть детали.</s:String>
@@ -852,6 +879,7 @@ NO: Отказаться от текущего проекта и создать 
 Для получения более подробной информации свяжитесь с разработчиком этого расширения.
 Сейчас показаны сообщения с просмотра по умолчанию.]]></s:String>
     <!-- WindowMultiLineEditor.xaml -->
+    <s:String x:Key="String_EditString">Измените строку</s:String>
     <s:String x:Key="String_Cancel">Отмена</s:String>
     <s:String x:Key="String_EditValueForX">Редактирование значения: {0}</s:String>
     <!-- WindowObjectEditor.xaml -->
@@ -912,6 +940,27 @@ NO: Удаление любимых запрос.
     <s:String x:Key="String_FunctionalError">Ошибка</s:String>
     <s:String x:Key="String_CannotNameResponseAsDefault">Вы не можете назвать ответ как «По умолчанию», в то время как это имя зарезервировано.</s:String>
     <s:String x:Key="String_CannotNameXBecauseExists">Ответ нельзя назвать как «{0}» потому что ответ тем же именем уже существует.</s:String>
+    <s:String x:Key="String_SelectedServiceColon">Выбранные службы:</s:String>
+    <s:String x:Key="String_ServiceTypeColon">Вид услуги:</s:String>
+    <s:String x:Key="String_ResponsesColon">Ответы:</s:String>
+    <s:String x:Key="String_ResponsesToolTip">Можно определить один или несколько возможных ответов для службы и использовать триггер, чтобы определить, какой из них будет ответил.</s:String>
+    <s:String x:Key="String_ResponseDelayColon">Задержка ответа (s):</s:String>
+    <s:String x:Key="String_ResponseDelayTooltip">Задержка ответа в секундах</s:String>
+    <s:String x:Key="String_AlternativeResponseColon">Альтернативный ответ:</s:String>
+    <s:String x:Key="String_AlternativeResponse">Альтернативный ответ</s:String>
+    <s:String x:Key="String_ResponseType">Тип ответа:</s:String>
+    <s:String x:Key="String_SelectService">Выберите службу</s:String>
+    <s:String x:Key="String_SelectServiceTootip">Выберите веб-службу для имитации</s:String>
+    <s:String x:Key="String_SaveResponseTooltip">Сохраните текущий ответы.</s:String>
+    <s:String x:Key="String_SaveAndClose">Сохранить закрыть</s:String>
+    <s:String x:Key="String_SaveAndCloseTooltip">«Сохранить текущий ответы и закрыть окно.</s:String>
+    <s:String x:Key="String_Reload">Перезагрузка</s:String>
+    <s:String x:Key="String_ReloadTooltip">Отменить все изменения и перезагрузить текущий ответы от параметров.</s:String>
+    <s:String x:Key="String_ViewRequest">Просмотр запроса</s:String>
+    <s:String x:Key="String_ViewRequestTooltip">Посмотреть объект запроса, который служба моделирования будут получены.</s:String>
+    <s:String x:Key="String_EditTrigger">Редактирование триггера</s:String>
+    <s:String x:Key="String_EditTriggerTooltip">Измените триггер, чтобы определить, какой ответ ответил.</s:String>
+    <!-- WindowStringEditor -->
     <!-- CommandLineTestStepEditor.xaml-->
     <s:String x:Key="String_FileNameColon">Имя файла:</s:String>
     <s:String x:Key="String_ArgumentsColon">Аргументы:</s:String>
