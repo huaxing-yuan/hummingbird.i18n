@@ -171,6 +171,8 @@
     <s:String x:Key="String_InitializeAsObjectX">Als Objekt "{0}" Initialisieren</s:String>
     <s:String x:Key="String_SetNull">Legen Sie als null</s:String>
     <s:String x:Key="String_CopyPathClipboard">Pfad in Zwischenablage kopieren</s:String>
+    <s:String x:Key="String_CopyAsXml">Kopie als XML</s:String>
+    <s:String x:Key="String_ObjectCopiedAsXml">Ausgewähltes Objekt wurde als XML kopiert</s:String>
     <s:String x:Key="String_EditMultiline">Diese Eigenschaft als mehrzeiligen Text bearbeiten</s:String>
     <s:String x:Key="String_TypeofString">Typ String</s:String>
     <s:String x:Key="String_PathXCopiedToClipboard">Den Weg: "{0}" wurde in die Zwischenablage kopiert wurden.</s:String>

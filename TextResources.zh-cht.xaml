@@ -170,6 +170,8 @@
     <s:String x:Key="String_InitializeAsObjectX">初始化為對象 "{0}"</s:String>
     <s:String x:Key="String_SetNull">設置為空</s:String>
     <s:String x:Key="String_CopyPathClipboard">將路徑複製到剪貼板</s:String>
+    <s:String x:Key="String_CopyAsXml">以 XML 形式複製</s:String>
+    <s:String x:Key="String_ObjectCopiedAsXml">選定的物件已複製為 XML</s:String>
     <s:String x:Key="String_EditMultiline">將此節點以多行文本模式編輯</s:String>
     <s:String x:Key="String_TypeofString">字符串類型</s:String>
     <s:String x:Key="String_PathXCopiedToClipboard">路徑: "{0}" 已復製到剪貼板。 </s:String>

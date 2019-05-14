@@ -170,6 +170,8 @@
     <s:String x:Key="String_InitializeAsObjectX">初始化为对象 "{0}"</s:String>
     <s:String x:Key="String_SetNull">设置为空</s:String>
     <s:String x:Key="String_CopyPathClipboard">将路径复制到剪贴板</s:String>
+    <s:String x:Key="String_CopyAsXml">以 XML 形式复制</s:String>
+    <s:String x:Key="String_ObjectCopiedAsXml">选定的对象已复制为 XML</s:String>
     <s:String x:Key="String_EditMultiline">将此节点以多行文本模式编辑</s:String>
     <s:String x:Key="String_TypeofString">字符串类型</s:String>
     <s:String x:Key="String_PathXCopiedToClipboard">路径: "{0}" 已复制到剪贴板。</s:String>
@@ -209,7 +211,7 @@
     <s:String x:Key="String_ContainsHeaderChecked">数据源的第一行是列标题</s:String>
     <s:String x:Key="String_ContainsHeaderUnchecked">数据源不包含列标题 (您需要指定列标题)</s:String>
     <s:String x:Key="String_SeparatorColon">分隔符：</s:String>
-    <s:String x:Key="String_SelectDot">选择。。。</s:String>
+    <s:String x:Key="String_SelectDot">选择...</s:String>
     <!-- ViewDataDrivenTestCase.xaml -->
     <s:String x:Key="String_DataDrivenTestCaseColon">数据驱动测试用例:</s:String>
     <s:String x:Key="String_Import">导入</s:String>

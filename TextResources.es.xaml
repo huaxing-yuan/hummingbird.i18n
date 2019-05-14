@@ -170,6 +170,8 @@
     <s:String x:Key="String_InitializeAsObjectX">Inicializar el objeto "{0}"</s:String>
     <s:String x:Key="String_SetNull">Como null</s:String>
     <s:String x:Key="String_CopyPathClipboard">Ruta de la copia en el portapapeles</s:String>
+    <s:String x:Key="String_CopyAsXml">Copiar como XML</s:String>
+    <s:String x:Key="String_ObjectCopiedAsXml">El objeto seleccionado se ha copiado como XML</s:String>
     <s:String x:Key="String_EditMultiline">Editar esta propiedad como texto de líneas múltiples</s:String>
     <s:String x:Key="String_TypeofString">Tipo de cadena</s:String>
     <s:String x:Key="String_PathXCopiedToClipboard">La ruta de acceso: "{0}" ha sido copiado en el portapapeles.</s:String>

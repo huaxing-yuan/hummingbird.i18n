@@ -170,6 +170,8 @@
     <s:String x:Key="String_InitializeAsObjectX">Προετοιμασία ως αντικείμενο «{0}»</s:String>
     <s:String x:Key="String_SetNull">Ορίστε ως τιμή null</s:String>
     <s:String x:Key="String_CopyPathClipboard">Διαδρομή αντιγραφή στο Πρόχειρο</s:String>
+    <s:String x:Key="String_CopyAsXml">Αντιγραφή ως XML</s:String>
+    <s:String x:Key="String_ObjectCopiedAsXml">Το επιλεγμένο αντικείμενο έχει αντιγραφεί ως XML</s:String>
     <s:String x:Key="String_EditMultiline">Επεξεργασία της ιδιότητας αυτού ως κειμένου πολλαπλών γραμμών</s:String>
     <s:String x:Key="String_TypeofString">Ο τύπος της συμβολοσειράς</s:String>
     <s:String x:Key="String_PathXCopiedToClipboard">Η διαδρομή: «{0}» έχει αντιγραφεί στο Πρόχειρο.</s:String>

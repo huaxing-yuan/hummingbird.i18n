@@ -3,9 +3,8 @@
     <s:String x:Key="String_ApplicationName">Hummingbird</s:String>
     <s:String x:Key="String_ApplicationDescription">AN INTEGRATED TEST SOLUTION</s:String>
 	<s:String x:Key="String_ErrorOccurred">An error has occurred</s:String>
-	<s:String x:Key="String_TestCaseColon">Test Case:</s:String>
-	<s:String x:Key="String_TestStepColon">Test Step:</s:String>
-	
+	<s:String x:Key="String_TestCaseColon">Test Case: </s:String>
+	<s:String x:Key="String_TestStepColon">Test Step: </s:String>
     <!-- Menu -->
     <s:String x:Key="String_Menu_Home">home</s:String>
     <s:String x:Key="String_Menu_Welcome">WELCOME</s:String>
@@ -174,6 +173,8 @@
 	<s:String x:Key="String_InitializeAsObjectX">Initialize as Object "{0}"</s:String>
 	<s:String x:Key="String_SetNull">Set as null</s:String>
 	<s:String x:Key="String_CopyPathClipboard">Copy path to clipboard</s:String>
+	<s:String x:Key="String_CopyAsXml">Copy as XML</s:String>
+	<s:String x:Key="String_ObjectCopiedAsXml">Selected object has been copied as XML</s:String>
 	<s:String x:Key="String_EditMultiline">Edit this property as multi-line text</s:String>
 	<s:String x:Key="String_TypeofString">Type of String</s:String>
 	<s:String x:Key="String_PathXCopiedToClipboard">The path: "{0}" has been copied to Clipboard.</s:String>

@@ -170,6 +170,8 @@
     <s:String x:Key="String_InitializeAsObjectX">オブジェクト「{0}」として初期化します。</s:String>
     <s:String x:Key="String_SetNull">Null に設定します。</s:String>
     <s:String x:Key="String_CopyPathClipboard">クリップボードにコピーのパス</s:String>
+    <s:String x:Key="String_CopyAsXml">XML としてコピー</s:String>
+    <s:String x:Key="String_ObjectCopiedAsXml">選択したオブジェクトが XML としてコピーされました</s:String>
     <s:String x:Key="String_EditMultiline">このプロパティは複数行のテキストとして編集します。</s:String>
     <s:String x:Key="String_TypeofString">文字列の種類</s:String>
     <s:String x:Key="String_PathXCopiedToClipboard">パス:「{0}」がクリップボードにコピーされました。</s:String>

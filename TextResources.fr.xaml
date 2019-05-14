@@ -173,6 +173,8 @@
     <s:String x:Key="String_InitializeAsObjectX">Initialiser l'objet « {0} »</s:String>
     <s:String x:Key="String_SetNull">Définir comme nul</s:String>
     <s:String x:Key="String_CopyPathClipboard">Copier le chemin vers le presse-papier</s:String>
+    <s:String x:Key="String_CopyAsXml">Copier au format XML</s:String>
+    <s:String x:Key="String_ObjectCopiedAsXml">L’objet sélectionné a été copié au format XML</s:String>
     <s:String x:Key="String_EditMultiline">Modifier cette propriété en tant que texte multilignes</s:String>
     <s:String x:Key="String_TypeofString">Type de chaîne</s:String>
     <s:String x:Key="String_PathXCopiedToClipboard">Le chemin : « {0} » a été copié dans le presse-papiers.</s:String>

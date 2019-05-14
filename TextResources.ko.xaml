@@ -170,6 +170,8 @@
     <s:String x:Key="String_InitializeAsObjectX">개체 "{0}"로 초기화</s:String>
     <s:String x:Key="String_SetNull">Null로 설정</s:String>
     <s:String x:Key="String_CopyPathClipboard">클립보드로 복사 경로</s:String>
+    <s:String x:Key="String_CopyAsXml">XML로 복사</s:String>
+    <s:String x:Key="String_ObjectCopiedAsXml">선택한 개체가 XML로 복사 되었습니다.</s:String>
     <s:String x:Key="String_EditMultiline">이 속성을 여러 줄 텍스트 편집</s:String>
     <s:String x:Key="String_TypeofString">문자열의 유형</s:String>
     <s:String x:Key="String_PathXCopiedToClipboard">경로: "{0}"은 클립보드로 복사한.</s:String>

@@ -170,6 +170,8 @@
     <s:String x:Key="String_InitializeAsObjectX">Инициализируйте объект «{0}»</s:String>
     <s:String x:Key="String_SetNull">Задать как значение null</s:String>
     <s:String x:Key="String_CopyPathClipboard">Путь к копии в буфер обмена</s:String>
+    <s:String x:Key="String_CopyAsXml">Копировать как XML</s:String>
+    <s:String x:Key="String_ObjectCopiedAsXml">Выбранный объект был скопирован как XML</s:String>
     <s:String x:Key="String_EditMultiline">Редактировать это свойство как многострочный текст</s:String>
     <s:String x:Key="String_TypeofString">Тип строки</s:String>
     <s:String x:Key="String_PathXCopiedToClipboard">Путь: «{0}» был скопирован в буфер обмена.</s:String>
