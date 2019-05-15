@@ -1026,6 +1026,8 @@ Wenn dieser Uri Variablen verwendet, bitte überprüfen Sie Einstellungen Wenn a
     <s:String x:Key="String_SelectRequestToRecover">Wählen Sie eine Anfrage zur Wiederherstellung</s:String>
     <s:String x:Key="String_MissingRequiredExtension">Die benötigte Erweiterung ist nicht installiert oder hat sich deaktiviert.</s:String>
     <s:String x:Key="String_AddToProcessingRules">Zu Verarbeitungsregeln</s:String>
+    <s:String x:Key="String_ReplaceWithVariable">Ersetzen mit variablen</s:String>
+    <s:String x:Key="String_ReplaceWithVariableTooltip">Erstellen Sie eine Verarbeitungsregel, um dieses Feld durch eine Variable zu kennzeichnen.</s:String>
     <s:String x:Key="String_ProcessingRulesLimitReached">Die Grenze der Verarbeitungsregeln ist erreicht.</s:String>
     <s:String x:Key="String_ProcessingRulesLimitReachedMessage">Die Hummingbird Community Edition unterstützt maximal 15 erweiterte Verarbeitungsregeln, diese Grenze ist erreicht.</s:String>
     <s:String x:Key="String_NoAssertionEditor">Kein Assertion Editor.</s:String>

@@ -1024,6 +1024,8 @@ Si esta Uri utiliza variables, por favor comprueba la configuración si todos ut
     <s:String x:Key="String_SelectRequestToRecover">Seleccione una solicitud para recuperar</s:String>
     <s:String x:Key="String_MissingRequiredExtension">La extensión necesaria no está instalada o deshabilitada.</s:String>
     <s:String x:Key="String_AddToProcessingRules">Agregar a las reglas de procesamiento</s:String>
+    <s:String x:Key="String_ReplaceWithVariable">Reemplace con la variable</s:String>
+    <s:String x:Key="String_ReplaceWithVariableTooltip">Cree una regla de procesamiento para tokenizar este campo mediante una variable.</s:String>
     <s:String x:Key="String_ProcessingRulesLimitReached">Límite de reglas de procesamiento alcanzado.</s:String>
     <s:String x:Key="String_ProcessingRulesLimitReachedMessage">Hummingbird Community Edition admite un máximo de 15 reglas de procesamiento avanzadas, este límite ha alcanzado.</s:String>
     <s:String x:Key="String_NoAssertionEditor">Sin editor de aserción.</s:String>

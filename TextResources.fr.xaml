@@ -801,8 +801,10 @@ Si cet Uri contient des variables, Veuillez-vérifier que les variables sont val
     <s:String x:Key="String_SelectRequestToRecover">Sélectionnez une demande de récupération</s:String>
     <s:String x:Key="String_MissingRequiredExtension">L’extension requise n’est pas installée ou est désactivée.</s:String>
     <s:String x:Key="String_AddToProcessingRules">Ajouter aux règles de traitement</s:String>
+    <s:String x:Key="String_ReplaceWithVariable">Remplacer par variable</s:String>
+    <s:String x:Key="String_ReplaceWithVariableTooltip">Créer une règle de traitement pour variabiliser ce champ.</s:String>
     <s:String x:Key="String_ProcessingRulesLimitReached">Limite des règles de traitement atteint.</s:String>
-    <s:String x:Key="String_ProcessingRulesLimitReachedMessage">Hummingbird Community Edition prend en charge un maximum de 15 règles de traitement avancées, cette limite est atteinte.</s:String>
+    <s:String x:Key="String_ProcessingRulesLimitReachedMessage">Hummingbird Community Edition prend en charge au maximum 15 règles de traitement, cette limite est atteinte.</s:String>
     <s:String x:Key="String_NoAssertionEditor">Aucun éditeur d’assertion.</s:String>
     <s:String x:Key="String_NoAssertionEditorMessage">Il n’y a aucun éditeur associé à l’assertion: </s:String>
     <s:String x:Key="String_ValidationError">Erreur de validation</s:String>

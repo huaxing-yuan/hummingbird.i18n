@@ -1024,6 +1024,8 @@
     <s:String x:Key="String_SelectRequestToRecover">選擇要恢復的請求</s:String>
     <s:String x:Key="String_MissingRequiredExtension">未安裝或已禁用所需的擴展。</s:String>
     <s:String x:Key="String_AddToProcessingRules">添加到處理規則</s:String>
+    <s:String x:Key="String_ReplaceWithVariable">替換為變數</s:String>
+    <s:String x:Key="String_ReplaceWithVariableTooltip">創建處理規則, 以便通過變數對此欄位進行標記。</s:String>
     <s:String x:Key="String_ProcessingRulesLimitReached">已達到處理規則限制。</s:String>
     <s:String x:Key="String_ProcessingRulesLimitReachedMessage">蜂鳥社區版最多支援15個高級處理規則, 此限制已達到。</s:String>
     <s:String x:Key="String_NoAssertionEditor">沒有斷言編輯器。</s:String>

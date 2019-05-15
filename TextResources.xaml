@@ -870,6 +870,8 @@ If this Uri uses variables, please check settings if all used variables are assi
 	<s:String x:Key="String_SelectRequestToRecover">Select a request to recover</s:String>
 	<s:String x:Key="String_MissingRequiredExtension">The required extension is not installed or has disabled.</s:String>
 	<s:String x:Key="String_AddToProcessingRules">Add to processing rules</s:String>
+	<s:String x:Key="String_ReplaceWithVariable">Replace with variable</s:String>
+	<s:String x:Key="String_ReplaceWithVariableTooltip">Create a processing rule to tokenize this field by a variable.</s:String>
 	<s:String x:Key="String_ProcessingRulesLimitReached">Processing rules limit reached.</s:String>
 	<s:String x:Key="String_ProcessingRulesLimitReachedMessage">Hummingbird Community Edition supports maximum 15 advanced processing rules, this limit has reached.</s:String>
 	<s:String x:Key="String_NoAssertionEditor">No Assertion editor.</s:String>

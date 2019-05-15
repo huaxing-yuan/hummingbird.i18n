@@ -1024,6 +1024,8 @@ Se questo Uri utilizza variabili, si prega di controllare se tutte le variabili 
     <s:String x:Key="String_SelectRequestToRecover">Selezionare una richiesta di recupero</s:String>
     <s:String x:Key="String_MissingRequiredExtension">L'estensione richiesta non è installata o è disabilitata.</s:String>
     <s:String x:Key="String_AddToProcessingRules">Aggiungere alle regole di elaborazione</s:String>
+    <s:String x:Key="String_ReplaceWithVariable">Sostituire con la variabile</s:String>
+    <s:String x:Key="String_ReplaceWithVariableTooltip">Creare una regola di elaborazione per tokenizzare questo campo in base a una variabile.</s:String>
     <s:String x:Key="String_ProcessingRulesLimitReached">Limite delle regole di elaborazione raggiunte.</s:String>
     <s:String x:Key="String_ProcessingRulesLimitReachedMessage">Hummingbird Community Edition supporta un massimo di 15 regole di elaborazione avanzate, questo limite è stato raggiunto.</s:String>
     <s:String x:Key="String_NoAssertionEditor">Nessun editor di asserzione.</s:String>

@@ -1024,6 +1024,8 @@
     <s:String x:Key="String_SelectRequestToRecover">选择要恢复的请求</s:String>
     <s:String x:Key="String_MissingRequiredExtension">未安装或已禁用所需的扩展。</s:String>
     <s:String x:Key="String_AddToProcessingRules">添加到处理规则</s:String>
+    <s:String x:Key="String_ReplaceWithVariable">替换为变量</s:String>
+    <s:String x:Key="String_ReplaceWithVariableTooltip">创建处理规则, 以便通过变量对此字段进行标记。</s:String>
     <s:String x:Key="String_ProcessingRulesLimitReached">已达到处理规则限制。</s:String>
     <s:String x:Key="String_ProcessingRulesLimitReachedMessage">蜂鸟社区版最多支持15个高级处理规则, 此限制已达到。</s:String>
     <s:String x:Key="String_NoAssertionEditor">没有断言编辑器。</s:String>

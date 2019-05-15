@@ -1024,6 +1024,8 @@ NO: Διαγραφή αγαπημένο αίτηση.
     <s:String x:Key="String_SelectRequestToRecover">Επιλέξτε μια αίτηση για ανάκτηση</s:String>
     <s:String x:Key="String_MissingRequiredExtension">Η απαιτούμενη επέκταση δεν έχει εγκατασταθεί ή έχει απενεργοποιηθεί.</s:String>
     <s:String x:Key="String_AddToProcessingRules">Προσθήκη στους κανόνες επεξεργασίας</s:String>
+    <s:String x:Key="String_ReplaceWithVariable">Αντικατάσταση με μεταβλητή</s:String>
+    <s:String x:Key="String_ReplaceWithVariableTooltip">Δημιουργία ενός κανόνα επεξεργασίας για την προσαρμογή αυτού του πεδίου από μια μεταβλητή.</s:String>
     <s:String x:Key="String_ProcessingRulesLimitReached">Το όριο των κανόνων επεξεργασίας συμπληρώθηκε.</s:String>
     <s:String x:Key="String_ProcessingRulesLimitReachedMessage">Η έκδοση της Κοινότητας του κολιμπρί υποστηρίζει έως 15 προχωρημένους κανόνες επεξεργασίας, αυτό το όριο έχει φθάσει.</s:String>
     <s:String x:Key="String_NoAssertionEditor">Δεν υπάρχει συντάκτης διεκδίκησης.</s:String>

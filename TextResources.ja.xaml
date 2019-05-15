@@ -1024,6 +1024,8 @@ NO: 好きな要求を削除します。
     <s:String x:Key="String_SelectRequestToRecover">回復する要求を選択してください</s:String>
     <s:String x:Key="String_MissingRequiredExtension">必要な拡張機能がインストールされていないか、無効になっています。</s:String>
     <s:String x:Key="String_AddToProcessingRules">処理ルールに追加</s:String>
+    <s:String x:Key="String_ReplaceWithVariable">変数と置換</s:String>
+    <s:String x:Key="String_ReplaceWithVariableTooltip">このフィールドを変数でトークン化するための処理規則を作成します。</s:String>
     <s:String x:Key="String_ProcessingRulesLimitReached">処理ルールの制限に達しました。</s:String>
     <s:String x:Key="String_ProcessingRulesLimitReachedMessage">ハミングバードコミュニティ版は、最大15の高度な処理ルールをサポートしています, この限界に達しました.</s:String>
     <s:String x:Key="String_NoAssertionEditor">アサーションエディタがありません。</s:String>

@@ -1024,6 +1024,8 @@ NO: Удаление любимых запрос.
     <s:String x:Key="String_SelectRequestToRecover">Выберите запрос на восстановление</s:String>
     <s:String x:Key="String_MissingRequiredExtension">Требуемое продление не установлено или отключено.</s:String>
     <s:String x:Key="String_AddToProcessingRules">Добавление к правилам обработки</s:String>
+    <s:String x:Key="String_ReplaceWithVariable">Замена с переменной</s:String>
+    <s:String x:Key="String_ReplaceWithVariableTooltip">Создайте правило обработки, чтобы токизировать это поле переменной.</s:String>
     <s:String x:Key="String_ProcessingRulesLimitReached">Достигнуто ограничение на обработку правил.</s:String>
     <s:String x:Key="String_ProcessingRulesLimitReachedMessage">Колибри сообщество Edition поддерживает максимум 15 передовых правил обработки, этот предел достиг.</s:String>
     <s:String x:Key="String_NoAssertionEditor">Нет редактора утверждения.</s:String>

@@ -1024,6 +1024,8 @@ NO: 좋아하는 요청을 삭제 합니다.
     <s:String x:Key="String_SelectRequestToRecover">복구 요청 선택</s:String>
     <s:String x:Key="String_MissingRequiredExtension">필요한 확장이 설치 되지 않았거나 사용 하지 않도록 설정 되었습니다.</s:String>
     <s:String x:Key="String_AddToProcessingRules">처리 규칙에 추가</s:String>
+    <s:String x:Key="String_ReplaceWithVariable">변수로 바꾸기</s:String>
+    <s:String x:Key="String_ReplaceWithVariableTooltip">변수를 통해이 필드를 토큰화 하는 처리 규칙을 만듭니다.</s:String>
     <s:String x:Key="String_ProcessingRulesLimitReached">처리 규칙 제한에 도달 했습니다.</s:String>
     <s:String x:Key="String_ProcessingRulesLimitReachedMessage">벌 새 커뮤니티 에디션은 최대 15 개의 고급 처리 규칙을 지원 하며이 한도에 도달 했습니다.</s:String>
     <s:String x:Key="String_NoAssertionEditor">어설션 편집기가 없습니다.</s:String>
