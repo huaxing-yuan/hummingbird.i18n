@@ -24,9 +24,10 @@
     <s:String x:Key="String_Menu_PerformanceTest">ТЕСТ ПРОИЗВОДИТЕЛЬНОСТИ</s:String>
     <s:String x:Key="String_Menu_Overview">ОБЗОР</s:String>
     <s:String x:Key="String_Menu_ExtensionDesigner">РАСШИРЕНИЕ КОНСТРУКТОРА</s:String>
-    <s:String x:Key="String_Menu_XmlTools">ИНСТРУМЕНТЫ XML</s:String>
+    <s:String x:Key="String_Menu_XmlTools">ИНСТРУМЕНТЫ XML/JSON</s:String>
     <s:String x:Key="String_Menu_XmlCompare">СРАВНЕНИЕ XML</s:String>
     <s:String x:Key="String_Menu_XpathValidator">ВАЛИДАТОР XPATH</s:String>
+    <s:String x:Key="String_Menu_JsonpathValidator">JSONPATH ВАЛИДАТОР</s:String>
     <s:String x:Key="String_Menu_DocFormat">ФОРМАТ DOC</s:String>
     <s:String x:Key="String_Menu_Base64">BASE64</s:String>
     <s:String x:Key="String_Menu_CustomTools">ПОЛЬЗОВАТЕЛЬСКИЕ ИНСТРУМЕНТЫ</s:String>
@@ -37,6 +38,17 @@
     <s:String x:Key="String_Extensions">Расширения</s:String>
     <s:String x:Key="String_ProfileManagement">Управление профилем</s:String>
     <s:String x:Key="String_Certificate">Сертификат</s:String>
+    <s:String x:Key="String_PerformanceTuning">Настройка производительности</s:String>
+    <!-- ViewAdvancedSettings.xaml -->
+    <s:String x:Key="String_PerformanceTuningDescription">Ниже приведены расширенные настройки, связанные с настройкой производительности тестовой платформы. Настройки по умолчанию подходят для большинства сценариев использования. Для некоторых специальных сценариев тестирования производительности эти параметры могут быть настроены доработаны.</s:String>
+    <s:String x:Key="String_PerformanceTuningWarning">Предупреждение: Пожалуйста, не изменяйте эти значения, если вы не понимаете, что вы делаете.</s:String>
+    <s:String x:Key="String_MaxReceivedMessageSize">Макс получил размер сообщения:</s:String>
+    <s:String x:Key="String_MaxReceivedMessageSizeDescription">Максимальный размер байт сообщения может отображаться в тестовом бегуне. Для оптимизации производительности дисплея сообщений все сообщения, превышаюющие это значение, будут отклонены. Значение по умолчанию составляет 1 мегабайт, то есть 1048576 байтов</s:String>
+    <s:String x:Key="String_MaxConcurrentUser">Макс Параллельные пользователи:</s:String>
+    <s:String x:Key="String_MaxConcurrentUserDescription">Максимальное количество одновременных пользователей может быть смоделировано во время теста производительности. Одновременно пользователи ограничены 100 для сообщества Edition и 1000 для профессионального издания.
+Если предел достигает, некоторые тестовые итерации могут быть проигнорированы из-за регулирования производительности</s:String>
+    <s:String x:Key="String_MaxHttpConnections">Макс HTTP Соединения:</s:String>
+    <s:String x:Key="String_MaxHttpConnectionsDescription">Можно сделать максимальное количество подключений HTTP. если сгенерирована дополнительная нагрузка и соединение HTTP достигнет ее предела, оно будет стоять в очереди до тех пор, пока не будет установлено новое соединение. Значение ограничено 100 для community Edition и 2000 для профессионального издания</s:String>
     <!-- GENERAL SETTINGS -->
     <s:String x:Key="String_SystemBehaviors">Поведения системы</s:String>
     <s:String x:Key="String_LogPath">Путь к журналу:</s:String>
@@ -300,6 +312,7 @@
     <s:String x:Key="String_RampUpToPeakTime">Пандус до пика (s): </s:String>
     <s:String x:Key="String_AddControlPoint">Добавить контрольную точку</s:String>
     <s:String x:Key="String_TimePoint">Момент времени (s)</s:String>
+    <s:String x:Key="String_TotalDuration">Общая продолжительность (ы): </s:String>
     <!-- WindowEditAssertion.xaml -->
     <s:String x:Key="String_Assertion">Утверждение</s:String>
     <s:String x:Key="String_Test">Тест</s:String>
@@ -353,7 +366,15 @@
     <s:String x:Key="String_XPathNotMatchAnything">Ничего не соответствует данной XPath, результат оценки является пустым.</s:String>
     <s:String x:Key="String_XPathEvaluationTool">Инструмент оценки XPath</s:String>
     <s:String x:Key="String_XMLDocument">XML-документ</s:String>
+    <s:String x:Key="String_FormatDocument">Документ формата</s:String>
     <s:String x:Key="String_EvaluateU">ОЦЕНИТЬ</s:String>
+    <s:String x:Key="String_GenerateXPathFromCurrentLocation">Создание XPath из текущего местоположения</s:String>
+    <s:String x:Key="String_FormatDocumentErrorMessage">Документ не правильно отформатирован, убедитесь, что документ является действительным документом XML</s:String>
+    <!-- ViewJsonPathValidator -->
+    <s:String x:Key="String_JsonPathEvaluationTool">Инструмент оценки пути JSON</s:String>
+    <s:String x:Key="String_JsonDocument">Документ JSON</s:String>
+    <s:String x:Key="String_JsonPathExpression">Выражение JSON Путь</s:String>
+    <s:String x:Key="String_JsonPathNotMatchAnything">Данный путь JSON ничего не соответствует, результат оценки пуст.</s:String>
     <!-- ViewStockCertificates -->
     <s:String x:Key="String_TestCertificateInstalled">Тестовый сертификат был установлен</s:String>
     <s:String x:Key="String_TestCertificateInstalledMessage">Корневой центр сертификации и сертификат испытаний устанавливаются.</s:String>
@@ -423,6 +444,10 @@
     <s:String x:Key="String_AddEditThreshold">Добавить/изменить порог производительности</s:String>
     <s:String x:Key="String_ThresholdTypeColon">Порог тип: </s:String>
     <s:String x:Key="String_ValueColon">Значение: </s:String>
+    <!-- LogLevelToStringConverter -->
+    <s:String x:Key="String_AllMessages">Все сообщения</s:String>
+    <s:String x:Key="String_ErrorMessagesOnly">Сообщения об ошибках</s:String>
+    <s:String x:Key="String_NoPayload">Нет полезной нагрузки</s:String>
     <s:String x:Key="String_ServiceSelector">Селектор обслуживания</s:String>
     <s:String x:Key="String_AvailableServices">Доступные услуги</s:String>
     <s:String x:Key="String_Description">Описание</s:String>
@@ -584,6 +609,7 @@
     <s:String x:Key="String_LanguageChanged">Изменить язык</s:String>
     <s:String x:Key="String_LanauageChangedQuestion"><![CDATA[Вы изменили ваш предпочитаемый язык. Чтобы внести изменения эффективным необходимо перезапустить Hummingbird.
  Вы хотите, чтобы перезагрузить Hummingbird сейчас?]]></s:String>
+    <s:String x:Key="String_ViewReleaseNotes">Просмотр примечаний к выпуску</s:String>
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">Удалить</s:String>
     <s:String x:Key="String_InstallAnExtension">Установить расширение</s:String>
@@ -758,6 +784,15 @@
     <s:String x:Key="String_SaveLogAs">Сохранить журнал как...</s:String>
     <s:String x:Key="String_ActiveEnvironmentColon">Активная среда:</s:String>
     <s:String x:Key="String_ActiveEnvironmentTooltip">Активные тестовой среды. (может повлиять на Uri шаблона, учетных данных и переменных среды).</s:String>
+    <s:String x:Key="String_OpenContainingFolder">Открытая папка, содержащая</s:String>
+    <s:String x:Key="String_CopyLocation">Копирование местоположения</s:String>
+    <s:String x:Key="String_EnableThisItem">Включить этот элемент</s:String>
+    <s:String x:Key="String_DisableThisItem">Отключить этот элемент</s:String>
+    <s:String x:Key="String_AddCustomLoadTest">Добавление нового теста пользовательской нагрузки</s:String>
+    <s:String x:Key="String_NewCustomLoadTest">Новый тест пользовательской нагрузки</s:String>
+    <s:String x:Key="String_TrueSteps">Истинные шаги</s:String>
+    <s:String x:Key="String_FalseSteps">Ложные шаги</s:String>
+    <s:String x:Key="String_LogSaveFilter">Текстовые файлы (*.txt)|*.txt|Все файлы (*.*)|*.*</s:String>
     <s:String x:Key="String_ProjectNotSaved">Проект не сохраняются.</s:String>
     <!-- DataStorage -->
     <s:String x:Key="String_NoDataStorageInfo1">Хранения данных записывает промежуточных данных в сохраненное местоположение например, CSV, EXCEL, XML или базе данных.</s:String>
@@ -814,9 +849,10 @@
     <s:String x:Key="String_DocumentFormattingTooltip">формат документов XML и JSON.</s:String>
     <s:String x:Key="String_Base64Encoding">Base64 кодирование</s:String>
     <s:String x:Key="String_Base64EncodingTooltip">Текст из Base64-кодирование/декодирование</s:String>
-    <s:String x:Key="String_XmlRelated">Связанных с XML</s:String>
+    <s:String x:Key="String_XmlRelated">Связанные с документами</s:String>
     <s:String x:Key="String_XmlCompare">Сравнение XML</s:String>
     <s:String x:Key="String_XPathValidator">Валидатор XPath</s:String>
+    <s:String x:Key="String_JsonPathValidator">Лидатор Пути JSON</s:String>
     <!-- ViewExtensionDesigner -->
     <s:String x:Key="String_DesignerTooltip">В рамках теста Hummingbird услуги организованы в 3 уровня. Просьба организовать услуги так же естественно, как возможно в пределах вашей организации.</s:String>
     <s:String x:Key="String_DesignerApplicationTooltip">При использовании в качестве водителя, имя системы вы тестирование. Как заглушка, имя приложения, которое имитирует Hummingbird.</s:String>
@@ -1003,6 +1039,10 @@ NO: Удаление любимых запрос.
     <s:String x:Key="String_UseCurrentTooltip">Используйте текущее значение как ожидаемое значение.</s:String>
     <s:String x:Key="String_UseCurrentReplaced">Ожидаемый результат заменяется текущей оценки.</s:String>
     <s:String x:Key="String_UseCurrentFailed">Произошла ошибка при вычислении утверждение, не удалось использовать текущий результат как ожидаемый результат</s:String>
+    <!-- XPathContextMenu.cs -->
+    <s:String x:Key="String_ShowXPath">Показать XPath</s:String>
+    <s:String x:Key="String_GeneratedXPath">Генерируемый XPath текущего местоположения</s:String>
+    <s:String x:Key="String_CopyXpathToClipboard">Копирование XPath на клипборд</s:String>
     <!-- SendRequestTestStepEditor.xaml -->
     <s:String x:Key="String_EvaluateAssertions">Оценка утверждений</s:String>
     <s:String x:Key="String_Assertions">Утверждения</s:String>
@@ -1041,6 +1081,7 @@ NO: Удаление любимых запрос.
     <s:String x:Key="String_ClearAllProcessingRules">Очистить все правила обработки</s:String>
     <s:String x:Key="String_ClearAllProcessingRulesMessage">Вы уверены, чтобы очистить все правила обработки этого тестового шага?</s:String>
     <s:String x:Key="String_RecoverDeletedProcessingRulesMessage">Выбранные правила обработки удаляются. Чтобы восстановиться, нажмите здесь.</s:String>
+    <s:String x:Key="String_ViewProcessedRequest">Просмотр обработанного запроса</s:String>
     <!-- StartServiceSimulationTestStepEditor.xaml -->
     <s:String x:Key="String_SelectServiceToStartColon">Выберите службу для запуска: </s:String>
     <s:String x:Key="String_UseDefaultParameterColon">Используйте параметр по умолчанию: </s:String>

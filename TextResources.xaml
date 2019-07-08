@@ -25,9 +25,10 @@
     <s:String x:Key="String_Menu_PerformanceTest">PERFORMANCE TEST</s:String>
     <s:String x:Key="String_Menu_Overview">OVERVIEW</s:String>
     <s:String x:Key="String_Menu_ExtensionDesigner">EXTENSION DESIGNER</s:String>
-    <s:String x:Key="String_Menu_XmlTools">XML TOOLS</s:String>
+    <s:String x:Key="String_Menu_XmlTools">XML/JSON TOOLS</s:String>
     <s:String x:Key="String_Menu_XmlCompare">XML COMPARE</s:String>
     <s:String x:Key="String_Menu_XpathValidator">XPATH VALIDATOR</s:String>
+	<s:String x:Key="String_Menu_JsonpathValidator">JSONPATH VALIDATOR</s:String>
     <s:String x:Key="String_Menu_DocFormat">DOC FORMAT</s:String>
     <s:String x:Key="String_Menu_Base64">BASE64</s:String>
     <s:String x:Key="String_Menu_CustomTools">CUSTOM TOOLS</s:String>
@@ -40,6 +41,19 @@
     <s:String x:Key="String_Extensions">Extensions</s:String>
     <s:String x:Key="String_ProfileManagement">Profile Management</s:String>
 	<s:String x:Key="String_Certificate">Certificate</s:String>
+	<s:String x:Key="String_PerformanceTuning">Performance Tuning</s:String>
+	
+	
+	<!-- ViewAdvancedSettings.xaml -->
+	<s:String x:Key="String_PerformanceTuningDescription">Following are advanced settings related to Test Framework Performance Tuning. Default settings fit most of the use scenario. For some special performance test scenario, these settings may need to be fine-tuned.</s:String>
+	<s:String x:Key="String_PerformanceTuningWarning">Warning: Please do not change these values unless you understand what you are doing.</s:String>
+	<s:String x:Key="String_MaxReceivedMessageSize">Max Received Message Size:</s:String>
+	<s:String x:Key="String_MaxReceivedMessageSizeDescription">Maximum size in bytes of the message can be displayed in the test runner. To optimize message display performance, all messages larger than this value will be abandoned. The default value is 1 Megabytes, that is 1048576 bytes</s:String>
+	<s:String x:Key="String_MaxConcurrentUser">Max Concurrent users:</s:String>
+	<s:String x:Key="String_MaxConcurrentUserDescription">Maximum number of concurrent users can be simulated during the performance test. Concurrent users are limited to 100 for Community Edition and 1000 for professional edition.&#13;If the limit reaches, some test iterations may be ignored due to performance throttling</s:String>
+	<s:String x:Key="String_MaxHttpConnections">Max HTTP Connections:</s:String>
+	<s:String x:Key="String_MaxHttpConnectionsDescription">Maximum number of HTTP connections can be made. if more load is generated and HTTP connection reaches it limit, it will be queued until a new connection can be established. The value is limited to 100 for Community Edition and 2000 for Professional Edition</s:String>
+	
     <!-- GENERAL SETTINGS -->
     <s:String x:Key="String_SystemBehaviors">System behaviors</s:String>
     <s:String x:Key="String_LogPath">Log path:</s:String>
@@ -374,7 +388,7 @@
     <s:String x:Key="String_ReportBugsSuggestions">Report bugs/suggestions</s:String>
     <s:String x:Key="String_LanguageChanged">Language Changed</s:String>
     <s:String x:Key="String_LanauageChangedQuestion">You have changed your preferred language. Hummingbird must be restarted to make changes effective.&#x0a; Do you want to restart Hummingbird now?</s:String>
-     
+     <s:String x:Key="String_ViewReleaseNotes">View release notes</s:String>
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">Uninstall</s:String>
     <s:String x:Key="String_InstallAnExtension">Install an Extension</s:String>
@@ -550,7 +564,17 @@
 	<s:String x:Key="String_SaveLogAs">Save log as...</s:String>
 	<s:String x:Key="String_ActiveEnvironmentColon">Active Environment:</s:String>
 	<s:String x:Key="String_ActiveEnvironmentTooltip">Active test environment. (may affect Uri template, credential and environment variables).</s:String>
-	<s:String x:Key="String_ProjectNotSaved">Project not saved.</s:String>
+	<s:String x:Key="String_ProjectNotSaved">Project not saved</s:String>
+	<s:String x:Key="String_OpenContainingFolder">Open containing folder</s:String>
+	<s:String x:Key="String_CopyLocation">Copy location</s:String>
+	<s:String x:Key="String_EnableThisItem">Enable this item</s:String>
+	<s:String x:Key="String_DisableThisItem">Disable this item</s:String>
+	<s:String x:Key="String_AddCustomLoadTest">Add a new Custom load test</s:String>
+	<s:String x:Key="String_NewCustomLoadTest">New Custom load test</s:String>
+	<s:String x:Key="String_TrueSteps">True Steps</s:String>
+	<s:String x:Key="String_FalseSteps">False Steps</s:String>
+	<s:String x:Key="String_LogSaveFilter">Text files (*.txt)|*.txt|All Files(*.*)|*.*</s:String>
+
 	
 	<!-- DataStorage -->
 	<s:String x:Key="String_NoDataStorageInfo1">Data Storage writes intermediate data into a persisted location such as CSV, EXCEL, XML or Data Base.</s:String>
@@ -612,9 +636,10 @@
     <s:String x:Key="String_DocumentFormattingTooltip">format XML and JSON documents.</s:String>
     <s:String x:Key="String_Base64Encoding">Base64 Encoding</s:String>
     <s:String x:Key="String_Base64EncodingTooltip">Encoding/Decoding text from Base64</s:String>
-    <s:String x:Key="String_XmlRelated">XML Related</s:String>
+    <s:String x:Key="String_XmlRelated">Document Related</s:String>
     <s:String x:Key="String_XmlCompare">XML Compare</s:String>
     <s:String x:Key="String_XPathValidator">XPath Validator</s:String>
+	<s:String x:Key="String_JsonPathValidator">JSON Path Validator</s:String>
     
 
     <!-- ViewExtensionDesigner -->
@@ -848,6 +873,13 @@ If this Uri uses variables, please check settings if all used variables are assi
     <s:String x:Key="String_UseCurrentTooltip">Use current value as expected value.</s:String>
 	<s:String x:Key="String_UseCurrentReplaced">The expected result is replaced with current evaluation.</s:String>
 	<s:String x:Key="String_UseCurrentFailed">An error has occurred while evaluating the assertion, Failed to use current result as expected result</s:String>
+		
+	<!-- XPathContextMenu.cs -->
+	<s:String x:Key="String_ShowXPath">Show XPath</s:String>
+	<s:String x:Key="String_GeneratedXPath">Generated XPath of current location</s:String>
+	<s:String x:Key="String_CopyXpathToClipboard">Copy XPath to Clipboard</s:String>
+	
+	
 	
 	<!-- SendRequestTestStepEditor.xaml -->
     <s:String x:Key="String_EvaluateAssertions">Evaluate Assertions</s:String>
@@ -887,6 +919,8 @@ If this Uri uses variables, please check settings if all used variables are assi
 	<s:String x:Key="String_ClearAllProcessingRules">Clear all processing rules</s:String>
 	<s:String x:Key="String_ClearAllProcessingRulesMessage">Are you sure to clear all processing rules of this test step?</s:String>
 	<s:String x:Key="String_RecoverDeletedProcessingRulesMessage">Selected processing rules are deleted. To recover, click here.</s:String>
+	<s:String x:Key="String_ViewProcessedRequest">View processed request</s:String>
+	
 	
 	<!-- StartServiceSimulationTestStepEditor.xaml -->
     <s:String x:Key="String_SelectServiceToStartColon">Select the service to start: </s:String>
@@ -1032,6 +1066,7 @@ If this Uri uses variables, please check settings if all used variables are assi
 	<s:String x:Key="String_RampUpToPeakTime">Ramp-up to Peak (s): </s:String>
 	<s:String x:Key="String_AddControlPoint">Add control point</s:String>
 	<s:String x:Key="String_TimePoint">Time point (s)</s:String>
+	<s:String x:Key="String_TotalDuration">Total Duration (s): </s:String>
 	
 	
 	<!-- WindowEditAssertion.xaml -->
@@ -1091,7 +1126,19 @@ If this Uri uses variables, please check settings if all used variables are assi
 	<s:String x:Key="String_XPathNotMatchAnything">The given XPath does not match anything, The evaluation result is empty.</s:String>
 	<s:String x:Key="String_XPathEvaluationTool">XPath Evaluation Tool</s:String>
 	<s:String x:Key="String_XMLDocument">XML Document</s:String>
+	<s:String x:Key="String_FormatDocument">Format document</s:String>
 	<s:String x:Key="String_EvaluateU">EVALUATE</s:String>
+	<s:String x:Key="String_GenerateXPathFromCurrentLocation">Generate XPath from current Location</s:String>
+	<s:String x:Key="String_FormatDocumentErrorMessage">Document is not correctly formatted, make sure the document is a valid XML Document</s:String>
+	
+	
+	
+	<!-- ViewJsonPathValidator -->
+	<s:String x:Key="String_JsonPathEvaluationTool">JSON Path Evaluation Tool</s:String>
+	<s:String x:Key="String_JsonDocument">JSON document</s:String>
+	<s:String x:Key="String_JsonPathExpression">JSON Path expression</s:String>
+	<s:String x:Key="String_JsonPathNotMatchAnything">The given JSON Path does not match anything, The evaluation result is empty.</s:String>
+	
 	
 	<!-- ViewStockCertificates -->
 	<s:String x:Key="String_TestCertificateInstalled">Test certificate has been installed</s:String>
@@ -1152,6 +1199,9 @@ Please retry or press ESC to cancel.</s:String>
 	<s:String x:Key="String_ThresholdTypeColon">Threshold Type: </s:String>
 	<s:String x:Key="String_ValueColon">Value: </s:String>
 	
-	
+	<!-- LogLevelToStringConverter -->
+	<s:String x:Key="String_AllMessages">All messages</s:String>
+	<s:String x:Key="String_ErrorMessagesOnly">Error messages only</s:String>
+	<s:String x:Key="String_NoPayload">No payload</s:String>
 	
 </ResourceDictionary>

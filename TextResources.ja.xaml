@@ -24,9 +24,10 @@
     <s:String x:Key="String_Menu_PerformanceTest">パフォーマンス テスト</s:String>
     <s:String x:Key="String_Menu_Overview">概要</s:String>
     <s:String x:Key="String_Menu_ExtensionDesigner">拡張子デザイナー</s:String>
-    <s:String x:Key="String_Menu_XmlTools">XML ツール</s:String>
+    <s:String x:Key="String_Menu_XmlTools">XML/JSON ツール</s:String>
     <s:String x:Key="String_Menu_XmlCompare">XML 比較</s:String>
     <s:String x:Key="String_Menu_XpathValidator">XPATH の検証</s:String>
+    <s:String x:Key="String_Menu_JsonpathValidator">JSONPATH バリサ</s:String>
     <s:String x:Key="String_Menu_DocFormat">DOC 形式</s:String>
     <s:String x:Key="String_Menu_Base64">BASE64</s:String>
     <s:String x:Key="String_Menu_CustomTools">カスタム ツール</s:String>
@@ -37,6 +38,17 @@
     <s:String x:Key="String_Extensions">拡張機能</s:String>
     <s:String x:Key="String_ProfileManagement">プロファイルの管理</s:String>
     <s:String x:Key="String_Certificate">証明書</s:String>
+    <s:String x:Key="String_PerformanceTuning">パフォーマンスのチューニング</s:String>
+    <!-- ViewAdvancedSettings.xaml -->
+    <s:String x:Key="String_PerformanceTuningDescription">テスト フレームワークのパフォーマンス チューニングに関連する高度な設定を次に示します。既定の設定は、ほとんどの使用シナリオに適合します。一部の特殊なパフォーマンス テスト シナリオでは、これらの設定を微調整する必要があります。</s:String>
+    <s:String x:Key="String_PerformanceTuningWarning">警告: 何をしているのか理解していない限り、これらの値を変更しないでください。</s:String>
+    <s:String x:Key="String_MaxReceivedMessageSize">受信メッセージの最大サイズ:</s:String>
+    <s:String x:Key="String_MaxReceivedMessageSizeDescription">メッセージの最大サイズ (バイト) は、テスト ランナーに表示できます。メッセージ表示のパフォーマンスを最適化するために、この値より大きいすべてのメッセージは破棄されます。デフォルト値は 1 メガバイトで、1048576 バイトです。</s:String>
+    <s:String x:Key="String_MaxConcurrentUser">最大同時ユーザー:</s:String>
+    <s:String x:Key="String_MaxConcurrentUserDescription">同時ユーザーの最大数は、パフォーマンス テスト中にシミュレートできます。同時ユーザーは、コミュニティエディションでは 100、プロフェッショナル エディションでは 1000 に制限されています。
+制限に達すると、パフォーマンスの調整により一部のテストイテレーションが無視される場合があります。</s:String>
+    <s:String x:Key="String_MaxHttpConnections">HTTP 接続の最大数:</s:String>
+    <s:String x:Key="String_MaxHttpConnectionsDescription">HTTP 接続の最大数を作成できます。より多くの負荷が生成され、HTTP 接続が制限に達した場合、新しい接続が確立されるまでキューに入れられます。この値は、コミュニティ エディションの場合は 100、プロフェッショナル エディションの場合は 2000 に制限されます。</s:String>
     <!-- GENERAL SETTINGS -->
     <s:String x:Key="String_SystemBehaviors">システムの動作</s:String>
     <s:String x:Key="String_LogPath">ログのパス:</s:String>
@@ -300,6 +312,7 @@
     <s:String x:Key="String_RampUpToPeakTime">ランプアップ ピーク (s)。</s:String>
     <s:String x:Key="String_AddControlPoint">コントロール ポイントを追加します。</s:String>
     <s:String x:Key="String_TimePoint">ポイントの時間 (秒)</s:String>
+    <s:String x:Key="String_TotalDuration">合計期間 (s):</s:String>
     <!-- WindowEditAssertion.xaml -->
     <s:String x:Key="String_Assertion">アサーション</s:String>
     <s:String x:Key="String_Test">テスト</s:String>
@@ -353,7 +366,15 @@
     <s:String x:Key="String_XPathNotMatchAnything">指定された XPath は何も一致しない、評価結果は空。</s:String>
     <s:String x:Key="String_XPathEvaluationTool">XPath 評価ツール</s:String>
     <s:String x:Key="String_XMLDocument">XML ドキュメント</s:String>
+    <s:String x:Key="String_FormatDocument">ドキュメントの書式設定</s:String>
     <s:String x:Key="String_EvaluateU">評価</s:String>
+    <s:String x:Key="String_GenerateXPathFromCurrentLocation">現在の場所から XPath を生成する</s:String>
+    <s:String x:Key="String_FormatDocumentErrorMessage">ドキュメントの書式が正しく表示されていない場合は、ドキュメントが有効な XML ドキュメントであることを確認してください。</s:String>
+    <!-- ViewJsonPathValidator -->
+    <s:String x:Key="String_JsonPathEvaluationTool">JSON パス評価ツール</s:String>
+    <s:String x:Key="String_JsonDocument">JSON ドキュメント</s:String>
+    <s:String x:Key="String_JsonPathExpression">JSON パス式</s:String>
+    <s:String x:Key="String_JsonPathNotMatchAnything">指定された JSON パスが何も一致しないため、評価結果は空です。</s:String>
     <!-- ViewStockCertificates -->
     <s:String x:Key="String_TestCertificateInstalled">テスト証明書をインストールします。</s:String>
     <s:String x:Key="String_TestCertificateInstalledMessage">ルート証明書機関とテスト証明書がインストールされます。</s:String>
@@ -423,6 +444,10 @@
     <s:String x:Key="String_AddEditThreshold">パフォーマンスしきい値の追加/編集</s:String>
     <s:String x:Key="String_ThresholdTypeColon">しきい値の種類:</s:String>
     <s:String x:Key="String_ValueColon">値:</s:String>
+    <!-- LogLevelToStringConverter -->
+    <s:String x:Key="String_AllMessages">すべてのメッセージ</s:String>
+    <s:String x:Key="String_ErrorMessagesOnly">エラー メッセージのみ</s:String>
+    <s:String x:Key="String_NoPayload">ペイロードなし</s:String>
     <s:String x:Key="String_ServiceSelector">サービス選択</s:String>
     <s:String x:Key="String_AvailableServices">利用可能なサービス</s:String>
     <s:String x:Key="String_Description">説明</s:String>
@@ -584,6 +609,7 @@
     <s:String x:Key="String_LanguageChanged">言語の変更</s:String>
     <s:String x:Key="String_LanauageChangedQuestion"><![CDATA[ご希望の言語を変更しました。Hummingbirdを再起動して、変更を有効にする必要があります。
 Hummingbirdを今すぐ再起動しますか。]]></s:String>
+    <s:String x:Key="String_ViewReleaseNotes">リリース ノートの表示</s:String>
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">アンインストール</s:String>
     <s:String x:Key="String_InstallAnExtension">拡張機能をインストールします。</s:String>
@@ -758,6 +784,15 @@ Hummingbirdを今すぐ再起動しますか。]]></s:String>
     <s:String x:Key="String_SaveLogAs">としてログを保存.</s:String>
     <s:String x:Key="String_ActiveEnvironmentColon">アクティブな環境:</s:String>
     <s:String x:Key="String_ActiveEnvironmentTooltip">アクティブなテスト環境です。(Uri テンプレート、資格情報および環境変数に影響可能性があります)。</s:String>
+    <s:String x:Key="String_OpenContainingFolder">含むフォルダを開く</s:String>
+    <s:String x:Key="String_CopyLocation">場所のコピー</s:String>
+    <s:String x:Key="String_EnableThisItem">このアイテムを有効にする</s:String>
+    <s:String x:Key="String_DisableThisItem">このアイテムを無効にする</s:String>
+    <s:String x:Key="String_AddCustomLoadTest">新しいカスタムロード テストを追加する</s:String>
+    <s:String x:Key="String_NewCustomLoadTest">新しいカスタムロードテスト</s:String>
+    <s:String x:Key="String_TrueSteps">真のステップ</s:String>
+    <s:String x:Key="String_FalseSteps">誤ったステップ</s:String>
+    <s:String x:Key="String_LogSaveFilter">テキスト ファイル (*.txt)|*.txt|すべてのファイル(*.*)|*.*</s:String>
     <s:String x:Key="String_ProjectNotSaved">プロジェクトは保存されません。</s:String>
     <!-- DataStorage -->
     <s:String x:Key="String_NoDataStorageInfo1">データ ストレージは、中間データを CSV、EXCEL、XML データベースなどの保存場所に書き込みます。</s:String>
@@ -814,9 +849,10 @@ Hummingbirdを今すぐ再起動しますか。]]></s:String>
     <s:String x:Key="String_DocumentFormattingTooltip">XML と JSON ドキュメントの書式を設定します。</s:String>
     <s:String x:Key="String_Base64Encoding">Base64 エンコーディング</s:String>
     <s:String x:Key="String_Base64EncodingTooltip">Base64 エンコード/デコード テキスト</s:String>
-    <s:String x:Key="String_XmlRelated">XML 関連</s:String>
+    <s:String x:Key="String_XmlRelated">ドキュメント関連</s:String>
     <s:String x:Key="String_XmlCompare">XML 比較</s:String>
     <s:String x:Key="String_XPathValidator">XPath の検証</s:String>
+    <s:String x:Key="String_JsonPathValidator">JSON パスバリジタ</s:String>
     <!-- ViewExtensionDesigner -->
     <s:String x:Key="String_DesignerTooltip">Hummingbird テスト フレームワーク、サービスは 3 つのレベルで編成されています。組織内でできるだけ自然のサービスを整理してください。</s:String>
     <s:String x:Key="String_DesignerApplicationTooltip">あなたがドライバー、システムの名前として使用する場合をテストします。としてスタブ、Hummingbirdをシミュレートするアプリケーションの名前。</s:String>
@@ -1003,6 +1039,10 @@ NO: 好きな要求を削除します。
     <s:String x:Key="String_UseCurrentTooltip">予期される値と現在の値を使用します。</s:String>
     <s:String x:Key="String_UseCurrentReplaced">期待される結果は、現在の評価に置き換えられます。</s:String>
     <s:String x:Key="String_UseCurrentFailed">期待される結果として現在の結果を使用する失敗したアサーションの評価中にエラーが発生します。</s:String>
+    <!-- XPathContextMenu.cs -->
+    <s:String x:Key="String_ShowXPath">XPath を表示</s:String>
+    <s:String x:Key="String_GeneratedXPath">現在の場所の生成された XPath</s:String>
+    <s:String x:Key="String_CopyXpathToClipboard">XPath をクリップボードにコピーする</s:String>
     <!-- SendRequestTestStepEditor.xaml -->
     <s:String x:Key="String_EvaluateAssertions">アサーションを評価します。</s:String>
     <s:String x:Key="String_Assertions">アサーション</s:String>
@@ -1041,6 +1081,7 @@ NO: 好きな要求を削除します。
     <s:String x:Key="String_ClearAllProcessingRules">すべての処理ルールのクリア</s:String>
     <s:String x:Key="String_ClearAllProcessingRulesMessage">このテストステップのすべての処理ルールをクリアしますか?</s:String>
     <s:String x:Key="String_RecoverDeletedProcessingRulesMessage">選択した処理ルールは削除されます。回復するには、ここをクリックしてください。</s:String>
+    <s:String x:Key="String_ViewProcessedRequest">処理された要求の表示</s:String>
     <!-- StartServiceSimulationTestStepEditor.xaml -->
     <s:String x:Key="String_SelectServiceToStartColon">開始するサービスを選択します。</s:String>
     <s:String x:Key="String_UseDefaultParameterColon">既定のパラメーターを使用します。</s:String>

@@ -24,9 +24,10 @@
     <s:String x:Key="String_Menu_PerformanceTest">TEST DELLE PRESTAZIONI</s:String>
     <s:String x:Key="String_Menu_Overview">PANORAMICA</s:String>
     <s:String x:Key="String_Menu_ExtensionDesigner">DESIGNER DI ESTENSIONE</s:String>
-    <s:String x:Key="String_Menu_XmlTools">STRUMENTI XML</s:String>
+    <s:String x:Key="String_Menu_XmlTools">STRUMENTI XML/JSON</s:String>
     <s:String x:Key="String_Menu_XmlCompare">CONFRONTA I XML</s:String>
     <s:String x:Key="String_Menu_XpathValidator">VALIDATORE DI XPATH</s:String>
+    <s:String x:Key="String_Menu_JsonpathValidator">CONVALIDA DI JSONPATH</s:String>
     <s:String x:Key="String_Menu_DocFormat">FORMATO DOC</s:String>
     <s:String x:Key="String_Menu_Base64">BASE64</s:String>
     <s:String x:Key="String_Menu_CustomTools">STRUMENTI PERSONALIZZATI</s:String>
@@ -37,6 +38,17 @@
     <s:String x:Key="String_Extensions">Estensioni</s:String>
     <s:String x:Key="String_ProfileManagement">Gestione dei profili</s:String>
     <s:String x:Key="String_Certificate">Certificato</s:String>
+    <s:String x:Key="String_PerformanceTuning">Ottimizzazione delle prestazioni</s:String>
+    <!-- ViewAdvancedSettings.xaml -->
+    <s:String x:Key="String_PerformanceTuningDescription">Di seguito sono riportate le impostazioni avanzate relative all'ottimizzazione delle prestazioni del framework di test. Le impostazioni predefinite si adattano alla maggior parte dello scenario di utilizzo. Per alcuni scenari di test delle prestazioni speciali, potrebbe essere necessario ottimizzare queste impostazioni.</s:String>
+    <s:String x:Key="String_PerformanceTuningWarning">Avviso: Non modificare questi valori a meno che non si capisca di ciò che si sta facendo.</s:String>
+    <s:String x:Key="String_MaxReceivedMessageSize">Dimensione massima messaggio ricevuto:</s:String>
+    <s:String x:Key="String_MaxReceivedMessageSizeDescription">La dimensione massima in byte del messaggio può essere visualizzata nel test runner. Per ottimizzare le prestazioni di visualizzazione dei messaggi, tutti i messaggi di dimensioni superiori a questo valore verranno abbandonati. Il valore predefinito è 1 Megabyte, ovvero 1048576 byte</s:String>
+    <s:String x:Key="String_MaxConcurrentUser">Numero massimo di utenti simultanei:</s:String>
+    <s:String x:Key="String_MaxConcurrentUserDescription">Durante il test delle prestazioni è possibile simulare il numero massimo di utenti simultanei. Gli utenti simultanei sono limitati a 100 per Community Edition e 1000 per l'edizione professionale.
+Se il limite raggiunge, alcune iterazioni di test possono essere ignorate a causa della limitazione delle prestazioni</s:String>
+    <s:String x:Key="String_MaxHttpConnections">Numero massimo di connessioni HTTP:</s:String>
+    <s:String x:Key="String_MaxHttpConnectionsDescription">È possibile effettuare il numero massimo di connessioni HTTP. se viene generato un carico maggiore e la connessione HTTP raggiunge il limite, verrà accodata fino a quando non viene stabilita una nuova connessione. Il valore è limitato a 100 per Community Edition e 2000 per Professional Edition</s:String>
     <!-- GENERAL SETTINGS -->
     <s:String x:Key="String_SystemBehaviors">Comportamenti del sistema</s:String>
     <s:String x:Key="String_LogPath">Percorso del registro:</s:String>
@@ -300,6 +312,7 @@ Questa azione non può essere recuperata.]]></s:String>
     <s:String x:Key="String_RampUpToPeakTime">Ramp-up di picco (s): </s:String>
     <s:String x:Key="String_AddControlPoint">Aggiungi punto di controllo</s:String>
     <s:String x:Key="String_TimePoint">Punto di tempo (s)</s:String>
+    <s:String x:Key="String_TotalDuration">Durata totale (s): </s:String>
     <!-- WindowEditAssertion.xaml -->
     <s:String x:Key="String_Assertion">Asserzione</s:String>
     <s:String x:Key="String_Test">Prova</s:String>
@@ -353,7 +366,15 @@ Questa azione non può essere recuperata.]]></s:String>
     <s:String x:Key="String_XPathNotMatchAnything">il XPath specificato non corrisponde a nulla, il risultato della valutazione è vuoto.</s:String>
     <s:String x:Key="String_XPathEvaluationTool">Strumento di valutazione di XPath</s:String>
     <s:String x:Key="String_XMLDocument">Documento XML</s:String>
+    <s:String x:Key="String_FormatDocument">Formato documento</s:String>
     <s:String x:Key="String_EvaluateU">VALUTARE</s:String>
+    <s:String x:Key="String_GenerateXPathFromCurrentLocation">Genera XPath dalla posizione corrente</s:String>
+    <s:String x:Key="String_FormatDocumentErrorMessage">Documento non formattato correttamente, assicurarsi che il documento è un documento XML valido</s:String>
+    <!-- ViewJsonPathValidator -->
+    <s:String x:Key="String_JsonPathEvaluationTool">Strumento di valutazione del percorso JSONJSON Path Evaluation Tool</s:String>
+    <s:String x:Key="String_JsonDocument">Documento JSON</s:String>
+    <s:String x:Key="String_JsonPathExpression">Espressione percorso JSON</s:String>
+    <s:String x:Key="String_JsonPathNotMatchAnything">Il percorso JSON specificato non corrisponde a nulla, il risultato della valutazione è vuoto.</s:String>
     <!-- ViewStockCertificates -->
     <s:String x:Key="String_TestCertificateInstalled">Certificato di prova è stato installato</s:String>
     <s:String x:Key="String_TestCertificateInstalledMessage">L'autorità di certificazione radice e certificato di prova vengono installati.</s:String>
@@ -423,6 +444,10 @@ Si prega di riprovare o premere ESC per annullare.]]></s:String>
     <s:String x:Key="String_AddEditThreshold">Aggiungere/modificare la soglia delle prestazioni</s:String>
     <s:String x:Key="String_ThresholdTypeColon">Tipo di soglia: </s:String>
     <s:String x:Key="String_ValueColon">Valore: </s:String>
+    <!-- LogLevelToStringConverter -->
+    <s:String x:Key="String_AllMessages">Tutti i messaggi</s:String>
+    <s:String x:Key="String_ErrorMessagesOnly">Solo messaggi di errore</s:String>
+    <s:String x:Key="String_NoPayload">Nessun carico utile</s:String>
     <s:String x:Key="String_ServiceSelector">Selettore di servizio</s:String>
     <s:String x:Key="String_AvailableServices">Servizi disponibili</s:String>
     <s:String x:Key="String_Description">Descrizione</s:String>
@@ -584,6 +609,7 @@ Ad esempio, si può avere un set di servizio Web per gestione clienti, inclusi i
     <s:String x:Key="String_LanguageChanged">Il cambio di lingua</s:String>
     <s:String x:Key="String_LanauageChangedQuestion"><![CDATA[Hai cambiato la lingua preferita. Hummingbird deve essere riavviato per rendere effettive le modifiche.
  Si desidera riavviare ora il Hummingbird?]]></s:String>
+    <s:String x:Key="String_ViewReleaseNotes">Visualizzare le note sulla versione</s:String>
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">Disinstallare</s:String>
     <s:String x:Key="String_InstallAnExtension">Installare un'estensione</s:String>
@@ -758,6 +784,15 @@ Si desidera riavviare ora il Hummingbird?]]></s:String>
     <s:String x:Key="String_SaveLogAs">Salvare il log come...</s:String>
     <s:String x:Key="String_ActiveEnvironmentColon">Ambiente attivo:</s:String>
     <s:String x:Key="String_ActiveEnvironmentTooltip">Ambiente di test attivo. (possono interessare le variabili di modello, credenziali e ambiente di Uri).</s:String>
+    <s:String x:Key="String_OpenContainingFolder">Apri cartella contenente</s:String>
+    <s:String x:Key="String_CopyLocation">Copia posizione</s:String>
+    <s:String x:Key="String_EnableThisItem">Abilita questo elemento</s:String>
+    <s:String x:Key="String_DisableThisItem">Disabilita questo elemento</s:String>
+    <s:String x:Key="String_AddCustomLoadTest">Aggiungere un nuovo test di carico personalizzatoAdd a new Custom load test</s:String>
+    <s:String x:Key="String_NewCustomLoadTest">Nuovo test di carico personalizzato</s:String>
+    <s:String x:Key="String_TrueSteps">Passaggi veri</s:String>
+    <s:String x:Key="String_FalseSteps">Passaggi falsi</s:String>
+    <s:String x:Key="String_LogSaveFilter">File di testo (*.txt)|*.txt|Tutti i file(*.*)|*.*</s:String>
     <s:String x:Key="String_ProjectNotSaved">Progetto non salvato.</s:String>
     <!-- DataStorage -->
     <s:String x:Key="String_NoDataStorageInfo1">Archiviazione dati scrive dati intermedi in una posizione permanente come CSV, EXCEL, XML o Base di dati.</s:String>
@@ -814,9 +849,10 @@ Si desidera riavviare ora il Hummingbird?]]></s:String>
     <s:String x:Key="String_DocumentFormattingTooltip">formattare documenti XML e JSON.</s:String>
     <s:String x:Key="String_Base64Encoding">Codifica Base64</s:String>
     <s:String x:Key="String_Base64EncodingTooltip">Testo di codifica/decodifica da Base64</s:String>
-    <s:String x:Key="String_XmlRelated">XML correlati.</s:String>
+    <s:String x:Key="String_XmlRelated">Documentazione correlata</s:String>
     <s:String x:Key="String_XmlCompare">Confronta i XML</s:String>
     <s:String x:Key="String_XPathValidator">Validatore di XPath</s:String>
+    <s:String x:Key="String_JsonPathValidator">Convalida percorso JSON</s:String>
     <!-- ViewExtensionDesigner -->
     <s:String x:Key="String_DesignerTooltip">Nel Framework di Test di Hummingbird, i servizi sono organizzati in 3 livelli. Si prega di organizzare i servizi più naturali possibile all'interno dell'organizzazione.</s:String>
     <s:String x:Key="String_DesignerApplicationTooltip">Quando viene utilizzato come Driver, nome del sistema siete test. Come Stub, nome dell'applicazione che simula il Hummingbird.</s:String>
@@ -1003,6 +1039,10 @@ Se questo Uri utilizza variabili, si prega di controllare se tutte le variabili 
     <s:String x:Key="String_UseCurrentTooltip">Utilizzare il valore corrente come valore atteso.</s:String>
     <s:String x:Key="String_UseCurrentReplaced">Il risultato previsto è sostituito con valutazione corrente.</s:String>
     <s:String x:Key="String_UseCurrentFailed">Si è verificato un errore durante la valutazione l'asserzione, non è riuscito a utilizzare il risultato corrente come risultato atteso</s:String>
+    <!-- XPathContextMenu.cs -->
+    <s:String x:Key="String_ShowXPath">Mostra XPath</s:String>
+    <s:String x:Key="String_GeneratedXPath">XPath generato della posizione corrente</s:String>
+    <s:String x:Key="String_CopyXpathToClipboard">Copia XPath negli Appunti</s:String>
     <!-- SendRequestTestStepEditor.xaml -->
     <s:String x:Key="String_EvaluateAssertions">Valutare le asserzioni</s:String>
     <s:String x:Key="String_Assertions">Asserzioni</s:String>
@@ -1041,6 +1081,7 @@ Se questo Uri utilizza variabili, si prega di controllare se tutte le variabili 
     <s:String x:Key="String_ClearAllProcessingRules">Cancella tutte le regole di elaborazione</s:String>
     <s:String x:Key="String_ClearAllProcessingRulesMessage">Sei sicuro di cancellare tutte le regole di elaborazione di questo passo di test?</s:String>
     <s:String x:Key="String_RecoverDeletedProcessingRulesMessage">Le regole di elaborazione selezionate vengono eliminate. Per recuperare, clicca qui.</s:String>
+    <s:String x:Key="String_ViewProcessedRequest">Visualizza richiesta elaborata</s:String>
     <!-- StartServiceSimulationTestStepEditor.xaml -->
     <s:String x:Key="String_SelectServiceToStartColon">Selezionare il servizio per l'avvio: </s:String>
     <s:String x:Key="String_UseDefaultParameterColon">Utilizzare il parametro predefinito: </s:String>

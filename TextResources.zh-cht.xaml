@@ -24,9 +24,10 @@
     <s:String x:Key="String_Menu_PerformanceTest">性能測試</s:String>
     <s:String x:Key="String_Menu_Overview">概覽</s:String>
     <s:String x:Key="String_Menu_ExtensionDesigner">擴展設計器</s:String>
-    <s:String x:Key="String_Menu_XmlTools">XML 工具</s:String>
+    <s:String x:Key="String_Menu_XmlTools">XML/JSON 工具</s:String>
     <s:String x:Key="String_Menu_XmlCompare">XML 比較</s:String>
     <s:String x:Key="String_Menu_XpathValidator">XPATH 驗證程序</s:String>
+    <s:String x:Key="String_Menu_JsonpathValidator">JSONPATH 验证器</s:String>
     <s:String x:Key="String_Menu_DocFormat">文檔格式</s:String>
     <s:String x:Key="String_Menu_Base64">BASE64</s:String>
     <s:String x:Key="String_Menu_CustomTools">定制工具</s:String>
@@ -37,6 +38,17 @@
     <s:String x:Key="String_Extensions">插件與擴展</s:String>
     <s:String x:Key="String_ProfileManagement">配置文件管理</s:String>
     <s:String x:Key="String_Certificate">證書</s:String>
+    <s:String x:Key="String_PerformanceTuning">性能調優</s:String>
+    <!-- ViewAdvancedSettings.xaml -->
+    <s:String x:Key="String_PerformanceTuningDescription">以下是與測試框架性能調整相關的高級設置。預設設置適合大多數使用方案。對於某些特殊效能測試方案,可能需要微調這些設置。</s:String>
+    <s:String x:Key="String_PerformanceTuningWarning">警告:除非您瞭解自己在做什麼,否則請不要更改這些值。</s:String>
+    <s:String x:Key="String_MaxReceivedMessageSize">收到的最大消息大小:</s:String>
+    <s:String x:Key="String_MaxReceivedMessageSizeDescription">消息的最大大小(以位元組為單位)可以顯示在測試回合程式中。為了優化消息顯示性能,將放棄大於此值的所有消息。預設值為 1 MB,即 1048576 位元組</s:String>
+    <s:String x:Key="String_MaxConcurrentUser">最大併發使用者數:</s:String>
+    <s:String x:Key="String_MaxConcurrentUserDescription">在效能測試期間可以類比最大併發使用者數。社區版和專業版的併發使用者限制為 100。
+如果達到限制,某些測試反覆運算可能會由於性能限制而忽略</s:String>
+    <s:String x:Key="String_MaxHttpConnections">最大 HTTP 連接:</s:String>
+    <s:String x:Key="String_MaxHttpConnectionsDescription">可以建立最大數量的 HTTP 連接。如果生成了更多的負載,並且 HTTP 連接達到其限制,它將排隊,直到可以建立新的連接。社區版的值限制為 100,專業版為 2000</s:String>
     <!-- GENERAL SETTINGS -->
     <s:String x:Key="String_SystemBehaviors">系統行為</s:String>
     <s:String x:Key="String_LogPath">日誌路徑:</s:String>
@@ -300,6 +312,7 @@
     <s:String x:Key="String_RampUpToPeakTime">到峰值的時間:</s:String>
     <s:String x:Key="String_AddControlPoint">添加控制點</s:String>
     <s:String x:Key="String_TimePoint">時間點</s:String>
+    <s:String x:Key="String_TotalDuration">總持續時間(s):</s:String>
     <!-- WindowEditAssertion.xaml -->
     <s:String x:Key="String_Assertion">斷言</s:String>
     <s:String x:Key="String_Test">測試</s:String>
@@ -353,7 +366,15 @@
     <s:String x:Key="String_XPathNotMatchAnything">給定的 XPath 與任何內容都不匹配, 因此評估結果為空。 </s:String>
     <s:String x:Key="String_XPathEvaluationTool">XPath 評估工具</s:String>
     <s:String x:Key="String_XMLDocument">XML 文檔</s:String>
+    <s:String x:Key="String_FormatDocument">設置文檔格式</s:String>
     <s:String x:Key="String_EvaluateU">評價</s:String>
+    <s:String x:Key="String_GenerateXPathFromCurrentLocation">從當前位置生成 XPath</s:String>
+    <s:String x:Key="String_FormatDocumentErrorMessage">文檔格式不正確,請確保文檔是有效的 XML 文檔</s:String>
+    <!-- ViewJsonPathValidator -->
+    <s:String x:Key="String_JsonPathEvaluationTool">JSON 路径评估工具</s:String>
+    <s:String x:Key="String_JsonDocument">JSON 文档</s:String>
+    <s:String x:Key="String_JsonPathExpression">JSON 路径表达式</s:String>
+    <s:String x:Key="String_JsonPathNotMatchAnything">给定的 JSON 路径与任何内容不匹配,评估结果为空。</s:String>
     <!-- ViewStockCertificates -->
     <s:String x:Key="String_TestCertificateInstalled">已安裝測試證書</s:String>
     <s:String x:Key="String_TestCertificateInstalledMessage">安裝了根證書頒發機構和測試證書。 </s:String>
@@ -423,6 +444,10 @@
     <s:String x:Key="String_AddEditThreshold">添加/編輯性能閾值</s:String>
     <s:String x:Key="String_ThresholdTypeColon">閾值類型:</s:String>
     <s:String x:Key="String_ValueColon">閾值：</s:String>
+    <!-- LogLevelToStringConverter -->
+    <s:String x:Key="String_AllMessages">所有消息</s:String>
+    <s:String x:Key="String_ErrorMessagesOnly">僅錯誤訊息</s:String>
+    <s:String x:Key="String_NoPayload">無有效負載</s:String>
     <s:String x:Key="String_ServiceSelector">服務選擇器</s:String>
     <s:String x:Key="String_AvailableServices">可提供的服務</s:String>
     <s:String x:Key="String_Description">描述</s:String>
@@ -584,6 +609,7 @@
     <s:String x:Key="String_LanguageChanged">語言已更改</s:String>
     <s:String x:Key="String_LanauageChangedQuestion" xml:space="preserve"><![CDATA[您更改了顯示語言。 Hummingbird必須重新啟動才能使更改生效。
 現在要重新啟動Hummingbird嗎？ ]]></s:String>
+    <s:String x:Key="String_ViewReleaseNotes">查看版本資訊</s:String>
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">卸載</s:String>
     <s:String x:Key="String_InstallAnExtension">安裝擴展</s:String>
@@ -758,6 +784,15 @@
     <s:String x:Key="String_SaveLogAs">將日誌另存為..。 </s:String>
     <s:String x:Key="String_ActiveEnvironmentColon">活動環境:</s:String>
     <s:String x:Key="String_ActiveEnvironmentTooltip">活動測試環境。 (可能會影響 uri 模板、登錄憑據和環境變量)。 </s:String>
+    <s:String x:Key="String_OpenContainingFolder">打開包含資料夾</s:String>
+    <s:String x:Key="String_CopyLocation">複製位置</s:String>
+    <s:String x:Key="String_EnableThisItem">啟用此專案</s:String>
+    <s:String x:Key="String_DisableThisItem">禁用此專案</s:String>
+    <s:String x:Key="String_AddCustomLoadTest">添加新的自訂負載測試</s:String>
+    <s:String x:Key="String_NewCustomLoadTest">新的自訂負載測試</s:String>
+    <s:String x:Key="String_TrueSteps">真實步驟</s:String>
+    <s:String x:Key="String_FalseSteps">錯誤步驟</s:String>
+    <s:String x:Key="String_LogSaveFilter">文字檔 (*.txt)|*.txt|所有檔(*.*)|*.*</s:String>
     <s:String x:Key="String_ProjectNotSaved">未保存項目。 </s:String>
     <!-- DataStorage -->
     <s:String x:Key="String_NoDataStorageInfo1">數據存儲將中間數據寫入持久性位置，例如CSV，EXCEL，XML或數據庫。 </s:String>
@@ -814,9 +849,10 @@
     <s:String x:Key="String_DocumentFormattingTooltip">格式化 XML 和 JSON 文檔。 </s:String>
     <s:String x:Key="String_Base64Encoding">Base64 編碼</s:String>
     <s:String x:Key="String_Base64EncodingTooltip">從 Base64 編碼/解碼文本</s:String>
-    <s:String x:Key="String_XmlRelated">XML 相關</s:String>
+    <s:String x:Key="String_XmlRelated">文档相关</s:String>
     <s:String x:Key="String_XmlCompare">XML 比較</s:String>
     <s:String x:Key="String_XPathValidator">XPath 驗證器</s:String>
+    <s:String x:Key="String_JsonPathValidator">JSON 路径验证器</s:String>
     <!-- ViewExtensionDesigner -->
     <s:String x:Key="String_DesignerTooltip">Hummingbird測試框架中將所有服務按三級結構進行組織。請按照項目需求及功能性盡可能自然地組織這些服務。 </s:String>
     <s:String x:Key="String_DesignerApplicationTooltip">當用作驅動模塊時, 您正在測試的系統的名稱。作為樁模塊時, Hummingbird模擬的程序名稱。 </s:String>
@@ -1003,6 +1039,10 @@
     <s:String x:Key="String_UseCurrentTooltip">使用當前值作為預期結果。 </s:String>
     <s:String x:Key="String_UseCurrentReplaced">預期結果將替換為當前值。 </s:String>
     <s:String x:Key="String_UseCurrentFailed">評估斷言時出錯, 未能將當前值用作預期結果</s:String>
+    <!-- XPathContextMenu.cs -->
+    <s:String x:Key="String_ShowXPath">顯示 XPath</s:String>
+    <s:String x:Key="String_GeneratedXPath">生成當前位置的 XPath</s:String>
+    <s:String x:Key="String_CopyXpathToClipboard">將 XPath 複製到剪貼簿</s:String>
     <!-- SendRequestTestStepEditor.xaml -->
     <s:String x:Key="String_EvaluateAssertions">評估斷言</s:String>
     <s:String x:Key="String_Assertions">斷言</s:String>
@@ -1041,6 +1081,7 @@
     <s:String x:Key="String_ClearAllProcessingRules">清除所有處理規則</s:String>
     <s:String x:Key="String_ClearAllProcessingRulesMessage">是否確實要清除此測試步驟的所有處理規則？</s:String>
     <s:String x:Key="String_RecoverDeletedProcessingRulesMessage">選定的處理規則將被刪除。要恢復, 請點擊此處。</s:String>
+    <s:String x:Key="String_ViewProcessedRequest">查看已處理的請求</s:String>
     <!-- StartServiceSimulationTestStepEditor.xaml -->
     <s:String x:Key="String_SelectServiceToStartColon">選擇要啟動的虛擬服務:</s:String>
     <s:String x:Key="String_UseDefaultParameterColon">使用默認參數:</s:String>

@@ -24,9 +24,10 @@
     <s:String x:Key="String_Menu_PerformanceTest">ΔΟΚΙΜΉ ΕΠΙΔΌΣΕΩΝ</s:String>
     <s:String x:Key="String_Menu_Overview">ΕΠΙΣΚΌΠΗΣΗ</s:String>
     <s:String x:Key="String_Menu_ExtensionDesigner">ΕΠΈΚΤΑΣΗ ΣΧΕΔΙΑΣΤΉΣ</s:String>
-    <s:String x:Key="String_Menu_XmlTools">ΕΡΓΑΛΕΊΑ XML</s:String>
+    <s:String x:Key="String_Menu_XmlTools">ΕΡΓΑΛΕΊΑ XML/JSON</s:String>
     <s:String x:Key="String_Menu_XmlCompare">ΣΥΓΚΡΊΝΕΤΕ XML</s:String>
     <s:String x:Key="String_Menu_XpathValidator">VALIDATOR ΈΚΦΡΑΣΗ XPATH</s:String>
+    <s:String x:Key="String_Menu_JsonpathValidator">ΕΠΙΚΥΡΩΣΗ ΤΟΥ JSONPATH</s:String>
     <s:String x:Key="String_Menu_DocFormat">ΜΟΡΦΉ DOC</s:String>
     <s:String x:Key="String_Menu_Base64">BASE64</s:String>
     <s:String x:Key="String_Menu_CustomTools">ΠΡΟΣΑΡΜΟΣΜΈΝΑ ΕΡΓΑΛΕΊΑ</s:String>
@@ -37,6 +38,17 @@
     <s:String x:Key="String_Extensions">Επεκτάσεις</s:String>
     <s:String x:Key="String_ProfileManagement">Διαχείριση προφίλ</s:String>
     <s:String x:Key="String_Certificate">Πιστοποιητικό</s:String>
+    <s:String x:Key="String_PerformanceTuning">Συντονισμός επιδόσεων</s:String>
+    <!-- ViewAdvancedSettings.xaml -->
+    <s:String x:Key="String_PerformanceTuningDescription">Ακολουθούν προηγμένες ρυθμίσεις που σχετίζονται με τη ρύθμιση επιδόσεων πλαισίου δοκιμής. Οι προεπιλεγμένες ρυθμίσεις ταιριάζουν περισσότερο με το σενάριο χρήσης. Για ορισμένες ειδικές δοκιμές επιδόσεων, αυτές οι ρυθμίσεις ενδέχεται να πρέπει να έχουν ρυθμιστεί με καλό έλεγχο.</s:String>
+    <s:String x:Key="String_PerformanceTuningWarning">Προειδοποίηση: παρακαλώ μην αλλάξετε αυτές τις τιμές, εκτός αν καταλαβαίνετε τι κάνετε.</s:String>
+    <s:String x:Key="String_MaxReceivedMessageSize">Μέγιστο μέγεθος μηνύματος λήψης:</s:String>
+    <s:String x:Key="String_MaxReceivedMessageSizeDescription">Το μέγιστο μέγεθος σε byte του μηνύματος μπορεί να εμφανιστεί στο δοκιμαστικό δρομέα. Για να βελτιστοποιήσετε την απόδοση της εμφάνισης του μηνύματος, όλα τα μηνύματα που είναι μεγαλύτερα από αυτήν την τιμή θα εγκαταλειφθούν. Η προεπιλεγμένη τιμή είναι 1 megabyte, δηλαδή 1048576 byte</s:String>
+    <s:String x:Key="String_MaxConcurrentUser">Μέγιστος αριθμός ταυτόχρονων χρηστών:</s:String>
+    <s:String x:Key="String_MaxConcurrentUserDescription">Ο μέγιστος αριθμός ταυτόχρονων χρηστών μπορεί να προσομοιωθεί κατά τη διάρκεια της δοκιμής επιδόσεων. Οι ταυτόχρονοι χρήστες περιορίζονται σε 100 για την έκδοση Κοινότητας και 1000 για επαγγελματική έκδοση.
+Εάν το όριο φθάσει, ορισμένες δοκιμαστικές επαναλήψεις ενδέχεται να παραβλεφθούν λόγω της επιτάχυνσης επιδόσεων</s:String>
+    <s:String x:Key="String_MaxHttpConnections">Μέγιστες συνδέσεις HTTP:</s:String>
+    <s:String x:Key="String_MaxHttpConnectionsDescription">Μπορεί να γίνει ο μέγιστος αριθμός συνδέσεων HTTP. Εάν δημιουργηθεί περισσότερο φορτίο και η σύνδεση HTTP φτάσει στο όριό της, θα τοποθετηθεί σε ουρά μέχρι να δημιουργηθεί μια νέα σύνδεση. Η τιμή περιορίζεται σε 100 για την έκδοση της Κοινότητας και 2000 για την επαγγελματική έκδοση</s:String>
     <!-- GENERAL SETTINGS -->
     <s:String x:Key="String_SystemBehaviors">Σύστημα συμπεριφορές</s:String>
     <s:String x:Key="String_LogPath">Διαδρομή αρχείου καταγραφής:</s:String>
@@ -300,6 +312,7 @@
     <s:String x:Key="String_RampUpToPeakTime">Ράμπα-επάνω στην κορυφή (s): </s:String>
     <s:String x:Key="String_AddControlPoint">Προσθήκη σημείου ελέγχου</s:String>
     <s:String x:Key="String_TimePoint">Χρονικό σημείο (s)</s:String>
+    <s:String x:Key="String_TotalDuration">Συνολική διάρκεια (ες): </s:String>
     <!-- WindowEditAssertion.xaml -->
     <s:String x:Key="String_Assertion">Διεκδίκησης</s:String>
     <s:String x:Key="String_Test">Δοκιμή</s:String>
@@ -353,7 +366,15 @@
     <s:String x:Key="String_XPathNotMatchAnything">Η δεδομένη έκφραση XPath δεν ταιριάζει με τίποτα, το αποτέλεσμα της αξιολόγησης είναι άδειο.</s:String>
     <s:String x:Key="String_XPathEvaluationTool">Εργαλείο αξιολόγησης XPath</s:String>
     <s:String x:Key="String_XMLDocument">Έγγραφο XML</s:String>
+    <s:String x:Key="String_FormatDocument">Μορφοποίηση εγγράφου</s:String>
     <s:String x:Key="String_EvaluateU">ΑΞΙΟΛΌΓΗΣΗ</s:String>
+    <s:String x:Key="String_GenerateXPathFromCurrentLocation">Δημιουργία XPath από την τρέχουσα θέση</s:String>
+    <s:String x:Key="String_FormatDocumentErrorMessage">Το έγγραφο δεν έχει μορφοποιηθεί σωστά, βεβαιωθείτε ότι το έγγραφο είναι έγκυρο έγγραφο XML</s:String>
+    <!-- ViewJsonPathValidator -->
+    <s:String x:Key="String_JsonPathEvaluationTool">Εργαλείο αξιολόγησης διαδρομής JSON</s:String>
+    <s:String x:Key="String_JsonDocument">Έγγραφο JSON</s:String>
+    <s:String x:Key="String_JsonPathExpression">Παράσταση διαδρομής JSON</s:String>
+    <s:String x:Key="String_JsonPathNotMatchAnything">Η δεδομένη διαδρομή JSON δεν ταιριάζει με τίποτα, το αποτέλεσμα της αξιολόγησης είναι κενό.</s:String>
     <!-- ViewStockCertificates -->
     <s:String x:Key="String_TestCertificateInstalled">Πιστοποιητικό δοκιμής έχει εγκατασταθεί</s:String>
     <s:String x:Key="String_TestCertificateInstalledMessage">Η αρχή έκδοσης πιστοποιητικών ρίζας και το πιστοποιητικό δοκιμής εγκαθίστανται.</s:String>
@@ -423,6 +444,10 @@
     <s:String x:Key="String_AddEditThreshold">Προσθήκη/Επεξεργασία ορίου επίδοσης</s:String>
     <s:String x:Key="String_ThresholdTypeColon">Τύπος όριο: </s:String>
     <s:String x:Key="String_ValueColon">Αξία: </s:String>
+    <!-- LogLevelToStringConverter -->
+    <s:String x:Key="String_AllMessages">Όλα τα μηνύματα</s:String>
+    <s:String x:Key="String_ErrorMessagesOnly">Μόνο μηνύματα σφάλματος</s:String>
+    <s:String x:Key="String_NoPayload">Χωρίς ωφέλιμο φορτίο</s:String>
     <s:String x:Key="String_ServiceSelector">Επιλογέας υπηρεσιών</s:String>
     <s:String x:Key="String_AvailableServices">Διαθέσιμες υπηρεσίες</s:String>
     <s:String x:Key="String_Description">Περιγραφή</s:String>
@@ -584,6 +609,7 @@
     <s:String x:Key="String_LanguageChanged">Άλλαξε γλώσσα</s:String>
     <s:String x:Key="String_LanauageChangedQuestion"><![CDATA[Έχετε αλλάξει τη γλώσσα της προτίμησής σας. Hummingbird πρέπει να επανεκκινηθεί για να κάνετε αλλαγές αποτελεσματικά.
  Θέλετε να επανεκκινήσετε το κολίμπρι τώρα;]]></s:String>
+    <s:String x:Key="String_ViewReleaseNotes">Προβολή σημειώσεων έκδοσης</s:String>
     <!-- ViewExtensions.xaml -->
     <s:String x:Key="String_Uninstall">Κατάργηση εγκατάστασης</s:String>
     <s:String x:Key="String_InstallAnExtension">Εγκαταστήσετε μια επέκταση</s:String>
@@ -758,6 +784,15 @@
     <s:String x:Key="String_SaveLogAs">Αποθήκευση αρχείου καταγραφής ως...</s:String>
     <s:String x:Key="String_ActiveEnvironmentColon">Ενεργό περιβάλλον:</s:String>
     <s:String x:Key="String_ActiveEnvironmentTooltip">Ενεργό δοκιμαστικό περιβάλλον. (μπορεί να επηρεάσουν Uri πρότυπο, πιστοποίηση και περιβάλλον μεταβλητές).</s:String>
+    <s:String x:Key="String_OpenContainingFolder">Άνοιγμα που περιέχει φάκελο</s:String>
+    <s:String x:Key="String_CopyLocation">Αντιγραφή θέσης</s:String>
+    <s:String x:Key="String_EnableThisItem">Ενεργοποίηση αυτού του στοιχείου</s:String>
+    <s:String x:Key="String_DisableThisItem">Απενεργοποίηση αυτού του στοιχείου</s:String>
+    <s:String x:Key="String_AddCustomLoadTest">Προσθήκη νέας δοκιμής προσαρμοσμένης φόρτωσης</s:String>
+    <s:String x:Key="String_NewCustomLoadTest">Δοκιμή νέου προσαρμοσμένου φόρτου</s:String>
+    <s:String x:Key="String_TrueSteps">Πραγματικά βήματα</s:String>
+    <s:String x:Key="String_FalseSteps">Εσφαλμένα βήματα</s:String>
+    <s:String x:Key="String_LogSaveFilter">Αρχεία κειμένου (*.txt)|*.txt|Όλα τα αρχεία (*.*)|*.*</s:String>
     <s:String x:Key="String_ProjectNotSaved">Έργου δεν αποθηκεύτηκε.</s:String>
     <!-- DataStorage -->
     <s:String x:Key="String_NoDataStorageInfo1">Αποθήκευση δεδομένων εγγράφει ενδιάμεσα δεδομένα σε μια μόνιμα θέση όπως CSV, EXCEL, XML ή τη βάση δεδομένων.</s:String>
@@ -814,9 +849,10 @@
     <s:String x:Key="String_DocumentFormattingTooltip">η μορφή XML και JSON έγγραφα.</s:String>
     <s:String x:Key="String_Base64Encoding">Κωδικοποίηση base64</s:String>
     <s:String x:Key="String_Base64EncodingTooltip">Κωδικοποίηση/αποκωδικοποίηση κείμενο από Base64</s:String>
-    <s:String x:Key="String_XmlRelated">XML που σχετίζονται</s:String>
+    <s:String x:Key="String_XmlRelated">Σχετικό έγγραφο</s:String>
     <s:String x:Key="String_XmlCompare">Συγκρίνετε XML</s:String>
     <s:String x:Key="String_XPathValidator">Validator έκφραση XPath</s:String>
+    <s:String x:Key="String_JsonPathValidator">JSON ή επικύρωσης διαδρομής</s:String>
     <!-- ViewExtensionDesigner -->
     <s:String x:Key="String_DesignerTooltip">Στο πλαίσιο δοκιμών κολιβρίων, υπηρεσίες οργανώνονται σε 3 επίπεδα. Παρακαλούμε να οργανώσει τις υπηρεσίες ως φυσικά όσο το δυνατόν εντός του οργανισμού σας.</s:String>
     <s:String x:Key="String_DesignerApplicationTooltip">Όταν χρησιμοποιείται ως οδηγός, το όνομα του συστήματος σας είναι δοκιμή. Ως στέλεχος, το όνομα της εφαρμογής που μιμείται το κολίβριο.</s:String>
@@ -1003,6 +1039,10 @@ NO: Διαγραφή αγαπημένο αίτηση.
     <s:String x:Key="String_UseCurrentTooltip">Χρησιμοποιήστε την τρέχουσα αξία ως αναμενόμενη τιμή.</s:String>
     <s:String x:Key="String_UseCurrentReplaced">Το αναμενόμενο αποτέλεσμα αντικαθίσταται με τρέχουσα αξιολόγηση.</s:String>
     <s:String x:Key="String_UseCurrentFailed">Παρουσιάστηκε ένα σφάλμα κατά την αξιολόγηση της τον ισχυρισμό, απέτυχε να χρησιμοποιήσετε το τρέχον αποτέλεσμα ως αναμενόμενο αποτέλεσμα</s:String>
+    <!-- XPathContextMenu.cs -->
+    <s:String x:Key="String_ShowXPath">Εμφάνιση XPath</s:String>
+    <s:String x:Key="String_GeneratedXPath">Δημιουργημένο XPath της τρέχουσας θέσης</s:String>
+    <s:String x:Key="String_CopyXpathToClipboard">Αντιγραφή XPath στο Πρόχειρο</s:String>
     <!-- SendRequestTestStepEditor.xaml -->
     <s:String x:Key="String_EvaluateAssertions">Αξιολογήσει τους ισχυρισμούς</s:String>
     <s:String x:Key="String_Assertions">Ισχυρισμοί</s:String>
@@ -1041,6 +1081,7 @@ NO: Διαγραφή αγαπημένο αίτηση.
     <s:String x:Key="String_ClearAllProcessingRules">Απαλοιφή όλων των κανόνων επεξεργασίας</s:String>
     <s:String x:Key="String_ClearAllProcessingRulesMessage">Είστε βέβαιοι να καταργήσετε όλους τους κανόνες επεξεργασίας αυτού του βήματος δοκιμής;</s:String>
     <s:String x:Key="String_RecoverDeletedProcessingRulesMessage">Οι επιλεγμένοι κανόνες επεξεργασίας διαγράφονται. Για να ανακτήσετε, κάντε κλικ εδώ.</s:String>
+    <s:String x:Key="String_ViewProcessedRequest">Προβολή επεξεργασμένες αιτήσεις</s:String>
     <!-- StartServiceSimulationTestStepEditor.xaml -->
     <s:String x:Key="String_SelectServiceToStartColon">Επιλέξτε την υπηρεσία για να ξεκινήσετε: </s:String>
     <s:String x:Key="String_UseDefaultParameterColon">Χρησιμοποιήστε την προεπιλεγμένη παράμετρο: </s:String>
