@@ -10,7 +10,8 @@
     <s:String x:Key="String_Menu_Welcome">WELCOME</s:String>
     <s:String x:Key="String_Menu_Dashboard">DASHBOARD</s:String>
     <s:String x:Key="String_Menu_Testing">testing</s:String>
-    <s:String x:Key="String_Menu_TestRunner">TEST RUNNER</s:String>
+    <s:String x:Key="String_Menu_ManualTest">MANUAL TEST</s:String>
+    <s:String x:Key="String_Menu_ControlCenter">CONTROL CENTER</s:String>
     <s:String x:Key="String_Menu_ServiceList">SERVICE LIST</s:String>
     <s:String x:Key="String_Menu_Automation">automation</s:String>
     <s:String x:Key="String_Menu_TestEditor">TEST EDITOR</s:String>
@@ -38,9 +39,10 @@
     <!-- BACK STAGE -->
     <s:String x:Key="String_General">General</s:String>
     <s:String x:Key="String_TestSettings">Test Settings</s:String>
+    <s:String x:Key="String_SecuritySettings">Security Settings</s:String>
     <s:String x:Key="String_Extensions">Extensions</s:String>
     <s:String x:Key="String_ProfileManagement">Profile Management</s:String>
-	<s:String x:Key="String_Certificate">Certificate</s:String>
+    <s:String x:Key="String_Certificate">Certificate</s:String>
 	<s:String x:Key="String_PerformanceTuning">Performance Tuning</s:String>
 	
 	
@@ -482,6 +484,11 @@
     <s:String x:Key="String_LawDisclaimer">The software is provided &quot;as is&quot; and the author disclaims all warranties with regard to this software including all implied warranties of merchantability and fitness. In no event shall the author be liable for any special, direct, indirect, or consequential damages or any damages whatsoever resulting from loss of use, data or profits, whether in an action of contract, negligence or other tortious action, arising out of or in connection with the use or performance of this software.</s:String>
     <s:String x:Key="String_Components">Components</s:String>
     <s:String x:Key="String_AddinExtension">Add-in &amp; Extensions</s:String>
+    <s:String x:Key="String_OpenSourceLicences">Open source licenses</s:String>
+    <s:String x:Key="String_OptnSourceLicencesDescription">The software is partially based on some Open Source projets. You could view the license of some open source components here.</s:String>
+    <s:String x:Key="String CommunityEdition">Community Edition</s:String>
+    <s:String x:Key="String_ProfessionalEdition">Professional Edition</s:String>
+    
     <!-- ViewStatistics.xaml -->
     <s:String x:Key="String_TodaysActivities">Today's activity</s:String>
     <s:String x:Key="String_ResponsesSimulated">Responses Simulated</s:String>
@@ -1204,4 +1211,57 @@ Please retry or press ESC to cancel.</s:String>
 	<s:String x:Key="String_ErrorMessagesOnly">Error messages only</s:String>
 	<s:String x:Key="String_NoPayload">No payload</s:String>
 	
+    <!-- WindowUpdateInformation.xaml -->
+    <s:String x:Key="String_PreRelease">Pre-release</s:String>
+    <s:String x:Key="String_ReleaseDateColon">Release Date: </s:String>
+    <s:String x:Key="String_GoToDownloadPage">Go to download page</s:String>
+    <s:String x:Key="String_CloseU">CLOSE</s:String>
+    <s:String x:Key="String_UpdateAvailable">An update is available</s:String>
+
+    <!-- WindowViewServiceDescription.xaml -->
+    <s:String x:Key="String_ViewServiceDescription">View Service Description</s:String>
+    <s:String x:Key="String_ViewServiceDescriptionDetails">View the service description of the service:</s:String>
+    <s:String x:Key="String_UnableToRetriveServiceDefinition">Unable to retrive service definition from {0}. Would you like to open it in a browser ?</s:String>
+    <s:String x:Key="String_OpenBrowser">Open Browser</s:String>
+    <s:String x:Key="String_ViewServiceDescriptionOfX">View the service description of: {0}</s:String>
+
+    <!-- Window Add API -->
+    <s:String x:Key="String_AddAnApi">Add an API</s:String>
+    <s:String x:Key="String_AddApiDescription1">You can import an existing API from Service Description, such as SOAP and OpenAPI Definition. The imported API will be stored in your local workspace.</s:String>
+    <s:String x:Key="String_AddApiDescription2">In order to Share API with team mates, you chould use Extension Designer to import all services used in the projet.</s:String>
+    <s:String x:Key="String_LearnMoreWorkspace">Learn more about Workspace and Extension Designer</s:String>
+    <s:String x:Key="String_DefineNewApplication">define a new application</s:String>
+    <s:String x:Key="String_ConfirmAPIImport">Confirm API Import</s:String>
+
+    <!-- ViewInstantTesting -->
+    <s:String x:Key="String_Available_APIs">AVAILABLE APIs</s:String>
+    <s:String x:Key="String_SelectedServiceU">SELECTED SERVICE</s:String>
+    <s:String x:Key="String_ViewModeColon">View Mode:</s:String>
+    <s:String x:Key="String_HybirdDescription">Hybird Request: Shows the request in hybird mode. Response will be shown in pop-up mode.</s:String>
+    <s:String x:Key="String_Hybrid">Hybird</s:String>
+    <s:String x:Key="String_SideBySideDescription">Side-by-side: Shows the request in expert mode, and response on the right side</s:String>
+    <s:String x:Key="String_SideBySide">Side-by-Side</s:String>
+    <s:String x:Key="String_AssistedDescription">Assisted Side-by-Side: Show the request in assisted mode, and reponse on the right side</s:String>
+    <s:String x:Key="String_Assisted">Assisted</s:String>
+    <s:String x:Key="String_AddExtension">Add Extension</s:String>
+    <s:String x:Key="String_AddApiDescription">Import API from it's definitions.</s:String>
+    <s:String x:Key="String_AddApi">Add API</s:String>
+    <s:String x:Key="String_AddExtensionDescription">Add an exsiting extension.</s:String>
+    <s:String x:Key="String_RemoveThisService">Remove this service</s:String>
+    <s:String x:Key="String_ShowServiceDefinition">Show service definition</s:String>
+    <s:String x:Key="String_NoHistoryFound">No history found for this service.</s:String>
+    <s:String x:Key="String_NewServiceAdded">new service has been added.</s:String>
+
+    <!-- ReportViewer -->
+    <s:String x:Key="String_ReportViewerTitle">Hummingbird Report Viewer</s:String>
+    <s:String x:Key="String_About">About</s:String>
+    <s:String x:Key="String_OpenReportDescription1">Drag and drop a report file here to view</s:String>
+    <s:String x:Key="String_OpenReportDescription2">or click on the following button</s:String>
+    <s:String x:Key="String_OpenReport">Open a report</s:String>
+    <s:String x:Key="String_FileNotRecognized">File not recognized</s:String>
+    <s:String x:Key="String_FileNotRecognizedDetail">The report file {0} is not a valid functional or performance test report.</s:String>
+    <s:String x:Key="String_ErrorLoadingReport">An error has occurred when loading the report file. Error Message is: {0}</s:String>
+    <s:String x:Key="String_OpenAutomatedReport">Open Automated test report</s:String>
+
+
 </ResourceDictionary>

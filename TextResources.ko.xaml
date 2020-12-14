@@ -9,6 +9,8 @@
     <s:String x:Key="String_Menu_Welcome">환영 합니다</s:String>
     <s:String x:Key="String_Menu_Dashboard">대시보드</s:String>
     <s:String x:Key="String_Menu_Testing">테스트</s:String>
+    <s:String x:Key="String_Menu_ManualTest">수동 테스트</s:String>
+    <s:String x:Key="String_Menu_ControlCenter">제어 센터</s:String>
     <s:String x:Key="String_Menu_TestRunner">테스트 러너</s:String>
     <s:String x:Key="String_Menu_ServiceList">서비스 목록</s:String>
     <s:String x:Key="String_Menu_Automation">자동화</s:String>
@@ -35,6 +37,7 @@
     <!-- BACK STAGE -->
     <s:String x:Key="String_General">일반</s:String>
     <s:String x:Key="String_TestSettings">테스트 설정</s:String>
+    <s:String x:Key="String_SecuritySettings">보안 설정</s:String>
     <s:String x:Key="String_Extensions">확장</s:String>
     <s:String x:Key="String_ProfileManagement">프로 파일 관리</s:String>
     <s:String x:Key="String_Certificate">인증서</s:String>
@@ -448,6 +451,53 @@
     <s:String x:Key="String_AllMessages">모든 메시지</s:String>
     <s:String x:Key="String_ErrorMessagesOnly">오류 메시지만</s:String>
     <s:String x:Key="String_NoPayload">페이로드 없음</s:String>
+    <!-- WindowUpdateInformation.xaml -->
+    <s:String x:Key="String_PreRelease">프리릴리즈</s:String>
+    <s:String x:Key="String_ReleaseDateColon">릴리스 날짜: </s:String>
+    <s:String x:Key="String_GoToDownloadPage">다운로드 페이지로 이동</s:String>
+    <s:String x:Key="String_CloseU">가까이</s:String>
+    <s:String x:Key="String_UpdateAvailable">업데이트를 사용할 수 있습니다.</s:String>
+    <!-- WindowViewServiceDescription.xaml -->
+    <s:String x:Key="String_ViewServiceDescription">서비스 설명 보기</s:String>
+    <s:String x:Key="String_ViewServiceDescriptionDetails">서비스에 대한 서비스 설명 보기:</s:String>
+    <s:String x:Key="String_UnableToRetriveServiceDefinition">{0} 서비스 정의를 retrive에 사용할 수 없습니다. 브라우저에서 열어 보시겠습니까?</s:String>
+    <s:String x:Key="String_OpenBrowser">브라우저 열기</s:String>
+    <s:String x:Key="String_ViewServiceDescriptionOfX">서비스 설명 보기: {0}</s:String>
+    <!-- Window Add API -->
+    <s:String x:Key="String_AddAnApi">API 추가</s:String>
+    <s:String x:Key="String_AddApiDescription1">SOAP 및 OpenAPI 정의와 같은 서비스 설명에서 기존 API를 가져올 수 있습니다. 가져온 API는 로컬 작업 영역에 저장됩니다.</s:String>
+    <s:String x:Key="String_AddApiDescription2">팀 동료와 API를 공유하기 위해 확장 디자이너를 사용하여 프로젯에 사용되는 모든 서비스를 가져옵니다.</s:String>
+    <s:String x:Key="String_LearnMoreWorkspace">작업 영역 및 확장 디자이너에 대해 자세히 알아보기</s:String>
+    <s:String x:Key="String_DefineNewApplication">새 응용 프로그램 정의</s:String>
+    <s:String x:Key="String_ConfirmAPIImport">API 가져오기 확인</s:String>
+    <!-- ViewInstantTesting -->
+    <s:String x:Key="String_Available_APIs">사용 가능한 API</s:String>
+    <s:String x:Key="String_SelectedServiceU">선택한 서비스</s:String>
+    <s:String x:Key="String_ViewModeColon">보기 모드:</s:String>
+    <s:String x:Key="String_HybirdDescription">하이버드 요청: 하이버드 모드에서 요청을 표시합니다. 응답은 팝업 모드로 표시됩니다.</s:String>
+    <s:String x:Key="String_Hybrid">하이버드</s:String>
+    <s:String x:Key="String_SideBySideDescription">나란히: 전문가 모드에서 요청 표시 및 오른쪽에 응답</s:String>
+    <s:String x:Key="String_SideBySide">나란히</s:String>
+    <s:String x:Key="String_AssistedDescription">보조 나란히: 보조 모드에서 요청을 표시하고 오른쪽에 담당자</s:String>
+    <s:String x:Key="String_Assisted">지원</s:String>
+    <s:String x:Key="String_AddExtension">확장 추가</s:String>
+    <s:String x:Key="String_AddApiDescription">정의에서 API를 가져옵니다.</s:String>
+    <s:String x:Key="String_AddApi">API 추가</s:String>
+    <s:String x:Key="String_AddExtensionDescription">확장 확장을 추가합니다.</s:String>
+    <s:String x:Key="String_RemoveThisService">이 서비스 제거</s:String>
+    <s:String x:Key="String_ShowServiceDefinition">서비스 정의 표시</s:String>
+    <s:String x:Key="String_NoHistoryFound">이 서비스에 대한 기록은 없습니다.</s:String>
+    <s:String x:Key="String_NewServiceAdded">새 서비스가 추가되었습니다.</s:String>
+    <!-- ReportViewer -->
+    <s:String x:Key="String_ReportViewerTitle">벌새 보고서 뷰어</s:String>
+    <s:String x:Key="String_About">에 대해</s:String>
+    <s:String x:Key="String_OpenReportDescription1">보고서 파일을 드래그하고 놓아 보고</s:String>
+    <s:String x:Key="String_OpenReportDescription2">또는 다음 버튼을 클릭합니다.</s:String>
+    <s:String x:Key="String_OpenReport">보고서 열기</s:String>
+    <s:String x:Key="String_FileNotRecognized">인식되지 않은 파일</s:String>
+    <s:String x:Key="String_FileNotRecognizedDetail">보고서 파일 {0} 유효한 기능 또는 성능 테스트 보고서가 아닙니다.</s:String>
+    <s:String x:Key="String_ErrorLoadingReport">보고서 파일을 로드할 때 오류가 발생했습니다. 오류 메시지는 다음과 {0}</s:String>
+    <s:String x:Key="String_OpenAutomatedReport">개방형 자동 테스트 보고서</s:String>
     <s:String x:Key="String_ServiceSelector">서비스 선택기</s:String>
     <s:String x:Key="String_AvailableServices">사용 가능한 서비스</s:String>
     <s:String x:Key="String_Description">설명</s:String>
@@ -703,6 +753,10 @@ Hummingbird를 지금 다시 시작 하 시겠습니까?]]></s:String>
     <s:String x:Key="String_LawDisclaimer">소프트웨어는 "있는 그대로" 제공 됩니다 하 고 저자는이 소프트웨어를 포함 한 모든 묵시적된 보증의 상품성 및 적합성에 관한 모든 보증을 부인 합니다. 어떠한 경우에도 저자는 책임을 지지 특별, 직접, 간접 또는 결과적 손해 또는 모든 손해에 대 한 계약, 과실 또는 기타 불법 행동의 형태로 사용, 데이터 또는 이익 손실 로부터 무엇이 든 지 인에서 발생 이 소프트웨어의 성능 또는 사용과 연결.</s:String>
     <s:String x:Key="String_Components">구성 요소</s:String>
     <s:String x:Key="String_AddinExtension">추가 기능 및 확장</s:String>
+    <s:String x:Key="String_OpenSourceLicences">오픈 소스 라이센스</s:String>
+    <s:String x:Key="String_OptnSourceLicencesDescription">이 소프트웨어는 부분적으로 일부 오픈 소스 프로젯을 기반으로합니다. 일부 오픈 소스 구성 요소의 라이선스를 여기에서 볼 수 있습니다.</s:String>
+    <s:String x:Key="String CommunityEdition">커뮤니티 에디션</s:String>
+    <s:String x:Key="String_ProfessionalEdition">프로페셔널 에디션</s:String>
     <!-- ViewStatistics.xaml -->
     <s:String x:Key="String_TodaysActivities">오늘날의 활동</s:String>
     <s:String x:Key="String_ResponsesSimulated">응답 시뮬레이션</s:String>

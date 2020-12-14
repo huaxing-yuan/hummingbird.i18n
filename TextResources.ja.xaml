@@ -9,6 +9,8 @@
     <s:String x:Key="String_Menu_Welcome">ようこそ</s:String>
     <s:String x:Key="String_Menu_Dashboard">ダッシュ ボード</s:String>
     <s:String x:Key="String_Menu_Testing">テスト</s:String>
+    <s:String x:Key="String_Menu_ManualTest">手動テスト</s:String>
+    <s:String x:Key="String_Menu_ControlCenter">コントロールセンター</s:String>
     <s:String x:Key="String_Menu_TestRunner">テスト ランナー</s:String>
     <s:String x:Key="String_Menu_ServiceList">サービス一覧</s:String>
     <s:String x:Key="String_Menu_Automation">オートメーション</s:String>
@@ -35,6 +37,7 @@
     <!-- BACK STAGE -->
     <s:String x:Key="String_General">一般的です</s:String>
     <s:String x:Key="String_TestSettings">テストの設定</s:String>
+    <s:String x:Key="String_SecuritySettings">セキュリティ設定</s:String>
     <s:String x:Key="String_Extensions">拡張機能</s:String>
     <s:String x:Key="String_ProfileManagement">プロファイルの管理</s:String>
     <s:String x:Key="String_Certificate">証明書</s:String>
@@ -448,6 +451,53 @@
     <s:String x:Key="String_AllMessages">すべてのメッセージ</s:String>
     <s:String x:Key="String_ErrorMessagesOnly">エラー メッセージのみ</s:String>
     <s:String x:Key="String_NoPayload">ペイロードなし</s:String>
+    <!-- WindowUpdateInformation.xaml -->
+    <s:String x:Key="String_PreRelease">プレリリース</s:String>
+    <s:String x:Key="String_ReleaseDateColon">リリース日:</s:String>
+    <s:String x:Key="String_GoToDownloadPage">ダウンロード ページへ</s:String>
+    <s:String x:Key="String_CloseU">閉じる</s:String>
+    <s:String x:Key="String_UpdateAvailable">更新プログラムが利用可能です。</s:String>
+    <!-- WindowViewServiceDescription.xaml -->
+    <s:String x:Key="String_ViewServiceDescription">サービスの説明を表示する</s:String>
+    <s:String x:Key="String_ViewServiceDescriptionDetails">サービスの説明を表示します。</s:String>
+    <s:String x:Key="String_UnableToRetriveServiceDefinition">{0}からサービス定義をリトライする必要があります。ブラウザで開きますか?</s:String>
+    <s:String x:Key="String_OpenBrowser">ブラウザを開く</s:String>
+    <s:String x:Key="String_ViewServiceDescriptionOfX">次のサービスの説明を表示{0}</s:String>
+    <!-- Window Add API -->
+    <s:String x:Key="String_AddAnApi">API の追加</s:String>
+    <s:String x:Key="String_AddApiDescription1">SOAP や OpenAPI 定義などのサービスの説明から既存の API をインポートできます。インポートされた API はローカルワークスペースに保存されます。</s:String>
+    <s:String x:Key="String_AddApiDescription2">チームメイトと API を共有するには、エクステンション デザイナーを使用して、Projet で使用されるすべてのサービスをインポートします。</s:String>
+    <s:String x:Key="String_LearnMoreWorkspace">ワークスペースと拡張機能デザイナーの詳細</s:String>
+    <s:String x:Key="String_DefineNewApplication">新しいアプリケーションを定義する</s:String>
+    <s:String x:Key="String_ConfirmAPIImport">API インポートの確認</s:String>
+    <!-- ViewInstantTesting -->
+    <s:String x:Key="String_Available_APIs">利用可能な API</s:String>
+    <s:String x:Key="String_SelectedServiceU">選択したサービス</s:String>
+    <s:String x:Key="String_ViewModeColon">表示モード:</s:String>
+    <s:String x:Key="String_HybirdDescription">ハイバードリクエスト:ハイバードモードでリクエストを表示します。応答はポップアップモードで表示されます。</s:String>
+    <s:String x:Key="String_Hybrid">ハイバード</s:String>
+    <s:String x:Key="String_SideBySideDescription">サイド バイ サイド: 要求をエキスパート モードで表示し、右側に応答を表示します。</s:String>
+    <s:String x:Key="String_SideBySide">サイド バイ サイド</s:String>
+    <s:String x:Key="String_AssistedDescription">補助サイドバイサイド:リクエストをアシストモードで表示し、右側にリコン</s:String>
+    <s:String x:Key="String_Assisted">支援</s:String>
+    <s:String x:Key="String_AddExtension">拡張機能の追加</s:String>
+    <s:String x:Key="String_AddApiDescription">定義から API をインポートします。</s:String>
+    <s:String x:Key="String_AddApi">API の追加</s:String>
+    <s:String x:Key="String_AddExtensionDescription">拡張拡張機能を追加します。</s:String>
+    <s:String x:Key="String_RemoveThisService">このサービスを削除します</s:String>
+    <s:String x:Key="String_ShowServiceDefinition">サービス定義の表示</s:String>
+    <s:String x:Key="String_NoHistoryFound">このサービスの履歴が見つかりません。</s:String>
+    <s:String x:Key="String_NewServiceAdded">新しいサービスが追加されました。</s:String>
+    <!-- ReportViewer -->
+    <s:String x:Key="String_ReportViewerTitle">ハチドリレポートビューア</s:String>
+    <s:String x:Key="String_About">に関しては</s:String>
+    <s:String x:Key="String_OpenReportDescription1">レポート ファイルをここにドラッグ アンド ドロップして表示する</s:String>
+    <s:String x:Key="String_OpenReportDescription2">または、次のボタンをクリックします</s:String>
+    <s:String x:Key="String_OpenReport">レポートを開く</s:String>
+    <s:String x:Key="String_FileNotRecognized">ファイルが認識されない</s:String>
+    <s:String x:Key="String_FileNotRecognizedDetail">レポート ファイル{0}は、有効な機能テストまたはパフォーマンス テスト レポートではありません。</s:String>
+    <s:String x:Key="String_ErrorLoadingReport">レポート ファイルの読み込み中にエラーが発生しました。エラー メッセージ: {0}</s:String>
+    <s:String x:Key="String_OpenAutomatedReport">自動テスト レポートを開く</s:String>
     <s:String x:Key="String_ServiceSelector">サービス選択</s:String>
     <s:String x:Key="String_AvailableServices">利用可能なサービス</s:String>
     <s:String x:Key="String_Description">説明</s:String>
@@ -703,6 +753,10 @@ Hummingbirdを今すぐ再起動しますか。]]></s:String>
     <s:String x:Key="String_LawDisclaimer">ソフトウェアを配信、提供されて""あり著者が適合と適合性の暗黙の保証も含めこのソフトウェアに関するすべての保証を放棄します。はない著者ならない特別、直接的、間接的、あるいは必然的な損害または損害の責任を負う行為、契約、過失、またはその他の不法行為、使用、データ、利益の損失から生じる一切のうちで発生しました。使用またはこのソフトウェアのパフォーマンスと接続。</s:String>
     <s:String x:Key="String_Components">コンポーネント</s:String>
     <s:String x:Key="String_AddinExtension">アドインの追加・拡張</s:String>
+    <s:String x:Key="String_OpenSourceLicences">オープンソースライセンス</s:String>
+    <s:String x:Key="String_OptnSourceLicencesDescription">ソフトウェアは、部分的にいくつかのオープンソースのプロジェットに基づいています。ここで、いくつかのオープンソースコンポーネントのライセンスを表示できます。</s:String>
+    <s:String x:Key="String CommunityEdition">コミュニティエディション</s:String>
+    <s:String x:Key="String_ProfessionalEdition">プロフェッショナルエディション</s:String>
     <!-- ViewStatistics.xaml -->
     <s:String x:Key="String_TodaysActivities">今日の活動</s:String>
     <s:String x:Key="String_ResponsesSimulated">応答シミュレーション</s:String>

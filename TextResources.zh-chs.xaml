@@ -9,6 +9,8 @@
     <s:String x:Key="String_Menu_Welcome">欢迎</s:String>
     <s:String x:Key="String_Menu_Dashboard">仪表板</s:String>
     <s:String x:Key="String_Menu_Testing">测试</s:String>
+    <s:String x:Key="String_Menu_ManualTest">手动测试</s:String>
+    <s:String x:Key="String_Menu_ControlCenter">控制中心</s:String>
     <s:String x:Key="String_Menu_TestRunner">测试运行程序</s:String>
     <s:String x:Key="String_Menu_ServiceList">服务列表</s:String>
     <s:String x:Key="String_Menu_Automation">自动化</s:String>
@@ -35,6 +37,7 @@
     <!-- BACK STAGE -->
     <s:String x:Key="String_General">常规设置</s:String>
     <s:String x:Key="String_TestSettings">测试框架设置</s:String>
+    <s:String x:Key="String_SecuritySettings">安全设置</s:String>
     <s:String x:Key="String_Extensions">插件与扩展</s:String>
     <s:String x:Key="String_ProfileManagement">配置文件管理</s:String>
     <s:String x:Key="String_Certificate">证书</s:String>
@@ -448,6 +451,53 @@
     <s:String x:Key="String_AllMessages">所有消息</s:String>
     <s:String x:Key="String_ErrorMessagesOnly">仅错误消息</s:String>
     <s:String x:Key="String_NoPayload">无有效负载</s:String>
+    <!-- WindowUpdateInformation.xaml -->
+    <s:String x:Key="String_PreRelease">预发布</s:String>
+    <s:String x:Key="String_ReleaseDateColon">发布日期：</s:String>
+    <s:String x:Key="String_GoToDownloadPage">转到下载页面</s:String>
+    <s:String x:Key="String_CloseU">关闭</s:String>
+    <s:String x:Key="String_UpdateAvailable">更新可用</s:String>
+    <!-- WindowViewServiceDescription.xaml -->
+    <s:String x:Key="String_ViewServiceDescription">查看服务说明</s:String>
+    <s:String x:Key="String_ViewServiceDescriptionDetails">查看服务的服务说明：</s:String>
+    <s:String x:Key="String_UnableToRetriveServiceDefinition">无法从{0}。您想在浏览器中打开它吗？</s:String>
+    <s:String x:Key="String_OpenBrowser">打开浏览器</s:String>
+    <s:String x:Key="String_ViewServiceDescriptionOfX">查看以下服务{0}</s:String>
+    <!-- Window Add API -->
+    <s:String x:Key="String_AddAnApi">添加 API</s:String>
+    <s:String x:Key="String_AddApiDescription1">可以从服务描述（如 SOAP 和 OpenAPI 定义）导入现有 API。导入的 API 将存储在本地工作区中。</s:String>
+    <s:String x:Key="String_AddApiDescription2">为了与队友共享 API，您可以使用扩展设计器导入 projet 中使用的所有服务。</s:String>
+    <s:String x:Key="String_LearnMoreWorkspace">了解有关工作区和扩展设计器的详细了解</s:String>
+    <s:String x:Key="String_DefineNewApplication">定义新应用程序</s:String>
+    <s:String x:Key="String_ConfirmAPIImport">确认 API 导入</s:String>
+    <!-- ViewInstantTesting -->
+    <s:String x:Key="String_Available_APIs">可用 API</s:String>
+    <s:String x:Key="String_SelectedServiceU">所选服务</s:String>
+    <s:String x:Key="String_ViewModeColon">查看模式：</s:String>
+    <s:String x:Key="String_HybirdDescription">海鸟请求：在海鸟模式下显示请求。响应将在弹出模式下显示。</s:String>
+    <s:String x:Key="String_Hybrid">海鸟</s:String>
+    <s:String x:Key="String_SideBySideDescription">并排：以专家模式显示请求，在右侧显示响应</s:String>
+    <s:String x:Key="String_SideBySide">并排</s:String>
+    <s:String x:Key="String_AssistedDescription">辅助并排：以辅助模式显示请求，并在右侧响应</s:String>
+    <s:String x:Key="String_Assisted">辅助</s:String>
+    <s:String x:Key="String_AddExtension">添加扩展</s:String>
+    <s:String x:Key="String_AddApiDescription">从定义中导入 API。</s:String>
+    <s:String x:Key="String_AddApi">添加 API</s:String>
+    <s:String x:Key="String_AddExtensionDescription">添加 exs 扩展。</s:String>
+    <s:String x:Key="String_RemoveThisService">删除此服务</s:String>
+    <s:String x:Key="String_ShowServiceDefinition">显示服务定义</s:String>
+    <s:String x:Key="String_NoHistoryFound">未找到此服务的历史记录。</s:String>
+    <s:String x:Key="String_NewServiceAdded">已添加新服务。</s:String>
+    <!-- ReportViewer -->
+    <s:String x:Key="String_ReportViewerTitle">蜂鸟报告查看器</s:String>
+    <s:String x:Key="String_About">关于</s:String>
+    <s:String x:Key="String_OpenReportDescription1">拖放报表文件在这里查看</s:String>
+    <s:String x:Key="String_OpenReportDescription2">或单击以下按钮</s:String>
+    <s:String x:Key="String_OpenReport">打开报表</s:String>
+    <s:String x:Key="String_FileNotRecognized">无法识别的文件</s:String>
+    <s:String x:Key="String_FileNotRecognizedDetail">报表文件{0}有效的功能或性能测试报告。</s:String>
+    <s:String x:Key="String_ErrorLoadingReport">加载报表文件时发生错误。错误消息是： {0}</s:String>
+    <s:String x:Key="String_OpenAutomatedReport">打开自动测试报告</s:String>
     <s:String x:Key="String_ServiceSelector">服务选择器</s:String>
     <s:String x:Key="String_AvailableServices">可提供的服务</s:String>
     <s:String x:Key="String_Description">描述</s:String>
@@ -703,6 +753,10 @@
     <s:String x:Key="String_LawDisclaimer">本软件按 "原样" 提供, 作者不承担有关本软件的所有保证, 包括适销性和适用性的所有默示保证。在任何情况下, 提交人不得对因使用、数据或利润损失而产生的任何特殊、直接、间接或后果性损害或任何损害承担责任, 无论是在合同、疏忽或其他侵权行为中产生的或在与本软件的使用或性能的连接。</s:String>
     <s:String x:Key="String_Components">组件</s:String>
     <s:String x:Key="String_AddinExtension">外接程序和扩展</s:String>
+    <s:String x:Key="String_OpenSourceLicences">开源许可证</s:String>
+    <s:String x:Key="String_OptnSourceLicencesDescription">该软件部分基于一些开源原型。您可以在这里查看某些开源组件的许可证。</s:String>
+    <s:String x:Key="String CommunityEdition">社区版</s:String>
+    <s:String x:Key="String_ProfessionalEdition">专业版</s:String>
     <!-- ViewStatistics.xaml -->
     <s:String x:Key="String_TodaysActivities">今天的活动</s:String>
     <s:String x:Key="String_ResponsesSimulated">模拟回复</s:String>

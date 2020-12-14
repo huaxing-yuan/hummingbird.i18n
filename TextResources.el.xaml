@@ -9,6 +9,8 @@
     <s:String x:Key="String_Menu_Welcome">Καλώς όρισες</s:String>
     <s:String x:Key="String_Menu_Dashboard">ΤΑΜΠΛΌ</s:String>
     <s:String x:Key="String_Menu_Testing">δοκιμές</s:String>
+    <s:String x:Key="String_Menu_ManualTest">ΜΗ ΑΥΤΌΜΑΤΗ ΔΟΚΙΜΉ</s:String>
+    <s:String x:Key="String_Menu_ControlCenter">ΚΕΝΤΡΟ ΕΛΕΓΧΟΥ</s:String>
     <s:String x:Key="String_Menu_TestRunner">ΠΡΏΤΟ ΠΟΎΛΙ ΔΟΚΙΜΉΣ</s:String>
     <s:String x:Key="String_Menu_ServiceList">ΛΊΣΤΑ ΥΠΗΡΕΣΙΏΝ</s:String>
     <s:String x:Key="String_Menu_Automation">αυτοματισμού</s:String>
@@ -35,6 +37,7 @@
     <!-- BACK STAGE -->
     <s:String x:Key="String_General">Γενικά</s:String>
     <s:String x:Key="String_TestSettings">Έλεγχος ρυθμίσεων</s:String>
+    <s:String x:Key="String_SecuritySettings">Ρυθμίσεις ασφαλείας</s:String>
     <s:String x:Key="String_Extensions">Επεκτάσεις</s:String>
     <s:String x:Key="String_ProfileManagement">Διαχείριση προφίλ</s:String>
     <s:String x:Key="String_Certificate">Πιστοποιητικό</s:String>
@@ -448,6 +451,53 @@
     <s:String x:Key="String_AllMessages">Όλα τα μηνύματα</s:String>
     <s:String x:Key="String_ErrorMessagesOnly">Μόνο μηνύματα σφάλματος</s:String>
     <s:String x:Key="String_NoPayload">Χωρίς ωφέλιμο φορτίο</s:String>
+    <!-- WindowUpdateInformation.xaml -->
+    <s:String x:Key="String_PreRelease">Προέκδοση</s:String>
+    <s:String x:Key="String_ReleaseDateColon">Ημερομηνία κυκλοφορίας: </s:String>
+    <s:String x:Key="String_GoToDownloadPage">Μετάβαση στη σελίδα λήψης</s:String>
+    <s:String x:Key="String_CloseU">Κλείσετε</s:String>
+    <s:String x:Key="String_UpdateAvailable">Μια ενημερωμένη έκδοση είναι διαθέσιμη</s:String>
+    <!-- WindowViewServiceDescription.xaml -->
+    <s:String x:Key="String_ViewServiceDescription">Προβολή περιγραφής υπηρεσίας</s:String>
+    <s:String x:Key="String_ViewServiceDescriptionDetails">Προβολή της περιγραφής υπηρεσίας της υπηρεσίας:</s:String>
+    <s:String x:Key="String_UnableToRetriveServiceDefinition">Δεν είναι δυνατή η επαναφορά του ορισμού υπηρεσίας από {0}. Θέλετε να το ανοίξετε σε ένα πρόγραμμα περιήγησης;</s:String>
+    <s:String x:Key="String_OpenBrowser">Άνοιγμα προγράμματος περιήγησης</s:String>
+    <s:String x:Key="String_ViewServiceDescriptionOfX">Προβολή της περιγραφής υπηρεσίας: {0}</s:String>
+    <!-- Window Add API -->
+    <s:String x:Key="String_AddAnApi">Προσθήκη API</s:String>
+    <s:String x:Key="String_AddApiDescription1">Μπορείτε να εισαγάγετε ένα υπάρχον API από την περιγραφή υπηρεσίας, όπως soap και openapi definition. Το εισαγόμενο API θα αποθηκευτεί στον τοπικό χώρο εργασίας σας.</s:String>
+    <s:String x:Key="String_AddApiDescription2">Για να κάνετε κοινή χρήση API με τους συνεργάτες σας, χρησιμοποιείτε τη Σχεδίαση επέκτασης για να εισαγάγετε όλες τις υπηρεσίες που χρησιμοποιούνται στο projet.</s:String>
+    <s:String x:Key="String_LearnMoreWorkspace">Μάθετε περισσότερα σχετικά με τη Σχεδίαση χώρου εργασίας και επεκτάσεων</s:String>
+    <s:String x:Key="String_DefineNewApplication">ορισμός νέας εφαρμογής</s:String>
+    <s:String x:Key="String_ConfirmAPIImport">Επιβεβαίωση εισαγωγής API</s:String>
+    <!-- ViewInstantTesting -->
+    <s:String x:Key="String_Available_APIs">ΔΙΑΘΕΣΙΜΑ API</s:String>
+    <s:String x:Key="String_SelectedServiceU">ΕΠΙΛΕΓΜΈΝΗ ΥΠΗΡΕΣΊΑ</s:String>
+    <s:String x:Key="String_ViewModeColon">Λειτουργία προβολής:</s:String>
+    <s:String x:Key="String_HybirdDescription">Αίτηση Hybird: Εμφανίζει το αίτημα σε λειτουργία hybird. Η απόκριση θα εμφανίζεται σε αναδυόμενη λειτουργία.</s:String>
+    <s:String x:Key="String_Hybrid">Χάιμπερντ</s:String>
+    <s:String x:Key="String_SideBySideDescription">Side-by-side: Εμφανίζει την αίτηση σε λειτουργία ειδικού και την απόκριση στη δεξιά πλευρά</s:String>
+    <s:String x:Key="String_SideBySide">Σε παράθεση</s:String>
+    <s:String x:Key="String_AssistedDescription">Υποβοηθούμενη πλευρά προς μία πλευρά: Εμφάνιση της αίτησης σε κατάσταση υποβοήθησης και απάντηση στη δεξιά πλευρά</s:String>
+    <s:String x:Key="String_Assisted">Επικουρείται</s:String>
+    <s:String x:Key="String_AddExtension">Προσθήκη επέκτασης</s:String>
+    <s:String x:Key="String_AddApiDescription">Εισαγωγή API από ορισμούς του.</s:String>
+    <s:String x:Key="String_AddApi">Προσθήκη API</s:String>
+    <s:String x:Key="String_AddExtensionDescription">Προσθέστε μια επέκταση exsiting.</s:String>
+    <s:String x:Key="String_RemoveThisService">Κατάργηση αυτής της υπηρεσίας</s:String>
+    <s:String x:Key="String_ShowServiceDefinition">Εμφάνιση ορισμού υπηρεσίας</s:String>
+    <s:String x:Key="String_NoHistoryFound">Δεν βρέθηκε ιστορικό για αυτήν την υπηρεσία.</s:String>
+    <s:String x:Key="String_NewServiceAdded">προστέθηκε νέα υπηρεσία.</s:String>
+    <!-- ReportViewer -->
+    <s:String x:Key="String_ReportViewerTitle">Πρόγραμμα προβολής αναφορών κολιμπρί</s:String>
+    <s:String x:Key="String_About">Για</s:String>
+    <s:String x:Key="String_OpenReportDescription1">Μεταφορά και απόθεση ενός αρχείου αναφοράς εδώ για προβολή</s:String>
+    <s:String x:Key="String_OpenReportDescription2">ή κάντε κλικ στο παρακάτω κουμπί</s:String>
+    <s:String x:Key="String_OpenReport">Άνοιγμα αναφοράς</s:String>
+    <s:String x:Key="String_FileNotRecognized">Το αρχείο δεν αναγνωρίζεται</s:String>
+    <s:String x:Key="String_FileNotRecognizedDetail">Το αρχείο αναφοράς {0} δεν είναι έγκυρη λειτουργική έκθεση ή δοκιμαστική αναφορά επιδόσεων.</s:String>
+    <s:String x:Key="String_ErrorLoadingReport">Παρουσιάστηκε σφάλμα κατά τη φόρτωση του αρχείου αναφοράς. Το μήνυμα λάθους είναι: {0}</s:String>
+    <s:String x:Key="String_OpenAutomatedReport">Άνοιγμα αυτοματοποιημένης δοκιμαστικής αναφοράς</s:String>
     <s:String x:Key="String_ServiceSelector">Επιλογέας υπηρεσιών</s:String>
     <s:String x:Key="String_AvailableServices">Διαθέσιμες υπηρεσίες</s:String>
     <s:String x:Key="String_Description">Περιγραφή</s:String>
@@ -703,6 +753,10 @@
     <s:String x:Key="String_LawDisclaimer">Το λογισμικό παρέχεται «όπως είναι» και ο συγγραφέας αρνείται όλες τις εγγυήσεις όσον αφορά το λογισμικό, συμπεριλαμβανομένων όλων των σιωπηρών εγγυήσεων εμπορευσιμότητας και καταλληλότητας. Σε καμία περίπτωση ο συγγραφέας ευθύνεται για οποιοδήποτε ειδικό, άμεση, έμμεση ή αποθετική ΖΗΜΙΕΣ ή ΟΠΟΙΕΣΔΗΠΟΤΕ ΖΗΜΙΕΣ ΑΠΟ ΑΠΩΛΕΙΑ ΧΡΗΣΗΣ, ΔΕΔΟΜΕΝΩΝ ή ΚΕΡΔΩΝ, ΕΙΤΕ ΒΑΣΕΙ ΚΑΠΟΙΑΣ της σύμβασης, αμέλειας ή άλλης ζημιογόνου ενέργειας, που προκύπτουν από ή σε σύνδεση με τη χρήση ή την απόδοση αυτού του λογισμικού.</s:String>
     <s:String x:Key="String_Components">Συστατικά</s:String>
     <s:String x:Key="String_AddinExtension">Προσθέτου &amp; επεκτάσεις</s:String>
+    <s:String x:Key="String_OpenSourceLicences">Άδειες χρήσης ανοιχτού κώδικα</s:String>
+    <s:String x:Key="String_OptnSourceLicencesDescription">Το λογισμικό βασίζεται εν μέρει σε ορισμένες projets Ανοικτού Κώδικα. Μπορείτε να δείτε την άδεια ορισμένων στοιχείων ανοιχτού κώδικα εδώ.</s:String>
+    <s:String x:Key="String CommunityEdition">Κοινοτική έκδοση</s:String>
+    <s:String x:Key="String_ProfessionalEdition">Επαγγελματική έκδοση</s:String>
     <!-- ViewStatistics.xaml -->
     <s:String x:Key="String_TodaysActivities">Η σημερινή δραστηριότητα</s:String>
     <s:String x:Key="String_ResponsesSimulated">Απαντήσεις προσομοίωση</s:String>

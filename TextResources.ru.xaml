@@ -9,6 +9,8 @@
     <s:String x:Key="String_Menu_Welcome">ДОБРО ПОЖАЛОВАТЬ</s:String>
     <s:String x:Key="String_Menu_Dashboard">ПАНЕЛЬ МОНИТОРИНГА</s:String>
     <s:String x:Key="String_Menu_Testing">Тестирование</s:String>
+    <s:String x:Key="String_Menu_ManualTest">РУЧНОЙ ТЕСТ</s:String>
+    <s:String x:Key="String_Menu_ControlCenter">ЦЕНТР УПРАВЛЕНИЯ</s:String>
     <s:String x:Key="String_Menu_TestRunner">ТЕСТОВ</s:String>
     <s:String x:Key="String_Menu_ServiceList">СПИСОК УСЛУГ</s:String>
     <s:String x:Key="String_Menu_Automation">Автоматизация</s:String>
@@ -35,6 +37,7 @@
     <!-- BACK STAGE -->
     <s:String x:Key="String_General">Общие</s:String>
     <s:String x:Key="String_TestSettings">Параметры тестирования</s:String>
+    <s:String x:Key="String_SecuritySettings">Настройки безопасности</s:String>
     <s:String x:Key="String_Extensions">Расширения</s:String>
     <s:String x:Key="String_ProfileManagement">Управление профилем</s:String>
     <s:String x:Key="String_Certificate">Сертификат</s:String>
@@ -448,6 +451,53 @@
     <s:String x:Key="String_AllMessages">Все сообщения</s:String>
     <s:String x:Key="String_ErrorMessagesOnly">Сообщения об ошибках</s:String>
     <s:String x:Key="String_NoPayload">Нет полезной нагрузки</s:String>
+    <!-- WindowUpdateInformation.xaml -->
+    <s:String x:Key="String_PreRelease">Предварительный релиз</s:String>
+    <s:String x:Key="String_ReleaseDateColon">Дата выпуска: </s:String>
+    <s:String x:Key="String_GoToDownloadPage">Перейти к загрузке страницы</s:String>
+    <s:String x:Key="String_CloseU">Закрыть</s:String>
+    <s:String x:Key="String_UpdateAvailable">Доступно обновление</s:String>
+    <!-- WindowViewServiceDescription.xaml -->
+    <s:String x:Key="String_ViewServiceDescription">Описание службы просмотра</s:String>
+    <s:String x:Key="String_ViewServiceDescriptionDetails">Посмотреть описание сервиса:</s:String>
+    <s:String x:Key="String_UnableToRetriveServiceDefinition">Невозможно повторно определить обслуживание от {0}. Хотите открыть его в браузере?</s:String>
+    <s:String x:Key="String_OpenBrowser">Открытый браузер</s:String>
+    <s:String x:Key="String_ViewServiceDescriptionOfX">Посмотреть описание сервиса: {0}</s:String>
+    <!-- Window Add API -->
+    <s:String x:Key="String_AddAnApi">Добавить API</s:String>
+    <s:String x:Key="String_AddApiDescription1">Можно импортировать существующий API из описания службы, например SOAP и OpenAPI Definition. Импортированный API будет храниться в локальном рабочем пространстве.</s:String>
+    <s:String x:Key="String_AddApiDescription2">Для того, чтобы поделиться API с товарищами по команде, вы можете использовать Extension Designer для импорта всех услуг, используемых в projet.</s:String>
+    <s:String x:Key="String_LearnMoreWorkspace">Узнайте больше о конструкторе рабочего пространства и расширения</s:String>
+    <s:String x:Key="String_DefineNewApplication">определить новое приложение</s:String>
+    <s:String x:Key="String_ConfirmAPIImport">Подтверждение импорта API</s:String>
+    <!-- ViewInstantTesting -->
+    <s:String x:Key="String_Available_APIs">AVAILABLE API</s:String>
+    <s:String x:Key="String_SelectedServiceU">ВЫБРАННАЯ УСЛУГА</s:String>
+    <s:String x:Key="String_ViewModeColon">Режим просмотра:</s:String>
+    <s:String x:Key="String_HybirdDescription">Запрос Hybird: показывает запрос в режиме hybird. Ответ будет показан в режиме всплывающего окна.</s:String>
+    <s:String x:Key="String_Hybrid">Хайберд</s:String>
+    <s:String x:Key="String_SideBySideDescription">Бок о бок: показывает запрос в экспертном режиме, и ответ на правой стороне</s:String>
+    <s:String x:Key="String_SideBySide">Бок о бок</s:String>
+    <s:String x:Key="String_AssistedDescription">Помощь бок о бок: Показать запрос в вспомогательном режиме, и reponse на правой стороне</s:String>
+    <s:String x:Key="String_Assisted">Помощь</s:String>
+    <s:String x:Key="String_AddExtension">Добавить расширение</s:String>
+    <s:String x:Key="String_AddApiDescription">Импорт API из его определений.</s:String>
+    <s:String x:Key="String_AddApi">Добавить API</s:String>
+    <s:String x:Key="String_AddExtensionDescription">Добавьте расширение exsiting.</s:String>
+    <s:String x:Key="String_RemoveThisService">Удалить эту услугу</s:String>
+    <s:String x:Key="String_ShowServiceDefinition">Показать определение сервиса</s:String>
+    <s:String x:Key="String_NoHistoryFound">История этой услуги не найдена.</s:String>
+    <s:String x:Key="String_NewServiceAdded">добавлена новая услуга.</s:String>
+    <!-- ReportViewer -->
+    <s:String x:Key="String_ReportViewerTitle">Колибри Доклад Зритель</s:String>
+    <s:String x:Key="String_About">О</s:String>
+    <s:String x:Key="String_OpenReportDescription1">Перетащите и уроните файл отчета здесь для просмотра</s:String>
+    <s:String x:Key="String_OpenReportDescription2">или нажмите на следующую кнопку</s:String>
+    <s:String x:Key="String_OpenReport">Открыть отчет</s:String>
+    <s:String x:Key="String_FileNotRecognized">Файл не распознается</s:String>
+    <s:String x:Key="String_FileNotRecognizedDetail">Файл отчета {0} является действительным функциональным или отчетом о тестах производительности.</s:String>
+    <s:String x:Key="String_ErrorLoadingReport">Ошибка произошла при загрузке файла отчета. Сообщение об ошибке: {0}</s:String>
+    <s:String x:Key="String_OpenAutomatedReport">Открытый отчет об автоматизированных тестах</s:String>
     <s:String x:Key="String_ServiceSelector">Селектор обслуживания</s:String>
     <s:String x:Key="String_AvailableServices">Доступные услуги</s:String>
     <s:String x:Key="String_Description">Описание</s:String>
@@ -703,6 +753,10 @@
     <s:String x:Key="String_LawDisclaimer">Программное обеспечение предоставляется «как есть» и автор отказывается от всех гарантий в отношении этого программного обеспечения, включая все подразумеваемые гарантии товарности и пригодности. Ни в коем случае автор несет ответственность за любые специальные, прямые, косвенные или косвенные убытки или убытки, ущерб, связанный с потерей использования, данных или прибылей в результате договора, халатности и других деликтные действия, вытекающие из или в подключение с использованием или производительность этого программного обеспечения.</s:String>
     <s:String x:Key="String_Components">Компоненты</s:String>
     <s:String x:Key="String_AddinExtension">Расширения &amp;</s:String>
+    <s:String x:Key="String_OpenSourceLicences">Лицензии с открытым исходным кодом</s:String>
+    <s:String x:Key="String_OptnSourceLicencesDescription">Программное обеспечение частично основано на некоторых projets с открытым исходным кодом. Лицензию некоторых компонентов с открытым исходным кодом можно посмотреть здесь.</s:String>
+    <s:String x:Key="String CommunityEdition">Сообщество Edition</s:String>
+    <s:String x:Key="String_ProfessionalEdition">Профессиональное издание</s:String>
     <!-- ViewStatistics.xaml -->
     <s:String x:Key="String_TodaysActivities">Текущая деятельность</s:String>
     <s:String x:Key="String_ResponsesSimulated">Смоделированные реакции</s:String>

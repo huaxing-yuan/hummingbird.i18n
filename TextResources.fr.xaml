@@ -10,6 +10,8 @@
     <s:String x:Key="String_Menu_Welcome">BIENVENUE</s:String>
     <s:String x:Key="String_Menu_Dashboard">TABLEAU DE BORD</s:String>
     <s:String x:Key="String_Menu_Testing">test</s:String>
+    <s:String x:Key="String_Menu_ManualTest">TEST MANUEL</s:String>
+    <s:String x:Key="String_Menu_ControlCenter">CENTRE DE CONTRÔLE</s:String>
     <s:String x:Key="String_Menu_TestRunner">TEST RUNNER</s:String>
     <s:String x:Key="String_Menu_ServiceList">LISTE DE SERVICE</s:String>
     <s:String x:Key="String_Menu_Automation">automatisation</s:String>
@@ -36,6 +38,7 @@
     <!-- BACK STAGE -->
     <s:String x:Key="String_General">Général</s:String>
     <s:String x:Key="String_TestSettings">Paramétrage de Test</s:String>
+    <s:String x:Key="String_SecuritySettings">Paramètres de sécurité</s:String>
     <s:String x:Key="String_Extensions">Extensions</s:String>
     <s:String x:Key="String_ProfileManagement">Gestionnaire de Profil</s:String>
     <s:String x:Key="String_Certificate">Certificat</s:String>
@@ -443,6 +446,10 @@ Voulez-vous redémarrer Hummingbird maintenant?]]></s:String>
     <s:String x:Key="String_LawDisclaimer">Le logiciel est fourni « tel quel » et l’auteur rejette toute garantie en ce qui concerne ce logiciel, y compris toutes les garanties implicites de qualité marchande et d’adaptation. En aucun cas l’auteur sera responsable des dommages spéciaux, directs, indirects ou consécutifs ou tout dommage que ce soit résultant de la perte d’utilisation, de données ou de profits, que ce soit dans une action de contrat, négligence ou autre action délictuelle, découlant d’ou en connexion avec l’utilisation ou la performance de ce logiciel.</s:String>
     <s:String x:Key="String_Components">Composants</s:String>
     <s:String x:Key="String_AddinExtension">Add-in &amp; Extensions</s:String>
+    <s:String x:Key="String_OpenSourceLicences">Licences open source</s:String>
+    <s:String x:Key="String_OptnSourceLicencesDescription">Le logiciel est partiellement basé sur certains projets Open Source. Vous pouvez voir la licence de certains composants open source ici.</s:String>
+    <s:String x:Key="String CommunityEdition">Édition communautaire</s:String>
+    <s:String x:Key="String_ProfessionalEdition">Édition professionnelle</s:String>
     <!-- ViewStatistics.xaml -->
     <s:String x:Key="String_TodaysActivities">Activité d’aujourd'hui</s:String>
     <s:String x:Key="String_ResponsesSimulated">Réponses simulées</s:String>
@@ -1116,6 +1123,53 @@ Veuillez réessayer ou appuyez sur ÉCHAP pour annuler.</s:String>
     <s:String x:Key="String_AllMessages">Tous les messages</s:String>
     <s:String x:Key="String_ErrorMessagesOnly">Messages d'erreur uniquement</s:String>
     <s:String x:Key="String_NoPayload">Pas de charge utile</s:String>
+    <!-- WindowUpdateInformation.xaml -->
+    <s:String x:Key="String_PreRelease">Pré-sortie</s:String>
+    <s:String x:Key="String_ReleaseDateColon">Date de sortie: </s:String>
+    <s:String x:Key="String_GoToDownloadPage">Aller à la page de téléchargement</s:String>
+    <s:String x:Key="String_CloseU">Proche</s:String>
+    <s:String x:Key="String_UpdateAvailable">Une mise à jour est disponible</s:String>
+    <!-- WindowViewServiceDescription.xaml -->
+    <s:String x:Key="String_ViewServiceDescription">Afficher la description du service</s:String>
+    <s:String x:Key="String_ViewServiceDescriptionDetails">Voir la description de service du service :</s:String>
+    <s:String x:Key="String_UnableToRetriveServiceDefinition">Impossible de retrive définition de service à partir {0}. Souhaitez-vous l’ouvrir dans un navigateur ?</s:String>
+    <s:String x:Key="String_OpenBrowser">Navigateur ouvert</s:String>
+    <s:String x:Key="String_ViewServiceDescriptionOfX">Voir la description du service de: {0}</s:String>
+    <!-- Window Add API -->
+    <s:String x:Key="String_AddAnApi">Ajouter une API</s:String>
+    <s:String x:Key="String_AddApiDescription1">Vous pouvez importer une API existante à partir de la description du service, telle que SOAP et OpenAPI Definition. L’API importée sera stockée dans votre espace de travail local.</s:String>
+    <s:String x:Key="String_AddApiDescription2">Afin de partager l’API avec vos coéquipiers, vous utilisez Extension Designer pour importer tous les services utilisés dans le projet.</s:String>
+    <s:String x:Key="String_LearnMoreWorkspace">En savoir plus sur Workspace and Extension Designer</s:String>
+    <s:String x:Key="String_DefineNewApplication">définir une nouvelle application</s:String>
+    <s:String x:Key="String_ConfirmAPIImport">Confirmer l’importation d’API</s:String>
+    <!-- ViewInstantTesting -->
+    <s:String x:Key="String_Available_APIs">API DISPONIBLES</s:String>
+    <s:String x:Key="String_SelectedServiceU">SERVICE SÉLECTIONNÉ</s:String>
+    <s:String x:Key="String_ViewModeColon">Afficher le mode:</s:String>
+    <s:String x:Key="String_HybirdDescription">Demande Hybird: Affiche la demande en mode hybird. La réponse sera affichée en mode pop-up.</s:String>
+    <s:String x:Key="String_Hybrid">Hybird ( Hybird )</s:String>
+    <s:String x:Key="String_SideBySideDescription">Côte à côte : affiche la demande en mode expert et la réponse sur le côté droit</s:String>
+    <s:String x:Key="String_SideBySide">Côte à côte</s:String>
+    <s:String x:Key="String_AssistedDescription">Assisté côte à côte : affichez la demande en mode assisté et reponse sur le côté droit</s:String>
+    <s:String x:Key="String_Assisted">Assisté</s:String>
+    <s:String x:Key="String_AddExtension">Ajouter l’extension</s:String>
+    <s:String x:Key="String_AddApiDescription">Importez l’API à partir de ses définitions.</s:String>
+    <s:String x:Key="String_AddApi">Ajouter l’API</s:String>
+    <s:String x:Key="String_AddExtensionDescription">Ajoutez une extension exsiting.</s:String>
+    <s:String x:Key="String_RemoveThisService">Supprimer ce service</s:String>
+    <s:String x:Key="String_ShowServiceDefinition">Afficher la définition du service</s:String>
+    <s:String x:Key="String_NoHistoryFound">Aucun historique trouvé pour ce service.</s:String>
+    <s:String x:Key="String_NewServiceAdded">nouveau service a été ajouté.</s:String>
+    <!-- ReportViewer -->
+    <s:String x:Key="String_ReportViewerTitle">Visionneuse de rapport de colibri</s:String>
+    <s:String x:Key="String_About">Sur</s:String>
+    <s:String x:Key="String_OpenReportDescription1">Faites glisser et déposer un fichier de rapport ici pour afficher</s:String>
+    <s:String x:Key="String_OpenReportDescription2">ou cliquez sur le bouton suivant</s:String>
+    <s:String x:Key="String_OpenReport">Ouvrir un rapport</s:String>
+    <s:String x:Key="String_FileNotRecognized">Fichier non reconnu</s:String>
+    <s:String x:Key="String_FileNotRecognizedDetail">Le fichier de rapport {0}'est pas un rapport de test fonctionnel ou de performance valide.</s:String>
+    <s:String x:Key="String_ErrorLoadingReport">Une erreur s’est produite lors du chargement du fichier de rapport. Message d’erreur est: {0}</s:String>
+    <s:String x:Key="String_OpenAutomatedReport">Rapport de test automatisé ouvert</s:String>
     <s:String x:Key="String_ServiceSelector">Sélecteur de fonction</s:String>
     <s:String x:Key="String_AvailableServices">Services disponibles</s:String>
     <s:String x:Key="String_Description">Description</s:String>

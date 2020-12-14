@@ -10,6 +10,8 @@
     <s:String x:Key="String_Menu_Welcome">HERZLICH WILLKOMMEN</s:String>
     <s:String x:Key="String_Menu_Dashboard">DASHBOARD</s:String>
     <s:String x:Key="String_Menu_Testing">testen</s:String>
+    <s:String x:Key="String_Menu_ManualTest">MANUELLE PRÜFUNG</s:String>
+    <s:String x:Key="String_Menu_ControlCenter">CONTROL CENTER</s:String>
     <s:String x:Key="String_Menu_TestRunner">TEST-RUNNER</s:String>
     <s:String x:Key="String_Menu_ServiceList">SERVICE-LISTE</s:String>
     <s:String x:Key="String_Menu_Automation">automatisierung</s:String>
@@ -36,6 +38,7 @@
     <!-- BACK STAGE -->
     <s:String x:Key="String_General">Allgemeine</s:String>
     <s:String x:Key="String_TestSettings">Testeinstellungen</s:String>
+    <s:String x:Key="String_SecuritySettings">Sicherheitseinstellungen</s:String>
     <s:String x:Key="String_Extensions">Erweiterungen</s:String>
     <s:String x:Key="String_ProfileManagement">Profilverwaltung</s:String>
     <s:String x:Key="String_Certificate">Zertifikat</s:String>
@@ -450,6 +453,53 @@ Bitte versuchen Sie erneut, oder drücken Sie ESC, um abzubrechen.</s:String>
     <s:String x:Key="String_AllMessages">Alle Nachrichten</s:String>
     <s:String x:Key="String_ErrorMessagesOnly">Nur Fehlermeldungen</s:String>
     <s:String x:Key="String_NoPayload">Keine Nutzlast</s:String>
+    <!-- WindowUpdateInformation.xaml -->
+    <s:String x:Key="String_PreRelease">Vorabversion</s:String>
+    <s:String x:Key="String_ReleaseDateColon">Veröffentlichungsdatum: </s:String>
+    <s:String x:Key="String_GoToDownloadPage">Zur Download-Seite</s:String>
+    <s:String x:Key="String_CloseU">Schließen</s:String>
+    <s:String x:Key="String_UpdateAvailable">Ein Update ist verfügbar</s:String>
+    <!-- WindowViewServiceDescription.xaml -->
+    <s:String x:Key="String_ViewServiceDescription">Servicebeschreibung anzeigen</s:String>
+    <s:String x:Key="String_ViewServiceDescriptionDetails">Hier wird die Servicebeschreibung des Dienstes angezeigt:</s:String>
+    <s:String x:Key="String_UnableToRetriveServiceDefinition">Die Dienstdefinition kann nicht aus {0}. Möchten Sie es in einem Browser öffnen?</s:String>
+    <s:String x:Key="String_OpenBrowser">Öffnen sie Browser</s:String>
+    <s:String x:Key="String_ViewServiceDescriptionOfX">Hier wird die Servicebeschreibung von: {0}</s:String>
+    <!-- Window Add API -->
+    <s:String x:Key="String_AddAnApi">Hinzufügen einer API</s:String>
+    <s:String x:Key="String_AddApiDescription1">Sie können eine vorhandene API aus der Dienstbeschreibung importieren, z. B. SOAP und OpenAPI Definition. Die importierte API wird in Ihrem lokalen Arbeitsbereich gespeichert.</s:String>
+    <s:String x:Key="String_AddApiDescription2">Um die API für Teamkollegen freizugeben, verwenden Sie den Erweiterungs-Designer, um alle im Projekt verwendeten Dienste zu importieren.</s:String>
+    <s:String x:Key="String_LearnMoreWorkspace">Weitere Informationen zu Workspace und Extension Designer</s:String>
+    <s:String x:Key="String_DefineNewApplication">Definieren einer neuen Anwendung</s:String>
+    <s:String x:Key="String_ConfirmAPIImport">API-Import bestätigen</s:String>
+    <!-- ViewInstantTesting -->
+    <s:String x:Key="String_Available_APIs">VERFÜGBARE APIs</s:String>
+    <s:String x:Key="String_SelectedServiceU">AUSGEWÄHLTER SERVICE</s:String>
+    <s:String x:Key="String_ViewModeColon">Ansichtsmodus:</s:String>
+    <s:String x:Key="String_HybirdDescription">Hybird Request: Zeigt die Anforderung im Hybird-Modus an. Die Antwort wird im Popup-Modus angezeigt.</s:String>
+    <s:String x:Key="String_Hybrid">Hybird</s:String>
+    <s:String x:Key="String_SideBySideDescription">Seite an Seite: Zeigt die Anfrage im Expertenmodus und die Antwort auf der rechten Seite an</s:String>
+    <s:String x:Key="String_SideBySide">Side-by-Side</s:String>
+    <s:String x:Key="String_AssistedDescription">Assisted Side-by-Side: Zeigen Sie die Anfrage im assistierten Modus an, und reonse auf der rechten Seite</s:String>
+    <s:String x:Key="String_Assisted">Unterstützt</s:String>
+    <s:String x:Key="String_AddExtension">Add Extension</s:String>
+    <s:String x:Key="String_AddApiDescription">Importieren Sie die API aus ihren Definitionen.</s:String>
+    <s:String x:Key="String_AddApi">API hinzufügen</s:String>
+    <s:String x:Key="String_AddExtensionDescription">Fügen Sie eine exsitierende Erweiterung hinzu.</s:String>
+    <s:String x:Key="String_RemoveThisService">Entfernen dieses Dienstes</s:String>
+    <s:String x:Key="String_ShowServiceDefinition">Servicedefinition anzeigen</s:String>
+    <s:String x:Key="String_NoHistoryFound">Für diesen Dienst wurde keine Historie gefunden.</s:String>
+    <s:String x:Key="String_NewServiceAdded">neuer Dienst wurde hinzugefügt.</s:String>
+    <!-- ReportViewer -->
+    <s:String x:Key="String_ReportViewerTitle">Hummingbird Report Viewer</s:String>
+    <s:String x:Key="String_About">Über</s:String>
+    <s:String x:Key="String_OpenReportDescription1">Ziehen und Ablegen einer Berichtsdatei hier, um sie anzuzeigen</s:String>
+    <s:String x:Key="String_OpenReportDescription2">oder klicken Sie auf die folgende Schaltfläche</s:String>
+    <s:String x:Key="String_OpenReport">Öffnen eines Berichts</s:String>
+    <s:String x:Key="String_FileNotRecognized">Datei nicht erkannt</s:String>
+    <s:String x:Key="String_FileNotRecognizedDetail">Die Berichtsdatei {0} ist kein gültiger Funktions- oder Leistungstestbericht.</s:String>
+    <s:String x:Key="String_ErrorLoadingReport">Beim Laden der Berichtsdatei ist ein Fehler aufgetreten. Fehlermeldung lautet: {0}</s:String>
+    <s:String x:Key="String_OpenAutomatedReport">Offener automatisierter Testbericht</s:String>
     <s:String x:Key="String_ServiceSelector">Service-Selektor</s:String>
     <s:String x:Key="String_AvailableServices">Verfügbare Dienste</s:String>
     <s:String x:Key="String_Description">Beschreibung</s:String>
@@ -705,6 +755,10 @@ Möchten Sie Hummingbird jetzt neu starten?]]></s:String>
     <s:String x:Key="String_LawDisclaimer">Die Software wird "wie besehen" bereitgestellt und der Autor lehnt jegliche Gewährleistung in Bezug auf diese Software, einschließlich aller KONKLUDENTE GARANTIEN der Marktgängigkeit und Fitness. In keinem Fall haftet der Autor für Schäden, die spezielle, direkten, indirekten oder Folgeschäden oder Schäden auch immer die aus dem Verlust der Verwendung, Daten oder Gewinne, ob in einer Aktion der Vertrag, Fahrlässigkeit oder anderen deliktische Handlung aus oder in im Zusammenhang mit der Nutzung oder Leistung der Software.</s:String>
     <s:String x:Key="String_Components">Komponenten</s:String>
     <s:String x:Key="String_AddinExtension">Add-in- &amp; Erweiterungen</s:String>
+    <s:String x:Key="String_OpenSourceLicences">Open-Source-Lizenzen</s:String>
+    <s:String x:Key="String_OptnSourceLicencesDescription">Die Software basiert teilweise auf einigen Open Source-Produkten. Sie können die Lizenz einiger Open-Source-Komponenten hier anzeigen.</s:String>
+    <s:String x:Key="String CommunityEdition">Community Edition</s:String>
+    <s:String x:Key="String_ProfessionalEdition">Professional Edition</s:String>
     <!-- ViewStatistics.xaml -->
     <s:String x:Key="String_TodaysActivities">Heutige Tätigkeit</s:String>
     <s:String x:Key="String_ResponsesSimulated">Antworten simuliert</s:String>
